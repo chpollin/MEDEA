@@ -2,5 +2,6 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}
 \contentsline {subsection}{\numberline {1.1}Aufbau der Arbeit}{1}
 \contentsline {subsection}{\numberline {1.2}Literatur\IeC {\"u}berblick}{1}
-\contentsline {section}{\numberline {2}Anhang}{2}
-\contentsline {subsection}{\numberline {2.1}Onlineressourcen}{3}
+\contentsline {section}{\numberline {2}Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{1}
+\contentsline {section}{\numberline {3}Anhang}{2}
+\contentsline {subsection}{\numberline {3.1}Onlineressourcen}{3}

@@ -78,11 +78,12 @@
 
 
 \author{Christopher Pollin}
-\title{MEDEA - Modellierung semantisch angereicherter digitaler Edition von hisotrischen Rechnungsbüchern}
+\title{MEDEA - Modellierung semantisch angereicherter digitaler Edition von historischen Rechnungsbüchern}
 \date{\today{}, Graz}
 \begin{document}
 \pagenumbering{gobble}
 
+\maketitle
 \tableofcontents
 
 \newpage
@@ -97,6 +98,23 @@
 \subsection{Literaturüberblick}
 \label{subsec:Literaturueberblick}
 
+\section{Digitale Edition von historischen Rechnungsbücher}
+\label{subsec:DigEdHiRe}
+
+TOMASEK und BAUMAN beschreiben ein Modell eines interpretativen Markups, um Beziehungen zwischen Individueen, Geld- Güter- und Dienstleistungstransfer, die Doppeleintrag-Buchhaltung umfassenm auszuzeichnen. Die Auszeichnung basiert auf den ausdrucksstarken Richtlinien der TEI. \footcite[Vgl.][S.1-2, \protect\url{http://journals.openedition.org/jtei/895}, 08.03.2018]{tomasek2013encoding}
+
+Rechungsbücher als Primärquelle haben eine lange Tradition, Dopplebuchung, bis Excel
+
+Rechnungsbücher wie, die der Stadt basel sind tabellarisch angelegt, doch gibt es auch Quellen, wie etwa eine handgeschrieben Quittung für die Buchung eines Zimmers, in der die Semantik des Transfers im Text liegt. TEI eignet sich, so der Zugang von TOMASEK und BAUMAN, um solche Quellen mittels TEI auszuzeichnen.
+Rechnungsbücher sind nicht unbedingt tabellarisch. [S.3-4]
+
+Einfache Transkription im Sinne von Text und Zahlen in tabellarischer Form.
+
+
+
+
+Single-Entry-System - Double-Entry
+Doppelte Buchhaltung, \url{http://flegesunde.com/category/miscellanea/die-geschichte-der-doppelten-buchfuhrung.php}
 
 \newpage
 \section{Anhang}
@@ -165,15 +183,6 @@
 
 \end{singlespace}
 
-\newpage
-\subsection{Projektspezifische Onlineressourcen}
-\label{subsec:ProjektOnlineressourcen}
-
-\begin{singlespace}
-
-\textbf{test}, \\ \url{http://test.at}, 16.12.2016.
-
-\end{singlespace}
  
 \newpage
 \bibliographystyle{jurabib}
