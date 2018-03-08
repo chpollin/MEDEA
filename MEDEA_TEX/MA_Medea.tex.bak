@@ -1,0 +1,103 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage[english]{babel}
+\usepackage{graphicx} 
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage[bf]{caption}
+\usepackage[a4paper]{geometry}
+\usepackage{float}
+\usepackage{acronym}
+
+\usepackage{jurabib}
+
+\jurabibsetup{
+  	commabeforerest,
+	ibidem=strict,
+	citefull=first,
+	see,
+	titleformat={colonsep,all},
+}
+
+\renewcommand*{\jbauthorfont}{\textsc}
+\renewcommand*{\biblnfont}{\scshape\textbf}
+\renewcommand*{\bibfnfont}{\normalfont\textbf}
+\AddTo\bibsgerman{%
+	\renewcommand*{\ibidemname}{ebd.}
+	\renewcommand*{\ibidemmidname}{ebd.}
+}
+
+\usepackage[bottom,hang]{footmisc}
+\setlength{\footnotemargin}{0pt}
+
+\geometry{a4paper,left=25mm,right=25mm, top=25mm, bottom=25mm}
+
+% Für source codes etc.
+\usepackage{listings}
+
+\usepackage{color}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstset{
+  numbers=left,   
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
+
+\lstdefinelanguage{XML}
+{
+  basicstyle=\footnotesize\ttfamily,
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version, type, about, resource, lang}
+  % list your attributes here
+}
+
+\geometry{a4paper,left=25mm,right=25mm, top=25mm, bottom=25mm}
+\onehalfspacing
+\renewcommand{\familydefault}{ptm}
+
+\usepackage[bottom,hang]{footmisc}
+\setlength{\footnotemargin}{0pt}
+
+\setlength{\parindent}{0pt}
+
+
+\author{Christopher Pollin}
+\title{MEDEA - Modellierung semantisch angereicherter digitaler Editionen von historischen Rechnungsbüchern }
+\date{\today{}, Graz}
+\begin{document}
+\pagenumbering{gobble}
+\maketitle
+
+
+\newpage
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+
+\section{Einführung}
+\label{sec:Introduction}
+test
+\footcite[Vgl.][S.]{tomasek2013encoding}
+
+\newpage
+
+
+
+
+\end{document}
+

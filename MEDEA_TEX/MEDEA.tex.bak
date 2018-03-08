@@ -1,0 +1,185 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage[german]{babel}
+\usepackage{graphicx} 
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage[bf]{caption}
+\usepackage[a4paper]{geometry}
+\usepackage{float}
+\usepackage{acronym}
+\usepackage{pdfpages}
+
+
+\usepackage{jurabib}
+
+\jurabibsetup{
+	commabeforerest,
+	ibidem=strict,
+	citefull=first,
+	see,
+	titleformat={colonsep,all},
+}
+
+\renewcommand*{\jbauthorfont}{\textsc}
+\renewcommand*{\biblnfont}{\scshape\textbf}
+\renewcommand*{\bibfnfont}{\normalfont\textbf}
+\AddTo\bibsgerman{%
+	\renewcommand*{\ibidemname}{ebd.}
+	\renewcommand*{\ibidemmidname}{ebd.}
+}
+
+\usepackage[bottom,hang]{footmisc}
+\setlength{\footnotemargin}{0pt}
+
+\geometry{a4paper,left=25mm,right=25mm, top=25mm, bottom=25mm}
+
+% Für source codes etc.
+\usepackage{listings}
+
+\usepackage{color}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstset{
+  numbers=left,   
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
+
+\lstdefinelanguage{XML}
+{
+  basicstyle=\footnotesize\ttfamily,
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version, type, about, resource, lang}
+  % list your attributes here
+}
+
+\geometry{a4paper,left=25mm,right=25mm, top=25mm, bottom=25mm}
+\onehalfspacing
+\renewcommand{\familydefault}{ptm}
+
+\usepackage[bottom,hang]{footmisc}
+\setlength{\footnotemargin}{0pt}
+
+\setlength{\parindent}{0pt}
+
+
+\author{Christopher Pollin}
+\title{MEDEA - Modellierung semantisch angereicherter digitaler Edition von hisotrischen Rechnungsbüchern}
+\date{\today{}, Graz}
+\begin{document}
+\pagenumbering{gobble}
+
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+
+\section{Einleitung}
+\label{sec:Einleitung}
+
+\subsection{Aufbau der Arbeit}
+\label{subsec:Aufbau}
+
+\subsection{Literaturüberblick}
+\label{subsec:Literaturueberblick}
+
+
+\newpage
+\section{Anhang}
+\label{sec:Anhang}
+
+
+\newpage
+
+\subsection{Onlineressourcen}
+\label{subsec:Onlineressourcen}
+
+\begin{singlespace}
+
+
+\textbf{Blazegraph}, \url{https://www.blazegraph.com}, 31.12.2016.
+\\
+
+
+\textbf{Dublin Core}, \url{http://dublincore.org}, 11.12.2016.
+\\
+
+\textbf{FEDORA}, \url{http://fedorarepository.org/about}, 05.02.2016.
+\\
+
+\textbf{GAMS}, \url{gams.uni-graz.at}, 05.02.2016.
+\\
+
+\textbf{GAMS Dokumentation}, \url{http://gams.uni-graz.at/docs}, 05.02.2016.
+\\
+
+\textbf{Interoperabilität},\\ \url{https://www.w3.org/blog/2008/05/open-standards-interoperability}, 12.04.2017.
+\\
+
+\textbf{Ontology}, \url{https://www.w3.org/standards/semanticweb/ontology}, 05.02.2016.
+\\
+
+\textbf{Paragraphen}, \url{gams.uni-graz.at/o:km.paragraphen/TEI_SOURCE}, 30.12.2016.
+\\
+
+\textbf{RDF}, \url{https://www.w3.org/RDF}, 20.12.2016.
+\\
+
+\textbf{Sesame}, \url{http://rdf4j.org/}, 05.02.2017.
+\\
+
+\textbf{SKOS}, \url{https://www.w3.org/2004/02/skos}, 05.02.2017. 
+\\
+
+\textbf{SPARQL}, \url{https://www.w3.org/TR/rdf-sparql-query}, 05.02.2016.
+\\
+
+\textbf{TEI}, \url{http://www.tei-c.org/index.xml}, 05.02.2016.
+\\
+
+\textbf{URI}, \url{https://de.wikipedia.org/wiki/Uniform_Resource_Identifier}, 04-03.2017.
+\\
+
+\textbf{W3C}, \url{https://www.w3.org/}, 05.03.2017.
+\\
+
+\textbf{XML}, \url{https://www.w3.org/XML}, 27.12.2016.
+\\
+
+\textbf{XSL-T}, \url{https://www.w3.org/TR/xslt}, 05.02.2016.
+\\
+
+\end{singlespace}
+
+\newpage
+\subsection{Projektspezifische Onlineressourcen}
+\label{subsec:ProjektOnlineressourcen}
+
+\begin{singlespace}
+
+\textbf{test}, \\ \url{http://test.at}, 16.12.2016.
+
+\end{singlespace}
+ 
+\newpage
+\bibliographystyle{jurabib}
+\bibliography{literatur}
+\newpage
+\listoffigures
+
+
+\end{document}

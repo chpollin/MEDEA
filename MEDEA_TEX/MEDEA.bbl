@@ -1,0 +1,21 @@
+%
+% This bibliography was produced by using jurabib.bst
+%
+\begin{thebibliography}{}
+
+\bibitem[{Tomasek\jbbtasep Bauman\jbdy {2013}}%
+         {Journal of the Text Encoding Initiative\jbsy {2013}}%
+         {{0}{}{article}{2013}{}{}{}{}%
+          {Text Encoding Initiative Consortium\bibbdsep {} 2013}}%
+         {{Encoding financial records for historical research}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{tomasek2013encoding}
+ \jbbibargs {\bibnf {Tomasek} {Kathryn} {K.} {} {}\Bibbtasep \bibnf {Bauman}
+  {Syd} {S.} {} {}} {Kathryn TomasekSyd Bauman} {aus} {\bibapifont {Encoding
+  financial records for historical research}\bibatsep\ \bibJTsep \bibjtfont
+  {Journal of the Text Encoding Initiative}  \artyearformat
+  {2013}\artnumberformat {6}} {\bibartperiodhowcited} \jbdoitem
+  {{Tomasek}{Kathryn}{K.}{}{}; {Bauman}{Syd}{S.}{}{}} {} {} \bibAnnoteFile
+  {tomasek2013encoding}
+
+\end{thebibliography}
