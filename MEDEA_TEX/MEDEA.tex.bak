@@ -111,11 +111,53 @@ Rechnungsbücher sind nicht unbedingt tabellarisch. [S.3-4]
 Einfache Transkription im Sinne von Text und Zahlen in tabellarischer Form.
 
 
+One research corpus is 
+
+there might be methods of markup for HFRs that would take advantage of the longstanding existence of TEI standards for markup of text, both print and manuscript, to promote creation of large corpora of accessible digital versions of HFRs that might be used for historical research. [S.4-5]
+
+Double-entry bookkeeping uses a specialized vocabulary, a professional jargon in which
+the terms 'debtor' and 'creditor' have particular meanings. As a system, it models a set of
+relationships between transactions recorded in the journal and accounts kept in a
+separate ledger. Both Paciolo and Mair considered two separate books essential for
+keeping double entry accounts: the daybook or journal and the ledger. Transactions
+between a local businessman and his customer were recorded chronologically in the
+journal, with a reference in the far left column to the page in the ledger where the
+businessman recorded the customer's ongoing debt and the times when the debt was
+settled. Thus, we see from this page in Laban Morey Wheaton's daybook that on October
+2, 1849, George W. Braman purchased three cords of hardwood for \$12.75 and one of small
+hardwood for \$2.00, for a total debit of \$14.75. 
+
+This transaction was recorded as a credit to the debit side of Braman's account in
+Wheaton's ledger. That is, Wheaton recorded that he had extended credit to Braman in
+the amount of 14.75, to be paid at a later date, and we see that Braman settled his
+account with Wheaton on January 1, 1850.
+19 In this way, Braman's account demonstrates Wheaton's adherence to the principles of
+double entry accounting as prescribed by Pacioli and Mair. Other accounts in Wheaton's
+daybook and ledger do not match up so neatly, and Wheaton is by no means the only
+merchant who kept less than perfect books. The popularity of double entry accounting
+could not guarantee perfect adherence to its principles. Human use of standards of any
+sort is subject to human error and idiosyncrasy. Nevertheless, use of double-entry
+accounting has persisted over several centuries, so developing guidelines for its markup
+seems prudent. [S.9-10]
 
 
-Single-Entry-System - Double-Entry
-Doppelte Buchhaltung, \url{http://flegesunde.com/category/miscellanea/die-geschichte-der-doppelten-buchfuhrung.php}
+\subsection{Single-Entry-System}
 
+\subsection{Double-Entry-System}
+\url{http://flegesunde.com/category/miscellanea/die-geschichte-der-doppelten-buchfuhrung.php}
+
+
+\subsection{Transaction Model}
+Transactions consist of main
+components, which may be summarized as 'what', 'from whom', and 'to whom'.
+TOMASEK und BAUMAN are pointing out four categories of transaction:
+\begin{itemize}
+\item A standard exchange Two transfers exists, where money or goods are purchased from one account to another. Like Christopher gives Geog 1 Euro and revieves an apple.
+\item A barter, the exchange of goods without money. Like Chrisopher gives Georg 1 Cow and recieves an apple
+\item A gift, which is a uni-directional transfer. Christopher gives Georg an apple
+\item. A set of transfers between more thant two entities., as a multilateral trade.
+\end{itemize}
+\footcite[][p.13-15]{tomasek2013encoding}
 \newpage
 \section{Anhang}
 \label{sec:Anhang}
