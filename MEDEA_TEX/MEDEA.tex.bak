@@ -162,11 +162,29 @@ TOMASEK und BAUMAN are pointing out four categories of transaction:
 \section{Anhang}
 \label{sec:Anhang}
 
+\subsection{Technical Implementation of the Datamodel}
+\label{subsec:ImplementationDatamodel}
 
+\subsubsection{Validating Workflow}
+\label{subsec:ValidatingWorkflow}
+The data model is formalized in RDFs.\footnote{RDFs, \url{https://www.w3.org/TR/rdf-schema}, 13.03.2018.} Using the XML-Editor Oxygen\footnote{XML-Editor Oxygen, \url{https://www.oxygenxml.com}, 13.03.2018.} the source code of the RDFs written by hand supported by using a couple of tools for syntactically, conceptually and logically validation.
+\\
+Oxygen offers a syntactically validation using the RDFs-Scheme.\\
+The RDF Validation Service\footnote{RDF Validation Service, \url{https://www.w3.org/RDF/Validator}, 13.03.2018.} is another Web service helping to check if the RDF is correct.
+WebVOWL\footnote{WebVOWL, \url{http://vowl.visualdataweb.org/webvowl.html}, 13.03.2018.} is a easy way to visualize RDFs and OWL. This is a low-threshold way to check if the model is conceptual correct. It shows at one glance subclasses, connections between classes by object  properties and there connection to data-types by data properties and if the graph is closed.
+\\
+The ontology Editor 
+Protégé\footnote{Protégé, \url{https://protege.stanford.edu}, 13.03.2018.} and its included OWL Reasoner HermiT\footnote{HermiT OWL Reasoner, \url{http://www.hermit-reasoner.com}, 13.03.2018} can checkt the logically consistence of an ontology.
+
+
+ 
+\newpage
+\bibliographystyle{jurabib}
+\bibliography{literatur}
 \newpage
 
-\subsection{Onlineressourcen}
-\label{subsec:Onlineressourcen}
+\subsection{Online Resources}
+\label{subsec:Online}
 
 \begin{singlespace}
 
@@ -187,16 +205,25 @@ TOMASEK und BAUMAN are pointing out four categories of transaction:
 \textbf{GAMS Dokumentation}, \url{http://gams.uni-graz.at/docs}, 05.02.2016.
 \\
 
+\textbf{HermiT OWL Reasoner}, \url{http://www.hermit-reasoner.com}, 13.03.2018
+\\
+
 \textbf{Interoperabilität},\\ \url{https://www.w3.org/blog/2008/05/open-standards-interoperability}, 12.04.2017.
 \\
 
 \textbf{Ontology}, \url{https://www.w3.org/standards/semanticweb/ontology}, 05.02.2016.
 \\
 
-\textbf{Paragraphen}, \url{gams.uni-graz.at/o:km.paragraphen/TEI_SOURCE}, 30.12.2016.
+\textbf{Protégé}, \url{https://protege.stanford.edu}, 13.03.2018.
 \\
 
 \textbf{RDF}, \url{https://www.w3.org/RDF}, 20.12.2016.
+\\
+
+\textbf{RDFs}, \url{https://www.w3.org/TR/rdf-schema}, 13.03.2018.
+\\
+
+\textbf{RDF Validation Service}, \url{https://www.w3.org/RDF/Validator}, 13.03.2018.
 \\
 
 \textbf{Sesame}, \url{http://rdf4j.org/}, 05.02.2017.
@@ -217,6 +244,9 @@ TOMASEK und BAUMAN are pointing out four categories of transaction:
 \textbf{W3C}, \url{https://www.w3.org/}, 05.03.2017.
 \\
 
+\textbf{WebVOWL}, \url{http://vowl.visualdataweb.org/webvowl.html}, 13.03.2018.
+\\
+
 \textbf{XML}, \url{https://www.w3.org/XML}, 27.12.2016.
 \\
 
@@ -224,11 +254,6 @@ TOMASEK und BAUMAN are pointing out four categories of transaction:
 \\
 
 \end{singlespace}
-
- 
-\newpage
-\bibliographystyle{jurabib}
-\bibliography{literatur}
 \newpage
 \listoffigures
 

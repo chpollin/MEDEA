@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.3)  12 MAR 2018 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.3)  13 MAR 2018 10:04
 entering extended mode
 **./MEDEA.tex
 (MEDEA.tex
@@ -911,38 +911,11 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 155.
- [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+ [2] [3] (MEDEA.bbl
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 20.
+) [4]
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
  []
 
@@ -996,10 +969,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-[4] (MEDEA.bbl
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 20.
-) [5] (MEDEA.lof)
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
+
+ []
+
+[5] (MEDEA.lof)
 \tf@lof=\write6
 \openout6 = `MEDEA.lof'.
 
@@ -1009,10 +1029,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 10093 strings out of 493323
- 147702 string characters out of 3129582
- 243665 words of memory out of 3000000
- 13425 multiletter control sequences out of 15000+200000
+ 10097 strings out of 493323
+ 147800 string characters out of 3129582
+ 243673 words of memory out of 3000000
+ 13429 multiletter control sequences out of 15000+200000
  53634 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,7n,44p,585b,624s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1023,9 +1043,9 @@ s/enc/dvips/base/8r.enc}<C:/Users/pollin/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pollin/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pollin/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on MEDEA.pdf (7 pages, 75421 bytes).
+Output written on MEDEA.pdf (7 pages, 81915 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
