@@ -14,7 +14,10 @@
 		<rdfs:comment xml:lang="en">This datamodel describes processes in historical accounting entries.</rdfs:comment>
 		<rdfs:comment xml:lang="de">Dieses Datenmodell beschreibt Buchungsprozesse in historischen Rechnungsbüchern </rdfs:comment>
 		<rdfs:seeAlso rdf:resource="https://www.wikidata.org/wiki/Q4116214"/>
-		<dc:description>This datamodel describes processes in historical accounting entries.</dc:description>
+		<dc:description>Transactionography has developed a simple ontology for accounting facts: a /transaction/ between two /parties/ or /accounts/ /consists of/ at least one /transfer/ from one to the other. It /transfers/ a /measurable/ and can be /attested/ by text. The transfer /occurs at/ a place and /happens at/ a time. Booking a transfer into an account can create /liabilities/ held by a party and owed to another.  From the XBRL taxonomy one can add the specialization of measurables as /monetary values/. XBRL-GL offers additional data types applicable to the encoding of historical accounting documents: The /entry/ is an information fragment of a transfer often only naming one party as the other can be deduced from the textual context of the entry. When writing it down into the ledger, /debit/ and /credit/ are coded e.g. by using the appropriate columns in a table. Accounts can be compared in a /balance/. XBRL in general adds the concept of calculated values like /totals/. This is in particular useful when encoding historical accounting document. They usually convey these calculated values (e.g. per page, per rubric, per accounting period) which could be compared to values calculated by the computer and thus show transcription or encoding errors viz. calculation errors of the clerks.
+			Following the TEI model measurements have at least three properties: /what/ is measured, what kind of /unit/ is used, and in which /quantity/ it is measured. In RDF the type of measurement would better be a description of the unit used not of the individual measurement.
+			Economic history often is not only interested in the accounting practice and the original accounting structure but in economic facts reported in the accounts. Prices, wages and currency conversion rates are good examples for this research interest. The model should therefore contain entities to describe the relationship between two measurable as /prices/ and should identify measurable not only as monetary item but as /commodities/ or /services/ as well. Prices can be considered as a special case of /conversions/ of measurements.
+			All of this can be expressed in RDF-Schema (RDFs)  and here is not the place to explain this formalisation further. An advantage of using RDF for the modelling can be shown with the concept account. It is a problematic term in the vocabulary because it can have different meanings: In accounting theory an account can be "/personal/", "/real/", or "/nominal/". It therefore can represent a relationship between two partners, an aggregation of items of value, or a temporary evaluation of the economic status of business. But accounts can also be considered as a list of bookkeeping entries.  In accounting on paper they could be expressed in single pages or dedicated ledgers and they are identified by a heading. In final fair copies of bookkeeping documents in particular in the context of single entry bookkeeping they are just lists of entries under a heading which could be called "/rubrics/", referencing the medieval method of marking headings with red ink. Fortunately there is a common abstraction in the two concepts when you consider "account" as method to organize a group of single facts. In the XBRL scheme this is considered a /dimension/ of the data.  Modelling this in RDFs allows organising the information in a hierarchy of abstractions: Both account and rubric can be described as special case of dimension. The account is an abstraction of personal account, real account and nominal account.</dc:description>
 		<dc:title>Bookkeeping Datamodel for Historical Accounts</dc:title>
 		<dc:author>Christopher Pollin</dc:author>
 		<dc:author>Georg Vogeler</dc:author>
@@ -46,11 +49,19 @@
 	<rdfs:Class rdf:about="https://glossa.uni-graz.at/o:medea.bookkeeping/#Account">
 		<rdfs:label xml:lang="en">Account</rdfs:label>
 		<rdfs:label xml:lang="de">Konto</rdfs:label>
-		<rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
+		<rdfs:subClassOf rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Between"/>
 		<rdfs:comment xml:lang="en">An account refers to assets, liabilities, income, expenses, and equity, as represented by individual ledger pages, to which changes in value are
 			chronologically recorded with debit and credit entries. These entries, referred to as postings, become part of a book of final entry or ledger. </rdfs:comment>
 		<rdfs:comment xml:lang="de">Ein Konto ist die zentrale Datenstruktur in der Buchführung sowie im Zahlungsverkehr.</rdfs:comment>
 		<rdfs:seeAlso rdf:resource="https://www.wikidata.org/wiki/Q508295"/>
+	</rdfs:Class>
+	<!-- BEETWEEN -->
+	<rdfs:Class rdf:about="https://glossa.uni-graz.at/o:medea.bookkeeping/#Between">
+		<rdfs:label xml:lang="en">Between</rdfs:label>
+		<rdfs:label xml:lang="de">Zwischen</rdfs:label>
+		<rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>
+		<rdfs:comment xml:lang="en">A generic class for any concept which can be part of transaction in abstract bookkeeping, which connects bk_from and bk_to.</rdfs:comment>
+		<rdfs:comment xml:lang="de">Ein genersiches Konzept, das bk_from und bk_to verbindet</rdfs:comment>
 	</rdfs:Class>
 	<!-- ENTRY -->
 	<rdfs:Class rdf:about="https://glossa.uni-graz.at/o:medea.bookkeeping/#Entry">
@@ -121,19 +132,19 @@
 	<rdf:Property rdf:about="https://glossa.uni-graz.at/o:medea.bookkeeping/#from">
 		<rdfs:label xml:lang="en">from</rdfs:label>
 		<rdfs:label xml:lang="de">von</rdfs:label>
-		<rdfs:comment xml:lang="en"/>
-		<rdfs:comment xml:lang="de"/>
+		<rdfs:comment xml:lang="en">Something goes away from somebody. An account decreases.</rdfs:comment>
+		<rdfs:comment xml:lang="de">Etwas geht von einem Akteur / Konto weg.</rdfs:comment>
 		<rdfs:domain rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Transfer"/>
-		<rdfs:range rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Account"/>
+		<rdfs:range rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Between"/>
 	</rdf:Property>
 	<!-- to -->
 	<rdf:Property rdf:about="https://glossa.uni-graz.at/o:medea.bookkeeping/#to">
 		<rdfs:label xml:lang="en">to</rdfs:label>
 		<rdfs:label xml:lang="de">nach</rdfs:label>
-		<rdfs:comment xml:lang="en"/>
-		<rdfs:comment xml:lang="de"/>
+		<rdfs:comment xml:lang="en">Something goes to somebody. An account increases.</rdfs:comment>
+		<rdfs:comment xml:lang="de">Etwas geht zu einem Akteur / Konto.</rdfs:comment>
 		<rdfs:domain rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Transfer"/>
-		<rdfs:range rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Account"/>
+		<rdfs:range rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Between"/>
 	</rdf:Property>
 	<!-- consistsOf -->
 	<rdf:Property rdf:about="https://glossa.uni-graz.at/o:medea.bookkeeping/#consistsOf">
@@ -174,7 +185,7 @@
 		<rdfs:label xml:lang="de">Soll</rdfs:label>
 		<rdfs:comment xml:lang="en">Marks an account as a debit account. The money obtained with the credits is destined as debit in transaction accounts. Like assets.</rdfs:comment>
 		<rdfs:comment xml:lang="de">Markiert ein Konnte als ein Soll-Konto. Vermögenswerte wie Bar- und Bankvermögen</rdfs:comment>
-		<rdfs:domain rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Account"/>
+		<rdfs:domain rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Transfer"/>
 		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
 		<rdfs:seeAlso rdf:resource="https://www.wikidata.org/wiki/Q5248104"/>
 	</rdf:Property>
@@ -184,7 +195,7 @@
 		<rdfs:label xml:lang="de">Haben</rdfs:label>
 		<rdfs:comment xml:lang="en">Marks an account as a debit account. The sources for spending money in transaction account is credit. Like liabilities</rdfs:comment>
 		<rdfs:comment xml:lang="de">Markiert ein Konto als ein Haben-Konto. Verbindlichkeiten wie Kredite und Schulden</rdfs:comment>
-		<rdfs:domain rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Account"/>
+		<rdfs:domain rdf:resource="https://glossa.uni-graz.at/o:medea.bookkeeping/#Transfer"/>
 		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
 		<rdfs:seeAlso rdf:resource="https://www.wikidata.org/wiki/Q305253"/>
 	</rdf:Property>
