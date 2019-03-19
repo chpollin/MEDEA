@@ -1,0 +1,7 @@
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}
+\contentsline {section}{\numberline {2}Thematik, Projektkontext und Forschungsfrage}{1}
+\contentsline {section}{\numberline {3}Projekte, Basisliteratur und Aufbau}{2}
+\contentsline {section}{\numberline {4}Method und Umsetzung}{4}
+\contentsline {section}{\numberline {5}Gliederung}{11}
+\contentsline {section}{\numberline {6}Arbeitsplan}{13}

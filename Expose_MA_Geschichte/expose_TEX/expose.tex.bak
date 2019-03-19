@@ -1,0 +1,273 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage[german]{babel}
+\usepackage{graphicx} 
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage[bf]{caption}
+\usepackage[a4paper]{geometry}
+\usepackage{float}
+\usepackage{acronym}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+
+
+\usepackage{jurabib}
+
+\jurabibsetup{
+	commabeforerest,
+	ibidem=strict,
+	%here you can change full citation, none, first
+	citefull=none,
+	see,
+	titleformat={colonsep,all},
+}
+
+\renewcommand*{\jbauthorfont}{\textsc}
+\renewcommand*{\biblnfont}{\scshape\textbf}
+\renewcommand*{\bibfnfont}{\normalfont\textbf}
+\AddTo\bibsgerman{%
+	\renewcommand*{\ibidemname}{ebd.}
+	\renewcommand*{\ibidemmidname}{ebd.}
+}
+
+\usepackage[bottom,hang]{footmisc}
+\setlength{\footnotemargin}{0pt}
+
+
+% Für source codes etc.
+\usepackage{listings}
+
+\usepackage{color}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstset{
+  numbers=left,   
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
+
+\lstdefinelanguage{XML}
+{
+  basicstyle=\footnotesize\ttfamily,
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version, type, about, resource, lang}
+  % list your attributes here
+}
+
+\geometry{a4paper,left=25mm,right=25mm, top=25mm, bottom=25mm}
+\onehalfspacing
+\renewcommand{\familydefault}{ptm}
+
+\usepackage[bottom,hang]{footmisc}
+\usepackage{fnpct}
+
+
+\setlength{\footnotemargin}{0pt}
+
+\setlength{\parindent}{0pt}
+
+
+\author{Christopher Pollin}
+\title{Exposé\\ \textbf{Information-based Retrieval and Discovery for digital Repositories in the Humanities}}
+\date{\today{}, Graz}
+\begin{document}
+\pagenumbering{gobble}
+\AdaptNoteOpt\footcite\multfootcite
+\maketitle
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+
+\section{Einleitung}
+
+In meiner Masterarbeit habe ich mich mit der Fragestellung auseinandergesetzt wie mittels Technologien des \textit{Web of Data} Information Retrieval und Resource Discovery für eine digitale Sammlung umgesetzt werden kann. Dies umfasste einen Teilbestand des Kriminalmuseums der Universität Graz, der in der Langzeit-Infrastruktur GAMS veröffentlicht wurde. Das Dissertationsvorhaben geht nun einen Schritt weiter und versucht eine generische Lösung für Retrieval- und Discovery-Strategien geisteswissenschaftlicher Projekte in digitalen Repositorien auf Basis formalisierter Information einer Fachdomäne umzusetzen.
+\\
+Am Beginn dieses Exposés steht eine Spezifizierung der Thematik und Relevanz des Themas, sowie eine daraus abgeleitete Forschungsfrage. Nach einem Übeblick über wichtige Literatur, Projekte und einer Skizze des Aufbaus der Arbeit, folgt eine Erörterung der Methoden und der Umsetzung. Am Ende werden erwartete Ergebnisse und Herausforderungen reflektiert.
+
+\section{Thematik, Relevanz und Forschungsfrage}
+
+Fast alle digitalen Projekte benötigen Formen des Suchens von Information, als Bestandteil wissenschaftlicher Arbeit, um forschungsfragengetriebene Informationsbedürfnisse zu befrieden. Eine Grundfunktionalität von Informationssystemen, ermöglicht durch klassische IR Funktionalitäten (z.B. Volltextsuche, indexbasierte Suche) ist die Möglichkeiten Daten zu durchsuchen. Im Prozess des wissenschaftlichen Arbeitens, in dem Suchanfragen oft noch nicht eindeutig spezifiziert sind, sind erweiterte Funktionalitäten notwendig. Dies steht ganz im Sinne von: "\textit{I don’t know what I’m looking for, I’ll know it when I find it}"\footcite[Vgl.][S.22]{vallet2010personalizing}. Ein erweitertes, exploratives Informationsbedürfnis bedarf angepasster Retrieval- und Discovery-Funktionalitäten, wie etwa facettierte Suche oder Informationsvisualisierung, damit sich schrittweise der gesuchten Information angenähert werden kann. Dieser Prozess der \textit{Query Reformulation} kann nur auf Basis des Wissens der FachwissenschaftlerInnen im Kontext ihrer Fachdomäne umgesetzt werden.
+Die Herausforderung entsteht dabei oft am Wunsch nach geleiteten Suchfunktionalität parallel zu Formen eines freien "\textit{Stöberns}"  durch Daten, ohne andere Disziplinen oder Ansätze auszuschließen. Aus dieser Problemstellung heraus lässt sich in Hinblick auf Technologien des \textit{Web of Data} folgende These formulieren:
+\\
+\\
+Ontologien erlauben es, Wissen von Fachwissenschaftlerinnen über eine Fachdomäne in Form formalisierter Information und als offenes und konzeptionelles Framework zur Umsetzung von generischen Lösungen von Suchfunktionalitäten für Forschungsdaten in den Geisteswissenschaften zu verwenden.
+
+
+\section{Projekte, Basisliteratur und Aufbau}
+
+Ein \textbf{Projekt} in diesem Zusammenhang ist \textit{ResearchSpace}\footcite{oldman2018reshaping} am British Museum. Es ist ein Open Source Pilotprojekt zur Etablierung einer kollaborativen \textit{Web of Data} Umgebung, die dabei helfen soll, Information über geisteswissenschaftliche Domänen hinweg nutzbar zu machen. Es wird versucht sowohl auf konzeptioneller Ebene, als auch auf Ebene der Daten, Interoperabilität zu schaffen, indem Entitäten wie Personen, Orte oder Konzepte verknüpft werden.
+Das \textit{Data for History Consortium}\footcite{beretta2017dataforhistory} geht einen vergleichbaren Weg und versucht ein gemeinsames Set an Methoden im \textit{Web of Data} zu entwickeln, um Daten in den Geschichtswissenschaften zu modellieren, verknüpfen und auszutauschen.
+In der Archivwelt wird 2019 der Standard \textit{Records in Context}\footcite{llanes2017records}
+veröffentlicht, der es erlauben soll Archivalien und ihre multikontextuellen Dimensionen zu beschreiben.
+\textit{OLia}\footcite{chiarcos2015olia} repräsentiert ein Repositorium für Terminologien für linguistische Phänomene und dient der Vereinheitlichung von Annotaionsmodellen für Textkorpora in den Sprachwissenschaften. 
+Die soeben genannten Projekte tragen zur Etablierung des \textit{Web of Data} in den einzelnen Fachdomänen bei und eröffnen neue Möglichkeiten für die digitalen Geisteswissenschaften.
+\\
+\\
+Am Anfang der Arbeit steht neben einer allgemeinen theoretischen Diskussion zu klassischen Themen der Informationswissenschaft (Daten - Information - Wissen)\footcite{favre2001information}, eine  Auseinandersetzung auf konzeptioneller\footcite{berners2001semantic}\footcite{cardoso2007semantic} und technischer\footcite{bernstein2016new} Ebene mit dem \textit{Web of Data}, wobei ein Fokus auf Wissensmodellierung\footcite{kelly2016practical} , Ontologien\footcite{stuckenschmidt2009ontologien} und \textit{Linked Open Data}\footcite{rietveld2015linked}\footcite{bauer2011linked} liegt, sowie eine kritischer Auseinandersetzung mit dem \textit{Web of Data}\footcite{swartz2013aaron}.
+Im nächsten Kapitel wird auf Forschungsdaten\footcite{andorfer2015forschungsdaten}\footcite{cremer2018chimare} und digitale Forschungsinfrastruktur\footcite{burghardt2015informationsinfrastruktur}\footcite{neuroth2016nachhaltigkeit} , am Beispiel von drei auf semantischen Technologien beruhenden Projekten (SZD, DEPCHA, AAIF), eingegangen. Dies beinhaltet die Forschungsziele, konzeptionelle Ebene (Ontologien) und Forschungsdaten (RDF, GAMS) dieser Projekte, auf die später noch weiter eingegangen wird.
+\\
+\\
+Auf diesen Grundlagen und den Praxisbeispielen wird herausgearbeitet, dass es sich beim Web of Data nicht nur um einen Technologie Stack handelt, sondern um eine eigene Methode um wissenschaftliche Arbeit und Dokumentation\footcite{latour2016zirkulierende} zu befördern. Dazu werden zuerst formale Methoden in den Geisteswissenschaften diskutiert und anschließend um digitale Methoden erweitert.\footcite{thaller2017digital}\footcite{thaller2017ungefahre} Das Ontology Engineering\footcite{hitzler2016ontology} , Informationsvisualisierung\footcite{rehbein2017informationsvisualisierung}\footcite{jager2015informationsvisualisierung} , Information Retrieval\footcite{baezayates2011retrieval} , Resource Discovery\footcite{wiesenmueller2016resourcediscovery} und das Reasoning\footcite{bursztyn2015reasoning} spielen dabei eine hervorgehobene Rolle.
+Da die Entwicklung eines \textit{Proof of Concept} angedacht ist, widmet sich ein Kapitel der Entwicklung, dem Design und der Evaluierung von Suchstrategien im Kontext wissenschaftlicher Informationssysteme. Theoretische sowie praktische Beispiele werden diskutiert. Ein Schwerpunkt liegt auf informations- bzw. wissensbasiertem Information Retrieval und Resource Discovery.
+Abschließend steht eine Dokumentation der Implementierung, der Evaluierung und Reflexion der Umsetzung in der GAMS-Infrastruktur\footcite{stigler2018gams} der angeführten Projekten.
+
+\section{Method und Umsetzung}
+
+Anhand eines \textit{Proof by Concept} wird für drei Projekte, die sich im Spannungsfeld zwischen Forschungsdaten in den Geisteswissenschaften und dem \textit{Web of Data} befinden, ein Prototyp einer generischen Lösung in einer (lokalen) GAMS-Infrastruktur umgesetzt werden. Dieser Prototyp versucht das bereits exisiterende Ontology Content Model der GAMS-Infrastruktur so zu erweitern, dass aus einer Ontologie und den damit beschriebenen RDF Daten ein Suchinterface generiert wird. Dabei sollen sowohl klassische, als auch dem Discovery entsprechende Funktionalitäten (z.B. Informationsvisualisierung) erarbeitet werden. In einem weiteren Schritt soll versucht werden deskriptive Logik und Reasoning in Suchszenarien abzubilden, bzw. im Sinne von Linked Open Data projektübergreifende Suchszenarien zu ermöglichen.
+Ein \textbf{erwartetes Ergebnis} ist die generische Generierung von basalen Strukturen für Suchinterfaces für beliebige Projekte in der GAMS-Infrastruktur. Explorative Informationsbedürfnisse sind komplex und stark individuell. Eine \textbf{Herausforderung} dabei ist, ob formale Modelle des  \textit{Web of Data} (Ontologien) erlauben Fragestellungen der Geisteswissenschaften streng zu formalisieren und gleichzeit die Erwartungen der FachwissenschaftlerInnen an darauf basierenden Funktionalitäten zu befrieden. Weiters stellt sich die Frage, ob auf diese Weise generische Lösungen umgesetzt werden können und wie sie dahingehend evaluiert werden können.
+Die Datenbasis, Forschungsfragen und Modelle zur Umsetzung des Prototyps stammen aus folgenden drei Projekte: 
+\\
+\\
+Die virtuelle Rekonstruktion \textbf{Stefan Zweig Digital (SZD)}\footnote{\url{stefanzweig.digital}} basiert auf einer \textit{Records in Context} basierten domänenspezifischen, "Nachlass-Ontologie", sowie der Verknüpfung von Entitäten zu anderen Datensätzen oder Normvokabularien. Während klassisch archivarische und bibliothekarische Erschließungsmaßnahmen im Hinblick auf die Komplexität von Schriftstellernachlässen oftmals an Grenzen stoßen, sind die Kontextualisierung und Semantisierung der Objekte in SZD potentiell flexibel ausbaubar und verknüpfbar.
+\\
+Im Zuge des Projektes \textbf{Digital Edition Publishing Cooperative for Historical Accounts (DEPCHA)}\footnote{\url{gams.uni-graz.at/depcha}} wird ein gemeinsamer Publikations-Hub für historische Rechnungsbücher umgesetzt. Im Zentrum steht die Entwicklung und Nutzung einer Ontologie zur Formalisierung und Standardisierung von Buchungstransaktionen in historischen Rechnungsunterlagen, sowie ein \textit{Linked Open Data} Zugang. Der Mehrwert entsteht durch Funktionalitäten des Retrievals, der Visualisierung und Analyse der eingespielten Datenbestände.
+\\
+In Zusammenarbeit mit dem Institut für Romanistik wird im Projekt \textbf{Open Access Database 'Adjective-Adverb Interfaces in Romance' (AAIF)}\footnote{\url{gams.uni-graz.at/aaif}} an einer Suchmaske zur Abfrage anntotierter Korpora in Hinblick auf linguistischen Phänomenen in romanischen Sprachen gearbeitet. Die Modellierung der Daten basiert auf einer domänenspezifischen Implementierung einer Ontologie des Annotationsmodells und dessen Verknüpfung zur \textit{OLia}.\footcite{pollin2018annotation}
+\\
+\\
+Für alle diese Projekte existieren hochstrukturierte RDF-Daten, die jeweils mit einer domänenspezifischen Ontologie beschrieben sind. Diese Ontologie wurde in einem iterativen \textit{Ontology Enginneering}-Prozess mit den FachkollegInnen, basierend auf den fachspezifischen Forschungsfragen, generiert.
+
+\newpage
+\nocite{*}
+\bibliographystyle{jurabib}
+\bibliography{literatur}
+\newpage
+
+%
+%\subsection{Technologien}
+%\begin{table}[H]
+%\begin{tabular}{|l|l|lll}
+%\cline{1-2}
+% GAMS&a  &  &  &  \\ \cline{1-2}
+% RDF&b  &  &  &  \\ \cline{1-2}
+% RDFs&  &  &  &  \\ \cline{1-2}
+% OWl&  &  &  &  \\ \cline{1-2}
+% SPARQL&  &  &  &  \\ \cline{1-2}
+% Apache Jena&  &  &  &  \\ \cline{1-2}
+% AngularJs&  &  &  &  \\ \cline{1-2}
+% Ajax&  &  &  &  \\ \cline{1-2}
+% Bootstrap 4&  &  &  &  \\ \cline{1-2}
+%\end{tabular}
+%\caption{My caption}
+%\label{my-label}
+%\end{table}
+%
+%\subsection{Standards}
+%\begin{table}[H]
+%\begin{tabular}{|l|l|lll}
+%\cline{1-2}
+%CIDOC&a  &  &  &  \\ \cline{1-2}
+%TEI&b  &  &  &  \\ \cline{1-2}
+%Records in Context&  &  &  &  \\ \cline{1-2}
+%OLiga&  &  &  &  \\ \cline{1-2}
+%&  &  &  &  \\ \cline{1-2}
+%&  &  &  &  \\ \cline{1-2}
+%&  &  &  &  \\ \cline{1-2}
+%&  &  &  &  \\ \cline{1-2}
+%&  &  &  &  \\ \cline{1-2}
+%\end{tabular}
+%\caption{My caption}
+%\label{my-label}
+%\end{table}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\newpage
+\section{Gliederung}
+\begin{enumerate}
+ \item Das Web of Data 
+   \begin{enumerate}
+   \item  Schnittpunkt Informationswissenschaft und Geisteswissenschaft
+    \item Konzepte und Vision
+    \item Technische Grundlagen
+    \item Konzeptionelle Ebene: Ontologie
+    \item Datenebene: Linked Open Data
+    \item Web of Data und die digitalen Geisteswissenschaften
+    \item Kritik und Alternativen
+  \end{enumerate}
+\item (Digitale) Geisteswissenschaften und Forschungsdaten
+\begin{enumerate}
+	\item Warum digitale Geisteswissenschaften?
+	\item Forschungsdaten und Infrastruktur
+    \item Die virtuelle Nachlassrekonstruktion Stefan Zweig Digital - SZD 
+    \begin{enumerate}
+    	\item Nachlassontologie und Records in Context
+     \end{enumerate}
+    \item Digital Edition Publishing Cooperative for Historical Accounts - DEPCHA
+    \begin{enumerate}
+    	\item Bookkeeping Ontology und Data for History
+     \end{enumerate}
+    \item Open Access Database 'Adjective-Adverb Interfaces in Romance' - AAIF
+    \begin{enumerate}
+    	\item AAIF-Annotationsmodell und OLiA Ontologies
+     \end{enumerate}
+  \end{enumerate}
+  \item Web of Data als Methode
+  \begin{enumerate}
+    \item Formale Methoden in den Geisteswissenschaften
+    \item Daten - Information - Wissen
+    \item Ontology Engineering
+    \item Deskriptive Logik und Reasoning
+    \item Information Retrieval 
+    \item Resource Discovery
+    \item Informationsvisualisierung
+  \end{enumerate}
+  \item Informationsbasiertes Information Retrieval und Resource Discovery  
+   \begin{enumerate}
+    \item Best Pratice Beispiele
+    \item Anforderungen an geisteswissenschaftlichen Projektkontexten
+    \item Design 
+    \item Umsetzungen
+    \item Evaluierungsmethoden
+  \end{enumerate}
+  \item Umsetzung: GAMSKitz - Knowledge-based informaTion visualization
+  \begin{enumerate}
+  	\item Technologie Stack
+    \item GAMS
+    \item Query-Objekt
+    \item Ontologie und Search Interface
+    \item Ontologie und Informationsvisualisierung 
+    \item Umsetzung für SZD, DEPCHA und AAIF 
+  \end{enumerate}
+  \item Conclusio und Ergebnisse
+\end{enumerate}
+\newpage
+\section{Arbeitsplan}
+
+\begin{itemize}
+\item 01.2017: Projektbeginn SZD
+\item 08.2017: Projektbeginn DEPCHA
+\item 01.2018: Projektbeginn AAIF
+\item 03.2018: Beginn Doktorat
+\item 12.2018: Publikation SZD, DEPCHA, AAIF
+\item 01.2019: Exposé
+\item 06.2019: Ontologie und RDF Daten für SZD, DEPCHA, AAIF
+\item 09.2019: Leseliste
+\item 11.2019: Kapitel - \textit{Web of Data Vision, Konzepte und Grundlagen} 
+\item 03.2020: Kapitel - \textit{(Digitale) Geisteswissenschaften und Forschungsdaten}
+\item 09.2020: Prototype auf lokaler GAMS
+\item 12.2020: Evaluierung der Umsetzung
+\item 10.2020: Kapitel - \textit{Web of Data als Methode}
+\item 02.2021: Kapitel - \textit{ Informationsbasiertes Information Retrieval und Resource Discovery  }
+\item 06.2021: Umsetzung auf GAMS
+\item 08.2021: Kapitel - \textit{Umsetzung}
+\item 12.2021: Evaluierung der Umsetzung
+\item 02.2021: Kapitel - \textit{Conclusio}
+\item 04.2022: Abgabe
+\end{itemize}
+
+
+\end{document}
