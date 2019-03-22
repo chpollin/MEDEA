@@ -1,0 +1,1346 @@
+%
+% This bibliography was produced by using jurabib.bst
+%
+\begin{thebibliography}{}
+
+\backrefparscanfalse
+\bibitem[{Achich\Bibetal\jbdy {2017}}%
+         {}%
+         {{0}{}{inproceedings}{2017}{}{}{}{880--891}%
+          {2017}}%
+         {{Ontology Visualization: An Overview}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{achich2017ontology}
+ \jbbibargs {\bibnf {Achich} {Nassira} {N.} {} {}\bibIMfont {\Bibetal}}
+  {Nassira AchichBassem BouazizAlsayed AlgergawyFaiez Gargouri} {aus} {sexless}
+  {\bibapifont {Ontology Visualization: An Overview}\bibatsep {}
+  \incolledformat {}{}{\bibbtfont {International Conference on Intelligent
+  Systems Design and Applications}\bibatsep {} }{}{} Springer  \apyformat
+  {2017}  \jbPages{880--891}} {\bibhowcited} \jbdoitem
+  {{Achich}{Nassira}{N.}{}{}; {Bouaziz}{Bassem}{B.}{}{};
+  {Algergawy}{Alsayed}{A.}{}{}; {Gargouri}{Faiez}{F.}{}{}} {}
+  {{Springer}{}{}{}{}} \bibAnnoteFile {achich2017ontology}
+
+\backrefparscanfalse
+\bibitem[{Andorfer\jbdy {2015}}%
+         {Versuch einer Konkretisierung.(DARIAH-DE Working Papers 14).
+  G{\"o}ttingen: DARIAH-DE. Verf{\"u}gbar unter urn: nbn: de: gbv \jbsy
+  {2015}}%
+         {{0}{}{article}{2015}{}{}{}{}%
+          {2015}}%
+         {{Forschungsdaten in den (digitalen) Geisteswissenschaften}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{andorfer2015forschungsdaten}
+ \jburldef
+  {andorfer2015forschungsdaten}{http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2015-14.pdf}%
+ \jbbibargs {\bibnf {Andorfer} {Peter} {P.} {} {}} {Peter Andorfer} {au}
+  {sexless} {\bibapifont {Forschungsdaten in den (digitalen)
+  Geisteswissenschaften}\bibatsep {} \bibJTsep \bibjtfont {Versuch einer
+  Konkretisierung.(DARIAH-DE Working Papers 14). G{\"o}ttingen: DARIAH-DE.
+  Verf{\"u}gbar unter urn: nbn: de: gbv}\ajtsep {}  \artyearformat {2015}
+  \jburluse {andorfer2015forschungsdaten}} {\bibartperiodhowcited} \jbdoitem
+  {{Andorfer}{Peter}{P.}{}{}} {} {} \bibAnnoteFile
+  {andorfer2015forschungsdaten}
+
+\backrefparscanfalse
+\bibitem[{Baader\Bibetal\jbdy {2017}}%
+         {}%
+         {{0}{}{book}{2017}{}{}{}{}%
+          {Cambridge University Press\bibbdsep {} 2017}}%
+         {{Introduction to Description Logic}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{baader2017introduction}
+ \jbbibargs {\bibnf {Baader} {Franz} {F.} {} {}\bibIMfont {\Bibetal}} {Franz
+  BaaderIan HorrocksCarsten LutzUli Sattler} {aus} {sexless} {\bibtfont
+  {Introduction to Description Logic}\bibatsep {}  \apyformat
+  {\jbpublisher{Cambridge University Press\bibbdsep {}} 2017}} {\bibhowcited}
+  \jbdoitem {{Baader}{Franz}{F.}{}{}; {Horrocks}{Ian}{I.}{}{};
+  {Lutz}{Carsten}{C.}{}{}; {Sattler}{Uli}{U.}{}{}} {} {} \bibAnnoteFile
+  {baader2017introduction}
+
+\backrefparscanfalse
+\bibitem[{B{\"a}chle\jbdy {2016}}%
+         {Zur Einf{\"u}hrung. Hamburg: Junius \jbsy {2016}}%
+         {{0}{}{article}{2016}{}{}{}{}%
+          {2016}}%
+         {{Digitales Wissen, Daten und {\"U}berwachung}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{bachle2016digitales}
+ \jbbibargs {\bibnf {B{\"a}chle} {Thomas} {T.} {} {}} {Thomas B{\"a}chle} {au}
+  {sexless} {\bibapifont {Digitales Wissen, Daten und {\"U}berwachung}\bibatsep
+  {} \bibJTsep \bibjtfont {Zur Einf{\"u}hrung. Hamburg: Junius}  \artyearformat
+  {2016}} {\bibartperiodhowcited} \jbdoitem {{B{\"a}chle}{Thomas}{T.}{}{}} {}
+  {} \bibAnnoteFile {bachle2016digitales}
+
+\backrefparscanfalse
+\bibitem[{Baeza-Yates\jbbtasep Ribeiro\jbdy {2011}}%
+         {}%
+         {{0}{}{book}{2011}{2}{}{}{}%
+          {Pearson Education\bibbdsep {} 2011}}%
+         {{Modern Information Retrieval}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{baezayates2011retrieval}
+ \jbbibargs {\bibnf {Baeza-Yates} {Ricardo} {R.} {} {}\Bibbtasep \bibnf
+  {Ribeiro} {Berthier de Araújo~Neto} {B.~d. A.~N.} {} {}} {Ricardo
+  Baeza-YatesBerthier de Araújo~Neto Ribeiro} {aus} {sexless} {\bibtfont
+  {Modern Information Retrieval}\bibatsep {} \jbedition
+  {\secondedname~\editionname {}\jbaensep}  \apyformat {\jbpublisher{Pearson
+  Education\bibbdsep {}} \jbssedbd {2}2011}} {\bibhowcited} \jbdoitem
+  {{Baeza-Yates}{Ricardo}{R.}{}{}; {Ribeiro}{Berthier de Araújo~Neto}{B.~d.
+  A.~N.}{}{}} {} {} \bibAnnoteFile {baezayates2011retrieval}
+
+\backrefparscanfalse
+\bibitem[{Bauer\jbbtasep Kaltenb{\"o}ck\jbdy {2011}}%
+         {Edition mono/monochrom \jbsy {2011}}%
+         {{0}{}{article}{2011}{}{}{}{}%
+          {Vienna\bibbdsep {} 2011}}%
+         {{Linked open data: The essentials}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{bauer2011linked}
+ \jbbibargs {\bibnf {Bauer} {Florian} {F.} {} {}\Bibbtasep \bibnf
+  {Kaltenb{\"o}ck} {Martin} {M.} {} {}} {Florian BauerMartin Kaltenb{\"o}ck}
+  {aus} {sexless} {\bibapifont {Linked open data: The essentials}\bibatsep {}
+  \bibJTsep \bibjtfont {Edition mono/monochrom}  \artyearformat {2011}}
+  {\bibartperiodhowcited} \jbdoitem {{Bauer}{Florian}{F.}{}{};
+  {Kaltenb{\"o}ck}{Martin}{M.}{}{}} {} {} \bibAnnoteFile {bauer2011linked}
+
+\backrefparscanfalse
+\bibitem[{Beretta\jbbtasep Bruseker\jbdy {2017}}%
+         {}%
+         {{0}{}{inproceedings}{2017}{}{}{}{}%
+          {2017}}%
+         {{The dataforhistory. org project: a proposal}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{beretta2017dataforhistory}
+ \jbbibargs {\bibnf {Beretta} {Francesco} {F.} {} {}\Bibbtasep \bibnf
+  {Bruseker} {George} {G.} {} {}} {Francesco BerettaGeorge Bruseker} {aus}
+  {sexless} {\bibapifont {The dataforhistory. org project: a proposal}\bibatsep
+  {} \incolledformat {}{}{\bibbtfont {Workshop on the creation of an
+  international Data for History consortium}\bibatsep {} }{}{}   \apyformat
+  {2017} } {\bibhowcited} \jbdoitem {{Beretta}{Francesco}{F.}{}{};
+  {Bruseker}{George}{G.}{}{}} {} {} \bibAnnoteFile {beretta2017dataforhistory}
+
+\backrefparscanfalse
+\bibitem[{Beretta\Bibetal\jbdy {2016}}%
+         {}%
+         {{0}{}{inproceedings}{2016}{}{}{}{15}%
+          {2016}}%
+         {{How can ontologies give you clue for truth-discovery? an exploratory
+  study}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{beretta2016can}
+ \jbbibargs {\bibnf {Beretta} {Valentina} {V.} {} {}\bibIMfont {\Bibetal}}
+  {Valentina BerettaS{\'e}bastien HarispeSylvie RanwezIsabelle Mougenot} {aus}
+  {sexless} {\bibapifont {How can ontologies give you clue for truth-discovery?
+  an exploratory study}\bibatsep {} \incolledformat {}{}{\bibbtfont
+  {Proceedings of the 6th International Conference on Web Intelligence, Mining
+  and Semantics}\bibatsep {} }{}{} ACM  \apyformat {2016}  \jbPages{15}}
+  {\bibhowcited} \jbdoitem {{Beretta}{Valentina}{V.}{}{};
+  {Harispe}{S{\'e}bastien}{S.}{}{}; {Ranwez}{Sylvie}{S.}{}{};
+  {Mougenot}{Isabelle}{I.}{}{}} {} {{ACM}{}{}{}{}} \bibAnnoteFile
+  {beretta2016can}
+
+\backrefparscanfalse
+\bibitem[{Berners-Lee\jbbfsasep Hendler\jbbstasep Lassila\jbdy {2001}}%
+         {Scientific American, \Numbername~5, \volname~284, \jbsy {2001}}%
+         {{0}{}{article}{2001}{}{}{}{34--43}%
+          {JSTOR\bibbdsep {} 2001}}%
+         {{The semantic web}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{berners2001semantic}
+ \jbbibargs {\bibnf {Berners-Lee} {Tim} {T.} {} {}\Bibbfsasep \bibnf {Hendler}
+  {James} {J.} {} {}\Bibbstasep \bibnf {Lassila} {Ora} {O.} {} {}} {Tim
+  Berners-LeeJames HendlerOra Lassila} {aus} {sexless} {\bibapifont {The
+  semantic web}\bibatsep {} \bibJTsep \bibjtfont {Scientific American}\ajtsep
+  {}  \artvolumeformat {284} \artyearformat {2001}\artnumberformat {5}
+  \jbPages{34--43}} {\bibartperiodhowcited} \jbdoitem
+  {{Berners-Lee}{Tim}{T.}{}{}; {Hendler}{James}{J.}{}{};
+  {Lassila}{Ora}{O.}{}{}} {} {} \bibAnnoteFile {berners2001semantic}
+
+\backrefparscanfalse
+\bibitem[{Bernstein\jbbfsasep Hendler\jbbstasep Noy\jbdy {2016}}%
+         {Commun. ACM, \Numbername~9, \volname~59, \jbsy {2016}}%
+         {{0}{}{article}{2016}{}{}{}{35--37}%
+          {New York\bpubaddr {} ACM\bibbdsep {} 2016}}%
+         {{A New Look at the Semantic Web}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{bernstein2016new}
+ \jburldef {bernstein2016new}{http://doi.acm.org/10.1145/2890489}%
+ \jbbibargs {\bibnf {Bernstein} {Abraham} {A.} {} {}\Bibbfsasep \bibnf
+  {Hendler} {James} {J.} {} {}\Bibbstasep \bibnf {Noy} {Natalya} {N.} {} {}}
+  {Abraham BernsteinJames HendlerNatalya Noy} {aus} {sexless} {\bibapifont {A
+  New Look at the Semantic Web}\bibatsep {} \bibJTsep \bibjtfont {Commun.
+  ACM}\ajtsep {}  \artvolumeformat {59} \artyearformat {2016}\artnumberformat
+  {9} \jbPages{35--37} \jburluse {bernstein2016new}} {\bibartperiodhowcited}
+  \jbdoitem {{Bernstein}{Abraham}{A.}{}{}; {Hendler}{James}{J.}{}{};
+  {Noy}{Natalya}{N.}{}{}} {} {} \bibAnnoteFile {bernstein2016new}
+
+\backrefparscanfalse
+\bibitem[{Bizer\jbbfsasep Heath\jbbstasep Berners-Lee\jbdy {2011}}%
+         {}%
+         {{0}{}{incollection}{2011}{}{}{}{205--227}%
+          {IGI Global\bibbdsep {} 2011}}%
+         {{Linked data: The story so far}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{bizer2011linked}
+ \jbbibargs {\bibnf {Bizer} {Christian} {C.} {} {}\Bibbfsasep \bibnf {Heath}
+  {Tom} {T.} {} {}\Bibbstasep \bibnf {Berners-Lee} {Tim} {T.} {} {}} {Christian
+  BizerTom HeathTim Berners-Lee} {aus} {sexless} {\bibapifont {Linked data: The
+  story so far}\bibatsep {} \incolledformat {}{}{\bibbtfont {Semantic services,
+  interoperability and web applications: emerging concepts} }{}{}  \apyformat
+  {\jbpublisher{IGI Global\bibbdsep {}} 2011}  \jbPages{205--227}}
+  {\bibhowcited} \jbdoitem {{Bizer}{Christian}{C.}{}{}; {Heath}{Tom}{T.}{}{};
+  {Berners-Lee}{Tim}{T.}{}{}} {} {} \bibAnnoteFile {bizer2011linked}
+
+\backrefparscanfalse
+\bibitem[{Borst\jbbtasep Borst\jbdy {1997}}%
+         {}%
+         {{0}{}{phdthesis}{1997}{}{}{}{}%
+          {Netherlands\bpubaddr {} Centre for Telematics and Information
+  Technology\bibbdsep {} 1997}}%
+         {{Construction of Engineering Ontologies for Knowledge Sharing and
+  Reuse}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{borst1997construction}
+ \jbbibargs {\bibnf {Borst} {{Willem Nico}} {W.} {} {}\Bibbtasep \bibnf {Borst}
+  {W.N.} {W.} {} {}} {{Willem Nico} BorstW.N. Borst} {aus} {sexless} {\bibtfont
+  {Construction of Engineering Ontologies for Knowledge Sharing and
+  Reuse}\bibatsep {} \apyformat {\phdthesisname, Netherlands\bibbdsep {} 1997}}
+  {\bibhowcited} \jbdoitem {{Borst}{{Willem Nico}}{W.}{}{};
+  {Borst}{W.N.}{W.}{}{}} {} {} \bibAnnoteFile {borst1997construction}
+
+\backrefparscanfalse
+\bibitem[{Burghardt\jbbfsasep Wolff\jbbstasep Womser-Hacker\jbdy {2015}}%
+         {Information-Wissenschaft \& Praxis, \Numbername~5-6, \volname~66,
+  \jbsy {2015}}%
+         {{0}{}{article}{2015}{}{}{}{285--286}%
+          {De Gruyter\bibbdsep {} 2015}}%
+         {{Informationsinfrastruktur und informationswissenschaftliche Methoden
+  in den digitalen Geisteswissenschaften}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{burghardt2015informationsinfrastruktur}
+ \jburldef
+  {burghardt2015informationsinfrastruktur}{https://doi.org/10.1515/iwp-2015-0052}%
+ \jbbibargs {\bibnf {Burghardt} {Manuel} {M.} {} {}\Bibbfsasep \bibnf {Wolff}
+  {Christian} {C.} {} {}\Bibbstasep \bibnf {Womser-Hacker} {Christa} {C.} {}
+  {}} {Manuel BurghardtChristian WolffChrista Womser-Hacker} {aus} {sexless}
+  {\bibapifont {Informationsinfrastruktur und informationswissenschaftliche
+  Methoden in den digitalen Geisteswissenschaften}\bibatsep {} \bibJTsep
+  \bibjtfont {Information-Wissenschaft \& Praxis}\ajtsep {}  \artvolumeformat
+  {66} \artyearformat {2015}\artnumberformat {5-6} \jbPages{285--286} \jburluse
+  {burghardt2015informationsinfrastruktur}} {\bibartperiodhowcited} \jbdoitem
+  {{Burghardt}{Manuel}{M.}{}{}; {Wolff}{Christian}{C.}{}{};
+  {Womser-Hacker}{Christa}{C.}{}{}} {} {} \bibAnnoteFile
+  {burghardt2015informationsinfrastruktur}
+
+\backrefparscanfalse
+\bibitem[{Bursztyn\Bibetal\jbdy {2015}}%
+         {}%
+         {{0}{}{inproceedings}{2015}{}{}{}{1541--1544}%
+          {2015}}%
+         {{Reasoning on web data: Algorithms and performance}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{bursztyn2015reasoning}
+ \jbbibargs {\bibnf {Bursztyn} {D.} {D.} {} {}\bibIMfont {\Bibetal}} {D.
+  BursztynF. GoasdouéI. ManolescuA. Roatiş} {aus} {sexless} {\bibapifont
+  {Reasoning on web data: Algorithms and performance}\bibatsep {}
+  \incolledformat {}{}{\bibbtfont {2015 IEEE 31st International Conference on
+  Data Engineering}\bibatsep {} }{}{}   \apyformat {April 2015}
+  \jbPages{1541--1544}} {\bibhowcited} \jbdoitem {{Bursztyn}{D.}{D.}{}{};
+  {Goasdoué}{F.}{F.}{}{}; {Manolescu}{I.}{I.}{}{}; {Roatiş}{A.}{A.}{}{}} {}
+  {} \bibAnnoteFile {bursztyn2015reasoning}
+
+\backrefparscanfalse
+\bibitem[{Bursztyn\jbbfsasep Goasdou{\'e}\jbbstasep Manolescu\jbdy {2015}}%
+         {Proceedings of the VLDB Endowment, \Numbername~12, \volname~8, \jbsy
+  {2015}}%
+         {{0}{}{article}{2015}{}{}{}{1888--1891}%
+          {VLDB Endowment\bibbdsep {} 2015}}%
+         {{Reformulation-based query answering in RDF: alternatives and
+  performance}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{bursztyn2015reformulation}
+ \jburldef
+  {bursztyn2015reformulation}{http://dx.doi.org/10.14778/2824032.2824093}%
+ \jbbibargs {\bibnf {Bursztyn} {Damian} {D.} {} {}\Bibbfsasep \bibnf
+  {Goasdou{\'e}} {Fran{\c{c}}ois} {F.} {} {}\Bibbstasep \bibnf {Manolescu}
+  {Ioana} {I.} {} {}} {Damian BursztynFran{\c{c}}ois Goasdou{\'e}Ioana
+  Manolescu} {aus} {sexless} {\bibapifont {Reformulation-based query answering
+  in RDF: alternatives and performance}\bibatsep {} \bibJTsep \bibjtfont
+  {Proceedings of the VLDB Endowment}\ajtsep {}  \artvolumeformat {8}
+  \artyearformat {2015}\artnumberformat {12} \jbPages{1888--1891} \jburluse
+  {bursztyn2015reformulation}} {\bibartperiodhowcited} \jbdoitem
+  {{Bursztyn}{Damian}{D.}{}{}; {Goasdou{\'e}}{Fran{\c{c}}ois}{F.}{}{};
+  {Manolescu}{Ioana}{I.}{}{}} {} {} \bibAnnoteFile {bursztyn2015reformulation}
+
+\backrefparscanfalse
+\bibitem[{B{\"u}ttcher\jbbfsasep Clarke\jbbstasep Cormack\jbdy {2016}}%
+         {}%
+         {{0}{}{book}{2016}{}{}{}{}%
+          {Mit Press\bibbdsep {} 2016}}%
+         {{Information retrieval: Implementing and evaluating search engines}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{buttcher2016information}
+ \jbbibargs {\bibnf {B{\"u}ttcher} {Stefan} {S.} {} {}\Bibbfsasep \bibnf
+  {Clarke} {Charles~LA} {C.~L.} {} {}\Bibbstasep \bibnf {Cormack} {Gordon~V}
+  {G.~V.} {} {}} {Stefan B{\"u}ttcherCharles~LA ClarkeGordon~V Cormack} {aus}
+  {sexless} {\bibtfont {Information retrieval: Implementing and evaluating
+  search engines}\bibatsep {}  \apyformat {\jbpublisher{Mit Press\bibbdsep {}}
+  2016}} {\bibhowcited} \jbdoitem {{B{\"u}ttcher}{Stefan}{S.}{}{};
+  {Clarke}{Charles~LA}{C.~L.}{}{}; {Cormack}{Gordon~V}{G.~V.}{}{}} {} {}
+  \bibAnnoteFile {buttcher2016information}
+
+\backrefparscanfalse
+\bibitem[{Cardoso\jbdy {2007}}%
+         {IEEE Intelligent systems, \Numbername~5, \volname~22, \jbsy {2007}}%
+         {{0}{}{article}{2007}{}{}{}{84--88}%
+          {IEEE\bibbdsep {} 2007}}%
+         {{The semantic web vision: Where are we?}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{cardoso2007semantic}
+ \jbbibargs {\bibnf {Cardoso} {Jorge} {J.} {} {}} {Jorge Cardoso} {au}
+  {sexless} {\bibapifont {The semantic web vision: Where are we?} \bibJTsep
+  \bibjtfont {IEEE Intelligent systems}\ajtsep {}  \artvolumeformat {22}
+  \artyearformat {2007}\artnumberformat {5} \jbPages{84--88}}
+  {\bibartperiodhowcited} \jbdoitem {{Cardoso}{Jorge}{J.}{}{}} {} {}
+  \bibAnnoteFile {cardoso2007semantic}
+
+\backrefparscanfalse
+\bibitem[{Chergui\jbbfsasep Chikhi\jbbstasep Kechadi\jbdy {2017}}%
+         {{IJGUC}, \Numbername~4, \volname~8, \jbsy {2017}}%
+         {{0}{}{article}{2017}{}{}{}{269--281}%
+          {2017}}%
+         {{Semantic Grid resource discovery based on {SKOS} ontology}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{DBLP:journals/ijguc/CherguiCK17}
+ \jburldef
+  {DBLP:journals/ijguc/CherguiCK17}{https://doi.org/10.1504/IJGUC.2017.10009365}%
+ \jbbibargs {\bibnf {Chergui} {Nabila} {N.} {} {}\Bibbfsasep \bibnf {Chikhi}
+  {Salim} {S.} {} {}\Bibbstasep \bibnf {Kechadi} {M.~Tahar} {M.~T.} {} {}}
+  {Nabila CherguiSalim ChikhiM.~Tahar Kechadi} {aus} {sexless} {\bibapifont
+  {Semantic Grid resource discovery based on {SKOS} ontology}\bibatsep {}
+  \bibJTsep \bibjtfont {{IJGUC}}\ajtsep {}  \artvolumeformat {8} \artyearformat
+  {2017}\artnumberformat {4} \jbPages{269--281} \jburluse
+  {DBLP:journals/ijguc/CherguiCK17}} {\bibartperiodhowcited} \jbdoitem
+  {{Chergui}{Nabila}{N.}{}{}; {Chikhi}{Salim}{S.}{}{};
+  {Kechadi}{M.~Tahar}{M.~T.}{}{}} {} {} \bibAnnoteFile
+  {DBLP:journals/ijguc/CherguiCK17}
+
+\backrefparscanfalse
+\bibitem[{Chiarcos\jbbtasep Sukhareva\jbdy {2015}}%
+         {Semantic Web, \Numbername~4, \volname~6, \jbsy {2015}}%
+         {{0}{}{article}{2015}{}{}{}{379--386}%
+          {IOS Press\bibbdsep {} 2015}}%
+         {{Olia--ontologies of linguistic annotation}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{chiarcos2015olia}
+ \jbbibargs {\bibnf {Chiarcos} {Christian} {C.} {} {}\Bibbtasep \bibnf
+  {Sukhareva} {Maria} {M.} {} {}} {Christian ChiarcosMaria Sukhareva} {aus}
+  {sexless} {\bibapifont {Olia--ontologies of linguistic annotation}\bibatsep
+  {} \bibJTsep \bibjtfont {Semantic Web}\ajtsep {}  \artvolumeformat {6}
+  \artyearformat {2015}\artnumberformat {4} \jbPages{379--386}}
+  {\bibartperiodhowcited} \jbdoitem {{Chiarcos}{Christian}{C.}{}{};
+  {Sukhareva}{Maria}{M.}{}{}} {} {} \bibAnnoteFile {chiarcos2015olia}
+
+\backrefparscanfalse
+\bibitem[{Clarke\jbbtasep Harley\jbdy {2014}}%
+         {Science Editor, \volname~37, \jbsy {2014}}%
+         {{0}{}{article}{2014}{}{}{}{40--44}%
+          {2014}}%
+         {{How Smart Is Your Content? Using Semantic Enrichment to Improve Your
+  User Experience and Your Bottom Line}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{Clarke2014semanticenrichment}
+ \jbbibargs {\bibnf {Clarke} {Michael} {M.} {} {}\Bibbtasep \bibnf {Harley}
+  {Pam} {P.} {} {}} {Michael ClarkePam Harley} {aus} {sexless} {\bibapifont
+  {How Smart Is Your Content? Using Semantic Enrichment to Improve Your User
+  Experience and Your Bottom Line}\bibatsep {} \bibJTsep \bibjtfont {Science
+  Editor}\ajtsep {}  \artvolumeformat {37} \artyearformat {2014}
+  \jbPages{40--44}} {\bibartperiodhowcited} \jbdoitem
+  {{Clarke}{Michael}{M.}{}{}; {Harley}{Pam}{P.}{}{}} {} {} \bibAnnoteFile
+  {Clarke2014semanticenrichment}
+
+\backrefparscanfalse
+\bibitem[{Cremer\jbbfsasep Klaffki\jbbstasep Steyer\jbdy {2018}}%
+         {o-bib. Das offene Bibliotheksjournal \jbsy {2018}}%
+         {{0}{}{article}{2018}{}{}{}{}%
+          {2018}}%
+         {{Der Chim{\"a}re auf der Spur: Forschungsdaten in den
+  Geisteswissenschaften. o-bib, 5 (2), 142--162}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{cremer2018chimare}
+ \jburldef {cremer2018chimare}{https://doi.org/10.5282/o-bib/2018H2S142-162}%
+ \jbbibargs {\bibnf {Cremer} {F} {F.} {} {}\Bibbfsasep \bibnf {Klaffki} {L}
+  {L.} {} {}\Bibbstasep \bibnf {Steyer} {T} {T.} {} {}} {F CremerL KlaffkiT
+  Steyer} {aus} {sexless} {\bibapifont {Der Chim{\"a}re auf der Spur:
+  Forschungsdaten in den Geisteswissenschaften. o-bib, 5 (2),
+  142--162}\bibatsep {} \bibJTsep \bibjtfont {o-bib. Das offene
+  Bibliotheksjournal}\ajtsep {}  \artyearformat {2018} \jburluse
+  {cremer2018chimare}} {\bibartperiodhowcited} \jbdoitem {{Cremer}{F}{F.}{}{};
+  {Klaffki}{L}{L.}{}{}; {Steyer}{T}{T.}{}{}} {} {} \bibAnnoteFile
+  {cremer2018chimare}
+
+\backrefparscanfalse
+\bibitem[{d'Amato\Bibetal\jbdy {2016}}%
+         {}%
+         {{0}{}{inproceedings}{2016}{}{}{}{333--338}%
+          {2016}}%
+         {{Ontology enrichment by discovering multi-relational association
+  rules from ontological knowledge bases}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{d2016ontology}
+ \jbbibargs {\bibnf {d'Amato} {Claudia} {C.} {} {}\bibIMfont {\Bibetal}}
+  {Claudia d'AmatoSteffen StaabAndrea~GB TettamanziTran~Duc MinhFabien Gandon}
+  {aus} {sexless} {\bibapifont {Ontology enrichment by discovering
+  multi-relational association rules from ontological knowledge bases}\bibatsep
+  {} \incolledformat {}{}{\bibbtfont {Proceedings of the 31st Annual ACM
+  Symposium on Applied Computing}\bibatsep {} }{}{} ACM  \apyformat {2016}
+  \jbPages{333--338}} {\bibhowcited} \jbdoitem {{d'Amato}{Claudia}{C.}{}{};
+  {Staab}{Steffen}{S.}{}{}; {Tettamanzi}{Andrea~GB}{A.~G.}{}{};
+  {Minh}{Tran~Duc}{T.~D.}{}{}; {Gandon}{Fabien}{F.}{}{}} {} {{ACM}{}{}{}{}}
+  \bibAnnoteFile {d2016ontology}
+
+\backrefparscanfalse
+\bibitem[{Damiano\jbbfsasep Lieto\jbbstasep Lombardo\jbdy {2014}}%
+         {}%
+         {{0}{}{inproceedings}{2014}{}{}{}{558--563}%
+          {Birmingham\bibbdsep {} 2014}}%
+         {{Ontology-Based Visualisation of Cultural Heritage}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{DamianoLL14}
+ \jburldef {DamianoLL14}{https://doi.org/10.1109/CISIS.2014.81}%
+ \jbbibargs {\bibnf {Damiano} {Rossana} {R.} {} {}\Bibbfsasep \bibnf {Lieto}
+  {Antonio} {A.} {} {}\Bibbstasep \bibnf {Lombardo} {Vincenzo} {V.} {} {}}
+  {Rossana DamianoAntonio LietoVincenzo Lombardo} {aus} {sexless} {\bibapifont
+  {Ontology-Based Visualisation of Cultural Heritage}\bibatsep {}
+  \incolledformat {}{}{\bibbtfont {CISIS}\bibatsep {} }{}{}  \apyformat
+  {Birmingham\bibbdsep {} 2014} \jburluse {DamianoLL14}  \jbPages{558--563}}
+  {\bibhowcited} \jbdoitem {{Damiano}{Rossana}{R.}{}{};
+  {Lieto}{Antonio}{A.}{}{}; {Lombardo}{Vincenzo}{V.}{}{}} {} {} \bibAnnoteFile
+  {DamianoLL14}
+
+\backrefparscanfalse
+\bibitem[{Favre-Bulle\jbdy {2001}}%
+         {}%
+         {{0}{}{book}{2001}{}{}{}{}%
+          {Springer\bibbdsep {} 2001}}%
+         {{Information und Zusammenhang: Informationsflu{\ss} in Prozessen der
+  Wahrnehmung, des Denkens und der Kommunikation}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{favre2001information}
+ \jbbibargs {\bibnf {Favre-Bulle} {Bernard} {B.} {} {}} {Bernard Favre-Bulle}
+  {au} {sexless} {\bibtfont {Information und Zusammenhang: Informationsflu{\ss}
+  in Prozessen der Wahrnehmung, des Denkens und der Kommunikation}\bibatsep {}
+  \apyformat {\jbpublisher{Springer\bibbdsep {}} 2001}} {\bibhowcited}
+  \jbdoitem {{Favre-Bulle}{Bernard}{B.}{}{}} {} {} \bibAnnoteFile
+  {favre2001information}
+
+\backrefparscanfalse
+\bibitem[{Garc{\'{\i}}a\Bibetal\jbdy {2013}}%
+         {}%
+         {{0}{}{inproceedings}{2013}{}{}{}{233--240}%
+          {2013}}%
+         {{Ontology-Based Resource Discovery in Pervasive Collaborative
+  Environments}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{GarciaKMD13}
+ \jburldef {GarciaKMD13}{https://doi.org/10.1007/978-3-642-41347-6\_17}%
+ \jbbibargs {\bibnf {Garc{\'{\i}}a} {Kimberly} {K.} {} {}\bibIMfont {\Bibetal}}
+  {Kimberly Garc{\'{\i}}aManuele Kirsch{-}PinheiroSonia MendozaDominique
+  Decouchant} {aus} {sexless} {\bibapifont {Ontology-Based Resource Discovery
+  in Pervasive Collaborative Environments}\bibatsep {} \incolledformat
+  {}{}{\bibbtfont {Collaboration and Technology - 19th International
+  Conference, Proceedings}\bibatsep {} }{}{}   \apyformat {2013} \jburluse
+  {GarciaKMD13}  \jbPages{233--240}} {\bibhowcited} \jbdoitem
+  {{Garc{\'{\i}}a}{Kimberly}{K.}{}{}; {Kirsch{-}Pinheiro}{Manuele}{M.}{}{};
+  {Mendoza}{Sonia}{S.}{}{}; {Decouchant}{Dominique}{D.}{}{}} {} {}
+  \bibAnnoteFile {GarciaKMD13}
+
+\backrefparscanfalse
+\bibitem[{Gruber\jbdy {1993}}%
+         {Knowledge Acquisition, \Numbername~2, \volname~5, \jbsy {1993}}%
+         {{0}{}{article}{1993}{}{}{}{199 -- 220}%
+          {1993}}%
+         {{A translation approach to portable ontology specifications}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{gruber1993translation}
+ \jburldef
+  {gruber1993translation}{http://www.sciencedirect.com/science/article/pii/S1042814383710083}%
+ \jbbibargs {\bibnf {Gruber} {Thomas~R.} {T.~R.} {} {}} {Thomas~R. Gruber} {au}
+  {sexless} {\bibapifont {A translation approach to portable ontology
+  specifications}\bibatsep {} \bibJTsep \bibjtfont {Knowledge
+  Acquisition}\ajtsep {}  \artvolumeformat {5} \artyearformat
+  {1993}\artnumberformat {2} \jbPages{199 -- 220} \jburluse
+  {gruber1993translation}} {\bibartperiodhowcited} \jbdoitem
+  {{Gruber}{Thomas~R.}{T.~R.}{}{}} {} {} \bibAnnoteFile {gruber1993translation}
+
+\backrefparscanfalse
+\bibitem[{van Harmelen\Bibetal\jbdy {2001}}%
+         {}%
+         {{0}{}{inproceedings}{2001}{}{}{}{546--554}%
+          {London\bibbdsep {} 2001}}%
+         {{Ontology-Based Information Visualisation}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{HarmelenBFHKMS01}
+ \jburldef {HarmelenBFHKMS01}{https://doi.org/10.1109/IV.2001.942109}%
+ \jbbibargs {\bibnf {Harmelen} {Frank} {F.} {van} {}\bibIMfont {\Bibetal}}
+  {Frank van HarmelenJeen BroekstraChristiaan FluitHerko ter HorstArjohn
+  KampmanJos van~der MeerMarta Sabou} {aus} {sexless} {\bibapifont
+  {Ontology-Based Information Visualisation}\bibatsep {} \incolledformat
+  {}{}{\bibbtfont {International Conference on Information
+  Visualisation}\bibatsep {} }{}{}  \apyformat {London\bibbdsep {} 2001}
+  \jburluse {HarmelenBFHKMS01}  \jbPages{546--554}} {\bibhowcited} \jbdoitem
+  {{Harmelen}{Frank}{F.}{van}{}; {Broekstra}{Jeen}{J.}{}{};
+  {Fluit}{Christiaan}{C.}{}{}; {Horst}{Herko}{H.}{ter}{};
+  {Kampman}{Arjohn}{A.}{}{}; {Meer}{Jos}{J.}{van~der}{};
+  {Sabou}{Marta}{M.}{}{}} {} {} \bibAnnoteFile {HarmelenBFHKMS01}
+
+\backrefparscanfalse
+\bibitem[{Hitzler\Bibetal\jbdy {2016}}%
+         {}%
+         {{0}{}{book}{2016}{}{}{}{}%
+          {IOS Press\bibbdsep {} 2016}}%
+         {{Ontology Engineering with Ontology Design Patterns: Foundations and
+  Applications}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{hitzler2016ontology}
+ \jbbibargs {\bibnf {Hitzler} {Pascal} {P.} {} {}\bibIMfont {\Bibetal}} {Pascal
+  HitzlerAldo GangemiKrzysztof JanowiczKrisnadhi AdilaPresutti Valentina} {aus}
+  {sexless} {\bibtfont {Ontology Engineering with Ontology Design Patterns:
+  Foundations and Applications}\bibatsep {}  \apyformat {\jbpublisher{IOS
+  Press\bibbdsep {}} 2016}} {\bibhowcited} \jbdoitem
+  {{Hitzler}{Pascal}{P.}{}{}; {Gangemi}{Aldo}{A.}{}{};
+  {Janowicz}{Krzysztof}{K.}{}{}; {Adila}{Krisnadhi}{K.}{}{};
+  {Valentina}{Presutti}{P.}{}{}} {} {} \bibAnnoteFile {hitzler2016ontology}
+
+\backrefparscanfalse
+\bibitem[{Hoekstra\jbdy {2009}}%
+         {}%
+         {{0}{}{inproceedings}{2009}{}{}{}{1--236}%
+          {Amsterdam\bpubaddr {} IOS Press\bibbdsep {} 2009}}%
+         {{Ontology RepresentationDesign Patterns and Ontologies That Make
+  Sense}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{hoekstra2009ontology}
+ \jburldef
+  {hoekstra2009ontology}{http://dl.acm.org/citation.cfm?id=1659447.1659449}%
+ \jbbibargs {\bibnf {Hoekstra} {Rinke} {R.} {} {}} {Rinke Hoekstra} {au}
+  {sexless} {\bibapifont {Ontology RepresentationDesign Patterns and Ontologies
+  That Make Sense}\bibatsep {} \incolledformat {}{}{\bibbtfont {Proceedings of
+  the 2009 Conference on Ontology Representation: Design Patterns and
+  Ontologies That Make Sense}\bibatsep {} }{}{}  \apyformat
+  {Amsterdam\jbpublisher{\bpubaddr {} IOS Press}\bibbdsep {} 2009} \jburluse
+  {hoekstra2009ontology}  \jbPages{1--236}} {\bibhowcited} \jbdoitem
+  {{Hoekstra}{Rinke}{R.}{}{}} {} {} \bibAnnoteFile {hoekstra2009ontology}
+
+\backrefparscanfalse
+\bibitem[{J{\"a}ger-Dengler-Harles\jbdy {2015}}%
+         {Mitteilungen der Vereinigung {\"O}sterreichischer Bibliothekarinnen
+  \& Bibliothekare, \Numbername~3/4, \volname~68, \jbsy {2015}}%
+         {{0}{}{article}{2015}{}{}{}{416--438}%
+          {Vereinigung {\"O}sterreichischer Bibliothekarinnen \&
+  Bibliothekare\bibbdsep {} 2015}}%
+         {{Informationsvisualisierung und Retrieval}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{jager2015informationsvisualisierung}
+ \jburldef
+  {jager2015informationsvisualisierung}{http://eprints.rclis.org/28725}%
+ \jbbibargs {\bibnf {J{\"a}ger-Dengler-Harles} {Ingeborg} {I.} {} {}} {Ingeborg
+  J{\"a}ger-Dengler-Harles} {au} {sexless} {\bibapifont
+  {Informationsvisualisierung und Retrieval}\bibatsep {} \bibJTsep \bibjtfont
+  {Mitteilungen der Vereinigung {\"O}sterreichischer Bibliothekarinnen \&
+  Bibliothekare}\ajtsep {}  \artvolumeformat {68} \artyearformat
+  {2015}\artnumberformat {3/4} \jbPages{416--438} \jburluse
+  {jager2015informationsvisualisierung}} {\bibartperiodhowcited} \jbdoitem
+  {{J{\"a}ger-Dengler-Harles}{Ingeborg}{I.}{}{}} {} {} \bibAnnoteFile
+  {jager2015informationsvisualisierung}
+
+\backrefparscanfalse
+\bibitem[{Kelly\jbdy {2016}}%
+         {}%
+         {{0}{}{book}{2016}{}{}{}{}%
+          {Elsevier\bibbdsep {} 2016}}%
+         {{Practical knowledge engineering}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{kelly2016practical}
+ \jbbibargs {\bibnf {Kelly} {Richard} {R.} {} {}} {Richard Kelly} {au}
+  {sexless} {\bibtfont {Practical knowledge engineering}\bibatsep {}
+  \apyformat {\jbpublisher{Elsevier\bibbdsep {}} 2016}} {\bibhowcited}
+  \jbdoitem {{Kelly}{Richard}{R.}{}{}} {} {} \bibAnnoteFile
+  {kelly2016practical}
+
+\backrefparscanfalse
+\bibitem[{Khalili\jbbfsasep Loizou\jbbstasep van Harmelen\jbdy {2016}}%
+         {}%
+         {{0}{}{inproceedings}{2016}{}{}{}{677--692}%
+          {Cham\bpubaddr {} Springer\bibbdsep {} 2016}}%
+         {{Adaptive Linked Data-Driven Web Components: Building Flexible and
+  Reusable Semantic Web Interfaces}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{Khalili2016Adaptive}
+ \jbbibargs {\bibnf {Khalili} {Ali} {A.} {} {}\Bibbfsasep \bibnf {Loizou}
+  {Antonis} {A.} {} {}\Bibbstasep \bibnf {Harmelen} {Frank} {F.} {van} {}} {Ali
+  KhaliliAntonis LoizouFrank van Harmelen} {aus} {sexless} {\bibapifont
+  {Adaptive Linked Data-Driven Web Components: Building Flexible and Reusable
+  Semantic Web Interfaces}\bibatsep {} \incolledformat {\bibenf {Sack} {Harald}
+  {H.} {} {}\bibIMfont {\Bibetal}}{\edfont {\editorsname}}{\bibbtfont {The
+  Semantic Web. Latest Advances and New Domains}\bibatsep {} }{}{}  \apyformat
+  {Cham\jbpublisher{\bpubaddr {} Springer}\bibbdsep {} 2016}
+  \jbPages{677--692}} {\bibhowcited} \jbdoitem {{Khalili}{Ali}{A.}{}{};
+  {Loizou}{Antonis}{A.}{}{}; {Harmelen}{Frank}{F.}{van}{}}
+  {{Sack}{Harald}{H.}{}{}; {Blomqvist}{Eva}{E.}{}{};
+  {d'Aquin}{Mathieu}{M.}{}{}; {Ghidini}{Chiara}{C.}{}{};
+  {Ponzetto}{Simone~Paolo}{S.~P.}{}{}; {Lange}{Christoph}{C.}{}{}} {}
+  \bibAnnoteFile {Khalili2016Adaptive}
+
+\backrefparscanfalse
+\bibitem[{Lacroix\jbbtasep Aziz\jbdy {2010}}%
+         {IJMSO, \Numbername~3, \volname~5, \jbsy {2010}}%
+         {{0}{}{article}{2010}{}{}{}{194--207}%
+          {2010}}%
+         {{Resource descriptions, ontology, and resource discovery}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{LacroixA10}
+ \jburldef {LacroixA10}{https://doi.org/10.1504/IJMSO.2010.034044/LacroixA10}%
+ \jbbibargs {\bibnf {Lacroix} {Zo{\'{e}}} {Z.} {} {}\Bibbtasep \bibnf {Aziz}
+  {Maliha} {M.} {} {}} {Zo{\'{e}} LacroixMaliha Aziz} {aus} {sexless}
+  {\bibapifont {Resource descriptions, ontology, and resource
+  discovery}\bibatsep {} \bibJTsep \bibjtfont {IJMSO}\ajtsep {}
+  \artvolumeformat {5} \artyearformat {2010}\artnumberformat {3}
+  \jbPages{194--207} \jburluse {LacroixA10}} {\bibartperiodhowcited} \jbdoitem
+  {{Lacroix}{Zo{\'{e}}}{Z.}{}{}; {Aziz}{Maliha}{M.}{}{}} {} {} \bibAnnoteFile
+  {LacroixA10}
+
+\backrefparscanfalse
+\bibitem[{Latour\jbdy {2016}}%
+         {}%
+         {{0}{}{article}{2016}{}{}{}{}%
+          {2016}}%
+         {{Zirkulierende Referenz. Bodenstichproben aus dem Urwald am
+  Amazonas}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{latour2016zirkulierende}
+ \jbbibargs {\bibnf {Latour} {Bruno} {B.} {} {}} {Bruno Latour} {au} {sexless}
+  {\bibapifont {Zirkulierende Referenz. Bodenstichproben aus dem Urwald am
+  Amazonas}\bibatsep {}  \artyearformat {2016}} {\bibartperiodhowcited}
+  \jbdoitem {{Latour}{Bruno}{B.}{}{}} {} {} \bibAnnoteFile
+  {latour2016zirkulierende}
+
+\backrefparscanfalse
+\bibitem[{LIEGMANN\jbbtasep NEUROTH\jbdy {2010}}%
+         {}%
+         {{0}{}{incollection}{2010}{}{}{}{19--29}%
+          {Göttingen\bibbdsep {} 2010}}%
+         {{Einführung}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{NESTOR}
+ \jbbibargs {\bibnf {LIEGMANN} {Hans} {H.} {} {}\Bibbtasep \bibnf {NEUROTH}
+  {Heike} {H.} {} {}} {Hans LIEGMANNHeike NEUROTH} {aus} {sexless} {\bibapifont
+  {Einführung}\bibatsep {} \incolledformat {}{}{\bibbtfont {nestor Handbuch.
+  Eine Enzyklopädie der digitalen Langzeitarchivierung} }{}{}  \apyformat
+  {Göttingen\bibbdsep {} 2010}  \jbPages{19--29}} {\bibhowcited} \jbdoitem
+  {{LIEGMANN}{Hans}{H.}{}{}; {NEUROTH}{Heike}{H.}{}{}} {} {} \bibAnnoteFile
+  {NESTOR}
+
+\backrefparscanfalse
+\bibitem[{Linckels\jbbtasep Meinel\jbdy {2011}}%
+         {}%
+         {{0}{}{book}{2011}{}{}{}{}%
+          {Springer\bibbdsep {} 2011}}%
+         {{E-librarian service: user-friendly semantic search in digital
+  libraries}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{linckels2011librarian}
+ \jbbibargs {\bibnf {Linckels} {Serge} {S.} {} {}\Bibbtasep \bibnf {Meinel}
+  {Christoph} {C.} {} {}} {Serge LinckelsChristoph Meinel} {aus} {sexless}
+  {\bibtfont {E-librarian service: user-friendly semantic search in digital
+  libraries}\bibatsep {}  \apyformat {\jbpublisher{Springer\bibbdsep {}} 2011}}
+  {\bibhowcited} \jbdoitem {{Linckels}{Serge}{S.}{}{};
+  {Meinel}{Christoph}{C.}{}{}} {} {} \bibAnnoteFile {linckels2011librarian}
+
+\backrefparscanfalse
+\bibitem[{Llanes-Padrón\jbbtasep Pastor-Sánchez\jbdy {2017}}%
+         {Program, \Numbername~4, \volname~51, \jbsy {2017}}%
+         {{0}{}{article}{2017}{}{}{}{387--405}%
+          {2017}}%
+         {{Records in contexts: the road of archives to semantic
+  interoperability}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{llanes2017records}
+ \jburldef {llanes2017records}{https://doi.org/10.1108/PROG-03-2017-0021}%
+ \jbbibargs {\bibnf {Llanes-Padrón} {Dunia} {D.} {} {}\Bibbtasep \bibnf
+  {Pastor-Sánchez} {Juan-Antonio} {J.-A.} {} {}} {Dunia
+  Llanes-PadrónJuan-Antonio Pastor-Sánchez} {aus} {sexless} {\bibapifont
+  {Records in contexts: the road of archives to semantic
+  interoperability}\bibatsep {} \bibJTsep \bibjtfont {Program}\ajtsep {}
+  \artvolumeformat {51} \artyearformat {2017}\artnumberformat {4}
+  \jbPages{387--405} \jburluse {llanes2017records}} {\bibartperiodhowcited}
+  \jbdoitem {{Llanes-Padrón}{Dunia}{D.}{}{};
+  {Pastor-Sánchez}{Juan-Antonio}{J.-A.}{}{}} {} {} \bibAnnoteFile
+  {llanes2017records}
+
+\backrefparscanfalse
+\bibitem[{Mero{\~{n}}o-Pe{\~{n}}uela\jbbtasep Hoekstra\jbdy {2014}}%
+         {}%
+         {{0}{}{inproceedings}{2014}{}{}{}{282--287}%
+          {Cham\bpubaddr {} Springer International Publishing\bibbdsep {}
+  2014}}%
+         {{What Is Linked Historical Data?}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{merono2014linked}
+ \jbbibargs {\bibnf {Mero{\~{n}}o-Pe{\~{n}}uela} {Albert} {A.} {} {}\Bibbtasep
+  \bibnf {Hoekstra} {Rinke} {R.} {} {}} {Albert Mero{\~{n}}o-Pe{\~{n}}uelaRinke
+  Hoekstra} {aus} {sexless} {\bibapifont {What Is Linked Historical Data?}
+  \incolledformat {\bibenf {Janowicz} {Krzysztof} {K.} {} {}\bibIMfont
+  {\Bibetal}}{\edfont {\editorsname}}{\bibbtfont {Knowledge Engineering and
+  Knowledge Management}\bibatsep {} }{}{}  \apyformat
+  {Cham\jbpublisher{\bpubaddr {} Springer International Publishing}\bibbdsep {}
+  2014}\jbisbn {978--3--319--13704--9}  \jbPages{282--287}} {\bibhowcited}
+  \jbdoitem {{Mero{\~{n}}o-Pe{\~{n}}uela}{Albert}{A.}{}{};
+  {Hoekstra}{Rinke}{R.}{}{}} {{Janowicz}{Krzysztof}{K.}{}{};
+  {Schlobach}{Stefan}{S.}{}{}; {Lambrix}{Patrick}{P.}{}{};
+  {Hyv{\"o}nen}{Eero}{E.}{}{}} {} \bibAnnoteFile {merono2014linked}
+
+\backrefparscanfalse
+\bibitem[{Musen\jbdy {2015}}%
+         {AI Matters, \Numbername~4, \volname~1, \jbsy {2015}}%
+         {{0}{}{article}{2015}{}{}{}{4--12}%
+          {New York\bpubaddr {} ACM\bibbdsep {} 2015}}%
+         {{The Prot\'{E}G\'{E} Project: A Look Back and a Look Forward}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{musen2015protege}
+ \jburldef {musen2015protege}{http://doi.acm.org/10.1145/2757001.2757003}%
+ \jbbibargs {\bibnf {Musen} {Mark~A.} {M.~A.} {} {}} {Mark~A. Musen} {au}
+  {sexless} {\bibapifont {The Prot\'{E}G\'{E} Project: A Look Back and a Look
+  Forward}\bibatsep {} \bibJTsep \bibjtfont {AI Matters}\ajtsep {}
+  \artvolumeformat {1} \artyearformat {2015}\artnumberformat {4}
+  \jbPages{4--12} \jburluse {musen2015protege}} {\bibartperiodhowcited}
+  \jbdoitem {{Musen}{Mark~A.}{M.~A.}{}{}} {} {} \bibAnnoteFile
+  {musen2015protege}
+
+\backrefparscanfalse
+\bibitem[{Nareike\jbbtasep Schmidt\jbdy {2016}}%
+         {}%
+         {{0}{}{inproceedings}{2016}{}{}{}{12--15}%
+          {Leipzig\bibbdsep {} 2016}}%
+         {{Odruba - Ontology-driven Rule-based Visualisation}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{NareikeS16}
+ \jburldef {NareikeS16}{http://ceur-ws.org/Vol-1695/paper24.pdf}%
+ \jbbibargs {\bibnf {Nareike} {Andreas} {A.} {} {}\Bibbtasep \bibnf {Schmidt}
+  {Johannes} {J.} {} {}} {Andreas NareikeJohannes Schmidt} {aus} {sexless}
+  {\bibapifont {Odruba - Ontology-driven Rule-based Visualisation}\bibatsep {}
+  \incolledformat {}{}{\bibbtfont {Joint Proceedings of the Posters and Demos
+  Track of SEMANTiCS2016 SuCCESS'16}\bibatsep {} }{}{}  \apyformat
+  {Leipzig\bibbdsep {} 2016} \jburluse {NareikeS16}  \jbPages{12--15}}
+  {\bibhowcited} \jbdoitem {{Nareike}{Andreas}{A.}{}{};
+  {Schmidt}{Johannes}{J.}{}{}} {} {} \bibAnnoteFile {NareikeS16}
+
+\backrefparscanfalse
+\bibitem[{Navimipour\jbbfsasep Keshanchi\jbbstasep Milani\jbdy {2017}}%
+         {Electronic Commerce Research and Applications, \volname~26, \jbsy
+  {2017}}%
+         {{0}{}{article}{2017}{}{}{}{89--100}%
+          {2017}}%
+         {{Resources discovery in the cloud environments using collaborative
+  filtering and ontology relations}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{DBLP:journals/ecra/NavimipourKM17}
+ \jburldef
+  {DBLP:journals/ecra/NavimipourKM17}{https://doi.org/10.1016/j.elerap.2017.10.005}%
+ \jbbibargs {\bibnf {Navimipour} {Nima~Jafari} {N.~J.} {} {}\Bibbfsasep \bibnf
+  {Keshanchi} {Bahman} {B.} {} {}\Bibbstasep \bibnf {Milani} {Farnaz~Sharifi}
+  {F.~S.} {} {}} {Nima~Jafari NavimipourBahman KeshanchiFarnaz~Sharifi Milani}
+  {aus} {sexless} {\bibapifont {Resources discovery in the cloud environments
+  using collaborative filtering and ontology relations}\bibatsep {} \bibJTsep
+  \bibjtfont {Electronic Commerce Research and Applications}\ajtsep {}
+  \artvolumeformat {26} \artyearformat {2017} \jbPages{89--100} \jburluse
+  {DBLP:journals/ecra/NavimipourKM17}} {\bibartperiodhowcited} \jbdoitem
+  {{Navimipour}{Nima~Jafari}{N.~J.}{}{}; {Keshanchi}{Bahman}{B.}{}{};
+  {Milani}{Farnaz~Sharifi}{F.~S.}{}{}} {} {} \bibAnnoteFile
+  {DBLP:journals/ecra/NavimipourKM17}
+
+\backrefparscanfalse
+\bibitem[{Neher\jbbtasep Ritschel\jbdy {2011}}%
+         {}%
+         {{0}{}{inproceedings}{2011}{}{}{}{169--190}%
+          {2011}}%
+         {{Semantische Vernetzung von Forschungsdaten}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{neher2011semantische}
+ \jbbibargs {\bibnf {Neher} {G{\"u}nther} {G.} {} {}\Bibbtasep \bibnf
+  {Ritschel} {Bernd} {B.} {} {}} {G{\"u}nther NeherBernd Ritschel} {aus}
+  {sexless} {\bibapifont {Semantische Vernetzung von Forschungsdaten}\bibatsep
+  {} \incolledformat {\bibenf {Stephan~B{\"u}ttner} {Lars~M{\"u}ller} {L.~M.}
+  {} {Hans-Christoph~Hobohm}}{\edfont {\editorname}}{\bibbtfont {Handbuch
+  Forschungsdatenmanagement}\bibatsep {} }{6}{}   \apyformat {2011}
+  \jbPages{169--190}} {\bibhowcited} \jbdoitem {{Neher}{G{\"u}nther}{G.}{}{};
+  {Ritschel}{Bernd}{B.}{}{}}
+  {{Stephan~B{\"u}ttner}{Lars~M{\"u}ller}{L.~M.}{}{Hans-Christoph~Hobohm}} {}
+  \bibAnnoteFile {neher2011semantische}
+
+\backrefparscanfalse
+\bibitem[{Neuroth\jbbtasep Rapp\jbdy {2016}}%
+         {BIBLIOTHEK Forschung und Praxis, \Numbername~2, \volname~40, \jbsy
+  {2016}}%
+         {{0}{}{article}{2016}{}{}{}{264--270}%
+          {De Gruyter\bibbdsep {} 2016}}%
+         {{Nachhaltigkeit von digitalen Forschungsinfrastrukturen}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{neuroth2016nachhaltigkeit}
+ \jburldef {neuroth2016nachhaltigkeit}{https://doi.org/10.1515/bfp-2016-0022.}%
+ \jbbibargs {\bibnf {Neuroth} {Heike} {H.} {} {}\Bibbtasep \bibnf {Rapp}
+  {Andrea} {A.} {} {}} {Heike NeurothAndrea Rapp} {aus} {sexless} {\bibapifont
+  {Nachhaltigkeit von digitalen Forschungsinfrastrukturen}\bibatsep {}
+  \bibJTsep \bibjtfont {BIBLIOTHEK Forschung und Praxis}\ajtsep {}
+  \artvolumeformat {40} \artyearformat {2016}\artnumberformat {2}
+  \jbPages{264--270} \jburluse {neuroth2016nachhaltigkeit}}
+  {\bibartperiodhowcited} \jbdoitem {{Neuroth}{Heike}{H.}{}{};
+  {Rapp}{Andrea}{A.}{}{}} {} {} \bibAnnoteFile {neuroth2016nachhaltigkeit}
+
+\backrefparscanfalse
+\bibitem[{Neuroth\Bibetal\jbdy {2012}}%
+         {}%
+         {{0}{}{book}{2012}{}{}{}{}%
+          {Hülsbusch\bibbdsep {} 2012}}%
+         {{Langzeitarchivierung von Forschungsdaten. Eine Bestandsaufnahme}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{neuroth2012langzeit}
+ \jbbibargs {\bibnf {Neuroth} {Heike} {H.} {} {}\bibIMfont {\Bibetal}} {Heike
+  NeurothStefan StrathmannAchim O{\ss}waldJens KlumpJens Ludwig} {aus}
+  {sexless} {\bibtfont {Langzeitarchivierung von Forschungsdaten. Eine
+  Bestandsaufnahme}\bibatsep {}  \apyformat {\jbpublisher{Hülsbusch\bibbdsep
+  {}} 2012}} {\bibhowcited} \jbdoitem {{Neuroth}{Heike}{H.}{}{};
+  {Strathmann}{Stefan}{S.}{}{}; {O{\ss}wald}{Achim}{A.}{}{};
+  {Klump}{Jens}{J.}{}{}; {Ludwig}{Jens}{J.}{}{}} {} {} \bibAnnoteFile
+  {neuroth2012langzeit}
+
+\backrefparscanfalse
+\bibitem[{Oldman\jbbtasep Tanase\jbdy {2018}}%
+         {}%
+         {{0}{}{inproceedings}{2018}{}{}{}{325--340}%
+          {Cham\bpubaddr {} Springer\bibbdsep {} 2018}}%
+         {{Reshaping the Knowledge Graph by Connecting Researchers, Data and
+  Practices in ResearchSpace}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{oldman2018reshaping}
+ \jbbibargs {\bibnf {Oldman} {Dominic} {D.} {} {}\Bibbtasep \bibnf {Tanase}
+  {Diana} {D.} {} {}} {Dominic OldmanDiana Tanase} {aus} {sexless} {\bibapifont
+  {Reshaping the Knowledge Graph by Connecting Researchers, Data and Practices
+  in ResearchSpace}\bibatsep {} \incolledformat {\bibenf
+  {Vrande{\v{c}}i{\'{c}}} {Denny} {D.} {} {}\bibIMfont {\Bibetal}}{\edfont
+  {\editorsname}}{\bibbtfont {The Semantic Web -- ISWC 2018}\bibatsep {} }{}{}
+  \apyformat {Cham\jbpublisher{\bpubaddr {} Springer}\bibbdsep {} 2018}
+  \jbPages{325--340}} {\bibhowcited} \jbdoitem {{Oldman}{Dominic}{D.}{}{};
+  {Tanase}{Diana}{D.}{}{}} {{Vrande{\v{c}}i{\'{c}}}{Denny}{D.}{}{};
+  {Bontcheva}{Kalina}{K.}{}{}; {Su{\'a}rez-Figueroa}{Mari~Carmen}{M.~C.}{}{};
+  {Presutti}{Valentina}{V.}{}{}; {Celino}{Irene}{I.}{}{};
+  {Sabou}{Marta}{M.}{}{}; {Kaffee}{Lucie-Aim{\'e}e}{L.-A.}{}{};
+  {Simperl}{Elena}{E.}{}{}} {} \bibAnnoteFile {oldman2018reshaping}
+
+\backrefparscanfalse
+\bibitem[{Omerovic\jbbfsasep MILUTINOVIC\jbbstasep TOMAZIC\jbdy {2001}}%
+         {}%
+         {{0}{}{article}{2001}{}{}{}{}%
+          {2001}}%
+         {{Concepts, Ontologies, and Knowledge Representation}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{omerovic2001concepts}
+ \jbbibargs {\bibnf {Omerovic} {Sanida} {S.} {} {}\Bibbfsasep \bibnf
+  {MILUTINOVIC} {VELJKO} {V.} {} {}\Bibbstasep \bibnf {TOMAZIC} {SASO} {S.} {}
+  {}} {Sanida OmerovicVELJKO MILUTINOVICSASO TOMAZIC} {aus} {sexless}
+  {\bibapifont {Concepts, Ontologies, and Knowledge Representation}\bibatsep {}
+   \artyearformat {2001}} {\bibartperiodhowcited} \jbdoitem
+  {{Omerovic}{Sanida}{S.}{}{}; {MILUTINOVIC}{VELJKO}{V.}{}{};
+  {TOMAZIC}{SASO}{S.}{}{}} {} {} \bibAnnoteFile {omerovic2001concepts}
+
+\backrefparscanfalse
+\bibitem[{Pollin\jbdy {2017}}%
+         {}%
+         {{0}{}{}{2017}{}{}{}{}%
+          {Graz\bibbdsep {} 2017}}%
+         {{Vom Suchen, Stöbern und Finden : Information Retrieval am Beispiel
+  der Digitalen Sammlung des Hans Gross Kriminalmuseums}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{pollin2017suchen}
+ \jbbibargs {\bibnf {Pollin} {Christopher} {C.} {} {}} {Christopher Pollin}
+  {au} {sexless} {\bibtfont {Vom Suchen, Stöbern und Finden : Information
+  Retrieval am Beispiel der Digitalen Sammlung des Hans Gross
+  Kriminalmuseums}\bibatsep {} 2017} {\bibhowcited} \jbdoitem
+  {{Pollin}{Christopher}{C.}{}{}} {} {} \bibAnnoteFile {pollin2017suchen}
+
+\backrefparscanfalse
+\bibitem[{Pollin\Bibetal\jbdy {2018}}%
+         {}%
+         {{0}{}{inproceedings}{2018}{}{}{}{41--46}%
+          {2018}}%
+         {{Semantic Annotation in the Project ' Open Access Database
+  'Adjective-Adverb Interfaces' in Romance}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{pollin2018annotation}
+ \jbbibargs {\bibnf {Pollin} {Christopher} {C.} {} {}\bibIMfont {\Bibetal}}
+  {Christopher PollinGerlinde SchneiderKatharina GerhalterMartin Hummel} {aus}
+  {sexless} {\bibapifont {Semantic Annotation in the Project ' Open Access
+  Database 'Adjective-Adverb Interfaces' in Romance}\bibatsep {}
+  \incolledformat {\bibenf {Kübler} {Sandra} {S.} {} {}\Bibbtesep \bibenf
+  {Zinsmeister} {Heike} {H.} {} {}}{\edfont {\editorsname}}{\bibbtfont
+  {Annotation in Digital Humanities}\bibatsep {} }{}{}   \apyformat {2018}
+  \jbPages{41--46}} {\bibhowcited} \jbdoitem {{Pollin}{Christopher}{C.}{}{};
+  {Schneider}{Gerlinde}{G.}{}{}; {Gerhalter}{Katharina}{K.}{}{};
+  {Hummel}{Martin}{M.}{}{}} {{Kübler}{Sandra}{S.}{}{};
+  {Zinsmeister}{Heike}{H.}{}{}} {} \bibAnnoteFile {pollin2018annotation}
+
+\backrefparscanfalse
+\bibitem[{Polowinski\jbdy {2017}}%
+         {}%
+         {{0}{}{phdthesis}{2017}{}{}{}{}%
+          {2017}}%
+         {{Ontology-Driven, Guided Visualisation Supporting Explicit and
+  Composable Mappings}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{Polowinski17}
+ \jburldef
+  {Polowinski17}{http://nbn-resolving.de/urn:nbn:de:bsz:14-qucosa-229908}%
+ \jbbibargs {\bibnf {Polowinski} {Jan} {J.} {} {}} {Jan Polowinski} {au}
+  {sexless} {\bibtfont {Ontology-Driven, Guided Visualisation Supporting
+  Explicit and Composable Mappings}\bibatsep {} \apyformat
+  {\phdthesisname\bibbdsep {} 2017},  \jburluse {Polowinski17}} {\bibhowcited}
+  \jbdoitem {{Polowinski}{Jan}{J.}{}{}} {} {} \bibAnnoteFile {Polowinski17}
+
+\backrefparscanfalse
+\bibitem[{Rehbein\jbdy {2017}}%
+         {}%
+         {{0}{}{inbook}{2017}{}{}{}{328--342}%
+          {Stuttgart\bpubaddr {} J.B. Metzler\bibbdsep {} 2017}}%
+         {{Informationsvisualisierung}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{rehbein2017informationsvisualisierung}
+ \jburldef
+  {rehbein2017informationsvisualisierung}{https://doi.org/10.1007/978-3-476-05446-3_23}%
+ \jbbibargs {\bibnf {Rehbein} {Malte} {M.} {} {}\bibfnfont {;} \bibenf
+  {Jannidis} {Fotis} {F.} {} {}\Bibbfsesep \bibenf {Kohle} {Hubertus} {H.} {}
+  {}\Bibbstesep \bibenf {Rehbein} {Malte} {M.} {} {} \edfont {\editorsname}}
+  {Malte Rehbein} {au} {sexless} {\bibapifont
+  {Informationsvisualisierung}\bibatsep {}  \apyformat
+  {Stuttgart\jbpublisher{\bpubaddr {} J.B. Metzler}\bibbdsep {} 2017} \jburluse
+  {rehbein2017informationsvisualisierung} \jbPages{328--342}\jbisbn
+  {978--3--476--05446--3} } {\bibhowcited} \jbdoitem {{Rehbein}{Malte}{M.}{}{}}
+  {{Jannidis}{Fotis}{F.}{}{}; {Kohle}{Hubertus}{H.}{}{};
+  {Rehbein}{Malte}{M.}{}{}} {} \bibAnnoteFile
+  {rehbein2017informationsvisualisierung}
+
+\backrefparscanfalse
+\bibitem[{Reichenberger\jbdy {2010}}%
+         {}%
+         {{0}{}{book}{2010}{}{}{}{}%
+          {Springer\bibbdsep {} 2010}}%
+         {{Kompendium semantische Netze: Konzepte, Technologie, Modellierung}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{reichenberger2010grundlagen}
+ \jbbibargs {\bibnf {Reichenberger} {Klaus} {K.} {} {}} {Klaus Reichenberger}
+  {au} {sexless} {\bibtfont {Kompendium semantische Netze: Konzepte,
+  Technologie, Modellierung}\bibatsep {}  \apyformat
+  {\jbpublisher{Springer\bibbdsep {}} 2010}} {\bibhowcited} \jbdoitem
+  {{Reichenberger}{Klaus}{K.}{}{}} {} {} \bibAnnoteFile
+  {reichenberger2010grundlagen}
+
+\backrefparscanfalse
+\bibitem[{Rietveld\Bibetal\jbdy {2015}}%
+         {}%
+         {{0}{}{inproceedings}{2015}{}{}{}{471--487}%
+          {Cham\bpubaddr {} Springer International Publishing\bibbdsep {}
+  2015}}%
+         {{Linked Data-as-a-Service: The Semantic Web Redeployed}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{rietveld2015linked}
+ \jbbibargs {\bibnf {Rietveld} {Laurens} {L.} {} {}\bibIMfont {\Bibetal}}
+  {Laurens RietveldRuben VerborghWouter BeekMiel Vander~SandeStefan Schlobach}
+  {aus} {sexless} {\bibapifont {Linked Data-as-a-Service: The Semantic Web
+  Redeployed}\bibatsep {} \incolledformat {\bibenf {Gandon} {Fabien} {F.} {}
+  {}\bibIMfont {\Bibetal}}{\edfont {\editorsname}}{\bibbtfont {The Semantic
+  Web. Latest Advances and New Domains}\bibatsep {} }{}{}  \apyformat
+  {Cham\jbpublisher{\bpubaddr {} Springer International Publishing}\bibbdsep {}
+  2015}  \jbPages{471--487}} {\bibhowcited} \jbdoitem
+  {{Rietveld}{Laurens}{L.}{}{}; {Verborgh}{Ruben}{R.}{}{};
+  {Beek}{Wouter}{W.}{}{}; {Vander~Sande}{Miel}{M.}{}{};
+  {Schlobach}{Stefan}{S.}{}{}} {{Gandon}{Fabien}{F.}{}{};
+  {Sabou}{Marta}{M.}{}{}; {Sack}{Harald}{H.}{}{}; {d'Amato}{Claudia}{C.}{}{};
+  {Cudr{\'e}-Mauroux}{Philippe}{P.}{}{}; {Zimmermann}{Antoine}{A.}{}{}} {}
+  \bibAnnoteFile {rietveld2015linked}
+
+\backrefparscanfalse
+\bibitem[{Ruta\Bibetal\jbdy {2016}}%
+         {}%
+         {{0}{}{inproceedings}{2016}{}{}{}{21--22}%
+          {2016}}%
+         {{A Semantic-based Approach for Resource Discovery and Allocation in
+  Distributed Middleware}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{ruta2016semantic}
+ \jbbibargs {\bibnf {Ruta} {Michele} {M.} {} {}\bibIMfont {\Bibetal}} {Michele
+  RutaFloriano SciosciaEliana BoveAnnarita CinquepalmiEugenio Di~Sciascio}
+  {aus} {sexless} {\bibapifont {A Semantic-based Approach for Resource
+  Discovery and Allocation in Distributed Middleware}\bibatsep {}
+  \incolledformat {}{}{\bibbtfont {Proceedings of the Posters and Demos Session
+  of the 17th International Middleware Conference}\bibatsep {} }{}{} ACM
+  \apyformat {2016}  \jbPages{21--22}} {\bibhowcited} \jbdoitem
+  {{Ruta}{Michele}{M.}{}{}; {Scioscia}{Floriano}{F.}{}{};
+  {Bove}{Eliana}{E.}{}{}; {Cinquepalmi}{Annarita}{A.}{}{};
+  {Di~Sciascio}{Eugenio}{E.}{}{}} {} {{ACM}{}{}{}{}} \bibAnnoteFile
+  {ruta2016semantic}
+
+\backrefparscanfalse
+\bibitem[{SAHLE\jbdy {2005}}%
+         {}%
+         {{0}{}{incollection}{2005}{}{}{}{64--85}%
+          {Bern\bibbdsep {} 2005}}%
+         {{Digitales Archiv - Digitale Edition, Anmerkungen zur
+  Begriffsklärung}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{SAHLE_Begriff}
+ \jbbibargs {\bibnf {SAHLE} {Patrick} {P.} {} {}} {Patrick SAHLE} {au}
+  {sexless} {\bibapifont {Digitales Archiv - Digitale Edition, Anmerkungen zur
+  Begriffsklärung}\bibatsep {} \incolledformat {\bibenf {Stolz} {Michael} {M.}
+  {} {}\Bibbfsesep \bibenf {Gisi} {Lucas~Marco} {L.~M.} {} {}\Bibbstesep
+  \bibenf {Loop} {Jan} {J.} {} {}}{\edfont {\editorsname}}{\bibbtfont
+  {Literatur und Literaturwissenschaft auf dem Weg zu den neuen
+  Medien}\bibatsep {} }{}{}  \apyformat {Bern\bibbdsep {} 2005}
+  \jbPages{64--85}} {\bibhowcited} \jbdoitem {{SAHLE}{Patrick}{P.}{}{}}
+  {{Stolz}{Michael}{M.}{}{}; {Gisi}{Lucas~Marco}{L.~M.}{}{};
+  {Loop}{Jan}{J.}{}{}} {} \bibAnnoteFile {SAHLE_Begriff}
+
+\backrefparscanfalse
+\bibitem[{Sahle\jbdy {2013}}%
+         {}%
+         {{0}{}{book}{2013}{}{}{}{}%
+          {Books on Demand\bibbdsep {} 2013}}%
+         {{Digitale Editionsformen: Textbegriffe und Recodierung}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{sahle2013digitale}
+ \jbbibargs {\bibnf {Sahle} {Patrick} {P.} {} {}} {Patrick Sahle} {au}
+  {sexless} {\bibtfont {Digitale Editionsformen: Textbegriffe und
+  Recodierung}\bibatsep {}  \volumeformat {3}  \apyformat {\jbpublisher{Books
+  on Demand\bibbdsep {}} 2013}} {\bibhowcited} \jbdoitem
+  {{Sahle}{Patrick}{P.}{}{}} {} {} \bibAnnoteFile {sahle2013digitale}
+
+\backrefparscanfalse
+\bibitem[{Shneiderman\Bibetal\jbdy {2016}}%
+         {}%
+         {{0}{}{book}{2016}{}{}{}{}%
+          {Pearson\bibbdsep {} 2016}}%
+         {{Designing the user interface: strategies for effective
+  human-computer interaction}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{shneiderman2016designing}
+ \jbbibargs {\bibnf {Shneiderman} {Ben} {B.} {} {}\bibIMfont {\Bibetal}} {Ben
+  ShneidermanCatherine PlaisantMaxine CohenSteven JacobsNiklas ElmqvistNicholas
+  Diakopoulos} {aus} {sexless} {\bibtfont {Designing the user interface:
+  strategies for effective human-computer interaction}\bibatsep {}  \apyformat
+  {\jbpublisher{Pearson\bibbdsep {}} 2016}} {\bibhowcited} \jbdoitem
+  {{Shneiderman}{Ben}{B.}{}{}; {Plaisant}{Catherine}{C.}{}{};
+  {Cohen}{Maxine}{M.}{}{}; {Jacobs}{Steven}{S.}{}{};
+  {Elmqvist}{Niklas}{N.}{}{}; {Diakopoulos}{Nicholas}{N.}{}{}} {} {}
+  \bibAnnoteFile {shneiderman2016designing}
+
+\backrefparscanfalse
+\bibitem[{Sicilia\jbdy {2013}}%
+         {}%
+         {{0}{}{book}{2013}{}{}{}{}%
+          {World Scientific\bibbdsep {} 2013}}%
+         {{Handbook of metadata, semantics and ontologies}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{sicilia2013handbook}
+ \jbbibargs {\bibnf {Sicilia} {Miguel-Angel} {M.-A.} {} {}} {Miguel-Angel
+  Sicilia} {au} {sexless} {\bibtfont {Handbook of metadata, semantics and
+  ontologies}\bibatsep {}  \apyformat {\jbpublisher{World Scientific\bibbdsep
+  {}} 2013}} {\bibhowcited} \jbdoitem {{Sicilia}{Miguel-Angel}{M.-A.}{}{}} {}
+  {} \bibAnnoteFile {sicilia2013handbook}
+
+\backrefparscanfalse
+\bibitem[{Stigler\jbbtasep Steiner\jbdy {2018}}%
+         {Mitteilungen der Vereinigung {\"O}sterreichischer Bibliothekarinnen
+  und Bibliothekare, \Numbername~1, \volname~71, \jbsy {2018}}%
+         {{0}{}{article}{2018}{}{}{}{207--216}%
+          {2018}}%
+         {{GAMS--Eine Infrastruktur zur Langzeitarchivierung und Publikation
+  geisteswissenschaftlicher Forschungsdaten}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{stigler2018gams}
+ \jbbibargs {\bibnf {Stigler} {Johannes} {J.} {} {}\Bibbtasep \bibnf {Steiner}
+  {Elisabeth} {E.} {} {}} {Johannes StiglerElisabeth Steiner} {aus} {sexless}
+  {\bibapifont {GAMS--Eine Infrastruktur zur Langzeitarchivierung und
+  Publikation geisteswissenschaftlicher Forschungsdaten}\bibatsep {} \bibJTsep
+  \bibjtfont {Mitteilungen der Vereinigung {\"O}sterreichischer
+  Bibliothekarinnen und Bibliothekare}\ajtsep {}  \artvolumeformat {71}
+  \artyearformat {2018}\artnumberformat {1} \jbPages{207--216}}
+  {\bibartperiodhowcited} \jbdoitem {{Stigler}{Johannes}{J.}{}{};
+  {Steiner}{Elisabeth}{E.}{}{}} {} {} \bibAnnoteFile {stigler2018gams}
+
+\backrefparscanfalse
+\bibitem[{Stock\Bibetal\jbdy {2013}}%
+         {Trans. {GIS}, \Numbername~4, \volname~17, \jbsy {2013}}%
+         {{0}{}{article}{2013}{}{}{}{612--639}%
+          {2013}}%
+         {{Finding Science with Science: Evaluating a Domain and Scientific
+  Ontology User Interface for the Discovery of Scientific Resources}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{DBLP:journals/tgis/StockKRRSBOSRKBG13}
+ \jburldef
+  {DBLP:journals/tgis/StockKRRSBOSRKBG13}{https://doi.org/10.1111/j.1467-9671.2012.01370.x}%
+ \jbbibargs {\bibnf {Stock} {Kristin} {K.} {} {}\bibIMfont {\Bibetal}} {Kristin
+  StockVera KarasovaAnne RobertsonGuillaume RogerMark SmallMohamed BishrJens
+  OrtmannTim StojanovicFemke ReitsmaLukasz KorczynskiBoyan BrodaricZoe Gardner}
+  {aus} {sexless} {\bibapifont {Finding Science with Science: Evaluating a
+  Domain and Scientific Ontology User Interface for the Discovery of Scientific
+  Resources}\bibatsep {} \bibJTsep \bibjtfont {Trans. {GIS}}\ajtsep {}
+  \artvolumeformat {17} \artyearformat {2013}\artnumberformat {4}
+  \jbPages{612--639} \jburluse {DBLP:journals/tgis/StockKRRSBOSRKBG13}}
+  {\bibartperiodhowcited} \jbdoitem {{Stock}{Kristin}{K.}{}{};
+  {Karasova}{Vera}{V.}{}{}; {Robertson}{Anne}{A.}{}{};
+  {Roger}{Guillaume}{G.}{}{}; {Small}{Mark}{M.}{}{}; {Bishr}{Mohamed}{M.}{}{};
+  {Ortmann}{Jens}{J.}{}{}; {Stojanovic}{Tim}{T.}{}{}; {Reitsma}{Femke}{F.}{}{};
+  {Korczynski}{Lukasz}{L.}{}{}; {Brodaric}{Boyan}{B.}{}{};
+  {Gardner}{Zoe}{Z.}{}{}} {} {} \bibAnnoteFile
+  {DBLP:journals/tgis/StockKRRSBOSRKBG13}
+
+\backrefparscanfalse
+\bibitem[{Stuckenschmidt\jbdy {2009}}%
+         {}%
+         {{0}{}{book}{2009}{}{}{}{}%
+          {Springer\bibbdsep {} 2009}}%
+         {{Ontologien: Konzepte, Technologien und Anwendungen}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{stuckenschmidt2009ontologien}
+ \jbbibargs {\bibnf {Stuckenschmidt} {Heiner} {H.} {} {}} {Heiner
+  Stuckenschmidt} {au} {sexless} {\bibtfont {Ontologien: Konzepte, Technologien
+  und Anwendungen}\bibatsep {}  \apyformat {\jbpublisher{Springer\bibbdsep {}}
+  2009}} {\bibhowcited} \jbdoitem {{Stuckenschmidt}{Heiner}{H.}{}{}} {} {}
+  \bibAnnoteFile {stuckenschmidt2009ontologien}
+
+\backrefparscanfalse
+\bibitem[{Sure\jbbtasep Studer\jbdy {2003}}%
+         {}%
+         {{0}{}{article}{2003}{}{}{}{}%
+          {Citeseer\bibbdsep {} 2003}}%
+         {{Methodology, tools \& case studies for ontology based knowledge
+  management}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{sure2003methodology}
+ \jbbibargs {\bibnf {Sure} {York} {Y.} {} {}\Bibbtasep \bibnf {Studer} {Rudi}
+  {R.} {} {}} {York SureRudi Studer} {aus} {sexless} {\bibapifont {Methodology,
+  tools \& case studies for ontology based knowledge management}\bibatsep {}
+  \artyearformat {2003}} {\bibartperiodhowcited} \jbdoitem
+  {{Sure}{York}{Y.}{}{}; {Studer}{Rudi}{R.}{}{}} {} {} \bibAnnoteFile
+  {sure2003methodology}
+
+\backrefparscanfalse
+\bibitem[{Swartz\jbdy {2013}}%
+         {Synthesis lectures on the semantic web: Theory and Technology,
+  \Numbername~2, \volname~3, \jbsy {2013}}%
+         {{0}{}{article}{2013}{}{}{}{1--64}%
+          {Morgan \& Claypool Publishers\bibbdsep {} 2013}}%
+         {{Aaron Swartz's A Programmable Web: An Unfinished Work}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{swartz2013aaron}
+ \jbbibargs {\bibnf {Swartz} {Aaron} {A.} {} {}} {Aaron Swartz} {au} {sexless}
+  {\bibapifont {Aaron Swartz's A Programmable Web: An Unfinished Work}\bibatsep
+  {} \bibJTsep \bibjtfont {Synthesis lectures on the semantic web: Theory and
+  Technology}\ajtsep {}  \artvolumeformat {3} \artyearformat
+  {2013}\artnumberformat {2} \jbPages{1--64}} {\bibartperiodhowcited} \jbdoitem
+  {{Swartz}{Aaron}{A.}{}{}} {} {} \bibAnnoteFile {swartz2013aaron}
+
+\backrefparscanfalse
+\bibitem[{Thaller\jbdy {1989}}%
+         {}%
+         {{1}{}{incollection}{1989}{}{}{}{2--12}%
+          {Manchester\bibbdsep {} 1989}}%
+         {{The Need of a Theory of Historical Computing}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{thaller1989need}
+ \jbbibargs {\bibnf {Thaller} {Manfred} {M.} {} {}} {Manfred Thaller} {au}
+  {sexless} {\bibapifont {The Need of a Theory of Historical
+  Computing}\bibatsep {} \incolledformat {\bibenf {Denley} {Peter} {P.} {}
+  {}\Bibbtesep \bibenf {Fogelvik} {Stefan} {S.} {} {}}{\edfont
+  {\editorsname}}{\bibbtfont {History and computing II}\bibatsep {} }{2}{}
+  \apyformat {\jbpublisher{Manchester\bibbdsep {}} 1989}  \jbPages{2--12}}
+  {\bibhowcited} \jbdoitem {{Thaller}{Manfred}{M.}{}{}}
+  {{Denley}{Peter}{P.}{}{}; {Fogelvik}{Stefan}{S.}{}{}} {} \bibAnnoteFile
+  {thaller1989need}
+
+\backrefparscanfalse
+\bibitem[{Thaller\jbdy {2017}}%
+         {}%
+         {{1}{}{incollection}{2017\el {a}}{}{}{}{13--18}%
+          {Springer\bibbdsep {} 2017\el {a}}}%
+         {{Digital Humanities als Wissenschaft}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{thaller2017digital}
+ \jbbibargs {\bibnf {Thaller} {Manfred} {M.} {} {}} {Manfred Thaller} {au}
+  {sexless} {\bibapifont {Digital Humanities als Wissenschaft}\bibatsep {}
+  \incolledformat {}{}{\bibbtfont {Digital Humanities} }{}{}  \apyformat
+  {\jbpublisher{Springer\bibbdsep {}} 2017\bibel {a}}  \jbPages{13--18}}
+  {\bibhowcited} \jbdoitem {{Thaller}{Manfred}{M.}{}{}} {} {} \bibAnnoteFile
+  {thaller2017digital}
+
+\backrefparscanfalse
+\bibitem[{Thaller\jbdy {2017}}%
+         {Historical Social Research/Historische Sozialforschung. Supplement
+  \jbsy {2017}}%
+         {{1}{}{article}{2017\el {b}}{}{}{}{138--159}%
+          {GESIS\bibbdsep {} 2017\el {b}}}%
+         {{Ungef{\"a}hre Exaktheit. Theoretische Grundlagen und praktische
+  M{\"o}glichkeiten einer Formulierung historischer Quellen als Produkte
+  'unscharfer' Systeme [1984]}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{thaller2017ungefahre}
+ \jbbibargs {\bibnf {Thaller} {Manfred} {M.} {} {}} {Manfred Thaller} {au}
+  {sexless} {\bibapifont {Ungef{\"a}hre Exaktheit. Theoretische Grundlagen und
+  praktische M{\"o}glichkeiten einer Formulierung historischer Quellen als
+  Produkte 'unscharfer' Systeme [1984]}\bibatsep {} \bibJTsep \bibjtfont
+  {Historical Social Research/Historische Sozialforschung. Supplement}\ajtsep
+  {}  \artyearformat {2017\bibel {b}} \jbPages{138--159}}
+  {\bibartperiodhowcited} \jbdoitem {{Thaller}{Manfred}{M.}{}{}} {} {}
+  \bibAnnoteFile {thaller2017ungefahre}
+
+\backrefparscanfalse
+\bibitem[{Vaithiya\jbbtasep Bhanu\jbdy {2013}}%
+         {}%
+         {{0}{}{inproceedings}{2013}{}{}{}{154--159}%
+          {2013}}%
+         {{Ontology Based Resource Discovery Mechanism for Mobile Grid
+  Environment}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{VaithiyaB13}
+ \jburldef {VaithiyaB13}{https://doi.org/10.1109/ADCONS.2013.21}%
+ \jbbibargs {\bibnf {Vaithiya} {Stephen} {S.} {} {}\Bibbtasep \bibnf {Bhanu}
+  {Mary~Saira} {M.~S.} {} {}} {Stephen VaithiyaMary~Saira Bhanu} {aus}
+  {sexless} {\bibapifont {Ontology Based Resource Discovery Mechanism for
+  Mobile Grid Environment}\bibatsep {} \incolledformat {}{}{\bibbtfont {2013
+  2nd International Conference on Advanced Computing, Networking and Security,
+  Mangalore, India, December 15-17, 2013}\bibatsep {} }{}{}   \apyformat {2013}
+  \jburluse {VaithiyaB13}  \jbPages{154--159}} {\bibhowcited} \jbdoitem
+  {{Vaithiya}{Stephen}{S.}{}{}; {Bhanu}{Mary~Saira}{M.~S.}{}{}} {} {}
+  \bibAnnoteFile {VaithiyaB13}
+
+\backrefparscanfalse
+\bibitem[{Vallet\jbbfsasep Cantador\jbbstasep Jose\jbdy {2010}}%
+         {}%
+         {{0}{}{inproceedings}{2010}{}{}{}{420--431}%
+          {2010}}%
+         {{Personalizing web search with folksonomy-based user and document
+  profiles}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{vallet2010personalizing}
+ \jbbibargs {\bibnf {Vallet} {David} {D.} {} {}\Bibbfsasep \bibnf {Cantador}
+  {Iv{\'a}n} {I.} {} {}\Bibbstasep \bibnf {Jose} {Joemon~M} {J.~M.} {} {}}
+  {David ValletIv{\'a}n CantadorJoemon~M Jose} {aus} {sexless} {\bibapifont
+  {Personalizing web search with folksonomy-based user and document
+  profiles}\bibatsep {} \incolledformat {}{}{\bibbtfont {European conference on
+  information retrieval}\bibatsep {} }{}{} Springer  \apyformat {2010}
+  \jbPages{420--431}} {\bibhowcited} \jbdoitem {{Vallet}{David}{D.}{}{};
+  {Cantador}{Iv{\'a}n}{I.}{}{}; {Jose}{Joemon~M}{J.~M.}{}{}} {}
+  {{Springer}{}{}{}{}} \bibAnnoteFile {vallet2010personalizing}
+
+\backrefparscanfalse
+\bibitem[{Vogeler\Bibetal\jbdy {2016}}%
+         {}%
+         {{0}{}{incollection}{2016}{}{}{}{13--41}%
+          {Göttingen\bibbdsep {} 2016}}%
+         {{The Content of Accounts and Registers in their Digital Edition.
+  XML/TEI, Spreadsheets, and Semantic Web Technologies}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{vogeler2016content}
+ \jbbibargs {\bibnf {Vogeler} {Georg} {G.} {} {}\bibIMfont {\Bibetal}} {Georg
+  VogelerCarsten JahnkeGudrun GlebaAlbrecht CordesCordula~A FranzkeJoachim
+  LacznySimone W{\"u}rz} {aus} {sexless} {\bibapifont {The Content of Accounts
+  and Registers in their Digital Edition. XML/TEI, Spreadsheets, and Semantic
+  Web Technologies}\bibatsep {} \incolledformat {\bibenf {Sarnowsky} {Jürgen}
+  {J.} {} {}}{\edfont {\editorname}}{\bibbtfont {Konzeptionelle Überlegungen
+  zur Edition von Rechnungen und Amtsbüchern des späten
+  Mittelalters}\bibatsep {} }{}{}  \apyformat {Göttingen\bibbdsep {} 2016}
+  \jbPages{13--41}} {\bibhowcited} \jbdoitem {{Vogeler}{Georg}{G.}{}{};
+  {Jahnke}{Carsten}{C.}{}{}; {Gleba}{Gudrun}{G.}{}{};
+  {Cordes}{Albrecht}{A.}{}{}; {Franzke}{Cordula~A}{C.~A.}{}{};
+  {Laczny}{Joachim}{J.}{}{}; {W{\"u}rz}{Simone}{S.}{}{}}
+  {{Sarnowsky}{Jürgen}{J.}{}{}} {} \bibAnnoteFile {vogeler2016content}
+
+\backrefparscanfalse
+\bibitem[{Wettlaufer\Bibetal\jbdy {2015}}%
+         {Digital Scholarship in the Humanities, \Numbername~1, \volname~30,
+  \jbsy {2015}}%
+         {{0}{}{article}{2015}{}{}{}{187--198}%
+          {Oxford University Press\bibbdsep {} 2015}}%
+         {{Semantic Blumenbach: Exploration of Text--Object Relationships with
+  Semantic Web Technology in the History of Science}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{wettlaufer2015semantic}
+ \jbbibargs {\bibnf {Wettlaufer} {J{\"o}rg} {J.} {} {}\bibIMfont {\Bibetal}}
+  {J{\"o}rg WettlauferChristopher JohnsonMartin ScholzMark FichtnerSree~Ganesh
+  Thotempudi} {aus} {sexless} {\bibapifont {Semantic Blumenbach: Exploration of
+  Text--Object Relationships with Semantic Web Technology in the History of
+  Science}\bibatsep {} \bibJTsep \bibjtfont {Digital Scholarship in the
+  Humanities}\ajtsep {}  \artvolumeformat {30} \artyearformat
+  {2015}\artnumberformat {1} \jbPages{187--198}} {\bibartperiodhowcited}
+  \jbdoitem {{Wettlaufer}{J{\"o}rg}{J.}{}{}; {Johnson}{Christopher}{C.}{}{};
+  {Scholz}{Martin}{M.}{}{}; {Fichtner}{Mark}{M.}{}{};
+  {Thotempudi}{Sree~Ganesh}{S.~G.}{}{}} {} {} \bibAnnoteFile
+  {wettlaufer2015semantic}
+
+\backrefparscanfalse
+\bibitem[{White\jbbtasep Roth\jbdy {2009}}%
+         {Synthesis lectures on information concepts, retrieval, and services,
+  \Numbername~1, \volname~1, \jbsy {2009}}%
+         {{0}{}{article}{2009}{}{}{}{1--98}%
+          {Morgan \& Claypool Publishers\bibbdsep {} 2009}}%
+         {{Exploratory search: Beyond the query-response paradigm}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{white2009exploratory}
+ \jbbibargs {\bibnf {White} {Ryen~W} {R.~W.} {} {}\Bibbtasep \bibnf {Roth}
+  {Resa~A} {R.~A.} {} {}} {Ryen~W WhiteResa~A Roth} {aus} {sexless}
+  {\bibapifont {Exploratory search: Beyond the query-response
+  paradigm}\bibatsep {} \bibJTsep \bibjtfont {Synthesis lectures on information
+  concepts, retrieval, and services}\ajtsep {}  \artvolumeformat {1}
+  \artyearformat {2009}\artnumberformat {1} \jbPages{1--98}}
+  {\bibartperiodhowcited} \jbdoitem {{White}{Ryen~W}{R.~W.}{}{};
+  {Roth}{Resa~A}{R.~A.}{}{}} {} {} \bibAnnoteFile {white2009exploratory}
+
+\backrefparscanfalse
+\bibitem[{Wiesenmüller\jbbtasep Pfeffer\jbdy {2016}}%
+         {}%
+         {{0}{}{inproceedings}{2016}{2}{}{}{}%
+          {Berlin\bibbdsep {} 2016}}%
+         {{Resource Discovery Systeme}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{wiesenmueller2016resourcediscovery}
+ \jbbibargs {\bibnf {Wiesenmüller} {Heidrun} {H.} {} {}\Bibbtasep \bibnf
+  {Pfeffer} {Magnus} {M.} {} {}} {Heidrun WiesenmüllerMagnus Pfeffer} {aus}
+  {sexless} {\bibapifont {Resource Discovery Systeme}\bibatsep {}
+  \incolledformat {\bibenf {Straub} {Martina} {M.} {} {}\Bibbtesep \bibenf
+  {Sühl-Stromenger} {Wilfried} {W.} {} {}}{\edfont {\editorsname}}{\bibbtfont
+  {Handbuch Informationskompetenz}\bibatsep {} }{}{}  \apyformat
+  {Berlin\bibbdsep {} \jbssedbd {2}2016} } {\bibhowcited} \jbdoitem
+  {{Wiesenmüller}{Heidrun}{H.}{}{}; {Pfeffer}{Magnus}{M.}{}{}}
+  {{Straub}{Martina}{M.}{}{}; {Sühl-Stromenger}{Wilfried}{W.}{}{}} {}
+  \bibAnnoteFile {wiesenmueller2016resourcediscovery}
+
+\backrefparscanfalse
+\bibitem[{Zhai\jbbfsasep Liang\jbbstasep Huang\jbdy {2016}}%
+         {}%
+         {{0}{}{inproceedings}{2016}{}{}{}{522--524}%
+          {New York\bpubaddr {} ACM\bibbdsep {} 2016}}%
+         {{Linkage Discovery of Linked Data Based on Ontology Reasoning}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{zhai2016linkage}
+ \jburldef {zhai2016linkage}{http://doi.acm.org/10.1145/2912160.2912230}%
+ \jbbibargs {\bibnf {Zhai} {Jun} {J.} {} {}\Bibbfsasep \bibnf {Liang} {Yiduo}
+  {Y.} {} {}\Bibbstasep \bibnf {Huang} {Lufei} {L.} {} {}} {Jun ZhaiYiduo
+  LiangLufei Huang} {aus} {sexless} {\bibapifont {Linkage Discovery of Linked
+  Data Based on Ontology Reasoning}\bibatsep {} \incolledformat {}{}{\bibbtfont
+  {Proceedings of the 17th International Digital Government Research Conference
+  on Digital Government Research}\bibatsep {} }{}{}  \apyformat {New
+  York\jbpublisher{\bpubaddr {} ACM}\bibbdsep {} 2016} \numberandseries {}{dg.o
+  '16} \jburluse {zhai2016linkage}  \jbPages{522--524}} {\bibhowcited}
+  \jbdoitem {{Zhai}{Jun}{J.}{}{}; {Liang}{Yiduo}{Y.}{}{};
+  {Huang}{Lufei}{L.}{}{}} {} {} \bibAnnoteFile {zhai2016linkage}
+
+\end{thebibliography}
