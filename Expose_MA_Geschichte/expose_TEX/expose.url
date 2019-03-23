@@ -1,24 +1,2 @@
 %%% jurabib url repository
-\expandafter\urldef\csname jburl@andorfer2015forschungsdaten\endcsname\url{http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2015-14.pdf}
 \expandafter\urldef\csname jburl@bernstein2016new\endcsname\url{http://doi.acm.org/10.1145/2890489}
-\expandafter\urldef\csname jburl@burghardt2015informationsinfrastruktur\endcsname\url{https://doi.org/10.1515/iwp-2015-0052}
-\expandafter\urldef\csname jburl@bursztyn2015reformulation\endcsname\url{http://dx.doi.org/10.14778/2824032.2824093}
-\expandafter\urldef\csname jburl@DBLP:journals/ijguc/CherguiCK17\endcsname\url{https://doi.org/10.1504/IJGUC.2017.10009365}
-\expandafter\urldef\csname jburl@cremer2018chimare\endcsname\url{https://doi.org/10.5282/o-bib/2018H2S142-162}
-\expandafter\urldef\csname jburl@DamianoLL14\endcsname\url{https://doi.org/10.1109/CISIS.2014.81}
-\expandafter\urldef\csname jburl@GarciaKMD13\endcsname\url{https://doi.org/10.1007/978-3-642-41347-6\_17}
-\expandafter\urldef\csname jburl@gruber1993translation\endcsname\url{http://www.sciencedirect.com/science/article/pii/S1042814383710083}
-\expandafter\urldef\csname jburl@HarmelenBFHKMS01\endcsname\url{https://doi.org/10.1109/IV.2001.942109}
-\expandafter\urldef\csname jburl@hoekstra2009ontology\endcsname\url{http://dl.acm.org/citation.cfm?id=1659447.1659449}
-\expandafter\urldef\csname jburl@jager2015informationsvisualisierung\endcsname\url{http://eprints.rclis.org/28725}
-\expandafter\urldef\csname jburl@LacroixA10\endcsname\url{https://doi.org/10.1504/IJMSO.2010.034044/LacroixA10}
-\expandafter\urldef\csname jburl@llanes2017records\endcsname\url{https://doi.org/10.1108/PROG-03-2017-0021}
-\expandafter\urldef\csname jburl@musen2015protege\endcsname\url{http://doi.acm.org/10.1145/2757001.2757003}
-\expandafter\urldef\csname jburl@NareikeS16\endcsname\url{http://ceur-ws.org/Vol-1695/paper24.pdf}
-\expandafter\urldef\csname jburl@DBLP:journals/ecra/NavimipourKM17\endcsname\url{https://doi.org/10.1016/j.elerap.2017.10.005}
-\expandafter\urldef\csname jburl@neuroth2016nachhaltigkeit\endcsname\url{https://doi.org/10.1515/bfp-2016-0022.}
-\expandafter\urldef\csname jburl@Polowinski17\endcsname\url{http://nbn-resolving.de/urn:nbn:de:bsz:14-qucosa-229908}
-\expandafter\urldef\csname jburl@rehbein2017informationsvisualisierung\endcsname\url{https://doi.org/10.1007/978-3-476-05446-3_23}
-\expandafter\urldef\csname jburl@DBLP:journals/tgis/StockKRRSBOSRKBG13\endcsname\url{https://doi.org/10.1111/j.1467-9671.2012.01370.x}
-\expandafter\urldef\csname jburl@VaithiyaB13\endcsname\url{https://doi.org/10.1109/ADCONS.2013.21}
-\expandafter\urldef\csname jburl@zhai2016linkage\endcsname\url{http://doi.acm.org/10.1145/2912160.2912230}

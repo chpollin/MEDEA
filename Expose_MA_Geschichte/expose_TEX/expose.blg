@@ -1,28 +1,104 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: expose.aux
 The style file: jurabib.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: literatur.bib
-Warning--entry type for "pollin2017suchen" isn't style-file defined
---line 393 of file literatur.bib
-Warning--No address in achich2017ontology
-Warning--Empty pages in andorfer2015forschungsdaten
-Warning--Empty pages in bachle2016digitales
+Repeated entry---line 565 of file literatur.bib
+ : @article{musen2015protege
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 580 of file literatur.bib
+ : @book{linckels2011librarian
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 588 of file literatur.bib
+ : @book{stuckenschmidt2009ontologien
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 596 of file literatur.bib
+ : @book{reichenberger2010grundlagen
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 603 of file literatur.bib
+ : @inproceedings{hoekstra2009ontology
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 616 of file literatur.bib
+ : @phdthesis{borst1997construction
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 626 of file literatur.bib
+ : @article{gruber1993translation
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 640 of file literatur.bib
+ : @book{favre2001information
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 647 of file literatur.bib
+ : @article{thaller2017ungefahre
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 657 of file literatur.bib
+ : @article{sure2003methodology
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "tomasek2013encoding"
 Warning--Empty pages in bauer2011linked
 Warning--No address in beretta2017dataforhistory
-Warning--No address in beretta2016can
-Warning--No university in borst1997construction
+Warning--Empty pages in borst1997construction
 Warning--No address in bursztyn2015reasoning
-Warning--Empty pages in cremer2018chimare
-Warning--No address in d2016ontology
-Warning--No address in GarciaKMD13
+Warning--No address in hoekstra2009ontology
+Warning--There's only a starting page, no pagerange in joostbreukera2009flood
 Warning--Empty pages in latour2016zirkulierende
-Warning--No address in neher2011semantische
-Warning--Empty pages in omerovic2001concepts
-Warning--No address in pollin2017suchen
-Warning--No address in pollin2018annotation
-Warning--No university in Polowinski17
-Warning--There's no chapter in rehbein2017informationsvisualisierung
-Warning--No address in ruta2016semantic
 Warning--Empty pages in sure2003methodology
-Warning--No address in VaithiyaB13
-Warning--No address in vallet2010personalizing
-(There were 23 warnings)
+You've used 29 entries,
+            7954 wiz_defined-function locations,
+            1551 strings with 15245 characters,
+and the built_in function-call counts, 32944 in all, are:
+= -- 2359
+> -- 1133
+< -- 97
++ -- 392
+- -- 354
+* -- 3867
+:= -- 4670
+add.period$ -- 0
+call.type$ -- 29
+change.case$ -- 146
+chr.to.int$ -- 54
+cite$ -- 68
+duplicate$ -- 1795
+empty$ -- 3333
+format.name$ -- 1152
+if$ -- 6678
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 164
+newline$ -- 268
+num.names$ -- 238
+pop$ -- 677
+preamble$ -- 1
+purify$ -- 143
+quote$ -- 0
+skip$ -- 1225
+stack$ -- 0
+substring$ -- 1175
+swap$ -- 896
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 617
+warning$ -- 8
+while$ -- 305
+width$ -- 0
+write$ -- 1098
+(There were 10 error messages)

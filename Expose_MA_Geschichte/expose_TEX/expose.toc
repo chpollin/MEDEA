@@ -1,7 +1,16 @@
 \babel@toc {german}{}
 \contentsline {section}{\numberline {1}Einleitung}{1}
-\contentsline {section}{\numberline {2}Thematik, Projektkontext und Forschungsfrage}{1}
-\contentsline {section}{\numberline {3}Projekte, Basisliteratur und Aufbau}{2}
-\contentsline {section}{\numberline {4}Method und Umsetzung}{4}
-\contentsline {section}{\numberline {5}Gliederung}{11}
-\contentsline {section}{\numberline {6}Arbeitsplan}{13}
+\contentsline {section}{\numberline {2}Formale Methoden und Modelle in den Geschichtswissenschaften}{2}
+\contentsline {section}{\numberline {3}Web of Data}{3}
+\contentsline {subsection}{\numberline {3.1}Ontologien}{3}
+\contentsline {subsubsection}{\numberline {3.1.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{4}
+\contentsline {subsubsection}{\numberline {3.1.2}Ontology Engineering}{6}
+\contentsline {subsubsection}{\numberline {3.1.3}Reasoning}{6}
+\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{6}
+\contentsline {subsection}{\numberline {4.1}The George Washington Financial Papers}{7}
+\contentsline {subsection}{\numberline {4.2}The Wheaton Accounts}{7}
+\contentsline {subsection}{\numberline {4.3}Stagville Financial Papers}{7}
+\contentsline {section}{\numberline {5}Assertive Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{8}
+\contentsline {section}{\numberline {6}Ein formales Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{8}
+\contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{9}
+\contentsline {section}{\numberline {8}Zusammenfassung}{9}
