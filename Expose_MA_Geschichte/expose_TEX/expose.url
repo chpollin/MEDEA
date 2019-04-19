@@ -1,2 +1,3 @@
 %%% jurabib url repository
+\expandafter\urldef\csname jburl@berners2004uniform\endcsname\url{http://www.rfc-editor.org/info/rfc3986}
 \expandafter\urldef\csname jburl@bernstein2016new\endcsname\url{http://doi.acm.org/10.1145/2890489}
