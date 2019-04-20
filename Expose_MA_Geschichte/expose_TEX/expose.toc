@@ -1,6 +1,7 @@
 \babel@toc {german}{}
 \contentsline {section}{\numberline {1}Einleitung}{1}
 \contentsline {section}{\numberline {2}Formale Methoden und Modelle in den Geschichtswissenschaften}{2}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.1}Theorien und Methoden der Geschichteswissenschaften}{3}
 \contentsline {subsection}{\numberline {2.2}Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }{4}
 \contentsline {section}{\numberline {3}Web of Data (aka Semantic Web)}{5}
@@ -26,3 +27,19 @@
 \contentsline {section}{\numberline {6}Ein formales Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{14}
 \contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{15}
 \contentsline {section}{\numberline {8}Zusammenfassung}{15}
+=======
+\contentsline {section}{\numberline {3}Web of Data (aka Semantic Web}{3}
+\contentsline {subsection}{\numberline {3.1}Resource Description Framework}{3}
+\contentsline {subsection}{\numberline {3.2}Ontologien}{6}
+\contentsline {subsubsection}{\numberline {3.2.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{7}
+\contentsline {subsubsection}{\numberline {3.2.2}Ontology Engineering}{10}
+\contentsline {subsubsection}{\numberline {3.2.3}Reasoning}{10}
+\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{10}
+\contentsline {subsection}{\numberline {4.1}The George Washington Financial Papers}{10}
+\contentsline {subsection}{\numberline {4.2}The Wheaton Accounts}{10}
+\contentsline {subsection}{\numberline {4.3}Stagville Financial Papers}{11}
+\contentsline {section}{\numberline {5}Assertive Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{11}
+\contentsline {section}{\numberline {6}Ein formales Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{12}
+\contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{12}
+\contentsline {section}{\numberline {8}Zusammenfassung}{12}
+>>>>>>> a8f09cdfa61624d9a8b408acdaef7305a31d48dc

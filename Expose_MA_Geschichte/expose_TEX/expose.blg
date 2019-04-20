@@ -1,16 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: literatur.bib
+<<<<<<< HEAD
 Repeated entry---line 580 of file literatur.bib
  : @article{musen2015protege
  :                          ,
@@ -48,6 +39,45 @@ Repeated entry---line 662 of file literatur.bib
  :                              ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 672 of file literatur.bib
+=======
+Repeated entry---line 577 of file literatur.bib
+ : @article{musen2015protege
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 592 of file literatur.bib
+ : @book{linckels2011librarian
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 600 of file literatur.bib
+ : @book{stuckenschmidt2009ontologien
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 608 of file literatur.bib
+ : @book{reichenberger2010grundlagen
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 615 of file literatur.bib
+ : @inproceedings{hoekstra2009ontology
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 628 of file literatur.bib
+ : @phdthesis{borst1997construction
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 638 of file literatur.bib
+ : @article{gruber1993translation
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 652 of file literatur.bib
+ : @book{favre2001information
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 659 of file literatur.bib
+ : @article{thaller2017ungefahre
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 669 of file literatur.bib
+>>>>>>> a8f09cdfa61624d9a8b408acdaef7305a31d48dc
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
@@ -63,6 +93,7 @@ Warning--Empty pages in borst1997construction
 Warning--No address in bursztyn2015reasoning
 Warning--No address in hoekstra2009ontology
 Warning--There's only a starting page, no pagerange in joostbreukera2009flood
+<<<<<<< HEAD
 Warning--Empty pages in mann1979pladoyer
 Warning--Empty pages in schreiber2014rdf
 Warning--Empty pages in sokollgrundlagen
@@ -109,3 +140,9 @@ while$ -- 336
 width$ -- 0
 write$ -- 1241
 (There were 11 error messages)
+=======
+Warning--Empty pages in latour2016zirkulierende
+Warning--Empty pages in schreiber2014rdf
+Warning--Empty pages in sure2003methodology
+(There were 10 error messages)
+>>>>>>> a8f09cdfa61624d9a8b408acdaef7305a31d48dc

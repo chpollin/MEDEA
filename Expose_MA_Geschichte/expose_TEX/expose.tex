@@ -144,9 +144,13 @@ Um mein zweites Masterstudium (Geschichte) abzuschließen, soll sich die dafür 
 \\
 Am Beginn dieses Exposés steht eine Spezifizierung der Thematik und Relevanz des Themas, sowie eine daraus abgeleitete Forschungsfrage. Nach einem Überblick über wichtige Literatur, Projekte und einer Skizze des Aufbaus der Arbeit, folgt eine Erörterung der Methoden und der Umsetzung. Am Ende werden erwartete Ergebnisse und Herausforderungen reflektiert.
 
+<<<<<<< HEAD
 \section{Web of Data (aka Semantic Web)}
 
 \subsection{new}
+=======
+\section{Web of Data (aka Semantic Web}
+>>>>>>> a8f09cdfa61624d9a8b408acdaef7305a31d48dc
 
 Im Gegensatz zum klassischen Web, das als ein Web von Dokumenten betrachtet werden kann, versucht das \textit{Web of Data} Daten aus unterschiedlichen Quellen zu integrieren und miteinander zu verknüpft. Daten sollen so vorliegen, dass nicht nur Menschen diese in neuen Kontexten nutzen können, sondern auch Softwareagenten. Um diese Vision zu erreichen, die vom Erfinder des Web Tim BURNERS-LEE\footcite[Vgl.][]{berners2001semantic} formuliert wurde, bedarf es der Umsetzung mehrere aufeinander aufbauender technischer Grundlagen, die sich im \textit{Semantic Web Stack} manifestieren. Auf dessen Basis, dargestellt in Abbildung \ref{web_stack} soll in diesem Kapitel die grundlegenden Technologien und Standards des \textit{Web of Data} erörtert werden.
 \begin{figure}[h]
@@ -156,6 +160,7 @@ Im Gegensatz zum klassischen Web, das als ein Web von Dokumenten betrachtet werd
   	\label{fig:web_stack}
 \end{figure}
 
+<<<<<<< HEAD
 \subsection{''Raw Data Now!'': die Vision}
 
 Beim \textit{TED Talk} im Jahre 2009 fordert Tim Burners-Lee das Auditorium auf mit ihm gemeinsam die Worte zu rufen: ''Raw Data Now!''.\footnote{BERNERS-LEE Tim: The Next Web, \url{https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=de}, 05.04.2019.} Die Vision von Burners-Lee, dem Erfinder des World Wide Web, ist das sogenannte \textit{Semantic Web}. Die aktuelle Literatur führt aber den Term \textit{Web of Data} verstärkt an, da diese Terminologie besser passt. Das \textit{Web of Data} versteht sich als eine Erweiterung des Web dahingehend, dass nicht einzelne Dokumente miteinander verknüpft sind, sondern Daten. Um diese Transformation zu ereichen dürfen nicht die Anwendungen die Kontrolle über die Daten haben, sondern Anwendungen müsste mit offenen Daten und ihrer Struktur, die sie im Web of Data mit in den Daten steckt, interagieren können. Zwei Aspekte sind zentral: gemeinsame, allgemeingültige und verwendete Datenfpormate für die Integration und Kombination von Daten aus unterschiedlichen Datenquellen und das ursprüngliche Web dient dabei als Plattform für den Austausch. It is also about language for recording how the data relates to real world objects. That allows a person, or a machine, to start off in one database, and then move through an unending set of databases which are connected not by wires but by being about the same thing.
@@ -165,6 +170,8 @@ Beim \textit{TED Talk} im Jahre 2009 fordert Tim Burners-Lee das Auditorium auf 
 Das Semantic Web ist nicht erreicht. Zumindest nicht für die Allgemeinheit. Die großen Internetriesen hingegen everfügen über "ihre Semantic webs", in denen sie ihre eigeen Agenten mit ihrer großen Datenmenge arbeiten lassen.\footnote{\url{https://twobithistory.org/2018/05/27/semantic-web.html}}
 
 \subsection{Web of Data Technology Stack}
+=======
+>>>>>>> a8f09cdfa61624d9a8b408acdaef7305a31d48dc
 \subsection{Resource Description Framework}
 
 Das \textit{Resource Description Framework} (RDF) ist ein Datenmodell zur Darstellung und für den Austausch von Daten im Web. Daten werden in diesem Modell als Ressourcen definiert, wobei eine Ressource alles sein kann: ein Dokument, eine Person, ein physisches Objekt oder ein abstraktes Konzept. Über Ressourcen werden Statements der Form Subjekt-Prädikat-Objekt formuliert. Jedes Statement drückt eine Beziehung zwischen zwei Ressourcen aus. Das Subjekt und das Objekt stehen dabei für die beiden miteinander verbundenen Ressourcen; das Prädikat beschriebt die Art ihrer Beziehung. Diese Zusammensetzung von Subjekt, Prädikat und Objekt werden als Triples bezeichnet. Betrachtet man den Satz ''\textit{Bob ist befreundet mit Alice}'', dann lässt sich folgendes Triple extrahieren: \textit{<Bob>} als Subjekt, \textit{<ist befreundet mit>} als Prädikat und \textit{<Alice>} als Objekt. Ob \textit{Alice} mit \textit{Bob} befreundet ist geht aus diesem Statement noch nicht hervor, da jeder Relation in RDF nur eine Richtung definiert.\footcite[Vgl.][S.16-21]{powers2003practical} In der graphischen Darstellung wird schnell klar, dass es sich beim RDF Datenmodell um einen gerichtete Graphen handelt, der aus Knoten (Subjekt und Objekt), sowie aus Kanten (Prädikat) besteht, wie Abbildung \ref{fig:triple} zeigt.
@@ -227,6 +234,7 @@ PREFIX wd: <http://www.wikidata.org/entity/>
             dcterms:creator <http://dbpedia.org/resource/Leonardo_da_Vinci> .
 \end{lstlisting}
 
+<<<<<<< HEAD
 
 
 \subsubsection{Resource Description Framework Schema (RDFs)}
@@ -234,6 +242,8 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 \subsubsection{Taxonomien: Simple Knowledge Organisation (SKOS)}
 
 \subsubsection{Abfragesprache: SPARQL}
+=======
+>>>>>>> a8f09cdfa61624d9a8b408acdaef7305a31d48dc
 
 \subsection{Ontologien}
 Der Gegenstandsbereich der \textbf{Ontologie als Disziplin in der Philosophie} umfasst alles, das existiert. Das Erkenntnisziel, so MEIXNER, ist auf allgemeiner begrifflicher Ebene zu finden und beschäftigt sich mit der Einteilung des Seins und den Grundstrukturen der Wirklichkeit, sowie der Frage nach dem Wesen der Existenz. Die Ontologie verfolgt nicht das Ziel Erkenntnis über ein Objekt zu erhalten, es beispielsweise zu vermessen oder zu beschreiben, sondern stellt sich die Frage nach welchen allgemeinen Kriterien Objekte im Verhältnis zu ontologischen Begriffen wie Sein, Aktualität, Universalie, Exemplifikation, Sachverhalt oder Individuum stehen.\footcite{meixner1994wissenschaft}
@@ -355,5 +365,9 @@ The common knowledge domain of these documents is formalized in a ”bookkeeping
 \bibliography{literatur}
 \newpage
 \listoffigures
+<<<<<<< HEAD
+=======
+
+>>>>>>> a8f09cdfa61624d9a8b408acdaef7305a31d48dc
 
 \end{document}
