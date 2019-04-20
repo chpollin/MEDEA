@@ -82,7 +82,7 @@
 
 
 \author{Christopher Pollin}
-\title{Exposé\\ \textbf{Formale, digitale Methoden in den Geschichtswissenschaften. Am Beispiel digital edierter Rechnungsbücher}}
+\title{Exposé\\ \textbf{Formale, digitale Methoden und Modelle in den Geschichtswissenschaften. Am Beispiel digital edierter Rechnungsbücher}}
 \date{\today{}, Graz}
 \begin{document}
 \pagenumbering{gobble}
@@ -94,21 +94,49 @@
 \pagenumbering{arabic}
 
 \section{Einleitung}
-Am Anfang der Arbeit steht neben einer allgemeinen theoretischen Diskussion zu klassischen Themen der Informationswissenschaft (Daten - Information - Wissen)\footcite{favre2001information}, eine  Auseinandersetzung auf konzeptioneller\footcite{berners2001semantic}\footcite{cardoso2007semantic} und technischer\footcite{bernstein2016new} Ebene mit dem \textit{Web of Data}, wobei ein Fokus auf Wissensmodellierung\footcite{kelly2016practical} , Ontologien\footcite{stuckenschmidt2009ontologien} und \textit{Linked Open Data}\footcite{rietveld2015linked}\footcite{bauer2011linked} liegt, sowie eine kritischer Auseinandersetzung mit dem \textit{Web of Data}\footcite{swartz2013aaron}.
+
+Seit dem Zeitpunkt an dem Menschen sich an Ereignisse oder Erkenntnisse, die für sie wichtig waren, erinnern wollten, gibt es auch Formen und Möglichkeiten das Wissen darüber zu repräsentieren. Ein natürliches Beispiel dafür findet sich bereits in den ersten Hochkulturen als Menschen dokumentierte, dass jemand bei jemand anderen in der Schuld steht. Bereits um 3000 vor Christus lassen sich auf Tontafel Schuld und Kredit finden: "Alok schuldet dem Sumar 10 Eimer Korn". Wir können also feststellen, dass die Dokumentation ökonomischer Abhängigkeiten einer der ersten strukturierten Formen waren, um Wissen, wer wem etwas schuldet, festzuhalten und zu repräsentieren.[ToDo Dan MCCreary] 
 \\
-Auf diesen Grundlagen und den Praxisbeispielen wird herausgearbeitet, dass es sich beim Web of Data nicht nur um einen Technologie Stack handelt, sondern um eine eigene Methode um wissenschaftliche Arbeit und Dokumentation\footcite{latour2016zirkulierende} zu befördern. Dazu werden zuerst formale Methoden in den Geisteswissenschaften diskutiert und anschließend um digitale Methoden erweitert.\footcite{thaller2017digital}\footcite{thaller2017ungefahre} Das Ontology Engineering\footcite{hitzler2016ontology} und das Reasoning\footcite{bursztyn2015reasoning} spielen dabei eine hervorgehobene Rolle.
+Für Historiker*innen liefert uns diese Zeile einen Indiz auf ein Ereigniss in der Vergangenheit, das, wenn es in einen bestimmten historischen Kontext gestellt wird, für Forschungsfragen in den Geschichtswissenschaften relevant ist. Innerhalb der schriftlichen Überlieferung - der historischen Quelle - stecken semantische Strukturen, die dazu dienen können, ein Ereignis aus der Vergangenheit zu rekonstruieren. 
+\\
+Die Beschreibung der semantischen Struktur kann durch ein formales Modell erfolgen. Die Anwendung formaler Methoden unter Berücksichtigung eines solchen Modells kann als Grunlage dafür dienen Interpretationen der Vergangenehit "wie es den gwesesen sein könnte" mit einer gewissen Datengrundlage zu untermauern.
+\\
+Ziel dieser Arbeit soll eine theoretisch und pragtisch Auseinandersetzung mi den Herausforderungen und Möglichkeiten, die digitalen und formalen Methoden und Modellen in der Geschichtswissenschaft mit sich bringen. Dies soll am Beispiel von digital edierten historischen Rechnungsbüchern geschehen.
 \\
 \\
-Der \textbf{Projektkontext} in dem ich angestellt bin, ist eine durch die \textit{Andrew W. Mellon Foundation} geförderte und durch das \textit{Wheaton College Massachusetts} koordinierte Kooperation des Zentrums für Informationsmodellierung mit Partnern aus den USA. Es verfolgt das Ziel semantisch angereicherte digitale Editionen von historischen Rechnungsbüchern einem breiten Fachpublikum zugänglich zu machen. Daten - aus unterschiedlichen Formaten - sollen auf einer gemeinsamen Plattform zusammengeführt werden und adäquate Formen des Retrievals, Discoverys und der Visualisierung eröffnen, um die Arbeit mit den Quellen zu erleichtern. Die Überführung nach RDF auf Basis der im Projektkontext entwickelten \textit{Bookkeeping-Ontologie}, die Transferprozesse historischer Rechnungsbücher formalisiert, erlaubt die Interoperabilität, Verlinkung und Zusammenführung der Informationen im Sinne des \textit{Web of Data} und \textit{Linked Open Data}.
+Am Anfang der Arbeit steht neben einer allgemeinen theoretischen Diskussion zur Verwednung empirischer, formaler Methoden in den Geschichtswissenschaften, mit der sich Manfred THALLER\footcite{thaller2017digital}\footcite{thaller2017ungefahre} viel beschäftigt hat.
+\\
+ Im zweiten Kapitel wird auf eine Technologie Strack, das Web of Data (Semantic Web) eingegangen, das die Grundlage für einen digitalen Zugang zu historischen Quellen liefern kann. Dafür ist eine konzeptionelle\footcite{berners2001semantic}\footcite{cardoso2007semantic} und technische\footcite{bernstein2016new} Doskussion dieses Themenbereiches notwendig. Ein notwendiger Schwerpunkt liegt dabei auf Wissensmodellierung\footcite{kelly2016practical} , Ontologien\footcite{stuckenschmidt2009ontologien} und \textit{Linked Open Data}\footcite{rietveld2015linked}\footcite{bauer2011linked} liegt, sowie einer kritischen Auseinandersetzung mit dem \textit{Web of Data}\footcite{swartz2013aaron}. Das Ontology Engineering\footcite{hitzler2016ontology} und das Reasoning\footcite{bursztyn2015reasoning} spielen dabei eine hervorgehobene Rolle.
+\\
+Das dritte Kapitel versteht sich als Quellenstudie und versucht den Quellentypus historischer Rechnungsbücher herauszuarbeiten. Dabei wird auf die Projektkontexte und Forschungsfragen im Kontext des Projektes DEPCHA eingegangen, eines durch die \textit{Andrew W. Mellon Foundation} geförderte und durch das \textit{Wheaton College Massachusetts} koordinierte Kooperation des Zentrums für Informationsmodellierung und Partnern aus den USA. Dieses Projekte verfolgt das Ziel semantisch angereicherte digitale Editionen von historischen Rechnungsbüchern, unter Verwendung von Web of Data Technologien, einem breiten Fachpublikum über das Web zugänglich zu machen.
+\\
+Darauf aufbauend wird die digitale Edition allgemein behandelt, und auf digitale Editionen historischer Rechnungsbüchern am Beispiel der angeführten Projektkontexte eingegangen. Der dabei verwendete Stadnard ist die Text Encoding Iniativ auf dessen Grundlage die angeführten Editionen basieren. Die Assertive Edtion unterscheidet sich dabei von klassischen Editionen. 
+\\
+Das letzte Kapitel soll die die Möglichkeiten der Web of Data Technologien für formale Methoden diskutieren und ihre Anwendungsgebiete. Dies soll am Beispiel von DEPCHA und der Bookkeeping Ontologie, sowie darauf aufbauenden Funktionalitäten zur Visualisierung und Analyse von histroischen Daten in assertive Edtions liefern.
+
 
 \section{Formale Methoden und Modelle in den Geschichtswissenschaften}
-Am ersten August des Jahres 1808 hat ein gewisser James Haley 1/4 viertel Pfund Pulver, 1/4 Pfund Kugeln und einen 1/4 viertel Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der Stagville Plantage in North Carolina käuflich erworben. Solche Information über die Vergangenheit lassen sich in historischen Rechnungsbüchern finden. Dabei ist nicht der Einzeleintrag von großartiger Bedeutung für Fragestellungen in den Geschichtswissenschaften, sondern die Aggregation vieler Einzelinformationen, um eine Datengrundlage zu schaffen, auf der die Interpretation wie es denn gewesen sein könnte basieren kann.
+Am ersten August des Jahres 1808 hat ein gewisser James Haley 1/4 viertel Pfund Pulver, 1 Pfund Kugeln und einen 1 Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der Stagville Plantage in North Carolina käuflich erworben. Solche Information über die Vergangenheit lassen sich in historischen Rechnungsbüchern finden. Dabei ist nicht der Einzeleintrag von großartiger Bedeutung für Fragestellungen in den Geschichtswissenschaften, sondern die Aggregation vieler Einzelinformationen, um eine Datengrundlage zu schaffen, auf der die Interpretation wie es denn gewesen sein könnte basieren kann.
 \\
-In den 1980iger Jahren standen sich im methodischen Zugang zu solchen Quellen zwei Gruppen gegenüber, die sich als ''Traditionalisten'' und ''Quantifizierer'' festmachen lassen können. Im Gegensatz zu den ''Traditionalisten'', die einen hermeneutischen Zugang wählten, um historische Quellen zu verstehen, übernahmen die ''Quantifizierer'' formale Methoden, wie etwa statistische Verfahren, aus den Sozialwissenschaften, um sie auf Quellenkorpora anzuwenden und die daraus gewonnenen empirischen Fakten für die Interpretation zu nutzen.\footcite[][S.XX-XX]{jarausch1985quantitative} Ergebnis dieser Auseinandersetzung war es, dass bei der Anwendung formaler Methoden besonders auf die Nachvollziehbarkeit geachtet werden muss, damit nicht Dinge, die nicht empirisch Beweisbar sind, auch nicht so missverstanden werden können. Aus diesem Grund muss die Quelle ohne jegliche Vorannahmen zur Verfügung gestellt werden und einsehbar sein und die angewandte formale Modell bzw. die formale Methode in ihrer Gänzer offen gelegt wird. Aber bei zweiterem handel es sich sowieso um den Kern der Geschichtswissenschaften: die INterpretationen der Vergangenheit, sollten für andere nachvollziehbar sein und wissenschaftlichen Kriterien standhalten. Latter is the core knowledge domain of historical research. It is advised to share the basic assumptions and definitions in a knowledge domain in a formal way.\footcite[][S.XX-XX]{thaller2017historical}
+\subsection{Theorien und Methoden der Geschichteswissenschaften}
+
+''\textit{Die Historie ist eine Kunst, die auf Kenntnissen beruht, und weiter ist sie gar nichts'}'\footcite[TODO Seitenanzahl und .In][S.40--56]{mann1979pladoyer}
+\\
+Führte MANN im Jahr 1979 an, um auszudrücken, dass durch die Einführung neuartiger theoretischer Ansätze die Hauptaufgabe der Geschichtswissenschaften, das Erzählen von Geschichten, aufgeweicht wird. Diese neuartigen Ansätze etablierten sich ausgehend von Historikern wie Mommsen, Wehler oder Kocka in den 1960er Jahren, die „eine Reform der Geschichtswissenschaft jenseits des Historismus“ propagierten. Sie versuchten die Theorienbildung, wie in den den systematischen Nachbardiszipilnen, wie etwa der Soziologie, in der Geschichteswissenschaften zu etablieren.
+\\
+''\textit{Erzählende Geschichte bedarf heute einer Theorie der Erzählung}'' beschreibt SOKOLL die heutige Situation, in der historische Forschung ohne theoretische Fragestellung nicht mehr möglicht ist. Methoden hingen sind ein stets anerkanntes Werkzeug in den Geschichtswissenschaften. Ein Blick auf die Vielfalt historischer Hilfswissenschaften, die sich mit der Erschließung von bestimmten Quellentypen beschäftigt, kann dies schon zeigen. 
+\\
+Neben Methoden der Erschließung historischer Quellen und ihrem Ausdruck als historische Hilfswissenschaften ist die Quellenkritik immanente Methode der Geschichtswissenschaft. Die Quellenkritik entwickelte sich aus dem Dreischritt von Heuristik, Kritik und Interpretation. Historiker*innen formulieren eine Fragestellung. Diese Fragestellung ist das Ergebnis aus einem Forschungsstand und der eigenen Erkenntisinteressen. Relevante Quellen werden gesammelt, erschlossen und einer kritischen Prüfung auf Vollständigkeit, Glaubwürdikeit und Echtheit unterzogen. Die Ergebnisse aus dem Quellenstudium werden mit den Erkenntnissen von Fachkollegen*innen verglichen und in übergeordnete Kontexte eingeordnet.
+Für DROYSEN mündet die Reflexion auf die historische Methode somit gleichsam wie von selbst in eine Theorie der historischen Erkenntnis – als Lehre des deutenden Ver-stehens (Hermeneutik) ist daraus ‚die‘ Theorie der Geschichtswissenschaft ) erwachsen, als bleibenden Errungenschaften des Historismus zählt.
+\\
+In der Geschichtswissenschaft von heute gibt es eine Vielzahl von Methoden, deren Abgrenzung bon Theorien oft verschwimmen. Diskusranalyse oder Konfliktransofrmation lassen sich sowohl als Theorie, also auch Methode verstehen. Desweiteren verschwimmt auch die Unterscheidung zwischen qualitativer, interpretierender und quantitativer Methode. Erstere getragen von einem hemeneutischen , zweitere von einem emprischen Verständnis. 
+\footcite[Vgl, TODO][S. 1--5]{sokollgrundlagen}
+
+\subsection{Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }
+In den 1980iger Jahren standen sich im methodischen Zugang zu historischen Quellen zwei Gruppen gegenüber, die sich als ''Traditionalisten'' und ''Quantifizierer'' festmachen lassen können. Im Gegensatz zu den ''Traditionalisten'', die einen hermeneutischen Zugang wählten, um historische Quellen zu verstehen, übernahmen die ''Quantifizierer'' formale Methoden, wie etwa statistische Verfahren, aus den Sozialwissenschaften, um sie auf Quellenkorpora anzuwenden und die daraus gewonnenen empirischen Fakten für die Interpretation zu nutzen.\footcite[][S.XX-XX]{jarausch1985quantitative} Ergebnis dieser Auseinandersetzung war es, dass bei der Anwendung formaler Methoden besonders auf die Nachvollziehbarkeit geachtet werden muss, damit nicht Dinge, die nicht empirisch Beweisbar sind, auch nicht so missverstanden werden können. Aus diesem Grund muss die Quelle ohne jegliche Vorannahmen zur Verfügung gestellt werden und einsehbar sein und die angewandte formale Modell bzw. die formale Methode in ihrer Gänzer offen gelegt wird. Aber bei zweiterem handel es sich sowieso um den Kern der Geschichtswissenschaften: die INterpretationen der Vergangenheit, sollten für andere nachvollziehbar sein und wissenschaftlichen Kriterien standhalten. Es wird empfohlen die grundlegenden Annahmen und Definitionen, die in der Interpretation von Quellen verwendet werden in einer gemeinsamen \textit{knowledge domain}, wie Thaller es nannte, zu formalisieren.\footcite[][S.XX-XX]{thaller2017historical}
 \\ 
 Nach dem abebben der formalen Methoden erleben sie zur Zeit eine neue Hochblüte in form von digitalen Methoden. 
 \\
-Manfred Thaller sprach bereits in den 1980 von einer knowledge domain.
 \\
 Zentrale Concepte in diesem Zusammenhang sind das \textit{Web of Data} bzw. \textit{Semantic Web} und \textit{Linked Open Data}. Diese Technologien ermöglichen es formale Modelle in den Geisteswissenschaften mensch und maschinenlesbar zusammen mit den Daten nachvollziehbar und nutzbar zu machen. Diese Technologien erleichtern den Austausch formaler Modelle. Über das Web können sie so leichter verteilt und nachgenutzt werden.
 \\
@@ -116,7 +144,96 @@ Um mein zweites Masterstudium (Geschichte) abzuschließen, soll sich die dafür 
 \\
 Am Beginn dieses Exposés steht eine Spezifizierung der Thematik und Relevanz des Themas, sowie eine daraus abgeleitete Forschungsfrage. Nach einem Überblick über wichtige Literatur, Projekte und einer Skizze des Aufbaus der Arbeit, folgt eine Erörterung der Methoden und der Umsetzung. Am Ende werden erwartete Ergebnisse und Herausforderungen reflektiert.
 
-\section{Web of Data}
+\section{Web of Data (aka Semantic Web)}
+
+\subsection{new}
+
+Im Gegensatz zum klassischen Web, das als ein Web von Dokumenten betrachtet werden kann, versucht das \textit{Web of Data} Daten aus unterschiedlichen Quellen zu integrieren und miteinander zu verknüpft. Daten sollen so vorliegen, dass nicht nur Menschen diese in neuen Kontexten nutzen können, sondern auch Softwareagenten. Um diese Vision zu erreichen, die vom Erfinder des Web Tim BURNERS-LEE\footcite[Vgl.][]{berners2001semantic} formuliert wurde, bedarf es der Umsetzung mehrere aufeinander aufbauender technischer Grundlagen, die sich im \textit{Semantic Web Stack} manifestieren. Auf dessen Basis, dargestellt in Abbildung \ref{web_stack} soll in diesem Kapitel die grundlegenden Technologien und Standards des \textit{Web of Data} erörtert werden.
+\begin{figure}[h]
+  \centering
+	\includegraphics[width=0.75\textwidth]{img/web_stack.png}  
+    \caption[Visualisierung eines Graphen auf Basis eines RDF-Datensatz, \protect\url{https://www.w3.org/TR/rdf11-primer/}, 10.04.2019.]{Visualisierung eines Graphen auf Basis eines RDF-Datensatz.}
+  	\label{fig:web_stack}
+\end{figure}
+
+\subsection{''Raw Data Now!'': die Vision}
+
+Beim \textit{TED Talk} im Jahre 2009 fordert Tim Burners-Lee das Auditorium auf mit ihm gemeinsam die Worte zu rufen: ''Raw Data Now!''.\footnote{BERNERS-LEE Tim: The Next Web, \url{https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=de}, 05.04.2019.} Die Vision von Burners-Lee, dem Erfinder des World Wide Web, ist das sogenannte \textit{Semantic Web}. Die aktuelle Literatur führt aber den Term \textit{Web of Data} verstärkt an, da diese Terminologie besser passt. Das \textit{Web of Data} versteht sich als eine Erweiterung des Web dahingehend, dass nicht einzelne Dokumente miteinander verknüpft sind, sondern Daten. Um diese Transformation zu ereichen dürfen nicht die Anwendungen die Kontrolle über die Daten haben, sondern Anwendungen müsste mit offenen Daten und ihrer Struktur, die sie im Web of Data mit in den Daten steckt, interagieren können. Zwei Aspekte sind zentral: gemeinsame, allgemeingültige und verwendete Datenfpormate für die Integration und Kombination von Daten aus unterschiedlichen Datenquellen und das ursprüngliche Web dient dabei als Plattform für den Austausch. It is also about language for recording how the data relates to real world objects. That allows a person, or a machine, to start off in one database, and then move through an unending set of databases which are connected not by wires but by being about the same thing.
+\\
+''\textit{The Semantic Web will bring structure to the meaningful content of Web pages, creating an environment where software agents roaming from page to page can readily carry out sophisticated tasks for users.}''\footcite[][S.3]{berners2001semantic}
+\\
+Das Semantic Web ist nicht erreicht. Zumindest nicht für die Allgemeinheit. Die großen Internetriesen hingegen everfügen über "ihre Semantic webs", in denen sie ihre eigeen Agenten mit ihrer großen Datenmenge arbeiten lassen.\footnote{\url{https://twobithistory.org/2018/05/27/semantic-web.html}}
+
+\subsection{Web of Data Technology Stack}
+\subsection{Resource Description Framework}
+
+Das \textit{Resource Description Framework} (RDF) ist ein Datenmodell zur Darstellung und für den Austausch von Daten im Web. Daten werden in diesem Modell als Ressourcen definiert, wobei eine Ressource alles sein kann: ein Dokument, eine Person, ein physisches Objekt oder ein abstraktes Konzept. Über Ressourcen werden Statements der Form Subjekt-Prädikat-Objekt formuliert. Jedes Statement drückt eine Beziehung zwischen zwei Ressourcen aus. Das Subjekt und das Objekt stehen dabei für die beiden miteinander verbundenen Ressourcen; das Prädikat beschriebt die Art ihrer Beziehung. Diese Zusammensetzung von Subjekt, Prädikat und Objekt werden als Triples bezeichnet. Betrachtet man den Satz ''\textit{Bob ist befreundet mit Alice}'', dann lässt sich folgendes Triple extrahieren: \textit{<Bob>} als Subjekt, \textit{<ist befreundet mit>} als Prädikat und \textit{<Alice>} als Objekt. Ob \textit{Alice} mit \textit{Bob} befreundet ist geht aus diesem Statement noch nicht hervor, da jeder Relation in RDF nur eine Richtung definiert.\footcite[Vgl.][S.16-21]{powers2003practical} In der graphischen Darstellung wird schnell klar, dass es sich beim RDF Datenmodell um einen gerichtete Graphen handelt, der aus Knoten (Subjekt und Objekt), sowie aus Kanten (Prädikat) besteht, wie Abbildung \ref{fig:triple} zeigt.
+\begin{figure}[h]
+  \centering
+	\includegraphics[width=0.75\textwidth]{img/triple.png}  
+    \caption[ Semantic Web Stac]{ Semantic Web Stac}
+  	\label{fig:triple}
+\end{figure}
+
+SCHREIBER und RAIMOND\footcite[Vgl.][]{schreiber2014rdf} erklären RDF in einem ausführlichen Beispiel an Hand folgenden Aussagen:
+\\
+\\
+\textit{Bob ist eine Person.\\
+Bob ist befreundet mit Alice.\\
+Bob ist geboren am 4. Juli 1990. \\
+Bob interessiert sich für die Mona Lisa.\\
+Die Mona Lisa wurde von Leonardo da Vinci entworfen.}
+\\
+\\
+Jede dieser Zeilen steht für ein Triple. \textit{Bob} ist Subjekt in vier der oben genannten Tripeln, \textit{Mona Lisa} tritt zweimal als Objekt und einmal als Subjekt auf. Dies ermöglicht es eine beliebige Menge an Triple zu einem komplexeren Graphen zusammenzusetzen und somit komplexere Sachverhalte beschreiben zu können. Abbildung \ref{fig:rdf_example} veranschaulicht das.
+\begin{figure}[h]
+  \centering
+	\includegraphics[width=1\textwidth]{img/rdf_example.png}  
+    \caption[Visualisierung eines Graphen auf Basis eines RDF-Datensatz, \protect\url{https://www.w3.org/TR/rdf11-primer/}, 10.04.2019.]{Visualisierung eines Graphen auf Basis eines RDF-Datensatz.}
+  	\label{fig:rdf_example}
+\end{figure}
+
+\textit{Uniform Resource Identifier} (URI) können in allen drei Positionen eines Triple erscheinen. Somit ist jeder Ressource, sowie jeder Beziehung zwischen Ressourcen durch eine URI identifizierbar. URI's sind durch ein erweiterbares Schema definiert, damit Ressourcen im Internet eindeutig adressiert werden können. Um dabei die Einheitlichkeit zu gewährleisten, folgen sie einem vordefinierten Satz von Syntaxregeln, der 5 Komponenten beinhaltet:\footcite[Vgl.][]{berners2004uniform}
+
+\begin{center}
+\textit{URI = scheme:[//authority]path[?query][\#fragment]}
+\\
+\end{center}
+
+
+\begin{itemize}
+\item \textbf{\textit{scheme}}: Definiert den Kontext und Typ. Bekannte Schemata sind beispielsweise die Webprotokolle \textit{Hyper Text Transfer Protocol} (http) oder das \textit{File Transfer Protocol} (ftp), sowie Notationskonzepte wie \textit{Uniform Resource Name} (URN)urn oder \textit{Digital Object Identifier} (doi).
+\item \textbf{\textit{authority}}: Verwaltet Instanz in einem bestimmten vom Schema angegebenen Interpretationsraum, wie etwa das \textit{Domain Name System}.
+\item \textbf{\textit{path}}: Der Pfad enthält – oft hierarchisch organisierte – Angaben, die zusammen mit dem Abfrageteil eine Ressource identifizieren. 
+\item \textbf{\textit{query}}: Der Abfrageteil beinhaltet Daten zur Identifizierung von solchen Ressourcen, deren Ort durch die Pfadangabe allein nicht genau angegeben werden kann, wie beispielsweise ein Datensatz aus einer Datenbank, abgerufen werden
+\item \textbf{\textit{fragment}}: Ist der optionale Fragmentbezeichner und referenziert eine Stelle innerhalb einer Ressource. Der Fragmentbezeichner bezieht sich immer nur auf den unmittelbar vorangehenden Teil des URI und wird von einem Hash (\#) eingeleitet.
+\end{itemize}
+
+Weiters werden URI in \textit{Uniform Resource Locator} (URL) und \textit{Uniform Resource Name} (URN) unterteilt. Wo URN Namen von Ressourcen eindeutig indetifuieren, wie etwa bei ISBN Nummern von Büchern, sind URL die gägnisten URI's, die den Ort einer Ressource addressieren und über einen Webbrowser auch aufrufen können.\footcite[Vgl.][S.21-22]{powers2003practical} Für das Triple \textit{<Bob>} \textit{<interessiert sich für>} \textit{<die Mona Lisa>} wird jeder Teilbestand eine URI und in der \textit{Turtle} Serialistion von RDF ergibt es folgenden Code:
+\begin{lstlisting}[]
+BASE   <http://example.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX schema: <http://schema.org/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+
+<bob#me> a foaf:Person ;
+         foaf:knows <alice#me> ;
+         schema:birthDate "1990-07-04"^^xsd:date ;
+         foaf:topic_interest wd:Q12418 .
+ 
+<wd:Q12418> dcterms:title "Mona Lisa" ;
+            dcterms:creator <http://dbpedia.org/resource/Leonardo_da_Vinci> .
+\end{lstlisting}
+
+
+
+\subsubsection{Resource Description Framework Schema (RDFs)}
+
+\subsubsection{Taxonomien: Simple Knowledge Organisation (SKOS)}
+
+\subsubsection{Abfragesprache: SPARQL}
 
 \subsection{Ontologien}
 Der Gegenstandsbereich der \textbf{Ontologie als Disziplin in der Philosophie} umfasst alles, das existiert. Das Erkenntnisziel, so MEIXNER, ist auf allgemeiner begrifflicher Ebene zu finden und beschäftigt sich mit der Einteilung des Seins und den Grundstrukturen der Wirklichkeit, sowie der Frage nach dem Wesen der Existenz. Die Ontologie verfolgt nicht das Ziel Erkenntnis über ein Objekt zu erhalten, es beispielsweise zu vermessen oder zu beschreiben, sondern stellt sich die Frage nach welchen allgemeinen Kriterien Objekte im Verhältnis zu ontologischen Begriffen wie Sein, Aktualität, Universalie, Exemplifikation, Sachverhalt oder Individuum stehen.\footcite{meixner1994wissenschaft}
@@ -170,9 +287,16 @@ Der Ontology Editor Protégé erlaubt es, eine Ontologie und die darin enthalten
 
 \subsubsection{Reasoning}
 
+\subsubsection{Linked Open Data}
+
 \section{Historische Rechnungsbücher als Quelle}
 
 Historische Rechnungsbücher liefern reichhaltige und strukturierte Datensätze, die oft längere Zeiträume abdecken und die als Aggregation vieler Einzelinformationen enthalten zu Beantwortung unterschiedlicher Forschungsfragen herangezogen werden können. Eine Transkription allein reicht nicht aus um die unterschiedlichen Dimensionen einer solchen Quelle abzudecken: die linguistische/textuelle, die quantifizierbare und die semantische Dimension. Für Forschungszwecke unterliegen historische Quellen einem Transformationsprozess hin zu (vernetzten) Informationsquellen, die in verschiedenen Forschungsszenarien genutzt werden können. Um dies zu veranschaulichen, werden drei Fallstudien von Projektpartnern und ihren jeweiligen Forschungsinteressen diskutiert, die weit über wirtschaftliche und administrative Aspekte hinausgehen.
+
+\subsection{DEPCHA}
+
+Daten - aus unterschiedlichen Formaten - sollen auf einer gemeinsamen Plattform zusammengeführt werden und adäquate Formen des Retrievals, Discoverys und der Visualisierung eröffnen, um die Arbeit mit den Quellen zu erleichtern. Die Überführung nach RDF auf Basis der im Projektkontext entwickelten \textit{Bookkeeping-Ontologie}, die Transferprozesse historischer Rechnungsbücher formalisiert, erlaubt die Interoperabilität, Verlinkung und Zusammenführung der Informationen im Sinne des \textit{Web of Data} und \textit{Linked Open Data}.
+
 
 \subsection{The George Washington Financial Papers}
 The George Washington Financial Papers (1748-1799) 3 gives insight into the life of
@@ -203,9 +327,10 @@ Forschungsfragen konzentrieren sich dabei auf die Anzahl und Verbindungen zwisch
 \\
 Ziel der Masterarbeit soll es nicht sein die Projektinhalte zu dokumentieren, sondern sich mit theoretischen und praktischen Fragestellungen zu formaler Modellen und formaler Methoden in den Geschichtswissenschaften  auseinanderzusetzen, wiewohl Quellen, Workflows und Daten aus dem DEPCHA Projekt einfließen sollen.
 
-\section{Assertive Digitale Edition von historischen Rechnungsbücher}
+\section{Digitale Edition von historischen Rechnungsbücher}
 \label{subsec:DigEdHiRe}
 
+\subsection{Digitale Edition}
 Kapitel in dem digitale Edition, TEI und How to Bookkeep behandelt wird. Und die besonderheiten editorische Arbeit mit Rechnungsbüchern. 
 
 TOMASEK und BAUMAN beschreiben ein Modell eines interpretativen Markups, um Beziehungen zwischen Individueen, Geld- Güter- und Dienstleistungstransfer, die Doppeleintrag-Buchhaltung umfassenm auszuzeichnen. Die Auszeichnung basiert auf den ausdrucksstarken Richtlinien der TEI. \footcite[Vgl.][S.1-2, \protect\url{http://journals.openedition.org/jtei/895}, 08.03.2018]{tomasek2013encoding}
@@ -228,6 +353,7 @@ The common knowledge domain of these documents is formalized in a ”bookkeeping
 \newpage
 \bibliographystyle{jurabib}
 \bibliography{literatur}
-
+\newpage
+\listoffigures
 
 \end{document}

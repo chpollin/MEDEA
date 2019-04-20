@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  23 MAR 2019 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  20 APR 2019 11:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1155,110 +1155,173 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
  (./expose.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
-)
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write5
 \openout5 = `expose.toc'.
 
- [1
+ [2]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 109.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 97.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 97--103
+Underfull \hbox (badness 10000) in paragraph at lines 98--116
 
  []
 
-[1] [2]
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
+ []
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 121.
-
-
-Package jurabib Warning: `shorttitle' for `favre2001information'
-(jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 129.
-
-
-Package jurabib Warning: `shorttitle' for `stuckenschmidt2009ontologien'
-(jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 134.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--143
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 136--146
 
  []
 
 [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 155.
 
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+LaTeX Warning: Reference `web_stack' on page 5 undefined on input line 151.
+
+<img/web_stack.png, id=26, 1027.84pt x 1027.84pt>
+File: img/web_stack.png Graphic file (type png)
+<use img/web_stack.png>
+Package pdftex.def Info: img/web_stack.png  used on input line 154.
+(pdftex.def)             Requested size: 341.43307pt x 341.431pt.
+[5 <./img/web_stack.png>]
+<img/triple.png, id=33, 532.99126pt x 136.51pt>
+File: img/triple.png Graphic file (type png)
+<use img/triple.png>
+Package pdftex.def Info: img/triple.png  used on input line 173.
+(pdftex.def)             Requested size: 341.43307pt x 87.44942pt.
+ [6]
+<img/rdf_example.png, id=37, 853.1875pt x 570.13pt>
+File: img/rdf_example.png Graphic file (type png)
+<use img/rdf_example.png>
+Package pdftex.def Info: img/rdf_example.png  used on input line 191.
+(pdftex.def)             Requested size: 455.24411pt x 304.22054pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--195
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 205.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 155.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 205.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 205.
+ [7 <./img/triple.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--168
+Package jurabib Warning: `shorttitle' for `powers2003practical'
+(jurabib)                is missing -- replacing with `title'
+(jurabib)                field on input line 212.
+
+[8 <./img/rdf_example.png>]
+Overfull \hbox (12.706pt too wide) in paragraph at lines 227--228
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[9]
+
+Package jurabib Warning: `shorttitle' for `stuckenschmidt2009ontologien'
+(jurabib)                is missing -- replacing with `title'
+(jurabib)                field on input line 251.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--260
 
  []
 
-[5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 199--205
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--260
 
  []
 
-[7]
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 278--285
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 323--329
+
+ []
+
+[13]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 211.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 336.
 
 
-LaTeX Warning: Citation `tomasek2013encoding' on page 8 undefined  on input lin
-e 211.
+LaTeX Warning: Citation `tomasek2013encoding' on page 14 undefined  on input li
+ne 336.
 
 
-Overfull \hbox (3.28314pt too wide) in paragraph at lines 216--223
+Overfull \hbox (3.28314pt too wide) in paragraph at lines 341--348
 \T1/ptm/m/n/12 Im Zu-ge des Pro-jek-tes \T1/ptm/b/n/12 Di-gi-tal Edi-ti-on Pu-b
 lis-hing Co-ope-ra-ti-ve for Hi-sto-ri-cal Ac-counts (DEP-
  []
 
-[8] [9] (./expose.bbl
+[14] [15] (./expose.bbl
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ptm/b/sc' tried instead on input line 18.
- [10]
-Underfull \hbox (badness 2384) in paragraph at lines 354--356
+
+Underfull \hbox (badness 1603) in paragraph at lines 49--50
+[]\T1/ptm/b/sc/12 Berners-Lee, \T1/ptm/b/n/12 Tim\T1/ptm/m/n/12 /\T1/ptm/b/sc/1
+2 Fielding, \T1/ptm/b/n/12 Roy\T1/ptm/m/n/12 /\T1/ptm/b/sc/12 Masinter, \T1/ptm
+/b/n/12 Lar-ry: \T1/ptm/m/n/12 Uni-form re-sour-ce iden-ti-fier
+ []
+
+[16]
+Underfull \hbox (badness 2384) in paragraph at lines 412--414
 []\T1/ptm/b/sc/12 Stuckenschmidt, \T1/ptm/b/n/12 Hei-ner: \T1/ptm/m/n/12 On-to-
 lo-gi-en: Kon-zep-te, Tech-no-lo-gi-en und An-wen-dun-gen.
  []
 
-[11]) [12] (./expose.aux)
+[17]) [18] (./expose.lof)
+\tf@lof=\write6
+\openout6 = `expose.lof'.
+
+ [19] (./expose.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 20734 strings out of 494830
- 373745 string characters out of 6177366
- 446235 words of memory out of 5000000
- 23818 multiletter control sequences out of 15000+600000
- 588720 words of font info for 87 fonts, out of 8000000 for 9000
+ 21094 strings out of 494830
+ 377362 string characters out of 6177366
+ 449293 words of memory out of 5000000
+ 24168 multiletter control sequences out of 15000+600000
+ 591488 words of font info for 89 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 49i,7n,47p,10378b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,7n,47p,10378b,1552s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/pollin/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.60
-0pk> </home/pollin/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.
-600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/te
+0pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/pollin/.
+texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on expose.pdf (13 pages, 105336 bytes).
+s/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on expose.pdf (21 pages, 403842 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 205 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

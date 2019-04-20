@@ -32,6 +32,22 @@
   {\bibhowcited} \jbdoitem {{Beretta}{Francesco}{F.}{}{};
   {Bruseker}{George}{G.}{}{}} {} {} \bibAnnoteFile {beretta2017dataforhistory}
 
+\bibitem[{Berners-Lee\jbbfsasep Fielding\jbbstasep Masinter\jbdy {2004}}%
+         {}%
+         {{0}{}{techreport}{2004}{}{}{}{}%
+          {2004}}%
+         {{Uniform resource identifier (URI): Generic syntax}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{berners2004uniform}
+ \jburldef {berners2004uniform}{http://www.rfc-editor.org/info/rfc3986}%
+ \jbbibargs {\bibnf {Berners-Lee} {Tim} {T.} {} {}\Bibbfsasep \bibnf {Fielding}
+  {Roy} {R.} {} {}\Bibbstasep \bibnf {Masinter} {Larry} {L.} {} {}} {Tim
+  Berners-LeeRoy FieldingLarry Masinter} {aus} {\bibtfont {Uniform resource
+  identifier (URI): Generic syntax}\bibatsep\  \apyformat {2004} --
+  \technicalreportname {}  \jburluse {berners2004uniform}} {\bibhowcited}
+  \jbdoitem {{Berners-Lee}{Tim}{T.}{}{}; {Fielding}{Roy}{R.}{}{};
+  {Masinter}{Larry}{L.}{}{}} {} {} \bibAnnoteFile {berners2004uniform}
+
 \bibitem[{Berners-Lee\jbbfsasep Hendler\jbbstasep Lassila\jbdy {2001}}%
          {Scientific American 284  \peryearformat {2001}}%
          {{0}{}{article}{2001}{}{}{}{34--43}%
@@ -250,19 +266,6 @@
   {Elsevier\bibbdsep {} 2016}} {\bibhowcited} \jbdoitem
   {{Kelly}{Richard}{R.}{}{}} {} {} \bibAnnoteFile {kelly2016practical}
 
-\bibitem[{Latour\jbdy {2016}}%
-         {}%
-         {{0}{}{article}{2016}{}{}{}{}%
-          {2016}}%
-         {{Zirkulierende Referenz. Bodenstichproben aus dem Urwald am
-  Amazonas}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{latour2016zirkulierende}
- \jbbibargs {\bibnf {Latour} {Bruno} {B.} {} {}} {Bruno Latour} {au}
-  {\bibapifont {Zirkulierende Referenz. Bodenstichproben aus dem Urwald am
-  Amazonas}\bibatsep\  \artyearformat {2016}} {\bibartperiodhowcited} \jbdoitem
-  {{Latour}{Bruno}{B.}{}{}} {} {} \bibAnnoteFile {latour2016zirkulierende}
-
 \bibitem[{Linckels\jbbtasep Meinel\jbdy {2011}}%
          {}%
          {{0}{}{book}{2011}{}{}{}{}%
@@ -277,6 +280,20 @@
   libraries}\bibatsep\  \apyformat {Springer Science \& Business Media\bibbdsep
   {} 2011}} {\bibhowcited} \jbdoitem {{Linckels}{Serge}{S.}{}{};
   {Meinel}{Christoph}{C.}{}{}} {} {} \bibAnnoteFile {linckels2011librarian}
+
+\bibitem[{Mann\jbdy {1979}}%
+         {Theorie und Erz{\"a}hlung in der Geschichte/Hrsg. von J. Kocka, T.
+  Nipperdey. M{\"u}nchen\jbsy {1979}}%
+         {{0}{}{article}{1979}{}{}{}{}%
+          {1979}}%
+         {{Pl{\"a}doyer f{\"u}r die historische Erz{\"a}hlung}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{mann1979pladoyer}
+ \jbbibargs {\bibnf {Mann} {Golo} {G.} {} {}} {Golo Mann} {au} {\bibapifont
+  {Pl{\"a}doyer f{\"u}r die historische Erz{\"a}hlung}\bibatsep\ \bibJTsep
+  \bibjtfont {Theorie und Erz{\"a}hlung in der Geschichte/Hrsg. von J. Kocka,
+  T. Nipperdey. M{\"u}nchen}  \artyearformat {1979}} {\bibartperiodhowcited}
+  \jbdoitem {{Mann}{Golo}{G.}{}{}} {} {} \bibAnnoteFile {mann1979pladoyer}
 
 \bibitem[{Meixner\jbdy {1994}}%
          {Logos (neue Folge) 1  \peryearformat {1994}}%
@@ -304,6 +321,20 @@
   \artvolumeformat {1} \artyearformat {2015}\artnumberformat {4}
   \jbPages{4--12}} {\bibartperiodhowcited} \jbdoitem
   {{Musen}{Mark~A}{M.~A.}{}{}} {} {} \bibAnnoteFile {musen2015protege}
+
+\bibitem[{Powers\jbdy {2003}}%
+         {}%
+         {{0}{}{book}{2003}{}{}{}{}%
+          {" O'Reilly Media, Inc."\bibbdsep {} 2003}}%
+         {{Practical RDF: solving problems with the resource description
+  framework}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{powers2003practical}
+ \jbbibargs {\bibnf {Powers} {Shelley} {S.} {} {}} {Shelley Powers} {au}
+  {\bibtfont {Practical RDF: solving problems with the resource description
+  framework}\bibatsep\  \apyformat {" O'Reilly Media, Inc."\bibbdsep {} 2003}}
+  {\bibhowcited} \jbdoitem {{Powers}{Shelley}{S.}{}{}} {} {} \bibAnnoteFile
+  {powers2003practical}
 
 \bibitem[{Reichenberger\jbdy {2010}}%
          {}%
@@ -340,6 +371,33 @@
   {{Gandon}{Fabien}{F.}{}{}; {Sabou}{Marta}{M.}{}{}; {Sack}{Harald}{H.}{}{};
   {d'Amato}{Claudia}{C.}{}{}; {Cudr{\'e}-Mauroux}{Philippe}{P.}{}{};
   {Zimmermann}{Antoine}{A.}{}{}} {} \bibAnnoteFile {rietveld2015linked}
+
+\bibitem[{Schreiber\jbbtasep Raimond\jbdy {2014}}%
+         {W3C working group note\jbsy {2014}}%
+         {{0}{}{article}{2014}{}{}{}{}%
+          {World-Wide Web Consortium\bibbdsep {} 2014}}%
+         {{RDF 1.1 Primer}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{schreiber2014rdf}
+ \jbbibargs {\bibnf {Schreiber} {Guus} {G.} {} {}\Bibbtasep \bibnf {Raimond}
+  {Yves} {Y.} {} {}} {Guus SchreiberYves Raimond} {aus} {\bibapifont {RDF 1.1
+  Primer}\bibatsep\ \bibJTsep \bibjtfont {W3C working group note}
+  \artyearformat {2014}} {\bibartperiodhowcited} \jbdoitem
+  {{Schreiber}{Guus}{G.}{}{}; {Raimond}{Yves}{Y.}{}{}} {} {} \bibAnnoteFile
+  {schreiber2014rdf}
+
+\bibitem[{Sokoll}%
+         {Grundlagen der Geschichtswissenschaft}%
+         {{0}{}{article}{}{}{}{}{}%
+          {Hagen}}%
+         {{Einführung: Theorien und Methoden – an praktischen Beispielen}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{sokollgrundlagen}
+ \jbbibargs {\bibnf {Sokoll} {Thomas} {T.} {} {}} {Thomas Sokoll} {au}
+  {\bibapifont {Einführung: Theorien und Methoden – an praktischen
+  Beispielen}\bibatsep\ \bibJTsep \bibjtfont {Grundlagen der
+  Geschichtswissenschaft} } {\bibartperiodhowcited} \jbdoitem
+  {{Sokoll}{Thomas}{T.}{}{}} {} {} \bibAnnoteFile {sokollgrundlagen}
 
 \bibitem[{Stuckenschmidt\jbdy {2009}}%
          {}%
