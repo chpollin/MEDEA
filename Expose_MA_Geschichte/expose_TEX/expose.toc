@@ -1,45 +1,31 @@
 \babel@toc {german}{}
 \contentsline {section}{\numberline {1}Einleitung}{1}
 \contentsline {section}{\numberline {2}Formale Methoden und Modelle in den Geschichtswissenschaften}{2}
-<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.1}Theorien und Methoden der Geschichteswissenschaften}{3}
 \contentsline {subsection}{\numberline {2.2}Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }{4}
-\contentsline {section}{\numberline {3}Web of Data (aka Semantic Web)}{5}
-\contentsline {subsection}{\numberline {3.1}new}{5}
-\contentsline {subsection}{\numberline {3.2}''Raw Data Now!'': die Vision}{6}
-\contentsline {subsection}{\numberline {3.3}Web of Data Technology Stack}{6}
-\contentsline {subsection}{\numberline {3.4}Resource Description Framework}{6}
-\contentsline {subsubsection}{\numberline {3.4.1}Resource Description Framework Schema (RDFs)}{9}
-\contentsline {subsubsection}{\numberline {3.4.2}Taxonomien: Simple Knowledge Organisation (SKOS)}{9}
-\contentsline {subsubsection}{\numberline {3.4.3}Abfragesprache: SPARQL}{9}
-\contentsline {subsection}{\numberline {3.5}Ontologien}{9}
-\contentsline {subsubsection}{\numberline {3.5.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{10}
-\contentsline {subsubsection}{\numberline {3.5.2}Ontology Engineering}{12}
-\contentsline {subsubsection}{\numberline {3.5.3}Reasoning}{12}
-\contentsline {subsubsection}{\numberline {3.5.4}Linked Open Data}{12}
-\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{12}
-\contentsline {subsection}{\numberline {4.1}DEPCHA}{13}
-\contentsline {subsection}{\numberline {4.2}The George Washington Financial Papers}{13}
-\contentsline {subsection}{\numberline {4.3}The Wheaton Accounts}{13}
-\contentsline {subsection}{\numberline {4.4}Stagville Financial Papers}{14}
-\contentsline {section}{\numberline {5}Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{14}
-\contentsline {subsection}{\numberline {5.1}Digitale Edition}{14}
-\contentsline {section}{\numberline {6}Ein formales Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{14}
-\contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{15}
-\contentsline {section}{\numberline {8}Zusammenfassung}{15}
-=======
-\contentsline {section}{\numberline {3}Web of Data (aka Semantic Web}{3}
-\contentsline {subsection}{\numberline {3.1}Resource Description Framework}{3}
-\contentsline {subsection}{\numberline {3.2}Ontologien}{6}
-\contentsline {subsubsection}{\numberline {3.2.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{7}
-\contentsline {subsubsection}{\numberline {3.2.2}Ontology Engineering}{10}
-\contentsline {subsubsection}{\numberline {3.2.3}Reasoning}{10}
-\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{10}
-\contentsline {subsection}{\numberline {4.1}The George Washington Financial Papers}{10}
-\contentsline {subsection}{\numberline {4.2}The Wheaton Accounts}{10}
-\contentsline {subsection}{\numberline {4.3}Stagville Financial Papers}{11}
-\contentsline {section}{\numberline {5}Assertive Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{11}
-\contentsline {section}{\numberline {6}Ein formales Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{12}
-\contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{12}
-\contentsline {section}{\numberline {8}Zusammenfassung}{12}
->>>>>>> a8f09cdfa61624d9a8b408acdaef7305a31d48dc
+\contentsline {subsection}{\numberline {2.3}Modellbildung in den Geschichtswissenschaften}{4}
+\contentsline {subsubsection}{\numberline {2.3.1}Modellbegriff}{5}
+\contentsline {subsubsection}{\numberline {2.3.2}Was ist Informationsmodellierung}{7}
+\contentsline {subsubsection}{\numberline {2.3.3}System}{7}
+\contentsline {subsection}{\numberline {2.4}Forschungsdaten in den Geschichtswissen}{7}
+\contentsline {subsection}{\numberline {2.5}Modelle in den Geschichtswissenschaften}{8}
+\contentsline {section}{\numberline {3}Web of Data (aka Semantic Web)}{9}
+\contentsline {subsection}{\numberline {3.1}Resource Description Framework}{9}
+\contentsline {subsection}{\numberline {3.2}Resource Description Framework Schema (RDFs)}{13}
+\contentsline {subsection}{\numberline {3.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{13}
+\contentsline {subsection}{\numberline {3.4}Abfragesprache: SPARQL}{13}
+\contentsline {subsection}{\numberline {3.5}Ontologien}{13}
+\contentsline {subsubsection}{\numberline {3.5.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{13}
+\contentsline {subsubsection}{\numberline {3.5.2}Ontology Engineering}{16}
+\contentsline {subsubsection}{\numberline {3.5.3}Reasoning}{16}
+\contentsline {subsubsection}{\numberline {3.5.4}Linked Open Data}{16}
+\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{16}
+\contentsline {subsection}{\numberline {4.1}DEPCHA}{17}
+\contentsline {subsection}{\numberline {4.2}The George Washington Financial Papers}{17}
+\contentsline {subsection}{\numberline {4.3}The Wheaton Accounts}{17}
+\contentsline {subsection}{\numberline {4.4}Stagville Financial Papers}{17}
+\contentsline {section}{\numberline {5}Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{18}
+\contentsline {subsection}{\numberline {5.1}Digitale Edition}{18}
+\contentsline {section}{\numberline {6}Ein Informationsmodell, formales Modell, konezptuelles Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{18}
+\contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{19}
+\contentsline {section}{\numberline {8}Zusammenfassung}{19}
