@@ -1,77 +1,66 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: literatur.bib
-Repeated entry---line 592 of file literatur.bib
+Repeated entry---line 601 of file literatur.bib
  : @article{musen2015protege
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 607 of file literatur.bib
+Repeated entry---line 616 of file literatur.bib
  : @book{linckels2011librarian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 615 of file literatur.bib
+Repeated entry---line 624 of file literatur.bib
  : @book{stuckenschmidt2009ontologien
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 623 of file literatur.bib
+Repeated entry---line 632 of file literatur.bib
  : @book{reichenberger2010grundlagen
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 630 of file literatur.bib
+Repeated entry---line 639 of file literatur.bib
  : @inproceedings{hoekstra2009ontology
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 643 of file literatur.bib
+Repeated entry---line 652 of file literatur.bib
  : @phdthesis{borst1997construction
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 653 of file literatur.bib
+Repeated entry---line 662 of file literatur.bib
  : @article{gruber1993translation
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 667 of file literatur.bib
+Repeated entry---line 676 of file literatur.bib
  : @book{favre2001information
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 674 of file literatur.bib
+Repeated entry---line 683 of file literatur.bib
  : @article{thaller2017ungefahre
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 684 of file literatur.bib
+Repeated entry---line 693 of file literatur.bib
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 766 of file literatur.bib
+Repeated entry---line 775 of file literatur.bib
  : @article{schreiber2014rdf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 774 of file literatur.bib
+Repeated entry---line 783 of file literatur.bib
  : @techreport{berners2004uniform
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 781 of file literatur.bib
+Repeated entry---line 790 of file literatur.bib
  : @book{powers2003practical
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 789 of file literatur.bib
+Repeated entry---line 798 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 950 of file literatur.bib
+Repeated entry---line 959 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "tomasek2013encoding"
 Warning--Empty pages in bauer2011linked
 Warning--No address in beretta2017dataforhistory
 Warning--No address in berners2004uniform
@@ -86,45 +75,5 @@ Warning--Empty pages in schreiber2014rdf
 Warning--Empty pages in sokollgrundlagen
 Warning--Empty pages in stachowiak1973allgemeine
 Warning--Empty pages in sure2003methodology
-You've used 39 entries,
-            7954 wiz_defined-function locations,
-            1598 strings with 16627 characters,
-and the built_in function-call counts, 41944 in all, are:
-= -- 2990
-> -- 1414
-< -- 128
-+ -- 494
-- -- 444
-* -- 4838
-:= -- 5955
-add.period$ -- 0
-call.type$ -- 39
-change.case$ -- 191
-chr.to.int$ -- 63
-cite$ -- 98
-duplicate$ -- 2271
-empty$ -- 4317
-format.name$ -- 1443
-if$ -- 8535
-int.to.chr$ -- 3
-int.to.str$ -- 0
-missing$ -- 222
-newline$ -- 360
-num.names$ -- 318
-pop$ -- 869
-preamble$ -- 1
-purify$ -- 188
-quote$ -- 0
-skip$ -- 1597
-stack$ -- 0
-substring$ -- 1367
-swap$ -- 1106
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 830
-warning$ -- 14
-while$ -- 384
-width$ -- 0
-write$ -- 1465
+Warning--Empty pages in tomasek2013encoding
 (There were 15 error messages)
