@@ -389,6 +389,22 @@
   {linckels2011librarian}
 
 \backrefparscanfalse
+\bibitem[{Magerski\Bibetal\jbdy {2009}}%
+         {Zagreber Germanistische Beitr{\"a}ge, \Numbername~18, \jbsy {2009}}%
+         {{0}{}{article}{2009}{}{}{}{3--19}%
+          {Odsjek za germanistiku-Filozofski fakultet Sveu{\v{c}}ili{\v{s}}ta u
+  Zagrebu\bibbdsep {} 2009}}%
+         {{Wie schreibt man Geschichte?}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{magerski2009schreibt}
+ \jbbibargs {\bibnf {Magerski} {Christine} {C.} {} {}\bibIMfont {\Bibetal}}
+  {Christine Magerski others} {aus} {sexless} {\bibapifont {Wie schreibt man
+  Geschichte?} \bibJTsep \bibjtfont {Zagreber Germanistische
+  Beitr{\"a}ge}\ajtsep {}  \artyearformat {2009}\artnumberformat {18}
+  \jbPages{3--19}} {\bibartperiodhowcited} \jbdoitem
+  {{Magerski}{Christine}{C.}{}{}} {} {} \bibAnnoteFile {magerski2009schreibt}
+
+\backrefparscanfalse
 \bibitem[{Mann\jbdy {1979}}%
          {Theorie und Erz{\"a}hlung in der Geschichte/Hrsg. von J. Kocka, T.
   Nipperdey. M{\"u}nchen \jbsy {1979}}%
