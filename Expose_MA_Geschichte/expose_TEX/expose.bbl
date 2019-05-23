@@ -4,6 +4,24 @@
 \begin{thebibliography}{}
 
 \backrefparscanfalse
+\bibitem[{Alexander\jbbtasep Davis\jbdy {2012}}%
+         {Debates in the digital humanities \jbsy {2012}}%
+         {{0}{}{article}{2012}{}{}{}{368--389}%
+          {U of Minnesota Press\bibbdsep {} 2012}}%
+         {{Should liberal arts campuses do digital humanities? Process and
+  products in the small college world}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{alexander2012should}
+ \jbbibargs {\bibnf {Alexander} {Bryan} {B.} {} {}\Bibbtasep \bibnf {Davis}
+  {Rebecca~Frost} {R.~F.} {} {}} {Bryan AlexanderRebecca~Frost Davis} {aus}
+  {sexless} {\bibapifont {Should liberal arts campuses do digital humanities?
+  Process and products in the small college world}\bibatsep {} \bibJTsep
+  \bibjtfont {Debates in the digital humanities}\ajtsep {}  \artyearformat
+  {2012} \jbPages{368--389}} {\bibartperiodhowcited} \jbdoitem
+  {{Alexander}{Bryan}{B.}{}{}; {Davis}{Rebecca~Frost}{R.~F.}{}{}} {} {}
+  \bibAnnoteFile {alexander2012should}
+
+\backrefparscanfalse
 \bibitem[{Bauer\jbbtasep Kaltenb{\"o}ck\jbdy {2011}}%
          {Edition mono/monochrom \jbsy {2011}}%
          {{0}{}{article}{2011}{}{}{}{}%
@@ -102,22 +120,6 @@
   \bibAnnoteFile {borst1997construction}
 
 \backrefparscanfalse
-\bibitem[{Brumfield\jbbtasep Anna\jbdy {2015}}%
-         {}%
-         {{0}{}{misc}{2015}{}{}{}{}%
-          {2015}}%
-         {{Encoding Account Books Relating to Slavery in the U.S. South}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{brumfield2015encoding}
- \jbbibargs {\bibnf {Brumfield} {Ben} {B.} {} {}\Bibbtasep \bibnf {Anna}
-  {Agbe-Davies} {A.-D.} {} {}} {Ben BrumfieldAgbe-Davies Anna} {aus} {sexless}
-  {\bibtfont {Encoding Account Books Relating to Slavery in the U.S.
-  South}\bibatsep {}  \apyformat {https://medea.hypotheses.org/182\bibbdsep {}
-  2015} \jbnote {1} {Accessed: 2019-03-20} } {\bibhowcited}  \jbendnote
-  {Accessed: 2019-03-20} \jbdoitem {{Brumfield}{Ben}{B.}{}{};
-  {Anna}{Agbe-Davies}{A.-D.}{}{}} {} {} \bibAnnoteFile {brumfield2015encoding}
-
-\backrefparscanfalse
 \bibitem[{Bursztyn\Bibetal\jbdy {2015}}%
          {}%
          {{0}{}{inproceedings}{2015}{}{}{}{1541--1544}%
@@ -148,6 +150,38 @@
   \artyearformat {2007}\artnumberformat {5} \jbPages{84--88}}
   {\bibartperiodhowcited} \jbdoitem {{Cardoso}{Jorge}{J.}{}{}} {} {}
   \bibAnnoteFile {cardoso2007semantic}
+
+\backrefparscanfalse
+\bibitem[{Clark\jbdy {1859}}%
+         {}%
+         {{0}{}{book}{1859}{}{}{}{}%
+          {Crosby, Nichols, and Company, and author at Norton\bibbdsep {}
+  1859}}%
+         {{A History of the Town of Norton, Bristol County, Massachusetts, from
+  1669-1859}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{clark1859history}
+ \jbbibargs {\bibnf {Clark} {George~Faber} {G.~F.} {} {}} {George~Faber Clark}
+  {au} {sexless} {\bibtfont {A History of the Town of Norton, Bristol County,
+  Massachusetts, from 1669-1859}\bibatsep {}  \apyformat {\jbpublisher{Crosby,
+  Nichols, and Company, and author at Norton\bibbdsep {}} 1859}} {\bibhowcited}
+  \jbdoitem {{Clark}{George~Faber}{G.~F.}{}{}} {} {} \bibAnnoteFile
+  {clark1859history}
+
+\backrefparscanfalse
+\bibitem[{Cole\jbdy {2015}}%
+         {}%
+         {{0}{}{misc}{2015}{}{}{}{}%
+          {Retrieved\bibbdsep {} 2015}}%
+         {{A complete Dictionary of Dry Goods and History of Silk, Linen, Wool
+  and other Fibrous Substances. 1892}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{cole2015complete}
+ \jbbibargs {\bibnf {Cole} {George~S} {G.~S.} {} {}} {George~S Cole} {au}
+  {sexless} {\bibtfont {A complete Dictionary of Dry Goods and History of Silk,
+  Linen, Wool and other Fibrous Substances. 1892}\bibatsep {} 2015}
+  {\bibhowcited} \jbdoitem {{Cole}{George~S}{G.~S.}{}{}} {} {} \bibAnnoteFile
+  {cole2015complete}
 
 \backrefparscanfalse
 \bibitem[{Dentler\Bibetal\jbdy {2011}}%
@@ -642,6 +676,22 @@
   {2013}\artnumberformat {6}} {\bibartperiodhowcited} \jbdoitem
   {{Tomasek}{Kathryn}{K.}{}{}; {Bauman}{Syd}{S.}{}{}} {} {} \bibAnnoteFile
   {tomasek2013encoding}
+
+\backrefparscanfalse
+\bibitem[{Von~Brandt\jbdy {2007}}%
+         {}%
+         {{0}{}{book}{2007}{}{}{}{}%
+          {W. Kohlhammer Verlag\bibbdsep {} 2007}}%
+         {{Werkzeug des Historikers: eine Einf{\"u}hrung in die historischen
+  Hilfswissenschaften}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{von2007werkzeug}
+ \jbbibargs {\bibnf {Von~Brandt} {Ahasver} {A.} {} {}} {Ahasver Von~Brandt}
+  {au} {sexless} {\bibtfont {Werkzeug des Historikers: eine Einf{\"u}hrung in
+  die historischen Hilfswissenschaften}\bibatsep {}  \volumeformat {33}
+  \apyformat {\jbpublisher{W. Kohlhammer Verlag\bibbdsep {}} 2007}}
+  {\bibhowcited} \jbdoitem {{Von~Brandt}{Ahasver}{A.}{}{}} {} {} \bibAnnoteFile
+  {von2007werkzeug}
 
 \backrefparscanfalse
 \bibitem[{Weller\jbdy {2013}}%
