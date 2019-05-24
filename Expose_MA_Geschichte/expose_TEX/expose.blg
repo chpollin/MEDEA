@@ -41,23 +41,23 @@ Repeated entry---line 733 of file literatur.bib
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 815 of file literatur.bib
+Repeated entry---line 830 of file literatur.bib
  : @article{schreiber2014rdf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 823 of file literatur.bib
+Repeated entry---line 838 of file literatur.bib
  : @techreport{berners2004uniform
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 830 of file literatur.bib
+Repeated entry---line 845 of file literatur.bib
  : @book{powers2003practical
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 838 of file literatur.bib
+Repeated entry---line 853 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 999 of file literatur.bib
+Repeated entry---line 1014 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
@@ -72,6 +72,7 @@ Warning--No address in hiltman2018forschungsdaten
 Warning--No address in hoekstra2009ontology
 Warning--There's only a starting page, no pagerange in joostbreukera2009flood
 Warning--Empty pages in mann1979pladoyer
+Warning--Empty pages in pellegrini2006semantic
 Warning--Empty pages in schreiber2014rdf
 Warning--Empty pages in sokollgrundlagen
 Warning--Empty pages in stachowiak1973allgemeine

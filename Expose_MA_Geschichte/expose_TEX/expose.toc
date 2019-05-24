@@ -10,21 +10,22 @@
 \contentsline {subsection}{\numberline {2.4}Forschungsdaten in den Geschichtswissen}{8}% 
 \contentsline {subsection}{\numberline {2.5}Modelle in den Geschichtswissenschaften}{9}% 
 \contentsline {section}{\numberline {3}Web of Data}{10}% 
-\contentsline {subsection}{\numberline {3.1}Resource Description Framework}{10}% 
-\contentsline {subsection}{\numberline {3.2}Resource Description Framework Schema (RDFs)}{14}% 
-\contentsline {subsection}{\numberline {3.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{14}% 
-\contentsline {subsection}{\numberline {3.4}Abfragesprache: SPARQL}{14}% 
-\contentsline {subsection}{\numberline {3.5}Ontologien}{14}% 
-\contentsline {subsubsection}{\numberline {3.5.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{14}% 
-\contentsline {subsubsection}{\numberline {3.5.2}Ontology Engineering}{17}% 
-\contentsline {subsubsection}{\numberline {3.5.3}Reasoning}{17}% 
-\contentsline {subsubsection}{\numberline {3.5.4}Linked Open Data}{17}% 
-\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{17}% 
-\contentsline {subsection}{\numberline {4.1}DEPCHA}{18}% 
+\contentsline {subsection}{\numberline {3.1}Geschichte und Vision des Web of Data}{10}% 
+\contentsline {subsection}{\numberline {3.2}Resource Description Framework}{11}% 
+\contentsline {subsection}{\numberline {3.3}Resource Description Framework Schema (RDFs)}{14}% 
+\contentsline {subsection}{\numberline {3.4}Taxonomien: Simple Knowledge Organisation (SKOS)}{14}% 
+\contentsline {subsection}{\numberline {3.5}Abfragesprache: SPARQL}{14}% 
+\contentsline {subsection}{\numberline {3.6}Ontologien}{14}% 
+\contentsline {subsubsection}{\numberline {3.6.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{15}% 
+\contentsline {subsubsection}{\numberline {3.6.2}Ontology Engineering}{18}% 
+\contentsline {subsubsection}{\numberline {3.6.3}Reasoning}{18}% 
+\contentsline {subsubsection}{\numberline {3.6.4}Linked Open Data}{18}% 
+\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{18}% 
+\contentsline {subsection}{\numberline {4.1}DEPCHA}{19}% 
 \contentsline {subsection}{\numberline {4.2}The George Washington Financial Papers}{19}% 
 \contentsline {subsection}{\numberline {4.3}The Wheaton Accounts}{19}% 
-\contentsline {section}{\numberline {5}Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{24}% 
-\contentsline {subsection}{\numberline {5.1}Digitale Edition}{24}% 
-\contentsline {section}{\numberline {6}Ein Informationsmodell, formales Modell, konezptuelles Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{24}% 
-\contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{25}% 
-\contentsline {section}{\numberline {8}Zusammenfassung}{25}% 
+\contentsline {section}{\numberline {5}Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{25}% 
+\contentsline {subsection}{\numberline {5.1}Digitale Edition}{25}% 
+\contentsline {section}{\numberline {6}Ein Informationsmodell, formales Modell, konezptuelles Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{25}% 
+\contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{26}% 
+\contentsline {section}{\numberline {8}Zusammenfassung}{26}% 

@@ -255,7 +255,7 @@
 \backrefparscanfalse
 \bibitem[{Hitzler\Bibetal\jbdy {2016}}%
          {}%
-         {{0}{}{book}{2016}{}{}{}{}%
+         {{1}{}{book}{2016}{}{}{}{}%
           {IOS Press\bibbdsep {} 2016}}%
          {{Ontology Engineering with Ontology Design Patterns: Foundations and
   Applications}%
@@ -269,6 +269,22 @@
   {{Hitzler}{Pascal}{P.}{}{}; {Gangemi}{Aldo}{A.}{}{};
   {Janowicz}{Krzysztof}{K.}{}{}; {Adila}{Krisnadhi}{K.}{}{};
   {Valentina}{Presutti}{P.}{}{}} {} {} \bibAnnoteFile {hitzler2016ontology}
+
+\backrefparscanfalse
+\bibitem[{Hitzler\Bibetal\jbdy {2007}}%
+         {}%
+         {{1}{}{book}{2007}{}{}{}{}%
+          {Springer-Verlag\bibbdsep {} 2007}}%
+         {{Semantic Web: Grundlagen}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{hitzler2007semantic}
+ \jbbibargs {\bibnf {Hitzler} {Pascal} {P.} {} {}\bibIMfont {\Bibetal}} {Pascal
+  HitzlerMarkus Kr{\"o}tzschSebastian RudolphYork Sure} {aus} {sexless}
+  {\bibtfont {Semantic Web: Grundlagen}\bibatsep {}  \apyformat
+  {\jbpublisher{Springer-Verlag\bibbdsep {}} 2007}} {\bibhowcited} \jbdoitem
+  {{Hitzler}{Pascal}{P.}{}{}; {Kr{\"o}tzsch}{Markus}{M.}{}{};
+  {Rudolph}{Sebastian}{S.}{}{}; {Sure}{York}{Y.}{}{}} {} {} \bibAnnoteFile
+  {hitzler2007semantic}
 
 \backrefparscanfalse
 \bibitem[{Hoekstra\jbdy {2009}}%
@@ -448,6 +464,22 @@
   \artvolumeformat {1} \artyearformat {2015}\artnumberformat {4}
   \jbPages{4--12}} {\bibartperiodhowcited} \jbdoitem
   {{Musen}{Mark~A}{M.~A.}{}{}} {} {} \bibAnnoteFile {musen2015protege}
+
+\backrefparscanfalse
+\bibitem[{Pellegrini\jbbtasep Blumauer\jbdy {2006}}%
+         {Wege zur vernetzten Wissensgesellschaft. Berlin [ua] Springer \jbsy
+  {2006}}%
+         {{0}{}{article}{2006}{}{}{}{}%
+          {Springer\bibbdsep {} 2006}}%
+         {{Semantic Web}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{pellegrini2006semantic}
+ \jbbibargs {\bibnf {Pellegrini} {Tassilo} {T.} {} {}\Bibbtasep \bibnf
+  {Blumauer} {Andreas} {A.} {} {}} {Tassilo PellegriniAndreas Blumauer} {aus}
+  {sexless} {\bibapifont {Semantic Web}\bibatsep {} \bibJTsep \bibjtfont {Wege
+  zur vernetzten Wissensgesellschaft. Berlin [ua] Springer}  \artyearformat
+  {2006}} {\bibartperiodhowcited} \jbdoitem {{Pellegrini}{Tassilo}{T.}{}{};
+  {Blumauer}{Andreas}{A.}{}{}} {} {} \bibAnnoteFile {pellegrini2006semantic}
 
 \backrefparscanfalse
 \bibitem[{Powers\jbdy {2003}}%

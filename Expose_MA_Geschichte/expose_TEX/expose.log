@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.23)  23 MAY 2019 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.5.23)  24 MAY 2019 11:24
 entering extended mode
 **./expose.tex
 (expose.tex
@@ -858,113 +858,128 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--249
  []
 
 
-LaTeX Warning: Reference `web_stack' on page 9 undefined on input line 262.
-
-<img/web_stack.png, id=38, 1027.84pt x 1027.84pt>
-File: img/web_stack.png Graphic file (type png)
-<use img/web_stack.png>
-Package pdftex.def Info: img/web_stack.png  used on input line 265.
-(pdftex.def)             Requested size: 295.90588pt x 295.90163pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--269
+Underfull \hbox (badness 10000) in paragraph at lines 261--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--269
+Underfull \hbox (badness 10000) in paragraph at lines 261--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--274
 
  []
 
 [9]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `web_stack' on page 10 undefined on input line 277.
 
-<img/triple.png, id=43, 532.99126pt x 136.51pt>
+<img/web_stack.png, id=41, 1027.84pt x 1027.84pt>
+File: img/web_stack.png Graphic file (type png)
+<use img/web_stack.png>
+Package pdftex.def Info: img/web_stack.png  used on input line 280.
+(pdftex.def)             Requested size: 295.90588pt x 295.90163pt.
+[10]
+<img/triple.png, id=46, 532.99126pt x 136.51pt>
 File: img/triple.png Graphic file (type png)
 <use img/triple.png>
-Package pdftex.def Info: img/triple.png  used on input line 279.
+Package pdftex.def Info: img/triple.png  used on input line 295.
 (pdftex.def)             Requested size: 341.43307pt x 87.44942pt.
-<img/rdf_example.png, id=44, 853.1875pt x 570.13pt>
+<img/rdf_example.png, id=47, 853.1875pt x 570.13pt>
 File: img/rdf_example.png Graphic file (type png)
 <use img/rdf_example.png>
-Package pdftex.def Info: img/rdf_example.png  used on input line 296.
+Package pdftex.def Info: img/rdf_example.png  used on input line 312.
 (pdftex.def)             Requested size: 455.24411pt x 304.22054pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 316.
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--301
+Underfull \hbox (badness 10000) in paragraph at lines 292--317
 
  []
 
-[10] [11 <./img/web_stack.png> <./img/triple.png>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 306.
 
+Underfull \hbox (badness 10000) in paragraph at lines 292--317
+
+ []
+
+[11 <./img/web_stack.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 322.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 306.
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 306.
- [12 <./img/rdf_example.png>]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 322.
+ [12 <./img/triple.png>]
 
 Package jurabib Warning: `shorttitle' for `powers2003practical'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 313.
+(jurabib)                field on input line 329.
 
-
-Overfull \hbox (12.706pt too wide) in paragraph at lines 328--329
+[13 <./img/rdf_example.png>]
+Overfull \hbox (12.706pt too wide) in paragraph at lines 344--345
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--355
+Underfull \hbox (badness 10000) in paragraph at lines 365--373
 
  []
 
-[13]
+[14]
 
 Package jurabib Warning: `shorttitle' for `stuckenschmidt2009ontologien'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 364.
+(jurabib)                field on input line 382.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--373
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 359--373
+Underfull \hbox (badness 10000) in paragraph at lines 377--391
 
  []
 
-[14] [15]
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--391
+
+ []
+
+[15] [16]
 
 Package jurabib Warning: `shorttitle' for `jannidis2017digital'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 400.
+(jurabib)                field on input line 418.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--401
+Underfull \hbox (badness 10000) in paragraph at lines 409--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--401
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 410--417
+Underfull \hbox (badness 10000) in paragraph at lines 428--435
 
  []
 
 [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 [][][][]\T1/ptm/m/n/10 Definition von \T1/ptm/m/it/10 Dry Goods\T1/ptm/m/n/10 ,
  $\T1/cmtt/m/n/10 https : / / chestofbooks . com / reference / Dictionary-[]of-
 []Dry-[]Goods /
@@ -973,28 +988,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 440--440
 <img/LMwheaton.jpg, id=78, 268.75406pt x 521.69907pt>
 File: img/LMwheaton.jpg Graphic file (type jpg)
 <use img/LMwheaton.jpg>
-Package pdftex.def Info: img/LMwheaton.jpg  used on input line 445.
+Package pdftex.def Info: img/LMwheaton.jpg  used on input line 463.
 (pdftex.def)             Requested size: 91.04742pt x 176.7385pt.
 [19]
-Underfull \hbox (badness 7540) in paragraph at lines 452--452
+Underfull \hbox (badness 7540) in paragraph at lines 470--470
 [][][]\T1/ptm/m/n/10 Wheaton Fa-mi-ly Pa-pers, $\T1/cmtt/m/n/10 https : / / dig
 italrepository . wheatoncollege . edu / handle / 11040 / 7928$\T1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--454
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
 [][][][]\T1/ptm/m/n/10 Vgl. TO-MA-SEK Ka-thryn: The Whea-ton Col-le-ge Di-gi-ta
 l Hi-sto-ry Pro-ject: Un-der-gra-dua-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--454
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
 \T1/ptm/m/n/10 te Re-se-arch in a Lo-cal Col-lec-ti-on, $\T1/cmtt/m/n/10 https 
 : / / writinghistory . trincoll . edu / teach /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--454
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
 \T1/cmtt/m/n/10 wheaton-[]college-[]digital-[]history-[]project-[]tomasek/$\T1/
 ptm/m/n/10 , 23.05.2019. \T1/ptm/m/sc/10 Alex-an-der, \T1/ptm/m/n/10 Bryan/\T1/
 ptm/m/sc/10 Davis,
@@ -1003,51 +1018,51 @@ ptm/m/sc/10 Davis,
 <img/wheaton_100_101.jpg, id=82, 709.4505pt x 886.21088pt>
 File: img/wheaton_100_101.jpg Graphic file (type jpg)
 <use img/wheaton_100_101.jpg>
-Package pdftex.def Info: img/wheaton_100_101.jpg  used on input line 467.
+Package pdftex.def Info: img/wheaton_100_101.jpg  used on input line 485.
 (pdftex.def)             Requested size: 455.24411pt x 568.67403pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--517
+Underfull \hbox (badness 10000) in paragraph at lines 467--535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--517
+Underfull \hbox (badness 10000) in paragraph at lines 467--535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--517
+Underfull \hbox (badness 10000) in paragraph at lines 467--535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--517
+Underfull \hbox (badness 10000) in paragraph at lines 467--535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--517
+Underfull \hbox (badness 10000) in paragraph at lines 467--535
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--517
+Underfull \hbox (badness 10000) in paragraph at lines 467--535
 
  []
 
-[20 <./img/LMwheaton.jpg>] [21] [22 <./img/wheaton_100_101.jpg>] [23]
-Overfull \hbox (14.11237pt too wide) in paragraph at lines 530--530
+[20 <./img/LMwheaton.jpg>] [21] [22] [23 <./img/wheaton_100_101.jpg>] [24]
+Overfull \hbox (14.11237pt too wide) in paragraph at lines 548--548
 []\T1/ptm/b/n/17.28 Ein In-for-ma-ti-ons-mo-dell, for-ma-les Mo-dell, ko-nez-p-
 tu-el-les Mo-
  []
 
 
-Overfull \hbox (3.28314pt too wide) in paragraph at lines 532--539
+Overfull \hbox (3.28314pt too wide) in paragraph at lines 550--557
 \T1/ptm/m/n/12 Im Zu-ge des Pro-jek-tes \T1/ptm/b/n/12 Di-gi-tal Edi-ti-on Pu-b
 lis-hing Co-ope-ra-ti-ve for Hi-sto-ri-cal Ac-counts (DEP-
  []
 
-[24] [25] (expose.bbl
+[25] [26] (expose.bbl
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ptm/b/sc' tried instead on input line 21.
 
@@ -1057,29 +1072,29 @@ Underfull \hbox (badness 1603) in paragraph at lines 70--71
 /b/n/12 Lar-ry: \T1/ptm/m/n/12 Uni-form re-sour-ce iden-ti-fier
  []
 
-[26] [27]
-Underfull \hbox (badness 2384) in paragraph at lines 575--577
+[27] [28]
+Underfull \hbox (badness 2384) in paragraph at lines 607--609
 []\T1/ptm/b/sc/12 Stuckenschmidt, \T1/ptm/b/n/12 Hei-ner: \T1/ptm/m/n/12 On-to-
 lo-gi-en: Kon-zep-te, Tech-no-lo-gi-en und An-wen-dun-gen.
  []
 
-) [28] [29] (expose.lof)
+[29]) [30] (expose.lof)
 \tf@lof=\write5
 \openout5 = `expose.lof'.
 
- [30] (expose.aux)
+ [31] (expose.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22345 strings out of 492895
- 397411 string characters out of 3133476
- 503385 words of memory out of 3000000
- 25996 multiletter control sequences out of 15000+200000
+ 22370 strings out of 492895
+ 397991 string characters out of 3133476
+ 508344 words of memory out of 3000000
+ 26021 multiletter control sequences out of 15000+200000
  592836 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,7n,65p,2257b,977s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,7n,65p,2257b,1553s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\pollin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecit1200.pk> <C:\Users\pollin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
 n/ec/dpi600\ectt1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
@@ -1089,9 +1104,9 @@ c} <C:\Users\pollin\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on expose.pdf (32 pages, 1994686 bytes).
+Output written on expose.pdf (33 pages, 1998005 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
+ 268 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
