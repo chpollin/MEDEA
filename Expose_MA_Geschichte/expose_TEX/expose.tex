@@ -264,17 +264,22 @@ Beim \textit{TED Talk} im Jahre 2009 fordert Tim Burners-Lee das Auditorium auf 
 ''\textit{The Semantic Web will bring structure to the meaningful content of Web pages, creating an environment where software agents roaming from page to page can readily carry out sophisticated tasks for users.}''\footcite[][S.3]{berners2001semantic}
 \\
 \\
-Im Gegensatz zum klassischen Web, das als ein Web von Dokumenten betrachtet werden kann, versucht das \textit{Web of Data} Daten aus unterschiedlichen Quellen zu integrieren und miteinander zu verknüpft. Daten sollen so vorliegen, dass nicht nur Menschen diese in neuen Kontexten nutzen können, sondern auch Softwareagenten. Maschinen sollen in der Lage sein selbständig die Struktur von Daten ''verstehen'' zu können, um bestimmte Aufgaben umsetzen zu können. Oder anders formuliert sollen Maschinen Inhalte im Web soweit verarbeiten können, dass Automatisierung auf Ebene der Bedeutung möglich ist. Ein konkretes Anwendungsszenario, das mit Hilfe des \textit{Web of Data} umgesetzt werden könnte, wären verbesserte Suchfunktionalitäten für Informationssysteme, die auch die semantische Ebene miteinbeziehen. TOCHTERMANN und MAURER führen ein Beispiel eines Informationsbedürfnisses einer Person an, die gerne einen Termin mit einem Arzt in Graz, der gleichzeitig auch ein Homöopath ist. Diese Person stellt eine Suchanfrage in einer dafür geeigneten Suchmaschine, bestehend aus 4 Wörtern: ''Ärzte, Homöopathie, Stadt Graz''. \footcite[S.1-2]{pellegrini2006semantic}
-\\ Dabei handelt es sich aber weder um Maschinen die selbstständig lernen, oder gar eine künstliche Intelligenz, sondern um formalisiertes, maschinenlesbares Wissen. Der Wissensbegriff in diesem Zusammenhang entspringt einer informationswissenschaftlichen Perspektive wie bei WERSIG, KUHLEN oder FAUVR-BULLE.
+Im Gegensatz zum klassischen Web, das als ein Web von Dokumenten betrachtet werden kann, versucht das \textit{Web of Data} Daten aus unterschiedlichen Quellen zu integrieren und miteinander zu verknüpft. Daten sollen so vorliegen, dass nicht nur Menschen diese in neuen Kontexten nutzen können, sondern auch Softwareagenten. Maschinen sollen in der Lage sein selbständig die Struktur von Daten ''verstehen'' zu können, um bestimmte Aufgaben umsetzen zu können. Oder anders formuliert sollen Maschinen Inhalte im Web soweit verarbeiten können, dass Automatisierung auf Ebene der Bedeutung möglich ist. Ein konkretes Anwendungsszenario, das mit Hilfe des \textit{Web of Data} umgesetzt werden könnte, wären verbesserte Suchfunktionalitäten für Informationssysteme, die auch die semantische Ebene miteinbeziehen. TOCHTERMANN und MAURER führen ein Beispiel eines Informationsbedürfnisses einer Person an, die gerne einen Termin mit einem Arzt in Graz vereinbaren möchte, der gleichzeitig auch ein Homöopath ist. Diese Person stellt eine Suchanfrage in einer dafür geeigneten Suchmaschine, bestehend aus 4 Wörtern: ''Ärzte, Homöopathie, Stadt Graz''. Da in einer klassischen Suchmaschine nur das Vorkommen der Wörter berücksichtigt wird, muss die suchende Person sich noch durch die angezeigten Suchergebnisse arbeiten, bis sie den passendebn Treffer gefunden hat. Eine Suchmaschine im \textit{Web of Data} ist in der Lage sogenannte Wissensbasen zu befragen, um welche Begriffe es sich hinter den Zeichenketten handelt.\footcite[S.1-2]{pellegrini2006semantic} 
+\\
+ Dabei handelt es sich aber weder um Maschinen die selbstständig lernen, oder gar eine künstliche Intelligenz, sondern um formalisiertes, maschinenlesbares Wissen. Der Wissensbegriff in diesem Zusammenhang entspringt einer informationswissenschaftlichen Perspektive wie bei WERSIG, KUHLEN oder FAUVR-BULLE.
 \\
 \\
 DATEN-INFORMATION-WISSEN
 \\
 \\
-
 \footcite[S.1-6]{pellegrini2006semantic}
-\\
-Um diese - noch nicht erreichte Vision - in die Tat umzusetzen, sofern es nicht durch das Maschine Learning Paradigma obsolet wird, bedarf es mehrere aufeinander aufbauender technischer Grundlagen, die sich im \textit{Semantic Web Stack} manifestieren. Auf dessen Basis, dargestellt in Abbildung \ref{web_stack}, soll in diesem Kapitel die grundlegenden Technologien und Standards des \textit{Web of Data} erörtert werden.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Web of Data Stack}
+
+Um diese - noch nicht erreichte Vision - in die Tat umzusetzen bedarf es mehrere aufeinander aufbauender technischer Grundlagen, die sich im \textit{Semantic Web Stack} manifestieren. Auf dessen Basis, dargestellt in Abbildung \ref{web_stack}, soll in diesem Kapitel die grundlegenden Technologien und Standards des \textit{Web of Data} erörtert werden.
 \begin{figure}[h]
   \centering
 	\includegraphics[width=0.65\textwidth]{img/web_stack.png}  
@@ -285,9 +290,11 @@ Um diese - noch nicht erreichte Vision - in die Tat umzusetzen, sofern es nicht 
 Das Semantic Web ist nicht erreicht. Zumindest nicht für die Allgemeinheit. Die großen Internetriesen hingegen verfügen über ''ihre Semantic Web'', in denen sie ihre eigenen Agenten mit ihrer großen Datenmenge arbeiten lassen.\footnote{\url{https://twobithistory.org/2018/05/27/semantic-web.html}}
 
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Resource Description Framework}
+\subsubsection{Resource Description Framework}
 
 Das \textit{Resource Description Framework} (RDF) ist ein Datenmodell zur Darstellung und für den Austausch von Daten im Web. Daten werden in diesem Modell als Ressourcen definiert, wobei eine Ressource alles sein kann: ein Dokument, eine Person, ein physisches Objekt oder ein abstraktes Konzept. Über Ressourcen werden Statements der Form Subjekt-Prädikat-Objekt formuliert. Jedes Statement drückt eine Beziehung zwischen zwei Ressourcen aus. Das Subjekt und das Objekt stehen dabei für die beiden miteinander verbundenen Ressourcen; das Prädikat beschriebt die Art ihrer Beziehung. Diese Zusammensetzung von Subjekt, Prädikat und Objekt werden als Triples bezeichnet. Betrachtet man den Satz ''\textit{Bob ist befreundet mit Alice}'', dann lässt sich folgendes Triple extrahieren: \textit{<Bob>} als Subjekt, \textit{<ist befreundet mit>} als Prädikat und \textit{<Alice>} als Objekt. Ob \textit{Alice} mit \textit{Bob} befreundet ist geht aus diesem Statement noch nicht hervor, da jeder Relation in RDF nur eine Richtung definiert.\footcite[Vgl.][S.16-21]{powers2003practical} In der graphischen Darstellung wird schnell klar, dass es sich beim RDF Datenmodell um einen gerichtete Graphen handelt, der aus Knoten (Subjekt und Objekt), sowie aus Kanten (Prädikat) besteht, wie Abbildung \ref{fig:triple} zeigt.
 \begin{figure}[h]
@@ -335,34 +342,83 @@ PREFIX schema: <http://schema.org/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX wd: <http://www.wikidata.org/entity/>
 
-<bob#me> a foaf:Person ;
+bob#me a foaf:Person ;
          foaf:knows <alice#me> ;
          schema:birthDate "1990-07-04"^^xsd:date ;
          foaf:topic_interest wd:Q12418 .
  
-<wd:Q12418> dcterms:title "Mona Lisa" ;
+wd:Q12418 dcterms:title "Mona Lisa" ;
             dcterms:creator <http://dbpedia.org/resource/Leonardo_da_Vinci> .
 \end{lstlisting}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Resource Description Framework Schema (RDFs)}
+\subsubsection{Resource Description Framework Schema (RDFs)}
 
-\footcite[][]{hitzler2007semantic}
+Im vorhergehenden Beispiel wurden \textit{<Bob>} und \textit{<Alice>} der Klasse \textit{<Person>} zu geordnet. Sie sind Instanzen der Klasse \textit{<foaf:Person>}. Desweiteren wurde eine Relation zwischen diesen beiden Personen definiert: \textit{Bob ist befreundet mit Alice}.
+\\
+Um die Beziehungen zwischen Ressourcen zu beschreiben liefert das \textbf{Resource Description Framework Schema (RDFs)} eine semantische Erweiterung für RDF. Dies umfasst die Möglichkeit Klassen und Relationen, so genannte Properties, zu definieren und folgt dem Paradigma der Objektorientierung. Es lassen sich auf dieswe Weise Instanzen von Klassen erzeugen, die alle Eigenschaften der Klasse und ihrer übergeordneten Klassen erben. Blickt man auf das FOAF-Vokabular\footnote{FOAF-Specification, \protect\url{http://xmlns.com/foaf/spec/ }, 29.05.2019.}, das als RDFs umgesetzt ist, so kann man feststellen, dass \textit{foaf:Person} eine Unterklasse von \textit{foaf:Agent} ist. Weitere Unterklassen davon sind \textit{foaf:Group} und \textit{foaf:Organization}. Alle drei Unterklassen haben bestimmte Eigenschaft gemeinsam: sie setzen Handlungen in der Welt. Sie unterscheiden sich aber in den Relationen mit denen sie selbst, oder in Abgrenzung zu anderen Klassen, beschrieben werden können. Eine \textit{foaf:Group} besteht aus mehrern \textit{foaf:Person}. Dies wird mittels der Property \textit{foaf:member} ausgedrückt. Im Gegenzug verfügt \textit{foaf:Person} über eine Relation \textit{foaf:knows}, die ausdrückt, dass sich zwei Personen kennen. Die Richtung dieser Relation - wer wen kennt - wird mit den in RDFs mittels den Termen \textit{rdfs:Domain} und \textit{rdfs:Range} definiert. 
+Für \textit{foaf:knows} wird \textit{Domain} und \textit{Range} auf die Klasse\textit{ foaf:Person} gesetzt: eine Person kennt eine andere Person. Für die Property \textit{foaf:member} wird \textit{Domain} auf \textit{foaf:Group} und \textit{Range} auf \textit{foaf:Person} gesetzt: eine Gruppe besteht aus Personen.
+\\
+Weiter führt RDFs Datentypen ein. Damit lässt sich beschreiben, um welche Art eines Literals es sich handelt. Es kann für die maschinelle Verarbeitung sehr wichtig sein zu wissen, ob es sich um eine Zeichenkette, eine Zahl, eine Datumsangabe oder eine XML Struktur handelt, da mit unterschiedlichen Datentypen andere Operationen einhergehen. 
+\\
+Mit den RDF Properties \textit{rdfs:label} und \textit{rdfs:comment} lassen sich Properties und Classes benennen und beschreiben. Das ist deswegen nötig, da der Fokus einer Klasse nur in bestimmten Kontexten Sinn macht. \textit{rdfs:label} definiert einen menschenlesbaren Namen einer Ressource. Es besteht stets die Möglichkeit in RDF die einzelnen Lables einer Ressource mit Sprachkürzel zu versehen. Die Property \textit{rdfs:comment} erlaubt es eine verbale Beschreibung zu einer Klasse hinzuzufügen.Am Beispiel von \textit{foaf:Person} ist das das Label ''Person'' und die Beschreibung:\\
+'\textit{The Person class represents people. Something is a Person if it is a person. We don't nitpic about whether they're alive, dead, real, or imaginary. The Person class is a sub-class of the Agent class, since all people are considered 'agents' in FOAF. }''.\\
+Daneben existiert auch ein Konstrukut \textit{rdfs:seeAlso}, um ausdrücken, dass es unter folgender URL noch weitere Information zu dieser Ressource gibt.\footcite{brickley2014rdf} Folgender Darstellung veranschaulicht die soeben beschriebenen Konstrukte in RDFs und zeigt Unterklassen der Superklasse \textit{foaf:Agent}, zwei Instanzen der Klasse \textit{foaf:Person} und stellt graphisch - durch den Pfeil - \textit{Domain} und \textit{Range} einer Propertie dar. 
+\begin{figure}[H]
+  \centering
+	\includegraphics[width=0.75\textwidth]{img/rdfs.png}  
+    \caption[RDFs-Beispiel auf Basis des FOAF-Vokabulars, eigene Darstellung.]{RDFs-Beispiel auf Basis des FOAF-Vokabulars}
+  	\label{fig:web_stack}
+\end{figure}
+Hinter jeder Klasse, Property und  jeder Instanz steht eine URI. Folgendes RDF-Snippet zeigt wie die Klasse \textit{foaf:Person} und \textit{foaf:knows} im FOAF-Vokabular mittels RDFs definiert werden.
+\begin{lstlisting}[]
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+foaf:Person a rdfs:Class ;
+  rdfs:label "Person" ;
+  rdfs:comment "A person." ;
+  rdfs:subClassOf foaf:Agent .
+  
+foaf:knows a rdf:Property;
+  rdfs:label "knows" ;
+  rdfs:comment "A person known by this person (indicating some 
+  level of reciprocated interaction between the parties)." ;
+  rdfs:domain foaf:Person ;
+  rdfs:range foaf:Person .
+\end{lstlisting}
+
+ToDo Hitzler\footcite[][]{hitzler2007semantic} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Taxonomien: Simple Knowledge Organisation (SKOS)}
+\subsubsection{Taxonomien: Simple Knowledge Organisation (SKOS)}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Abfragesprache: SPARQL}
+\subsubsection{Abfragesprache: SPARQL}
+Wie man in der Welt der relationalen Datenbanken mit der Abfragesprache SQL Datenbankabfragen formulieren kann, so kann man mit \textit{SPARQL Protocol And RDF Query Language} RDF Daten bzw. Triple in Graphdatenbanken abfragen.\footcite[][]{w3c2013sparql}
+\\
+Folgendes Snippet einer SPARQL-Abfrage zeigt die Syntax dieser Abfragesprache. Ziel dieser Abfrage ist es, alle Ressourcen in einer Graphdendatenbank abzufragen, die über eine \textit{foaf:name} und eine \textit{foaf:knows} Propertie verfügen. Das Ergebnis wird nach den Personen und Namen gruppiert, also es werden keine Dupletten von URI's zurückgegeben. Als Ausgabe erfolgt eine Tabelle (bzw. eine XML, JSON oder CSV Datenformat) in der die Namen und die Anzahl der Freunde, definiert als alle Knoten auf die \textit{foaf:know} referenziert.
+\begin{lstlisting}[]
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT ?name (COUNT(?friend) AS ?count)
+WHERE { 
+    ?person foaf:name ?name . 
+    ?person foaf:knows ?friend . 
+} GROUP BY ?person ?name
+\end{lstlisting}
+Mit PREFIX werden die Namespaces definiert. Das reservierte Wort \textit{SELECT} definiert alle Variabeln, diese werden durch ein vorangestelltes Fragezeichen gekennzeichnet, die als Rückgabewert definiert werden. Daneben gibt es in der SPARQL1.1 Version Operatoren und Funktionen, wie etwas \textit{COUNT()}, das alle Treffer der \textit{?friend} Variabel zählt und in der \textit{?count Variabel} speichert. Im \textit{WHERE} Bereich werden alle Bediengungen für die Abfrage definiert. Diese Bedienungen entsprechen der Definition eines Teilgraphen, der wiederum eine Teilmenge des gesamten Datenbestandes abbildet. Hier stehen weiter Konstrukte wie \textit{OPTIONAL}, einem logischen Oder, so wie \textit{UNION} einem logischen Und zur Verfügung. Über eine SPARQL-Endpoint können so User über das Web Datenbestände abfragen und mit diesen Arbeiten.\footcite[][S.1-45]{ducharme2013learning}  Ein bekanntes Beispiel dafür ist der Endpoint von Wikidata.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Ontologien}
-
-Informationsmodelle umfassen die Verwendung einer expliziten Sprache zur Informationsdarstellung.\footcite{kobler2010qualitat} 
+ToDO
+\\
+formationsmodelle umfassen die Verwendung einer expliziten Sprache zur Informationsdarstellung.\footcite{kobler2010qualitat} 
 \\
 \\
 Der Gegenstandsbereich der \textbf{Ontologie als Disziplin in der Philosophie} umfasst alles, das existiert. Das Erkenntnisziel, so MEIXNER, ist auf allgemeiner begrifflicher Ebene zu finden und beschäftigt sich mit der Einteilung des Seins und den Grundstrukturen der Wirklichkeit, sowie der Frage nach dem Wesen der Existenz. Die Ontologie verfolgt nicht das Ziel Erkenntnis über ein Objekt zu erhalten, es beispielsweise zu vermessen oder zu beschreiben, sondern stellt sich die Frage nach welchen allgemeinen Kriterien Objekte im Verhältnis zu ontologischen Begriffen wie Sein, Aktualität, Universalie, Exemplifikation, Sachverhalt oder Individuum stehen.\footcite{meixner1994wissenschaft}
