@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  1 JUN 2019 09:56
 =======
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  31 MAY 2019 17:10
 >>>>>>> 65ef5f238a2983c195bf148c56595d4393749326
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  1 JUN 2019 09:55
+>>>>>>> bbcfac0831d4007c64080ee74527f2b4f5fc781b
 entering extended mode
 **./expose.tex
 (expose.tex
@@ -894,57 +898,62 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 213.
 
+Package jurabib Warning: `shorttitle' for `stachowiak1973allgemeine'
+(jurabib)                is missing -- replacing with `title'
+(jurabib)                field on input line 228.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 225--229
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 234--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--266
-
- []
-
-[8] [9]
 
 Package jurabib Warning: `shorttitle' for `kobler2010qualitat'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 275.
+(jurabib)                field on input line 242.
 
-[10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--266
+
+ []
+
+[8] [9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 297--314
 
  []
@@ -1176,6 +1185,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
 <<<<<<< HEAD
+<<<<<<< HEAD
  21412 strings out of 494830
  382975 string characters out of 6177366
  477765 words of memory out of 5000000
@@ -1198,6 +1208,12 @@ Output written on expose.pdf (35 pages, 2014045 bytes).
  393887 string characters out of 3126594
  507709 words of memory out of 3000000
  25626 multiletter control sequences out of 15000+200000
+=======
+ 22020 strings out of 492970
+ 393916 string characters out of 3126594
+ 507720 words of memory out of 3000000
+ 25627 multiletter control sequences out of 15000+200000
+>>>>>>> bbcfac0831d4007c64080ee74527f2b4f5fc781b
  592836 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,7n,65p,2257b,977s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1211,8 +1227,12 @@ ams/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/chris/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/chris/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/chris/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+<<<<<<< HEAD
 Output written on expose.pdf (38 pages, 2042550 bytes).
 >>>>>>> 65ef5f238a2983c195bf148c56595d4393749326
+=======
+Output written on expose.pdf (38 pages, 2042703 bytes).
+>>>>>>> bbcfac0831d4007c64080ee74527f2b4f5fc781b
 PDF statistics:
  303 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
