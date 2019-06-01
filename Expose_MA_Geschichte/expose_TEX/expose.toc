@@ -3,30 +3,31 @@
 \contentsline {section}{\numberline {2}Formale Methoden und Modelle in den Geschichtswissenschaften}{3}
 \contentsline {subsection}{\numberline {2.1}Theorien und Methoden der Geschichtswissenschaft}{3}
 \contentsline {subsection}{\numberline {2.2}Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }{5}
-\contentsline {subsection}{\numberline {2.3}Modellbildung in den Geschichtswissenschaften}{5}
-\contentsline {subsubsection}{\numberline {2.3.1}Modellbegriff}{6}
-\contentsline {subsubsection}{\numberline {2.3.2}Was ist Informationsmodellierung}{8}
-\contentsline {subsubsection}{\numberline {2.3.3}System}{8}
-\contentsline {subsection}{\numberline {2.4}Forschungsdaten in den Geschichtswissen}{8}
-\contentsline {subsection}{\numberline {2.5}Modelle in den Geschichtswissenschaften}{9}
-\contentsline {section}{\numberline {3}Web of Data}{10}
-\contentsline {subsection}{\numberline {3.1}Geschichte und Vision des Web of Data}{10}
-\contentsline {subsection}{\numberline {3.2}Web of Data Stack}{11}
-\contentsline {subsubsection}{\numberline {3.2.1}Resource Description Framework}{11}
-\contentsline {subsubsection}{\numberline {3.2.2}Resource Description Framework Schema (RDFs)}{14}
-\contentsline {subsubsection}{\numberline {3.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{16}
-\contentsline {subsubsection}{\numberline {3.2.4}Abfragesprache: SPARQL}{16}
-\contentsline {subsection}{\numberline {3.3}Ontologien}{17}
-\contentsline {subsubsection}{\numberline {3.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{18}
-\contentsline {subsubsection}{\numberline {3.3.2}Ontology Engineering}{20}
-\contentsline {subsubsection}{\numberline {3.3.3}Reasoning}{20}
-\contentsline {subsubsection}{\numberline {3.3.4}Linked Open Data}{20}
-\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{20}
-\contentsline {subsection}{\numberline {4.1}DEPCHA}{21}
-\contentsline {subsection}{\numberline {4.2}The George Washington Financial Papers}{22}
-\contentsline {subsection}{\numberline {4.3}The Wheaton Accounts}{22}
-\contentsline {section}{\numberline {5}Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{27}
-\contentsline {subsection}{\numberline {5.1}Digitale Edition}{27}
-\contentsline {section}{\numberline {6}Ein Informationsmodell, formales Modell, konezptuelles Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{27}
-\contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{28}
-\contentsline {section}{\numberline {8}Zusammenfassung}{28}
+\contentsline {subsection}{\numberline {2.3}Interpretation und Theoriebildung}{6}
+\contentsline {subsection}{\numberline {2.4}Modellbildung in den Geschichtswissenschaften}{7}
+\contentsline {subsubsection}{\numberline {2.4.1}Modellbegriff}{8}
+\contentsline {subsubsection}{\numberline {2.4.2}Was ist Informationsmodellierung}{10}
+\contentsline {subsubsection}{\numberline {2.4.3}System}{10}
+\contentsline {subsection}{\numberline {2.5}Forschungsdaten in den Geschichtswissen}{10}
+\contentsline {subsection}{\numberline {2.6}Modelle in den Geschichtswissenschaften}{11}
+\contentsline {section}{\numberline {3}Web of Data}{12}
+\contentsline {subsection}{\numberline {3.1}Geschichte und Vision des Web of Data}{12}
+\contentsline {subsection}{\numberline {3.2}Web of Data Stack}{13}
+\contentsline {subsubsection}{\numberline {3.2.1}Resource Description Framework}{14}
+\contentsline {subsubsection}{\numberline {3.2.2}Resource Description Framework Schema (RDFs)}{16}
+\contentsline {subsubsection}{\numberline {3.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{18}
+\contentsline {subsubsection}{\numberline {3.2.4}Abfragesprache: SPARQL}{18}
+\contentsline {subsection}{\numberline {3.3}Ontologien}{19}
+\contentsline {subsubsection}{\numberline {3.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{20}
+\contentsline {subsubsection}{\numberline {3.3.2}Ontology Engineering}{23}
+\contentsline {subsubsection}{\numberline {3.3.3}Reasoning}{23}
+\contentsline {subsubsection}{\numberline {3.3.4}Linked Open Data}{23}
+\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{23}
+\contentsline {subsection}{\numberline {4.1}DEPCHA}{24}
+\contentsline {subsection}{\numberline {4.2}The George Washington Financial Papers}{24}
+\contentsline {subsection}{\numberline {4.3}The Wheaton Accounts}{24}
+\contentsline {section}{\numberline {5}Digitale Edition von historischen Rechnungsb\IeC {\"u}cher}{30}
+\contentsline {subsection}{\numberline {5.1}Digitale Edition}{30}
+\contentsline {section}{\numberline {6}Ein Informationsmodell, formales Modell, konezptuelles Modell f\IeC {\"u}r Rechnugsb\IeC {\"u}cher: die Bookkeeping Ontology}{30}
+\contentsline {section}{\numberline {7}Linked Open Data und Geschichte}{31}
+\contentsline {section}{\numberline {8}Zusammenfassung}{31}
