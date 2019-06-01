@@ -95,13 +95,13 @@
 
 \section{Einleitung}
 
-Seit dem Zeitpunkt an dem es für Menschen den Bedarf gibt sich an Ereignisse oder Erkenntnisse, die für sie wichtig waren, zu erinnern, existieren auch Formen und Möglichkeiten Wissen darüber zu repräsentieren. Ein natürliches Beispiel dafür findet sich bereits in den ersten Hochkulturen als Menschen dokumentierte, dass jemand bei jemand anderen in der Schuld steht. Bereits um 3000 vor Christus lassen sich auf Tontafel Schuld und Kredit finden: ''\textit{Alok schuldet dem Sumar 10 Eimer Korn}''. Wir können also feststellen, dass die Dokumentation ökonomischer Abhängigkeiten einer der ersten strukturierten Formen waren, um Wissen, wer wem etwas schuldet, festzuhalten und nieder zu schreiben.[ToDo Dan MCCreary] 
+Seit dem Zeitpunkt an dem es für Menschen den Bedarf gibt sich an Ereignisse oder Erkenntnisse, die für sie wichtig waren, zu erinnern, existieren auch Formen und Möglichkeiten Wissen darüber zu repräsentieren. Ein natürliches Beispiel dafür findet sich bereits in den ersten Hochkulturen als Menschen dokumentierte, dass jemand bei jemand anderen in der Schuld steht. Bereits um 3000 vor Christus lassen sich auf Tontafel Schuld und Kredit finden: ''\textit{Alok schuldet dem Sumar 10 Eimer Korn}''. Wir können also feststellen, dass die Dokumentation ökonomischer Abhängigkeiten einer der ersten strukturierten Formen waren, um Wissen festzuhalten und nieder zu schreiben.[ToDo Dan MCCreary] 
 \\
-Für Historiker*innen liefert uns diese Zeile einen Indiz auf ein Ereignis in der Vergangenheit, das, wenn es in einen bestimmten historischen Kontext gestellt wird, für Forschungsfragen in den Geschichtswissenschaften relevant ist. Innerhalb der schriftlichen Überlieferung - der historischen Quelle - stecken semantische Strukturen, die dazu dienen können, ein Ereignis aus der Vergangenheit rekonstruieren zu können. 
+Für Historiker*innen liefert uns diese Zeile einen Indiz auf ein Ereignis in der Vergangenheit, das, wenn es in einen bestimmten historischen Kontext gestellt wird, für Forschungsfragen in den Geschichtswissenschaften relevant ist. Innerhalb der schriftlichen Überlieferung - der historischen Quelle - stecken semantische Strukturen, die dazu dienen können, ein Ereignis aus der Vergangenheit rekonstruieren zu können.
 \\
-Die Beschreibung der semantischen Struktur kann durch ein konzeptuelles Modell erfolgen. Die Anwendung formaler Methoden unter Berücksichtigung eines solchen Modells kann als Grundlage dafür dienen, Interpretationen der Vergangenheit -''wie es den gewesen sein könnte'' - mit einer gewissen Datengrundlage zu untermauern.
+Die Beschreibung der semantischen Struktur kann durch ein konzeptuelles Modell erfolgen. Die Anwendung formaler Methoden unter Berücksichtigung eines solchen Modells kann als Grundlage dafür dienen, Interpretationen der Vergangenheit -''wie es den gewesen sein könnte'' - mit einer gewissen Datengrundlage zu untermauern. Auf dieser Datengrundlage, die stets offen und nachvollziehbar und in die fachwissenschaftliche Diskussion eingebettet sein soll,  können die Interpretationen der Historiker*innen fußen. Dies ist die eigentliche Arbeit dieser Zunft.
 \\
-Ziel dieser Arbeit soll eine theoretisch und praktische Auseinandersetzung mit den Herausforderungen und Möglichkeiten, die formalen, und somit auch digitale, Methoden und Modellen in der Geschichtswissenschaft mit sich bringen. Der praktische Anteil liegt dabei bei der Beschreibung der semantischen Anreicherung von digital edierten historischen Rechnungsbüchern in einem konkreten Projektkontext. Dieser Projektkontext -- Digital Edition Publishing Cooperative for Historical Accounts (DEPCHA) -- umfasst eine Kooperation zur Entwicklung eines Publikationshub von semantisch angereicherten, digitalen Editionen historischer Rechnungsbücher. Im Zuge dieser Masterarbeit soll zur Veranschaulichung zwei Editionsprojekte aus diesem Projektkontext, die \textit{George Washington’s Financial Papers}, die \textit{Wheaton Family Papers} und die \textit{Stagville Accounts} als Beispiele dienen.
+Ziel dieser Arbeit soll eine theoretisch und praktische Auseinandersetzung mit den Herausforderungen und Möglichkeiten, die formalen, und somit auch digitale, Methoden und Modellen in der Geschichtswissenschaft mit sich bringen. Der praktische Anteil liegt dabei bei der Beschreibung der semantischen Anreicherung von digital edierten historischen Rechnungsbüchern in einem konkreten Projektkontext. Dieser Projektkontext -- Digital Edition Publishing Cooperative for Historical Accounts (DEPCHA) -- umfasst eine Kooperation zur Entwicklung eines Publikationshub von semantisch angereicherten, digitalen Editionen historischer Rechnungsbücher. Eine Herausforderung in diesem Projekt ist es quantiative und qualitative Arbeit von Historiker*innen in der digitalen Welt zusammenzuführen.  Im Zuge dieser Masterarbeit soll zur Veranschaulichung drei Editionsprojekte aus diesem Projektkontext, die \textit{George Washington’s Financial Papers}, die \textit{Wheaton Family Papers} und die \textit{Stagville Accounts} als Beispiele dienen.
 \\
 \\
 Am Anfang der Arbeit steht neben einer allgemeinen theoretischen Diskussion zur Anwendung empirischer, formaler Methoden in den Geschichtswissenschaften, in denen unter anderen Manfred THALLER\footcite{thaller2017digital}\footcite{thaller2017ungefahre} oder XXX viel beigetragen haben.
@@ -121,10 +121,10 @@ Die digitale Edition in dieser Arbeit versteht sich als geschichtswissenschaftli
 
 Am ersten August des Jahres 1808 hat ein gewisser James Haley 1/4 viertel Pfund Pulver, 1 Pfund Kugeln und einen 1 Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der \textit{Stagville Plantage} in \textit{North Carolina} käuflich erworben. Solche Information über die Vergangenheit lassen sich in historischen Rechnungsbüchern finden. Dabei ist nicht der Einzeleintrag von großer Bedeutung für Fragestellungen in den Geschichtswissenschaften, sondern die Aggregation vieler Einzelinformationen, um eine Datengrundlage zu schaffen, auf der die weiter fachwissenschaftliche Arbeit der Historiker*innen ruhen kann.
 \\
-Damit diese Datengrundlage ausreichend groß ist und Aussagen nicht nur auf Ausschnitte des Quellenkorpus reduziert sind, ist es notwendig formale Verfahren zu Erschließung und Analyse zu verwenden. Auf historische Rechnungsbücher bezogen, könnte man so Berechnungen anstellen, wie sich etwa der Preis einer Ware über eine bestimmte Zeitspanne entwickelt hat. Setzt man diese Erkenntnisse in einen größerer historischen Zusammenhang, kann die 'klassische' Arbeit von Historiker*innen beginnen.
+Damit diese Datengrundlage ausreichend groß ist und Aussagen nicht nur auf Ausschnitte des Quellenkorpus reduziert sind, ist es notwendig formale Verfahren zu Erschließung und Analyse zu verwenden. Auf historische Rechnungsbücher bezogen, könnte man so Berechnungen anstellen, wie sich etwa der Preis einer Ware über eine bestimmte Zeitspanne entwickelt hat oder welche Akteure welche Waren über bestimmte Zeiträume kaufen und verkaufen.  Setzt man diese ''hard facts'' aus der Quelle in einen größerer historischen Zusammenhang und als Diskussionsbeitrag in die fachwissenschaftliche Diskussion, beginnt die ''klassische'' Arbeit von Historiker*innen.
 \\
 \\
-Im Mittelpunkt dieses Kapitels steht eine Diskussion über  Theorien und Methoden der Geschichtswissenschaften und einer darauf aufbauenden Auseinandersetzung und der historischen Entwicklung der Anwendung formaler Verfahren innerhalb des Faches beschrieben werden. Aus dieser Diskussion heraus sollen die theoretischen Grundlagen der historischen Fachinformatik erörtert werden, wobei ein Fokus auf Modelltheorie und Modellbildung in den Geschichtswissenschaften und auf historische Forschungsdaten gelegt wird. Weiters werden informationswissenscahftliche Grundlagen in diese Diskussion einbezogen.
+Im Mittelpunkt dieses Kapitels steht eine Diskussion über Theorien und Methoden der Geschichtswissenschaften und einer darauf aufbauenden Auseinandersetzung mit der historischen Entwicklung der Anwendung formaler Verfahren innerhalb des Faches. Aus dieser Diskussion heraus sollen die theoretischen Grundlagen der historischen Fachinformatik erörtert werden, wobei ein Fokus auf Modelltheorie und Modellbildung in den Geschichtswissenschaften, sowie auf historische Forschungsdaten gelegt wird. Weiters werden informationswissenschaftliche Grundlagen und Begriffe definiert und in diese Diskussion einbezogen.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Theorien und Methoden der Geschichtswissenschaft}
@@ -134,10 +134,22 @@ Im Mittelpunkt dieses Kapitels steht eine Diskussion über  Theorien und Methode
 Führte MANN im Jahr 1979 an, um auszudrücken, dass durch die Einführung neuartiger theoretischer Ansätze die Hauptaufgabe der Geschichtswissenschaften, das Erzählen von Geschichten, aufgeweicht wird. Diese neuartigen Ansätze etablierten sich ausgehend von Historikern wie Mommsen, Wehler oder Kocka in den 1960er Jahren, die ''\textit{eine Reform der Geschichtswissenschaft jenseits des Historismus}'' propagierten. Sie versuchten die Theoriebildung, wie in den systematischen Nachbardisziplinen, wie etwa der Soziologie, in den Geschichtswissenschaften zu etablieren.
 \\
 \\
+DEMANDT gibt ausführliche Definitionen zu den zentralen und grundlegenden Bergriffen. Neben dem Mythos, der in erzählerischer Form Vergangenes weitergibt, war die Chronistik eine früher Form der verschriftlichten, geschichtlichen Erinnerung. Die Historiographie geht noch einen Schritt weiter und versucht Ereigniszusammenhänge darzustellen. Im 16. Jahhundert entwickelt sich der Begriff Geschichte, der anfangs nur für den Gegenstandsbereich der Historie, der Erzählung der 'wahren', oft vermischt mit einer fiktionalen, Vergangenheit, verwendet wurde.\footcite[][S.57-58]{schulz2010neuere} Das modernen Verständnis des Wortes Geschichte umfasst sowohl die ''Gesamtheit von realen Geschehnissen'', als auch den Bericht darüber. Zentral in der modernen Geschichtswissenschaft, die wissenschaftliche Erforschung der Vergangenheit, ist die Auseinandersetzung mit historischen Quellen, die mittels kritischer Methode untersucht werden. In diesem Prozess müssen die angewandten Methoden, Ideen und Ergebnisse diskutierbar und nachprüfbar sein.\footcite[][S.13-32]{demand2011philosophie} Jeder soll in der Lage sein feststellen zu können, ob eine Interpretation eines historischen Sachverhalts auch so in der angeführten Quelle nachvollziehabr ist.
+\\
+Ein weiterer zentraler Aspekt ist die Hermeneutik. Dabei handelt es sich um eine Theorie der Interpretation und des Verstehens von Texten. DILTHEY unterscheidet zwischen ''erklären'' und ''verstehen''. Wo die die Naturwissenschaften erkennbaren Gegebenheiten der Welt von außen versuchen zu erklären, ist es Aufgabe der Geisteswissenschaften, die Welt von innen zu verstehen. \footcite[][S.19-30]{schulz2010neuere}  Bei Gadamer erhält der Begriff eine weitere Bedeutung. Nicht nur unser Wissen über Texte und geistige Produkte, sondern alles Wissen auf beruht auf einem Verstehen, das in einer Auslegung unseres Wissens erläutert wird.\footnote{STANGL, Werner: Geschichte der Hermeneutik, \protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikHistorie.shtml}, 01.06.2019.}
+Verstehen in diesem Sinne ist zirkelförmig. Jemand tritt mit einem gewissen Vorwissen an eine Fragestellung heran. Es werden in der Auseinandersetzung mit der Materie Erfahrungen gesammelt und ein tieferes Verständnis der Thematik erarbeitet. Mit diesem gefestigteren Verständnis kann man sich in diesem hermeneutischen Zirkel wieder weiter bewegen und in einem, iterativen Prozess ein besseres Bild des Themas erlangen. Eine Problemstellung muss zuerst gefunden, erkannt und verstanden werden. Im Zusammenspiel mit empirischer Methoden ist die Hermeneutik für die Hypothesenbildung und für die Interpretation der Ergebnisse von großer Bedeutung. Bei der empirischen Überprüfung von Sachverhalten spielt die Hermeneutik eine wesentliche Rolle bei der Operationalisierung (qualitative Aussagen werden quantitfizierbar gemacht), aber auch die Interpretation von empirischen Resultaten ist ein hermeneutischer Vorgang.\footnote{STANGL, Werner: Der hermeneutische Zirkel, \protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikZirkel.shtml}, 01.06.2019.}
+\\
+\\
 Wheler Golo mann Auseinandersetzung: theorieorientierte, moderne Geschichtswissenschaft vs. erzählende Art\footcite[][S.1-6]{magerski2009schreibt}
 \\
 \\
-''\textit{Erzählende Geschichte bedarf heute einer Theorie der Erzählung}'' beschreibt SOKOLL die heutige Situation, in der historische Forschung ohne theoretische Fragestellung nicht mehr möglich ist. Methoden hingegen sind und waren ein stets anerkanntes und nicht wegzudenkendes Werkzeug in den Geschichtswissenschaften. Ein Blick auf die Vielfalt historischer Hilfswissenschaften, die sich mit der Erschließung von bestimmten Quellentypen beschäftigt, zeigt dies. Die Hilfswissenschaften bzw. Grundwissenschaften -- ''\textit{als Abzweigungen der allgemeinen historischen Arbeitsform}''[Vgl.][S.10]\footcite{von2007werkzeug} -- mit ihrem Ziel die historischen Quellen aufzubereiten erstrecken sich von der Paläografie über die Diplomatik und Aktenkunde bis hin zu Genealogie. Die Historische Fachinformatik versteht sich auch als Hilfswissenschaft innerhalb der Geschichtswissenschaften und beschäftigt sich mit der Anwendung und Reflexion von formalen Verfahren in diesem Fach.\footnote{Was ist HFI?, Kurzbeschreibung des Faches und seiner Positionierung \protect\url{http://hfi.uni-graz.at/basisinformation/was-ist-hfi/}, 23.05.2019.} 
+''\textit{Erzählende Geschichte bedarf heute einer Theorie der Erzählung}'' beschreibt SOKOLL die heutige Situation, in der historische Forschung ohne theoretische Fragestellung nicht mehr möglich ist.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Methoden}
+
+Methoden hingegen sind und waren ein stets anerkanntes und nicht wegzudenkendes Werkzeug in den Geschichtswissenschaften. Ein Blick auf die Vielfalt historischer Hilfswissenschaften, die sich mit der Erschließung von bestimmten Quellentypen beschäftigt, zeigt dies. Die Hilfswissenschaften bzw. Grundwissenschaften -- ''\textit{als Abzweigungen der allgemeinen historischen Arbeitsform}''[Vgl.][S.10]\footcite{von2007werkzeug} -- mit ihrem Ziel die historischen Quellen aufzubereiten erstrecken sich von der Paläografie über die Diplomatik und Aktenkunde bis hin zu Genealogie. Die Historische Fachinformatik versteht sich auch als Hilfswissenschaft innerhalb der Geschichtswissenschaften und beschäftigt sich mit der Anwendung und Reflexion von formalen Verfahren in diesem Fach.\footnote{Was ist HFI?, Kurzbeschreibung des Faches und seiner Positionierung \protect\url{http://hfi.uni-graz.at/basisinformation/was-ist-hfi/}, 23.05.2019.} 
 \\
 Neben Methoden der Erschließung historischer Quellen in ihrer Materialisierung als historische Hilfswissenschaften ist die Quellenkritik immanente Methode der Geschichtswissenschaft. Die Quellenkritik entwickelte sich aus dem Dreischritt von Heuristik, Kritik und Interpretation. Historiker*innen formulieren eine Fragestellung, als Ergebnis eines spezifischen Forschungsstandes, um eigenen bzw. neue  Erkentnisse über ein Thema zu gewinnen. Relevante Quellen werden gesammelt, erschlossen und einer kritischen Prüfung auf Vollständigkeit, Glaubwürdigkeit und Echtheit unterzogen. Die Ergebnisse aus dem Quellenstudium werden mit den Erkenntnissen von Fachkollegen*innen verglichen und in übergeordnete Kontexte eingeordnet. Für DROYSEN mündet die Reflexion auf die historische Methode somit gleichsam wie von selbst in eine Theorie der historischen Erkenntnis -- als Lehre des deutenden Verstehens -- der sogenannten Hermeneutik. Aus diesem Verständnis heraus erwuchs 'die' Theorie der Geschichtswissenschaft.
 \\
@@ -148,10 +160,72 @@ In der Geschichtswissenschaft von heute gibt es eine Vielzahl von Methoden, dere
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }
 
+''Aber alle Autoren halten daran fest, dass sich de Quantifizierung als ein gewichtiges Werkzeug historischer Analyse erwiesen habe''.\footcite[][S.191-206]{jarausch1985quantitative}
+
 In den 1980iger Jahren standen sich im methodischen Zugang zu historischen Quellen zwei Gruppen gegenüber, die sich als ''Traditionalisten'' und ''Quantifizierer'' festmachen lassen können. Im Gegensatz zu den ''Traditionalisten'', die einen hermeneutischen Zugang wählten, um historische Quellen zu verstehen, übernahmen die ''Quantifizierer'' formale Methoden, wie etwa statistische Verfahren, aus den Sozialwissenschaften, um sie auf Quellenkorpora anzuwenden und die daraus gewonnenen empirischen Fakten für die Interpretation zu nutzen.\footcite[][S.XX-XX]{jarausch1985quantitative} Ergebnis dieser Auseinandersetzung war es, dass bei der Anwendung formaler Methoden besonders auf die Nachvollziehbarkeit geachtet werden muss, damit nicht Dinge, die nicht empirisch beweisbar sind, auch nicht so missverstanden werden können. Aus diesem Grund muss die Quelle ohne jegliche Vorannahmen zur Verfügung gestellt werden und einsehbar sein und das angewandte formale Modell bzw. die formale Methode in ihrer Gänze offen gelegt werden. Gerade der letztere Aspekt definiert den eigentlichen Kern der Geschichtswissenschaften: die Interpretationen der Vergangenheit. Diese Interpretation sollte für andere nachvollziehbar sein und wissenschaftlichen Kriterien standhalten. Es wird empfohlen die grundlegenden Annahmen und Definitionen, die in der Interpretation von Quellen verwendet werden in einer gemeinsamen \textit{knowledge domain}, wie THALLER es nannte, zu formalisieren.\footcite[][S.XX-XX]{thaller2017historical}
 \\ 
 \\
 Zentrales Konzept in einem ''digitalen'' Verständnis formaler Arbeitstechniken in den Geschichtswissenschaften in diesem Zusammenhang sind das \textit{Web of Data} (aka. Semantic Web) und das \textit{Linked Open Data} Paradigma. Diese Technologien ermöglichen es konzeptuelle Modelle in den Geisteswissenschaften mensch- und maschinenlesbar zusammen mit der Quelle nachvollziehbar und nach nutzbar zu machen. Diese Technologien erleichtern den Austausch konzeptueller Modelle über das Web können sie so leichter verteilt und nach genutzt werden.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Interpretation und Theoriebildung}
+
+Die Interpretation von neu gewonnenen Ergebnissen ist das eigentliche Ziel der quantitativen Methode. Sie erlaubt es nicht nur überschaubaren Menge von Quellenbelegen zu verarbeiten, sondern neue Ergebnisse aus eine großen Anzahl von Belegen zu verarbeiten. Dies ist der große Vorteil der quantitativen Methoden und Herausforderung zu gleich. Es besteht die Gefahr, so JARAUSCH et. al., dass die eigentliche Arbeit, die Interpretation der Quellen, im reinen quantitativen Vedrarbeiten und Verwalten liegen bleibt. Der Aussagewert der Ergebnisse aus diesen Methoden ist abhängig von einer ganzen Reihe von qualitativen Entscheidungen. Denkt man beispielsweise an die Einordnung von historischer Berufen in einzelne Gruppen, um diese gegenüberzustellen: gehört ein Kaufmann dann in die Gruppe des Besitzbürgertum oder zum alten Mittelstand? Es ist notwendig, dass das Erkenntnisziel eines Verfahren im Vorhinein definiert wird und das Verhältnis der quantitativen Daten zu den qualitativen Quellen geklärt und diskutiert wird. Gerade bei historischen Daten ist das essentiell, das es sich dabei um stark kontextabhängige Daten handelt.\footcite[][S.182-193]{jarausch1985quantitative}
+\\
+Bereits 1988 veranschaulichte THALLER das in seinem ''Preußenbeispiel''. Der Begriff ''Preußen'' bezieht sich im Jahre 1670 auf deutlich andere Koordinaten, als im Jahre 1770.\footcite[][S.264-266]{thaller2017historical} Historischer Information ist unscharf, unvollständig, heterogen und mehrdeutig. Die korrekte Interpretation solcher Daten hängt stark von sich verändernden Kontexten ab. Dies umfasst zum Beispiel politischen und administrativen Grenzen oder Währungs-- und Maßsysteme.
+\\
+Der Einsatz von Datenbanken ermöglicht neue Fragestellungen an das Material. Wichtig ist, dass 
+diese Verbindung auch während der Arbeit an 
+den Daten nicht verloren geht, weil eine herme-
+neutische Herangehensweise nicht nur sich ver-
+ändernde Sichten auf das Problem, sondern 
+damit Hand in Hand gehend auch veränderte 
+Ansprüche an die Software mit sich bringt. 
+Ein auf der digitalen Erfassung von historischen 
+Daten basierendes Projekt hat jedoch nicht nur 
+technische Probleme im Umgang mit den dabei 
+entstehenden Daten zu lösen, sondern sollte 
+auch Überlegungen auf strategischer Ebene an-
+stellen. Dabei geht es um Fragen der Bereitstel-
+lung, d.h. Veröffentlichung von Daten und so-
+mit um deren potentielle Nachnutzung. Sehr 
+wichtig in diesem Zusammenhang ist das Prob-
+lem der Kuratierung als Voraussetzung für 
+Langzeitarchivierung und Langzeitverfügbar-
+keit. Bereits zu Beginn des Projekts sollten Über-
+legungen angestellt werden, was nach Projekt-
+ende mit den Daten und der Software geschehen 
+soll, die im Rahmen des Projekts entstanden 
+sind. Wird eine längerfristige Verfügbarkeit ins 
+Auge gefasst, so sollte idealerweise bereits in 
+der Konzeption des Projekts mit der Institution, 
+die später für die Aufbewahrung der Daten 
+verantwortlich ist, Kontakt aufgenommen wer-
+den, weil die Entscheidung für eine bestimmte 
+Software oder ein bestimmtes Datenformat den 
+Aufwand für eine längerfristige Bereitstellung 
+massiv beeinflussen kann. Ideal ist, wenn wie im 
+vorliegenden Projekt die Softwareentwicklung 
+von derselben Institution geleistet oder zumin-
+dest überblickt wird, die später auch die Ver-
+antwortung für die Aufbewahrung der Daten 
+übernimmt. \footcite[][S.239-242]{vasold2015allerunderthenigsten}
+\\
+Es soll nicht ''alles mit allem'' verarbeitet werden in der Hoffnung auf vorher nicht zu erkennende Phänomen zufällig zu stoßen, das wäre ein Overkill, sondern es ist ganz wichtig im vorhinein zu überlegen was sinnvoll ist, die innere Logik eines Verfahren so weit zu verstehen, dass unsinnige Resultate ausgeschlossen werden können. Ein statistischer Zusammenhang heißt noch keine Kausalbeziehung: das Aussterben der Störche kann statistisch einen Einfluss auf den Niedergang der Geburtenrate suggerieren, kausal gibt es in diesem frechen Beispiel aber keine Kausalität. Statistik kann nichts erklären, sondern nur Erklärungsmodelle auf ihre Übereinstimmung mit den Daten überprüfen. Es ist wichtig aus der statistischen Auswertung aufzutauchen und deren Befunde mit der Fachliteratur zu diskutieren. Nur so kann man den aktuellen Wissensstand mit dem alten vergleichen und neue Thesen aufstellen.
+\\
+Theorien in der Quantifizierung.
+\\
+Theoriebedürfitkeit der Historie als Wissenschaft unterstrichen. Der Ruf nach mehr Theorie war weitgehend durch den Versuch motiviert, das Paradigma des Historismus, der die Einzigartigkeit und Individualität einer Entwicklung betont und behauptet, dass Historiker Phänomene in ihrer eigene Zeit und ihrem eigenen Kontext verstehen sollten, abzulösen. KOCKA definiert Theorien als eine expliziten und konsistenten Satz von verwandten Begriffen, die benützt werden können, geschichtle Daten zu strukturieren und zu erklären, aber nicht aus dem Sudium der Quelle alleine abgeleitet werden können.'' Die Funktionen der historischen Forschung:
+\begin{itemize}
+\item Klärung von Problemformulierungen
+\item Definition von überprüfbaren Hypothesen für Zusammenhänge von Faktoren 
+\item K
+\item 
+\item Aufwerfen neuer Fragestellungen.
+\end{itemize}
+\footcite[][S.182-191]{jarausch1985quantitative}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
