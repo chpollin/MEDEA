@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  1 JUN 2019 09:56
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  31 MAY 2019 17:10
+>>>>>>> 65ef5f238a2983c195bf148c56595d4393749326
+=======
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  1 JUN 2019 09:55
+>>>>>>> bbcfac0831d4007c64080ee74527f2b4f5fc781b
 entering extended mode
 **./expose.tex
 (expose.tex
@@ -1176,10 +1184,36 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
+<<<<<<< HEAD
+ 21412 strings out of 494830
+ 382975 string characters out of 6177366
+ 477765 words of memory out of 5000000
+ 24477 multiletter control sequences out of 15000+600000
+ 593573 words of font info for 91 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 49i,7n,47p,10378b,1547s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/pollin/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecit1200.60
+0pk> </home/pollin/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.
+600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/pollin
+/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on expose.pdf (35 pages, 2014045 bytes).
+=======
+ 22019 strings out of 492970
+ 393887 string characters out of 3126594
+ 507709 words of memory out of 3000000
+ 25626 multiletter control sequences out of 15000+200000
+=======
  22020 strings out of 492970
  393916 string characters out of 3126594
  507720 words of memory out of 3000000
  25627 multiletter control sequences out of 15000+200000
+>>>>>>> bbcfac0831d4007c64080ee74527f2b4f5fc781b
  592836 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,7n,65p,2257b,977s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1193,7 +1227,12 @@ ams/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/chris/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/chris/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/chris/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+<<<<<<< HEAD
+Output written on expose.pdf (38 pages, 2042550 bytes).
+>>>>>>> 65ef5f238a2983c195bf148c56595d4393749326
+=======
 Output written on expose.pdf (38 pages, 2042703 bytes).
+>>>>>>> bbcfac0831d4007c64080ee74527f2b4f5fc781b
 PDF statistics:
  303 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
