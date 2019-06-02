@@ -189,7 +189,7 @@
 \bibitem[{Demandt\jbdy {2011}}%
          {}%
          {{0}{}{article}{2011}{}{}{}{}%
-          {Köln and Weimar and Wien\bibbdsep {} 2011}}%
+          {Köln, Weimar, Wien\bibbdsep {} 2011}}%
          {{Philosophie der Geschichte von der Antike zur Gegenwart}%
           {}{}{2}{}{}{}{}{}}%
         ]{demand2011philosophie}
@@ -484,16 +484,16 @@
 \bibitem[{Opgenoorth\jbbtasep Schulz\jbdy {2010}}%
          {}%
          {{0}{}{book}{2010}{}{}{}{}%
-          {Paderborn and München and Wien and Zürich\bibbdsep {} 2010}}%
+          {Paderborn, München, Wien, Zürich\bibbdsep {} 2010}}%
          {{Einführung in das Studium der Neueren Geschichte}%
           {}{}{2}{}{}{}{}{}}%
         ]{schulz2010neuere}
  \jbbibargs {\bibnf {Opgenoorth} {Ernst} {E.} {} {}\Bibbtasep \bibnf {Schulz}
   {Günther} {G.} {} {}} {Ernst OpgenoorthGünther Schulz} {aus} {\bibtfont
   {Einführung in das Studium der Neueren Geschichte}\bibatsep\  \apyformat
-  {Paderborn and München and Wien and Zürich\bibbdsep {} 2010}}
-  {\bibhowcited} \jbdoitem {{Opgenoorth}{Ernst}{E.}{}{};
-  {Schulz}{Günther}{G.}{}{}} {} {} \bibAnnoteFile {schulz2010neuere}
+  {Paderborn, München, Wien, Zürich\bibbdsep {} 2010}} {\bibhowcited}
+  \jbdoitem {{Opgenoorth}{Ernst}{E.}{}{}; {Schulz}{Günther}{G.}{}{}} {} {}
+  \bibAnnoteFile {schulz2010neuere}
 
 \bibitem[{Pellegrini\jbbtasep Blumauer\jbdy {2006}}%
          {Wege zur vernetzten Wissensgesellschaft. Berlin [ua] Springer\jbsy
@@ -787,5 +787,18 @@
   \jbPages{S.207--218}} {\bibhowcited} \jbdoitem {{Weller}{Katrin}{K.}{}{}}
   {{Kuhlen}{Rainer}{R.}{}{}; {Semar}{Wolfgang}{W.}{}{};
   {Strauch}{Dietmar}{D.}{}{}} {} \bibAnnoteFile {weller2013InformationBand}
+
+\bibitem[{Wolf\jbdy {1995}}%
+         {Bilanz qualitativer Forschung 1  \peryearformat {1995}}%
+         {{0}{}{article}{1995}{}{}{}{309--329}%
+          {1995}}%
+         {{Qualitative versus quantitative Forschung}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{wolf1995qualitative}
+ \jbbibargs {\bibnf {Wolf} {Willi} {W.} {} {}} {Willi Wolf} {au} {\bibapifont
+  {Qualitative versus quantitative Forschung}\bibatsep\ \bibJTsep \bibjtfont
+  {Bilanz qualitativer Forschung}\ajtsep\  \artvolumeformat {1} \artyearformat
+  {1995} \jbPages{309--329}} {\bibartperiodhowcited} \jbdoitem
+  {{Wolf}{Willi}{W.}{}{}} {} {} \bibAnnoteFile {wolf1995qualitative}
 
 \end{thebibliography}
