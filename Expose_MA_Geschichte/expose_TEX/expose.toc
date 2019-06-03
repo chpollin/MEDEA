@@ -23,9 +23,10 @@
 \contentsline {subsection}{\numberline {4.1}DEPCHA}{25}
 \contentsline {subsection}{\numberline {4.2}The George Washington Financial Papers}{25}
 \contentsline {subsection}{\numberline {4.3}The Wheaton Accounts}{26}
-\contentsline {section}{\numberline {5}Die \textit {Bookkeeping-Ontology} als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{31}
+\contentsline {section}{\numberline {5}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{31}
 \contentsline {subsection}{\numberline {5.1}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{31}
 \contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition}{31}
-\contentsline {subsubsection}{\numberline {5.1.2}TEI}{32}
-\contentsline {subsubsection}{\numberline {5.1.3}TEI Beispiele DEPCHAI}{32}
-\contentsline {section}{\numberline {6}Zusammenfassung}{32}
+\contentsline {subsubsection}{\numberline {5.1.2}Bookkeeping-Ontology}{31}
+\contentsline {subsubsection}{\numberline {5.1.3}TEI Beispiele DEPCHA}{32}
+\contentsline {section}{\numberline {6}Textfragmente}{34}
+\contentsline {section}{\numberline {7}Zusammenfassung}{34}

@@ -656,7 +656,7 @@ die Möglichkeit, geografische Beziehungen von Personen oder die Herkunft von Wa
 \\
 Ziel der Masterarbeit soll es nicht sein die Projektinhalte zu dokumentieren, sondern sich mit theoretischen und praktischen Fragestellungen zu formaler Modellen und formaler Methoden in den Geschichtswissenschaften  auseinanderzusetzen, wiewohl Quellen, Workflows und Daten aus dem DEPCHA Projekt einfließen sollen.
 
-\section{Die \textit{Bookkeeping-Ontology} als konzeptuelles Model für digitale Editionen von historischen Rechnungsbücher}
+\section{Die Bookkeeping-Ontology als konzeptuelles Model für digitale Editionen von historischen Rechnungsbücher}
 \label{subsec:DigEdHiRe}
 
 Das abschließende Kapitel verbindet die theoretischen Überlegungen mit den technischen Ausführungen und skizziert die Arbeit, die im Zuge des Projektes \textbf{Digital Edition Publishing Cooperative for Historical Accounts (DEPCHA)}\footnote{\url{gams.uni-graz.at/depcha}} umgesetzt wurde. In diesem Projekt wird ein gemeinsamer Publikations-Hub für historische Rechnungsbücher implementiert. Im Zentrum steht die Entwicklung und Nutzung einer Ontologie, einer formalen Beschreibung eines konzeptuellen Models zur Standardisierung von Buchungstransaktionen in historischen Rechnungsunterlagen. Dabei wird ein im \textit{Web of Data}, sowie ein \textit{Linked Open Data} Zugang verfolgt. Das heißt, dass eben der Transkription und Edition der Rechnungsbücher, sowie der Verfügugnstellung der Digitalisate der Quellen, hochstrukturierte RDF-Daten existieren, die mittels der Bookkeeping-Ontologie formalisiert sind und Referenzen auf Normdaten und LOD-Vokabularien setzen. Mit diesem Zugang soll die Nachprüfbarkeit, die Sicherstellung und die Nachnutzbarkeit der Forschungsdaten und aller darauf aufbauenden quantitativen Methoden und deren Ergebnisse gewährleistet sein. Dabei spielt die Bookkeeping-Ontologie, im THALLER'schen Sinne als \textit{knowledge domain} eine zentrale Rolle. In diesem Kapitel soll zuerst auf die digitale Edition historischen Rechnungsbüchern und die dazu nötigen Standards, vor allem die TEI, eingegangen werden. Danach folgt die semantische Anreicherung und die Repräsentation der Inhalte in den Transaktionen, sowie eine detailierte Beschreibung der domänenspezifischen Bookkeeping-Ontology.  
@@ -664,15 +664,68 @@ Das abschließende Kapitel verbindet die theoretischen Überlegungen mit den tec
 \subsection{Digitale Edition von Historischen Rechnungsbüchern}
 \subsubsection{Digitale Edition}
 Eine Einführung
-\subsubsection{TEI}
-\subsubsection{TEI Beispiele DEPCHAI}
 
+\subsubsection{Bookkeeping-Ontology}
 
-Für alle diese Projekte existieren hochstrukturierte RDF-Daten, die jeweils mit einer domänenspezifischen Ontologie beschrieben sind. Diese Ontologie wurde in einem iterativen \textit{Ontology Enginneering}-Prozess mit den FachkollegInnen, basierend auf den fachspezifischen Forschungsfragen, generiert.
+Die \textit{Bookkeeping Ontology} ist ein konzeptionelles Modell zur formalen Beschreibung von Transaktionen in historischen Rechnungsunterlagen. Es wurde in einem Ontologie-Engineering-Prozess entwickelt, an dem Historiker*innen, Softwareentwickler*innen und digitale Geisteswissenschaftler*innen beteiligt waren.  \\
+Eine Transaktion besteht aus mindestens einem Transfer. Jeder Transfer umfasst den Austausch von Dingen, die quantifizierbar sind, von einem Akteur zum anderen. Solche sogenannte \textit{Measurable} lassen sich in Geldbeträge, sowie wirtschaftliche Güter unterteilen. Geldbeträge sind dadurch gekennzeichnet, dass sie aus eine Zahl und einer Währung bestehen, wie etwa 10 US Dollar. Weiters gibt es spezielle Formen von Geldbeträgen, wie etwa Steuern, die eine einseitige Geldabgabe definieren, sowie Preise, die den monetären Wert eines Wirtschaftsgutes beschreiben. Die wirtschaftlichen Güter wiederum werden aufgeteilt in Waren -- bestehend aus Menge, Einheit und Art, wie 1 Sack Erdäpfel -- und Dienstleistungen, die eine zeitliche Komponente mit sich bringen können. Die Akteure diesen Transfers können Individuen, Gruppen, Organisationen oder Kontent sein. Die Ontologie erlaubt es explizit zu formulieren von wem an wen \textit{Measurable} transferiert werden.
 \\
+Weiters ist die Verbindung zur historischen Quelle bzw. zum jeweiligen Eintrag wichtiger Bestandteil der Ontologie. Ein Eintrag ist ein Informationsfragment und Beleg eines Ereignisses einer Transaktion in der Vergangenheit. Neben dieser Referenz besteht die Möglichkeit jede Transaktion in seiner zeitliche, räumliche und inhaltlichen Dimension, also der Zordnung zu einem bestimmten, durch die Forschungsfrage geprägten Kontext, zu beschreiben.
+\\
+Ein bk:Transfer kann von einem bk:Agent durchgeführt werden, also jemand übernimmt den Transferprozess. Bei der Verbuchung der Transaktion wird eine Transaktion im Sinne der doppelten Buchhaltung auf die Haben oder Soll Seite gebucht. 
+
+\subsubsection{TEI Beispiele DEPCHA}
+
+
+\begin{lstlisting}[]
+@prefix bk: <https://gams.uni-graz.at/o:depcha.ontology> .
+
+<#Transaction-0>
+  a bk:Transaction> ;
+  bk:consistsOf <#Transfer-1>, <#Transfer-2> ;
+  bk:when "1808-08-01" ;
+  bk:text "1/4 lb Powder 2/6 1 lb Shot 2/6 7 6" .
+
+<#Transfer-1>
+  a bk:Transfer ;
+  bk:transfers <#Measurable-1> ;
+  bk:from <#stagville> ;
+  bk:to <#pers.2> .
+
+<#Transfer-2>
+  a bk:Transfer ;
+  bk:transfers <#Measurable-2-1> ;
+  bk:from <#pers.2> ;
+  bk:to <#stagville> .
+
+<#Measurable-1>
+  a bk:Commodity ;
+  bk:unit <wiki:Q100995> ;
+  bk:quantity "0.25" ;
+  bk:commodity <wikivQ2908004> ;
+  bk:price <#Price-1> ;
+  bk:text "1/4 lb Powder" .
+
+<#Measurable-2-1>
+  a bk:Money ;
+  bk:unit <wiki:Q213142> ;
+  bk:quantity "7" .
+  
+ <#pers.2>
+  a bk:Between;
+  bk:name "James Haley".
+  
+\end{lstlisting}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.75\textwidth]{img/example.png}  
+    \caption[Graphische Darstellung des RDF, eigene Darstellung, 01.06.2019.]{Graphische Darstellung des RDF} \label{fig:example}
+\end{figure}
+
+\section{Textfragmente}
+
 Das \textit{Data for History Consortium}\footcite{beretta2017dataforhistory} geht einen vergleichbaren Weg und versucht ein gemeinsames Set an Methoden im \textit{Web of Data} zu entwickeln, um Daten in den Geschichtswissenschaften zu modellieren, verknüpfen und auszutauschen.
-\\
-The common knowledge domain of these documents is formalized in a ”bookkeeping” ontology, based on the REA model and compliant with the CIDOC CRM. As a conceptual data model, the ontology is developed in an iterative process. It formalizes the interpretation of transactions of money, commodities and services from one actor to another, and further properties that can be found in historical accounts. The RDF data extracted from the accounts becomes therefore a highly structured and self describing data set, being interoperable and reusable for researchers in diverse fields. The RDF representation can link to URI’s of commodities, places, persons or other LOD vocabularies. Additionally the RDF representation contributes to the LOD. Thus, all formal methods applied in the DEPCHA project can be transferred to other data conforming to the proposed ontology and any kind of combined data set.
 \\
 \\
 hehe\footcite[Vgl.][]{sahle2013digitale}
