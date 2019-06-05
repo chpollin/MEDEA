@@ -1,32 +1,32 @@
 \babel@toc {german}{}
-\contentsline {section}{\numberline {1}Einleitung}{1}
-\contentsline {section}{\numberline {2}Formale Methoden und Modelle in den Geschichtswissenschaften}{3}
-\contentsline {subsection}{\numberline {2.1}Theorien und Methoden der Geschichtswissenschaft}{3}
-\contentsline {subsubsection}{\numberline {2.1.1}Methoden}{5}
-\contentsline {subsection}{\numberline {2.2}Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }{6}
-\contentsline {subsection}{\numberline {2.3}Interpretation und Theoriebildung}{7}
-\contentsline {subsection}{\numberline {2.4}Modellbildung in den Geschichtswissenschaften}{9}
-\contentsline {subsubsection}{\numberline {2.4.1}Was ist Informationsmodellierung}{11}
-\contentsline {subsubsection}{\numberline {2.4.2}System}{11}
-\contentsline {subsection}{\numberline {2.5}Forschungsdaten in den Geschichtswissen}{11}
-\contentsline {subsection}{\numberline {2.6}Modelle in den Geschichtswissenschaften}{13}
-\contentsline {section}{\numberline {3}Web of Data}{13}
-\contentsline {subsection}{\numberline {3.1}Geschichte und Vision des Web of Data}{13}
-\contentsline {subsection}{\numberline {3.2}Web of Data Stack}{14}
-\contentsline {subsubsection}{\numberline {3.2.1}Resource Description Framework}{14}
-\contentsline {subsubsection}{\numberline {3.2.2}Resource Description Framework Schema (RDFs)}{18}
-\contentsline {subsubsection}{\numberline {3.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{20}
-\contentsline {subsubsection}{\numberline {3.2.4}Abfragesprache: SPARQL}{20}
-\contentsline {subsection}{\numberline {3.3}Ontologien}{20}
-\contentsline {subsubsection}{\numberline {3.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{21}
-\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{24}
-\contentsline {subsection}{\numberline {4.1}DEPCHA}{25}
-\contentsline {subsection}{\numberline {4.2}The George Washington Financial Papers}{25}
-\contentsline {subsection}{\numberline {4.3}The Wheaton Accounts}{26}
-\contentsline {section}{\numberline {5}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{31}
-\contentsline {subsection}{\numberline {5.1}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{31}
-\contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition}{31}
-\contentsline {subsubsection}{\numberline {5.1.2}Bookkeeping-Ontology}{31}
-\contentsline {subsubsection}{\numberline {5.1.3}TEI Beispiele DEPCHA}{32}
-\contentsline {section}{\numberline {6}Textfragmente}{34}
-\contentsline {section}{\numberline {7}Zusammenfassung}{34}
+\contentsline {section}{\numberline {1}Einleitung}{1}% 
+\contentsline {section}{\numberline {2}Formale Methoden und Modelle in den Geschichtswissenschaften}{4}% 
+\contentsline {subsection}{\numberline {2.1}Theorien und Methoden der Geschichtswissenschaft}{4}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Methoden}{6}% 
+\contentsline {subsection}{\numberline {2.2}Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }{7}% 
+\contentsline {subsection}{\numberline {2.3}Interpretation und Theoriebildung}{8}% 
+\contentsline {subsection}{\numberline {2.4}Modellbildung in den Geschichtswissenschaften}{10}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Was ist Informationsmodellierung}{12}% 
+\contentsline {subsubsection}{\numberline {2.4.2}System}{12}% 
+\contentsline {subsection}{\numberline {2.5}Forschungsdaten in den Geschichtswissen}{12}% 
+\contentsline {subsection}{\numberline {2.6}Modelle in den Geschichtswissenschaften}{14}% 
+\contentsline {section}{\numberline {3}Web of Data}{14}% 
+\contentsline {subsection}{\numberline {3.1}Geschichte und Vision des Web of Data}{14}% 
+\contentsline {subsection}{\numberline {3.2}Web of Data Stack}{15}% 
+\contentsline {subsubsection}{\numberline {3.2.1}Resource Description Framework}{15}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Resource Description Framework Schema (RDFs)}{19}% 
+\contentsline {subsubsection}{\numberline {3.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{21}% 
+\contentsline {subsubsection}{\numberline {3.2.4}Abfragesprache: SPARQL}{21}% 
+\contentsline {subsection}{\numberline {3.3}Ontologien}{21}% 
+\contentsline {subsubsection}{\numberline {3.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{22}% 
+\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{25}% 
+\contentsline {subsection}{\numberline {4.1}DEPCHA}{26}% 
+\contentsline {subsection}{\numberline {4.2}The George Washington Financial Papers}{26}% 
+\contentsline {subsection}{\numberline {4.3}The Wheaton Accounts}{27}% 
+\contentsline {section}{\numberline {5}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{32}% 
+\contentsline {subsection}{\numberline {5.1}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{32}% 
+\contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition}{32}% 
+\contentsline {subsubsection}{\numberline {5.1.2}Bookkeeping-Ontology}{32}% 
+\contentsline {subsubsection}{\numberline {5.1.3}TEI Beispiele DEPCHA}{33}% 
+\contentsline {section}{\numberline {6}Textfragmente}{35}% 
+\contentsline {section}{\numberline {7}Zusammenfassung}{35}% 
