@@ -154,21 +154,6 @@
   {} \bibAnnoteFile {bursztyn2015reasoning}
 
 \backrefparscanfalse
-\bibitem[{Cardoso\jbdy {2007}}%
-         {IEEE Intelligent systems, \Numbername~5, \volname~22, \jbsy {2007}}%
-         {{0}{}{article}{2007}{}{}{}{84--88}%
-          {IEEE\bibbdsep {} 2007}}%
-         {{The semantic web vision: Where are we?}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{cardoso2007semantic}
- \jbbibargs {\bibnf {Cardoso} {Jorge} {J.} {} {}} {Jorge Cardoso} {au}
-  {sexless} {\bibapifont {The semantic web vision: Where are we?} \bibJTsep
-  \bibjtfont {IEEE Intelligent systems}\ajtsep {}  \artvolumeformat {22}
-  \artyearformat {2007}\artnumberformat {5} \jbPages{84--88}}
-  {\bibartperiodhowcited} \jbdoitem {{Cardoso}{Jorge}{J.}{}{}} {} {}
-  \bibAnnoteFile {cardoso2007semantic}
-
-\backrefparscanfalse
 \bibitem[{Clark\jbdy {1859}}%
          {}%
          {{0}{}{book}{1859}{}{}{}{}%
@@ -184,6 +169,25 @@
   Nichols, and Company, and author at Norton\bibbdsep {}} 1859}} {\bibhowcited}
   \jbdoitem {{Clark}{George~Faber}{G.~F.}{}{}} {} {} \bibAnnoteFile
   {clark1859history}
+
+\backrefparscanfalse
+\bibitem[{Clifford\Bibetal\jbdy {2016}}%
+         {}%
+         {{0}{}{article}{2016}{}{}{}{}%
+          {Digital Humanities Conference 2016 Kraków\bibbdsep {} 2016}}%
+         {{MEDEA (Modeling semantically Enhanced Digital Edition of Accounts)
+  as Historical Method}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{tomasekmedea}
+ \jbbibargs {\bibnf {Clifford} {Anderson} {A.} {} {}\bibIMfont {\Bibetal}}
+  {Anderson CliffordOyvind EideAnna OrlowskaKatrin PindlKathryn TomasekGeorg
+  Vogeler} {aus} {sexless} {\bibapifont {MEDEA (Modeling semantically Enhanced
+  Digital Edition of Accounts) as Historical Method}\bibatsep {}
+  \artyearformat {2016}} {\bibartperiodhowcited} \jbdoitem
+  {{Clifford}{Anderson}{A.}{}{}; {Eide}{Oyvind}{O.}{}{};
+  {Orlowska}{Anna}{A.}{}{}; {Pindl}{Katrin}{K.}{}{};
+  {Tomasek}{Kathryn}{K.}{}{}; {Vogeler}{Georg}{G.}{}{}} {} {} \bibAnnoteFile
+  {tomasekmedea}
 
 \backrefparscanfalse
 \bibitem[{Cole\jbdy {2015}}%
@@ -260,6 +264,24 @@
   {}  \apyformat {\jbpublisher{" O'Reilly Media, Inc."\bibbdsep {}} 2013}}
   {\bibhowcited} \jbdoitem {{DuCharme}{Bob}{B.}{}{}} {} {} \bibAnnoteFile
   {ducharme2013learning}
+
+\backrefparscanfalse
+\bibitem[{Engel\Bibetal\jbdy {2003}}%
+         {XBRL International \jbsy {2003}}%
+         {{0}{}{article}{2003}{}{}{}{}%
+          {2003}}%
+         {{Extensible Business Reporting Language (XBRL) 2.1}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{engel2003extensible}
+ \jbbibargs {\bibnf {Engel} {Phillip} {P.} {} {}\bibIMfont {\Bibetal}} {Phillip
+  EngelWalter HamscherStandard AdvantageGeoffrey ShuetrimDavid vun
+  KannonCampbell Pryde} {aus} {sexless} {\bibapifont {Extensible Business
+  Reporting Language (XBRL) 2.1}\bibatsep {} \bibJTsep \bibjtfont {XBRL
+  International}  \artyearformat {2003}} {\bibartperiodhowcited} \jbdoitem
+  {{Engel}{Phillip}{P.}{}{}; {Hamscher}{Walter}{W.}{}{};
+  {Advantage}{Standard}{S.}{}{}; {Shuetrim}{Geoffrey}{G.}{}{};
+  {Kannon}{David}{D.}{vun}{}; {Pryde}{Campbell}{C.}{}{}} {} {} \bibAnnoteFile
+  {engel2003extensible}
 
 \backrefparscanfalse
 \bibitem[{Favre-Bulle\jbdy {2001}}%
@@ -445,6 +467,19 @@
   {kelly2016practical}
 
 \backrefparscanfalse
+\bibitem[{Kirn\jbdy {2015}}%
+         {}%
+         {{0}{}{book}{2015}{}{}{}{}%
+          {Berlin, Boston\bibbdsep {} 2015}}%
+         {{Einführung in die Geschichtswissenschaft}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{KirnPaul2015EidG}
+ \jbbibargs {\bibnf {Kirn} {Paul} {P.} {} {}} {Paul Kirn} {au} {sexless}
+  {\bibtfont {Einführung in die Geschichtswissenschaft}\bibatsep {}
+  \apyformat {\jbpublisher{Berlin, Boston\bibbdsep {}} 2015}} {\bibhowcited}
+  \jbdoitem {{Kirn}{Paul}{P.}{}{}} {} {} \bibAnnoteFile {KirnPaul2015EidG}
+
+\backrefparscanfalse
 \bibitem[{Kobler\jbdy {2010}}%
          {}%
          {{0}{}{book}{2010}{}{}{}{}%
@@ -495,19 +530,20 @@
 
 \backrefparscanfalse
 \bibitem[{Mann\jbdy {1979}}%
-         {Theorie und Erz{\"a}hlung in der Geschichte/Hrsg. von J. Kocka, T.
-  Nipperdey. M{\"u}nchen \jbsy {1979}}%
-         {{0}{}{article}{1979}{}{}{}{}%
-          {1979}}%
+         {}%
+         {{0}{}{inproceedings}{1979}{}{}{}{40--56}%
+          {M{\"u}nchen\bibbdsep {} 1979}}%
          {{Pl{\"a}doyer f{\"u}r die historische Erz{\"a}hlung}%
-          {}{}{2}{}{}{}{}{}}%
+          {}{}{1}{}{}{}{}{}}%
         ]{mann1979pladoyer}
  \jbbibargs {\bibnf {Mann} {Golo} {G.} {} {}} {Golo Mann} {au} {sexless}
   {\bibapifont {Pl{\"a}doyer f{\"u}r die historische Erz{\"a}hlung}\bibatsep {}
-  \bibJTsep \bibjtfont {Theorie und Erz{\"a}hlung in der Geschichte/Hrsg. von
-  J. Kocka, T. Nipperdey. M{\"u}nchen}  \artyearformat {1979}}
-  {\bibartperiodhowcited} \jbdoitem {{Mann}{Golo}{G.}{}{}} {} {} \bibAnnoteFile
-  {mann1979pladoyer}
+  \incolledformat {\bibenf {Kocka} {Jürgen} {J.} {} {}\Bibbtesep \bibenf
+  {Nipperdey} {Thomas} {T.} {} {}}{\edfont {\editorsname}}{\bibbtfont {Theorie
+  und Erz{\"a}hlung in der Geschichte}\bibatsep {} }{}{}  \apyformat {
+  \jbpublisher{M{\"u}nchen\bibbdsep {}} 1979}  \jbPages{40--56}} {\bibhowcited}
+  \jbdoitem {{Mann}{Golo}{G.}{}{}} {{Kocka}{Jürgen}{J.}{}{};
+  {Nipperdey}{Thomas}{T.}{}{}} {} \bibAnnoteFile {mann1979pladoyer}
 
 \backrefparscanfalse
 \bibitem[{McCreary\jbdy {2019}}%
@@ -653,6 +689,21 @@
   \jbdoitem {{Sahle}{Patrick}{P.}{}{}} {} {} \bibAnnoteFile {sahle2013digitale}
 
 \backrefparscanfalse
+\bibitem[{Schmieder\jbbtasep Sokoll}%
+         {}%
+         {{0}{}{article}{}{}{}{}{}%
+          {Hagen}}%
+         {{Theorien und Methoden der Geschichtswissenschaft}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{sokollgrundlagen}
+ \jbbibargs {\bibnf {Schmieder} {Felicitas} {F.} {} {}\Bibbtasep \bibnf
+  {Sokoll} {Thomas} {T.} {} {}} {Felicitas SchmiederThomas Sokoll} {aus}
+  {sexless} {\bibapifont {Theorien und Methoden der
+  Geschichtswissenschaft}\bibatsep {} } {\bibartperiodhowcited} \jbdoitem
+  {{Schmieder}{Felicitas}{F.}{}{}; {Sokoll}{Thomas}{T.}{}{}} {} {}
+  \bibAnnoteFile {sokollgrundlagen}
+
+\backrefparscanfalse
 \bibitem[{Schreiber\jbbtasep Raimond\jbdy {2014}}%
          {W3C working group note \jbsy {2014}}%
          {{0}{}{article}{2014}{}{}{}{}%
@@ -666,20 +717,6 @@
   \artyearformat {2014}} {\bibartperiodhowcited} \jbdoitem
   {{Schreiber}{Guus}{G.}{}{}; {Raimond}{Yves}{Y.}{}{}} {} {} \bibAnnoteFile
   {schreiber2014rdf}
-
-\backrefparscanfalse
-\bibitem[{Sokoll}%
-         {Grundlagen der Geschichtswissenschaft}%
-         {{0}{}{article}{}{}{}{}{}%
-          {Hagen}}%
-         {{Einführung: Theorien und Methoden – an praktischen Beispielen}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{sokollgrundlagen}
- \jbbibargs {\bibnf {Sokoll} {Thomas} {T.} {} {}} {Thomas Sokoll} {au}
-  {sexless} {\bibapifont {Einführung: Theorien und Methoden – an praktischen
-  Beispielen}\bibatsep {} \bibJTsep \bibjtfont {Grundlagen der
-  Geschichtswissenschaft} } {\bibartperiodhowcited} \jbdoitem
-  {{Sokoll}{Thomas}{T.}{}{}} {} {} \bibAnnoteFile {sokollgrundlagen}
 
 \backrefparscanfalse
 \bibitem[{Stachowiak\jbdy {1973}}%
@@ -851,21 +888,37 @@
 
 \backrefparscanfalse
 \bibitem[{Vogeler\jbdy {2015}}%
-         {Grenzen und M{\"o}glichkeiten der Digital Humanities \jbsy {2015}}%
-         {{0}{}{article}{2015}{}{}{}{}%
+         {}%
+         {{1}{}{inproceedings}{2015}{}{}{}{}%
           {2015}}%
-         {{{\guillemotright} Warum werden mittelalterliche und
-  fr{\"u}hneuzeitliche Rechnungsb{\"u}cher eigentlich nicht digital
-  ediert?{\guillemotleft}}%
-          {}{}{2}{}{}{}{}{}}%
+         {{Warum werden mittelalterliche und frühneuzeitliche Rechnungsbücher
+  eigentlich nicht digital ediert?}%
+          {}{}{1}{}{}{}{}{}}%
         ]{vogeler2015mittelalterliche}
+ \jburldef {vogeler2015mittelalterliche}{http://www.zfdg.de/sb001_007}%
  \jbbibargs {\bibnf {Vogeler} {Georg} {G.} {} {}} {Georg Vogeler} {au}
-  {sexless} {\bibapifont {{\guillemotright} Warum werden mittelalterliche und
-  fr{\"u}hneuzeitliche Rechnungsb{\"u}cher eigentlich nicht digital
-  ediert?{\guillemotleft}}\bibatsep {} \bibJTsep \bibjtfont {Grenzen und
-  M{\"o}glichkeiten der Digital Humanities}  \artyearformat {2015}}
-  {\bibartperiodhowcited} \jbdoitem {{Vogeler}{Georg}{G.}{}{}} {} {}
-  \bibAnnoteFile {vogeler2015mittelalterliche}
+  {sexless} {\bibapifont {Warum werden mittelalterliche und frühneuzeitliche
+  Rechnungsbücher eigentlich nicht digital ediert?} \incolledformat {\bibenf
+  {Baum} {Constanze} {C.} {} {}\Bibbtesep \bibenf {Stäcker} {Thomas} {T.} {}
+  {}}{\edfont {\editorsname}}{\bibbtfont {Grenzen und M{\"o}glichkeiten der
+  Digital Humanities}\bibatsep {} }{}{}   \apyformat {2015} \jburluse
+  {vogeler2015mittelalterliche} } {\bibhowcited} \jbdoitem
+  {{Vogeler}{Georg}{G.}{}{}} {{Baum}{Constanze}{C.}{}{};
+  {Stäcker}{Thomas}{T.}{}{}} {} \bibAnnoteFile {vogeler2015mittelalterliche}
+
+\backrefparscanfalse
+\bibitem[{Vogeler\jbdy {2019}}%
+         {International Journal of Digital Humanities \jbsy {2019}}%
+         {{1}{}{article}{2019}{}{}{}{1--14}%
+          {Springer\bibbdsep {} 2019}}%
+         {{The 'assertive edition'}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{vogeler2019assertive}
+ \jbbibargs {\bibnf {Vogeler} {Georg} {G.} {} {}} {Georg Vogeler} {au}
+  {sexless} {\bibapifont {The 'assertive edition'}\bibatsep {} \bibJTsep
+  \bibjtfont {International Journal of Digital Humanities}\ajtsep {}
+  \artyearformat {2019} \jbPages{1--14}} {\bibartperiodhowcited} \jbdoitem
+  {{Vogeler}{Georg}{G.}{}{}} {} {} \bibAnnoteFile {vogeler2019assertive}
 
 \backrefparscanfalse
 \bibitem[{Vogeler\Bibetal\jbdy {2016}}%
