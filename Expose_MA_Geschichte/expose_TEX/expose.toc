@@ -5,7 +5,7 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Geschichte und Geschichtswissenschaft: eine Definition}{5}% 
 \contentsline {subsubsection}{\numberline {2.1.2}Hermeneutik - Empirismus}{6}% 
 \contentsline {subsubsection}{\numberline {2.1.3}Methoden}{7}% 
-\contentsline {subsubsection}{\numberline {2.1.4}Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }{8}% 
+\contentsline {subsubsection}{\numberline {2.1.4}Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }{9}% 
 \contentsline {subsubsection}{\numberline {2.1.5}Historische Fachinformatik}{9}% 
 \contentsline {subsection}{\numberline {2.2}Interpretation und Theoriebildung}{9}% 
 \contentsline {subsection}{\numberline {2.3}Modellbildung in den Geschichtswissenschaften}{11}% 
@@ -14,10 +14,10 @@
 \contentsline {section}{\numberline {3}Web of Data}{15}% 
 \contentsline {subsection}{\numberline {3.1}Geschichte und Vision des Web of Data}{15}% 
 \contentsline {subsection}{\numberline {3.2}Web of Data Stack}{16}% 
-\contentsline {subsubsection}{\numberline {3.2.1}Resource Description Framework}{17}% 
-\contentsline {subsubsection}{\numberline {3.2.2}Resource Description Framework Schema (RDFs)}{19}% 
-\contentsline {subsubsection}{\numberline {3.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{21}% 
-\contentsline {subsubsection}{\numberline {3.2.4}Abfragesprache: SPARQL}{21}% 
+\contentsline {subsubsection}{\numberline {3.2.1}Resource Description Framework}{16}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Resource Description Framework Schema (RDFs)}{20}% 
+\contentsline {subsubsection}{\numberline {3.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{22}% 
+\contentsline {subsubsection}{\numberline {3.2.4}Abfragesprache: SPARQL}{22}% 
 \contentsline {subsection}{\numberline {3.3}Ontologien}{22}% 
 \contentsline {subsubsection}{\numberline {3.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{23}% 
 \contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{26}% 
@@ -30,5 +30,5 @@
 \contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition}{37}% 
 \contentsline {subsubsection}{\numberline {5.1.2}Bookkeeping-Ontology}{37}% 
 \contentsline {subsubsection}{\numberline {5.1.3}TEI Beispiele DEPCHA}{38}% 
-\contentsline {section}{\numberline {6}Textfragmente}{39}% 
+\contentsline {section}{\numberline {6}Textfragmente}{40}% 
 \contentsline {section}{\numberline {7}Zusammenfassung}{40}% 
