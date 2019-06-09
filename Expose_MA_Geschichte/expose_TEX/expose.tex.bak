@@ -95,75 +95,106 @@
 
 \section{Einleitung}
 
-Seit dem Zeitpunkt an dem es für Menschen den Bedarf gibt sich an Ereignisse oder Erkenntnisse, die für sie wichtig waren, zu erinnern, existieren auch Formen und Möglichkeiten Wissen darüber zu repräsentieren. Ein natürliches Beispiel dafür findet sich bereits in den ersten Hochkulturen als Menschen dokumentierte, dass jemand bei jemand anderen in der Schuld steht. Bereits um 3000 vor Christus lassen sich auf Tontafel Schuld und Kredit finden: ''\textit{Alok schuldet dem Sumar 10 Eimer Korn}''. Wir können also feststellen, dass die Dokumentation ökonomischer Abhängigkeiten einer der ersten strukturierten Formen waren, um Wissen festzuhalten und nieder zu schreiben.[ToDo Dan MCCreary] 
+Seit dem Zeitpunkt an dem es für Menschen den Bedarf gibt sich an Ereignisse oder Erkenntnisse, die für sie wichtig waren, zu erinnern, existieren auch Formen und Möglichkeiten das Wissen darüber zu repräsentieren. Ein Beispiel dafür findet sich bereits in den ersten Hochkulturen, als Menschen dokumentierte, dass jemand bei jemand anderen in der Schuld steht. Bereits um 3000 vor Christus lassen sich auf Tontafel Schuld und Kredit finden: ''\textit{Alok schuldet dem Sumar 10 Eimer Korn}''. Wir können also feststellen, dass die Dokumentation ökonomischer Abhängigkeiten einer der ersten strukturierten Formen waren, um Wissen festzuhalten und nieder zu schreiben.\footcite[Vgl.][05.06.2019]{mcCreary2019graph} 
 \\
-Für Historiker*innen liefert uns diese Zeile einen Indiz auf ein Ereignis in der Vergangenheit, das, wenn es in einen bestimmten historischen Kontext gestellt wird, für Forschungsfragen in den Geschichtswissenschaften relevant ist. Innerhalb der schriftlichen Überlieferung - der historischen Quelle - stecken semantische Strukturen, die dazu dienen können, ein Ereignis aus der Vergangenheit rekonstruieren zu können.
+Für Historiker*innen liefert diese Zeile einen Indiz auf ein Ereignis in der Vergangenheit, das, wenn es in einen bestimmten historischen Kontext gestellt wird, für Forschungsfragen in den Geschichtswissenschaften relevant ist. Innerhalb der schriftlichen Überlieferung - der historischen Quelle - stecken semantische Strukturen, die dazu dienen können, ein Ereignis aus der Vergangenheit rekonstruieren zu können. 
 \\
-Die Beschreibung der semantischen Struktur kann durch ein konzeptuelles Modell erfolgen. Die Anwendung formaler Methoden unter Berücksichtigung eines solchen Modells kann als Grundlage dafür dienen, Interpretationen der Vergangenheit -''wie es den gewesen sein könnte'' - mit einer gewissen Datengrundlage zu untermauern. Auf dieser Datengrundlage, die stets offen und nachvollziehbar und in die fachwissenschaftliche Diskussion eingebettet sein soll,  können die Interpretationen der Historiker*innen fußen. Dies ist die eigentliche Arbeit dieser Zunft.
-\\
-Ziel dieser Arbeit soll eine theoretisch und praktische Auseinandersetzung mit den Herausforderungen und Möglichkeiten, die formalen, und somit auch digitale, Methoden und Modellen in der Geschichtswissenschaft mit sich bringen. Der praktische Anteil liegt dabei bei der Beschreibung der semantischen Anreicherung von digital edierten historischen Rechnungsbüchern in einem konkreten Projektkontext. Dieser Projektkontext -- Digital Edition Publishing Cooperative for Historical Accounts (DEPCHA) -- umfasst eine Kooperation zur Entwicklung eines Publikationshub von semantisch angereicherten, digitalen Editionen historischer Rechnungsbücher. Eine Herausforderung in diesem Projekt ist es quantiative und qualitative Arbeit von Historiker*innen in der digitalen Welt zusammenzuführen.  Im Zuge dieser Masterarbeit soll zur Veranschaulichung drei Editionsprojekte aus diesem Projektkontext, die \textit{George Washington’s Financial Papers}, die \textit{Wheaton Family Papers} und die \textit{Stagville Accounts} als Beispiele dienen.
+Die Beschreibung der semantischen Struktur kann durch ein konzeptuelles Modell erfolgen. Die Anwendung formaler Methoden unter Berücksichtigung eines solchen Modells kann als Grundlage dafür dienen, Interpretationen der Vergangenheit -''\textit{wie es den gewesen sein könnte}''\footcite[Vgl.][S.159]{thaller2017ungefahre} - mit einer gewissen Datengrundlage zu untermauern. Auf dieser Datengrundlage, die stets offen und nachvollziehbar und in die fachwissenschaftliche Diskussion eingebettet sein soll,  können die Interpretationen der Historiker*innen fußen. Die Rekonstruktion, Interpretation und die Einbindung dieser Erkenntnisse in gegenwärtige Diskussion ist die eigentliche Arbeit der Geschichtswissenschaft.
 \\
 \\
-Am Anfang der Arbeit steht neben einer allgemeinen theoretischen Diskussion zur Anwendung empirischer, formaler Methoden in den Geschichtswissenschaften, in denen unter anderen Manfred THALLER\footcite{thaller2017digital}\footcite{thaller2017ungefahre} oder XXX viel beigetragen haben.
+Ziel dieser Arbeit soll eine theoretisch und praktische Auseinandersetzung mit den Herausforderungen und Möglichkeiten, die formalen, und somit auch digitale, Methoden und Modellen in der Geschichtswissenschaft mit sich bringen. Der praktische Anteil dieser Arbeit fokussiert die Anwendung formaler Methoden auf semantisch angereicherte digitale Editionen von historischen Rechnungsbüchern in einem konkreten Projektkontext. Dieser Projektkontext -- \textit{Digital Edition Publishing Cooperative for Historical Accounts} (DEPCHA)\footnote{NHPRC-Mellon Implementation Grants: Digital Edition Publishing Cooperatives, \url{https://www.archives.gov/nhprc/announcement/depc}; Finanziert durch The Andrew W. Mellon Foundation \url{https://mellon.org/} 05.06.2019.} -- umfasst eine Kooperation von Partnern aus der USA, koordiniert durch das \textit{Wheaton College Massachusetts} und dem dem Zentrum für Informationsmodellierung (ZIM) der Universität Graz, zur Entwicklung eines Publikations-Hub von digitalen Editionen historischer Rechnungsbücher. Eine Herausforderung in diesem Projekt ist es die quantitative und qualitative Arbeit von Historiker*innen, wie sie in der digitalen Welt gemeinsam auftreten können, zu diskutierten
 \\
-Im XXX Kapitel wird auf eine, Technologie Stack, das \textit{Web of Data} (aka Semantic Web) eingegangen, das die Grundlage zur formalen Beschreibung von Information im \textit{World Wide Web} liefert. Dafür ist eine konzeptionelle\footcite{berners2001semantic}\footcite{cardoso2007semantic} und technische\footcite{bernstein2016new} Erörterung dieses Themenbereiches notwendig. Ein notwendiger Schwerpunkt liegt dabei auf Wissensmodellierung\footcite{kelly2016practical}, Ontologien\footcite{stuckenschmidt2009ontologien} und \textit{Linked Open Data}\footcite{rietveld2015linked}\footcite{bauer2011linked} liegt, sowie einer kritischen Auseinandersetzung damit.\textit{Web of Data}\footcite{swartz2013aaron}, das Ontology Engineering\footcite{hitzler2016ontology} und das Reasoning, das automatisierte logische Schlussfolgern, \footcite{bursztyn2015reasoning} spielen dabei eine hervorgehobene Rolle.
+Im Zuge dieser Masterarbeit werden drei Editionsprojekten aus Kontext von DEPCHA, die \textit{George Washington’s Financial Papers}, die \textit{Wheaton Family Papers} und die \textit{Stagville Accounts} als Beispiele angeführt und die formale und konzeptuelle Bereitstellung der Editionen und ihrer Forschungsdaten erörtert.
 \\
-Das XXX Kapitel versteht sich als Quellenstudie und versucht den Quellentypus historischer Rechnungsbücher herauszuarbeiten. Dabei wird auf die Projektkontexte und Forschungsfragen im Kontext des Projektes DEPCHA eingegangen, eines durch die \textit{Andrew W. Mellon Foundation} geförderte und durch das \textit{Wheaton College Massachusetts} koordinierte Kooperation des Zentrums für Informationsmodellierung und Partnern aus den USA. 
 \\
-Darauf aufbauend wird die digitale Edition allgemeiner behandelt, und auf digitale Editionen historischer Rechnungsbüchern am Beispiel der angeführten Projektkontexte und deren Umsetzung eingegangen Der dabei verwendete Standard ist die Text Encoding Iniativ (TEI) auf dessen Grundlage die angeführten Editionen basieren. 
+Am Anfang der Arbeit steht neben einer allgemeinen theoretischen Diskussion zur Anwendung empirischer, formaler Methoden in den Geschichtswissenschaften, in denen unter anderen die Arbeiten von THALLER\footcite{thaller2017digital}\footcite{thaller2017ungefahre} zu Rate gezogen werden. Neben einer Diskussion des Begriffes was Geschichtswissensschafte und ihre theoretischen\footcite{stachowiak1973allgemeine} und methodischen Implikationen umfassen 
 \\
-Die digitale Edition in dieser Arbeit versteht sich als geschichtswissenschaftliche, quellenorientierte und inhaltsbezogene Edition, in der nicht jedes textuelel Phänomen ediert werden, muss, sondern die semantische Struktur der Quellen im Vordergrund stehen. Zur formalen Beschreibung semantischer Strukturen kann das \textit{Web of Data} herngezogen werden. Dies soll am Beispiel des DEPCHA Projektkontext und der \textit{Bookkeeping Ontologie}, einem konzeptuellen Modell zur Beschreibung von Transaktionsprozessen in historischen Rechnungsunterlagen, durchgeführt werden.
+Im XXX Kapitel wird auf eine, Technologie Stack, das \textit{Web of Data} (aka Semantic Web) eingegangen, das die Grundlage zur konzeptuellen und daraus abgeleiteten formalen Beschreibung von Information im \textit{World Wide Web} liefert. Dafür ist eine konzeptionelle\footcite{berners2001semantic} und technische\footcite{bernstein2016new} Erörterung dieses Themenbereiches notwendig. Ein weiterer Schwerpunkt liegt auf Wissensmodellierung\footcite{kelly2016practical}, Ontologien\footcite{stuckenschmidt2009ontologien} und \textit{Linked Open Data}\footcite{rietveld2015linked}\footcite{bauer2011linked}, sowie einer kritischen Auseinandersetzung mit dem \textit{Web of Data}\footcite{swartz2013aaron}. Das Ontology-Engineering\footcite{hitzler2016ontology} und das Reasoning\footcite{bursztyn2015reasoning}, das automatisierte logische Schlussfolgern, spielen dabei eine hervorgehobene Rolle.
+\\
+Das XXX Kapitel versteht sich als Quellenstudie und behandelt den Quellentypus historischer Rechnungsbücher\footnote{ToDo: Grundlagenwerk für Rechnungsbücher}. Dabei wird auf die Projektkontexte und Forschungsfragen im Kontext von DEPCHA eingegangen.
+\\
+Darauf aufbauend wird die digitale Edition\footcite{sahle2013digitale} allgemeiner behandelt, und auf digitale Editionen historischer Rechnungsbüchern\footcite{tomasek2013encoding}\footcite{vogeler2015mittelalterliche}\footcite{vogeler2016content} am Beispiel der angeführten Projektkontexte und deren Umsetzung eingegangen. Der dabei verwendete Standard ist die Text Encoding Initiative (TEI)\footcite{cummings2013text} auf dessen Grundlage aus dem Fach der digitalen Geisteswissenschaften\footcite{jannidis2017digita} die angeführten Editionen basieren. 
+\\
+Die digitale Edition in dieser Arbeit versteht sich als geschichtswissenschaftliche, quellenorientierte und inhaltsbezogene Edition, in der nicht jedes textuelle Phänomen ediert werden, muss, sondern die semantische Struktur der Quellen im Vordergrund stehen.\footcite{vogeler2019assertive} Zur formalen Beschreibung semantischer Strukturen kann das \textit{Web of Data} herangezogen werden. Dies soll am Beispiel der \textit{Bookkeeping Ontologie}, einem konzeptuellen Modell zur Beschreibung von Transaktionsprozessen in historischen Rechnungsunterlagen, diskutiert und reflektiert werden.
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Formale Methoden und Modelle in den Geschichtswissenschaften}
 
-Am ersten August des Jahres 1808 hat ein gewisser James Haley 1/4 viertel Pfund Pulver, 1 Pfund Kugeln und einen 1 Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der \textit{Stagville Plantage} in \textit{North Carolina} käuflich erworben. Solche Information über die Vergangenheit lassen sich in historischen Rechnungsbüchern finden. Dabei ist nicht der Einzeleintrag von großer Bedeutung für Fragestellungen in den Geschichtswissenschaften, sondern die Aggregation vieler Einzelinformationen, um eine Datengrundlage zu schaffen, auf der die weiter fachwissenschaftliche Arbeit der Historiker*innen ruhen kann.
+Am ersten August des Jahres 1808 hat ein gewisser James Haley 1/4 Pfund Pulver, 1 Pfund Kugeln und einen 1 Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der \textit{Stagville Plantage} in \textit{North Carolina} käuflich erworben. Solche Information über die Vergangenheit lassen sich in historischen Rechnungsbüchern finden. Dabei ist nicht der Einzeleintrag von großer Bedeutung für Fragestellungen in den Geschichtswissenschaften, sondern die Aggregation vieler Einzelinformationen, um eine Datengrundlage zu schaffen, auf der die weiter fachwissenschaftliche Arbeit der Historiker*innen ruhen kann.\footcite[][06.06.2019]{vogeler2015mittelalterliche}
 \\
-Damit diese Datengrundlage ausreichend groß ist und Aussagen nicht nur auf Ausschnitte des Quellenkorpus reduziert sind, ist es notwendig formale Verfahren zu Erschließung und Analyse zu verwenden. Auf historische Rechnungsbücher bezogen, könnte man so Berechnungen anstellen, wie sich etwa der Preis einer Ware über eine bestimmte Zeitspanne entwickelt hat oder welche Akteure welche Waren über bestimmte Zeiträume kaufen und verkaufen.  Setzt man diese ''hard facts'' aus der Quelle in einen größerer historischen Zusammenhang und als Diskussionsbeitrag in die fachwissenschaftliche Diskussion, beginnt die ''klassische'' Arbeit von Historiker*innen.
+Damit diese Datengrundlage ausreichend groß ist und Aussagen nicht nur auf Ausschnitte des Quellenkorpus reduziert sind, ist es notwendig formale Verfahren zu Erschließung und Analyse zu verwenden. Auf historische Rechnungsbücher bezogen, könnte man so Berechnungen anstellen, die zeigen, wie sich etwa der Preis einer Ware über eine bestimmte Zeitspanne entwickelt hat oder welche Akteure welche Waren über Zeiträume kaufen und verkaufen.  Setzt man diese ''historischen Fakten'' aus der Quelle in einen größerer historischen Zusammenhang und als Diskussionsbeitrag in die fachwissenschaftliche Diskussion, beginnt die ''klassische'' Arbeit von Historiker*innen.
 \\
 \\
-Im Mittelpunkt dieses Kapitels steht eine Diskussion über Theorien und Methoden der Geschichtswissenschaften und einer darauf aufbauenden Auseinandersetzung mit der historischen Entwicklung der Anwendung formaler Verfahren innerhalb des Faches. Aus dieser Diskussion heraus sollen die theoretischen Grundlagen der historischen Fachinformatik erörtert werden, wobei ein Fokus auf Modelltheorie und Modellbildung in den Geschichtswissenschaften, sowie auf historische Forschungsdaten gelegt wird. Weiters werden informationswissenschaftliche Grundlagen und Begriffe definiert und in diese Diskussion einbezogen.
+Im Mittelpunkt dieses Kapitels steht eine Diskussion über Theorien und Methoden der Geschichtswissenschaften und einer darauf aufbauenden Auseinandersetzung mit der Entwicklung der Anwendung formaler Verfahren innerhalb des Faches. Auf Basis dieser Diskussion werden die theoretischen Grundlagen der historischen Fachinformatik erörtert. Im Fokus der Überlegungen stehen Modelltheorie und Modellbildung, sowie historische Forschungsdaten in den Geschichtswissenschaften.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Theorien und Methoden der Geschichtswissenschaft}
 
-''\textit{Ich glaube an diese ganze Theoriebedürftigkeit der Geschichte nicht. Die Historie ist eine Kunst, die auf Kenntnissen beruht, und weiter ist sie gar nichts'}'\footcite[TODO Seitenanzahl und .In][S.40--56]{mann1979pladoyer}
+''\textit{Ich glaube an diese ganze Theoriebedürftigkeit der Geschichte nicht. Die Historie ist eine Kunst, die auf Kenntnissen beruht, und weiter ist sie gar nichts'}'\footcite[Vgl.][S.53]{mann1979pladoyer}
 \\
 \\
-Führte MANN im Jahr 1979 an, um auszudrücken, dass durch die Einführung neuartiger theoretischer Ansätze die Hauptaufgabe der Geschichtswissenschaften, das Erzählen von Geschichten, aufgeweicht wird. Diese neuartigen Ansätze etablierten sich ausgehend von Historikern wie Mommsen, Wehler oder Kocka in den 1960er Jahren, die ''\textit{eine Reform der Geschichtswissenschaft jenseits des Historismus}'' propagierten. Sie versuchten die Theoriebildung, wie in den systematischen Nachbardisziplinen, wie etwa der Soziologie, in den Geschichtswissenschaften zu etablieren.
+Führte MANN im Jahr 1979 an, um auszudrücken, dass durch die Einführung damals neuartiger theoretischer Ansätze die Hauptaufgabe der Geschichtswissenschaften, das Erzählen von Geschichten, aufgeweicht wird. Bereits in den 1960er Jahren forderten Historikern wie Mommsen, Kocka oder Wehler eine ''\textit{Reform der Geschichtswissenschaft jenseits des Historismus}''. Es war das Ziel die Theoriebildung, wie sie bereits in den Nachbardisziplinen, wie etwa der Soziologie, bereits etabliert war, auch in den Geschichtswissenschaften zu verankern. Nur die Nacherzählung der Vergangenheit, wie sie MANN einfordert ist im heutigen Verständnis der Geschichtswissenschaft ohne Anbindung an theoretische Fragestellungen nicht mehr denkbar. Beispielsweise greift man in der Wirtschaftsgeschichte auf Modelle der Konjunkturtheorie, in der Sozialgeschichte  auf  klassentheoretische  Konzepte zurück.\footcite[][S.1]{sokollgrundlagen}
 \\
-\\ 
-Gegenstandsbereich der \textbf{Geschichte} ist das Handeln der Menschen in der Vergangenheit. Dieses Handeln muss aber rekonsturiert werden, wozu besonders schriftliche Aufzeichnungen zu Rate gezogen werden. Bei DEMANDT finden sich Ausführungen zu den zentralen und grundlegenden Bergriffen des Begriffes \textit{Geschichte}. Neben dem Mythos, der in vorschriftlichen Zeiten und in erzählerischer Form Vergangenes weitergibt, war die Chronistik eine früher Form der verschriftlichten, geschichtlichen Erinnerung. Diese berichten über Ereignisse, ohne das die Texte literarisch aufbereitet werden. Die \textbf{Historie}, die \textit{Erkundung der Vergangenheit}, geht noch einen Schritt weiter und versucht Ereigniszusammenhänge einer 'wahren' Vergangenheit darzustellen. Im 16. Jahhundert entwickelt sich der Begriff Geschichte, der anfangs nur für den Gegenstandsbereich der Historie verwendet wurde.\footcite[][S.57-58]{schulz2010neuere} Das modernen Verständnis des Wortes Geschichte umfasst sowohl die Gesamtheit von realen Geschehnissen, als auch den Bericht darüber. Zentral in der modernen Geschichtswissenschaft, also der Erforschung der Vergangenheit nach wissenscahftlichen Kriterien, ist die Auseinandersetzung mit historischen Quellen, die mittels kritischer Methode untersucht werden. In diesem Prozess müssen die angewandten Methoden, Ideen und Ergebnisse diskutierbar und nachprüfbar sein.\footcite[][S.13-32]{demand2011philosophie} Jeder soll in der Lage sein feststellen zu können, ob eine Interpretation eines historischen Sachverhalts auch so in der angeführten Quelle nachvollziehabr ist. 
-\\
-Ein weiterer zentraler Aspekt in der Herangehensweise die Vergangenheit besser zu verstehen ist die \textbf{Hermeneutik}. Dabei handelt es sich um eine Theorie der Interpretation und des Verstehens von Texten, die nicht nur auf die Geschichtswissenschaft angewendet wird, sondern auf viele geisteswissenschaftliche Fächer. Im großen Unterschied zu naturwissenschaftlichen Fragestellungen, ist die Vergangenheit nicht in einem Experiment beweis- bzw. widerlegbar. Wo Naturwissenschaften die Welt von außen betrachten und versuchen zu erklären, ist laut STANGL die Aufgabe der Geisteswissenschaften, die Welt von innen zu verstehen. In der Hermeneutik ist das Verstehen essentiell.\footcite[][S.19-30]{schulz2010neuere} Nicht nur unser Wissen über historische Quellen, sondern alles Wissen beruht auf einem Verstehen, das in einer Auslegung unseres Wissens erläutert wird.\footnote{STANGL, Werner: Geschichte der Hermeneutik, \protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikHistorie.shtml}, 01.06.2019.} Verstehen in diesem Sinne ist zirkelförmig. Jemand tritt mit einem gewissen Vorwissen an eine Fragestellung heran. Es werden in der Auseinandersetzung mit der Materie Erfahrungen gesammelt und ein tieferes Verständnis der Thematik erarbeitet. Mit diesem gefestigteren Verständnis kann man sich in diesem hermeneutischen Zirkel wieder weiter bewegen und, einem iterativen Prozess gleich,  sich ein besseres Bild über eine Fragestellung machen. Eine Problemstellung muss zuerst gefunden, erkannt und verstanden werden, damit sie weiter verarbeitet werden kann. 
-\\
-Im Zusammenspiel mit empirischer Methoden ist die Hermeneutik für die Hypothesenbildung und für die Interpretation der Ergebnisse von großer Bedeutung. Bei der empirischen Überprüfung von Sachverhalten spielt die Hermeneutik eine wesentliche Rolle bei der Operationalisierung (qualitative Aussagen werden quantitfizierbar gemacht), aber auch die Interpretation von empirischen Resultaten ist ein hermeneutischer Vorgang.\footnote{STANGL, Werner: Der hermeneutische Zirkel, \protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikZirkel.shtml}, 01.06.2019.}
-\\
-\\
-Wheler Golo mann Auseinandersetzung: theorieorientierte, moderne Geschichtswissenschaft vs. erzählende Art\footcite[][S.1-6]{magerski2009schreibt}
+Diese Veränderung, hin zu einer analytischen und theorieorientierten und gegen eine erzählende Geschichtswissenschaft, tritt in den 1960er und 1970er Jahren ein. Unter Theorieorientierung versteht KOCKA einen expliziten Gebrauch von Modellen, Theorien und begriffen zur Strukturierung des Gegenstandes.\footcite[][S.2]{magerski2009schreibt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Geschichte und Geschichtswissenschaft: eine Definition}
+Gegenstandsbereich der \textbf{Geschichte} ist das Handeln der Menschen in der Vergangenheit. Dieses Handeln ist aber für niemanden mehr erlebbar, sonder muss über Belege der Vergangenheit, den Quellen, ob als Überrest oder Tradition\footcite[Die Unterscheidung nach DROYSEN zwischen ''unabsichtlich'' erzeugten (z.B. durch eine Ausgrabung gefundene Kleidung) und bewusst überlieferten Quellen (z.B. ein Denkmal),][S.49–55]{schulz2010neuere}, rekonstruiert werden. KIRN führt in seinem Einführungswerk in die Geschichtswissenschaft mehrere Definition des Begriffes Geschichte an. Wo HELLPACH über ''\textit{die bewußte Gestaltung menschlichen Gemeinschaftslebens aus schöpferischem Willen}'' spricht und die menschliche Handlung in den Vordergrund stellt, ist es für HUIZINGA, aus dem Verständnis von Geschichtswissenschaft als  Mentalitäts- bzw. Kulturgeschichte, ''\textit{die geistige Form, in der sich eine Kultur über ihre Vergangenheit Rechenschaft gibt}''. Zentral in dieser Menge an Definitionen und Zugängen zur Geschichte ist, dass es sich um die wissenschaftliche Darstellung des Geschehens handelt.\footcite[][S.7-12]{KirnPaul2015EidG}
 \\
 \\
-''\textit{Erzählende Geschichte bedarf heute einer Theorie der Erzählung}'' beschreibt SOKOLL die heutige Situation, in der historische Forschung ohne theoretische Fragestellung nicht mehr möglich ist.
+Bei DEMANDT finden sich weitere Ausführungen zu den grundlegenden Überlegungen des Begriffes \textit{Geschichte}. Neben dem Mythos, der in vorschriftlichen Zeiten und in erzählerischer Form Vergangenes weitergibt, war die Chronistik eine früher Form der verschriftlichten Erinnerung. Chroniken berichten über Ereignisse, ohne die Texte literarisch aufzuarbeiten. Die \textbf{Historie}, die \textit{Erkundung der Vergangenheit}, geht noch einen Schritt weiter und versucht Ereigniszusammenhänge einer 'wahren' Vergangenheit darzustellen. 
+\\
+Im 16. Jahrhundert entwickelt sich der Begriff Geschichte, der anfangs nur für den Gegenstandsbereich der Historie verwendet wurde.\footcite[][S.57-58]{schulz2010neuere} Das modernen Verständnis des Wortes Geschichte umfasst sowohl die Gesamtheit von realen Geschehnissen, als auch den Bericht darüber. Zentral in der modernen Geschichtswissenschaft, also der Erforschung der Vergangenheit nach wissenschaftlichen Kriterien, ist die Auseinandersetzung mit historischen Quellen, die mittels kritischer Methode untersucht werden. In diesem Prozess müssen die angewandten Methoden, Ideen und Ergebnisse diskutierbar und nachprüfbar sein.\footcite[][S.13-32]{demand2011philosophie} Jeder soll in der Lage sein feststellen zu können, ob eine Interpretation eines historischen Sachverhalts in einer angeführten Quelle nachvollziehbar ist. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Hermeneutik - Empirismus}
+
+Ein weiterer zentraler Aspekt in der Herangehensweise die Vergangenheit besser zu verstehen ist die \textbf{Hermeneutik}. Dabei handelt es sich um eine Theorie der Interpretation und des Verstehens von Texten, die nicht nur auf die Geschichtswissenschaft angewendet wird, sondern auf viele geisteswissenschaftliche oder rechtswissenschaftliche Fächer. Im großen Unterschied zu naturwissenschaftlichen Fragestellungen, ist die Vergangenheit nicht in einem Experiment beweis- bzw. widerlegbar. Geprägt wird die Hermeneutik, neben vielen anderen Akteuren, von den Arbeiten von SCHLEIERMACHER, der sie zu einer \textit{universellen Theorie des Verstehens} weiterentwickelte, in der jedes verstehen ein individueller Prozess ist. Aus dem neuen Geschichtsverständnis des 19. Jahrhunderts entwickelte DILTHEY die Hermeneutik zu einer historischen Methodik. Bei ihm wird Verstehen zur Methode der Geisteswissenschaften. Wo Naturwissenschaften die Welt von außen betrachten und versuchen zu erklären, ist die Aufgabe der Geisteswissenschaften, die Welt von innen zu verstehen. In der Hermeneutik ist das Verstehen essentiell bzw. ist es die Lehre des Verstehens selbst. Unter GADAMER wird die Hermeneutik zur Philosophie. Es bedarf immer ein Vorverständnis, um in eine Prozess des Verstehens eintauchen zu können, an dessen Ende nur eine Annäherung an eine Wahrheit möglich ist.\footcite[][S.19-30]{schulz2010neuere}
+\\
+Nicht nur unser Wissen über historische Quellen, sondern alles Wissen beruht auf einem Verstehen, das in einer Auslegung unseres Wissens erläutert wird. Verstehen in diesem Sinne ist zirkelförmig. Jemand tritt mit einem gewissen Vorwissen an eine Fragestellung heran. Es werden in der Auseinandersetzung mit der Materie Erfahrungen gesammelt und ein tieferes Verständnis der Thematik erarbeitet. Mit diesem gefestigten Verständnis kann man sich in diesem hermeneutischen Zirkel wieder weiter fortbewegen und, einem iterativen Prozess gleich, sich ein besseres Bild über eine Fragestellung machen. Eine Problemstellung muss zuerst gefunden, erkannt und verstanden werden, damit sie weiter verarbeitet werden kann.\footnote{STANGL, Werner: Geschichte der Hermeneutik, \protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikHistorie.shtml}, 01.06.2019.}
+\\
+In folgendem Beispiel sind die Wörter ''vihe'', ''verwürckt'' oder ''fewer'' ohne jeglichen Kontext unverständlich. Aber werden sie in ihrem Kontext gelesen, wird die Bedeutung des Textes offensichtlich:
+\\
+\\
+"\textit{ltem so eyn mensch mit eynem vihe, mann mit mann, weib mit weib, vnkeusch treiben, die haben auch das leinen verwürckt, vnd man soll sie der gemeynen gewonheyt nach mit dem fewer vom leben zum todt richten}" 
+\\
+\\
+Zentrale Begriffe lassen sich häufig erst aus dem Zusammenhang erschließen. Für das vollständige Verstehen des Gesamttextes müssen sich die aber alle Einzelheiten nachvollziehbar sein. Die hermeneutische Spirale umfasst, dass der Teil vom Ganzen her verstanden, korrigiert oder erweitert wird und sich umgekehrt das Ganze von den Teilen her bestimmt.
+\\
+Im Zusammenspiel mit empirischer Methoden ist die Hermeneutik für die Hypothesenbildung und für die Interpretation der Ergebnisse von großer Bedeutung. Bei der empirischen Überprüfung von Sachverhalten spielt die Hermeneutik eine wesentliche Rolle bei der Quantifizierung von qualitativen Aussagen. Auch die Interpretation von empirischen Resultaten ist, so STANGL, ein hermeneutischer Vorgang.\footnote{STANGL, Werner: Der hermeneutische Zirkel, \protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikZirkel.shtml}, 01.06.2019.}
+\\
+\\
+\textbf{Empirismus}
+\\
+\\
+Gegenüberstellung Hermeneutik - Empirismus
+\\
+ToDo:
+''Das Verhältnis zwischen Hermeneutik und empirischer Wissenschaft ist in der philosophischen Debatte bis heute kontrovers. Insbesondere in den Sozialwissenschaften wurde diese Debatte zwischen Vertretern einheitswissenschaftlicher Positionen, wie sie die Vertreter des Kritischen Rationalismus Karl Popper und Hans Albert einnehmen, und alternativen Positionen (etwa der Kritischen Theorie um Max Horkheimer und Theodor W. Adorno), die sich gegen eine ihrer Meinung nach „blinde“ Übertragung naturwissenschaftlicher Erkenntnismodelle auf die Sozial- und Geisteswissenschaften gewehrt haben, intensiv in den 1960er und 70er Jahren ausgetragen (vgl. den sogenannten Positivismusstreit).'' 
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Methoden}
 
-Methoden hingegen sind und waren ein stets anerkanntes und nicht wegzudenkendes Werkzeug in den Geschichtswissenschaften. Ein Blick auf die Vielfalt historischer Hilfswissenschaften, die sich mit der Erschließung von bestimmten Quellentypen beschäftigt, zeigt dies. Die Hilfswissenschaften bzw. Grundwissenschaften -- ''\textit{als Abzweigungen der allgemeinen historischen Arbeitsform}''[Vgl.][S.10]\footcite{von2007werkzeug} -- mit ihrem Ziel die historischen Quellen aufzubereiten erstrecken sich von der Paläografie über die Diplomatik und Aktenkunde bis hin zu Genealogie. Die Historische Fachinformatik versteht sich auch als Hilfswissenschaft innerhalb der Geschichtswissenschaften und beschäftigt sich mit der Anwendung und Reflexion von formalen Verfahren in diesem Fach.\footnote{Was ist HFI?, Kurzbeschreibung des Faches und seiner Positionierung \protect\url{http://hfi.uni-graz.at/basisinformation/was-ist-hfi/}, 23.05.2019.} 
+Methoden hingegen sind und waren ein stets anerkanntes und nicht wegzudenkendes Werkzeug in den Geschichtswissenschaften. Ein Blick auf die Vielfalt historischer Hilfswissenschaften, die sich mit der Erschließung von bestimmten Quellentypen beschäftigt, zeigt dies. Die Hilfswissenschaften bzw. Grundwissenschaften -- ''\textit{als Abzweigungen der allgemeinen historischen Arbeitsform}''[Vgl.][S.10]\footcite{von2007werkzeug} -- mit ihrem Ziel die historischen Quellen aufzubereiten, erstrecken sich von der Paläografie über die Diplomatik und Aktenkunde bis hin zur Genealogie.
 \\
-Neben Methoden der Erschließung historischer Quellen in ihrer Materialisierung als historische Hilfswissenschaften ist die \textbf{Quellenkritik} immanente Methode der Geschichtswissenschaft. Die Quellenkritik entwickelte sich aus dem Dreischritt von Heuristik, Kritik und Interpretation. Historiker*innen formulieren eine Fragestellung, als Ergebnis eines spezifischen Forschungsstandes, um eigenen bzw. neue  Erkentnisse über ein Thema zu gewinnen. Relevante Quellen werden gesammelt, erschlossen und einer kritischen Prüfung auf Vollständigkeit, Glaubwürdigkeit und Echtheit unterzogen. Die Ergebnisse aus dem Quellenstudium werden mit den Erkenntnissen von Fachkollegen*innen verglichen und in übergeordnete Kontexte eingeordnet. Für DROYSEN mündet die Reflexion auf die historische Methode somit gleichsam wie von selbst in eine Theorie der historischen Erkenntnis, der Hermeneutik. Aus diesem Verständnis heraus erwuchs auch diese Theorie der Geschichtswissenschaft.
+Die Historische Fachinformatik versteht sich auch als Hilfswissenschaft innerhalb der Geschichtswissenschaften und beschäftigt sich mit der Anwendung und Reflexion von formalen Verfahren in diesem Fach.\footnote{Was ist HFI?, Kurzbeschreibung des Faches und seiner Positionierung \protect\url{http://hfi.uni-graz.at/basisinformation/was-ist-hfi/}, 23.05.2019.} 
 \\
-In der Geschichtswissenschaft von heute gibt es eine Vielzahl von Methoden, deren Abgrenzung zu Theorien oft verschwimmen. Diskusranalyse oder Konfliktransformation, um zwei moderne Beispiele anzuführen, lassen sich sowohl als Theorie, also auch als Methode verstehen. Desweiteren verschwimmt die Unterscheidung zwischen qualitativer, interpretierender und quantitativer Methode. Erstere getragen von einem hermeneutischen, zweitere von einem empirischen Verständnis.\footcite[Vgl, TODO][S. 1--5]{sokollgrundlagen} 
+Neben Methoden der Erschließung historischer Quellen in ihrer Materialisierung als historische Hilfswissenschaften ist die \textbf{Quellenkritik} immanente Methode der Geschichtswissenschaft. Die Quellenkritik entwickelte sich aus dem Dreischritt von Heuristik, Kritik und Interpretation. Historiker*innen formulieren eine Fragestellung, als Ergebnis eines spezifischen Forschungsstandes, um eigenen bzw. neue  Erkenntnisse über eine Forschungsfrage zu gewinnen. Relevante Quellen werden gesammelt, erschlossen und einer kritischen Prüfung auf Vollständigkeit, Glaubwürdigkeit und Echtheit unterzogen. Die Ergebnisse aus dem Quellenstudium werden mit den Erkenntnissen von Fachkollegen*innen verglichen und in übergeordnete Kontexte eingeordnet. Für DROYSEN mündet die Reflexion auf die historische Methode somit gleichsam wie von selbst in eine Theorie der historischen Erkenntnis, der Hermeneutik. Aus diesem Verständnis heraus erwuchs auch die Anwendung der Hermeneutik als Methode der Geschichtswissenschaft.
 \\
-\textbf{Qualitative Methoden} verfolgen im Gegensatz zu quantitativen Methoden einen offeneren und flexibleren Zugang zum Forschungsgegenstand, damit neue Phänomene entdeckt werden können. Der Forschungsprozess wird als dynamisch aufgefasst und es werden Methoden eingesetzt wie Interviews, Inhaltanalysen und Beobachtungen.  Die \textbf{quantitativen Methoden} sind statisch und folgen einem festgelegten Muster. Zu Beginn des Forschungsprozesses müssen Theorien und Modelle über den Gegenstand der Forschung vorliegen. Es werden Hypothesen abgeleitet, die im Forschungsprozess überprüft werden. Hierzu werden Überlegungen angestellt welche Indikatoren für Forschungsfragen sinnvollerweise messbar sind und die Daten über statistische Verfahren ausgewertet. Die so 'berechneten' Erkenntnisse werden abschließend wieder auf das theoretische Modell bezogen und interpretiert.\footcite[][S.309–329]{wolf1995qualitative} Die Geschichtswissenscahft setzt allgemeine Hypothesenzur Erklärung spezifischer Entwicklungen ein und die Sozialwissenschaften nutzen Daten zur Formulierung von allgemeinen Gesetzen.
+In der Geschichtswissenschaft von heute gibt es eine Vielzahl von Methoden, deren Abgrenzung zu Theorien oft verschwimmen. Diskursanalyse oder Konflikttransformation, um zwei moderne Beispiele anzuführen, lassen sich sowohl als Theorie, also auch als Methode verstehen. Desweiteren verschwimmt die Unterscheidung zwischen qualitativer und quantitativer Methode. Erstere getragen von einem hermeneutischen, zweitere von einem empirischen Verständnis.\footcite[][S.2-5]{sokollgrundlagen} 
 \\
-Der Zweck quantiativer und qualitativer Methode, die stetzs als Mittel zum Zweck zu betrachten sind, ist es Erkenntnis über die Vergangenheit zu gewinnen. \footcite[][S.203-206]{jarausch1985quantitative}
+\textbf{Qualitative Methoden} verfolgen im Gegensatz zu quantitativen Methoden einen offeneren und flexibleren Zugang zum Forschungsgegenstand, damit neue Phänomene entdeckt werden können. Der Forschungsprozess wird als dynamisch aufgefasst und es werden Methoden eingesetzt wie Interviews, Inhaltsanalysen und Beobachtungen. Die \textbf{quantitativen Methoden} sind statisch und folgen einem festgelegten Muster. Zu Beginn des Forschungsprozesses müssen Theorien und Modelle über den Gegenstand der Forschung vorliegen. Es werden Hypothesen abgeleitet, die im Forschungsprozess überprüft werden. Hierzu werden Überlegungen angestellt welche Indikatoren für Forschungsfragen sinnvollerweise messbar sind und die Daten über statistische Verfahren ausgewertet. Die so 'berechneten' Erkenntnisse werden abschließend wieder auf das theoretische Modell bezogen und interpretiert.\footcite[][S.309–329]{wolf1995qualitative} Die Geschichtswissenschaft setzt allgemeine Hypothesen zur Erklärung spezifischer Entwicklungen ein und die Sozialwissenschaften nutzen Daten zur Formulierung von allgemeinen Gesetzmäßigkeiten.
+\\
+Der Zweck quantiativer und qualitativer Methode, die stets als Mittel zum Zweck zu betrachten sind, ist es Erkenntnis über die Vergangenheit zu gewinnen. \footcite[][S.203-206]{jarausch1985quantitative}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }
+\subsubsection{Die historische Entwicklung formaler Methoden: ''Traditionalisten'' vs. ''Quantifizierer'' }
 
 ''Aber alle Autoren halten daran fest, dass sich de Quantifizierung als ein gewichtiges Werkzeug historischer Analyse erwiesen habe''.\footcite[][S.191-206]{jarausch1985quantitative}
 \\
@@ -172,14 +203,10 @@ In den 1980iger Jahren standen sich im methodischen Zugang zu historischen Quell
 \\
 Zentrales Konzept in einem ''digitalen'' Verständnis formaler Arbeitstechniken in den Geschichtswissenschaften in diesem Zusammenhang sind das \textit{Web of Data} (aka. Semantic Web) und das \textit{Linked Open Data} Paradigma. Diese Technologien ermöglichen es konzeptuelle Modelle in den Geisteswissenschaften mensch- und maschinenlesbar zusammen mit der Quelle nachvollziehbar und nach nutzbar zu machen. Diese Technologien erleichtern den Austausch konzeptueller Modelle über das Web können sie so leichter verteilt und nach genutzt werden.
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Interpretation und Theoriebildung}
+\subsubsection{Historische Fachinformatik}
 
-Die Interpretation von neu gewonnenen Ergebnissen ist das eigentliche Ziel der quantitativen Methode. Sie erlaubt es nicht nur überschaubaren Menge von Quellenbelegen zu verarbeiten, sondern neue Ergebnisse aus eine großen Anzahl von Belegen zu verarbeiten. Dies ist der große Vorteil der quantitativen Methoden und Herausforderung zu gleich. Es besteht die Gefahr, so JARAUSCH et. al., dass die eigentliche Arbeit, die Interpretation der Quellen, im reinen quantitativen Vedrarbeiten und Verwalten liegen bleibt. Der Aussagewert der Ergebnisse aus diesen Methoden ist abhängig von einer ganzen Reihe von qualitativen Entscheidungen. Denkt man beispielsweise an die Einordnung von historischer Berufen in einzelne Gruppen, um diese gegenüberzustellen: gehört ein Kaufmann dann in die Gruppe des Besitzbürgertum oder zum alten Mittelstand? Es ist notwendig, dass das Erkenntnisziel eines Verfahren im Vorhinein definiert wird und das Verhältnis der quantitativen Daten zu den qualitativen Quellen geklärt und diskutiert wird. Gerade bei historischen Daten ist das essentiell, das es sich dabei um stark kontextabhängige Daten handelt.\footcite[][S.182-193]{jarausch1985quantitative}
-\\
-Bereits 1988 veranschaulichte THALLER das in seinem ''Preußenbeispiel''. Der Begriff ''Preußen'' bezieht sich im Jahre 1670 auf deutlich andere Koordinaten, als im Jahre 1770.\footcite[][S.264-266]{thaller2017historical} Historischer Information ist unscharf, unvollständig, heterogen und mehrdeutig. Die korrekte Interpretation solcher Daten hängt stark von sich verändernden Kontexten ab. Dies umfasst zum Beispiel politischen und administrativen Grenzen oder Währungs-- und Maßsysteme.
+Datenbanken und Geschichtswissenschaft
 \\
 Der Einsatz von Datenbanken ermöglicht neue Fragestellungen an das Material. Wichtig ist, dass 
 diese Verbindung auch während der Arbeit an 
@@ -187,38 +214,17 @@ den Daten nicht verloren geht, weil eine herme-
 neutische Herangehensweise nicht nur sich ver-
 ändernde Sichten auf das Problem, sondern 
 damit Hand in Hand gehend auch veränderte 
-Ansprüche an die Software mit sich bringt. 
-Ein auf der digitalen Erfassung von historischen 
-Daten basierendes Projekt hat jedoch nicht nur 
-technische Probleme im Umgang mit den dabei 
-entstehenden Daten zu lösen, sondern sollte 
-auch Überlegungen auf strategischer Ebene an-
-stellen. Dabei geht es um Fragen der Bereitstel-
-lung, d.h. Veröffentlichung von Daten und so-
-mit um deren potentielle Nachnutzung. Sehr 
-wichtig in diesem Zusammenhang ist das Prob-
-lem der Kuratierung als Voraussetzung für 
-Langzeitarchivierung und Langzeitverfügbar-
-keit. Bereits zu Beginn des Projekts sollten Über-
-legungen angestellt werden, was nach Projekt-
-ende mit den Daten und der Software geschehen 
-soll, die im Rahmen des Projekts entstanden 
-sind. Wird eine längerfristige Verfügbarkeit ins 
-Auge gefasst, so sollte idealerweise bereits in 
-der Konzeption des Projekts mit der Institution, 
-die später für die Aufbewahrung der Daten 
-verantwortlich ist, Kontakt aufgenommen wer-
-den, weil die Entscheidung für eine bestimmte 
-Software oder ein bestimmtes Datenformat den 
-Aufwand für eine längerfristige Bereitstellung 
-massiv beeinflussen kann. Ideal ist, wenn wie im 
-vorliegenden Projekt die Softwareentwicklung 
-von derselben Institution geleistet oder zumin-
-dest überblickt wird, die später auch die Ver-
-antwortung für die Aufbewahrung der Daten 
-übernimmt. \footcite[][S.239-242]{vasold2015allerunderthenigsten}
+Ansprüche an die Software mit sich bringt. \footcite[][S.239-242]{vasold2015allerunderthenigsten}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Interpretation und Theoriebildung}
+
+Die Interpretation von neu gewonnenen Ergebnissen ist das eigentliche Ziel der quantitativen Methode. Quantitative Methoden ermöglichen nicht nur einen punktuellen Einblick in einen Quellenbestand, sondern versetzen die Historikerin in die Lage größere Mengen von Belegen zu verarbeiten. Genau darin besteht der Mehrwert qualitativer Methodik und ihre Herausforderung. Es besteht die Gefahr, so JARAUSCH et. al., dass die eigentliche Arbeit, die Interpretation der Quellen, im reinen quantitativen Vedrarbeiten und Verwalten liegen bleibt. Der Aussagewert der Ergebnisse aus diesen Methoden ist abhängig von einer ganzen Reihe von qualitativen Entscheidungen. Denkt man beispielsweise an die Einordnung von historischen Berufen in einzelne Gruppen, um diese gegenüberzustellen. So bedarf es einer ausführlichen Argumentation, wie sich diese Gruppen zusammenstellen. Fehlerhafte  Vorbedingungen führen zu fehlerhaften Ergebnissen, die wiederum verzerrte Interpretationen mit sich führen. Gehört ein Kaufmann in die Gruppe des Besitzbürgertum oder zum alten Mittelstand? Es ist notwendig, dass das Erkenntnisziel eines Verfahren im Vorhinein definiert wird und das Verhältnis der quantitativen Daten zu den qualitativen Quellen geklärt und diskutiert wird. Gerade bei Daten in den Geschichtswissenscahften ist  es essentiell zu berücksichtigen, dass es sich um stark kontextabhängige Daten handelt.\footcite[][S.182-193]{jarausch1985quantitative} Bereits 1988 veranschaulichte THALLER das in seinem sogenannten ''Preußenbeispiel''. Der Begriff ''Preußen'' bezieht sich im Jahre 1670 auf deutlich andere Koordinaten, als im Jahre 1770. Wer als also ''Preuße'' zu kategorisieren ist, ist abhängig zu welcher Zeit, an welchem Ort eine Person lebt.\footcite[][S.264-266]{thaller2017historical} Ganz unabhängig die Frage, ob jemand sich aus als 'Preuße' verstanden hat. Historischer Information ist unscharf, unvollständig, heterogen und mehrdeutig. Die korrekte Interpretation solcher Daten hängt stark von den sich verändernden Kontexten ab. Dies umfasst zum Beispiel politischen und administrativen Grenzen, wie im ''Preußenbeispiel'' angeführt oder, in Hinblick auf historische Rechnugnsunterlagen, Währungs-- und Maßsysteme.
 \\
-Es soll nicht ''alles mit allem'' verarbeitet werden in der Hoffnung auf vorher nicht zu erkennende Phänomen zufällig zu stoßen, das wäre ein Overkill, sondern es ist ganz wichtig im vorhinein zu überlegen was sinnvoll ist, die innere Logik eines Verfahren so weit zu verstehen, dass unsinnige Resultate ausgeschlossen werden können. Ein statistischer Zusammenhang heißt noch keine Kausalbeziehung: das Aussterben der Störche kann statistisch einen Einfluss auf den Niedergang der Geburtenrate suggerieren, kausal gibt es in diesem frechen Beispiel aber keine Kausalität. Statistik kann nichts erklären, sondern nur Erklärungsmodelle auf ihre Übereinstimmung mit den Daten überprüfen. Es ist wichtig aus der statistischen Auswertung aufzutauchen und deren Befunde mit der Fachliteratur zu diskutieren. Nur so kann man den aktuellen Wissensstand mit dem alten vergleichen und neue Thesen aufstellen.
+\\
+Es soll nicht ''alles mit allem'' verarbeitet werden in der Hoffnung auf noch ungehante Erkentnisse zu stoßen. Es muss bereits im vorhinein Überlegungen angestellt werden inwieweit die innere Logik eines Verfahren auch geeignet ist um geeignete Resultate zu erzeugen und Feh ausgeschlossen werden können. Ein statistischer Zusammenhang heißt noch keine Kausalbeziehung: das Aussterben der Störche kann statistisch einen Einfluss auf den Niedergang der Geburtenrate suggerieren, kausal gibt es in diesem frechen Beispiel aber keine Kausalität. Statistik kann nichts erklären, sondern nur Erklärungsmodelle auf ihre Übereinstimmung mit den Daten überprüfen. Es ist wichtig aus der statistischen Auswertung aufzutauchen und deren Befunde mit der Fachliteratur zu diskutieren. Nur so kann man den aktuellen Wissensstand mit dem alten vergleichen und neue Thesen aufstellen.
 \\
 Theorien in der Quantifizierung.
 \\
@@ -275,19 +281,10 @@ Klassen abstrahieren Entitäten. Das bedeutet, dass jedes Mitglied einer Klasse 
 \\
 Man kann seine Objekte aber auch als Hierarchien modellieren, bei denen Objekte und Eigenschaften Teil eines anderen Objektes sind. Wenn man hier etwas löscht, dann werden auch alle Unterelemente gelöscht.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Was ist Informationsmodellierung}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{System}
-
-Der Begriff System bezeichnet einen explizit von seiner Umgebung abgegrenzt Gedankenbereich. Ein System besteht dabei aus einer Menge von Elementen, die miteinander in Beziehung stehen und über spezifische Eigenschaften verfügen. Ein Element ist dabei nicht weiter spezifiziert, es handelt sich nur um atomare Bestandteile innerhalb eines Systems. Ein System, hat zu einer bestimmten Zeitpunk einen bestimmten Systemzustand und kann auf Grund des Verhaltens eines Systems eine Änderung (interner externer Ereignisse) beschreiben. Systeme können aus Systemen bestehen.\footcite[][S.52-53]{kobler2010qualitat}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Forschungsdaten in den Geschichtswissen}
+\subsubsection{Forschungsdaten in den Geschichtswissenschaften}
 
 Unter Daten versteht man ganz allgemein Zeichen, die Informationen darstellen und dem Zweck der weiteren Verarbeitung dienen. Die Informatik fasst den Begriff noch etwas spezifischer und versteht darunter Informationseinheiten in einer formalisierten und damit maschinenlesbaren und -bearbeitbaren Form. Das heißt, Informationen werden durch Daten so repräsentiert, dass sie vom Computer automatisch verarbeitet werden können.
 \\
@@ -303,7 +300,7 @@ Dieser breitere Begriff macht dabei zugleich die Komplexität der Diskussion um 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Modelle in den Geschichtswissenschaften}
+\subsubsection{Modelle in den Geschichtswissenschaften}
 
 Das Ziel: Aus den vielen Fäden ein allgemeingültiges Modell für die Repräsentation historischer Informationen in der Informationstechnologie zu machen.
 \\
@@ -548,6 +545,38 @@ huhu Ontologie zitieren\footcite[Vgl][S.162-178]{jannidis2017digital}
 
 \section{Historische Rechnungsbücher als Quelle}
 
+MEDEA-Paper:
+Historical accounting documents have taken many forms over the course of human history, and
+their formats have changed in ways that have not always been reflected in the historical
+literature. While a shorthand reference to the development of so-called double entry accounts
+based on the practices of early modern Italian merchants might prevail among historians of the
+modern era, considerable evidence demonstrates a more nuanced process of change over time. In
+fact, historians have used the term “accounts” for a wide range of primary sources. Long before
+the fifteenth century, people all over the world tracked exchanges of goods, services, and rights
+by writing on a variety of materials that included clay and wax tablets, slate, tallies, papyrus,
+parchment, and paper, and they used a range of tools that were appropriate to these different
+materials. At various times and places, the people making these records had literacy skills
+ranging from basic numeracy through full literacy; their purposes in creating the records
+extended from simple memory aids through complex professional evaluations. The common
+element among these highly differentiated sources was their focus on economic activities. Thus,
+we can deduce that the form and inner structure of the accounts evolved in relation to available
+materials and tools, in association with diverse purposes, and in connection to the development
+of economic activities.
+Historians have demonstrated that those responsible for keeping track of the funds of cities,
+estates, businesses, charities, and other human organizations developed their accounting
+practices as they encountered new situations and problems. Medieval and early modern accounts
+from French- and German-speaking regions reveal some of the processes of this non-linear,
+locally influenced development (Arlinghaus 2000, Mersiovsky 2000). And research on
+nineteenth-century business accounts has shown that only in the final decades of the century did
+accounting become a professional pursuit in which such contemporary notions as cost accounting
+and depreciation of business machinery were standard management principles that reputable
+firms and organizations were expected to follow (McGaw 1985, Yates 2000). In the following
+four examples, MEDEA participants illustrate areas where digital scholarly editions of accounts
+can add to knowledge about the evolution of accounting practices as well as about daily life and
+the sorts of factors that have been the subject of social and economic history for the past eighty
+years.\footcite[][S.2]{tomasekmedea}
+\\
+\\
 Historische Rechnungsbüchern sind einen Teil einer Menge von Primärquellen, die Aufzeichnungen von Handel mit Waren und Dienstleistungen darstellen. Sie werden seit längerer Zeit als Primärdatensätze für historische Forschung genutzt. Sie liefern reichhaltige und strukturierte Daten, die oft längere Zeiträume abdecken und die als Aggregation vieler Einzelinformationen enthalten zu Beantwortung unterschiedlicher Forschungsfragen herangezogen werden können. Sie beinhalten beispielsweise Information über den Kauf und Verkauf von Waren, Werkzeugen und Rohstoffen eines bestimmten Gewerbes, sowie über die ausgezahlten Löhne von Arbeitnehmern*innen. Eine andere Art von Rechnungsbüchern stellen Haushaltskonten dar. Diese beziehen sich auf den Kauf von Lebensmittel und Bekleidung sowie für Zahlungen für Dienstleistungen in Form von Kochen, Waschen oder andere Haushaltsarbeiten.   HFRs im Zusammenhang mit der Haushaltsführung auch im Zusammenhang mit der Haushaltsführung enthalten Listen der für Hausarbeit gezahlten Löhne, und solche Listen finden sich manchmal auf der Seite Rückseiten von Taschenkalendern und nicht in formalen Kontenbüchern oder Ledgern. In Regionen wo Arbeiter versklavt wurden, finden sich HFRs in den Buchhaltungsbüchern und in der persönlichen Aufzeichnungen über Sklavenhalter und Sklavenhändler.\footcite[][S.2]{tomasek2013encoding}
 \\
 Eine Transkription allein reicht nicht aus um die unterschiedlichen Dimensionen einer solchen Quelle abzudecken: die linguistische/textuelle, die quantifizierbare und die semantische Dimension. Für Forschungszwecke unterliegen historische Quellen einem Transformationsprozess hin zu (vernetzten) Informationsquellen, die in verschiedenen Forschungsszenarien genutzt werden können. Um dies zu veranschaulichen, werden drei Fallstudien von Projektpartnern und ihren jeweiligen Forschungsinteressen diskutiert, die weit über wirtschaftliche und administrative Aspekte hinausgehen.
@@ -555,6 +584,12 @@ Eine Transkription allein reicht nicht aus um die unterschiedlichen Dimensionen 
 \\
 Händler haben finanzielle Aufzeichnungen geführt, um Käufe und Verkäufe von Waren seit den Handelsökonomien des alten Mesopotamiens zu verfolgen, und der Impuls, regelmäßige Konten zu führen, führte zu Standards für die Erfassung von Finanzinformationen. Im Laufe der Jahrhunderte boten verschiedene einflussreiche Texte gewöhnlichen Geschäftsleuten die Möglichkeit, zu lernen, wie man das macht. Für das frühneuzeitliche Europa skizzierte Fra Luca Pacioli in seiner Abhandlung The Rules of Double-Entry Bookkeeping von 1494 Rechnungslegungsgrundsätze, die die Handelsrechnung in ganz Europa beeinflussten. Mitte des achtzehnten Jahrhunderts veröffentlichte der schottische Mathematiker John Mair ein einflussreiches Lehrbuch mit dem Titel 
 Buchhaltungsmethodik; oder, eine methodische Abhandlung von Handelskompten, nach der italienischen Form. Bei der Präsentation von Pacioli's System für Englischsprachige durchlief Mair's Text zahlreiche Ausgaben zwischen den folgenden Sprachen 1736 und 1808. \footcite[][S.3]{tomasek2013encoding}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Finanztransaktionen}
+
+\textit{Extensible Business Reporting Language }(XBRL)\footcite{engel2003extensible} ist ein XML-basierter Standard und frei verfügbare Sprache für die Beschreibung und den Austausch inhaltlicher und technischer Information der Geschäftsberichterstattung. XBRL verwendet verschiedenen Spezifikationen und das Herzstück bildet ein \textit{instance document}, das die finanziellen Fakten beschreibt und eine \textit{taxonomy} das die Konzepte erfasst. Kodierung eines Finanzbericht in XBRL erfordert die Verbindung von Instanzdokumenten mit Taxonomien und zugehörige \textit{Linkbases}, die Sammlungen von eingehenden und externen Links enthalten. CLIFFORD et. al führen an, dass es für die Beschreibung von Transaktionen in historischen Rechnungsbüchern geeignet ist, kritisieren aber das es für die Foramlisierung historischer Daten nicht entwickelt wurde. Beispielsweise ist es nicht möglich historische Währungen in XBRL zu beschreiben, da nur die durch ISO 2015 definierten Währungen erlaubt sind.\footcite[][S.7-9]{tomasekmedea}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -580,14 +615,14 @@ How was the value of tobacco calculated through different currencies [St14]?
 
 Die \textit{Wheaton Family Papers} umfassen mehrere Bücher im Zeitraum von 1828 bis 1859, die unter anderem die finanziellen Geschäfte von \textit{Laban Morey Wheaton} und seiner Familie, einem Geschäftsbesitzer eines \textit{dry goods store} aus Norton, Massachusetts in den Vereinigten Staaten von Amerika, dokumentieren. Unter \textit{dry goods} versteht man einen aus dem 17. Jahrhundert stammenden historischen Begriff, der je nach Region leicht unterschiedliche Güter zusammenfasst. Darunter werden im Allgemeinen aber Produkte verstanden, die ''trocken'' sind, wie etwa Textilien, Konfektionskleidung, Tabak oder bestimmten Lebensmittel, wie etwa Kartoffel.\footcite[Definition von \textit{Dry Goods}, \protect\url{https://chestofbooks.com/reference/Dictionary-of-Dry-Goods/Dry-Goods.html}, 23.05.2019, Vgl.][]{cole2015complete}
 \\
-Die Stadt Norton ist eine charakteristische landwirtschaftlich und von Manufakturen geprägte Kleinstadt im Nordosten der USA im Hinterland der regional bedeutenden Häfen Boston, New Bedford, Newport, and Providence. In einer Geschichte der Stadt Norton von CLARK wird \textit{Laban Morey Wheaton} namentlich genannt. Er lebte von 14.September 1796 bis 1865, hat Rechtswissenschaften an der \textit{Brown University} studiert und jahrelang als \textit{Postmaster of Norton} gearbeitet. Er war politisch aktiv und war Vertreter im \textit{Massachusetts General Court}, sowie Mitglied im \textit{Massachusetts Governor's Council}. Er war verheiratet und Angehöriger des Kongregationalismus, einer Form der christlichen Gemeindeverfassung. Die Wheaton Familie besaß eine Milchviehherde sowie eine Fabrik zur Produktion von Baumwollwatte und Strohhüten\footcite[][S.6]{tomasek2013encoding} und so gehörte Laban Wheaton zu einem der wohlhabendes Männer der Stadt. Sogar ein Portrait von ihm ist bei CLARK überliefert.\footcite[][S.496]{clark1859history} 
+Die Stadt Norton ist eine charakteristische landwirtschaftlich und von Manufakturen geprägte Kleinstadt im Nordosten der USA im Hinterland der regional bedeutenden Häfen Boston, New Bedford, Newport, and Providence. In einer Geschichte der Stadt Norton von CLARK wird \textit{Laban Morey Wheaton} namentlich genannt. Er lebte von 14.September 1796 bis 1865, hat Rechtswissenschaften an der \textit{Brown University} studiert und jahrelang als \textit{Postmaster of Norton} gearbeitet. Er war politisch aktiv und war Vertreter im \textit{Massachusetts General Court}, sowie Mitglied im \textit{Massachusetts Governor's Council}. Er war verheiratet und Angehöriger des Kongregationalismus, einer Form der christlichen Gemeindeverfassung. Die Wheaton Familie besaß eine Milchviehherde sowie Fabriken zur Produktion von Baumwollwatte, die \textit{Wheaton Manufacturing Company,} und eine zur Produktion von Strohhüten\footcite[][S.6]{tomasek2013encoding} und so gehörte Laban Wheaton zu einem der wohlhabendes Männer der Stadt. Sogar ein Portrait von ihm ist bei CLARK überliefert.\footcite[][S.496]{clark1859history} 
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.2\textwidth]{img/LMwheaton.jpg}  
     \caption[Portrait von Laban Morey Wheaton, Vgl. CLARK, George Faber: A History of the Town of Norton, Bristol County, Massachusetts, from 1669-1859.
 Crosby, Nichols, and Company, and author at Norton, 1859, S.497.]{Portrait von Laban Morey Wheaton} \label{fig:LMwheaton}
 \end{figure} 
-Aus diesem Kontext heraus, der über \textit{Laban Morey Wheaton} überliefert ist kann man die These aufstellen, dass er ein mächtiger Mann war. Auf der einen Seite politisch aktiv und politischer Vertreter, auf der anderen Seite vermögend und Besitzer mehrere Immobilien und eines Geschäftes. Gerade der im \textit{daybook} dokumentierte Verkauf von Gütern, in dem Menschen Lebensmittel im Austausch für Arbeit erwerben, zeigt eine gewisse Machtposition.
+Aus diesem Kontext heraus, der über \textit{Laban Morey Wheaton} überliefert ist kann man die These aufstellen, dass er ein mächtiger Mann war. Auf der einen Seite politisch aktiv und politischer Vertreter, auf der anderen Seite vermögend und Besitzer mehrere Immobilien und eines Geschäftes. Gerade der im \textit{daybook} dokumentierte Verkauf von Gütern, in dem Menschen Lebensmittel im Austausch für Arbeit erwerben, zeigt eine gewisse Machtposition. Denn die, nicht vollständig überlieferten, Rechnungsbücher von Wheaton zeigen nicht nur Angaben zu Gütern, Dienstleistungen und Geldbeträgen in den einzelnen Transaktionen, sondern auch Namen einer Vielzahl von Individuen und ihrer Familien, die in Beschäftigungsverhältnissen mit Wheaton stehen, Objekte und Gebäude mieteten oder Handel betrieben. TOMASEK führt an, dass diese Rechnungsbücher detaillierte Informationen über das tägliche Leben der Einwohner*innen einer Stadt in New England, geprägt durch eine gemischte Land-, sowie Industriewirtschaft im zweiten Quartal des 19. Jahrhunderts, darstellen.\footcite[][S.5]{tomasekmedea}
 \\
 \\
 Das \textit{Wheaton College Massachusetts} stellt die \textit{Wheaton Family Papers} Dokumente in ihrem digitalen Repositorium online zur Verfügung.\footnote{Wheaton Family Papers, \url{https://digitalrepository.wheatoncollege.edu/handle/11040/7928}, 19.05.2019.} 
@@ -659,6 +694,127 @@ Ziel der Masterarbeit soll es nicht sein die Projektinhalte zu dokumentieren, so
 \section{Die Bookkeeping-Ontology als konzeptuelles Model für digitale Editionen von historischen Rechnungsbücher}
 \label{subsec:DigEdHiRe}
 
+MEDEA-Paper:
+A CIDOC-CRM Based Ontology of Economic Activities
+All these XML formats represent parts of what humans did when they exchanged goods and
+services and recorded these economic activities in written form. Each method has its advantages.
+But still it seems that behind all these forms is a common model which could be represented
+conceptually in the following way: There are agents agreeing on a transfer of something
+measurable and executing this transfer. Usually the transfer is mutual, i.e. at least two transfers
+aggregate to a transaction, in which usually money is exchanged for commodities, services or
+rights. Additionally one or the other party creates a documentation of this transfer, which can be
+an artifact like a tally, but usually is a written accounting document. It is important to notice that
+the financial document is not necessarily representing the transfer or the transaction itself; a
+record can even be fictitious. It also adds a level of interpretation: The transactions are organized
+in the document following a specific scheme meaningful to the agent commissioning the record,
+the “categories”, “rubrics”, or “accounts”, which can be abstracted to dimensions; often the
+accountant aggregates the individual transactions into totals, balancing the financial state or
+demonstrating profits and losses; and some transactions are not recorded at all.
+While the historical process of economic transactions can be modelled as seen above, the source
+material thus has a complex relationship to these historical events we assume to have happened.
+As in all manuscript analysis, a page is written by one or more hands (writers) in one or more
+sessions. One specific record can be found on (parts of) one or more pages. So we have an
+activity performed by one or more actors at a period of time, which may have been
+discontinuous, which resulted in a record. The traces of this activity can be found in the
+document and can be established as such by competent readers, as we have seen in the examples
+above.
+Each record represents a claim about something that happened in the real world, an economic
+transaction of some sort. This is another activity, connected to but distinct from the record
+creation event. In an event-based modelling of historical accounts these two activities will form
+the core of a network of information, and information—about actors, time, location, the historical account document, and other events connected to the transaction such as goods,
+money, currency information—become nodes attached to this core.
+Formalizing the conceptual model resulting from these considerations would allow us to map the
+formalizations described above for their procession as complete set. This goal seems reasonable
+as of course the records of an economic activity in the ledger of one company should find their
+counterpart in the ledger of its exchange partner. A meta search on digital representations of
+various Hanse records could therefore allow extracting networks and flows of trade activities.
+The research on long term price series or their regional diversion would profit from a common
+access to the records. The recent solutions historians at the University of Tokyo (Kokaze et al,
+2016) have found to represent chronology in historical accounts confirm this: They study the
+relationship between agents mentioned in the accounts of the British Lay-Osborn Flotilla and
+Chinese administration from the 1860s in time.
+The conceptual model covers completely, what a TEI based transactionography (hsfr) and XBRL
+encoding describe: The hfrs:transaction/medea:transaction consists of hfrs:transfers, each of
+them involving medea:agents/@hfrs:fra and @hfrs:til. The hfrs:transfer is defined as ‘A transfer
+of something of value’, which is a tei:measure/medea:measurable. The medea:documentation of
+the transfer is encoded with hfrs:attested as a reference to a TEI text structure. The
+hfrs:listAccount and hfrs:account express the interpretative organization of transactions in
+medea:schemes and medea:dimensions. hfrs:listTransaction and hfrs:transferGrp are generic
+grouping functionalities which are reflected in the medea:dimensions of documentation and the
+medea:total and medea:balance concepts. The relationship between the suggested conceptual
+model and the abstract level in XBRL is even more obvious: The XBRL 'financial facts' are a
+superclass to medea:transfer, medea:transaction, or medea:total. They are recorded in 'instances'
+(medea:document) and the 'taxonomies' describe their interpretative dimensions
+(medea:dimension, medea:schema).
+The currently most adaptable formal representation for this kind of data is the Resource
+Description Framework (RDF) of the W3C. Its graph-based model is flexible but structured
+enough to express complex data structures. The basic conceptualization similar to simple natural
+language sentences as subject-predicate-object triples makes it fairly easy to understand. RDFs
+and OWL7 offer rich possibilities for formal modelling. A preliminary RDFs schema for the
+conceptual model has therefore been created and published on github
+(\url{https://github.com/GVogeler/bookkeeping}).
+The CIDOC-CRM, as an event-based ontology, is a good structure for encoding such
+information, as shown through the use of the standard for several types of cultural-historical
+evidence. As a matter of fact, it serves well to cover the main parts of the conceptual model
+described above, with its two event types:
+1. The creation of the accounting document
+2. The transfer as the recorded economic activity
+While the first is clearly a subclass of the E65\_Creation class, the latter can be considered as a
+subtype of E7\_Activity and of E28\_Conceptual\_Object.
+ Both are connected by the document
+written by the accountant and attesting a transfer. The example from Kokaze et al. (2016)
+demonstrates that the general properties of CIDOC-CRM events have practical research
+relevance.
+Given the specific need in modelling these documents and the activities documented in them,
+some extensions to CIDOC-CRM should be made. This is also in line with what we have seen in
+other areas including archaeological excavations8 and buildings,9 and scientific observations10
+establishing a CIDOC-CRM based family of standards. In the development of this CIDOC-CRM
+based extended model it will be an important question what the target for the modelling is, that
+is, what time periods, geographical areas, and specific document types will function as evidence
+for the modelling. This will determine how specific the model can be: the larger the scope, the
+looser and more flexible the model must be.
+The two event types described above have different relationships to truth. As for the records in
+the historical account we know they exist and were written, at least as long as the original
+document exists. What is questionable is who wrote it, when, and also the level of unity, that is,
+what makes one record separate from other records. For the economic transaction documented in
+the record the question of existence is somewhat different than from the record. We only know
+there is a claim for an economic transaction, not that any transaction actually took place, for
+which one often needs additional evidence, knowledge, and analysis to determine.
+This creates an interesting question of modelling principles: should one model the worldview
+expressed by the documents or should one express the worldview seen as most likely to be
+correct by the historians (Ciula, Spence, Vieira 2008)? The choice of modelling standards should
+not determine that choice. However, as CIDOC-CRM is a tool for information integration it is
+more common to use it for models aiming towards historical truthfulness. That does not mean
+that the worldview expressed in the documents should be hidden, just that the activities
+expressed in the model will be the ones the historians believe to have taken place. Modelling and
+encoding the transactions recorded in historical accounting documents as stand-off reference
+between textual evidence and description of the economic and social ‘facts’ even makes possible
+multiple interpretations of the textual evidence, which would lead to considering the addition of
+a factoid-based approach (Bradley and Pasin 2015) to the model
+Conclusions
+The current results of the work done by the MEDEA collaborative are therefore fivefold:
+1. The textual genre of accounts shows a great variety in form in its history with a
+substantial common ground in concepts and human activities represented in these texts.
+2. These concepts and human activities are of high interest in the humanities and historical
+social science research.
+3. Based on the work of the DH community in the TEI and of contemporary business
+reporting standardization activities in XBRL, it is possible to develop a conceptual model
+for the documentary representation of human activities in the field of economics.
+4. This model can be expressed as a graph structure, and it can be integrated into the larger
+conceptual framework of the CIDOC-CRM family of standards.
+5. It is worthwhile to continue the development of the formal model and make suggestions
+about how to integrate the formal model into encoding practice and data publication of
+historical accounting records.
+Certainly, the solutions discussed here are only a few of all the possible ways that web
+technologies can enhance research with historical accounting records. The MEDEA scholars
+look forward to suggestions for modifications of the ontology, additions of other possible
+methods for encoding economic facts represented in accounting documents, more efficient setups
+for execution of projects, and a thorough scrutiny of the conceptual consistency of our proposal.
+The MEDEA scholars will continue their work on the ontology and will try to set up a collection
+of examples showing how we think the integration of the representation of content expressed in
+RDF and scholarly edition of accounting documents can be realized.\footcite[][S.9-12]{tomasekmedea}
+\\
+\\
 Das abschließende Kapitel verbindet die theoretischen Überlegungen mit den technischen Ausführungen und skizziert die Arbeit, die im Zuge des Projektes \textbf{Digital Edition Publishing Cooperative for Historical Accounts (DEPCHA)}\footnote{\url{gams.uni-graz.at/depcha}} umgesetzt wurde. In diesem Projekt wird ein gemeinsamer Publikations-Hub für historische Rechnungsbücher implementiert. Im Zentrum steht die Entwicklung und Nutzung einer Ontologie, einer formalen Beschreibung eines konzeptuellen Models zur Standardisierung von Buchungstransaktionen in historischen Rechnungsunterlagen. Dabei wird ein im \textit{Web of Data}, sowie ein \textit{Linked Open Data} Zugang verfolgt. Das heißt, dass eben der Transkription und Edition der Rechnungsbücher, sowie der Verfügugnstellung der Digitalisate der Quellen, hochstrukturierte RDF-Daten existieren, die mittels der Bookkeeping-Ontologie formalisiert sind und Referenzen auf Normdaten und LOD-Vokabularien setzen. Mit diesem Zugang soll die Nachprüfbarkeit, die Sicherstellung und die Nachnutzbarkeit der Forschungsdaten und aller darauf aufbauenden quantitativen Methoden und deren Ergebnisse gewährleistet sein. Dabei spielt die Bookkeeping-Ontologie, im THALLER'schen Sinne als \textit{knowledge domain} eine zentrale Rolle. In diesem Kapitel soll zuerst auf die digitale Edition historischen Rechnungsbüchern und die dazu nötigen Standards, vor allem die TEI, eingegangen werden. Danach folgt die semantische Anreicherung und die Repräsentation der Inhalte in den Transaktionen, sowie eine detailierte Beschreibung der domänenspezifischen Bookkeeping-Ontology.  
 
 \subsection{Digitale Edition von Historischen Rechnungsbüchern}
@@ -678,21 +834,43 @@ Ein bk:Transfer kann von einem bk:Agent durchgeführt werden, also jemand übern
 
 
 \begin{lstlisting}[]
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bk: <https://gams.uni-graz.at/o:depcha.ontology> .
 
-foaf:Person a rdfs:Class ;
-  rdfs:label "Person" ;
-  rdfs:comment "A person." ;
-  rdfs:subClassOf foaf:Agent .
+<#Transaction-0>
+  a bk:Transaction> ;
+  bk:consistsOf <#Transfer-1>, <#Transfer-2> ;
+  bk:when "1808-08-01" ;
+  bk:text "1/4 lb Powder 2/6 1 lb Shot 2/6 7 6" .
+
+<#Transfer-1>
+  a bk:Transfer ;
+  bk:transfers <#Measurable-1> ;
+  bk:from <#stagville> ;
+  bk:to <#pers.2> .
+
+<#Transfer-2>
+  a bk:Transfer ;
+  bk:transfers <#Measurable-2-1> ;
+  bk:from <#pers.2> ;
+  bk:to <#stagville> .
+
+<#Measurable-1>
+  a bk:Commodity ;
+  bk:unit <wiki:Q100995> ;
+  bk:quantity "0.25" ;
+  bk:commodity <wikivQ2908004> ;
+  bk:price <#Price-1> ;
+  bk:text "1/4 lb Powder" .
+
+<#Measurable-2-1>
+  a bk:Money ;
+  bk:unit <wiki:Q213142> ;
+  bk:quantity "7" .
   
-foaf:knows a rdf:Property;
-  rdfs:label "knows" ;
-  rdfs:comment "A person known by this person (indicating some 
-  level of reciprocated interaction between the parties)." ;
-  rdfs:domain foaf:Person ;
-  rdfs:range foaf:Person .
+ <#pers.2>
+  a bk:Between;
+  bk:name "James Haley".
+  
 \end{lstlisting}
 
 \begin{figure}[H]
