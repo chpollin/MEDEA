@@ -71,11 +71,18 @@ Repeated entry---line 915 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1085 of file literatur.bib
+Warning--entry type for "pollin2017suchen" isn't style-file defined
+--line 979 of file literatur.bib
+Repeated entry---line 996 of file literatur.bib
+ : @book{andorfer2015forschungsdaten
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1112 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "jannidis2017digita"
+Warning--Empty pages in andorfer2015forschungsdaten
 Warning--Empty pages in bauer2011linked
 Warning--No address in beretta2017dataforhistory
 Warning--No address in berners2004uniform
@@ -91,53 +98,55 @@ Warning--Empty booktitle in hiltman2018forschungsdaten
 Warning--No address in hiltman2018forschungsdaten
 Warning--No address in hoekstra2009ontology
 Warning--There's only a starting page, no pagerange in joostbreukera2009flood
+Warning--Empty pages in kindling2013forschungsdatenmanagement
 Warning--Empty pages in mcCreary2019graph
 Warning--Empty pages in pellegrini2006semantic
+Warning--No address in pollin2017suchen
 Warning--Empty pages in sokollgrundlagen
 Warning--Empty pages in schreiber2014rdf
 Warning--Empty pages in stachowiak1973allgemeine
 Warning--Empty pages in sure2003methodology
 Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
-You've used 60 entries,
+You've used 64 entries,
             7954 wiz_defined-function locations,
-            1702 strings with 20223 characters,
-and the built_in function-call counts, 65869 in all, are:
-= -- 4561
-> -- 2358
-< -- 184
-+ -- 817
-- -- 742
-* -- 7711
-:= -- 9470
+            1722 strings with 21024 characters,
+and the built_in function-call counts, 69457 in all, are:
+= -- 4792
+> -- 2487
+< -- 192
++ -- 863
+- -- 784
+* -- 8113
+:= -- 10006
 add.period$ -- 0
-call.type$ -- 60
-change.case$ -- 302
-chr.to.int$ -- 84
-cite$ -- 153
-duplicate$ -- 3621
-empty$ -- 6729
-format.name$ -- 2385
-if$ -- 13264
+call.type$ -- 64
+change.case$ -- 321
+chr.to.int$ -- 88
+cite$ -- 168
+duplicate$ -- 3818
+empty$ -- 7109
+format.name$ -- 2514
+if$ -- 13972
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 344
-newline$ -- 551
-num.names$ -- 495
-pop$ -- 1415
+missing$ -- 366
+newline$ -- 589
+num.names$ -- 527
+pop$ -- 1507
 preamble$ -- 1
-purify$ -- 299
+purify$ -- 318
 quote$ -- 0
-skip$ -- 2437
+skip$ -- 2569
 stack$ -- 0
-substring$ -- 2005
-swap$ -- 1769
+substring$ -- 2059
+swap$ -- 1853
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1267
-warning$ -- 23
-while$ -- 582
+type$ -- 1349
+warning$ -- 26
+while$ -- 612
 width$ -- 0
-write$ -- 2237
-(There were 16 error messages)
+write$ -- 2387
+(There were 17 error messages)

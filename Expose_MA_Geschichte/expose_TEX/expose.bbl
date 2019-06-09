@@ -19,6 +19,25 @@
   {\bibartperiodhowcited} \jbdoitem {{Alexander}{Bryan}{B.}{}{};
   {Davis}{Rebecca~Frost}{R.~F.}{}{}} {} {} \bibAnnoteFile {alexander2012should}
 
+\bibitem[{Andorfer\jbdy {2015}}%
+         {Versuch einer Konkretisierung.(DARIAH-DE Working Papers 14).
+  G{\"o}ttingen: DARIAH-DE. Verf{\"u}gbar unter urn: nbn: de: gbv\jbsy {2015}}%
+         {{0}{}{article}{2015}{}{}{}{}%
+          {2015}}%
+         {{Forschungsdaten in den (digitalen) Geisteswissenschaften}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{andorfer2015forschungsdaten}
+ \jburldef
+  {andorfer2015forschungsdaten}{http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2015-14.pdf}%
+ \jbbibargs {\bibnf {Andorfer} {Peter} {P.} {} {}} {Peter Andorfer} {au}
+  {\bibapifont {Forschungsdaten in den (digitalen)
+  Geisteswissenschaften}\bibatsep\ \bibJTsep \bibjtfont {Versuch einer
+  Konkretisierung.(DARIAH-DE Working Papers 14). G{\"o}ttingen: DARIAH-DE.
+  Verf{\"u}gbar unter urn: nbn: de: gbv}\ajtsep\  \artyearformat {2015}
+  \jburluse {andorfer2015forschungsdaten}} {\bibartperiodhowcited} \jbdoitem
+  {{Andorfer}{Peter}{P.}{}{}} {} {} \bibAnnoteFile
+  {andorfer2015forschungsdaten}
+
 \bibitem[{Bauer\jbbtasep Kaltenb{\"o}ck\jbdy {2011}}%
          {Edition mono/monochrom\jbsy {2011}}%
          {{0}{}{article}{2011}{}{}{}{}%
@@ -429,6 +448,26 @@
   {Elsevier\bibbdsep {} 2016}} {\bibhowcited} \jbdoitem
   {{Kelly}{Richard}{R.}{}{}} {} {} \bibAnnoteFile {kelly2016practical}
 
+\bibitem[{Kindling\Bibetal\jbdy {2013}}%
+         {LIBREAS. Library Ideas\jbsy {2013}}%
+         {{0}{}{article}{2013}{}{}{}{}%
+          {2013}}%
+         {{Forschungsdatenmanagement an Hochschulen: Das Beispiel der
+  Humboldt-Universit{\"a}t zu Berlin}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{kindling2013forschungsdatenmanagement}
+ \jburldef
+  {kindling2013forschungsdatenmanagement}{https://libreas.eu/ausgabe23/07kindling}%
+ \jbbibargs {\bibnf {Kindling} {Maxi} {M.} {} {}\bibIMfont {\Bibetal}} {Maxi
+  KindlingPeter SchirmbacherElena Simukovic others} {aus} {\bibapifont
+  {Forschungsdatenmanagement an Hochschulen: Das Beispiel der
+  Humboldt-Universit{\"a}t zu Berlin}\bibatsep\ \bibJTsep \bibjtfont {LIBREAS.
+  Library Ideas}\ajtsep\  \artyearformat {2013}\artnumberformat {23} \jburluse
+  {kindling2013forschungsdatenmanagement}} {\bibartperiodhowcited} \jbdoitem
+  {{Kindling}{Maxi}{M.}{}{}; {Schirmbacher}{Peter}{P.}{}{};
+  {Simukovic}{Elena}{E.}{}{}} {} {} \bibAnnoteFile
+  {kindling2013forschungsdatenmanagement}
+
 \bibitem[{Kirn\jbdy {2015}}%
          {}%
          {{0}{}{book}{2015}{}{}{}{}%
@@ -570,6 +609,20 @@
   vernetzten Wissensgesellschaft. Berlin [ua] Springer}  \artyearformat {2006}}
   {\bibartperiodhowcited} \jbdoitem {{Pellegrini}{Tassilo}{T.}{}{};
   {Blumauer}{Andreas}{A.}{}{}} {} {} \bibAnnoteFile {pellegrini2006semantic}
+
+\bibitem[{Pollin\jbdy {2017}}%
+         {}%
+         {{0}{}{}{2017}{}{}{}{}%
+          {Graz\bibbdsep {} 2017}}%
+         {{Vom Suchen, Stöbern und Finden : Information Retrieval am Beispiel
+  der Digitalen Sammlung des Hans Gross Kriminalmuseums}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{pollin2017suchen}
+ \jbbibargs {\bibnf {Pollin} {Christopher} {C.} {} {}} {Christopher Pollin}
+  {au} {\bibtfont {Vom Suchen, Stöbern und Finden : Information Retrieval am
+  Beispiel der Digitalen Sammlung des Hans Gross Kriminalmuseums}\bibatsep\
+  2017} {\bibhowcited} \jbdoitem {{Pollin}{Christopher}{C.}{}{}} {} {}
+  \bibAnnoteFile {pollin2017suchen}
 
 \bibitem[{Powers\jbdy {2003}}%
          {}%
@@ -902,6 +955,19 @@
   \jbPages{S.207--218}} {\bibhowcited} \jbdoitem {{Weller}{Katrin}{K.}{}{}}
   {{Kuhlen}{Rainer}{R.}{}{}; {Semar}{Wolfgang}{W.}{}{};
   {Strauch}{Dietmar}{D.}{}{}} {} \bibAnnoteFile {weller2013InformationBand}
+
+\bibitem[{Wersig\jbdy {1971}}%
+         {}%
+         {{0}{}{book}{1971}{}{}{}{}%
+          {Verlag Dokumentation\bibbdsep {} 1971}}%
+         {{Information-Komunikation-Dokumentation}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{wersig1971information}
+ \jbbibargs {\bibnf {Wersig} {Gernot} {G.} {} {}} {Gernot Wersig} {au}
+  {\bibtfont {Information-Komunikation-Dokumentation}\bibatsep\  \volumeformat
+  {5}  \apyformat {Verlag Dokumentation\bibbdsep {} 1971}} {\bibhowcited}
+  \jbdoitem {{Wersig}{Gernot}{G.}{}{}} {} {} \bibAnnoteFile
+  {wersig1971information}
 
 \bibitem[{Wolf\jbdy {1995}}%
          {Bilanz qualitativer Forschung 1  \peryearformat {1995}}%
