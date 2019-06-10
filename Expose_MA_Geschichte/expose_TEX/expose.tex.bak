@@ -294,16 +294,12 @@ Die Grundlage jeder formalen Verarbeitung sind Daten. Die Definition von Daten l
 \end{figure} 
 Entstehen Daten während eines, oder als Ergebnis eines, Forschungsprozesses so spricht man von \textbf{Forschungsdaten}. Damit werden sowohl Daten aus den Naturwissenschaften (Messdaten aus einem Experiment), Sozialwissenschaften (Interviews) oder den Kulturwissenschaften (dokumentierte Beobachtung) zusammengefasst.\footcite[][09.06.2019]{kindling2013forschungsdatenmanagement}
 \\
-ANDORFER spricht sich für einen nicht ''\textit{inflationären Gebrauchs dieses Begriffes}'' und einer ''\textit{präzisere   Terminologie}'' im Zusammenhang des Begriffes geisteswissenschaftliche Forschungsdaten aus. Es soll klar definiert sein was man als Forschungsdaten auffasst und was davon ausgeschlossen ist.
+ANDORFER spricht sich für einen nicht ''\textit{inflationären Gebrauchs dieses Begriffes}'' und einer ''\textit{präzisere   Terminologie}'' im Zusammenhang des Begriffes geisteswissenschaftliche Forschungsdaten aus. Es soll klar definiert sein was man als Forschungsdaten auffasst und was davon ausgeschlossen ist. Weiters soll es bei den für Fachwissenschafter*innen vertraute Begrifflichkeit bleiben und .\footcite[][]{andorfer2015forschungsdaten}
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.85\textwidth]{img/forschungsdaten.png}  
-    \caption[Datenpyramide geisteswissenscahftlicher Forschungsdaten im institutionellen Kontext]{Signal, Daten, Information und Wissen} \label{fig:daten}
+    \caption[Datenpyramide geisteswissenschaftlicher Forschungsdaten im institutionellen Kontext, ANDORFER, Peter: Forschungsdaten in den (digitalen) Geisteswissenschaften: Versuch einer Konkretisierung, 2015, S.14]{Datenpyramide geisteswissenschaftlicher Forschungsdaten im institutionellen Kontext nach ANDORFER} \label{fig:forschungsdaten}
 \end{figure} 
-forschungsdaten.png
-
-\footcite[][]{andorfer2015forschungsdaten}
-\\
 Für die Geisteswissenschaften und im speziellen für die Geschichtswissenschaften, in denen viel stärker hermeneutischer Prozess  im Vordergrund stehen, ist der Begriff nicht eindeutig. HILTMANN sieht einen engeren und einen weiteren  Begriff von Forschungsdaten in den Geschichtswissenschaften. Im engeren Sinne versteht man Metadaten zu und Annotationen von historischen Quellen in all ihren Ausprägungen. Als Beispiel ist die archivalische Erschließung eines Quellenkorpus angeführt, damit die Verwahrung und Auffindbarkeit für eine potentielle wissenschaftliche Auseinandersetzungen ermöglicht wird. Im weiteren Verständnis kann alles, das digital vorhanden ist zur historischen Quelle und somit zu relevanten Daten für dei Geschichtswissenschaft werden.\footcite[Vgl.][09.06.2019.]{hiltman2018forschungsdaten}
 \\
 Im Zuge dieser Arbeit soll aber dem engeren Begriff folge geleistet werden. Forschungsdaten wie Geschichtswissenschaften sind sowohl innere wie äußere merkmale historische Quellen wieso adverben speichert werden verfügung stehen die interpretierbar und Maschinen verarbeitbar. 
@@ -312,23 +308,13 @@ Im Zuge dieser Arbeit soll aber dem engeren Begriff folge geleistet werden. Fors
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Modelle in den Geschichtswissenschaften}
 
-Das Ziel: Aus den vielen Fäden ein allgemeingültiges Modell für die Repräsentation historischer Informationen in der Informationstechnologie zu machen.
+Um die Forschungsdaten nachnutzbar und nachvollziehbar zu machen müssen klare konzeptuelle modelle Mit den Forschungsdaten ''mitgeliefert''. Diese Modelle wiederum müssen auf Standards beruhen. Es ist zeitensiv die Datenmodelle andere zu verstehen und oft ist es leichter sein eigenes Modell zu entwickeln. Ein generelles Problem mit Informationssystem und Forschungsdaten ist, dass sie nur für eine bestimmte Fragestellung bzw. ein bestimmtes Projekt entwickelt wurden. Werden bei der Generation der Forschungsdaten aber bereits Konzepte und Standardisierungen verfolgt, so fällt es leichter die ''Datensilos'' zu verlassen und die Nachnutzung zu fördern. 
 \\
+Eine erste Form der Standardisierung in den (digitalen) Geisteswissenschaften ist die Text encoding Initiative (TEI). Wenn auch Umsetzungen der TEI nicht einem 'klassischen' Standard entsprechen, so sind sie Überlegunen, wie man Text strukturieren und annotieren kann, sehr wohl standardisiert. 
 \\
-What we need is a discussion of the communalities between the underlying information models and the identification of properties, for which clear conceptual models can be devised. Such clear conceptual models are a prerequisite for technical solutions, which ultimately can enable the exchange of data across the different approaches. Such conceptual models, therefore, are what we need as standards.
+Es ist eine Notwendigkeit, dass Standards auf der einen Seite ausdrucksstark sein müssen, um die unterschiedlichen Problemstellungen fassen zu können, anderenseits es sich aber daraus formale Modelle ableiten lassen müssen. THALLER fordert deswegen, dass die Standards zur Beschreibung von Modellen eher beschreibend statt  vorschreibend sind.\footcite[][S.204]{thaller2017need}
 \\
-Analyzing someone else’s dataset is difficult. In fact, it is so
-difficult that it is often simpler and less costly to create one’s own dataset from
-scratch rather than use one prepared by another researcher from the same underlying documentary sources.
-\\
-Thaller sagt, dass viel gewi Projekte einfach nur für eine Fragestellung ein System gebaut haben. Es ist verdammt schwer, die Daten aus einerm anderen Projekt herauszuholen, zu verstehen, zu nutzen. Die  Quelle kann für unterscheidliche Forscher, unterschiedlich interessant sein. Er hebt hervor, dass es nmotwendig ist, dass wir Standardisierungen auf Eben konzeptuineller Modelle durchführen. 
-\\
-The approach to
-standardization proposed by the Text Encoding Initiative (TEI) and developed
-elsewhere in this volume is I feel, prescriptive.
-\\
-A standard must accommodate each of these very different aims, but at the same time facilitate automatic
-conversion of data structured for very different uses. From this perspective, standardization needs to be descriptive rather than prescriptive.\footcite[][S.204]{thaller2017need}
+Das Web of Data kann als Stack an Standards und Technologien aufgefasst werden. Flexibel und ausdrucksstark auf der einen Seite und mit dem Ziel maschineneverständliche Information anzubieten, scheint es geeignet als Standard um Modelle zu beschreiben und zu verteilen.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
