@@ -1,83 +1,73 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: literatur.bib
-Repeated entry---line 693 of file literatur.bib
+Repeated entry---line 708 of file literatur.bib
  : @article{musen2015protege
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 708 of file literatur.bib
+Repeated entry---line 723 of file literatur.bib
  : @book{linckels2011librarian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 716 of file literatur.bib
+Repeated entry---line 731 of file literatur.bib
  : @book{stuckenschmidt2009ontologien
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 724 of file literatur.bib
+Repeated entry---line 739 of file literatur.bib
  : @book{reichenberger2010grundlagen
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 731 of file literatur.bib
+Repeated entry---line 746 of file literatur.bib
  : @inproceedings{hoekstra2009ontology
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 744 of file literatur.bib
+Repeated entry---line 759 of file literatur.bib
  : @phdthesis{borst1997construction
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 754 of file literatur.bib
+Repeated entry---line 769 of file literatur.bib
  : @article{gruber1993translation
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 768 of file literatur.bib
+Repeated entry---line 783 of file literatur.bib
  : @book{favre2001information
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 775 of file literatur.bib
+Repeated entry---line 790 of file literatur.bib
  : @article{thaller2017ungefahre
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 785 of file literatur.bib
+Repeated entry---line 800 of file literatur.bib
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 847 of file literatur.bib
+Repeated entry---line 862 of file literatur.bib
  : @book{jannidis2017digital
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 878 of file literatur.bib
+Repeated entry---line 893 of file literatur.bib
  : @article{schreiber2014rdf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 893 of file literatur.bib
+Repeated entry---line 908 of file literatur.bib
  : @techreport{berners2004uniform
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 907 of file literatur.bib
+Repeated entry---line 922 of file literatur.bib
  : @book{powers2003practical
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 915 of file literatur.bib
+Repeated entry---line 930 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "pollin2017suchen" isn't style-file defined
---line 979 of file literatur.bib
-Repeated entry---line 996 of file literatur.bib
+--line 994 of file literatur.bib
+Repeated entry---line 1011 of file literatur.bib
  : @book{andorfer2015forschungsdaten
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1112 of file literatur.bib
+Repeated entry---line 1127 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
@@ -93,6 +83,7 @@ Warning--No address in cole2015complete
 Warning--Empty pages in cummings2013text
 Warning--Empty pages in demand2011philosophie
 Warning--Empty pages in engel2003extensible
+Warning--Empty pages in frank2018visualisierungswerkzeuge
 Warning--Empty pages in w3c2013sparql
 Warning--Empty booktitle in hiltman2018forschungsdaten
 Warning--No address in hiltman2018forschungsdaten
@@ -101,6 +92,7 @@ Warning--There's only a starting page, no pagerange in joostbreukera2009flood
 Warning--Empty pages in kindling2013forschungsdatenmanagement
 Warning--Empty pages in mcCreary2019graph
 Warning--Empty pages in pellegrini2006semantic
+Warning--Empty pages in piotrowski2016digital
 Warning--No address in pollin2017suchen
 Warning--Empty pages in sokollgrundlagen
 Warning--Empty pages in schreiber2014rdf
@@ -108,45 +100,4 @@ Warning--Empty pages in stachowiak1973allgemeine
 Warning--Empty pages in sure2003methodology
 Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
-You've used 64 entries,
-            7954 wiz_defined-function locations,
-            1722 strings with 21024 characters,
-and the built_in function-call counts, 69457 in all, are:
-= -- 4792
-> -- 2487
-< -- 192
-+ -- 863
-- -- 784
-* -- 8113
-:= -- 10006
-add.period$ -- 0
-call.type$ -- 64
-change.case$ -- 321
-chr.to.int$ -- 88
-cite$ -- 168
-duplicate$ -- 3818
-empty$ -- 7109
-format.name$ -- 2514
-if$ -- 13972
-int.to.chr$ -- 3
-int.to.str$ -- 0
-missing$ -- 366
-newline$ -- 589
-num.names$ -- 527
-pop$ -- 1507
-preamble$ -- 1
-purify$ -- 318
-quote$ -- 0
-skip$ -- 2569
-stack$ -- 0
-substring$ -- 2059
-swap$ -- 1853
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 1349
-warning$ -- 26
-while$ -- 612
-width$ -- 0
-write$ -- 2387
 (There were 17 error messages)
