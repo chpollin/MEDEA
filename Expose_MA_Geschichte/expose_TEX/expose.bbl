@@ -158,23 +158,6 @@
   \bibAnnoteFile {brickley2014rdf}
 
 \backrefparscanfalse
-\bibitem[{Bursztyn\Bibetal\jbdy {2015}}%
-         {}%
-         {{0}{}{inproceedings}{2015}{}{}{}{1541--1544}%
-          {2015}}%
-         {{Reasoning on web data: Algorithms and performance}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{bursztyn2015reasoning}
- \jbbibargs {\bibnf {Bursztyn} {D.} {D.} {} {}\bibIMfont {\Bibetal}} {D.
-  BursztynF. GoasdouéI. ManolescuA. Roatiş} {aus} {sexless} {\bibapifont
-  {Reasoning on web data: Algorithms and performance}\bibatsep {}
-  \incolledformat {}{}{\bibbtfont {2015 IEEE 31st International Conference on
-  Data Engineering}\bibatsep {} }{}{}   \apyformat {April 2015}
-  \jbPages{1541--1544}} {\bibhowcited} \jbdoitem {{Bursztyn}{D.}{D.}{}{};
-  {Goasdoué}{F.}{F.}{}{}; {Manolescu}{I.}{I.}{}{}; {Roatiş}{A.}{A.}{}{}} {}
-  {} \bibAnnoteFile {bursztyn2015reasoning}
-
-\backrefparscanfalse
 \bibitem[{Clark\jbdy {1859}}%
          {}%
          {{0}{}{book}{1859}{}{}{}{}%
@@ -339,6 +322,25 @@
   {frank2018visualisierungswerkzeuge}
 
 \backrefparscanfalse
+\bibitem[{Gleba\jbbtasep Petersen\jbdy {2015}}%
+         {}%
+         {{0}{}{book}{2015}{}{}{}{}%
+          {Universit{\"a}tsverlag G{\"o}ttingen\bibbdsep {} 2015}}%
+         {{Wirtschafts-und Rechnungsb{\"u}cher des Mittelalters und der
+  Fr{\"u}hen Neuzeit-Formen und Methoden der Rechnungslegung: St{\"a}dte,
+  Kl{\"o}ster und Kaufleute}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{gleba2015wirtschafts}
+ \jbbibargs {\bibnf {Gleba} {Gudrun} {G.} {} {}\Bibbtasep \bibnf {Petersen}
+  {Niels} {N.} {} {}} {Gudrun GlebaNiels Petersen} {aus} {sexless} {\bibtfont
+  {Wirtschafts-und Rechnungsb{\"u}cher des Mittelalters und der Fr{\"u}hen
+  Neuzeit-Formen und Methoden der Rechnungslegung: St{\"a}dte, Kl{\"o}ster und
+  Kaufleute}\bibatsep {}  \apyformat {\jbpublisher{Universit{\"a}tsverlag
+  G{\"o}ttingen\bibbdsep {}} 2015}} {\bibhowcited} \jbdoitem
+  {{Gleba}{Gudrun}{G.}{}{}; {Petersen}{Niels}{N.}{}{}} {} {} \bibAnnoteFile
+  {gleba2015wirtschafts}
+
+\backrefparscanfalse
 \bibitem[{working group\Bibetal\jbdy {2013}}%
          {W3C Recommendation. W3C \jbsy {2013}}%
          {{0}{}{article}{2013}{}{}{}{}%
@@ -387,27 +389,9 @@
   {hiltman2018forschungsdaten}
 
 \backrefparscanfalse
-\bibitem[{Hitzler\Bibetal\jbdy {2016}}%
-         {}%
-         {{1}{}{book}{2016}{}{}{}{}%
-          {IOS Press\bibbdsep {} 2016}}%
-         {{Ontology Engineering with Ontology Design Patterns: Foundations and
-  Applications}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{hitzler2016ontology}
- \jbbibargs {\bibnf {Hitzler} {Pascal} {P.} {} {}\bibIMfont {\Bibetal}} {Pascal
-  HitzlerAldo GangemiKrzysztof JanowiczKrisnadhi AdilaPresutti Valentina} {aus}
-  {sexless} {\bibtfont {Ontology Engineering with Ontology Design Patterns:
-  Foundations and Applications}\bibatsep {}  \apyformat {\jbpublisher{IOS
-  Press\bibbdsep {}} 2016}} {\bibhowcited} \jbdoitem
-  {{Hitzler}{Pascal}{P.}{}{}; {Gangemi}{Aldo}{A.}{}{};
-  {Janowicz}{Krzysztof}{K.}{}{}; {Adila}{Krisnadhi}{K.}{}{};
-  {Valentina}{Presutti}{P.}{}{}} {} {} \bibAnnoteFile {hitzler2016ontology}
-
-\backrefparscanfalse
 \bibitem[{Hitzler\Bibetal\jbdy {2007}}%
          {}%
-         {{1}{}{book}{2007}{}{}{}{}%
+         {{0}{}{book}{2007}{}{}{}{}%
           {Springer-Verlag\bibbdsep {} 2007}}%
          {{Semantic Web: Grundlagen}%
           {}{}{2}{}{}{}{}{}}%
@@ -556,6 +540,21 @@
   {kobler2010qualitat}
 
 \backrefparscanfalse
+\bibitem[{Latour\jbdy {2016}}%
+         {}%
+         {{0}{}{article}{2016}{}{}{}{}%
+          {2016}}%
+         {{Zirkulierende Referenz. Bodenstichproben aus dem Urwald am
+  Amazonas}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{latour2016zirkulierende}
+ \jbbibargs {\bibnf {Latour} {Bruno} {B.} {} {}} {Bruno Latour} {au} {sexless}
+  {\bibapifont {Zirkulierende Referenz. Bodenstichproben aus dem Urwald am
+  Amazonas}\bibatsep {}  \artyearformat {2016}} {\bibartperiodhowcited}
+  \jbdoitem {{Latour}{Bruno}{B.}{}{}} {} {} \bibAnnoteFile
+  {latour2016zirkulierende}
+
+\backrefparscanfalse
 \bibitem[{Linckels\jbbtasep Meinel\jbdy {2011}}%
          {}%
          {{0}{}{book}{2011}{}{}{}{}%
@@ -606,21 +605,6 @@
   {Nipperdey}{Thomas}{T.}{}{}} {} \bibAnnoteFile {mann1979pladoyer}
 
 \backrefparscanfalse
-\bibitem[{McCreary\jbdy {2019}}%
-         {}%
-         {{0}{}{article}{2019}{}{}{}{}%
-          {2019}}%
-         {{Knowledge Graphs: The Third Era of Computing}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{mcCreary2019graph}
- \jburldef
-  {mcCreary2019graph}{https://medium.com/@dmccreary/knowledge-graphs-the-third-era-of-computing-a8106f343450}%
- \jbbibargs {\bibnf {McCreary} {Dan} {D.} {} {}} {Dan McCreary} {au} {sexless}
-  {\bibapifont {Knowledge Graphs: The Third Era of Computing}\bibatsep {}
-  \artyearformat {2019} \jburluse {mcCreary2019graph}} {\bibartperiodhowcited}
-  \jbdoitem {{McCreary}{Dan}{D.}{}{}} {} {} \bibAnnoteFile {mcCreary2019graph}
-
-\backrefparscanfalse
 \bibitem[{Meixner\jbdy {1994}}%
          {Logos (neue Folge), \volname~1, \jbsy {1994}}%
          {{0}{}{article}{1994}{}{}{}{375--399}%
@@ -648,6 +632,25 @@
   \artvolumeformat {1} \artyearformat {2015}\artnumberformat {4}
   \jbPages{4--12}} {\bibartperiodhowcited} \jbdoitem
   {{Musen}{Mark~A}{M.~A.}{}{}} {} {} \bibAnnoteFile {musen2015protege}
+
+\backrefparscanfalse
+\bibitem[{Neher\jbbtasep Ritschel\jbdy {2011}}%
+         {}%
+         {{0}{}{inproceedings}{2011}{}{}{}{169--190}%
+          {2011}}%
+         {{Semantische Vernetzung von Forschungsdaten}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{neher2011semantische}
+ \jbbibargs {\bibnf {Neher} {G{\"u}nther} {G.} {} {}\Bibbtasep \bibnf
+  {Ritschel} {Bernd} {B.} {} {}} {G{\"u}nther NeherBernd Ritschel} {aus}
+  {sexless} {\bibapifont {Semantische Vernetzung von Forschungsdaten}\bibatsep
+  {} \incolledformat {\bibenf {Stephan~B{\"u}ttner} {Lars~M{\"u}ller} {L.~M.}
+  {} {Hans-Christoph~Hobohm}}{\edfont {\editorname}}{\bibbtfont {Handbuch
+  Forschungsdatenmanagement}\bibatsep {} }{6}{}   \apyformat {2011}
+  \jbPages{169--190}} {\bibhowcited} \jbdoitem {{Neher}{G{\"u}nther}{G.}{}{};
+  {Ritschel}{Bernd}{B.}{}{}}
+  {{Stephan~B{\"u}ttner}{Lars~M{\"u}ller}{L.~M.}{}{Hans-Christoph~Hobohm}} {}
+  \bibAnnoteFile {neher2011semantische}
 
 \backrefparscanfalse
 \bibitem[{Opgenoorth\jbbtasep Schulz\jbdy {2010}}%
@@ -727,6 +730,25 @@
   {{Powers}{Shelley}{S.}{}{}} {} {} \bibAnnoteFile {powers2003practical}
 
 \backrefparscanfalse
+\bibitem[{Reiche\jbbfsasep Becker\jbbstasep Bender\jbdy {2014}}%
+         {}%
+         {{0}{}{book}{2014}{}{}{}{}%
+          {Nieders{\"a}chsische Staats-und Universit{\"a}tsbibliothek
+  G{\"o}ttingen\bibbdsep {} 2014}}%
+         {{Verfahren der Digital Humanities in den Geistes-und
+  Kulturwissenschaften}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{reiche2014verfahren}
+ \jbbibargs {\bibnf {Reiche} {Ruth} {R.} {} {}\Bibbfsasep \bibnf {Becker}
+  {Rainer} {R.} {} {}\Bibbstasep \bibnf {Bender} {Michael} {M.} {} {}} {Ruth
+  ReicheRainer BeckerMichael Bender} {aus} {sexless} {\bibtfont {Verfahren der
+  Digital Humanities in den Geistes-und Kulturwissenschaften}\bibatsep {}
+  \apyformat {\jbpublisher{Nieders{\"a}chsische Staats-und
+  Universit{\"a}tsbibliothek G{\"o}ttingen\bibbdsep {}} 2014}} {\bibhowcited}
+  \jbdoitem {{Reiche}{Ruth}{R.}{}{}; {Becker}{Rainer}{R.}{}{};
+  {Bender}{Michael}{M.}{}{}} {} {} \bibAnnoteFile {reiche2014verfahren}
+
+\backrefparscanfalse
 \bibitem[{Reichenberger\jbdy {2010}}%
          {}%
          {{0}{}{incollection}{2010}{}{}{}{3--19}%
@@ -742,28 +764,22 @@
   \bibAnnoteFile {reichenberger2010grundlagen}
 
 \backrefparscanfalse
-\bibitem[{Rietveld\Bibetal\jbdy {2015}}%
-         {}%
-         {{0}{}{inproceedings}{2015}{}{}{}{471--487}%
-          {Cham\bpubaddr {} Springer International Publishing\bibbdsep {}
-  2015}}%
-         {{Linked Data-as-a-Service: The Semantic Web Redeployed}%
-          {}{}{1}{}{}{}{}{}}%
-        ]{rietveld2015linked}
- \jbbibargs {\bibnf {Rietveld} {Laurens} {L.} {} {}\bibIMfont {\Bibetal}}
-  {Laurens RietveldRuben VerborghWouter BeekMiel Vander~SandeStefan Schlobach}
-  {aus} {sexless} {\bibapifont {Linked Data-as-a-Service: The Semantic Web
-  Redeployed}\bibatsep {} \incolledformat {\bibenf {Gandon} {Fabien} {F.} {}
-  {}\bibIMfont {\Bibetal}}{\edfont {\editorsname}}{\bibbtfont {The Semantic
-  Web. Latest Advances and New Domains}\bibatsep {} }{}{}  \apyformat
-  {Cham\jbpublisher{\bpubaddr {} Springer International Publishing}\bibbdsep {}
-  2015}  \jbPages{471--487}} {\bibhowcited} \jbdoitem
-  {{Rietveld}{Laurens}{L.}{}{}; {Verborgh}{Ruben}{R.}{}{};
-  {Beek}{Wouter}{W.}{}{}; {Vander~Sande}{Miel}{M.}{}{};
-  {Schlobach}{Stefan}{S.}{}{}} {{Gandon}{Fabien}{F.}{}{};
-  {Sabou}{Marta}{M.}{}{}; {Sack}{Harald}{H.}{}{}; {d'Amato}{Claudia}{C.}{}{};
-  {Cudr{\'e}-Mauroux}{Philippe}{P.}{}{}; {Zimmermann}{Antoine}{A.}{}{}} {}
-  \bibAnnoteFile {rietveld2015linked}
+\bibitem[{Robson\jbdy {1992}}%
+         {Accounting, Organizations and Society, \Numbername~7, \volname~17,
+  \jbsy {1992}}%
+         {{0}{}{article}{1992}{}{}{}{685--708}%
+          {Elsevier\bibbdsep {} 1992}}%
+         {{Accounting numbers as “inscription”: Action at a distance and
+  the development of accounting}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{robson1992accounting}
+ \jbbibargs {\bibnf {Robson} {Keith} {K.} {} {}} {Keith Robson} {au} {sexless}
+  {\bibapifont {Accounting numbers as “inscription”: Action at a distance
+  and the development of accounting}\bibatsep {} \bibJTsep \bibjtfont
+  {Accounting, Organizations and Society}\ajtsep {}  \artvolumeformat {17}
+  \artyearformat {1992}\artnumberformat {7} \jbPages{685--708}}
+  {\bibartperiodhowcited} \jbdoitem {{Robson}{Keith}{K.}{}{}} {} {}
+  \bibAnnoteFile {robson1992accounting}
 
 \backrefparscanfalse
 \bibitem[{Sahle\jbdy {2013}}%
@@ -872,25 +888,10 @@
 
 \backrefparscanfalse
 \bibitem[{Thaller\jbdy {2017}}%
-         {}%
-         {{1}{}{incollection}{2017\el {a}}{}{}{}{13--18}%
-          {Springer\bibbdsep {} 2017\el {a}}}%
-         {{Digital Humanities als Wissenschaft}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{thaller2017digital}
- \jbbibargs {\bibnf {Thaller} {Manfred} {M.} {} {}} {Manfred Thaller} {au}
-  {sexless} {\bibapifont {Digital Humanities als Wissenschaft}\bibatsep {}
-  \incolledformat {}{}{\bibbtfont {Digital Humanities} }{}{}  \apyformat
-  {\jbpublisher{Springer\bibbdsep {}} 2017\bibel {a}}  \jbPages{13--18}}
-  {\bibhowcited} \jbdoitem {{Thaller}{Manfred}{M.}{}{}} {} {} \bibAnnoteFile
-  {thaller2017digital}
-
-\backrefparscanfalse
-\bibitem[{Thaller\jbdy {2017}}%
          {Historical Social Research/Historische Sozialforschung. Supplement
   \jbsy {2017}}%
-         {{1}{}{article}{2017\el {b}}{}{}{}{260--286}%
-          {JSTOR\bibbdsep {} 2017\el {b}}}%
+         {{1}{}{article}{2017\el {a}}{}{}{}{260--286}%
+          {JSTOR\bibbdsep {} 2017\el {a}}}%
          {{Historical Information Science: Is there such a Thing? New Comments
   on an old Idea [1993]}%
           {}{}{2}{}{}{}{}{}}%
@@ -899,7 +900,7 @@
   {sexless} {\bibapifont {Historical Information Science: Is there such a
   Thing? New Comments on an old Idea [1993]}\bibatsep {} \bibJTsep \bibjtfont
   {Historical Social Research/Historische Sozialforschung. Supplement}\ajtsep
-  {}  \artyearformat {2017\bibel {b}} \jbPages{260--286}}
+  {}  \artyearformat {2017\bibel {a}} \jbPages{260--286}}
   {\bibartperiodhowcited} \jbdoitem {{Thaller}{Manfred}{M.}{}{}} {} {}
   \bibAnnoteFile {thaller2017historical}
 
@@ -907,8 +908,8 @@
 \bibitem[{Thaller\jbdy {2017}}%
          {Historical Social Research/Historische Sozialforschung. Supplement
   \jbsy {2017}}%
-         {{1}{}{article}{2017\el {c}}{}{}{}{203--220}%
-          {JSTOR\bibbdsep {} 2017\el {c}}}%
+         {{1}{}{article}{2017\el {b}}{}{}{}{203--220}%
+          {JSTOR\bibbdsep {} 2017\el {b}}}%
          {{The Need for Standards: Data Modelling and Exchange [1991]}%
           {}{}{2}{}{}{}{}{}}%
         ]{thaller2017need}
@@ -916,15 +917,15 @@
   {sexless} {\bibapifont {The Need for Standards: Data Modelling and Exchange
   [1991]}\bibatsep {} \bibJTsep \bibjtfont {Historical Social
   Research/Historische Sozialforschung. Supplement}\ajtsep {}  \artyearformat
-  {2017\bibel {c}} \jbPages{203--220}} {\bibartperiodhowcited} \jbdoitem
+  {2017\bibel {b}} \jbPages{203--220}} {\bibartperiodhowcited} \jbdoitem
   {{Thaller}{Manfred}{M.}{}{}} {} {} \bibAnnoteFile {thaller2017need}
 
 \backrefparscanfalse
 \bibitem[{Thaller\jbdy {2017}}%
          {Historical Social Research/Historische Sozialforschung. Supplement
   \jbsy {2017}}%
-         {{1}{}{article}{2017\el {d}}{}{}{}{138--159}%
-          {JSTOR\bibbdsep {} 2017\el {d}}}%
+         {{1}{}{article}{2017\el {c}}{}{}{}{138--159}%
+          {JSTOR\bibbdsep {} 2017\el {c}}}%
          {{Ungef{\"a}hre Exaktheit. Theoretische Grundlagen und praktische
   M{\"o}glichkeiten einer Formulierung historischer Quellen als Produkte
   ‚unscharfer ‘Systeme [1984]}%
@@ -935,7 +936,7 @@
   praktische M{\"o}glichkeiten einer Formulierung historischer Quellen als
   Produkte ‚unscharfer ‘Systeme [1984]}\bibatsep {} \bibJTsep \bibjtfont
   {Historical Social Research/Historische Sozialforschung. Supplement}\ajtsep
-  {}  \artyearformat {2017\bibel {d}} \jbPages{138--159}}
+  {}  \artyearformat {2017\bibel {c}} \jbPages{138--159}}
   {\bibartperiodhowcited} \jbdoitem {{Thaller}{Manfred}{M.}{}{}} {} {}
   \bibAnnoteFile {thaller2017ungefahre}
 
@@ -955,27 +956,6 @@
   {2013}\artnumberformat {6}} {\bibartperiodhowcited} \jbdoitem
   {{Tomasek}{Kathryn}{K.}{}{}; {Bauman}{Syd}{S.}{}{}} {} {} \bibAnnoteFile
   {tomasek2013encoding}
-
-\backrefparscanfalse
-\bibitem[{Vasold\jbdy {2015}}%
-         {Beitr{\"a}ge zur Rechtsgeschichte {\"O}sterreichs, \volname~2, \jbsy
-  {2015}}%
-         {{0}{}{article}{2015}{}{}{}{231--244}%
-          {Verlag der {\"O}sterreichischen Akademie der Wissenschaften\bibbdsep
-  {} 2015}}%
-         {{Vom „Allerunderthenigsten Anruffen “zum analytischen Abrufen Ein
-  Werkzeug zur kooperativen Erfassung, Verwaltung und Analyse von
-  Untertanensuppliken}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{vasold2015allerunderthenigsten}
- \jbbibargs {\bibnf {Vasold} {Gunter} {G.} {} {}} {Gunter Vasold} {au}
-  {sexless} {\bibapifont {Vom „Allerunderthenigsten Anruffen “zum
-  analytischen Abrufen Ein Werkzeug zur kooperativen Erfassung, Verwaltung und
-  Analyse von Untertanensuppliken}\bibatsep {} \bibJTsep \bibjtfont
-  {Beitr{\"a}ge zur Rechtsgeschichte {\"O}sterreichs}\ajtsep {}
-  \artvolumeformat {2} \artyearformat {2015} \jbPages{231--244}}
-  {\bibartperiodhowcited} \jbdoitem {{Vasold}{Gunter}{G.}{}{}} {} {}
-  \bibAnnoteFile {vasold2015allerunderthenigsten}
 
 \backrefparscanfalse
 \bibitem[{Vogeler\jbdy {2015}}%
