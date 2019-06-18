@@ -1,5 +1,15 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: expose.aux
 The style file: jurabib.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: literatur.bib
 Repeated entry---line 734 of file literatur.bib
  : @article{musen2015protege
@@ -99,4 +109,45 @@ Warning--Empty pages in stachowiak1973allgemeine
 Warning--Empty pages in sure2003methodology
 Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
+You've used 65 entries,
+            7954 wiz_defined-function locations,
+            1722 strings with 20988 characters,
+and the built_in function-call counts, 67759 in all, are:
+= -- 4757
+> -- 2337
+< -- 201
++ -- 817
+- -- 738
+* -- 7773
+:= -- 9718
+add.period$ -- 0
+call.type$ -- 65
+change.case$ -- 318
+chr.to.int$ -- 90
+cite$ -- 170
+duplicate$ -- 3690
+empty$ -- 6983
+format.name$ -- 2372
+if$ -- 13720
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 374
+newline$ -- 597
+num.names$ -- 535
+pop$ -- 1434
+preamble$ -- 1
+purify$ -- 315
+quote$ -- 0
+skip$ -- 2610
+stack$ -- 0
+substring$ -- 1967
+swap$ -- 1770
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1367
+warning$ -- 28
+while$ -- 610
+width$ -- 0
+write$ -- 2400
 (There were 17 error messages)
