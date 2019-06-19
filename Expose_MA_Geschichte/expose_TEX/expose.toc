@@ -11,27 +11,27 @@
 \contentsline {subsection}{\numberline {2.2}Modellbildung in den Geschichtswissenschaften}{11}
 \contentsline {subsubsection}{\numberline {2.2.1}Forschungsdaten in den Geschichtswissenschaften}{15}
 \contentsline {subsubsection}{\numberline {2.2.2}Modelle in den Geschichtswissenschaften}{17}
-\contentsline {section}{\numberline {3}Web of Data}{18}
-\contentsline {subsection}{\numberline {3.1}Geschichte und Vision des Web of Data}{18}
-\contentsline {subsection}{\numberline {3.2}Web of Data Stack}{19}
-\contentsline {subsubsection}{\numberline {3.2.1}Resource Description Framework}{19}
-\contentsline {subsubsection}{\numberline {3.2.2}Resource Description Framework Schema (RDFs)}{23}
-\contentsline {subsubsection}{\numberline {3.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{25}
-\contentsline {subsubsection}{\numberline {3.2.4}Abfragesprache: SPARQL}{25}
-\contentsline {subsection}{\numberline {3.3}Ontologien}{25}
-\contentsline {subsubsection}{\numberline {3.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{26}
-\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{29}
-\contentsline {subsection}{\numberline {4.1}Andere Projekte}{31}
-\contentsline {subsection}{\numberline {4.2}Finanztransaktionen}{31}
-\contentsline {subsection}{\numberline {4.3}DEPCHA}{31}
-\contentsline {subsection}{\numberline {4.4}The George Washington Financial Papers}{31}
-\contentsline {subsection}{\numberline {4.5}The Wheaton Accounts}{32}
-\contentsline {section}{\numberline {5}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{37}
-\contentsline {subsection}{\numberline {5.1}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{40}
-\contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition}{40}
-\contentsline {subsubsection}{\numberline {5.1.2}Bookkeeping-Ontology}{40}
-\contentsline {subsubsection}{\numberline {5.1.3}TEI Beispiele DEPCHA}{41}
-\contentsline {subsubsection}{\numberline {5.1.4}Informationsvisualisierung}{43}
-\contentsline {subsubsection}{\numberline {5.1.5}Statistische Auswertung}{45}
-\contentsline {section}{\numberline {6}Textfragmente}{45}
-\contentsline {section}{\numberline {7}Zusammenfassung}{45}
+\contentsline {section}{\numberline {3}Web of Data}{17}
+\contentsline {subsection}{\numberline {3.1}Geschichte und Vision des Web of Data}{17}
+\contentsline {subsection}{\numberline {3.2}Web of Data Stack}{18}
+\contentsline {subsubsection}{\numberline {3.2.1}Resource Description Framework}{18}
+\contentsline {subsubsection}{\numberline {3.2.2}Resource Description Framework Schema (RDFs)}{22}
+\contentsline {subsubsection}{\numberline {3.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{24}
+\contentsline {subsubsection}{\numberline {3.2.4}Abfragesprache: SPARQL}{24}
+\contentsline {subsection}{\numberline {3.3}Ontologien}{24}
+\contentsline {subsubsection}{\numberline {3.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{25}
+\contentsline {section}{\numberline {4}Historische Rechnungsb\IeC {\"u}cher als Quelle}{28}
+\contentsline {subsection}{\numberline {4.1}Andere Projekte}{29}
+\contentsline {subsection}{\numberline {4.2}Finanztransaktionen}{30}
+\contentsline {subsection}{\numberline {4.3}DEPCHA}{30}
+\contentsline {subsection}{\numberline {4.4}The George Washington Financial Papers}{30}
+\contentsline {subsection}{\numberline {4.5}The Wheaton Accounts}{31}
+\contentsline {section}{\numberline {5}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{36}
+\contentsline {subsection}{\numberline {5.1}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{39}
+\contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition}{39}
+\contentsline {subsubsection}{\numberline {5.1.2}Bookkeeping-Ontology}{39}
+\contentsline {subsubsection}{\numberline {5.1.3}TEI Beispiele DEPCHA}{40}
+\contentsline {subsubsection}{\numberline {5.1.4}Informationsvisualisierung}{41}
+\contentsline {subsubsection}{\numberline {5.1.5}Statistische Auswertung}{44}
+\contentsline {section}{\numberline {6}Textfragmente}{44}
+\contentsline {section}{\numberline {7}Zusammenfassung}{44}
