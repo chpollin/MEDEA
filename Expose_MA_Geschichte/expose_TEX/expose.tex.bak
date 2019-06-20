@@ -704,8 +704,11 @@ die Möglichkeit, geografische Beziehungen von Personen oder die Herkunft von Wa
 \\
 Ziel der Masterarbeit soll es nicht sein die Projektinhalte zu dokumentieren, sondern sich mit theoretischen und praktischen Fragestellungen zu formaler Modellen und formaler Methoden in den Geschichtswissenschaften  auseinanderzusetzen, wiewohl Quellen, Workflows und Daten aus dem DEPCHA Projekt einfließen sollen.
 
-\section{Die Bookkeeping-Ontology als konzeptuelles Model für digitale Editionen von historischen Rechnungsbücher}
+\section{Anwendung formaler Methoden auf Basis einer Ontologie}
 \label{Umsetzung}
+
+\subsection{Die Bookkeeping-Ontology als konzeptuelles Model für digitale Editionen von historischen Rechnungsbücher}
+\label{BK}
 
 MEDEA-Paper:
 A CIDOC-CRM Based Ontology of Economic Activities
@@ -892,13 +895,42 @@ Ein bk:Transfer kann von einem bk:Agent durchgeführt werden, also jemand übern
     \caption[Graphische Darstellung des RDF, eigene Darstellung, 01.06.2019.]{Graphische Darstellung des RDF} \label{fig:example}
 \end{figure}
 
-\subsubsection{Informationsvisualisierung}
+\subsection{Informationsvisualisierung }
 
-Der Mensch nimmt seine Umwelt wahr und beobachtet sie. Aber nicht alles. Oft Aufgabe für Spezialisten. Jeder generiert Wissen. Die besten Beobachtungen streiten sich um den besten Platz. 
-Baum des Wissens, Aufteilung in di Disziplinen.
-Die Wissensspeicher nehmen einen Bruchstück der Welt auf und repräsentieren ihn.
-Fachsprachen
-Textuelle Repräsentation vs. visuelle Repräsentation 
+''\textit{The time of diagrammatic thinking is upon us. We need graphical interfaces for multidimensional and multimedia authoring that take advantage of computers’ abilities to aggregate, synthesize, and organize arguments along multiple axes}''\footcite[][S.119]{burdick2012digital_humanities}
+\\
+\\
+Arbeitet man mit historischen Rechnungsbüchern, so arbeitet man mit einer Vielzahl von Informationsfragmenten. Für Forschungsfragen ist oft der Blick auf das Ganze interessant und so auf die Aggregation und Synthese der einzelnen Belge. BURDICK sieht gerde im Aufkommen der digitalen Geisteswissenschaften die Zeit reif die Ergebnisse der computgestützen Verarbeitung multidimensional zu Visualisieren. Die Informationsvisualisierung ist eine Methode, die dabei helfen kann Erklärungen historischer Ereignisse, die aus der Zusammenschau vieler Quellen und Entitäten zusammenkommen, zu argumentieren und sichtbar zu machen.\footcite[][S.3-5]{frank2018visualisierungswerkzeuge}
+\\
+\\
+Als Visualisierung versteht man -- neben dem eigenständigen Fach aus dem Bereich \textit{Human-Computer Interaction} -- die Anwendung computerbasierter, interaktiver und visueller Repräsentation von abstrahierten Daten, die eine Hilfestellung bei der inhaltlichen Erfassung eines Themas liefern. Die Daten können sowohl quantitativer, geographische Koordinaten oder Messwerte, sowie qualitativer natur sein. Die Fachliteratur unterscheidet zwei Herangehensweisen. Wo die \textbf{Scientific Visualization} die Welt so darstellt, wie sie ist, beispielsweise die naturgetreue Darstellung des menschlichebn Körpers, wird in der \textbf{Information Visualization} ein Datenbestand in neuen (abstrakten) Räumen,  wie etwa in einem Koordinatensystem dargestellt. MUNZER fasst dies zusammen als "\textit{Its scientific visualization when the spatial representation is given. Its Information Visualization when the spatial represenation is chosen}''\footcite[][S.134-153)]{munzner2008process}. Im Falle von Rechnungsbüchern, und den Geschichtwissenschaften generell, kann man stets von einer Informationsvisualisierung ausgehen. Eine naturgetreue Darstellung historischer Ereignisse ist nie möglich.
+\\
+\\
+FRANK führt 4 Beispiele von Projekten an, die die Methoden der Informationsvisualisierung so nutzen, dass sie wesentlicher Bestandteil zur Bearbeitung  der 
+
+
+1. Wird überhaupt eine interessante geisteswissenschaftliche
+Forschungsfrage gestellt? 2. Ist Informationsverarbeitung wesentlicher Bestandteil? 3. Werden
+die Ergebnisse kritisch überprüft? 4. Ist die Vorgehensweise auch auf ähnliche Fragestellungen
+anwendbar?
+
+
+Im folgenden gehe ich kurz auf Projektbeispiele ein, bei denen alle vier Fragen mit ‚ja‘ beantwortet werden können. Die ausgewählten Projekte kommen zwar nicht direkt aus dem Bereich
+der Digital Humanities, haben sich allerdings zum Ziel gesetzt, die für die Geisteswissenschaften typische idiographische Forschung (siehe dazu auch Levy, 2001, S. 45) mit Computerbasierten Analysemethoden und Visualisierungswerkzeugen zu unterstützen – was hier für die
+Beispielauswahl ausschlaggebend ist, da es uns darum letztlich geht, aber Werkzeuge dazu in
+den Digital Humanities immer noch in Aussicht gestellt werden (siehe Drucker, 2011, 2015).
+Das CEWS-Projekt (Alker et al., 2001) kommt aus dem politikwissenschaftlichen Bereich, ist
+aber besonders interessant, da es methodische Anleihen aus den Geisteswissenschaften nimmt,
+um multiperspektivische Konfliktforschung zu verbessern. Das Projekt ist damit ein Beispiel,
+den möglichen Beitrag der Geisteswissenschaften zur Methoden- und Werkzeugentwicklung
+zu demonstrieren. So wird im Projekt Modallogik als formaler Rahmen für die kontrafaktische
+Analyse von möglichen Konfliktverläufen eingesetzt und die auf Husserl zurückgehende generative Phänomenologie wird zur Analyse der Perspektiven von historischen Akteuren (Konfliktparteien) auf Konfliktereignisse vorgeschlagen. Pellon (2010) kommt aus dem Bereich In
+
+
+\subsubsection{Von Daten zur Darstellung}
+
+Ausgangspunkt für die Visualisierung sind Daten und ein Modell nachdem die Daten angeordnet sind.
+\\ 
 \\
 Sprache ist leichter als Bilder verwenden in einer Kommunikation.
 \\
@@ -950,8 +982,6 @@ Visualization of Cultural Heritage Collection Data: State of the Art and Future 
 Paper:
 Distributed Cognition as a Theoretical Framework for Information Visualization
 \\
-Visualisierung ist die Anwendung von computerbasierter, interaktiver visuellen Repräsentation von abstrakten Daten um die Kognition zu verbessern.
-[Card et al. 1999]
 \\
 “The purpose of information visualization is to amplify cognitive performance, not just to create interesting pictures.”
 \\
@@ -985,7 +1015,6 @@ Für die Informationsvisualisierung ist es wichtig zuerst ein konzeptuelles Mode
 \\
 SciVis - InfoVis
 \\
-Its scivis when the spatial representation is given. Its infovis when the spatial represenation is chosen [Munzner, 2008]. 
 \\
 Wenn die räumliche Einordnung gegeben ist, wenn die räumliche Darstellung erst geschaffen wird. 
 \\

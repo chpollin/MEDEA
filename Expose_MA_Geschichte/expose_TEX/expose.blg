@@ -11,73 +11,73 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: literatur.bib
-Repeated entry---line 734 of file literatur.bib
+Repeated entry---line 750 of file literatur.bib
  : @article{musen2015protege
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 749 of file literatur.bib
+Repeated entry---line 765 of file literatur.bib
  : @book{linckels2011librarian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 757 of file literatur.bib
+Repeated entry---line 773 of file literatur.bib
  : @book{stuckenschmidt2009ontologien
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 765 of file literatur.bib
+Repeated entry---line 781 of file literatur.bib
  : @book{reichenberger2010grundlagen
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 772 of file literatur.bib
+Repeated entry---line 788 of file literatur.bib
  : @inproceedings{hoekstra2009ontology
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 785 of file literatur.bib
+Repeated entry---line 801 of file literatur.bib
  : @phdthesis{borst1997construction
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 795 of file literatur.bib
+Repeated entry---line 811 of file literatur.bib
  : @article{gruber1993translation
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 809 of file literatur.bib
+Repeated entry---line 825 of file literatur.bib
  : @book{favre2001information
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 816 of file literatur.bib
+Repeated entry---line 832 of file literatur.bib
  : @article{thaller2017ungefahre
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 826 of file literatur.bib
+Repeated entry---line 842 of file literatur.bib
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 888 of file literatur.bib
+Repeated entry---line 904 of file literatur.bib
  : @book{jannidis2017digital
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 919 of file literatur.bib
+Repeated entry---line 935 of file literatur.bib
  : @article{schreiber2014rdf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 934 of file literatur.bib
+Repeated entry---line 950 of file literatur.bib
  : @techreport{berners2004uniform
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 948 of file literatur.bib
+Repeated entry---line 964 of file literatur.bib
  : @book{powers2003practical
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 956 of file literatur.bib
+Repeated entry---line 972 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "pollin2017suchen" isn't style-file defined
---line 1020 of file literatur.bib
-Repeated entry---line 1037 of file literatur.bib
+--line 1036 of file literatur.bib
+Repeated entry---line 1053 of file literatur.bib
  : @book{andorfer2015forschungsdaten
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1152 of file literatur.bib
+Repeated entry---line 1168 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
@@ -109,45 +109,45 @@ Warning--Empty pages in stachowiak1973allgemeine
 Warning--Empty pages in sure2003methodology
 Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
-You've used 65 entries,
+You've used 67 entries,
             7954 wiz_defined-function locations,
-            1722 strings with 20988 characters,
-and the built_in function-call counts, 67759 in all, are:
-= -- 4757
-> -- 2337
-< -- 201
-+ -- 817
-- -- 738
-* -- 7773
-:= -- 9718
+            1732 strings with 21282 characters,
+and the built_in function-call counts, 70431 in all, are:
+= -- 4922
+> -- 2451
+< -- 205
++ -- 855
+- -- 774
+* -- 8095
+:= -- 10109
 add.period$ -- 0
-call.type$ -- 65
-change.case$ -- 318
-chr.to.int$ -- 90
-cite$ -- 170
-duplicate$ -- 3690
-empty$ -- 6983
-format.name$ -- 2372
-if$ -- 13720
+call.type$ -- 67
+change.case$ -- 330
+chr.to.int$ -- 92
+cite$ -- 174
+duplicate$ -- 3845
+empty$ -- 7262
+format.name$ -- 2480
+if$ -- 14255
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 374
-newline$ -- 597
-num.names$ -- 535
-pop$ -- 1434
+missing$ -- 385
+newline$ -- 615
+num.names$ -- 551
+pop$ -- 1506
 preamble$ -- 1
-purify$ -- 315
+purify$ -- 327
 quote$ -- 0
-skip$ -- 2610
+skip$ -- 2691
 stack$ -- 0
-substring$ -- 1967
-swap$ -- 1770
+substring$ -- 2051
+swap$ -- 1847
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1367
+type$ -- 1407
 warning$ -- 28
-while$ -- 610
+while$ -- 630
 width$ -- 0
-write$ -- 2400
+write$ -- 2474
 (There were 17 error messages)

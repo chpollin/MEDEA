@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  18 JUN 2019 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  20 JUN 2019 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1588,18 +1588,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 638--706
  []
 
 [33 <./img/LMwheaton.jpg>] [34] [35] [36 <./img/wheaton_100_101.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 710--832
+Underfull \hbox (badness 10000) in paragraph at lines 713--835
 
  []
 
 [37] [38] [39]
-Overfull \hbox (2.49194pt too wide) in paragraph at lines 839--845
+Overfull \hbox (2.49194pt too wide) in paragraph at lines 842--848
 \T1/ptm/m/n/12 Die \T1/ptm/m/it/12 Book-kee-ping On-to-lo-gy \T1/ptm/m/n/12 ist
  ein kon-zep-tio-nel-les Mo-dell zur for-ma-len Be-schrei-bung von Trans-
  []
 
 
-Overfull \hbox (10.59587pt too wide) in paragraph at lines 839--845
+Overfull \hbox (10.59587pt too wide) in paragraph at lines 842--848
 \T1/ptm/m/n/12 ak-tio-nen in hi-sto-ri-schen Rech-nungs-un-ter-la-gen. Es wur-d
 e in ei-nem Ontologie-Engineering-Prozess
  []
@@ -1608,10 +1608,45 @@ e in ei-nem Ontologie-Engineering-Prozess
 <img/example.png, id=162, 3338.4725pt x 2566.58875pt>
 File: img/example.png Graphic file (type png)
 <use img/example.png>
-Package pdftex.def Info: img/example.png  used on input line 891.
+Package pdftex.def Info: img/example.png  used on input line 894.
 (pdftex.def)             Requested size: 341.43307pt x 262.47002pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 897--1018
+Underfull \hbox (badness 10000) in paragraph at lines 900--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--1027
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--1027
 
  []
 
@@ -1619,21 +1654,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 897--1018
 
 Package jurabib Warning: `shorttitle' for `sahle2013digitale'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 1030.
+(jurabib)                field on input line 1039.
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 1035--1035
+Underfull \hbox (badness 2181) in paragraph at lines 1044--1044
 [][][][]\T1/ptm/m/n/10 Vgl. \T1/ptm/m/sc/10 To-ma-sek\T1/ptm/m/n/10 /\T1/ptm/m/
 sc/10 Bauman\T1/ptm/m/n/10 : Jour-nal of the Text En-co-ding In-itia-ti-ve 2013
 , S.1-2, $\T1/cmtt/m/n/10 http : / / journals .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1027--1037
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1046
 
  []
 
-[45] (./expose.bbl
+[45] [46] (./expose.bbl
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ptm/b/sc' tried instead on input line 20.
 
@@ -1643,13 +1678,13 @@ Underfull \hbox (badness 1603) in paragraph at lines 84--85
 /b/n/12 Lar-ry: \T1/ptm/m/n/12 Uni-form re-sour-ce iden-ti-fier
  []
 
-[46] [47] [48]
-Underfull \hbox (badness 2384) in paragraph at lines 785--787
+[47] [48] [49]
+Underfull \hbox (badness 2384) in paragraph at lines 815--817
 []\T1/ptm/b/sc/12 Stuckenschmidt, \T1/ptm/b/n/12 Hei-ner: \T1/ptm/m/n/12 On-to-
 lo-gi-en: Kon-zep-te, Tech-no-lo-gi-en und An-wen-dun-gen.
  []
 
-[49]) [50] (./expose.lof
+[50]) [51] (./expose.lof
 Overfull \hbox (44.69315pt too wide) in paragraph at lines 2--2
  \T1/ptm/m/n/12 del-lie-rungs-me-tho-den der In-for-ma-tik'', $\T1/cmtt/m/n/12 
 http : / / www . ti . inf . uni-[]due . de / fileadmin / 
@@ -1659,7 +1694,7 @@ http : / / www . ti . inf . uni-[]due . de / fileadmin /
 \tf@lof=\write6
 \openout6 = `expose.lof'.
 
- [51] (./expose.aux)
+ [52] (./expose.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1668,10 +1703,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21731 strings out of 494830
- 389460 string characters out of 6177366
- 499595 words of memory out of 5000000
- 24793 multiletter control sequences out of 15000+600000
+ 21763 strings out of 494830
+ 390146 string characters out of 6177366
+ 500177 words of memory out of 5000000
+ 24825 multiletter control sequences out of 15000+600000
  590770 words of font info for 89 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,7n,47p,10378b,1551s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1684,10 +1719,10 @@ e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on expose.pdf (53 pages, 2897177 bytes).
+Output written on expose.pdf (54 pages, 2900152 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 383 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

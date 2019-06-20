@@ -146,6 +146,21 @@
   {Guha}{Ramanathan~V}{R.~V.}{}{}; {McBride}{Brian}{B.}{}{}} {} {}
   \bibAnnoteFile {brickley2014rdf}
 
+\bibitem[{Burdick\Bibetal\jbdy {2012}}%
+         {}%
+         {{0}{}{book}{2012}{}{}{}{}%
+          {Mit Press\bibbdsep {} 2012}}%
+         {{Digital\_Humanities}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{burdick2012digital_humanities}
+ \jbbibargs {\bibnf {Burdick} {Anne} {A.} {} {}\bibIMfont {\Bibetal}} {Anne
+  BurdickJohanna DruckerPeter LunenfeldTodd PresnerJeffrey Schnapp} {aus}
+  {\bibtfont {Digital\_Humanities}\bibatsep\  \apyformat {Mit Press\bibbdsep {}
+  2012}} {\bibhowcited} \jbdoitem {{Burdick}{Anne}{A.}{}{};
+  {Drucker}{Johanna}{J.}{}{}; {Lunenfeld}{Peter}{P.}{}{};
+  {Presner}{Todd}{T.}{}{}; {Schnapp}{Jeffrey}{J.}{}{}} {} {} \bibAnnoteFile
+  {burdick2012digital_humanities}
+
 \bibitem[{Clark\jbdy {1859}}%
          {}%
          {{0}{}{book}{1859}{}{}{}{}%
@@ -567,6 +582,21 @@
   (neue Folge)}\ajtsep\  \artvolumeformat {1} \artyearformat {1994}
   \jbPages{375--399}} {\bibartperiodhowcited} \jbdoitem
   {{Meixner}{Uwe}{U.}{}{}} {} {} \bibAnnoteFile {meixner1994wissenschaft}
+
+\bibitem[{Munzner\jbdy {2008}}%
+         {}%
+         {{0}{}{incollection}{2008}{}{}{}{134--153}%
+          {Springer\bibbdsep {} 2008}}%
+         {{Process and pitfalls in writing information visualization research
+  papers}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{munzner2008process}
+ \jbbibargs {\bibnf {Munzner} {Tamara} {T.} {} {}} {Tamara Munzner} {au}
+  {\bibapifont {Process and pitfalls in writing information visualization
+  research papers}\bibatsep\ \incolledformat {}{}{\bibbtfont {Information
+  visualization}\bibatsep\ }{}{}  \apyformat {Springer\bibbdsep {} 2008}
+  \jbPages{134--153}} {\bibhowcited} \jbdoitem {{Munzner}{Tamara}{T.}{}{}} {}
+  {} \bibAnnoteFile {munzner2008process}
 
 \bibitem[{Musen\jbdy {2015}}%
          {AI matters 1  \peryearformat {2015}}%

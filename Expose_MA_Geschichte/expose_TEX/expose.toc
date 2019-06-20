@@ -26,12 +26,13 @@
 \contentsline {subsection}{\numberline {4.3}DEPCHA}{31}
 \contentsline {subsection}{\numberline {4.4}The George Washington Financial Papers}{31}
 \contentsline {subsection}{\numberline {4.5}The Wheaton Accounts}{32}
-\contentsline {section}{\numberline {5}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{37}
-\contentsline {subsection}{\numberline {5.1}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{40}
-\contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition}{40}
-\contentsline {subsubsection}{\numberline {5.1.2}Bookkeeping-Ontology}{40}
-\contentsline {subsubsection}{\numberline {5.1.3}TEI Beispiele DEPCHA}{41}
-\contentsline {subsubsection}{\numberline {5.1.4}Informationsvisualisierung}{43}
-\contentsline {subsubsection}{\numberline {5.1.5}Statistische Auswertung}{45}
-\contentsline {section}{\numberline {6}Textfragmente}{45}
-\contentsline {section}{\numberline {7}Zusammenfassung}{45}
+\contentsline {section}{\numberline {5}Anwendung formaler Methoden auf Basis einer Ontologie}{37}
+\contentsline {subsection}{\numberline {5.1}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{37}
+\contentsline {subsection}{\numberline {5.2}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{40}
+\contentsline {subsubsection}{\numberline {5.2.1}Digitale Edition}{40}
+\contentsline {subsubsection}{\numberline {5.2.2}Bookkeeping-Ontology}{40}
+\contentsline {subsubsection}{\numberline {5.2.3}TEI Beispiele DEPCHA}{41}
+\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung }{43}
+\contentsline {subsubsection}{\numberline {5.3.1}Statistische Auswertung}{46}
+\contentsline {section}{\numberline {6}Textfragmente}{46}
+\contentsline {section}{\numberline {7}Zusammenfassung}{46}
