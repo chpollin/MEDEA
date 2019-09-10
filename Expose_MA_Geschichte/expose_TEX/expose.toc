@@ -7,7 +7,7 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Geschichte und Geschichtswissenschaft: eine Definition}{7}
 \contentsline {subsubsection}{\numberline {2.1.2}Hermeneutik - Empirismus}{9}
 \contentsline {subsubsection}{\numberline {2.1.3}''Klassische'' Methoden}{10}
-\contentsline {subsection}{\numberline {2.2}(Digitale) Quantifizierer und Traditionalisten: Entwicklung einer formalen, digitalen Methodik }{11}
+\contentsline {subsection}{\numberline {2.2}(Digitale) Quantifizierer und Traditionalisten: Entwicklung einer formalen, digitalen Methodik }{12}
 \contentsline {subsubsection}{\numberline {2.2.1}Interpretation und Theoriebildung}{12}
 \contentsline {subsection}{\numberline {2.3}Modellbildung als Kern der Digital History}{14}
 \contentsline {subsubsection}{\numberline {2.3.1}Forschungsdaten in den Geschichtswissenschaften}{17}

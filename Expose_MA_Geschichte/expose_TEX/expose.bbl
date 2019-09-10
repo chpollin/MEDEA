@@ -588,6 +588,23 @@
   {Logos Verlag Berlin GmbH\bibbdsep {} 2010}} {\bibhowcited} \jbdoitem
   {{Kobler}{Maximilian}{M.}{}{}} {} {} \bibAnnoteFile {kobler2010qualitat}
 
+\bibitem[{Kocka\jbdy {1982}}%
+         {}%
+         {{0}{}{incollection}{1982}{}{}{}{7--27}%
+          {Paderborn: Sch{\"o}ningh\bibbdsep {} 1982}}%
+         {{Theorien in der Geschichtswissenschaft}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{kocka1982theorien}
+ \jbbibargs {\bibnf {Kocka} {J{\"u}rgen} {J.} {} {}} {J{\"u}rgen Kocka} {au}
+  {\bibapifont {Theorien in der Geschichtswissenschaft}\bibatsep\
+  \incolledformat {}{}{\bibbtfont {Theoriedebatte und Geschichtsunterricht:
+  Sozialgeschichte, Paradigmawechsel und Geschichtsdidaktik in der aktuellen
+  Diskussion. Vortr{\"a}ge auf der Jahrestagung des Landesverbandes
+  nordrhein-westf{\"a}lischer Geschichtslehrer am 23. November 1981 in
+  Essen}\bibatsep\ }{}{}  \apyformat {Paderborn: Sch{\"o}ningh\bibbdsep {}
+  1982}  \jbPages{7--27}} {\bibhowcited} \jbdoitem
+  {{Kocka}{J{\"u}rgen}{J.}{}{}} {} {} \bibAnnoteFile {kocka1982theorien}
+
 \bibitem[{Latour\jbdy {2016}}%
          {}%
          {{0}{}{article}{2016}{}{}{}{}%
