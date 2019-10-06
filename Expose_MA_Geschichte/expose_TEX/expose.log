@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  17 AUG 2019 11:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  6 OCT 2019 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,7 +1197,7 @@ Do-ku-men-ta-ti-on und Edi-ti-on mehr-schich-ti-ger Tex-te : das steirisch-
  []
 
 
-Overfull \hbox (58.63284pt too wide) in paragraph at lines 130--130
+Overfull \hbox (58.63284pt too wide) in paragraph at lines 129--129
 [][][]$\T1/cmtt/m/n/10 https : / / www . siebenbuerger . de / zeitung / artikel
  / kultur / 14043-[]rechnungsbuecher-[]von-[]bistritz-[]aus-[]den .
  []
@@ -1205,16 +1205,22 @@ Overfull \hbox (58.63284pt too wide) in paragraph at lines 130--130
 
 Package jurabib Warning: `shorttitle' for `vogeler2016content'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 132.
+(jurabib)                field on input line 131.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--135
+Underfull \hbox (badness 10000) in paragraph at lines 117--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--135
+Underfull \hbox (badness 10000) in paragraph at lines 117--138
 
+ []
+
+
+Overfull \hbox (2.15123pt too wide) in paragraph at lines 117--138
+\T1/ptm/m/n/12 Diese um-fas-sen bei-spiels-wei-se Schuld- und Rech-nungs-bü-che
+r des Deut-schen Or-dens um 1400, []
  []
 
 [3] [4] [5]
@@ -1224,66 +1230,68 @@ Package jurabib Warning: `shorttitle' for `vogeler2015mittelalterliche'
 (jurabib)                field on input line 144.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--158
+LaTeX Warning: Reference `' on page 6 undefined on input line 146.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 154--160
 
  []
 
-[6]
 
 Package jurabib Warning: `shorttitle' for `schulz2010neuere'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 167.
+(jurabib)                field on input line 169.
 
 
-Overfull \hbox (7.89592pt too wide) in paragraph at lines 161--172
+Overfull \hbox (7.89592pt too wide) in paragraph at lines 163--174
 \T1/ptm/m/n/12 oder Ge-schichts-schrei-bung ver-stan-den wer-den. Ge-schichts-s
 chrei-bung als Pro-dukt der Ge-schichts-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--172
+Underfull \hbox (badness 10000) in paragraph at lines 163--174
 
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 [][][]\T1/ptm/m/n/10 STANGL, Wer-ner: Ge-schich-te der Her-me-neu-tik, $\T1/cmt
 t/m/n/10 https : / / arbeitsblaetter . stangl-[]taller . at /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 [][][]\T1/ptm/m/n/10 STANGL, Wer-ner: Der her-me-neu-ti-sche Zir-kel, $\T1/cmtt
 /m/n/10 https : / / arbeitsblaetter . stangl-[]taller . at /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--200
+Underfull \hbox (badness 10000) in paragraph at lines 180--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--200
+Underfull \hbox (badness 10000) in paragraph at lines 180--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--200
+Underfull \hbox (badness 10000) in paragraph at lines 180--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--200
+Underfull \hbox (badness 10000) in paragraph at lines 180--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--200
+Underfull \hbox (badness 10000) in paragraph at lines 180--202
 
  []
 
 [9]
-Underfull \hbox (badness 3323) in paragraph at lines 209--209
+Underfull \hbox (badness 3323) in paragraph at lines 211--211
 [][][]\T1/ptm/m/n/10 Was ist HFI?, Kurz-be-schrei-bung des Fa-ches und sei-ner 
 Po-si-tio-nie-rung $\T1/cmtt/m/n/10 http : / / hfi . uni-[]graz . at /
  []
@@ -1291,10 +1299,10 @@ Po-si-tio-nie-rung $\T1/cmtt/m/n/10 http : / / hfi . uni-[]graz . at /
 
 Package jurabib Warning: `shorttitle' for `sokollgrundlagen'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 214.
+(jurabib)                field on input line 216.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--219
+Underfull \hbox (badness 10000) in paragraph at lines 209--221
 
  []
 
@@ -1302,44 +1310,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--219
 
 Package jurabib Warning: `shorttitle' for `jarausch1985quantitative'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 223.
+(jurabib)                field on input line 225.
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 235--244
-
- []
-
-[12]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 244.
+[11] [12] [13]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 249.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
- [13]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 249.
+
 
 Package jurabib Warning: `shorttitle' for `stachowiak1973allgemeine'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 261.
+(jurabib)                field on input line 266.
 
 <img/fernrohr.png, id=56, 665.48625pt x 568.37344pt>
 File: img/fernrohr.png Graphic file (type png)
 <use img/fernrohr.png>
-Package pdftex.def Info: img/fernrohr.png  used on input line 279.
+Package pdftex.def Info: img/fernrohr.png  used on input line 287.
 (pdftex.def)             Requested size: 295.90588pt x 252.73026pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--281
+Underfull \hbox (badness 10000) in paragraph at lines 263--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--281
+Underfull \hbox (badness 10000) in paragraph at lines 263--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--281
+Underfull \hbox (badness 10000) in paragraph at lines 263--289
 
  []
 
@@ -1347,50 +1350,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--281
 
 Package jurabib Warning: `shorttitle' for `kobler2010qualitat'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 289.
+(jurabib)                field on input line 302.
 
 
 Package jurabib Warning: `shorttitle' for `jannidis2017digital'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 292.
+(jurabib)                field on input line 305.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--313
+Underfull \hbox (badness 10000) in paragraph at lines 290--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--313
+Underfull \hbox (badness 10000) in paragraph at lines 290--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--313
+Underfull \hbox (badness 10000) in paragraph at lines 290--306
 
  []
 
@@ -1398,15 +1376,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--313
 
 Package jurabib Warning: `shorttitle' for `pollin2017suchen'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 319.
+(jurabib)                field on input line 311.
 
 <img/daten.png, id=68, 1178.4025pt x 702.625pt>
 File: img/daten.png Graphic file (type png)
 <use img/daten.png>
-Package pdftex.def Info: img/daten.png  used on input line 322.
+Package pdftex.def Info: img/daten.png  used on input line 314.
 (pdftex.def)             Requested size: 386.96027pt x 230.73051pt.
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 [][][][]\T1/ptm/m/sc/10 Andorfer, \T1/ptm/m/n/10 Pe-ter: For-schungs-da-ten in 
 den (di-gi-ta-len) Gei-stes-wis-sen-schaf-ten. Ver-such ei-ner
  []
@@ -1414,31 +1392,31 @@ den (di-gi-ta-len) Gei-stes-wis-sen-schaf-ten. Ver-such ei-ner
 <img/forschungsdaten.png, id=73, 1091.07625pt x 742.775pt>
 File: img/forschungsdaten.png Graphic file (type png)
 <use img/forschungsdaten.png>
-Package pdftex.def Info: img/forschungsdaten.png  used on input line 330.
+Package pdftex.def Info: img/forschungsdaten.png  used on input line 322.
 (pdftex.def)             Requested size: 386.96027pt x 263.43195pt.
 [18 <./img/daten.png>] [19 <./img/forschungsdaten.png>]
 
 Package jurabib Warning: `shorttitle' for `bauch2015daten'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 358.
+(jurabib)                field on input line 350.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--400
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 352--400
+Underfull \hbox (badness 10000) in paragraph at lines 344--392
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--400
+Underfull \hbox (badness 10000) in paragraph at lines 344--392
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--400
+Underfull \hbox (badness 10000) in paragraph at lines 344--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--392
 
  []
 
@@ -1446,10 +1424,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 352--400
 
 Package jurabib Warning: `shorttitle' for `tomasekmedea'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 406.
+(jurabib)                field on input line 398.
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
 [][][][]\T1/ptm/m/n/10 Definition von \T1/ptm/m/it/10 Dry Goods\T1/ptm/m/n/10 ,
  $\T1/cmtt/m/n/10 https : / / chestofbooks . com / reference / Dictionary-[]of-
 []Dry-[]Goods /
@@ -1458,28 +1436,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--433
 <img/LMwheaton.jpg, id=91, 268.75406pt x 521.69907pt>
 File: img/LMwheaton.jpg Graphic file (type jpg)
 <use img/LMwheaton.jpg>
-Package pdftex.def Info: img/LMwheaton.jpg  used on input line 438.
+Package pdftex.def Info: img/LMwheaton.jpg  used on input line 430.
 (pdftex.def)             Requested size: 91.04742pt x 176.7385pt.
 [23]
-Underfull \hbox (badness 7540) in paragraph at lines 445--445
+Underfull \hbox (badness 7540) in paragraph at lines 437--437
 [][][]\T1/ptm/m/n/10 Wheaton Fa-mi-ly Pa-pers, $\T1/cmtt/m/n/10 https : / / dig
 italrepository . wheatoncollege . edu / handle / 11040 / 7928$\T1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--447
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 [][][][]\T1/ptm/m/n/10 Vgl. TO-MA-SEK Ka-thryn: The Whea-ton Col-le-ge Di-gi-ta
 l Hi-sto-ry Pro-ject: Un-der-gra-dua-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--447
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 \T1/ptm/m/n/10 te Re-se-arch in a Lo-cal Col-lec-ti-on, $\T1/cmtt/m/n/10 https 
 : / / writinghistory . trincoll . edu / teach /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--447
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 \T1/cmtt/m/n/10 wheaton-[]college-[]digital-[]history-[]project-[]tomasek/$\T1/
 ptm/m/n/10 , 23.05.2019. \T1/ptm/m/sc/10 Alex-an-der, \T1/ptm/m/n/10 Bryan/\T1/
 ptm/m/sc/10 Davis,
@@ -1488,75 +1466,75 @@ ptm/m/sc/10 Davis,
 <img/wheaton_100_101.jpg, id=96, 709.4505pt x 886.21088pt>
 File: img/wheaton_100_101.jpg Graphic file (type jpg)
 <use img/wheaton_100_101.jpg>
-Package pdftex.def Info: img/wheaton_100_101.jpg  used on input line 460.
+Package pdftex.def Info: img/wheaton_100_101.jpg  used on input line 452.
 (pdftex.def)             Requested size: 455.24411pt x 568.67403pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--510
+Underfull \hbox (badness 10000) in paragraph at lines 434--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--510
+Underfull \hbox (badness 10000) in paragraph at lines 434--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--510
+Underfull \hbox (badness 10000) in paragraph at lines 434--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--510
+Underfull \hbox (badness 10000) in paragraph at lines 434--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--510
+Underfull \hbox (badness 10000) in paragraph at lines 434--502
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--510
+Underfull \hbox (badness 10000) in paragraph at lines 434--502
 
  []
 
 [24 <./img/LMwheaton.jpg>] [25] [26] [27 <./img/wheaton_100_101.jpg>] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 521--530
+Underfull \hbox (badness 10000) in paragraph at lines 513--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--530
+Underfull \hbox (badness 10000) in paragraph at lines 513--522
 
  []
 
 [29]
 
-LaTeX Warning: Reference `web_stack' on page 30 undefined on input line 539.
+LaTeX Warning: Reference `web_stack' on page 30 undefined on input line 531.
 
 <img/web_stack.png, id=116, 1027.84pt x 1027.84pt>
 File: img/web_stack.png Graphic file (type png)
 <use img/web_stack.png>
-Package pdftex.def Info: img/web_stack.png  used on input line 542.
+Package pdftex.def Info: img/web_stack.png  used on input line 534.
 (pdftex.def)             Requested size: 295.90588pt x 295.90163pt.
 [30 <./img/web_stack.png>]
 <img/triple.png, id=121, 532.99126pt x 136.51pt>
 File: img/triple.png Graphic file (type png)
 <use img/triple.png>
-Package pdftex.def Info: img/triple.png  used on input line 559.
+Package pdftex.def Info: img/triple.png  used on input line 551.
 (pdftex.def)             Requested size: 341.43307pt x 87.44942pt.
 <img/rdf_example.png, id=122, 853.1875pt x 570.13pt>
 File: img/rdf_example.png Graphic file (type png)
 <use img/rdf_example.png>
-Package pdftex.def Info: img/rdf_example.png  used on input line 576.
+Package pdftex.def Info: img/rdf_example.png  used on input line 568.
 (pdftex.def)             Requested size: 455.24411pt x 304.22054pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--581
+Underfull \hbox (badness 10000) in paragraph at lines 548--573
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--581
+Underfull \hbox (badness 10000) in paragraph at lines 548--573
 
  []
 
@@ -1564,20 +1542,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 556--581
 
 Package jurabib Warning: `shorttitle' for `powers2003practical'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 593.
+(jurabib)                field on input line 585.
 
 
-Overfull \hbox (12.706pt too wide) in paragraph at lines 608--609
+Overfull \hbox (12.706pt too wide) in paragraph at lines 600--601
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
 <img/rdfs.png, id=130, 743.77875pt x 442.65375pt>
 File: img/rdfs.png Graphic file (type png)
 <use img/rdfs.png>
-Package pdftex.def Info: img/rdfs.png  used on input line 627.
+Package pdftex.def Info: img/rdfs.png  used on input line 619.
 (pdftex.def)             Requested size: 341.43307pt x 203.2044pt.
 [33] [34] [35 <./img/rdfs.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 676--686
+Underfull \hbox (badness 10000) in paragraph at lines 668--678
 
  []
 
@@ -1585,46 +1563,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 676--686
 
 Package jurabib Warning: `shorttitle' for `favre2001information'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 690.
+(jurabib)                field on input line 682.
 
 
 Package jurabib Warning: `shorttitle' for `stuckenschmidt2009ontologien'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 695.
+(jurabib)                field on input line 687.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--704
+Underfull \hbox (badness 10000) in paragraph at lines 682--696
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--704
+Underfull \hbox (badness 10000) in paragraph at lines 682--696
 
  []
 
 [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 722--732
+Underfull \hbox (badness 10000) in paragraph at lines 714--724
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--732
+Underfull \hbox (badness 10000) in paragraph at lines 714--724
 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 740--862
+Underfull \hbox (badness 10000) in paragraph at lines 732--854
 
  []
 
 [40] [41] [42]
-Overfull \hbox (2.49194pt too wide) in paragraph at lines 869--875
+Overfull \hbox (2.49194pt too wide) in paragraph at lines 861--867
 \T1/ptm/m/n/12 Die \T1/ptm/m/it/12 Book-kee-ping On-to-lo-gy \T1/ptm/m/n/12 ist
  ein kon-zep-tio-nel-les Mo-dell zur for-ma-len Be-schrei-bung von Trans-
  []
 
 
-Overfull \hbox (10.59587pt too wide) in paragraph at lines 869--875
+Overfull \hbox (10.59587pt too wide) in paragraph at lines 861--867
 \T1/ptm/m/n/12 ak-tio-nen in hi-sto-ri-schen Rech-nungs-un-ter-la-gen. Es wur-d
 e in ei-nem Ontologie-Engineering-Prozess
  []
@@ -1633,45 +1611,45 @@ e in ei-nem Ontologie-Engineering-Prozess
 <img/example.png, id=171, 3338.4725pt x 2566.58875pt>
 File: img/example.png Graphic file (type png)
 <use img/example.png>
-Package pdftex.def Info: img/example.png  used on input line 921.
+Package pdftex.def Info: img/example.png  used on input line 913.
 (pdftex.def)             Requested size: 341.43307pt x 262.47002pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--1054
+Underfull \hbox (badness 10000) in paragraph at lines 919--1046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--1054
+Underfull \hbox (badness 10000) in paragraph at lines 919--1046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--1054
+Underfull \hbox (badness 10000) in paragraph at lines 919--1046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--1054
+Underfull \hbox (badness 10000) in paragraph at lines 919--1046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--1054
+Underfull \hbox (badness 10000) in paragraph at lines 919--1046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--1054
+Underfull \hbox (badness 10000) in paragraph at lines 919--1046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--1054
+Underfull \hbox (badness 10000) in paragraph at lines 919--1046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--1054
+Underfull \hbox (badness 10000) in paragraph at lines 919--1046
 
  []
 
@@ -1679,17 +1657,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 927--1054
 
 Package jurabib Warning: `shorttitle' for `sahle2013digitale'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 1066.
+(jurabib)                field on input line 1058.
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 1071--1071
+Underfull \hbox (badness 2181) in paragraph at lines 1063--1063
 [][][][]\T1/ptm/m/n/10 Vgl. \T1/ptm/m/sc/10 To-ma-sek\T1/ptm/m/n/10 /\T1/ptm/m/
 sc/10 Bauman\T1/ptm/m/n/10 : Jour-nal of the Text En-co-ding In-itia-ti-ve 2013
 , S.1-2, $\T1/cmtt/m/n/10 http : / / journals .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1073
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1065
 
  []
 
@@ -1735,10 +1713,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21914 strings out of 494830
- 393220 string characters out of 6177366
- 504767 words of memory out of 5000000
- 24976 multiletter control sequences out of 15000+600000
+ 21915 strings out of 494830
+ 393222 string characters out of 6177366
+ 504805 words of memory out of 5000000
+ 24977 multiletter control sequences out of 15000+600000
  590770 words of font info for 89 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,7n,47p,10378b,1551s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1751,7 +1729,7 @@ e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on expose.pdf (58 pages, 2913984 bytes).
+Output written on expose.pdf (58 pages, 2913745 bytes).
 PDF statistics:
  396 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams
