@@ -1,39 +1,39 @@
 \babel@toc {german}{}
-\contentsline {section}{\numberline {1}Einleitung}{1}
-\contentsline {subsection}{\numberline {1.1}Aufbau der Arbeit und Literatur\IeC {\"u}bersicht}{2}
-\contentsline {subsection}{\numberline {1.2}Related Work}{4}
-\contentsline {section}{\numberline {2}Formale Methoden und Modelle in den Geschichtswissenschaften}{6}
-\contentsline {subsection}{\numberline {2.1}Von der erz\IeC {\"a}hlenden zur theorieorientierten Geschichtswissenschaft}{7}
-\contentsline {subsubsection}{\numberline {2.1.1}Geschichte und Geschichtswissenschaft: eine Definition}{8}
-\contentsline {subsubsection}{\numberline {2.1.2}Hermeneutik - Empirismus}{9}
-\contentsline {subsubsection}{\numberline {2.1.3}''Klassische'' Methoden}{10}
-\contentsline {subsection}{\numberline {2.2}(Digitale) Quantifizierer und Traditionalisten: Entwicklung einer formalen, digitalen Methodik }{12}
-\contentsline {subsubsection}{\numberline {2.2.1}Interpretation und Theoriebildung}{12}
-\contentsline {subsection}{\numberline {2.3}Modellbildung als Kern der Digital History}{14}
-\contentsline {subsubsection}{\numberline {2.3.1}Forschungsdaten in den Geschichtswissenschaften und historische Information}{17}
-\contentsline {subsubsection}{\numberline {2.3.2}Modelle in den Geschichtswissenschaften}{19}
-\contentsline {section}{\numberline {3}Historische Rechnungsb\IeC {\"u}cher als Quelle}{20}
-\contentsline {subsection}{\numberline {3.1}Finanztransaktionen}{22}
-\contentsline {subsection}{\numberline {3.2}DEPCHA}{23}
-\contentsline {subsubsection}{\numberline {3.2.1}The George Washington Financial Papers}{23}
-\contentsline {subsubsection}{\numberline {3.2.2}Stageville}{23}
-\contentsline {subsubsection}{\numberline {3.2.3}The Wheaton Accounts}{23}
-\contentsline {section}{\numberline {4}Web of Data}{29}
-\contentsline {subsection}{\numberline {4.1}Geschichte und Vision des Web of Data}{29}
-\contentsline {subsection}{\numberline {4.2}Web of Data Stack}{30}
-\contentsline {subsubsection}{\numberline {4.2.1}Resource Description Framework}{31}
-\contentsline {subsubsection}{\numberline {4.2.2}Resource Description Framework Schema (RDFs)}{33}
-\contentsline {subsubsection}{\numberline {4.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{35}
-\contentsline {subsubsection}{\numberline {4.2.4}Abfragesprache: SPARQL}{35}
-\contentsline {subsection}{\numberline {4.3}Ontologien}{36}
-\contentsline {subsubsection}{\numberline {4.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{37}
-\contentsline {section}{\numberline {5}Anwendung formaler Methoden auf Basis einer Ontologie}{40}
-\contentsline {subsection}{\numberline {5.1}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{40}
-\contentsline {subsection}{\numberline {5.2}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{43}
-\contentsline {subsubsection}{\numberline {5.2.1}Digitale Edition}{43}
-\contentsline {subsubsection}{\numberline {5.2.2}Bookkeeping-Ontology}{43}
-\contentsline {subsubsection}{\numberline {5.2.3}TEI Beispiele DEPCHA}{44}
-\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung }{45}
-\contentsline {subsubsection}{\numberline {5.3.1}Statistische Auswertung}{49}
-\contentsline {section}{\numberline {6}Textfragmente}{49}
-\contentsline {section}{\numberline {7}Zusammenfassung}{49}
+\contentsline {section}{\numberline {1}Einleitung}{1}% 
+\contentsline {subsection}{\numberline {1.1}Aufbau der Arbeit und Literatur\IeC {\"u}bersicht}{2}% 
+\contentsline {subsection}{\numberline {1.2}Related Work}{4}% 
+\contentsline {section}{\numberline {2}Formale Methoden und Modelle in den Geschichtswissenschaften}{6}% 
+\contentsline {subsection}{\numberline {2.1}Von der erz\IeC {\"a}hlenden zur theorieorientierten Geschichtswissenschaft}{7}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Geschichte und Geschichtswissenschaft: eine Definition}{8}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Hermeneutik - Empirismus}{9}% 
+\contentsline {subsubsection}{\numberline {2.1.3}''Klassische'' Methoden}{10}% 
+\contentsline {subsection}{\numberline {2.2}(Digitale) Quantifizierer und Traditionalisten: Entwicklung einer formalen, digitalen Methodik }{12}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Interpretation und Theoriebildung}{12}% 
+\contentsline {subsection}{\numberline {2.3}Modellbildung als Kern der Digital History}{14}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Forschungsdaten in den Geschichtswissenschaften und historische Information}{17}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Modelle in den Geschichtswissenschaften}{19}% 
+\contentsline {section}{\numberline {3}Historische Rechnungsb\IeC {\"u}cher als Quelle}{20}% 
+\contentsline {subsection}{\numberline {3.1}Finanztransaktionen}{23}% 
+\contentsline {subsection}{\numberline {3.2}DEPCHA}{23}% 
+\contentsline {subsubsection}{\numberline {3.2.1}The George Washington Financial Papers}{23}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Stageville}{24}% 
+\contentsline {subsubsection}{\numberline {3.2.3}The Wheaton Accounts}{24}% 
+\contentsline {section}{\numberline {4}Web of Data}{29}% 
+\contentsline {subsection}{\numberline {4.1}Geschichte und Vision des Web of Data}{29}% 
+\contentsline {subsection}{\numberline {4.2}Web of Data Stack}{30}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Resource Description Framework}{31}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Resource Description Framework Schema (RDFs)}{33}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{35}% 
+\contentsline {subsubsection}{\numberline {4.2.4}Abfragesprache: SPARQL}{35}% 
+\contentsline {subsection}{\numberline {4.3}Ontologien}{36}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{37}% 
+\contentsline {section}{\numberline {5}Anwendung formaler Methoden auf Basis einer Ontologie}{40}% 
+\contentsline {subsection}{\numberline {5.1}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{40}% 
+\contentsline {subsection}{\numberline {5.2}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{43}% 
+\contentsline {subsubsection}{\numberline {5.2.1}Digitale Edition}{43}% 
+\contentsline {subsubsection}{\numberline {5.2.2}Bookkeeping-Ontology}{43}% 
+\contentsline {subsubsection}{\numberline {5.2.3}TEI Beispiele DEPCHA}{44}% 
+\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung }{45}% 
+\contentsline {subsubsection}{\numberline {5.3.1}Statistische Auswertung}{49}% 
+\contentsline {section}{\numberline {6}Textfragmente}{49}% 
+\contentsline {section}{\numberline {7}Zusammenfassung}{49}% 
