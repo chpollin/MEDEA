@@ -611,20 +611,6 @@
   {} {} \bibAnnoteFile {jordan2018theorien}
 
 \backrefparscanfalse
-\bibitem[{Kelly\jbdy {2016}}%
-         {}%
-         {{0}{}{book}{2016}{}{}{}{}%
-          {Elsevier\bibbdsep {} 2016}}%
-         {{Practical knowledge engineering}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{kelly2016practical}
- \jbbibargs {\bibnf {Kelly} {Richard} {R.} {} {}} {Richard Kelly} {au}
-  {sexless} {\bibtfont {Practical knowledge engineering}\bibatsep {}
-  \apyformat {\jbpublisher{Elsevier\bibbdsep {}} 2016}} {\bibhowcited}
-  \jbdoitem {{Kelly}{Richard}{R.}{}{}} {} {} \bibAnnoteFile
-  {kelly2016practical}
-
-\backrefparscanfalse
 \bibitem[{Kindling\Bibetal\jbdy {2013}}%
          {LIBREAS. Library Ideas, \Numbername~23, \jbsy {2013}}%
          {{0}{}{article}{2013}{}{}{}{}%
@@ -825,14 +811,14 @@
 \bibitem[{Opgenoorth\jbbtasep Schulz\jbdy {2010}}%
          {}%
          {{0}{}{book}{2010}{}{}{}{}%
-          {Paderborn, München, Wien, Zürich\bibbdsep {} 2010}}%
+          {Paderborn / München / Wien, Zürich\bibbdsep {} 2010}}%
          {{Einführung in das Studium der Neueren Geschichte}%
           {}{}{2}{}{}{}{}{}}%
         ]{schulz2010neuere}
  \jbbibargs {\bibnf {Opgenoorth} {Ernst} {E.} {} {}\Bibbtasep \bibnf {Schulz}
   {Günther} {G.} {} {}} {Ernst OpgenoorthGünther Schulz} {aus} {sexless}
   {\bibtfont {Einführung in das Studium der Neueren Geschichte}\bibatsep {}
-  \apyformat {\jbpublisher{Paderborn, München, Wien, Zürich\bibbdsep {}}
+  \apyformat {\jbpublisher{Paderborn / München / Wien, Zürich\bibbdsep {}}
   2010}} {\bibhowcited} \jbdoitem {{Opgenoorth}{Ernst}{E.}{}{};
   {Schulz}{Günther}{G.}{}{}} {} {} \bibAnnoteFile {schulz2010neuere}
 
@@ -988,15 +974,15 @@
 \bibitem[{Sahle\jbdy {2013}}%
          {}%
          {{0}{}{book}{2013}{}{}{}{}%
-          {BoD--Books on Demand\bibbdsep {} 2013}}%
+          {Books on Demand\bibbdsep {} 2013}}%
          {{Digitale Editionsformen: Textbegriffe und Recodierung}%
           {}{}{2}{}{}{}{}{}}%
         ]{sahle2013digitale}
  \jbbibargs {\bibnf {Sahle} {Patrick} {P.} {} {}} {Patrick Sahle} {au}
   {sexless} {\bibtfont {Digitale Editionsformen: Textbegriffe und
-  Recodierung}\bibatsep {}  \volumeformat {3}  \apyformat
-  {\jbpublisher{BoD--Books on Demand\bibbdsep {}} 2013}} {\bibhowcited}
-  \jbdoitem {{Sahle}{Patrick}{P.}{}{}} {} {} \bibAnnoteFile {sahle2013digitale}
+  Recodierung}\bibatsep {}  \volumeformat {3}  \apyformat {\jbpublisher{Books
+  on Demand\bibbdsep {}} 2013}} {\bibhowcited} \jbdoitem
+  {{Sahle}{Patrick}{P.}{}{}} {} {} \bibAnnoteFile {sahle2013digitale}
 
 \backrefparscanfalse
 \bibitem[{Schmieder\jbbtasep Sokoll}%
@@ -1321,19 +1307,19 @@
 
 \backrefparscanfalse
 \bibitem[{Wolf\jbdy {1995}}%
-         {Bilanz qualitativer Forschung, \volname~Bd. I: Grundlagen
-  qualitativer Forschung, \jbsy {1995}}%
-         {{0}{}{article}{1995}{}{}{}{309--329}%
+         {}%
+         {{0}{}{inbook}{1995}{}{}{}{309--329}%
           {Beltz\bibbdsep {} 1995}}%
          {{Qualitative versus quantitative Forschung}%
           {}{}{1}{}{}{}{}{}}%
         ]{wolf1995qualitative}
- \jbbibargs {\bibnf {Wolf} {Willi} {W.} {} {}} {Willi Wolf} {au} {sexless}
-  {\bibapifont {Qualitative versus quantitative Forschung}\bibatsep {}
-  \bibJTsep \bibjtfont {Bilanz qualitativer Forschung}\ajtsep {}
-  \artvolumeformat {Bd. I: Grundlagen qualitativer Forschung} \artyearformat
-  {1995} \jbPages{309--329}} {\bibartperiodhowcited} \jbdoitem
-  {{Wolf}{Willi}{W.}{}{}} {{König}{E.}{E.}{}{}; {zedler}{P.}{P.}{}{}} {}
-  \bibAnnoteFile {wolf1995qualitative}
+ \jbbibargs {\bibnf {Wolf} {Willi} {W.} {} {}\bibfnfont {;} \bibenf {König}
+  {E.} {E.} {} {}\Bibbtesep \bibenf {zedler} {P.} {P.} {} {} \edfont
+  {\editorsname}} {Willi Wolf} {au} {sexless} {\bibapifont {Qualitative versus
+  quantitative Forschung}\bibatsep {}  \volumeformat {Bd. I: Grundlagen
+  qualitativer Forschung}  \apyformat {\jbpublisher{Beltz\bibbdsep {}} 1995}
+  \jbPages{309--329} } {\bibhowcited} \jbdoitem {{Wolf}{Willi}{W.}{}{}}
+  {{König}{E.}{E.}{}{}; {zedler}{P.}{P.}{}{}} {} \bibAnnoteFile
+  {wolf1995qualitative}
 
 \end{thebibliography}

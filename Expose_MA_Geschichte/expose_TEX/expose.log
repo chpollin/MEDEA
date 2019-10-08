@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  8 OCT 2019 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  8 OCT 2019 22:00
 entering extended mode
 **./expose.tex
 (expose.tex
@@ -1354,12 +1354,19 @@ n in In-for-ma-tio-nen um-zu-wan-deln. In \T1/ptm/b/n/12 Gle-ba, Gu-drun\T1/ptm
  []
 
 [52] [53] [54] [55]
-Underfull \hbox (badness 2384) in paragraph at lines 1074--1076
+Underfull \hbox (badness 2384) in paragraph at lines 1060--1062
 []\T1/ptm/b/sc/12 Stuckenschmidt, \T1/ptm/b/n/12 Hei-ner: \T1/ptm/m/n/12 On-to-
 lo-gi-en: Kon-zep-te, Tech-no-lo-gi-en und An-wen-dun-gen.
  []
 
-[56]) [57] (expose.lof
+[56]
+Underfull \hbox (badness 1331) in paragraph at lines 1322--1324
+[]\T1/ptm/b/sc/12 Wolf, \T1/ptm/b/n/12 Wil-li; Kö-nig, E.\T1/ptm/m/n/12 /\T1/pt
+m/b/n/12 zedler, P. (Hrsg.): \T1/ptm/m/n/12 Qua-li-ta-ti-ve ver-sus quan-ti-ta-
+ti-ve For-schung.
+ []
+
+) [57] (expose.lof
 Overfull \hbox (44.69315pt too wide) in paragraph at lines 2--2
  \T1/ptm/m/n/12 del-lie-rungs-me-tho-den der In-for-ma-tik'', $\T1/cmtt/m/n/12 
 http : / / www . ti . inf . uni-[]due . de / fileadmin / 
@@ -1384,10 +1391,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22432 strings out of 492970
- 403187 string characters out of 3126594
+ 22431 strings out of 492970
+ 403163 string characters out of 3126594
  518992 words of memory out of 3000000
- 26032 multiletter control sequences out of 15000+200000
+ 26031 multiletter control sequences out of 15000+200000
  595639 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,7n,65p,2257b,1550s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1401,7 +1408,7 @@ ams/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/chris/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/chris/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/chris/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on expose.pdf (60 pages, 2591403 bytes).
+Output written on expose.pdf (60 pages, 2591578 bytes).
 PDF statistics:
  403 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

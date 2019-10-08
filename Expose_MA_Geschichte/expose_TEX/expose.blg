@@ -1,76 +1,77 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
 Database file #1: literatur.bib
-Repeated entry---line 857 of file literatur.bib
+Repeated entry---line 843 of file literatur.bib
  : @article{musen2015protege
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 872 of file literatur.bib
+Repeated entry---line 858 of file literatur.bib
  : @book{linckels2011librarian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 880 of file literatur.bib
+Repeated entry---line 866 of file literatur.bib
  : @book{stuckenschmidt2009ontologien
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 888 of file literatur.bib
+Repeated entry---line 874 of file literatur.bib
  : @book{reichenberger2010grundlagen
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 895 of file literatur.bib
+Repeated entry---line 881 of file literatur.bib
  : @inproceedings{hoekstra2009ontology
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 908 of file literatur.bib
+Repeated entry---line 894 of file literatur.bib
  : @phdthesis{borst1997construction
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 918 of file literatur.bib
+Repeated entry---line 904 of file literatur.bib
  : @article{gruber1993translation
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 932 of file literatur.bib
+Repeated entry---line 918 of file literatur.bib
  : @book{favre2001information
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 939 of file literatur.bib
+Repeated entry---line 925 of file literatur.bib
  : @article{thaller2017ungefahre
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 949 of file literatur.bib
+Repeated entry---line 935 of file literatur.bib
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1011 of file literatur.bib
+Repeated entry---line 997 of file literatur.bib
  : @book{jannidis2017digital
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1042 of file literatur.bib
+Repeated entry---line 1028 of file literatur.bib
  : @article{schreiber2014rdf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1057 of file literatur.bib
+Repeated entry---line 1043 of file literatur.bib
  : @techreport{berners2004uniform
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1071 of file literatur.bib
+Repeated entry---line 1057 of file literatur.bib
  : @book{powers2003practical
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1079 of file literatur.bib
+Repeated entry---line 1065 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "pollin2017suchen" isn't style-file defined
---line 1143 of file literatur.bib
-Repeated entry---line 1160 of file literatur.bib
+--line 1129 of file literatur.bib
+Repeated entry---line 1146 of file literatur.bib
  : @book{andorfer2015forschungsdaten
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1275 of file literatur.bib
+Repeated entry---line 1261 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "kelly2016practical"
 Warning--I didn't find a database entry for "bauch2015daten"
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--Empty pages in bauer2011linked
@@ -105,4 +106,5 @@ Warning--Empty pages in stertzer2014working
 Warning--Empty pages in sure2003methodology
 Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
+Warning--There's no chapter in wolf1995qualitative
 (There were 17 error messages)
