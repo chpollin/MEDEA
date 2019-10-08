@@ -16,24 +16,24 @@
 \contentsline {subsection}{\numberline {3.1}Finanztransaktionen}{23}% 
 \contentsline {subsection}{\numberline {3.2}DEPCHA}{23}% 
 \contentsline {subsubsection}{\numberline {3.2.1}The George Washington Financial Papers}{23}% 
-\contentsline {subsubsection}{\numberline {3.2.2}Stageville}{24}% 
-\contentsline {subsubsection}{\numberline {3.2.3}The Wheaton Accounts}{24}% 
-\contentsline {section}{\numberline {4}Web of Data}{29}% 
-\contentsline {subsection}{\numberline {4.1}Geschichte und Vision des Web of Data}{29}% 
-\contentsline {subsection}{\numberline {4.2}Web of Data Stack}{30}% 
-\contentsline {subsubsection}{\numberline {4.2.1}Resource Description Framework}{31}% 
-\contentsline {subsubsection}{\numberline {4.2.2}Resource Description Framework Schema (RDFs)}{33}% 
-\contentsline {subsubsection}{\numberline {4.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{35}% 
-\contentsline {subsubsection}{\numberline {4.2.4}Abfragesprache: SPARQL}{35}% 
-\contentsline {subsection}{\numberline {4.3}Ontologien}{36}% 
-\contentsline {subsubsection}{\numberline {4.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{37}% 
-\contentsline {section}{\numberline {5}Anwendung formaler Methoden auf Basis einer Ontologie}{40}% 
-\contentsline {subsection}{\numberline {5.1}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{40}% 
+\contentsline {subsubsection}{\numberline {3.2.2}Cameron Family Papers, Stagville Accounts}{25}% 
+\contentsline {subsubsection}{\numberline {3.2.3}The Wheaton Accounts}{26}% 
+\contentsline {section}{\numberline {4}Web of Data}{32}% 
+\contentsline {subsection}{\numberline {4.1}Geschichte und Vision des Web of Data}{32}% 
+\contentsline {subsection}{\numberline {4.2}Web of Data Stack}{33}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Resource Description Framework}{34}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Resource Description Framework Schema (RDFs)}{36}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Taxonomien: Simple Knowledge Organisation (SKOS)}{38}% 
+\contentsline {subsubsection}{\numberline {4.2.4}Abfragesprache: SPARQL}{38}% 
+\contentsline {subsection}{\numberline {4.3}Ontologien}{39}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{40}% 
+\contentsline {section}{\numberline {5}Anwendung formaler Methoden auf Basis einer Ontologie}{43}% 
+\contentsline {subsection}{\numberline {5.1}Die Bookkeeping-Ontology als konzeptuelles Model f\IeC {\"u}r digitale Editionen von historischen Rechnungsb\IeC {\"u}cher}{43}% 
 \contentsline {subsection}{\numberline {5.2}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{43}% 
 \contentsline {subsubsection}{\numberline {5.2.1}Digitale Edition}{43}% 
-\contentsline {subsubsection}{\numberline {5.2.2}Bookkeeping-Ontology}{43}% 
+\contentsline {subsubsection}{\numberline {5.2.2}Bookkeeping-Ontology}{44}% 
 \contentsline {subsubsection}{\numberline {5.2.3}TEI Beispiele DEPCHA}{44}% 
-\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung }{45}% 
+\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung }{46}% 
 \contentsline {subsubsection}{\numberline {5.3.1}Statistische Auswertung}{49}% 
 \contentsline {section}{\numberline {6}Textfragmente}{49}% 
-\contentsline {section}{\numberline {7}Zusammenfassung}{49}% 
+\contentsline {section}{\numberline {7}Zusammenfassung}{50}% 

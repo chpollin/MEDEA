@@ -175,6 +175,42 @@
   {} \bibAnnoteFile {bruch2015daten}
 
 \backrefparscanfalse
+\bibitem[{Brumfield\jbdy {2019}}%
+         {From the Page \jbsy {2019}}%
+         {{0}{}{article}{2019}{}{}{}{}%
+          {2019}}%
+         {{The Stagville Accounts in DEPCHA: Plantation Financial Records as
+  Linked Data}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{brumfield2019blog}
+ \jburldef
+  {brumfield2019blog}{https://content.fromthepage.com/stagville-accounts-in-depcha/}%
+ \jbbibargs {\bibnf {Brumfield} {Ben} {B.} {} {}} {Ben Brumfield} {au}
+  {sexless} {\bibapifont {The Stagville Accounts in DEPCHA: Plantation
+  Financial Records as Linked Data}\bibatsep {} \bibJTsep \bibjtfont {From the
+  Page}\ajtsep {}  \artyearformat {2019} \jburluse {brumfield2019blog}}
+  {\bibartperiodhowcited} \jbdoitem {{Brumfield}{Ben}{B.}{}{}} {} {}
+  \bibAnnoteFile {brumfield2019blog}
+
+\backrefparscanfalse
+\bibitem[{Brumfield\jbbtasep Agbe-Davies\jbdy {2015}}%
+         {Modeling semantically Enriched Digital Edition of Accounts \jbsy
+  {2015}}%
+         {{0}{}{article}{2015}{}{}{}{}%
+          {2015}}%
+         {{Encoding Account Books Relating to Slavery in the U.S}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{brumfield2015medea}
+ \jburldef {brumfield2015medea}{https://medea.hypotheses.org/182}%
+ \jbbibargs {\bibnf {Brumfield} {Ben} {B.} {} {}\Bibbtasep \bibnf {Agbe-Davies}
+  {Anna} {A.} {} {}} {Ben BrumfieldAnna Agbe-Davies} {aus} {sexless}
+  {\bibapifont {Encoding Account Books Relating to Slavery in the U.S}\bibatsep
+  {} \bibJTsep \bibjtfont {Modeling semantically Enriched Digital Edition of
+  Accounts}\ajtsep {}  \artyearformat {2015} \jburluse {brumfield2015medea}}
+  {\bibartperiodhowcited} \jbdoitem {{Brumfield}{Ben}{B.}{}{};
+  {Agbe-Davies}{Anna}{A.}{}{}} {} {} \bibAnnoteFile {brumfield2015medea}
+
+\backrefparscanfalse
 \bibitem[{Burdick\Bibetal\jbdy {2012}}%
          {}%
          {{0}{}{book}{2012}{}{}{}{}%
@@ -1005,6 +1041,23 @@
   \artyearformat {1973}} {\bibartperiodhowcited} \jbdoitem
   {{Stachowiak}{Herbert}{H.}{}{}} {} {} \bibAnnoteFile
   {stachowiak1973allgemeine}
+
+\backrefparscanfalse
+\bibitem[{Stertzer\jbdy {2014}}%
+         {Digital Studies/le Champ Num{\'e}rique \jbsy {2014}}%
+         {{0}{}{article}{2014}{}{}{}{}%
+          {Open Library of Humanities\bibbdsep {} 2014}}%
+         {{Working with the Financial Records of George Washington: Document
+  vs. Data}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{stertzer2014working}
+ \jburldef {stertzer2014working}{http://doi.org/10.16995/dscn.57}%
+ \jbbibargs {\bibnf {Stertzer} {Jennifer} {J.} {} {}} {Jennifer Stertzer} {au}
+  {sexless} {\bibapifont {Working with the Financial Records of George
+  Washington: Document vs. Data}\bibatsep {} \bibJTsep \bibjtfont {Digital
+  Studies/le Champ Num{\'e}rique}\ajtsep {}  \artyearformat {2014} \jburluse
+  {stertzer2014working}} {\bibartperiodhowcited} \jbdoitem
+  {{Stertzer}{Jennifer}{J.}{}{}} {} {} \bibAnnoteFile {stertzer2014working}
 
 \backrefparscanfalse
 \bibitem[{Stuckenschmidt\jbdy {2009}}%

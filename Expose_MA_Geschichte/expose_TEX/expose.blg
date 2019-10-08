@@ -1,73 +1,73 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
 Database file #1: literatur.bib
-Repeated entry---line 831 of file literatur.bib
+Repeated entry---line 857 of file literatur.bib
  : @article{musen2015protege
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 846 of file literatur.bib
+Repeated entry---line 872 of file literatur.bib
  : @book{linckels2011librarian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 854 of file literatur.bib
+Repeated entry---line 880 of file literatur.bib
  : @book{stuckenschmidt2009ontologien
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 862 of file literatur.bib
+Repeated entry---line 888 of file literatur.bib
  : @book{reichenberger2010grundlagen
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 869 of file literatur.bib
+Repeated entry---line 895 of file literatur.bib
  : @inproceedings{hoekstra2009ontology
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 882 of file literatur.bib
+Repeated entry---line 908 of file literatur.bib
  : @phdthesis{borst1997construction
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 892 of file literatur.bib
+Repeated entry---line 918 of file literatur.bib
  : @article{gruber1993translation
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 906 of file literatur.bib
+Repeated entry---line 932 of file literatur.bib
  : @book{favre2001information
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 913 of file literatur.bib
+Repeated entry---line 939 of file literatur.bib
  : @article{thaller2017ungefahre
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 923 of file literatur.bib
+Repeated entry---line 949 of file literatur.bib
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 985 of file literatur.bib
+Repeated entry---line 1011 of file literatur.bib
  : @book{jannidis2017digital
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1016 of file literatur.bib
+Repeated entry---line 1042 of file literatur.bib
  : @article{schreiber2014rdf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1031 of file literatur.bib
+Repeated entry---line 1057 of file literatur.bib
  : @techreport{berners2004uniform
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1045 of file literatur.bib
+Repeated entry---line 1071 of file literatur.bib
  : @book{powers2003practical
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1053 of file literatur.bib
+Repeated entry---line 1079 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "pollin2017suchen" isn't style-file defined
---line 1117 of file literatur.bib
-Repeated entry---line 1134 of file literatur.bib
+--line 1143 of file literatur.bib
+Repeated entry---line 1160 of file literatur.bib
  : @book{andorfer2015forschungsdaten
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1249 of file literatur.bib
+Repeated entry---line 1275 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
@@ -77,6 +77,8 @@ Warning--Empty pages in bauer2011linked
 Warning--No address in beretta2017dataforhistory
 Warning--No address in berners2004uniform
 Warning--Empty pages in borst1997construction
+Warning--Empty pages in brumfield2019blog
+Warning--Empty pages in brumfield2015medea
 Warning--Empty pages in tomasekmedea
 Warning--No address in cole2015complete
 Warning--Empty pages in cummings2013text
@@ -99,6 +101,7 @@ Warning--No address in pollin2017semantically
 Warning--Empty pages in sokollgrundlagen
 Warning--Empty pages in schreiber2014rdf
 Warning--Empty pages in stachowiak1973allgemeine
+Warning--Empty pages in stertzer2014working
 Warning--Empty pages in sure2003methodology
 Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
