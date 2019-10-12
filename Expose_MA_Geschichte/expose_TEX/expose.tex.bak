@@ -220,7 +220,7 @@ In der Geschichtswissenschaft von heute gibt es eine Vielzahl von Methoden, dere
 Der Zweck quantitativer und qualitativer Methoden in der Geschichtswissenschaft, die stets als Mittel zum Zweck zu betrachten sind, ist es Erkenntnis über die Vergangenheit zu gewinnen. \footcite[][S.203-206]{jarausch1985quantitative} Gerade in den Geschichtswissenschaften der 1980er war diese eine Auseinandersetzung zwischen ''Traditionalisten'' und ''Quantifizierern''.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{(Digitale) Quantifizierer und Traditionalisten: Entwicklung einer formalen, digitalen Methodik }
+\subsection{''Quantifizierer'' und ''Traditionalisten'': Entwicklung einer formalen Methodik }
 
 ''Aber alle Autoren halten daran fest, dass sich de Quantifizierung als ein gewichtiges Werkzeug historischer Analyse erwiesen habe''.\footcite[][S.191-206]{jarausch1985quantitative}
 \\
@@ -285,7 +285,7 @@ Eine weitere Unterscheidung ist in der Einteilung in informellen bzw. nicht-form
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.65\textwidth]{img/fernrohr.png}  
-    \caption[Nichteindeutigkeit nicht-formaler Modelle, KÖNIG Bettina : Vorlesung ''Modellierungsmethoden der Informatik'', \protect\url{http://www.ti.inf.uni-due.de/fileadmin/public/teaching/mod/slides/ws201112/einfuehrung.pdf}, 10.06.2019]{Nichteindeutigkeit nicht-formaler Modelle}\label{fig:fernrohr}
+    \caption[Nichteindeutigkeit nicht-formaler Modelle, KÖNIG Bettina: Vorlesung ''Modellierungsmethoden der Informatik'', \protect\url{http://www.ti.inf.uni-due.de/fileadmin/public/teaching/mod/slides/ws201112/einfuehrung.pdf}, 10.06.2019]{Nichteindeutigkeit nicht-formaler Modelle}\label{fig:fernrohr}
 \end{figure} 
 Ein \textbf{semiformales Modell} ist teilweise exakt. Es verfügt über eine definierte Syntax, spezifiziert aber nicht die ganze Domäne und verfügt über keine semantischen Konstruktionsregeln. Umsetzen lassen sich solche Modelle beispielsweise mit EEntity-Relationship-Modell (ER) oder UML (ToDo) Diagrammen.
 \\
@@ -330,101 +330,136 @@ Im Zuge dieser Arbeit soll aber dem engeren Begriff folge geleistet werden. Fors
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Modelle in den Geschichtswissenschaften}
 
-Damit Forschungsdaten nachnutzbar und nachvollziehbar sind bedarf es eines mitgelieferten Modells. Diese Modelle wiederum müssen auf Standards beruhen. Es ist zeitensiv die Datenmodelle andere zu verstehen und oft ist es leichter sein eigenes Modell zu entwickeln. Ein generelles Problem mit Informationssystem und Forschungsdaten ist, dass sie nur für eine bestimmte Fragestellung bzw. ein bestimmtes Projekt entwickelt wurden. Werden bei der Generation der Forschungsdaten aber bereits Konzepte und Standardisierungen verfolgt, so fällt es leichter die ''Datensilos'' zu verlassen und die Nachnutzung zu fördern. 
+Damit Forschungsdaten nachnutzbar und nachvollziehbar sind bedarf es eines mitgelieferten Modells. Diese Modelle wiederum müssen auf Standards beruhen. Es ist zeitintensiv die Datenmodelle andere zu verstehen und oft ist es leichter sein eigenes Modell zu entwickeln. Ein generelles Problem mit Informationssystem und Forschungsdaten ist, dass sie nur für eine bestimmte Fragestellung bzw. ein bestimmtes Projekt entwickelt wurden. Werden bei der Generation der Forschungsdaten aber bereits Konzepte und Standardisierungen verfolgt, so fällt es leichter die ''Datensilos'' zu verlassen und die Nachnutzung zu fördern. 
 \\
 Eine erste Form der Standardisierung in den (digitalen) Geisteswissenschaften ist die Text encoding Initiative (TEI). Wenn auch Umsetzungen der TEI nicht einem 'klassischen' Standard entsprechen, so sind sie Überlegunen, wie man Text strukturieren und annotieren kann, sehr wohl standardisiert. 
 \\
 Es ist eine Notwendigkeit, dass Standards auf der einen Seite ausdrucksstark sein müssen, um die unterschiedlichen Problemstellungen fassen zu können, anderenseits es sich aber daraus formale Modelle ableiten lassen müssen. THALLER fordert deswegen, dass die Standards zur Beschreibung von Modellen eher beschreibend statt  vorschreibend sind.\footcite[][S.204]{thaller2017need}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\newpage
 \section{Historische Rechnungsbücher als Quelle}
 \label{Rechnung}
 
-In diesem Kapitel wird das Rechnungsbuch als historische Quelle dargestellt und sowohl inhaltliche wie auch äußerliche Eigenschaften festgemacht. In einem weiter Schritt wird dann auf konkrete digitalen Editionsprojekte von Rechnungsbüchern eingegangen.
+In diesem Kapitel der Quellentypus Rechnungsbuch als historische Quelle dargestellt. Dazu werden inhaltliche, wie auch äußerliche Eigenschaften von Vertretern dieser Quellengattung beschrieben und Fachliteratur diskutiert.
+Anfangs wird der Quellentypus an sich beschrieben, gefolgt von einem historischen Abriss der Entwicklung der Finanzdokumentation und einer theoretischen Annäherung an die wirtschaftlichen Aktivitäten, die auf inhaltlicher Ebene in Rechnungsbüchern dokumentiert sind. In einem weiter Schritt wird dann auf konkrete digitalen Editionsprojekte von Rechnungsbüchern eingegangen und ein Blick in textuelle und semantische Strukturen der Quellen geworfen und erörtert, welceh geschichtswissenschaftlichen Forschungsfragen sich damit beantworten lassen.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Rechnungsbücher}
+
+Bei Rechnungsbüchern handelt es sich um pragmatisches, aus dem Alltag der Menschen stammendes Schriftgut, das zur Dokumentation und als Gedächtnisstütze für den Austausch von Waren, Dienstleistungen und Rechten diente. Zu meist auf Papier, aber im Laufe der Zeit mittels unterschiedlichsten Schreib-- und Beschreibstoffen und ohne übergeordneten Standards verfasst, folgen sie keinen repräsentativen Zweck. Menschen mussten zumindest über Schreib- und Lesekenntnisse verfügen, die von einfachen Rechenfertigkeit bis hin zur Erstellung vollständiger Kalkulationen reichen. Das gemeinsame Element dieses differenzierten Quellentypus ist die Ausrichtung auf wirtschaftliche Aktivitäten in Form von Transaktionen. Daraus ergibt sich eine ''natürliche'', manchmal auch textuelle, semantische Struktur, die zeigt, das es sich um ein ''\textit{Werkzeug des Alltages}'' gehandelt hat, das man an unterschiedlichen Orten und Zeiten der Menschheitsgeschichte finden kann.\footcite[][S.2]{tomasekmedea}
 \\
-Bei Rechnungsbüchern handelt es sich um pragmatisches, aus dem Alltag der Menschen stammendes Schriftgut, das zur Dokumentation und als Gedächtnisstütze diente, bis eine Schuld getilgt wurde. Zu meist auf Papier und ohne übergeordneten Standards verfasst, folgte sie keinen repräsentativen Zweck. Dennoch haben sie zumeist eine einheitliche Struktur, die zeigt, das es sich um ein ''\textit{Werkzeug des Alltages}'' gehandelt hat, damit es auch für andere verständlich und nachnutzbar ist. GLEBA und PETERSEN heben eine Vielfalt der Inhalte in Rechnugnsbüchern, sowie die Möglichkeiten der ''\textit{interdisziplinären Erschießung der Quelle 'Rechnungsbuch'}'' hervor. Die Herausforderungen der Erschließung der Quelle sind vielfältig: Maß-, Größen- und Gewichtsordnungen und Information zu Geldwerten sind sehr stark an Region und Zeit gebunden. Dennoch lassen sich viele Forschungsfragen aus solchen Quellen ableiten: wie haben sich Güter, Dienstleistungen und Geldbeträge über die Zeit hinweg verändert, welche wirtschaftlichen Abhängigkeiten zwischen Akteuren gibt es? Rechnungsbücher gehen ''\textit{weit über wirtschafts- und verwaltungsgeschichtliche
-Aspekte hinausgehen}''\footcite[Nach KLAPP,][S.14]{bauch2015daten} und so haben Fragestellungen dieser Art weitere soziale, gesellschaftliche und wirtschaftliche Implikationen, die uns ein Verständnis geben können, wie das Leben der Menschen in der Vergangenheit ausgesehen haben kann.\footcite[][S.7-10]{gleba2015einleitung}
+GLEBA und PETERSEN heben eine Vielfalt der ableitbaren Inhalte aus Rechnugnsbüchern, sowie die Möglichkeiten der ''\textit{interdisziplinären Erschießung der Quelle 'Rechnungsbuch'}'' hervor. Die Herausforderungen der Erschließung der Quelle sind vielfältig: Maß-, Größen- und Gewichtsordnungen und Information zu Geldwerten sind abhängig von Ort und Zeit. Dennoch lassen sich viele Forschungsfragen mit solchen Quellen bearbeiten: wie haben sich Güter, Dienstleistungen und Geldgeschäfte über die Zeit hinweg verändert, welche wirtschaftlichen, aber besonders auch welche kultur-- und sozialgeschichtliche Relationen gibt es? Rechnungsbücher gehen nach KLAPP ''\textit{weit über wirtschafts-- und verwaltungsgeschichtliche
+Aspekte hinausgehen}''\footcite[][S.14]{bauch2015daten} und so haben Fragestellungen dieser Art weitere soziale, gesellschaftliche und wirtschaftliche Implikationen, die uns ein Verständnis geben können, wie das Leben der Menschen in der Vergangenheit ausgesehen haben kann.\footcite[][S.7-10]{gleba2015einleitung}
 \\
-\\
-BRUCH sieht Rechnungsbücher sehr geeignet dafür Daten zu liefern, damit sie mit quantitativen Methoden weiterverarbeitet werden können.\footcite{bauch2015daten}
-\\
-\\
-MEDEA-Paper:
-Historical accounting documents have taken many forms over the course of human history, and
-their formats have changed in ways that have not always been reflected in the historical
-literature. While a shorthand reference to the development of so-called double entry accounts
-based on the practices of early modern Italian merchants might prevail among historians of the
-modern era, considerable evidence demonstrates a more nuanced process of change over time. In
-fact, historians have used the term “accounts” for a wide range of primary sources. Long before
-the fifteenth century, people all over the world tracked exchanges of goods, services, and rights
-by writing on a variety of materials that included clay and wax tablets, slate, tallies, papyrus,
-parchment, and paper, and they used a range of tools that were appropriate to these different
-materials. At various times and places, the people making these records had literacy skills
-ranging from basic numeracy through full literacy; their purposes in creating the records
-extended from simple memory aids through complex professional evaluations. The common
-element among these highly differentiated sources was their focus on economic activities. Thus,
-we can deduce that the form and inner structure of the accounts evolved in relation to available
-materials and tools, in association with diverse purposes, and in connection to the development
-of economic activities.
-Historians have demonstrated that those responsible for keeping track of the funds of cities,
-estates, businesses, charities, and other human organizations developed their accounting
-practices as they encountered new situations and problems. Medieval and early modern accounts
-from French- and German-speaking regions reveal some of the processes of this non-linear,
-locally influenced development (Arlinghaus 2000, Mersiovsky 2000). And research on
-nineteenth-century business accounts has shown that only in the final decades of the century did
-accounting become a professional pursuit in which such contemporary notions as cost accounting
-and depreciation of business machinery were standard management principles that reputable
-firms and organizations were expected to follow (McGaw 1985, Yates 2000). In the following
-four examples, MEDEA participants illustrate areas where digital scholarly editions of accounts
-can add to knowledge about the evolution of accounting practices as well as about daily life and
-the sorts of factors that have been the subject of social and economic history for the past eighty
-years.\footcite[][S.2]{tomasekmedea}
+BRUCH sieht Rechnungsbücher als geeignete Quelle, um Daten für diesen Zweck zu liefern, die mittels quantitativen Methoden weiterverarbeitet werden können. Am Beispiel des \textit{Zisterzienserinnenkloster Pielenhofen bei Regensburg} veranschaulicht sie ihre Vorgehensweise. Nach einer notwendigen Kontextualisierung der Quelle, datiert auf 1224-1348, beschreibt die die wirtschaftliche Situation des Klosters über diese Jahre hinweg. BRUCH kommt zu dem Schluss:\footcite[][S.13-37]{bruch2015daten}
 \\
 \\
-Historische Rechnungsbüchern sind einen Teil einer Menge von Primärquellen, die Aufzeichnungen von Handel mit Waren und Dienstleistungen darstellen. Sie werden seit längerer Zeit als Primärdatensätze für historische Forschung genutzt. Sie liefern reichhaltige und strukturierte Daten, die oft längere Zeiträume abdecken und die als Aggregation vieler Einzelinformationen enthalten zu Beantwortung unterschiedlicher Forschungsfragen herangezogen werden können. Sie beinhalten beispielsweise Information über den Kauf und Verkauf von Waren, Werkzeugen und Rohstoffen eines bestimmten Gewerbes, sowie über die ausgezahlten Löhne von Arbeitnehmern*innen. Eine andere Art von Rechnungsbüchern stellen Haushaltskonten dar. Diese beziehen sich auf den Kauf von Lebensmittel und Bekleidung sowie für Zahlungen für Dienstleistungen in Form von Kochen, Waschen oder andere Haushaltsarbeiten.   HFRs im Zusammenhang mit der Haushaltsführung auch im Zusammenhang mit der Haushaltsführung enthalten Listen der für Hausarbeit gezahlten Löhne, und solche Listen finden sich manchmal auf der Seite Rückseiten von Taschenkalendern und nicht in formalen Kontenbüchern oder Ledgern. In Regionen wo Arbeiter versklavt wurden, finden sich HFRs in den Buchhaltungsbüchern und in der persönlichen Aufzeichnungen über Sklavenhalter und Sklavenhändler.\footcite[][S.2]{tomasek2013encoding}
+''\textit{Allerdings zeigt sich auch, dass die für ein Jahr gewonnenen Daten miteinander in Beziehung gesetzt werden können: Einnahmen gegenüber Ausgaben, Getreide gegenüber Geld, Schulden gegenüber Einnahmen und Ausgaben, Klosterinsassen oder der Viehbestand gegenüber den Einnahmen bzw. Ausgaben. Hinzu kommt, dass man beim Vergleich von Daten aus unterschiedlichen Jahren mit Visitationen zu ähnlichen Zeitpunkten Tendenzen ausmachen kann. So wandeln sich die reinen Daten in Informationen, die zur Beantwortung konkreter Fragestellungen herangezogen werden können.}''\footcite[Vgl.][S.37]{bruch2015daten}
+\\
+\\
+BRUCH kommt zum Schluss, dass die Abrechnung durch das Mutterkloster nicht auf einem Rechnungsjahr basiert und so die Bezugszeiträume für die Zahlen vollkommen unklar sind. Es handelt sich lediglich um eine Momentaufnahmen. Hinzukommt eine lückenhafte Überleiferung. Somit ist eine mathematisch-statistische oder auch eine quantitative Auswertung nur in Ansätzen möglich.
+Dennoch lassen sich die Daten aus dem Rechnungsbuch in Informationen transferieren. Beispielsweise können Einnahmen und Ausgaben eines Jahres gegenübergestellt werden und damit die Haushaltsführung des beschrieben werden. Ebenso können die Getreide- und Geldeinnahmen bzw. Ausgaben in Beziehung gesetzt werden, um zu ermitteln, welche wirtschaftlichen Schwerpunkte das Kloster setzte. Die Schulden können gegen die Einnahmen
+bzw. Ausgaben aufgerechnet werden. Die Zahl der Klosterinsassen oder der Viehbestand können mit Einnahmen bzw. Ausgaben in Verbindung gebracht werden. Hinzu kommt, dass man, wenn man die unterschiedlichen Visitationszeitpunkte beachtet,
+Tendenzen ausmachen kann, ob die Wirtschaft prosperierte oder ob die Klöster mit
+strukturellen Defiziten wirtschafteten.\footcite[][S.37-44]{bruch2015daten}
+\\
+\\
+Historische Rechnungsbüchern sind Teil einer Menge von Primärquellen, die Aufzeichnungen über den Handel mit Waren und Dienstleistungen darstellen. Sie werden seit längerer Zeit als Primärdatensätze für historische Forschung genutzt. Sie liefern reichhaltige und strukturierte Daten, die oft längere Zeiträume abdecken und die als Aggregation vieler Einzelinformationen enthalten zu Beantwortung unterschiedlicher Forschungsfragen herangezogen werden können. Sie beinhalten beispielsweise Information über den Kauf und Verkauf von Waren, Werkzeugen und Rohstoffen eines bestimmten Gewerbes, sowie über die ausgezahlten Löhne von Arbeitnehmern*innen. Eine andere Art von Rechnungsbüchern stellen Haushaltskonten dar. Diese beziehen sich auf den Kauf von Lebensmittel und Bekleidung sowie für Zahlungen für Dienstleistungen in Form von Kochen, Waschen oder andere Haushaltsarbeiten. HFRs im Zusammenhang mit der Haushaltsführung auch im Zusammenhang mit der Haushaltsführung enthalten Listen der für Hausarbeit gezahlten Löhne, und solche Listen finden sich manchmal auf der Seite Rückseiten von Taschenkalendern und nicht in formalen Kontenbüchern oder Ledgern. In Regionen wo Arbeiter versklavt wurden, finden sich HFRs in den Buchhaltungsbüchern und in der persönlichen Aufzeichnungen über Sklavenhalter und Sklavenhändler.\footcite[][S.2]{tomasek2013encoding}
 \\
 Eine Transkription allein reicht nicht aus um die unterschiedlichen Dimensionen einer solchen Quelle abzudecken: die linguistische/textuelle, die quantifizierbare und die semantische Dimension. Für Forschungszwecke unterliegen historische Quellen einem Transformationsprozess hin zu (vernetzten) Informationsquellen, die in verschiedenen Forschungsszenarien genutzt werden können. Um dies zu veranschaulichen, werden drei Fallstudien von Projektpartnern und ihren jeweiligen Forschungsinteressen diskutiert, die weit über wirtschaftliche und administrative Aspekte hinausgehen.
-\\
-\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Historischer Abriss der Finanzdokumentation}
+
 Händler haben finanzielle Aufzeichnungen geführt, um Käufe und Verkäufe von Waren seit den Handelsökonomien des alten Mesopotamiens zu verfolgen, und der Impuls, regelmäßige Konten zu führen, führte zu Standards für die Erfassung von Finanzinformationen. Im Laufe der Jahrhunderte boten verschiedene einflussreiche Texte gewöhnlichen Geschäftsleuten die Möglichkeit, zu lernen, wie man das macht. Für das frühneuzeitliche Europa skizzierte Fra Luca Pacioli in seiner Abhandlung The Rules of Double-Entry Bookkeeping von 1494 Rechnungslegungsgrundsätze, die die Handelsrechnung in ganz Europa beeinflussten. Mitte des achtzehnten Jahrhunderts veröffentlichte der schottische Mathematiker John Mair ein einflussreiches Lehrbuch mit dem Titel 
 Buchhaltungsmethodik; oder, eine methodische Abhandlung von Handelskompten, nach der italienischen Form. Bei der Präsentation von Pacioli's System für Englischsprachige durchlief Mair's Text zahlreiche Ausgaben zwischen den folgenden Sprachen 1736 und 1808. \footcite[][S.3]{tomasek2013encoding}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Finanztransaktionen}
+\subsection{Theoretische Annäherung an ökonomische Transaktionen}
 
 \textit{Extensible Business Reporting Language }(XBRL)\footcite{engel2003extensible} ist ein XML-basierter Standard und frei verfügbare Sprache für die Beschreibung und den Austausch inhaltlicher und technischer Information der Geschäftsberichterstattung. XBRL verwendet verschiedenen Spezifikationen und das Herzstück bildet ein \textit{instance document}, das die finanziellen Fakten beschreibt und eine \textit{taxonomy} das die Konzepte erfasst. Kodierung eines Finanzbericht in XBRL erfordert die Verbindung von Instanzdokumenten mit Taxonomien und zugehörige \textit{Linkbases}, die Sammlungen von eingehenden und externen Links enthalten. CLIFFORD et. al führen an, dass es für die Beschreibung von Transaktionen in historischen Rechnungsbüchern geeignet ist, kritisieren aber das es für die Foramlisierung historischer Daten nicht entwickelt wurde. Beispielsweise ist es nicht möglich historische Währungen in XBRL zu beschreiben, da nur die durch ISO 2015 definierten Währungen erlaubt sind.\footcite[][S.7-9]{tomasekmedea}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{DEPCHA}
+\subsection{Digital Edition Publishing Cooperative for Historical Accounts}
 \label{DEPCHA}
 
 Daten - aus unterschiedlichen Formaten - sollen auf einer gemeinsamen Plattform zusammengeführt werden und adäquate Formen des Retrievals, Discoverys und der Visualisierung eröffnen, um die Arbeit mit den Quellen zu erleichtern. Die Überführung nach RDF auf Basis der im Projektkontext entwickelten \textit{Bookkeeping-Ontologie}, die Transferprozesse historischer Rechnungsbücher formalisiert, erlaubt die Interoperabilität, Verlinkung und Zusammenführung der Informationen im Sinne des \textit{Web of Data} und \textit{Linked Open Data}.
 
 
 \subsubsection{The George Washington Financial Papers}
-The George Washington Financial Papers (1748-1799) 3 gives insight into the life of
-George Washington and other topics such as the material culture, social history,
-manufacturing and agriculture. The financial papers exist as digital edition, created and
-published via an open-source, Drupal 4 based editorial platform, and aim to make
-Washington’s records freely accessible. The platform allows editing and publishing
-financial documents and gives the users the possibility to perform simple analytical
-functionalities. Samples of research questions that could be of interest to historians are:
-How much money did Washington spent annually and for which specific commodities?
-Which role slave trade plays in his business? How did the price of certain commodities
-fluctuate? What did the network of partners look like and who did business with him?
-How was the value of tobacco calculated through different currencies [St14]?
+Die digitale Edition der \textit{George Washington Financial Papers} (1748-1799) haben zum Ziel die Geschäfts- und Haushaltsakten des US-Präsidenten George Washington über das Web zugänglich zu machen. Basierend auf einer technischen Open Source Lösung, dem Content Management System Drupal\footnote{Drupal, \protect\url{https://www.drupal.org}, 12.10.2019}, sind Benutzer*innen in der Lage die Transkriptionen der drei Rechnungsbücher (\textit{Ledgers A, B, and C}) von Washington zu lesen, Suchanfragen an die aus den Editionen extrahierten Daten zu stellen, sowie die Daten zu exportieren und lokal weiter zu verarbeiten. Auf diese Weise wird ein Einblick in das Leben der Person George Washington, sowie  anderer Themen, wie etwa die materielle Kultur, Sozialgeschichte, Gewerbe und Landwirtschaft dieser Zeit ermöglicht.\footnote{The George Washington Financial Papers Project, \protect\url{http://financial.gwpapers.org}, 08.10.2019.} Beispielhafte Forschungsfragen, die für Historiker*innen im Zuge dieses Editionsprojektes von Interesse sind, lauten wie folgt: 
+\begin{itemize}
+\item Wie viel Geld hat Washington jährlich für bestimmte Rohstoffe ausgegeben?
+\item Welche Rolle spielt der Sklavenhandel in Washingtons wirtschaftlichen Tätigkeit?
+\item Wie hat sich der Preis bestimmter Rohstoffe über diesemn Zeitraum hinweg verändert verändert?
+\item Wie sieht Netzwerk der Geschäftspartner rund um Washington aus?
+\item Wie wurde der Wert der Ware Tabak in verschiedenen Währungen berechnet und bewertet?
+\end{itemize}
+Im Laufe seines Lebens trug Washington Tausende von Finanzdokumenten zusammen, in denen er jede Transaktion genaue nach modernster Finanzlehre aufzeichnete. Dies umfasste Ausgaben für Lebensmittel und Textilien oder seinen Landsitz in Mount Vernon, sowie Kosten für die Ausbildung seiner Kinder oder die medizinischen Behandlungen für Sklaven. Weiters dokumentiert Washington an wen er Geld verliehen hat, seine Anteile an Firmen oder eingehobene Mieten.
+Aus den Rechnungsbüchern schließt STERTZER, dass Washington ein versierter Unternehmer war, der Innovationen suchte, kalkulierte Risiken einging und aufgrund seiner methodischen Buchführung ein breites Verständnis für die amerikanische Wirtschaft hatte.\footcite[][]{stertzer2014working}
+\\
+\\
+Abbildung \ref{fig:washington} zeigt die erste Seite aus dem Rechnungsbuch \textit{Ledger A} von Washington. Aus der Transkription der ersten 3 Einträge erkennt man eine Struktur, wie sie typisch ist für ein US amerikanisches Rechnungsbuch dieser Zeit ist. Die Überschrift definiert die Debit-Seite der Transaktionen, gekennzeichnet durch die Abkürzung \textit{Dr}, mit der Person \textit{George Fairfax} der nun folgenden Einträge. In der ersten Spalte wird das Datum der Transaktion festgehalten, wie ''\textit{Novr 6}'' für den 06.11.1750, gefolgt von der Verschriftlichung der Transaktion in der mittleren Spalte. Diese definiert zu meist den Status, Art, Wert und die beteiligten Personen der Transaktion anführt. ''\textit{To Ditto}'' meint, dass es sich um die zuvor angeführte Person handelt. Für eine formale Verarbeitung müssen diese Phrasen normalisiert werden. Die letzten 3 Spalten stehen für die Währungseinheiten Pfund, Schilling und Pence. Zum Teil werden diese Spalten auch genutzt um eine (Zwischen)Summe zu berechnen.\footnote{Ledger A, 1750 - 1772: pg.1, \protect\url{http://financial.gwpapers.org/?q=content/ledger-1750-1772-pg1}}
+\\
+\\
+\begin{tabular}{clcc}
+& \textbf{George Fairfax Esqr. Dr}\\
+1750 April 2 & To John Welton's Order on you & 4 & 10\\
+Octr 7 & To Cash lent & 2 & 3 \\
+Novr 8 & To Ditto paid Robt Worthington \& Michl Sweim Chr Govr &  17 & 3\\
+\end{tabular}
+\medskip
+\begin{center}
+\textit{Ersten drei Einträge von Seite 1, 1750-72, Ledger Book A}
+\end{center}
+Inhaltlich Zusammengefasst findet man 3 Geldzahlungen von George Washington an \textit{George Fairfax} festmachen. Einmal eine Zahlung in Zusammenhang einer weiteren Person \textit{John Welton's Order}, ein andere Geldbetrag von 2 Pfund und 3 Schilling der verliehen wurde und die Bezahlung für \textit{Robt Worthington \& Michl Sweim}.
 
-\subsubsection{Stageville}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1\textwidth]{img/washington.png}  
+    \caption[1. Seite von George Washington, 1750-72, \textit{Ledger Book A}, Library of Congress, Manuscript Division, STERTZER Jennifer: \protect\url{http://doi.org/10.16995/dscn.57}]{1. Seite von George Washington, 1750-72, \textit{Ledger Book A}, Library of Congress, Manuscript Division.} \label{fig:washington}
+\end{figure}
+
+
+\subsubsection{Cameron Family Papers, Stagville Accounts}
+
+Das historische Stagville ist eine Tabakplantage nördlich von Durham (North Carolina, USA), die seit dem späten 18. Jahrhundert im Besitz der Familie Bennehan und Cameron ist. Ihr Eigentum vor Beginn des Amerikanischen Bürgerkriegs umfasste 30.000 Hektar Land und um die 900 versklavten Menschen, die auf dieser Plantage arbeiten mussten.\footcite[][]{brumfield2015medea}
+\\
+Die \textit{Cameron Family Papers} (1767-1892) beinhalten umfangreiche Geschäftsunterlagen im Zusammenhang mit einem Wirtschaftsbetrieb rund um eine Tabakplantage, die Transaktionen zwischen dem Geschäftsladen und den Mitgliedern, sowie unfreien Arbeiter*innen der Gemeinschaft dokumentieren. Beispielsweise findet sich darin ein sogenanntes ''\textit{Slave-Ledger}''. Dabei handelt es sich um ein separat geführtes Rechnungsbuch, das Transaktionen zwischen dem Geschäft auf der Tabakplantage und versklavten Kunden*innen dokumentiert.
+\\
+AGBE-DAVIS und BRUMFIELD stellen bei der Untersuchung des ''\textit{Slave-Ledger}'', dass die Unterlagen nicht isoliert, sondern nur im Kontext aller Dokumente in den \textit{Cameron Family Papers} betrachtet werden müssen. Forschungsfragen in diesem Projektkontext sind:
+\begin{itemize}
+\item Wie bezahlen unfreie Arbeiter*innen Güter, die sie im Laden der Plantage erworben konnten?
+\item Welche wirtschaftlichen Abhängigkeiten (Verschuldungen) bestehen zwischen den unterschiedlichen Akteuren?
+\item Welche Waren werden gemeinsam gekauft?
+\item Welche soziale Stellung haben sie und inwieweit beeinflusst das ihre Einkäufe.
+\end{itemize}
+In folgender Abbildung ist die dritte Seite des Rechnungsbuches aus Stagville.\footnote{Stagville Accounts, From the Page, \protect\url{https://fromthepage.com/agbedavies/stagville-accounts/00133-sv0061/display/7884}, 08.10.2019.} Der erste Eintrag beschreibt den Kauf eines Schumessers zum Preis von 1 Schilling und 6 Pence. Im ''\textit{Slave-Ledger}'' verkauft Cameron, aber ein Schuhmesser für 2 Schilling. Ob der Änderung des Preises durch den zeitlichen Unterscheid gegeben ist, oder eben durch den sozialen Status der Kunden, ist eine geschichtswissenschaftliche Fragestellung.\footcite[][]{brumfield2019blog}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/stagville.jpg}  
+  \caption[]{} \label{fig:stagville}
+\end{figure}
+\begin{tabular}{clcc}
+  & \textbf{Stagville August 1st 1808}\\
+ 69 & James Haley Self Dr. & &\\
+    & 1/4 lb Powder 2/6 1 lb Shot 2/6 1 lb Sugar 2/6 & 7 & 6\\
+	& 1 Shoe Knife 1/6  & 1 & 6\\
+	& & 9  & -
+\end{tabular}
+\medskip
+\begin{center}
+\textit{ToDo}
+\end{center}
 
 \subsubsection{The Wheaton Accounts}
 
-Die \textit{Wheaton Family Papers} umfassen mehrere Bücher im Zeitraum von 1828 bis 1859, die unter anderem die finanziellen Geschäfte von \textit{Laban Morey Wheaton} und seiner Familie, einem Geschäftsbesitzer eines \textit{dry goods store} aus Norton, Massachusetts in den Vereinigten Staaten von Amerika, dokumentieren. Unter \textit{dry goods} versteht man einen aus dem 17. Jahrhundert stammenden historischen Begriff, der je nach Region leicht unterschiedliche Güter zusammenfasst. Darunter werden im Allgemeinen aber Produkte verstanden, die ''trocken'' sind, wie etwa Textilien, Konfektionskleidung, Tabak oder bestimmten Lebensmittel, wie etwa Kartoffel.\footcite[Definition von \textit{Dry Goods}, \protect\url{https://chestofbooks.com/reference/Dictionary-of-Dry-Goods/Dry-Goods.html}, 23.05.2019, Vgl.][]{cole2015complete}
+Die \textit{Wheaton Family Papers} umfassen mehrere Bücher im Zeitraum von 1828 bis 1859, die unter anderem die finanziellen Geschäfte von \textit{Laban Morey Wheaton}, einem Geschäftsbesitzer eines \textit{dry goods store} aus Norton, Massachusetts in den Vereinigten Staaten von Amerika, dokumentieren. Unter \textit{dry goods} versteht man einen aus dem 17. Jahrhundert stammenden historischen Begriff, der je nach Region zum Teil unterschiedliche Güter zusammenfasst. Darunter werden im Allgemeinen Produkte verstanden, die ''trocken'' sind, beispielsweise Textilien, Konfektionskleidung, Tabak oder bestimmten Lebensmittel, wie etwa Kartoffel.\footcite[Definition von \textit{Dry Goods}, \protect\url{https://chestofbooks.com/reference/Dictionary-of-Dry-Goods/Dry-Goods.html}, 23.05.2019, Vgl.][]{cole2015complete}
 \\
-Die Stadt Norton ist eine charakteristische landwirtschaftlich und von Manufakturen geprägte Kleinstadt im Nordosten der USA im Hinterland der regional bedeutenden Häfen Boston, New Bedford, Newport, and Providence. In einer Geschichte der Stadt Norton von CLARK wird \textit{Laban Morey Wheaton} namentlich genannt. Er lebte von 14.September 1796 bis 1865, hat Rechtswissenschaften an der \textit{Brown University} studiert und jahrelang als \textit{Postmaster of Norton} gearbeitet. Er war politisch aktiv und war Vertreter im \textit{Massachusetts General Court}, sowie Mitglied im \textit{Massachusetts Governor's Council}. Er war verheiratet und Angehöriger des Kongregationalismus, einer Form der christlichen Gemeindeverfassung. Die Wheaton Familie besaß eine Milchviehherde sowie Fabriken zur Produktion von Baumwollwatte, die \textit{Wheaton Manufacturing Company,} und eine zur Produktion von Strohhüten\footcite[][S.6]{tomasek2013encoding} und so gehörte Laban Wheaton zu einem der wohlhabendes Männer der Stadt. Sogar ein Portrait von ihm ist bei CLARK überliefert.\footcite[][S.496]{clark1859history} 
+Die Stadt Norton ist eine charakteristische Kleinstadt im Nordosten der USA, die landwirtschaftlich und von Manufakturen geprägte ist. Sie befindet sich im Hinterland der regional bedeutenden Häfen Boston, New Bedford, Newport, and Providence. In einer Geschichte der Stadt Norton von CLARK wird \textit{Laban Morey Wheaton} namentlich genannt. Er lebte von 1796 bis 1865, hat Rechtswissenschaften an der \textit{Brown University} studiert und jahrelang als \textit{Postmaster of Norton} gearbeitet. Er war politisch aktiv und war Vertreter im \textit{Massachusetts General Court}, sowie Mitglied im \textit{Massachusetts Governor's Council}. Weiters war er verheiratet und Angehöriger des Kongregationalismus, einer Form der christlichen Gemeindeverfassung. Die Wheaton Familie besaß eine Milchviehherde und Manufrakturen zur Produktion von Baumwollwatte, die \textit{Wheaton Manufacturing Company,} und eine zur Produktion von Strohhüten\footcite[][S.6]{tomasek2013encoding}. So gehört Laban Wheaton zu einem der wohlhabendes Männer der Stadt. Sogar ein Portrait von ihm ist bei CLARK überliefert.\footcite[][S.496]{clark1859history} 
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.2\textwidth]{img/LMwheaton.jpg}  
@@ -447,12 +482,11 @@ Im Alltag einer Kleinstadt wie Norton zu dieser Zeit trafen sich Menschen regelm
 Im Textfluss lassen sich zwischen den Einträgen entweder einfache Zahlen ''12'', ''24'' oder neue Tagesdaten finden, die eben nun alle folgende Transaktionen einem neuem Datum zuordnen. So steht ''12'', ''24'' auf diese 100 f+r den 12. und 24.September und ''Oct 8th 1831'' ordnet alle folgenden Einträge  dem 8. Oktober 1831 zu.
 \\
 Rechts neben den Akteuren in den Einträgen lässt sich meistens ein ''D'' bzw. ''Dr'', seltener ein ''C'' bzw. ''Cr'' vorfinden, für ''Debitor'' und ''Creditor'' steht. Dies markiert eine Transaktion mit diesem Partner, das sie auf die HABEN bzw. die SOLL Seite gebucht wird.
-\begin{figure}
+\begin{figure}[H]
 \centering
-	\includegraphics[width=1\textwidth]{img/wheaton_100_101.jpg}  
+	\includegraphics[width=0.8\textwidth]{img/wheaton_100_101.jpg}  
     \caption[Seite 100 des \textit{Daybook, \protect\url{http://hdl.handle.net/11040/17982}}, 1828-1859]{Seite 100 des \textit{Daybook}, 1828-1859a} \label{fig:wheaton}
 \end{figure}
-\\
 Die vollständige Transkription der ersten 8 Einträge der Seite 100. Diese zeigen die soeben beschriebenen Strukturen.
 \\
 \\
@@ -488,8 +522,11 @@ Oct. 11th " "\\
     & Mrs. Babcock DR  & & \\		
 Settled & By work from this day pd & \$2 & 00
 \end{tabular}
-\\
-\\
+\medskip
+\begin{center}
+\textit{ToDo}
+\end{center}
+
 TOMASEK verfolgt dabei einen TEI/XML-Ansatz, um drei Ebenen dieser Quelle zu beschreiben. Das Layout, die textuelle Struktur der Quelle und die abstrakte Ebene, inhaltliche Ebene der Transaktionen. Letztere ist nur schwer durch die TEI Markup beschreibbar.
 \\
 Es erweitert den Bereich der Fragen zu historischen Narrativen und geografischen Informationen. Es ist interessant zu folgen.
@@ -729,125 +766,7 @@ huhu Ontologie zitieren\footcite[Vgl][S.162-178]{jannidis2017digital}
 \subsection{Die Bookkeeping-Ontology als konzeptuelles Model für digitale Editionen von historischen Rechnungsbücher}
 \label{BK}
 
-MEDEA-Paper:
-A CIDOC-CRM Based Ontology of Economic Activities
-All these XML formats represent parts of what humans did when they exchanged goods and
-services and recorded these economic activities in written form. Each method has its advantages.
-But still it seems that behind all these forms is a common model which could be represented
-conceptually in the following way: There are agents agreeing on a transfer of something
-measurable and executing this transfer. Usually the transfer is mutual, i.e. at least two transfers
-aggregate to a transaction, in which usually money is exchanged for commodities, services or
-rights. Additionally one or the other party creates a documentation of this transfer, which can be
-an artifact like a tally, but usually is a written accounting document. It is important to notice that
-the financial document is not necessarily representing the transfer or the transaction itself; a
-record can even be fictitious. It also adds a level of interpretation: The transactions are organized
-in the document following a specific scheme meaningful to the agent commissioning the record,
-the “categories”, “rubrics”, or “accounts”, which can be abstracted to dimensions; often the
-accountant aggregates the individual transactions into totals, balancing the financial state or
-demonstrating profits and losses; and some transactions are not recorded at all.
-While the historical process of economic transactions can be modelled as seen above, the source
-material thus has a complex relationship to these historical events we assume to have happened.
-As in all manuscript analysis, a page is written by one or more hands (writers) in one or more
-sessions. One specific record can be found on (parts of) one or more pages. So we have an
-activity performed by one or more actors at a period of time, which may have been
-discontinuous, which resulted in a record. The traces of this activity can be found in the
-document and can be established as such by competent readers, as we have seen in the examples
-above.
-Each record represents a claim about something that happened in the real world, an economic
-transaction of some sort. This is another activity, connected to but distinct from the record
-creation event. In an event-based modelling of historical accounts these two activities will form
-the core of a network of information, and information—about actors, time, location, the historical account document, and other events connected to the transaction such as goods,
-money, currency information—become nodes attached to this core.
-Formalizing the conceptual model resulting from these considerations would allow us to map the
-formalizations described above for their procession as complete set. This goal seems reasonable
-as of course the records of an economic activity in the ledger of one company should find their
-counterpart in the ledger of its exchange partner. A meta search on digital representations of
-various Hanse records could therefore allow extracting networks and flows of trade activities.
-The research on long term price series or their regional diversion would profit from a common
-access to the records. The recent solutions historians at the University of Tokyo (Kokaze et al,
-2016) have found to represent chronology in historical accounts confirm this: They study the
-relationship between agents mentioned in the accounts of the British Lay-Osborn Flotilla and
-Chinese administration from the 1860s in time.
-The conceptual model covers completely, what a TEI based transactionography (hsfr) and XBRL
-encoding describe: The hfrs:transaction/medea:transaction consists of hfrs:transfers, each of
-them involving medea:agents/@hfrs:fra and @hfrs:til. The hfrs:transfer is defined as ‘A transfer
-of something of value’, which is a tei:measure/medea:measurable. The medea:documentation of
-the transfer is encoded with hfrs:attested as a reference to a TEI text structure. The
-hfrs:listAccount and hfrs:account express the interpretative organization of transactions in
-medea:schemes and medea:dimensions. hfrs:listTransaction and hfrs:transferGrp are generic
-grouping functionalities which are reflected in the medea:dimensions of documentation and the
-medea:total and medea:balance concepts. The relationship between the suggested conceptual
-model and the abstract level in XBRL is even more obvious: The XBRL 'financial facts' are a
-superclass to medea:transfer, medea:transaction, or medea:total. They are recorded in 'instances'
-(medea:document) and the 'taxonomies' describe their interpretative dimensions
-(medea:dimension, medea:schema).
-The currently most adaptable formal representation for this kind of data is the Resource
-Description Framework (RDF) of the W3C. Its graph-based model is flexible but structured
-enough to express complex data structures. The basic conceptualization similar to simple natural
-language sentences as subject-predicate-object triples makes it fairly easy to understand. RDFs
-and OWL7 offer rich possibilities for formal modelling. A preliminary RDFs schema for the
-conceptual model has therefore been created and published on github
-(\url{https://github.com/GVogeler/bookkeeping}).
-The CIDOC-CRM, as an event-based ontology, is a good structure for encoding such
-information, as shown through the use of the standard for several types of cultural-historical
-evidence. As a matter of fact, it serves well to cover the main parts of the conceptual model
-described above, with its two event types:
-1. The creation of the accounting document
-2. The transfer as the recorded economic activity
-While the first is clearly a subclass of the E65\_Creation class, the latter can be considered as a
-subtype of E7\_Activity and of E28\_Conceptual\_Object.
- Both are connected by the document
-written by the accountant and attesting a transfer. The example from Kokaze et al. (2016)
-demonstrates that the general properties of CIDOC-CRM events have practical research
-relevance.
-Given the specific need in modelling these documents and the activities documented in them,
-some extensions to CIDOC-CRM should be made. This is also in line with what we have seen in
-other areas including archaeological excavations8 and buildings,9 and scientific observations10
-establishing a CIDOC-CRM based family of standards. In the development of this CIDOC-CRM
-based extended model it will be an important question what the target for the modelling is, that
-is, what time periods, geographical areas, and specific document types will function as evidence
-for the modelling. This will determine how specific the model can be: the larger the scope, the
-looser and more flexible the model must be.
-The two event types described above have different relationships to truth. As for the records in
-the historical account we know they exist and were written, at least as long as the original
-document exists. What is questionable is who wrote it, when, and also the level of unity, that is,
-what makes one record separate from other records. For the economic transaction documented in
-the record the question of existence is somewhat different than from the record. We only know
-there is a claim for an economic transaction, not that any transaction actually took place, for
-which one often needs additional evidence, knowledge, and analysis to determine.
-This creates an interesting question of modelling principles: should one model the worldview
-expressed by the documents or should one express the worldview seen as most likely to be
-correct by the historians (Ciula, Spence, Vieira 2008)? The choice of modelling standards should
-not determine that choice. However, as CIDOC-CRM is a tool for information integration it is
-more common to use it for models aiming towards historical truthfulness. That does not mean
-that the worldview expressed in the documents should be hidden, just that the activities
-expressed in the model will be the ones the historians believe to have taken place. Modelling and
-encoding the transactions recorded in historical accounting documents as stand-off reference
-between textual evidence and description of the economic and social ‘facts’ even makes possible
-multiple interpretations of the textual evidence, which would lead to considering the addition of
-a factoid-based approach (Bradley and Pasin 2015) to the model
-Conclusions
-The current results of the work done by the MEDEA collaborative are therefore fivefold:
-1. The textual genre of accounts shows a great variety in form in its history with a
-substantial common ground in concepts and human activities represented in these texts.
-2. These concepts and human activities are of high interest in the humanities and historical
-social science research.
-3. Based on the work of the DH community in the TEI and of contemporary business
-reporting standardization activities in XBRL, it is possible to develop a conceptual model
-for the documentary representation of human activities in the field of economics.
-4. This model can be expressed as a graph structure, and it can be integrated into the larger
-conceptual framework of the CIDOC-CRM family of standards.
-5. It is worthwhile to continue the development of the formal model and make suggestions
-about how to integrate the formal model into encoding practice and data publication of
-historical accounting records.
-Certainly, the solutions discussed here are only a few of all the possible ways that web
-technologies can enhance research with historical accounting records. The MEDEA scholars
-look forward to suggestions for modifications of the ontology, additions of other possible
-methods for encoding economic facts represented in accounting documents, more efficient setups
-for execution of projects, and a thorough scrutiny of the conceptual consistency of our proposal.
-The MEDEA scholars will continue their work on the ontology and will try to set up a collection
-of examples showing how we think the integration of the representation of content expressed in
-RDF and scholarly edition of accounting documents can be realized.\footcite[][S.9-12]{tomasekmedea}
+ToDo\footcite[][S.9-12]{tomasekmedea}
 \\
 \\
 Das abschließende Kapitel verbindet die theoretischen Überlegungen mit den technischen Ausführungen und skizziert die Arbeit, die im Zuge des Projektes \textbf{Digital Edition Publishing Cooperative for Historical Accounts (DEPCHA)}\footnote{\url{gams.uni-graz.at/depcha}} umgesetzt wurde. In diesem Projekt wird ein gemeinsamer Publikations-Hub für historische Rechnungsbücher implementiert. Im Zentrum steht die Entwicklung und Nutzung einer Ontologie, einer formalen Beschreibung eines konzeptuellen Models zur Standardisierung von Buchungstransaktionen in historischen Rechnungsunterlagen. Dabei wird ein im \textit{Web of Data}, sowie ein \textit{Linked Open Data} Zugang verfolgt. Das heißt, dass eben der Transkription und Edition der Rechnungsbücher, sowie der Verfügugnstellung der Digitalisate der Quellen, hochstrukturierte RDF-Daten existieren, die mittels der Bookkeeping-Ontologie formalisiert sind und Referenzen auf Normdaten und LOD-Vokabularien setzen. Mit diesem Zugang soll die Nachprüfbarkeit, die Sicherstellung und die Nachnutzbarkeit der Forschungsdaten und aller darauf aufbauenden quantitativen Methoden und deren Ergebnisse gewährleistet sein. Dabei spielt die Bookkeeping-Ontologie, im THALLER'schen Sinne als \textit{knowledge domain} eine zentrale Rolle. In diesem Kapitel soll zuerst auf die digitale Edition historischen Rechnungsbüchern und die dazu nötigen Standards, vor allem die TEI, eingegangen werden. Danach folgt die semantische Anreicherung und die Repräsentation der Inhalte in den Transaktionen, sowie eine detailierte Beschreibung der domänenspezifischen Bookkeeping-Ontology.  
