@@ -1,83 +1,73 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: literatur.bib
-Repeated entry---line 843 of file literatur.bib
+Repeated entry---line 876 of file literatur.bib
  : @article{musen2015protege
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 858 of file literatur.bib
+Repeated entry---line 891 of file literatur.bib
  : @book{linckels2011librarian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 866 of file literatur.bib
+Repeated entry---line 899 of file literatur.bib
  : @book{stuckenschmidt2009ontologien
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 874 of file literatur.bib
+Repeated entry---line 907 of file literatur.bib
  : @book{reichenberger2010grundlagen
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 881 of file literatur.bib
+Repeated entry---line 914 of file literatur.bib
  : @inproceedings{hoekstra2009ontology
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 894 of file literatur.bib
+Repeated entry---line 927 of file literatur.bib
  : @phdthesis{borst1997construction
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 904 of file literatur.bib
+Repeated entry---line 937 of file literatur.bib
  : @article{gruber1993translation
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 918 of file literatur.bib
+Repeated entry---line 951 of file literatur.bib
  : @book{favre2001information
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 925 of file literatur.bib
+Repeated entry---line 958 of file literatur.bib
  : @article{thaller2017ungefahre
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 935 of file literatur.bib
+Repeated entry---line 968 of file literatur.bib
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 997 of file literatur.bib
+Repeated entry---line 1030 of file literatur.bib
  : @book{jannidis2017digital
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1028 of file literatur.bib
+Repeated entry---line 1061 of file literatur.bib
  : @article{schreiber2014rdf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1043 of file literatur.bib
+Repeated entry---line 1076 of file literatur.bib
  : @techreport{berners2004uniform
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1057 of file literatur.bib
+Repeated entry---line 1090 of file literatur.bib
  : @book{powers2003practical
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1065 of file literatur.bib
+Repeated entry---line 1098 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "pollin2017suchen" isn't style-file defined
---line 1129 of file literatur.bib
-Repeated entry---line 1146 of file literatur.bib
+--line 1162 of file literatur.bib
+Repeated entry---line 1179 of file literatur.bib
  : @book{andorfer2015forschungsdaten
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1261 of file literatur.bib
+Repeated entry---line 1294 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
@@ -117,45 +107,4 @@ Warning--Empty pages in sure2003methodology
 Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
 Warning--There's no chapter in wolf1995qualitative
-You've used 79 entries,
-            7954 wiz_defined-function locations,
-            1794 strings with 23476 characters,
-and the built_in function-call counts, 83484 in all, are:
-= -- 5929
-> -- 2812
-< -- 243
-+ -- 985
-- -- 888
-* -- 9486
-:= -- 11917
-add.period$ -- 0
-call.type$ -- 79
-change.case$ -- 383
-chr.to.int$ -- 103
-cite$ -- 210
-duplicate$ -- 4527
-empty$ -- 8638
-format.name$ -- 2871
-if$ -- 16980
-int.to.chr$ -- 3
-int.to.str$ -- 0
-missing$ -- 445
-newline$ -- 726
-num.names$ -- 656
-pop$ -- 1765
-preamble$ -- 1
-purify$ -- 380
-quote$ -- 0
-skip$ -- 3202
-stack$ -- 0
-substring$ -- 2691
-swap$ -- 2190
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 1662
-warning$ -- 34
-while$ -- 743
-width$ -- 0
-write$ -- 2935
 (There were 17 error messages)
