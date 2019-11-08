@@ -122,20 +122,29 @@ Es lässt sich eine Vielzahl von Projekten festmachen, die quantitative, formale
 \\
 VASOLD hat in seiner Arbeit in den 1990er Jahren mit der computergestützten Verarbeitung der Itinerar\footnote{Als Itinerar versteht man nicht nur Reiseberichte, sondern auch die Methode der Rekonstruktion der getätigten Wege einer Person oder Gruppe.} des Erzbischofs Konrad IV. von Salzburg die Möglichkeiten und den Mehrwert formaler Methoden in den Geschichtswissenschaften gezeigt. Er hat auf Basis eines mittelgroßen Quellenbestandes aus Urkunden und historiographischen Belegen, die Reisetätigkeiten eines Erzbischofes aus dem Mittelalter rekonstuiert, in dem er ein Modell zur formalen Beschreibung der gesammelten Belege entwickelt und diese Daten im quellenorientierten Datenbanksystem Kleio verarbeitet. Kleio ist ein Datenverarbeitungsprogramm, aus den 80iger und 90iger Jahren, das die Arbeit von Historiker*innen unterstützt und die Arbeit mit komplexen (historischen) Daten ermöglicht.\footcite[][S.172-174]{hoffmann1990ehepaare}  Als Vorteil dieser Herangehensweise führt VASOLD an, dass durch die Ein- und Ausblendung bestimmter Strukturen und Quellen, sich ein stabiles Bild des Weges einer Person skizzieren lässt.\footcite{vasold1996itinerar}
 \\
+\\
 Unter Verwendung der ''\textit{dynamisch integierten computergestützen Edition}'' hat PERSTLING das Steirische Marchfutterurbar aus den Jahren 1412 bis 1426 so erschlossen, dass unterschiedliche Bearbeitungsschichten des Dokuments als digitale Edition über das Web nachvollziehbar werden.\footcite{PerstlingMatthias2013MDuE} So wird das Fundament für künftige  Erforschungen von beispielsweise Preisen, Münzen oder prosopographischen\textbf{Bezeichnet in der Geschichtswissenschaft die systematische Erforschung eines bestimmten Personenkreises.}, wie  auch onomastischen\footnote{Bezeichnet die Namensforschung, die die Verbreitung, Bedeutung und Herkunft von Eigennamen erforscht.} Studien gelegt.
+\\
 \\
 BURGHARTZ, CALVI und VOGELER haben eine TEI/XML basierte digitale Edition des Basler Urfehdebuchs X, das Urfehedeeinträge aus den Jahren 1563 bis 1569 beinhaltet, im Web veröffentlicht. Als Urfehde versteht man ein Rechtsmittel in der Neuzeit, um einen Konflikt zweier Parteien zu schlichten. Die digitale Edition liefert eine transkribierte Quelle, die nach einem konzeptuellen Modell semantisch beschrieben wurden. Täter, Tat, Opfer, Strafen und personenbezogene Information werden so maschinenlesbar strukturiert und können weiter ausgewertet werden.\footcite[][S.27-29]{pollin2017semantically} 
 \\
 \\
 Bei Rechnungsbüchern handelt es sich um pragmatisches, aus dem Alltag der Menschen stammendes Schriftgut, das zur Dokumentation und als Gedächtnisstütze dient. Die einheitliche und ''natürliche'' Struktur, sowie der Inhalt solcher Quellen, eignen sich für die Anwendung quantitativer (und computergestützter) Methoden. So lassen sich diesbezüglich eine Vielzahl von Projekten festmachen.
 \\
+\\
 Im Projekt ''\textit{Rechnungsbücher von Bistritz aus den Jahren 1461–1520 ediert}'', werden Steuerverzeichnisse erschlossen, die einen Einblick in die wirtschaftliche und soziale Struktur der drittgrößten Stadt Siebenbürgens zu dieser Zeit liefern.\footnote{\url{https://www.siebenbuerger.de/zeitung/artikel/kultur/14043-rechnungsbuecher-von-bistritz-aus-den.html}, 15.07.2019}
+\\
 \\
 In einer anderen Kooperation haben BURGHARTZ und VOGELER die ''\textit{Jahrrechnungen der Stadt Basel}'' in den Jahren 1535 bis 1610 digital ediert und im Web veröffentlicht. Jedes Rechnungsbuch beschreibt Einkünfte und Ausgaben der Stadt Basel, wie beispielsweise Einnahmen durch das \textit{Weinungeld}, einer Abgabe an die Stadt, die durch den Ausschank von Wein fällig wurde. Die digitale Edition verfügt über Funktionalitäten einzelne Einträge zu sammeln und  Berechnungen damit anzustellen.\footcite[][S.11-13, \protect\url{https:gams.uni-graz.at/srbas}]{vogeler2016content}
 \\
+\\
 ''\textit{Die digitale Edition der Augsburger Baumeisterbücher}''\footnote{Die Augsburger Baumeisterbücher. Digitale Edition der mittelalterlichen Stadtrechnungen von 1320 bis 1466\protect\url{https://www.augsburger-baumeisterbuecher.de/}}, erlaubt den Zugang zu XML-basierten Transkriptionen der Quellen. Sowohl Digitalisate, wie auch Indices zu Personennamen, Orten und Schlagwörtern sind im Web aufrufbar und durchsuchbar. Eine Normalisierung von Namensformen beispielsweise wird über die Gemeinsame Normdatei (GND)\footnote{\protect\url{https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html}} sichergestellt.\footcite[][S.109-113]{wurz2016dh}
 \\
-Zuletzt sei die Arbeit von ZIEGLER angeführt, die zwar nicht digital ist, aber zeigt, dass die Überlegungen zur Anwednung quantitativer Methooden auf historische Rechnugnsbücher dazu führen kann, komplexere Sachverhalte zu bearbeiten, wie etwa den Staatshaushalt Bayerns in der zweiten Hälfte des 15.Jahrhunderts. In seiner Zusammenfassung ist sich ZIEGLER bewusst, dass auf Grund der unscharfen und lückenhaften Datengrundlage es sich nur um eine historische Annäherung handeln kann, die aber dennoch für die Geschichtswissenschaften relevant sind.\footcite[][S.221-230]{ziegler1981Staatshaushalt}
+\\
+NEUWÖHNER beschreibt  ausführlich eine Geschichte der Stadt Paderborn im 17. Jahrhundert, die auf den Einnahmen und Ausgaben der Stadtrechnungen basiert. Nicht die Erfassung und Edition der historischen Quellen liegt in dieser Arbeit im Vordergrund, sondern veranschaulicht sie, wie reichhaltig die geschichtswissenschafliche Interpretation des Quellentypus Stadtrechnung sein kann, um die finanzielle, wirtschaftliche und soziale Dimension einer Stadt zu erforschen.\footcite[][S.11-50]{neuwohner2016rechnen}  
+\\
+\\
+Zuletzt sei die Arbeit von ZIEGLER angeführt, die zwar auch nicht digital ist, aber zeigt, dass die Überlegungen zur Anwednung quantitativer Methooden auf historische Rechnugnsbücher dazu führen kann, komplexere Sachverhalte zu bearbeiten, wie etwa den Staatshaushalt Bayerns in der zweiten Hälfte des 15.Jahrhunderts. In seiner Zusammenfassung ist sich ZIEGLER bewusst, dass auf Grund der unscharfen und lückenhaften Datengrundlage es sich nur um eine historische Annäherung handeln kann, die aber dennoch für die Geschichtswissenschaften relevant sind.\footcite[][S.221-230]{ziegler1981Staatshaushalt}
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -181,48 +190,63 @@ Zwei grundlegende Strömungen in der Erkenntnis- und Wissenschaftstheorie sind w
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Hermeneutik - Empirismus}
+\subsubsection{Hermeneutik}
 
 Bei der \textbf{Hermeneutik} handelt es sich um eine Theorie der Interpretation und des Verstehens von Texten, die nicht nur auf die Geschichtswissenschaft angewendet wird, sondern auf viele geisteswissenschaftliche oder rechtswissenschaftliche Fächer.
 DILTHEY betont, ''\textit{dass das Verstehen [...] die spezifische Operation der Geisteswissen darstellt.}\footcite[Vgl.][S.82]{ficara2015hermeneutik}
 \\
- Im großen Unterschied zu naturwissenschaftlichen Fragestellungen, ist die Vergangenheit nicht in einem Experiment beweis- bzw. widerlegbar. Geprägt wird die Hermeneutik, im Sinner der Theorie für die Geschichtswissenschaften, unter anderen, von den Arbeiten von SCHLEIERMACHER, der sie zu einer \textit{universellen Theorie des Verstehens} weiterentwickelte, in der jedes Verstehen ein individueller Prozess ist. Für SCHLEIERMACHER ist gerade die Sprache, als Ausdruck der Gedanken von Individuen wichtig.\footcite[Vgl.][S.72-81]{ficara2015hermeneutik} Aus dem neuen Geschichtsverständnis des 19. Jahrhunderts entwickelte DILTHEY die Hermeneutik zu einer historischen Methodik. Bei ihm wird Verstehen zur Methode in der Geisteswissenschaften. Wo Naturwissenschaften die Welt von außen betrachten und gesetzmäßige Erkenntnis durch das Zählen, Messen und der daraus ableitbaren Regeln, ist die Aufgabe der Geisteswissenschaften, die Welt von innen zu verstehen.\footcite[][S.82-83]{ficara2015hermeneutik} In der Hermeneutik ist  Verstehen essentiell. Unter GADAMER wird die Hermeneutik zur Philosophie weiterentwickelt. Es bedarf immer eines Vorverständnis, um in einen Prozess des Verstehens eintauchen zu können, an dessen Ende nur eine Annäherung an eine Wahrheit möglich ist.\footcite[][S.19-30]{schulz2010neuere}
+Im großen Unterschied zu naturwissenschaftlichen Fragestellungen, ist die Vergangenheit nicht in einem Experiment beweis- bzw. widerlegbar. Geprägt wird die Hermeneutik, als Theorie für die Geschichtswissenschaften, unter anderen, von den Arbeiten von SCHLEIERMACHER, der sie zu einer \textit{universellen Theorie des Verstehens} weiterentwickelte, in der jedes Verstehen einen individuellen Prozess darstellt. Für SCHLEIERMACHER ist gerade die Sprache, als Ausdruck der Gedanken von Individuen wichtig.\footcite[Vgl.][S.72-81]{ficara2015hermeneutik} 
+\\
+Aus dem neuen Geschichtsverständnis des 19. Jahrhunderts entwickelte DILTHEY die Hermeneutik zu einer historischen Methodik. Bei ihm wird Verstehen zur essentiellen Methode in der Geisteswissenschaften. Wo Naturwissenschaften die Welt von außen betrachten und gesetzmäßige Erkenntnis, beispielsweise durch das Zählen, Messen und der daraus ableitbaren Regeln, schließen, so ist die Aufgabe der Geisteswissenschaften, die Welt von innen zu verstehen.\footcite[][S.82-83]{ficara2015hermeneutik}
+\\
+Unter GADAMER wird die Hermeneutik zur Philosophie weiterentwickelt. Es bedarf immer eines Vorverständnis, um in einen Prozess des Verstehens eintauchen zu können, an dessen Ende nur eine Annäherung an eine Wahrheit möglich ist.\footcite[][S.19-30]{schulz2010neuere} Voraussetzung dafür ist die Frage nach der Anwendung und Konkretisierung der Fragestellung, die GADAMER als grundsätzliche Verwandtschaft von juristischer und hermeneutischer Rationalität beschreibt.\footcite[][S.176-178]{ficara2015hermeneutik}
 \\
 Nicht nur unser Wissen über historische Quellen, sondern alles Wissen beruht auf einem Verstehen, das in einer Auslegung unseres Wissens erläutert wird. Verstehen in diesem Sinne ist zirkelförmig. Jemand tritt mit einem gewissen Vorwissen an eine Fragestellung heran. Es werden in der Auseinandersetzung mit der Materie Erfahrungen gesammelt und ein tieferes Verständnis der Thematik erarbeitet. Mit diesem gefestigten Verständnis bewegt man sich im sogenannten  \textit{hermeneutischen Zirkel}, einem iterativen Prozess gleich, weiter fort und erhält auf diese Weise ein besseres Bild zu einem Thema. Eine Problemstellung muss zuerst gefunden, erkannt und verstanden werden, damit sie weiter verarbeitet werden kann.\footnote{STANGL, Werner: Geschichte der Hermeneutik, \protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikHistorie.shtml}, 01.06.2019.}
+\\
 \\
 In folgendem Beispiel nach STANGL sind die Wörter ''\textit{vihe}'', ''\textit{verwürckt}'' oder ''\textit{fewer}'' ohne jeglichen Kontext unverständlich. Werden sie aber in ihrem Kontext gelesen, wird die Bedeutung des Textes offensichtlich:
 \\
 \\
-"\textit{ltem so eyn mensch mit eynem vihe, mann mit mann, weib mit weib, vnkeusch treiben, die haben auch das leinen verwürckt, vnd man soll sie der gemeynen gewonheyt nach mit dem fewer vom leben zum todt richten}" 
+"\textit{ltem so eyn mensch mit eynem vihe, mann mit mann, weib mit weib, vnkeusch treiben, die haben auch das leinen verwürckt, vnd man soll sie der gemeynen gewonheyt nach mit dem fewer vom leben zum todt richten}"\footnote{•\protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikZirkel.shtml}, 07.11.2019.}
 \\
 \\
-Zentrale Begriffe lassen sich häufig erst aus dem Zusammenhang erschließen. Für das vollständige Verstehen des Gesamttextes müssen alle Einzelheiten nachvollziehbar sein. Die hermeneutische Spirale beinhaltet, dass Teilstück vom Ganzen her verstanden, korrigiert oder erweitert wird und sich umgekehrt das Ganze von den Teilen her bestimmt.
-\\
-\\
-Der \textbf{Empirismus}...
-\\
-\\
-Gegenüberstellung Hermeneutik - Empirismus
-\\
-Im Zusammenspiel mit empirischer Methoden ist die Hermeneutik für die Hypothesenbildung und für die Interpretation der Ergebnisse von großer Bedeutung. Bei der empirischen Überprüfung von Sachverhalten spielt die Hermeneutik eine wesentliche Rolle bei der Quantifizierung von qualitativen Aussagen. Auch die Interpretation von empirischen Resultaten ist, so STANGL, ein hermeneutischer Vorgang.\footnote{STANGL, Werner: Der hermeneutische Zirkel, \protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikZirkel.shtml}, 01.06.2019.}
-\\
-\\
-''Das Verhältnis zwischen Hermeneutik und empirischer Wissenschaft ist in der philosophischen Debatte bis heute kontrovers. Insbesondere in den Sozialwissenschaften wurde diese Debatte zwischen Vertretern einheitswissenschaftlicher Positionen, wie sie die Vertreter des Kritischen Rationalismus Karl Popper und Hans Albert einnehmen, und alternativen Positionen (etwa der Kritischen Theorie um Max Horkheimer und Theodor W. Adorno), die sich gegen eine ihrer Meinung nach „blinde“ Übertragung naturwissenschaftlicher Erkenntnismodelle auf die Sozial- und Geisteswissenschaften gewehrt haben, intensiv in den 1960er und 70er Jahren ausgetragen (vgl. den sogenannten Positivismusstreit).'' 
+Zentrale Begriffe lassen sich häufig erst aus dem Zusammenhang erschließen. Für das vollständige Verstehen des Gesamttextes müssen alle Einzelheiten nachvollziehbar sein. Die hermeneutische Spirale beinhaltet, dass Teilstücke ganzheitlich verstanden oder erweitert werden und sich das Ganze von den Teilaspekten her definieren lässt.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Empirismus}
+
+Wissenschaften, die Sachverhalte und Objekte der Welt durch Experimente im Labor, Beobachtung oder Befragung im Feld untersuchen werden als empirische Wissenschaften aufgefasst.  Als sogenannte Erfahrungswissenschaft, wird Erkenntnis aus der Erfahrung der Welt abgeleitet. Die klassischen Vertreter sind etwa die Disziplinen der Naturwissenschaften. Die Mathematik, die Philosophie oder auch die Informatik werden als keine empirischen Wissenschaften verstanden. In diesen Disziplinen findet keine direkte Beobachtung statt, sondern basieren Aussagen auf einer logischern bzw. formalen Herangehensweise.\footcite[08.11.2019]{frommergrundbegriffe} Abbildung \ref{fig:empirismus} zeigt die zerntralen Begriffe der Empirie und ihr Wechselwirkung. Als Empirie wird die methodisch-systematische Sammlung von Daten verstanden, die zu einer Hypothese oder deren Widerlegung führen. Die \textbf{Deduktion} versteht die Schlussfolgerung gegebener Prämissen auf die logisch zwingenden Konsequenzen und die \textbf{Induktion} beschreibt den abstrahierenden Schluss aus beobachteten Phänomenen auf eine allgemeinere Erkenntnis.\footcite[Siehe][]{chalmers2007wege}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.85\textwidth]{img/emprisimus.png}  
+    \caption[Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften, \protect\url{https://de.wikipedia.org/wiki/Empirie\#/media/Datei:Induktion-Deduktion.svg}, 09.11.2019.]{Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften} \label{fig:empirismus}
+\end{figure}
+In der Geschichtswissenschaft werden Textquellen mittels hermeneutischer Methoden interpretiert.  Vertreter einer streng einheitswissenschaftlichen Position – etwa Carl Gustav Hempel – betrachten die Geschichtswissenschaft als empirische Wissenschaft. Demgegenüber haben Vertreter eines Dualismus zwischen Natur- und Geisteswissenschaften – wie zu Beginn des 20. Jahrhunderts Wilhelm Dilthey und später Georg Henrik von Wright – den besonderen Charakter hermeneutisch vorgehender Wissenschaften herausgestellt.
+\\
+\\
+Das Verhältnis zwischen Hermeneutik und empirischer Wissenschaft ist in der philosophischen Debatte bis heute kontrovers. Insbesondere in den Sozialwissenschaften wurde diese Debatte zwischen Vertretern einheitswissenschaftlicher Positionen, wie sie die Vertreter des Kritischen Rationalismus Karl Popper und Hans Albert einnehmen, und alternativen Positionen (etwa der Kritischen Theorie um Max Horkheimer und Theodor W. Adorno), die sich gegen eine ihrer Meinung nach „blinde“ Übertragung naturwissenschaftlicher Erkenntnismodelle auf die Sozial- und Geisteswissenschaften gewehrt haben, intensiv in den 1960er und 70er Jahren ausgetragen (vgl. den sogenannten Positivismusstreit). 
+\\
+Gerade im Zusammenspiel zwischen empirischer Methoden und der Herangehensweise an Forschungsfragen im Sinne der Hermeneutik kann ein Mehrwert für die Bildung von Hypothesen und die Interpretation eines Themas entstehen. Bei der empirischen Überprüfung von Sachverhalten spielt die Hermeneutik eine wesentliche Rolle bei der Quantifizierung von qualitativen Aussagen. Auch die Interpretation von empirischen Resultaten ist, so STANGL, ein hermeneutischer Vorgang.\footnote{STANGL, Werner: Der hermeneutische Zirkel, \protect\url{https://arbeitsblaetter.stangl-taller.at/ERZIEHUNGSWISSENSCHAFTGEIST/HermeneutikZirkel.shtml}, 01.06.2019.}
+\\
+\\
+[die oberen Teile müssen noch ausgearbeitet werden, 1 Seite + Referenzen.]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{''Klassische'' Methoden}
 \label{Methoden}
 
-Methoden hingegen sind und waren ein stets anerkanntes und nicht wegzudenkendes Werkzeug in den Geschichtswissenschaften. Ein Blick auf die Vielfalt historischer Hilfswissenschaften, die sich mit der Erschließung von bestimmten Quellentypen beschäftigt, zeigt dies. Die Hilfswissenschaften bzw. Grundwissenschaften -- ''\textit{als Abzweigungen der allgemeinen historischen Arbeitsform}''[Vgl.][S.10]\footcite{von2007werkzeug} -- mit ihrem Ziel die historischen Quellen aufzubereiten, erstrecken sich von der Paläografie über die Diplomatik und Aktenkunde bis hin zur Genealogie.
+Methoden hingegen sind und waren ein stets anerkanntes und nicht wegzudenkendes Werkzeug in den Geschichtswissenschaften. Ein Blick auf die Vielfalt historischer Hilfswissenschaften, deren Aufgabe die Erschließung von bestimmten Quellentypen ist, zeigt dies. Die Hilfswissenschaften bzw. Grundwissenschaften -- ''\textit{als Abzweigungen der allgemeinen historischen Arbeitsform}''[Vgl.][S.10]\footcite{von2007werkzeug} -- mit ihrem Ziel die historischen Quellen aufzubereiten, erstrecken sich von der Paläografie über die Diplomatik und Aktenkunde bis hin zur Genealogie, um nur einige Vertreter zu nennen.
 \\
 Die Historische Fachinformatik versteht sich auch als Hilfswissenschaft innerhalb der Geschichtswissenschaften und beschäftigt sich mit der Anwendung und Reflexion von formalen Verfahren im Fach.\footnote{Was ist HFI?, Kurzbeschreibung des Faches und seiner Positionierung \protect\url{http://hfi.uni-graz.at/basisinformation/was-ist-hfi/}, 23.05.2019.} 
 \\
 \\
 Neben Methoden der Erschließung historischer Quellen in ihrer Materialisierung als historische Hilfswissenschaften ist die \textbf{Quellenkritik} immanente Methode der Geschichtswissenschaft. Die Quellenkritik entwickelte sich aus dem Dreischritt von Heuristik, Kritik und Interpretation. Historiker*innen formulieren eine Fragestellung, als Ergebnis eines spezifischen Forschungsstandes, um eigenen bzw. neue  Erkenntnisse über eine Forschungsfrage zu gewinnen. Relevante Quellen werden gesammelt, erschlossen und einer kritischen Prüfung auf Vollständigkeit, Glaubwürdigkeit und Echtheit unterzogen. Die Ergebnisse aus dem Quellenstudium werden mit den Erkenntnissen von Fachkollegen*innen verglichen und in übergeordnete Kontexte eingeordnet. Für DROYSEN mündet die Reflexion auf die historische Methode somit gleichsam wie von selbst in eine Theorie der historischen Erkenntnis, der Hermeneutik. Aus diesem Verständnis heraus erwuchs auch die Anwendung der Hermeneutik als Methode der Geschichtswissenschaft.
 \\
-In der Geschichtswissenschaft von heute gibt es eine Vielzahl von Methoden, deren Abgrenzung zu Theorien oft verschwimmen. Diskursanalyse oder Konflikttransformation, um zwei moderne Beispiele anzuführen, lassen sich sowohl als Theorie, also auch als Methode verstehen. Desweiteren verschwimmt die Unterscheidung zwischen qualitativer und quantitativer Methode. Erstere getragen von einem hermeneutischen, Zweitere von einem empirischen Verständnis.\footcite[][S.2-5]{sokollgrundlagen} 
+Methode und Theorie in der heutigen Geschichtswissenschaft sind zumeist nicht eindeutig abgrenzbar. Betrachtet man etwa die Diskursanalyse\footnote{Die allgemeine Untersuchung von sprachlichem Handeln und dessen gesellschaftliche und institutionellen Strukturen, sowie Zusammenhänge}, 
+ oder Konflikttransformation, um zwei moderne Beispiele anzuführen, lassen sich sowohl als Theorie, also auch als Methode verstehen. Desweiteren verschwimmt die Unterscheidung zwischen qualitativer und quantitativer Methode. Erstere getragen von einem hermeneutischen, Zweitere von einem empirischen Verständnis.\footcite[][S.2-5]{sokollgrundlagen} 
 \\
 \textbf{Qualitative Methoden} verfolgen im Gegensatz zu quantitativen Methoden einen offeneren und flexibleren Zugang zum Forschungsgegenstand. Es gibt Platz, dass neue Phänomene entdeckt werden können. Der Forschungsprozess wird als dynamisch aufgefasst und es werden Methoden eingesetzt wie Interviews, Inhaltsanalysen und Beobachtungen. Die \textbf{quantitativen Methoden} sind statisch und folgen einem festgelegten Muster. Zu Beginn des Forschungsprozesses müssen Theorien und Modelle über den Gegenstand der Forschung vorliegen. Es werden Hypothesen abgeleitet, die im Forschungsprozess überprüft werden. Hierzu werden Überlegungen angestellt welche Indikatoren für Forschungsfragen sinnvollerweise messbar sind und die Daten über statistische Verfahren ausgewertet. Die so 'berechneten' Erkenntnisse werden abschließend wieder auf das theoretische Modell bezogen und interpretiert.\footcite[][S.309–329]{wolf1995qualitative} Die Geschichtswissenschaft setzt allgemeine Hypothesen zur Erklärung spezifischer Entwicklungen ein und die Sozialwissenschaften nutzen Daten zur Formulierung von allgemeinen Gesetzmäßigkeiten.
 \\
