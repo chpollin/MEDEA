@@ -212,6 +212,19 @@
   {Presner}{Todd}{T.}{}{}; {Schnapp}{Jeffrey}{J.}{}{}} {} {} \bibAnnoteFile
   {burdick2012digital_humanities}
 
+\bibitem[{Chalmers\jbdy {2007}}%
+         {}%
+         {{0}{}{book}{2007}{}{}{}{}%
+          {Springer-Verlag\bibbdsep {} 2007}}%
+         {{Wege der Wissenschaft: Einf{\"u}hrung in die Wissenschaftstheorie}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{chalmers2007wege}
+ \jbbibargs {\bibnf {Chalmers} {Alan~F} {A.~F.} {} {}} {Alan~F Chalmers} {au}
+  {\bibtfont {Wege der Wissenschaft: Einf{\"u}hrung in die
+  Wissenschaftstheorie}\bibatsep\  \apyformat {Springer-Verlag\bibbdsep {}
+  2007}} {\bibhowcited} \jbdoitem {{Chalmers}{Alan~F}{A.~F.}{}{}} {} {}
+  \bibAnnoteFile {chalmers2007wege}
+
 \bibitem[{Clark\jbdy {1859}}%
          {}%
          {{0}{}{book}{1859}{}{}{}{}%
@@ -565,6 +578,22 @@
   {{Hoffmann}{Barbara}{B.}{}{}; {Horn}{Klaus}{K.}{}{}} {} {} \bibAnnoteFile
   {hoffmann1990ehepaare}
 
+\bibitem[{J{\"a}ger\jbdy {2000}}%
+         {Handbuch Sozialwissenschaftliche Diskursanalyse 1  \peryearformat
+  {2000}}%
+         {{0}{}{article}{2000}{}{}{}{83--114}%
+          {2000}}%
+         {{Theoretische und methodische Aspekte einer kritischen Diskurs-und
+  Dispositivanalyse}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{jager2000theoretische}
+ \jbbibargs {\bibnf {J{\"a}ger} {Siegfried} {S.} {} {}} {Siegfried J{\"a}ger}
+  {au} {\bibapifont {Theoretische und methodische Aspekte einer kritischen
+  Diskurs-und Dispositivanalyse}\bibatsep\ \bibJTsep \bibjtfont {Handbuch
+  Sozialwissenschaftliche Diskursanalyse}\ajtsep\  \artvolumeformat {1}
+  \artyearformat {2000} \jbPages{83--114}} {\bibartperiodhowcited} \jbdoitem
+  {{J{\"a}ger}{Siegfried}{S.}{}{}} {} {} \bibAnnoteFile {jager2000theoretische}
+
 \bibitem[{Jannidis\jbbfsasep Kohle\jbbstasep Rehbein\jbdy {2017}}%
          {}%
          {{0}{}{book}{2017}{}{}{}{}%
@@ -690,18 +719,18 @@
   1982}  \jbPages{S.7--27}} {\bibhowcited} \jbdoitem
   {{Kocka}{J{\"u}rgen}{J.}{}{}} {} {} \bibAnnoteFile {kocka1982theorien}
 
-\bibitem[{Latour\jbdy {2016}}%
+\bibitem[{Latour\Bibetal\jbdy {1999}}%
          {}%
-         {{0}{}{article}{2016}{}{}{}{}%
-          {2016}}%
-         {{Zirkulierende Referenz. Bodenstichproben aus dem Urwald am
-  Amazonas}%
+         {{0}{}{book}{1999}{}{}{}{}%
+          {Harvard university press\bibbdsep {} 1999}}%
+         {{Pandora's hope: essays on the reality of science studies}%
           {}{}{2}{}{}{}{}{}}%
-        ]{latour2016zirkulierende}
- \jbbibargs {\bibnf {Latour} {Bruno} {B.} {} {}} {Bruno Latour} {au}
-  {\bibapifont {Zirkulierende Referenz. Bodenstichproben aus dem Urwald am
-  Amazonas}\bibatsep\  \artyearformat {2016}} {\bibartperiodhowcited} \jbdoitem
-  {{Latour}{Bruno}{B.}{}{}} {} {} \bibAnnoteFile {latour2016zirkulierende}
+        ]{latour1999pandora}
+ \jbbibargs {\bibnf {Latour} {Bruno} {B.} {} {}\bibIMfont {\Bibetal}} {Bruno
+  Latour others} {aus} {\bibtfont {Pandora's hope: essays on the reality of
+  science studies}\bibatsep\  \apyformat {Harvard university press\bibbdsep {}
+  1999}} {\bibhowcited} \jbdoitem {{Latour}{Bruno}{B.}{}{}} {} {}
+  \bibAnnoteFile {latour1999pandora}
 
 \bibitem[{Linckels\jbbtasep Meinel\jbdy {2011}}%
          {}%
@@ -1019,6 +1048,22 @@
   \artyearformat {2014}} {\bibartperiodhowcited} \jbdoitem
   {{Schreiber}{Guus}{G.}{}{}; {Raimond}{Yves}{Y.}{}{}} {} {} \bibAnnoteFile
   {schreiber2014rdf}
+
+\bibitem[{Schr{\"o}der\jbdy {1988}}%
+         {Historical Social Research, Supplement\jbsy {1988}}%
+         {{0}{}{article}{1988}{}{}{}{}%
+          {DEU\bibbdsep {} 1988}}%
+         {{Historische Sozialforschung:
+  Forschungsstrategie-Infrastruktur-Auswahlbibliographie}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{schroder1988historische}
+ \jbbibargs {\bibnf {Schr{\"o}der} {Wilhelm~Heinz} {W.~H.} {} {}}
+  {Wilhelm~Heinz Schr{\"o}der} {au} {\bibapifont {Historische Sozialforschung:
+  Forschungsstrategie-Infrastruktur-Auswahlbibliographie}\bibatsep\ \bibJTsep
+  \bibjtfont {Historical Social Research, Supplement}  \artyearformat
+  {1988}\artnumberformat {1}} {\bibartperiodhowcited} \jbdoitem
+  {{Schr{\"o}der}{Wilhelm~Heinz}{W.~H.}{}{}} {} {} \bibAnnoteFile
+  {schroder1988historische}
 
 \bibitem[{Stachowiak\jbdy {1973}}%
          {}%
