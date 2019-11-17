@@ -11,8 +11,10 @@
 \contentsline {subsection}{\numberline {2.2}''Quantifizierer'' und ''Traditionalisten'': Entwicklung einer formalen Methodik }{15}
 \contentsline {subsubsection}{\numberline {2.2.1}Interpretation und Theoriebildung}{16}
 \contentsline {subsection}{\numberline {2.3}Modellbildung als Kern der Digital History}{18}
-\contentsline {subsubsection}{\numberline {2.3.1}Forschungsdaten in den Geschichtswissenschaften und historische Information}{22}
-\contentsline {subsubsection}{\numberline {2.3.2}Modelle in den Geschichtswissenschaften}{24}
+\contentsline {subsubsection}{\numberline {2.3.1}Definition und Terminologie des Modellbegriffs.}{18}
+\contentsline {subsubsection}{\numberline {2.3.2}Modellierung}{21}
+\contentsline {subsubsection}{\numberline {2.3.3}Modelle und (Forschungs)Daten in den Geschichtswissenschaften}{22}
+\contentsline {subsubsection}{\numberline {2.3.4}Modelle in den Geschichtswissenschaften}{24}
 \contentsline {section}{\numberline {3}Historische Rechnungsb\IeC {\"u}cher als Quelle}{26}
 \contentsline {subsection}{\numberline {3.1}Wirtschafts- und Rechnungsb\IeC {\"u}cher}{26}
 \contentsline {subsection}{\numberline {3.2}Historischer Abriss der Finanzdokumentation}{28}
