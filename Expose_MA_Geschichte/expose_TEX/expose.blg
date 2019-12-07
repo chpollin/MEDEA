@@ -1,16 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10664 items from 5000.
 Database file #1: literatur.bib
 Repeated entry---line 978 of file literatur.bib
  : @article{musen2015protege
@@ -84,6 +73,7 @@ Repeated entry---line 1406 of file literatur.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "kelly2016practical"
 Warning--I didn't find a database entry for "bauch2015daten"
+Warning--I didn't find a database entry for "sahle2003edition"
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--Empty pages in bauer2011linked
 Warning--No address in beretta2017dataforhistory
@@ -120,45 +110,4 @@ Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
-You've used 94 entries,
-            7954 wiz_defined-function locations,
-            1870 strings with 26126 characters,
-and the built_in function-call counts, 99613 in all, are:
-= -- 7041
-> -- 3339
-< -- 282
-+ -- 1169
-- -- 1056
-* -- 11290
-:= -- 14230
-add.period$ -- 0
-call.type$ -- 94
-change.case$ -- 454
-chr.to.int$ -- 118
-cite$ -- 244
-duplicate$ -- 5412
-empty$ -- 10389
-format.name$ -- 3417
-if$ -- 20286
-int.to.chr$ -- 3
-int.to.str$ -- 0
-missing$ -- 529
-newline$ -- 862
-num.names$ -- 785
-pop$ -- 2146
-preamble$ -- 1
-purify$ -- 451
-quote$ -- 0
-skip$ -- 3798
-stack$ -- 0
-substring$ -- 3228
-swap$ -- 2601
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 1968
-warning$ -- 36
-while$ -- 897
-width$ -- 0
-write$ -- 3487
 (There were 17 error messages)
