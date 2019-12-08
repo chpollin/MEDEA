@@ -146,24 +146,6 @@
   {Guha}{Ramanathan~V}{R.~V.}{}{}; {McBride}{Brian}{B.}{}{}} {} {}
   \bibAnnoteFile {brickley2014rdf}
 
-\bibitem[{Bruch\jbdy {2015}}%
-         {}%
-         {{0}{}{incollection}{2015}{}{}{}{14--44}%
-          {Universit{\"a}tsverlag G{\"o}ttingen\bibbdsep {} 2015}}%
-         {{Die Kunst, Daten in Informationen umzuwandeln}%
-          {}{}{1}{}{}{}{}{}}%
-        ]{bruch2015daten}
- \jbbibargs {\bibnf {Bruch} {Julia} {J.} {} {}} {Julia Bruch} {au} {\bibapifont
-  {Die Kunst, Daten in Informationen umzuwandeln}\bibatsep\ \incolledformat
-  {\bibenf {Gleba} {Gudrun} {G.} {} {}\Bibbtesep \bibenf {Petersen} {Niels}
-  {N.} {} {}}{\edfont {\editorsname}}{\bibbtfont {Wirtschafts-und
-  Rechnungsb{\"u}cher des Mittelalters und der Fr{\"u}hen Neuzeit-Formen und
-  Methoden der Rechnungslegung: St{\"a}dte, Kl{\"o}ster und
-  Kaufleute}\bibatsep\ }{}{}  \apyformat {Universit{\"a}tsverlag
-  G{\"o}ttingen\bibbdsep {} 2015}  \jbPages{14--44}} {\bibhowcited} \jbdoitem
-  {{Bruch}{Julia}{J.}{}{}} {{Gleba}{Gudrun}{G.}{}{}; {Petersen}{Niels}{N.}{}{}}
-  {} \bibAnnoteFile {bruch2015daten}
-
 \bibitem[{Brumfield\jbdy {2019}}%
          {From the Page\jbsy {2019}}%
          {{0}{}{article}{2019}{}{}{}{}%

@@ -334,6 +334,14 @@ Eine weitere Unterscheidung ist in der Einteilung in informellen ( nicht-formale
 Ein \textbf{semiformales Modell} ist teilweise exakt. Es verfügt über eine definierte Syntax, spezifiziert aber nicht die ganze Domäne und verfügt über keine semantischen Konstruktionsregeln. Umsetzen lassen sich solche Modelle beispielsweise mit dem Entity-Relationship-Modell (ER-Diagramm)
 \\
 \\
+Formale Modelle verfügen über eine konkrete Syntax und Semantik. Das erlaubt die formale Definition von Modellen auf Basis deskriptiver Logiken.\footnote{Es gibt unterschiedliche deskriptive Logiken, die sich in ihrer Ausdrucksmächtigkeit und Entscheidbarkeit unterscheiden.} Für formale Modelle lassen sich Algorithmen formulieren, die es erlauben Daten, die durch ein solches Modell beschrieben sind, automatisiert zu validieren.
+\\
+\\
+Im Gegensatz zum Computer kann der Mensch auch mit informellen Modellen arbeiten. Man kann stark strukturierte und formalisierte Modelle, die algorithmisch genutzt werden können, offenen Modellen gegenüberstellen, in die sich ein Mensch hineindenken kann.
+\\
+Konzeptuelle (konzeptionelle, ist ein Synonym) Modelle (conceptual model) bzw. Informationsmodelle (information model) sind beispielsweise in der Wirtschaftsinformatik von zentraler Bedeutung, da Sie als Schnittstelle zwischen Informatik und Wirtschaftsinformatik besonders gut geeignet sind.\footcite[][S.44-47]{kobler2010qualitat} Ich denke man kann diese genauso auch auf die Digitalen Geisteswissenschaften ummünzen.
+\\
+\\
 Als \textbf{Datenmodelle} versteht man formale Modelle, die von Computern verarbeitbar sind und liegen aus diesem Grund in expliziter und eindeutiger Form vor. Datenmodelle dienen zur Repräsentation von konkreten oder abstrakten Objekte. JANNIDIS führt folgende Funktionen von einem Datenmodell an:\footcite[][S.99-100]{jannidis2017grundlagen}
 \begin{itemize}
 \item Maschinelle Verarbeitung
@@ -345,6 +353,9 @@ Als \textbf{Datenmodelle} versteht man formale Modelle, die von Computern verarb
 \subsubsection{Modellierung}
 \label{Modellierung}
 
+Also Modellierung versteht man... Modellierung in den digitalen Geisteswissenchaften heißt... \footcite{jannidis2017grundlagen}
+\\
+\\
 Ein ER-Diagramm, fas mittels unterschiedlicher Notationsformen umgesetzt werden kann, basiert grundsätzlich auf drei Begriffen: Relationen, Attributen und Entitäten (Klassen). Die Entitäten -- alle potenziellen Untersuchungsobjekte -- verfügen über Eigenschaften, sogenannte Attribute. Weiters stehen sie zu anderen Entitäten in unterschiedlichen Beziehungen, sogenannten ''Relationen''.\footcite{chen1976entity} Eine gängige Art ER-Diagramme umzusetzen ist die \textit{Unified Modeling Language} (UML). Dabei handelt es sich um eine Sprache zur Modellierung, Dokumentation und Spezifikation von Systemen und Softwarekomponenten. Als ISO genormte Sprache definiert UML Bezeichner für wichtige Begriffe einer Modellierung und legt mögliche Beziehungen zwischen diesen Begriffen fest. UML definiert weiter grafische Notationen für diese Begriffe und für Modelle statischer Strukturen und dynamischer Abläufe, die man mit diesen Begriffen formulieren kann.\footcite{rumbaugh2004unified} Folgende Abbildung veranschaulicht die Bestandteil von UML:
 \begin{figure}[H]
 \centering
@@ -354,15 +365,7 @@ Ein ER-Diagramm, fas mittels unterschiedlicher Notationsformen umgesetzt werden 
 Es existiert eine Klasse \textit{Kunden}, die wiederum zwei Unterklassen \textit{Privatkunde} und \textit{Geschäftskunde} besitzt. Die beiden Unterklassen (weißer Pfeil definiert 'hat Superklasse') unterscheiden sich in ihren unterschiedlichen Attributen. Wo die \textit{Privatkunde}-Klasse aus \textit{vorname} und \textit{nachname} vom Datentyp \textit{string} zusammengestellt wird, verfügt der \textit{Geschäftskunde} über das Attribut \textit{firmenname}. Die Linien zwischen den Klassen definieren Relationen und die daneben stehenden Zahlwerte und Symbole die Kardinalität dieser Beziehungen. So hat ein Instanz aus der Klasse \textit{Privatkunde} eine Relation \textit{postAdresse} zu einer Klasse \textit{Adresse}, aber eine Adresse kann mit mehreren Privatkunden verknüpft sein. 
 \\
 \\
-\textbf{Formale Modelle} verfügen über eine konkrete Syntax und Semantik. Das erlaubt die formale Definition von Modellen auf Basis deskriptiver Logiken.\footnote{Es gibt unterschiedliche deskriptive Logiken, die sich in ihrer Ausdrucksmächtigkeit und Entscheidbarkeit unterscheiden.} Für formale Modelle lassen sich Algorithmen formulieren, die es erlauben Daten, die durch ein solches Modell beschrieben sind, automatisiert zu validieren.
-\\
-\\
-Im Gegensatz zum Computer kann der Mensch auch mit informellen Modellen arbeiten. Man kann stark strukturierte und formalisierte Modelle, die algorithmisch genutzt werden können, offenen Modellen gegenüberstellen, in die sich ein Mensch hineindenken kann.
-\\
-Konzeptuelle (konzeptionelle, ist ein Synonym) Modelle (conceptual model) bzw. Informationsmodelle (information model) sind beispielsweise in der Wirtschaftsinformatik von zentraler Bedeutung, da Sie als Schnittstelle zwischen Informatik und Wirtschaftsinformatik besonders gut geeignet sind.\footcite[][S.44-47]{kobler2010qualitat} Ich denke man kann diese genauso auch auf die Digitalen Geisteswissenschaften ummünzen.
-\\
-\\
-huhu\footcite[Vgl][S.99-108]{jannidis2017digital} 
+ToDo\footcite[Vgl][S.99-108]{jannidis2017digital} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

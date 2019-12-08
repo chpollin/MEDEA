@@ -12,78 +12,79 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 10664 items from 5000.
 Database file #1: literatur.bib
-Repeated entry---line 978 of file literatur.bib
+Repeated entry---line 993 of file literatur.bib
  : @article{musen2015protege
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 993 of file literatur.bib
+Repeated entry---line 1008 of file literatur.bib
  : @book{linckels2011librarian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1001 of file literatur.bib
+Repeated entry---line 1016 of file literatur.bib
  : @book{stuckenschmidt2009ontologien
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1009 of file literatur.bib
+Repeated entry---line 1024 of file literatur.bib
  : @book{reichenberger2010grundlagen
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1016 of file literatur.bib
+Repeated entry---line 1031 of file literatur.bib
  : @inproceedings{hoekstra2009ontology
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1029 of file literatur.bib
+Repeated entry---line 1044 of file literatur.bib
  : @phdthesis{borst1997construction
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1039 of file literatur.bib
+Repeated entry---line 1054 of file literatur.bib
  : @article{gruber1993translation
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1053 of file literatur.bib
+Repeated entry---line 1068 of file literatur.bib
  : @book{favre2001information
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1060 of file literatur.bib
+Repeated entry---line 1075 of file literatur.bib
  : @article{thaller2017ungefahre
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1070 of file literatur.bib
+Repeated entry---line 1085 of file literatur.bib
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1132 of file literatur.bib
+Repeated entry---line 1147 of file literatur.bib
  : @book{jannidis2017digital
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1163 of file literatur.bib
+Repeated entry---line 1178 of file literatur.bib
  : @article{schreiber2014rdf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1178 of file literatur.bib
+Repeated entry---line 1193 of file literatur.bib
  : @techreport{berners2004uniform
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1192 of file literatur.bib
+Repeated entry---line 1207 of file literatur.bib
  : @book{powers2003practical
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1200 of file literatur.bib
+Repeated entry---line 1215 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "pollin2017suchen" isn't style-file defined
---line 1264 of file literatur.bib
-Repeated entry---line 1281 of file literatur.bib
+--line 1279 of file literatur.bib
+Repeated entry---line 1296 of file literatur.bib
  : @book{andorfer2015forschungsdaten
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1406 of file literatur.bib
+Repeated entry---line 1421 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "kelly2016practical"
 Warning--I didn't find a database entry for "bauch2015daten"
+Warning--I didn't find a database entry for "bruch2015daten"
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--Empty pages in bauer2011linked
 Warning--No address in beretta2017dataforhistory
@@ -120,45 +121,45 @@ Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
-You've used 94 entries,
+You've used 93 entries,
             7954 wiz_defined-function locations,
-            1870 strings with 26126 characters,
-and the built_in function-call counts, 99613 in all, are:
-= -- 7041
-> -- 3339
-< -- 282
-+ -- 1169
-- -- 1056
-* -- 11290
-:= -- 14230
+            1867 strings with 26063 characters,
+and the built_in function-call counts, 98364 in all, are:
+= -- 6948
+> -- 3307
+< -- 279
++ -- 1157
+- -- 1046
+* -- 11151
+:= -- 14053
 add.period$ -- 0
-call.type$ -- 94
-change.case$ -- 454
-chr.to.int$ -- 118
-cite$ -- 244
-duplicate$ -- 5412
-empty$ -- 10389
-format.name$ -- 3417
-if$ -- 20286
+call.type$ -- 93
+change.case$ -- 450
+chr.to.int$ -- 117
+cite$ -- 242
+duplicate$ -- 5342
+empty$ -- 10250
+format.name$ -- 3378
+if$ -- 20027
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 529
-newline$ -- 862
-num.names$ -- 785
-pop$ -- 2146
+missing$ -- 524
+newline$ -- 853
+num.names$ -- 774
+pop$ -- 2116
 preamble$ -- 1
-purify$ -- 451
+purify$ -- 447
 quote$ -- 0
-skip$ -- 3798
+skip$ -- 3755
 stack$ -- 0
-substring$ -- 3228
-swap$ -- 2601
+substring$ -- 3170
+swap$ -- 2567
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1968
+type$ -- 1948
 warning$ -- 36
-while$ -- 897
+while$ -- 882
 width$ -- 0
-write$ -- 3487
+write$ -- 3448
 (There were 17 error messages)
