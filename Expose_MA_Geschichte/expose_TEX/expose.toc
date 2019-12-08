@@ -38,6 +38,12 @@
 \contentsline {subsubsection}{\numberline {5.1.2}Digitale Edition und Semantic Web}{52}
 \contentsline {subsection}{\numberline {5.2}Die Bookkeeping-Ontology}{52}
 \contentsline {subsubsection}{\numberline {5.2.1}TEI Beispiele DEPCHA}{53}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {5.3}Informationsvisualisierung}{54}
 \contentsline {section}{\numberline {6}Textfragmente}{56}
 \contentsline {section}{\numberline {7}Zusammenfassung}{58}
+=======
+\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung }{54}
+\contentsline {section}{\numberline {6}Textfragmente}{57}
+\contentsline {section}{\numberline {7}Zusammenfassung}{59}
+>>>>>>> 84e3b9b84c68eaeb590db188965604d023594042

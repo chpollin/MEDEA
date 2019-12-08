@@ -1,16 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10664 items from 5000.
 Database file #1: literatur.bib
 Repeated entry---line 993 of file literatur.bib
  : @article{musen2015protege
@@ -84,7 +73,11 @@ Repeated entry---line 1421 of file literatur.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "kelly2016practical"
 Warning--I didn't find a database entry for "bauch2015daten"
+<<<<<<< HEAD
 Warning--I didn't find a database entry for "bruch2015daten"
+=======
+Warning--I didn't find a database entry for "sahle2003edition"
+>>>>>>> 84e3b9b84c68eaeb590db188965604d023594042
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--Empty pages in bauer2011linked
 Warning--No address in beretta2017dataforhistory
@@ -121,6 +114,7 @@ Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
+<<<<<<< HEAD
 You've used 93 entries,
             7954 wiz_defined-function locations,
             1867 strings with 26063 characters,
@@ -162,4 +156,6 @@ warning$ -- 36
 while$ -- 882
 width$ -- 0
 write$ -- 3448
+=======
+>>>>>>> 84e3b9b84c68eaeb590db188965604d023594042
 (There were 17 error messages)
