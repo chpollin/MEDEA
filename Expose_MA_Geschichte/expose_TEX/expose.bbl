@@ -56,22 +56,6 @@
   {Kaltenb{\"o}ck}{Martin}{M.}{}{}} {} {} \bibAnnoteFile {bauer2011linked}
 
 \backrefparscanfalse
-\bibitem[{Beretta\jbbtasep Bruseker\jbdy {2017}}%
-         {}%
-         {{0}{}{inproceedings}{2017}{}{}{}{}%
-          {2017}}%
-         {{The dataforhistory. org project: a proposal}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{beretta2017dataforhistory}
- \jbbibargs {\bibnf {Beretta} {Francesco} {F.} {} {}\Bibbtasep \bibnf
-  {Bruseker} {George} {G.} {} {}} {Francesco BerettaGeorge Bruseker} {aus}
-  {sexless} {\bibapifont {The dataforhistory. org project: a proposal}\bibatsep
-  {} \incolledformat {}{}{\bibbtfont {Workshop on the creation of an
-  international Data for History consortium}\bibatsep {} }{}{}   \apyformat
-  {2017} } {\bibhowcited} \jbdoitem {{Beretta}{Francesco}{F.}{}{};
-  {Bruseker}{George}{G.}{}{}} {} {} \bibAnnoteFile {beretta2017dataforhistory}
-
-\backrefparscanfalse
 \bibitem[{Berners-Lee\jbbfsasep Fielding\jbbstasep Masinter\jbdy {2004}}%
          {}%
          {{0}{}{techreport}{2004}{}{}{}{}%
@@ -155,29 +139,7 @@
   {Guha}{Ramanathan~V}{R.~V.}{}{}; {McBride}{Brian}{B.}{}{}} {} {}
   \bibAnnoteFile {brickley2014rdf}
 
-<<<<<<< HEAD
-=======
 \backrefparscanfalse
-\bibitem[{Bruch\jbdy {2015}}%
-         {}%
-         {{0}{}{incollection}{2015}{}{}{}{14--44}%
-          {Universit{\"a}tsverlag G{\"o}ttingen\bibbdsep {} 2015}}%
-         {{Die Kunst, Daten in Informationen umzuwandeln}%
-          {}{}{1}{}{}{}{}{}}%
-        ]{bruch2015daten}
- \jbbibargs {\bibnf {Bruch} {Julia} {J.} {} {}} {Julia Bruch} {au} {sexless}
-  {\bibapifont {Die Kunst, Daten in Informationen umzuwandeln}\bibatsep {}
-  \incolledformat {\bibenf {Gleba} {Gudrun} {G.} {} {}\Bibbtesep \bibenf
-  {Petersen} {Niels} {N.} {} {}}{\edfont {\editorsname}}{\bibbtfont
-  {Wirtschafts-und Rechnungsb{\"u}cher des Mittelalters und der Fr{\"u}hen
-  Neuzeit-Formen und Methoden der Rechnungslegung: St{\"a}dte, Kl{\"o}ster und
-  Kaufleute}\bibatsep {} }{}{}  \apyformat {\jbpublisher{Universit{\"a}tsverlag
-  G{\"o}ttingen\bibbdsep {}} 2015}  \jbPages{14--44}} {\bibhowcited} \jbdoitem
-  {{Bruch}{Julia}{J.}{}{}} {{Gleba}{Gudrun}{G.}{}{}; {Petersen}{Niels}{N.}{}{}}
-  {} \bibAnnoteFile {bruch2015daten}
-
-\backrefparscanfalse
->>>>>>> 84e3b9b84c68eaeb590db188965604d023594042
 \bibitem[{Brumfield\jbdy {2019}}%
          {From the Page \jbsy {2019}}%
          {{0}{}{article}{2019}{}{}{}{}%
@@ -1096,6 +1058,24 @@
   {} {} \bibAnnoteFile {powers2003practical}
 
 \backrefparscanfalse
+\bibitem[{Preim\jbbtasep Dachselt\jbdy {2010}}%
+         {}%
+         {{0}{}{book}{2010}{2}{}{}{}%
+          {Berlin / Heidelberg\bibbdsep {} 2010}}%
+         {{Interaktive systeme: Band 1: Grundlagen, Graphical User Interfaces,
+  Informationsvisualisierung}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{preim2010interaktive}
+ \jbbibargs {\bibnf {Preim} {Bernhard} {B.} {} {}\Bibbtasep \bibnf {Dachselt}
+  {Raimund} {R.} {} {}} {Bernhard PreimRaimund Dachselt} {aus} {sexless}
+  {\bibtfont {Interaktive systeme: Band 1: Grundlagen, Graphical User
+  Interfaces, Informationsvisualisierung}\bibatsep {} \jbedition
+  {\secondedname~\editionname {}\jbaensep}  \apyformat {\jbpublisher{Berlin /
+  Heidelberg\bibbdsep {}} \jbssedbd {2}2010}} {\bibhowcited} \jbdoitem
+  {{Preim}{Bernhard}{B.}{}{}; {Dachselt}{Raimund}{R.}{}{}} {} {} \bibAnnoteFile
+  {preim2010interaktive}
+
+\backrefparscanfalse
 \bibitem[{Reiche\jbbfsasep Becker\jbbstasep Bender\jbdy {2014}}%
          {}%
          {{0}{}{book}{2014}{}{}{}{}%
@@ -1164,9 +1144,30 @@
   {Booch}{Grady}{G.}{}{}} {} {} \bibAnnoteFile {rumbaugh2004unified}
 
 \backrefparscanfalse
+\bibitem[{Sahle\jbdy {2003}}%
+         {}%
+         {{1}{}{incollection}{2003}{}{}{}{76--102}%
+          {Universität Köln\bibbdsep {} 2003}}%
+         {{Vom editorischen Fachwissen zur digitalen Edition: Der
+  Editionsprozeß zwischen Quellenbeschreibung und Benutzeroberfläche}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{sahle2003edition}
+ \jburldef
+  {sahle2003edition}{http://webdoc.sub.gwdg.de/edoc/p/fundus/2/sahle.pdf}%
+ \jbbibargs {\bibnf {Sahle} {Patrick} {P.} {} {}} {Patrick Sahle} {au}
+  {sexless} {\bibapifont {Vom editorischen Fachwissen zur digitalen Edition:
+  Der Editionsprozeß zwischen Quellenbeschreibung und
+  Benutzeroberfläche}\bibatsep {} \incolledformat {\bibenf {Thaller} {Manfred}
+  {M.} {} {}}{\edfont {\editorname}}{\bibbtfont {FUNDUS - Forum für Geschichte
+  und ihre Quellen}\bibatsep {} }{}{}  \apyformat {\jbpublisher{Universität
+  Köln\bibbdsep {}} 2003} \jburluse {sahle2003edition}  \jbPages{76--102}}
+  {\bibhowcited} \jbdoitem {{Sahle}{Patrick}{P.}{}{}}
+  {{Thaller}{Manfred}{M.}{}{}} {} \bibAnnoteFile {sahle2003edition}
+
+\backrefparscanfalse
 \bibitem[{Sahle\jbdy {2013}}%
          {}%
-         {{0}{}{book}{2013}{}{}{}{}%
+         {{1}{}{book}{2013}{}{}{}{}%
           {Books on Demand\bibbdsep {} 2013}}%
          {{Digitale Editionsformen: Textbegriffe und Recodierung}%
           {}{}{2}{}{}{}{}{}}%
@@ -1224,6 +1225,26 @@
   {1988}\artnumberformat {1}} {\bibartperiodhowcited} \jbdoitem
   {{Schr{\"o}der}{Wilhelm~Heinz}{W.~H.}{}{}} {} {} \bibAnnoteFile
   {schroder1988historische}
+
+\backrefparscanfalse
+\bibitem[{Schubert\jbdy {2014}}%
+         {}%
+         {{0}{}{incollection}{2014}{}{}{}{}%
+          {Göttingen\bibbdsep {} 2014}}%
+         {{Tagungsbericht: HT 2014: Close Reading and Distant Reading. Methoden
+  der Altertumswissenschaften in der Gegenwart}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{hsozkult2014closereading}
+ \jburldef
+  {hsozkult2014closereading}{www.hsozkult.de/conferencereport/id/tagungsberichte-5625}%
+ \jbbibargs {\bibnf {Schubert} {Charlotte} {C.} {} {}} {Charlotte Schubert}
+  {au} {sexless} {\bibapifont {Tagungsbericht: HT 2014: Close Reading and
+  Distant Reading. Methoden der Altertumswissenschaften in der
+  Gegenwart}\bibatsep {} \incolledformat {}{}{\bibbtfont {H-Soz-Kult} }{}{}
+  \apyformat {\jbpublisher{Göttingen\bibbdsep {}} 2014} \jburluse
+  {hsozkult2014closereading} } {\bibhowcited} \jbdoitem
+  {{Schubert}{Charlotte}{C.}{}{}} {} {} \bibAnnoteFile
+  {hsozkult2014closereading}
 
 \backrefparscanfalse
 \bibitem[{Stachowiak\jbdy {1973}}%
