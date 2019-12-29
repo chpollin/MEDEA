@@ -1,90 +1,97 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
 Database file #1: literatur.bib
-Repeated entry---line 972 of file literatur.bib
+Repeated entry---line 986 of file literatur.bib
  : @article{musen2015protege
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 987 of file literatur.bib
+Repeated entry---line 1001 of file literatur.bib
  : @book{linckels2011librarian
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 995 of file literatur.bib
+Repeated entry---line 1009 of file literatur.bib
  : @book{stuckenschmidt2009ontologien
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1003 of file literatur.bib
+Repeated entry---line 1017 of file literatur.bib
  : @book{reichenberger2010grundlagen
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1010 of file literatur.bib
+Repeated entry---line 1024 of file literatur.bib
  : @inproceedings{hoekstra2009ontology
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1023 of file literatur.bib
+Repeated entry---line 1037 of file literatur.bib
  : @phdthesis{borst1997construction
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1033 of file literatur.bib
+Repeated entry---line 1047 of file literatur.bib
  : @article{gruber1993translation
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1047 of file literatur.bib
+Repeated entry---line 1061 of file literatur.bib
  : @book{favre2001information
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1054 of file literatur.bib
+Repeated entry---line 1068 of file literatur.bib
  : @article{thaller2017ungefahre
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1064 of file literatur.bib
+Repeated entry---line 1078 of file literatur.bib
  : @article{sure2003methodology
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1126 of file literatur.bib
+Repeated entry---line 1140 of file literatur.bib
  : @book{jannidis2017digital
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1157 of file literatur.bib
+Repeated entry---line 1171 of file literatur.bib
  : @article{schreiber2014rdf
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1172 of file literatur.bib
+Repeated entry---line 1186 of file literatur.bib
  : @techreport{berners2004uniform
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1186 of file literatur.bib
+Repeated entry---line 1200 of file literatur.bib
  : @book{powers2003practical
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1194 of file literatur.bib
+Repeated entry---line 1208 of file literatur.bib
  : @article{berners2001semantic
  :                             ,
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1262 of file literatur.bib
+ :   
+ :   pages={211--248}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1272 of file literatur.bib
+ :   
+ :   pages={13--44}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "pollin2017suchen" isn't style-file defined
---line 1258 of file literatur.bib
-Repeated entry---line 1275 of file literatur.bib
+--line 1295 of file literatur.bib
+Repeated entry---line 1312 of file literatur.bib
  : @book{andorfer2015forschungsdaten
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1400 of file literatur.bib
+Repeated entry---line 1437 of file literatur.bib
  : @book{sahle2013digitale
  :                        ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "kelly2016practical"
-Warning--I didn't find a database entry for "bauch2015daten"
-Warning--I didn't find a database entry for "bruch2015daten"
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--Empty pages in bauer2011linked
 Warning--No address in berners2004uniform
 Warning--Empty pages in borst1997construction
+Warning--Empty pages in bruch2015daten
 Warning--Empty pages in brumfield2019blog
 Warning--Empty pages in brumfield2015medea
 Warning--Empty pages in tomasekmedea
 Warning--No address in cole2015complete
 Warning--Empty pages in cummings2013text
 Warning--Empty pages in demand2011philosophie
-Warning--Empty pages in engel2003extensible
 Warning--Empty pages in frank2018visualisierungswerkzeuge
 Warning--Empty pages in frommergrundbegriffe
 Warning--Empty pages in w3c2013sparql
@@ -93,6 +100,7 @@ Warning--No address in hiltman2018forschungsdaten
 Warning--No address in hoekstra2009ontology
 Warning--There's only a starting page, no pagerange in joostbreukera2009flood
 Warning--Empty pages in kindling2013forschungsdatenmanagement
+Warning--Empty pages in klapp2011rechnung
 Warning--No address in neher2011semantische
 Warning--Empty pages in pellegrini2006semantic
 Warning--No university in PerstlingMatthias2013MDuE
@@ -110,4 +118,4 @@ Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
-(There were 17 error messages)
+(There were 19 error messages)
