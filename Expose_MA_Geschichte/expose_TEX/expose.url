@@ -1,7 +1,6 @@
 %%% jurabib url repository
 \expandafter\urldef\csname jburl@andorfer2015forschungsdaten\endcsname\url{http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2015-14.pdf}
 \expandafter\urldef\csname jburl@berners2004uniform\endcsname\url{http://www.rfc-editor.org/info/rfc3986}
-\expandafter\urldef\csname jburl@bernstein2016new\endcsname\url{http://doi.acm.org/10.1145/2890489}
 \expandafter\urldef\csname jburl@brumfield2019blog\endcsname\url{https://content.fromthepage.com/stagville-accounts-in-depcha/}
 \expandafter\urldef\csname jburl@brumfield2015medea\endcsname\url{https://medea.hypotheses.org/182}
 \expandafter\urldef\csname jburl@frommergrundbegriffe\endcsname\url{http://www.historische-archaeologie.de/downloads/grundbegriffe.pdf}

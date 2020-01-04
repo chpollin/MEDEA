@@ -384,6 +384,7 @@ Man kann nun aus der Klasse \textit{Privatkunde} beliebig viele Instanzen erzeug
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Forschungsdaten in den Geschichtswissenschaften\footcite[Ausführlich habe ich mich mit den theoretischen Grundlagen der Informationswissenschaft, Daten - Information - Wissen, in folgender Arbeit auseinander gesetzt:][]{pollin2017suchen}}
+\label{forschungdaten}
 
 Die Grundlage jeder formalen Verarbeitung sind Daten. Die Definition von Daten, im Sinne der Informationswissenschaft, lässt sich am besten in der Kontextualisierung mit drei anderen Begriffen fassen: Signal, Information und Wissen. Wo Signale eine physikalische Entität darstellen, beispielsweise eine Lichtwelle, versteht man unter Daten Zeichen zur Verarbeitung und Repräsentation von Information. Noch spezifischer wird der Begriff in der Informatik verwendet. In diesem Fach versteht man unter Daten Informationseinheiten, die für Maschinen lesbar und bearbeitbar sind. Von Information spricht man, wenn Daten in einem bestimmten Kontext interpretiert werden. WERSIG, aus einem kybernetischen Verständnis, spricht bei Information von einer ''\textit{Reduktion von Ungewissheit aufgrund von Kommunikationsprozessen}''\footcite[][S.74]{wersig1971information}. Noch eine Hierarchiestufe höher steht der Wissensbegriff. Wissen, so FAVRE-BULLE, ist gegeben, wenn ein kognitiver Agent, beispielsweise ein Mensch, auf Basis von Information eine Handlung in der Welt setzt.\footcite[][S.93-97]{favre2001information} Folgende Darstellung zeigt die Abhängigkeit dieser 4 Begriffe zueinander, mit einem anwachsen der Komplexität der Struktur, sowie der Anbindung an einen kognitiven Agenten.\footcite[Eine ausführlichere Auseinandersetzung mit den Begriffen Daten, Information und Wissen findet sich in meiner ersten Abschlussarbeit.][Masterarbeit Graz, S.20-28]{pollin2017suchen}
 \begin{figure}[H]
@@ -602,20 +603,20 @@ Settled & By work from this day pd & \$2 & 00
 TOMASEK verfolgt dabei einen TEI/XML-Ansatz, um die die textuelle Struktur der Quelle und die inhaltliche Struktur der Transaktionen zu beschreiben. Letztere ist schwerer durch reines TEI Markup beschreibbar bzw. für eine weiter Analyse schwere nachnutzbar, da man für eine algorithmische Auswertung diskrete Daten braucht.
 \\
 \\
-(ToDo: Zusammenfassung der 2 Quellen, Übergang zu Web of Data)
+(ToDo: Zusammenfassung der 3 Quellen, Übergang zu Web of Data)
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Web of Data}
 \label{WebofData}
-Das \textit{Semantic Web}, oder wie es seit 2013 vom \textit{World Wide Web Consortium} (W3C) benannt wird, \textit{Web of Data} umfasst einen Stack an Standards und Technologien.\footnote{Linked Data, \url{https://www.w3.org/standards/semanticweb/data.html}, 23.11.2019} Dieser Stack dient dazu, Daten und ihre Struktur ausdrucksstark zu beschreiben, sodass Daten maschinenlesbar über das Web verteilt und genutzt werden können. Für die Geisteswissenschaften bzw. die Geschichtswissenschaften im speziellen eröffnet dieser Technologie Stack, dass Forschungsdaten ausführlich strukturiert, kontextsensitiv, sich selbst beschreibend, genutzt werden können.
+Das \textit{Semantic Web}, oder wie es seit 2013 vom \textit{World Wide Web Consortium} (W3C) genannt wird, \textit{Web of Data} umfasst einen Stack an Standards und Technologien.\footnote{Linked Data, \url{https://www.w3.org/standards/semanticweb/data.html}, 23.11.2019} Dieser Stack dient dazu, Daten und ihre Struktur ausdrucksstark zu beschreiben, sodass Daten maschinenlesbar über das Web verteilt und genutzt werden können. Für die Geisteswissenschaften und die Geschichtswissenschaften im Speziellen eröffnet dieser Technologie Stack, dass Forschungsdaten ausführlich strukturiert, kontextsensitiv, sich selbst beschreibend, genutzt werden können.
 \\
-Dieses Kapitel dienst dazu zuerst die Geschichte und Idee des \textit{Web of Data} zu beschreiben, geht dann auf den Technologie Stack ein und setzt dann einen Schwerpunkt beim Bereich Ontologien, da diese die maschinenlesbare Implementierung von Modellen ermöglicht.
+Dieses Kapitel dient dazu anfangs die Geschichte, Idee des und Kritik am \textit{Web of Data} zu beschreiben, geht dann auf den Technologie Stack ein und setzt dann einen Schwerpunkt beim Bereich Ontologien. Dieser Schwerpunkt dient dazu, da Ontologien eine maschinenlesbare Umsetzung von Modellen ermöglichen und Kapitel \ref{Umsetzung} sich mit der sogenannten \textit{Bookkeeping Ontology} beschäftigt, die für das Mapping von historischer Information in historischen Rechungsbüchern verwendet wird.  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Geschichte und Vision des Web of Data}
+\subsection{Geschichte und Vision des \textit{Web of Data}}
 
 Beim \textit{TED Talk} im Jahre 2009 fordert Tim Burners-Lee das Auditorium auf, mit ihm gemeinsam die Worte zu rufen: ''\textit{Raw Data Now!}''.\footnote{BERNERS-LEE Tim: The Next Web, \url{https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=de}, 05.04.2019.} Die Vision von Burners-Lee, dem Erfinder des World Wide Web, ist das sogenannte \textit{Semantic Web}:
 \\
@@ -623,40 +624,49 @@ Beim \textit{TED Talk} im Jahre 2009 fordert Tim Burners-Lee das Auditorium auf,
 ''\textit{The Semantic Web will bring structure to the meaningful content of Web pages, creating an environment where software agents roaming from page to page can readily carry out sophisticated tasks for users.}''\footcite[][S.3]{berners2001semantic}
 \\
 \\
-Im Gegensatz zum klassischen Web, das als ein Web von Dokumenten betrachtet werden kann, versucht das \textit{Web of Data} Daten aus unterschiedlichen Quellen zu integrieren und miteinander zu verknüpfen. Daten sollen so vorliegen, dass nicht nur Menschen diese in neuen Kontexten nutzen können, sondern auch Softwareagenten. Maschinen sollen in der Lage sein selbständig die Struktur von Daten ''verstehen'' zu können, um bestimmte Aufgaben umsetzen zu können. Oder anders formuliert sollen Maschinen Inhalte im Web soweit verarbeiten können, dass Automatisierung auf Ebene der Bedeutung möglich ist. Ein konkretes Anwendungsszenario, das mit Hilfe des \textit{Web of Data} umgesetzt werden könnte, wären verbesserte Suchfunktionalitäten für Informationssysteme, die auch die semantische Ebene miteinbeziehen. TOCHTERMANN und MAURER führen ein Beispiel eines Informationsbedürfnisses einer Person an, die gerne einen Termin mit einem Arzt in Graz vereinbaren möchte, der gleichzeitig auch ein Homöopath ist. Diese Person stellt eine Suchanfrage in einer dafür geeigneten Suchmaschine, bestehend aus 4 Wörtern: ''Ärzte, Homöopathie, Stadt Graz''. Da in einer klassischen Suchmaschine nur das Vorkommen der Wörter berücksichtigt wird, muss die suchende Person sich noch durch die angezeigten Suchergebnisse arbeiten, bis sie den passenden Treffer gefunden hat. Eine Suchmaschine im \textit{Web of Data} ist in der Lage sogenannte Wissensbasen zu befragen, um welche Begriffe es sich hinter den Zeichenketten handelt.\footcite[S.1-2]{pellegrini2006semantic} 
+Im Gegensatz zum klassischen Web, das als ein Web von Dokumenten betrachtet werden kann, versucht das \textit{Web of Data} Daten aus unterschiedlichen Quellen zu integrieren und miteinander zu verknüpfen. Daten sollen so vorliegen, dass nicht nur Menschen diese in neuen Kontexten nutzen können, sondern auch Softwareagenten. Maschinen sollen in der Lage sein selbständig die Struktur von Daten ''verstehen'' zu können, um bestimmte Aufgaben umsetzen zu können. Oder anders formuliert: Maschinen sollen in die Lage versetzte werden Inhalte im Web soweit selbstständig verarbeiten können, dass Automatisierung auf Ebene der Bedeutung möglich ist. Ein konkretes Anwendungsszenario, das mit Hilfe des \textit{Web of Data} umgesetzt wird sind verbesserte Suchfunktionalitäten für Informationssysteme, die auch die semantische Ebene miteinbeziehen. TOCHTERMANN und MAURER führen ein Beispiel eines Informationsbedürfnisses einer Person an, die gerne einen Termin mit einem Arzt in Graz vereinbaren möchte, der gleichzeitig auch ein Homöopath ist. Diese Person stellt eine Suchanfrage in einer dafür geeigneten Suchmaschine, bestehend aus 4 Wörtern: ''Ärzte, Homöopathie, Stadt Graz''. Da in einer klassischen Suchmaschine nur das Vorkommen der Wörter berücksichtigt wird, muss die suchende Person sich noch durch die angezeigten Suchergebnisse arbeiten, bis sie den passenden Treffer gefunden hat. Eine Suchmaschine im \textit{Web of Data} ist in der Lage sogenannte Wissensbasen zu befragen, um welche Begriffe es sich hinter den Zeichenketten handelt.\footcite[S.1-2]{pellegrini2006semantic} 
 \\
- Dabei handelt es sich aber weder um Maschinen die selbstständig lernen, oder gar eine künstliche Intelligenz, sondern um formalisiertes, maschinenlesbares Wissen. Der Wissensbegriff in diesem Zusammenhang entspringt einer informationswissenschaftlichen Perspektive wie bei WERSIG, KUHLEN oder FAUVR-BULLE.
+Dabei handelt es sich aber weder um Maschinen die selbstständig lernen, oder gar eine künstliche Intelligenz, sondern um formalisiertes, maschinenlesbares Wissen.\footcite[S.1-6]{pellegrini2006semantic} Der Wissensbegriff in diesem Zusammenhang entspringt einer informationswissenschaftlichen Perspektive wie bei WERSIG\footcite{wersig1971information}, KUHLEN\footcite{weller2013InformationBand} oder FAUVR-BULLE\footcite{favre2001information} und sowie im Kapitel \ref{forschungdaten} und \ref{Ontologie} kurz angeführt.
 
-a
-\footcite[S.1-6]{pellegrini2006semantic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Kritik am \textit{Web of Data}}
+
+Das \textit{Semantic Web} ist nicht erreicht. Zumindest nicht für die Allgemeinheit. Die großen Internetriesen hingegen verfügen über ihre eigene ''Semantic Web'', in denen sie ihre eigenen Agenten mit ihrer großen Datenmenge arbeiten lassen. So verwendet Google beispielsweise seinen \textit{Knowledge Graph}, um Ergebnisse für Suchanfragen zu verbessern.\footnote{Whatever Happened to the Semantic Web? , \url{https://twobithistory.org/2018/05/27/semantic-web.html}}
+\\
+Auf der anderen Seite gibt es aber einige Stimmen, die das \textit{Web of Data} in ihrer jetzigen Überlegung kritisieren und es wurde schon vor Jahren als Zukunfsttechnologie totgesagt. Die Kritik richtet sich daran, dass die Überlegungen zu akademisch und technisch zu kompliziert sein. SHIRKY kritisiert, dass der top-down Ansatz, die unflexible, strenge Art der Formalisierung und die zu starke Spezifikation auf einzelne Domänen von Ontologien nicht sinnvoll in einem dezentralen Web funktionieren können.\footcite{shirky2005ontology} Die Kritik von SWARTZ, der sich ein \textit{Semantic Web} herbeisehnt, richtet sich an den, in seinen Augen noch nicht ausgereiften, Technologie Stack und die zu komplizierten und aufdröselten Standards. Beispielsweise ist für SWARTZ XML im Gegensatz zu JSON zu überladen und kann nur mir mehr Aufwand verarbeitet werden.\footcite{swartz2013aaron}
+\\
+Festzuhalten ist aber, dass im Aufkommen der AI-Forschung, der Künstlichen Intelligenz, Themen wie \textit{Knowledge Graphs} und Wissenbasen, und so auch das \textit{Semantic Web}, wieder interessanter werden. Sie helfen dabei AI-Algorithmen und Entscheidungen zu unterstützen und dabei ''Bedeutung'' in großen Mengen an Text zu extrahieren und zu formalisieren.\footcite[][]{bernstein2016new}
 
 
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Web of Data Stack}
 
-Um diese - noch nicht erreichte Vision - in die Tat umzusetzen bedarf es mehrerer aufeinander aufbauender, technischer Grundlagen, die sich im \textit{Semantic Web Stack} manifestieren. Auf dessen Basis, dargestellt in Abbildung \ref{web_stack}, soll in diesem Kapitel die grundlegenden Technologien und Standards des \textit{Web of Data} erörtert werden.
+Um diese Vision in die Tat umzusetzen bedarf es mehrerer aufeinander aufbauender, technischer Grundlagen, die sich im \textit{Semantic Web Stack} manifestieren.
+In Abbildung \ref{fig:webstack} werden die Technologien und Standards des \textit{Web of Data} im sogenannten \textit{Semantic Web Stack} dargestellt.
 \begin{figure}[h]
   \centering
-	\includegraphics[width=0.65\textwidth]{img/web_stack.png}  
-    \caption[Visualisierung eines Graphen auf Basis eines RDF-Datensatz, \protect\url{https://www.w3.org/TR/rdf11-primer/}, 10.04.2019.]{Visualisierung eines Graphen auf Basis eines RDF-Datensatz.}
-  	\label{fig:web_stack}
+	\includegraphics[width=0.7\textwidth]{img/web_stack.png}  
+    \caption[Semantic Web Stack, \protect\url{https://en.wikipedia.org/wiki/Semantic_Web_Stack}, 29.12.2019.]{Semantic Web Stack}
+  	\label{fig:webstack}
 \end{figure}
-
-Das Semantic Web ist nicht erreicht. Zumindest nicht für die Allgemeinheit. Die großen Internetriesen hingegen verfügen über ''ihre Semantic Web'', in denen sie ihre eigenen Agenten mit ihrer großen Datenmenge arbeiten lassen.\footnote{\url{https://twobithistory.org/2018/05/27/semantic-web.html}}
-
-
+Es gibt unterschiedliche Darstellungen dieses Stacks, dennoch zeigt diese Version alle grundlegende Konzepte. Der \textit{Web of Data Stack} ist von unten nach oben zu lesen. In den Kästchen in denen eine Abkürzung, wie URI oder RDF, angeführt werden, sind Technologien bereits im Einsatz. Die Themen \textit{Trust}, \textit{Proof} etc. sind noch Bestandteil gegenwärtiger Forschung. Grob zusammengefasst beschreiben diese Konzepte, wie eine vertrauenswürdige und 'wahre' Kommunikation zwischen Akteuren im \textit{Web of Data}, sowie die Verschlüsselung und Anwendung sichergestellt werden kann. 
+\\
+Die Basis des Stacks bilden \textit{Uniform Resource Identifier} (URI), die Ressourcen im Web eindeutig identifizieren und \textit{UNICODE} als internationaler Standard zur Zeichenkodierung. Der Syntax Bereich wird mit der \textit{Extensible Markup Language} (XML), einer Auszeichnungssprache zur Strukturieren von Text, ermöglicht, wobei diese Technologie immer mehr durch die \textit{JavaScript Object Notation} (JSON) ersetzt wird. Das \textit{Resource Description Framework} dient dazu Daten im Web auszutauschen und ermöglicht es Daten als Graphen zu beschreiben. Die formalen Regeln für RDF werden mittels \textit{Resource Description Framework Schema} RDFS und \textit{Web Ontology Language} (OWL) beschrieben. RDFS erlaubt es Klassen und Beziehungen zwischen Klassen zu beschreiben und OWL ermöglicht es weitere logische Regeln in Modellen abzubilden. \textit{SPARQL Protocol And RDF Query Language} (SPARQL) ist, vergleichbar mit SQL in der relationalen Datenbankwelt, die graphenbasierte Abfragesprache für RDF Daten.\footcite[][]{horrocks2005semantic}
+\\
+In den folgenden Unterkapiteln werden nun die angeführten Technologien weiter beschrieben. Die Konzepte ohne Technologien, sowie \textit{RIF/SWRL} werden dabei, da sie für diese Arbeit nicht essentiell sind, nicht behandelt.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Resource Description Framework}
+\subsubsection{Daten als Graph: Resource Description Framework}
 
-Das \textit{Resource Description Framework} (RDF) ist ein Datenmodell zur Darstellung und für den Austausch von Daten im Web. Daten werden in diesem Modell als Ressourcen definiert, wobei eine Ressource alles sein kann: ein Dokument, eine Person, ein physisches Objekt oder ein abstraktes Konzept. Über Ressourcen werden Statements der Form Subjekt-Prädikat-Objekt formuliert. Jedes Statement drückt eine Beziehung zwischen zwei Ressourcen aus. Das Subjekt und das Objekt stehen dabei für die beiden miteinander verbundenen Ressourcen; das Prädikat beschriebt die Art ihrer Beziehung. Diese Zusammensetzung von Subjekt, Prädikat und Objekt werden als Triples bezeichnet. Betrachtet man den Satz ''\textit{Bob ist befreundet mit Alice}'', dann lässt sich folgendes Triple extrahieren: \textit{<Bob>} als Subjekt, \textit{<ist befreundet mit>} als Prädikat und \textit{<Alice>} als Objekt. Ob \textit{Alice} mit \textit{Bob} befreundet ist, geht aus diesem Statement noch nicht hervor, da jeder Relation in RDF nur eine Richtung definiert.\footcite[Vgl.][S.16-21]{powers2003practical} In der graphischen Darstellung wird schnell klar, dass es sich beim RDF Datenmodell um einen gerichtete Graphen handelt, der aus Knoten (Subjekt und Objekt), sowie aus Kanten (Prädikat) besteht, wie Abbildung \ref{fig:triple} zeigt.
-\begin{figure}[h]
+RDF ist ein Datenmodell zur Darstellung und für den Austausch von Daten im Web. Daten werden in diesem Modell als Ressourcen definiert, wobei eine Ressource alles sein kann: ein Dokument, eine Person, ein physisches Objekt oder ein abstraktes Konzept. Über Ressourcen werden Statements der Form Subjekt-Prädikat-Objekt formuliert. Jedes Statement drückt eine Beziehung zwischen zwei Ressourcen aus. Das Subjekt und das Objekt stehen dabei für die beiden miteinander verbundenen Ressourcen; das Prädikat beschriebt die Art ihrer Beziehung. Diese Zusammensetzung von Subjekt, Prädikat und Objekt werden als Triples bezeichnet. Betrachtet man den Satz ''\textit{Bob ist befreundet mit Alice}'', dann lässt sich folgendes Triple extrahieren: \textit{<Bob>} als Subjekt, \textit{<ist befreundet mit>} als Prädikat und \textit{<Alice>} als Objekt. Ob \textit{Alice} mit \textit{Bob} befreundet ist, geht aus diesem Statement noch nicht hervor, da jeder Relation in RDF nur eine Richtung definiert.\footcite[Vgl.][S.16-21]{powers2003practical} In der graphischen Darstellung wird schnell klar, dass es sich beim RDF Datenmodell um einen gerichtete Graphen handelt, der aus Knoten (Subjekt und Objekt), sowie aus Kanten (Prädikat) besteht, wie Abbildung \ref{fig:triple} zeigt.
+\begin{figure}[H]
   \centering
 	\includegraphics[width=0.75\textwidth]{img/triple.png}  
-    \caption[ Semantic Web Stac]{ Semantic Web Stac}
+    \caption[Beispiel eines Tripel]{Beispiel eines Tripel, eigene Darstellung, 17.07.2019}
   	\label{fig:triple}
 \end{figure}
 SCHREIBER und RAIMOND\footcite[Vgl.][]{schreiber2014rdf} erklären RDF in einem ausführlichen Beispiel an Hand folgenden Aussagen:
@@ -670,68 +680,71 @@ Die Mona Lisa wurde von Leonardo da Vinci entworfen.}
 \\
 \\
 Jede dieser Zeilen steht für ein Triple. \textit{Bob} ist Subjekt in vier der oben genannten Tripeln, \textit{Mona Lisa} tritt zweimal als Objekt und einmal als Subjekt auf. Dies ermöglicht es eine beliebige Menge an Triple zu einem komplexeren Graphen zusammenzusetzen und somit komplexere Sachverhalte beschreiben zu können. Abbildung \ref{fig:rdf_example} veranschaulicht das.
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
 	\includegraphics[width=1\textwidth]{img/rdf_example.png}  
     \caption[Visualisierung eines Graphen auf Basis eines RDF-Datensatz, \protect\url{https://www.w3.org/TR/rdf11-primer/}, 10.04.2019.]{Visualisierung eines Graphen auf Basis eines RDF-Datensatz.}
   	\label{fig:rdf_example}
 \end{figure}
-\textbf{\textit{Uniform Resource Identifier}(URI)} können in allen drei Positionen eines Triple erscheinen. Somit ist jeder Ressource, sowie jeder Beziehung zwischen Ressourcen durch eine URI identifizierbar. URI's sind durch ein erweiterbares Schema definiert, damit Ressourcen im Internet eindeutig adressiert werden können. Um dabei die Einheitlichkeit zu gewährleisten, folgen sie einem vordefinierten Satz von Syntaxregeln, der 5 Komponenten beinhaltet:\footcite[Vgl.][]{berners2004uniform}
+\textbf{URI} können in allen drei Positionen eines Triple erscheinen. Somit ist jeder Ressource, sowie jeder Beziehung zwischen Ressourcen durch eine URI identifizierbar. URI's sind durch ein erweiterbares Schema definiert, damit Ressourcen im Internet eindeutig adressiert werden können. Um dabei die Einheitlichkeit zu gewährleisten, folgen sie einem vordefinierten Satz von Syntaxregeln, der 5 Komponenten beinhaltet:\footcite[Vgl.][]{berners2004uniform}
 \begin{center}
 \textit{URI = scheme:[//authority]path[?query][\#fragment]}
 \\
 \end{center}
 \begin{itemize}
-\item \textbf{\textit{scheme}}: Definiert den Kontext und Typ. Bekannte Schemata sind beispielsweise die Webprotokolle \textit{Hyper Text Transfer Protocol} (http) oder das \textit{File Transfer Protocol} (ftp), sowie Notationskonzepte wie \textit{Uniform Resource Name} (URN)urn oder \textit{Digital Object Identifier} (doi).
-\item \textbf{\textit{authority}}: Verwaltet Instanz in einem bestimmten vom Schema angegebenen Interpretationsraum, wie etwa das \textit{Domain Name System}.
-\item \textbf{\textit{path}}: Der Pfad enthält – oft hierarchisch organisierte – Angaben, die zusammen mit dem Abfrageteil eine Ressource identifizieren. 
-\item \textbf{\textit{query}}: Der Abfrageteil beinhaltet Daten zur Identifizierung von solchen Ressourcen, deren Ort durch die Pfadangabe allein nicht genau angegeben werden kann, wie beispielsweise ein Datensatz aus einer Datenbank, abgerufen werden
-\item \textbf{\textit{fragment}}: Ist der optionale Fragmentbezeichner und referenziert eine Stelle innerhalb einer Ressource. Der Fragmentbezeichner bezieht sich immer nur auf den unmittelbar vorangehenden Teil des URI und wird von einem Hash (\#) eingeleitet.
+\item \textbf{\textit{scheme}}: Definiert den Kontext und Typ. Bekannte Schemata sind die Webprotokolle \textit{Hyper Text Transfer Protocol} (HTTP) oder das \textit{File Transfer Protocol} (FTP), sowie Notationskonzepte wie \textit{Uniform Resource Name} (URN) oder \textit{Digital Object Identifier} (DOI).
+\item \textbf{\textit{authority}}: Verwaltet Instanzen in einem vom Schema definierten Interpretationsraum. Ein Beispiel ist das \textit{Domain Name System}, wie etwa \textit{gams.uni-graz.at}
+\item \textbf{\textit{path}}: Der Pfad enthält – oft hierarchisch organisierte – Angaben, die zusammen mit dem Abfrageteil eine Ressource identifizieren und beschreibt den Weg durch die Filestruktur auf einem Server zu einem Dokument.
+\item \textbf{\textit{query}}: Der Abfrageteil beinhaltet Daten zur Identifizierung von solchen Ressourcen, deren Ort durch die Pfadangabe allein nicht genau angegeben werden kann, wie beispielsweise ein Datensatz aus einer Datenbank.
+\item \textbf{\textit{fragment}}: Ist der optionale Fragmentbezeichner und referenziert eine Stelle innerhalb einer Ressource. Der Fragmentbezeichner bezieht sich immer nur auf den unmittelbar vorangehenden Teil des URI und wird von einem Hash (\#) eingeleitet und entspricht oft einer ID in einem HTML Dokument.
 \end{itemize}
 
-Weiters werden URI in \textit{Uniform Resource Locator} (URL) und \textit{Uniform Resource Name} (URN) unterteilt. Wo URN Namen von Ressourcen eindeutig indetifuieren, wie etwa bei ISBN Nummern von Büchern, sind URL die gängigsten URI's, die den Ort einer Ressource a+dressieren und über einen Webbrowser auch aufrufen können.\footcite[Vgl.][S.21-22]{powers2003practical} Für das Triple \textit{<Bob>} \textit{<interessiert sich für>} \textit{<die Mona Lisa>} wird jeder Teilbestand eine URI und in der \textit{Turtle} Serialistion von RDF ergibt es folgenden Code:
+Weiters werden URI in \textbf{\textit{Uniform Resource Locator}} (URL) und \textbf{\textit{Uniform Resource Name}} (URN) unterteilt. Wo URN Namen von Ressourcen eindeutig identifizieren, wie etwa bei ISBN Nummern von Büchern, sind URL die gängigsten URI's, die den Ort einer Ressource adressieren und über einen Webbrowser auch aufrufen können.\footcite[Vgl.][S.21-22]{powers2003practical} Für das Triple \textit{<Bob>} \textit{<interessiert sich für>} \textit{<die Mona Lisa>} wird jeder Teilbestand eine URI und in der \textit{Turtle} Serialistion von RDF ergibt es folgenden Code:
 \begin{lstlisting}[]
-BASE   <http://example.org/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX schema: <http://schema.org/>
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX wd: <http://www.wikidata.org/entity/>
+BASE <http://example.org/>
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX schema:<http://schema.org/>
+PREFIX dcterms:<http://purl.org/dc/terms/>
+PREFIX wd:<http://www.wikidata.org/entity/>
 
 bob#me a foaf:Person ;
-         foaf:knows <alice#me> ;
-         schema:birthDate "1990-07-04"^^xsd:date ;
-         foaf:topic_interest wd:Q12418 .
+          foaf:knows <alice#me> ;
+          schema:birthDate "1990-07-04"^^xsd:date ;
+          foaf:topic_interest wd:Q12418 .
  
 wd:Q12418 dcterms:title "Mona Lisa" ;
-            dcterms:creator <http://dbpedia.org/resource/Leonardo_da_Vinci> .
+           dcterms:creator <http://dbpedia.org/resource/Leonardo_da_Vinci> .
 \end{lstlisting}
 
+\textit{BASE} und \textit{PREFIX} definiert die Namespaces, die als Kurzschreibweise für die \textit{authority} in der URI verwendet werden und jeweils auf ein RDF oder OWL verweisen. Jede Zeile entspricht nur der Formalisierung eines Tripels. Überall stehen URIs, mit Ausnahme von ''1990-07-04'' und ''Mona Lisa''. Hierbei handelt es sich um Literale, die bestimmte Datentypen, einmal ein Datum und einmal reinen Text, umfassen. 
+\\
+Verbalisiert bedeutet der Code folgendes: eine Person (bob\#me) aus der \textit{Friend of a Friend} (FOAF) Ontolgie kennt eine andere Person (<alice\#me>). Weiters hat die ein Geburtsdatum in Form eines normalisierten Datums und ist interessiert an dem Thema (wd:Q12418). Dieses Thema wird nun weiters beschrieben und es handelt sich dabei um den Datensatz zur Mona Lisa in Wikidata, einer freien und offenen Wissensbasis, die von Menschen und Maschinen befüllt und verwaltet wird.\footnote{Wikidata, \url{https://www.wikidata.org}, 04.01.2019.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Resource Description Framework Schema (RDFs)}
+\subsubsection{Klassen und Beziehungen: Resource Description Framework Schema (RDFs)}
 
 Im vorhergehenden Beispiel wurden \textit{<Bob>} und \textit{<Alice>} der Klasse \textit{<Person>} zu geordnet. Sie sind Instanzen der Klasse \textit{<foaf:Person>}. Desweiteren wurde eine Relation zwischen diesen beiden Personen definiert: \textit{Bob ist befreundet mit Alice}.
 \\
-Um die Beziehungen zwischen Ressourcen zu beschreiben, liefert das \textbf{Resource Description Framework Schema (RDFs)} eine semantische Erweiterung für RDF. Dies umfasst die Möglichkeit Klassen und Relationen, so genannte Properties, zu definieren und folgt dem Paradigma der Objektorientierung. Es lassen sich auf diese Weise Instanzen von Klassen erzeugen, die alle Eigenschaften der Klasse und ihrer übergeordneten Klassen erben. Blickt man auf das FOAF-Vokabular\footnote{FOAF-Specification, \protect\url{http://xmlns.com/foaf/spec/ }, 29.05.2019.}, das als RDFs umgesetzt ist, so kann man feststellen, dass \textit{foaf:Person} eine Unterklasse von \textit{foaf:Agent} ist. Weitere Unterklassen davon sind \textit{foaf:Group} und \textit{foaf:Organization}. Alle drei Unterklassen haben bestimmte Eigenschaften gemeinsam: sie setzen Handlungen in der Welt. Sie unterscheiden sich aber in den Relationen mit denen sie selbst, oder in Abgrenzung zu anderen Klassen, beschrieben werden können. Eine \textit{foaf:Group} besteht aus mehrern \textit{foaf:Person}. Dies wird mittels der Property \textit{foaf:member} ausgedrückt. Im Gegenzug verfügt \textit{foaf:Person} über eine Relation \textit{foaf:knows}, die ausdrückt, dass sich zwei Personen kennen. Die Richtung dieser Relation - wer wen kennt - wird mit den in RDFs mittels den Termen \textit{rdfs:Domain} und \textit{rdfs:Range} definiert. 
+Um die Beziehungen zwischen Ressourcen zu beschreiben, liefert das \textbf{Resource Description Framework Schema (RDFs)}\footcite[][]{brickley2014rdf} eine semantische Erweiterung für RDF. Dies umfasst die Möglichkeit Klassen und Relationen, so genannte Properties, zu definieren und folgt dem Paradigma der Objektorientierung. Es lassen sich auf diese Weise Instanzen von Klassen erzeugen, die alle Eigenschaften der Klasse und ihrer übergeordneten Klassen erben. Blickt man auf das FOAF-Vokabular\footnote{FOAF-Specification, \protect\url{http://xmlns.com/foaf/spec/ }, 29.05.2019.}, das als RDFs umgesetzt ist, so kann man feststellen, dass \textit{foaf:Person} eine Unterklasse von \textit{foaf:Agent} ist. Weitere Unterklassen davon sind \textit{foaf:Group} und \textit{foaf:Organization}. Alle drei Unterklassen haben bestimmte Eigenschaften gemeinsam: sie setzen Handlungen in der Welt. Sie unterscheiden sich aber in den Relationen mit denen sie selbst, oder in Abgrenzung zu anderen Klassen, beschrieben werden können. Eine \textit{foaf:Group} besteht aus mehreren \textit{foaf:Person}. Dies wird mittels der Property \textit{foaf:member} ausgedrückt. Im Gegenzug verfügt \textit{foaf:Person} über eine Relation \textit{foaf:knows}, die ausdrückt, dass sich zwei Personen kennen. Die Richtung dieser Relation - wer wen kennt - wird mit den in RDFs mittels den Termen \textit{rdfs:Domain} und \textit{rdfs:Range} definiert. 
 Für \textit{foaf:knows} wird \textit{Domain} und \textit{Range} auf die Klasse\textit{ foaf:Person} gesetzt: eine Person kennt eine andere Person. Für die Property \textit{foaf:member} wird \textit{Domain} auf \textit{foaf:Group} und \textit{Range} auf \textit{foaf:Person} gesetzt: eine Gruppe besteht aus Personen.
 \\
 Weiter führt RDFs Datentypen ein. Damit lässt sich beschreiben, um welche Art eines Literals es sich handelt. Es kann für die maschinelle Verarbeitung sehr wichtig sein zu wissen, ob es sich um eine Zeichenkette, eine Zahl, eine Datumsangabe oder eine XML Struktur handelt, da mit unterschiedlichen Datentypen andere Operationen einhergehen. 
 \\
 Mit den RDF Properties \textit{rdfs:label} und \textit{rdfs:comment} lassen sich Properties und Classes benennen und beschreiben. Das ist deswegen nötig, da der Fokus einer Klasse nur in bestimmten Kontexten Sinn macht. \textit{rdfs:label} definiert einen menschenlesbaren Namen einer Ressource. Es besteht stets die Möglichkeit in RDF die einzelnen Lables einer Ressource mit Sprachkürzel zu versehen. Die Property \textit{rdfs:comment} erlaubt es eine verbale Beschreibung zu einer Klasse hinzuzufügen. Am Beispiel von \textit{foaf:Person} ist das das Label ''Person'' und die Beschreibung:\\
 '\textit{The Person class represents people. Something is a Person if it is a person. We don't nitpic about whether they're alive, dead, real, or imaginary. The Person class is a sub-class of the Agent class, since all people are considered 'agents' in FOAF. }''.\\
-Daneben existiert auch ein Konstrukut \textit{rdfs:seeAlso}, um ausdrücken, dass es unter folgender URL noch weitere Information zu dieser Ressource gibt.\footcite{brickley2014rdf} Folgende Darstellung veranschaulicht die soeben beschriebenen Konstrukte in RDFs und zeigt Unterklassen der Superklasse \textit{foaf:Agent}, zwei Instanzen der Klasse \textit{foaf:Person} und stellt graphisch - durch den Pfeil - \textit{Domain} und \textit{Range} einer Propertie dar. 
+Daneben existiert auch ein Konstrukt \textit{rdfs:seeAlso}, um ausdrücken, dass es unter folgender URL noch weitere Information zu dieser Ressource gibt.\footcite{brickley2014rdf} Folgende Darstellung veranschaulicht die soeben beschriebenen Konstrukte in RDFs und zeigt Unterklassen der Superklasse \textit{foaf:Agent}, zwei Instanzen der Klasse \textit{foaf:Person} und stellt graphisch - durch den Pfeil - \textit{Domain} und \textit{Range} einer Property dar.\footcite[][S.33-88]{hitzler2007semantic}  
 \begin{figure}[H]
   \centering
 	\includegraphics[width=0.75\textwidth]{img/rdfs.png}  
     \caption[RDFs-Beispiel auf Basis des FOAF-Vokabulars, eigene Darstellung.]{RDFs-Beispiel auf Basis des FOAF-Vokabulars}
   	\label{fig:rdf}
 \end{figure}
-Hinter jeder Klasse, Property und  jeder Instanz steht eine URI. Folgendes RDF-Snippet zeigt wie die Klasse \textit{foaf:Person} und \textit{foaf:knows} im FOAF-Vokabular mittels RDFs definiert werden.
+Hinter jeder Klasse, Property und jeder Instanz steht eine URI. Folgendes RDF-Snippet zeigt wie die Klasse \textit{foaf:Person} und \textit{foaf:knows} im FOAF-Vokabular mittels RDFs definiert werden.
 \begin{lstlisting}[]
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 foaf:Person a rdfs:Class ;
   rdfs:label "Person" ;
@@ -746,88 +759,73 @@ foaf:knows a rdf:Property;
   rdfs:range foaf:Person .
 \end{lstlisting}
 
-ToDo Hitzler\footcite[][]{hitzler2007semantic} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Taxonomien: Simple Knowledge Organisation (SKOS)}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Abfragesprache: SPARQL}
 Wie man in der Welt der relationalen Datenbanken mit der Abfragesprache SQL Datenbankabfragen formulieren kann, so kann man mit \textit{SPARQL Protocol And RDF Query Language} RDF Daten bzw. Triple in Graphdatenbanken abfragen.\footcite[][]{w3c2013sparql}
 \\
-Folgendes Snippet einer SPARQL-Abfrage zeigt die Syntax dieser Abfragesprache. Ziel dieser Abfrage ist es, alle Ressourcen in einer Graphdendatenbank abzufragen, die über eine \textit{foaf:name} und eine \textit{foaf:knows} Propertie verfügen. Das Ergebnis wird nach den Personen und Namen gruppiert, also es werden keine Dupletten von URI's zurückgegeben. Als Ausgabe erfolgt eine Tabelle (bzw. eine XML, JSON oder CSV Datenformat) in der die Namen und die Anzahl der Freunde, definiert als alle Knoten auf die \textit{foaf:know} referenziert.
+Folgendes Snippet einer SPARQL-Abfrage zeigt die Syntax dieser Abfragesprache. Ziel dieser Abfrage ist es, alle Ressourcen in einer Graphdendatenbank abzufragen, die über eine \textit{foaf:name} und eine \textit{foaf:knows} Property verfügen. Das Ergebnis wird nach den Personen und Namen gruppiert, also es werden keine Dubletten von URI's zurückgegeben. Als Ausgabe erfolgt eine Tabelle (im XML, JSON oder CSV Datenformat) in der die Namen und die Anzahl der Freunde, definiert als alle Knoten auf die \textit{foaf:know} referenziert.
 \begin{lstlisting}[]
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 SELECT ?name (COUNT(?friend) AS ?count)
 WHERE { 
     ?person foaf:name ?name . 
     ?person foaf:knows ?friend . 
-} GROUP BY ?person ?name
+} 
+GROUP BY ?person ?name
 \end{lstlisting}
-Mit PREFIX werden die Namespaces definiert. Das reservierte Wort \textit{SELECT} definiert alle Variabeln, diese werden durch ein vorangestelltes Fragezeichen gekennzeichnet, die als Rückgabewert definiert werden. Daneben gibt es in der SPARQL1.1 Version Operatoren und Funktionen, wie etwas \textit{COUNT()}, das alle Treffer der \textit{?friend} Variabel zählt und in der \textit{?count Variabel} speichert. Im \textit{WHERE} Bereich werden alle Bediengungen für die Abfrage definiert. Diese Bedienungen entsprechen der Definition eines Teilgraphen, der wiederum eine Teilmenge des gesamten Datenbestandes abbildet. Hier stehen weiter Konstrukte wie \textit{OPTIONAL}, einem logischen Oder, so wie \textit{UNION} einem logischen Und zur Verfügung. Über eine SPARQL-Endpoint können so User über das Web Datenbestände abfragen und mit diesen Arbeiten.\footcite[][S.1-45]{ducharme2013learning}  Ein bekanntes Beispiel dafür ist der Endpoint von Wikidata.
+Mit PREFIX werden die Namespaces definiert. Das reservierte Wort \textit{SELECT} definiert alle Variabeln, diese werden durch ein vorangestelltes Fragezeichen gekennzeichnet, die als Rückgabewert definiert werden. Daneben gibt es in der Version 1.1 von SPARQL Operatoren und Funktionen, wie etwas \textit{COUNT()}, das alle Treffer der \textit{?friend} Variabel zählt und in der \textit{?count Variabel} speichert. Im \textit{WHERE} Bereich werden alle Bedingungen für die Abfrage definiert. Diese Bedinungen entsprechen der Definition eines Teilgraphen, der wiederum eine Teilmenge des gesamten Datenbestandes abbildet. Hier stehen weiter Konstrukte wie \textit{OPTIONAL}, einem logischen Oder, so wie \textit{UNION} einem logischen Und zur Verfügung. Über eine SPARQL-Endpoint können so User über das Web Datenbestände abfragen und mit diesen Arbeiten.\footcite[][S.1-45]{ducharme2013learning}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Ontologien}
-ToDO
-\\
-formationsmodelle umfassen die Verwendung einer expliziten Sprache zur Informationsdarstellung.\footcite{kobler2010qualitat} 
-\\
-\\
+\subsection{Formalisierung von Modellen: Ontologien}
+\label{Ontologie}
+
 Der Gegenstandsbereich der \textbf{Ontologie als Disziplin in der Philosophie} umfasst alles, das existiert. Das Erkenntnisziel, so MEIXNER, ist auf allgemeiner begrifflicher Ebene zu finden und beschäftigt sich mit der Einteilung des Seins und den Grundstrukturen der Wirklichkeit, sowie der Frage nach dem Wesen der Existenz. Die Ontologie verfolgt nicht das Ziel Erkenntnis über ein Objekt zu erhalten, es beispielsweise zu vermessen oder zu beschreiben, sondern stellt sich die Frage nach welchen allgemeinen Kriterien Objekte im Verhältnis zu ontologischen Begriffen wie Sein, Aktualität, Universalie, Exemplifikation, Sachverhalt oder Individuum stehen.\footcite{meixner1994wissenschaft}
 \\
-Der Begriff \textbf{Ontologie in der Informationswissenschaft bzw. Informatik} umfasst ein pragmatisches Konzept zum Austausch und zur Wiederverwendung von formalisierten und gemeinschaftlich verwendeten Wissensstrukturen durch ein gemeinsames Vokabular. Ziel dabei ist es Informationssysteme zu implementieren. Die Spezifikation eines solchen Vokabulars für eine bestimmte Domäne nennt man Ontologie.
+Der Begriff \textbf{Ontologie in der Informationswissenschaft bzw. Informatik} umfasst ein pragmatisches Konzept zum Austausch und zur Wiederverwendung von formalisierten und gemeinschaftlich verwendeten Wissensstrukturen durch ein gemeinsames Vokabular. Ziel dabei ist es Informationssysteme zu implementieren. Die Spezifikation eines solchen Vokabulars für eine bestimmte Domäne, ob übergeordnet und generalisierend oder fachspezifisch, nennt man Ontologie.
 \\
-Der Begriff wird in zwei Disziplinen mit jeweils unterschiedlichen Fokus verwendet. Dennoch sehe ich Gemeinsamkeiten. Beide setzen sich mit der Frage auseinander, wie  die Welt sinnvoll strukturiert werden kann, damit wir uns besser darin zurecht finden können. In diesem Kapitel wird die informationswissenschaftlichen Dimension des Ontologie-Begriffs und seiner Nutzung in den digitalen Geisteswissenschaften diskutiert und der Frage nachgehen, ob Ontologien ein geeignetes Werkzeug zur Formalisierung von geschichtswissenschaftlichen Domänen darstellen. Dabei soll anfangs "Wissen" kurz aus informationswissenschaftlicher Sicht definiert werden und über das semantische Netz eine Brücke zur Ontologie geschlagen werden. 
+Der Begriff wird in zwei Disziplinen mit jeweils unterschiedlichen Fokus verwendet. Dennoch können Gemeinsamkeiten festgemacht werden. Beide setzen sich mit der Frage auseinander, wie die Welt sinnvoll strukturiert werden kann, damit wir uns besser darin zurecht finden können. In diesem Kapitel wird die informationswissenschaftlichen Dimension des Ontologie-Begriffs und seiner Nutzung in den digitalen Geisteswissenschaften diskutiert und der Frage nachgehen, ob Ontologien ein geeignetes Werkzeug zur Formalisierung von geschichtswissenschaftlichen Domänen darstellen. Dabei soll anfangs "Wissen" kurz aus informationswissenschaftlicher Sicht definiert werden und über das semantische Netz eine Brücke zur Ontologie geschlagen werden. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Vom Wissen, über das Semantische Netz zur Ontologie}
-\textbf{Wissen} ist eine systeminterne Repräsentation vorliegender Erfahrungen eines Menschen zu einem bestimmten Zeitpunkt, die einem zu überprüfenden Anspruch auf Gültigkeit ausgesetzt sein muss. Als solches prägt Wissen das Handeln und Denken eines Menschen auf den unterschiedlichsten Ebenen und dient zur Lösung von Problemen. Das jeweils aktuelle Wissen bildet einen kontextuellen Rahmen, in dem ankommende und bestehende Information interpretiert und zu neuen Erfahrungen verarbeitet werden.\footcite{favre2001information}
+\textbf{Wissen} ist eine systeminterne Repräsentation vorliegender Erfahrungen eines kognitiven Agenten zu einer bestimmten Zeit, die einem zu überprüfenden Anspruch auf Gültigkeit ausgesetzt sein muss. Wissen prägt das Handeln und Denken eines Agenten auf den unterschiedlichsten Ebenen und dient zur Lösung von Problemen im weitesten Sinne. Das jeweils aktuelle Wissen bildet einen kontextuellen Rahmen, in dem bestehende und ankommende Information interpretiert und zu neuen Erfahrungen verarbeitet werden.\footcite{favre2001information}
 \\
-Diese Definition von Wissen -- eine stärker informationswissenschaftliche -- hat seinen, neben vielen Definitionen in anderen Fachbereichen, legitimen Ursprung.  Unterschiedlichen Disziplinen haben andere Fragestellungen und benötigen dafür ein anderes theoretisches Gerüst. Ein Wissensbegriff in der Philosophie, beispielsweise, sollte viel weiter gefasst sein, als ein Wissensbegriff in der Informationswissenschaft, dessen Aufgabe darin besteht als Hilfsmittel in der Entwicklung und Umsetzung von Informationssystemen zu fungieren. 
+Diese Definition von Wissen -- eine stärker informationswissenschaftliche -- hat seinen, neben vielen Definitionen in anderen Fachbereichen, legitimen Ursprung. Unterschiedliche Disziplinen haben andere Fragestellungen und benötigen dafür ein anderes theoretisches Gerüst. Ein Wissensbegriff in der Philosophie, beispielsweise, ist weiter gefasst sein, als ein Wissensbegriff in der Informationswissenschaft, dessen Aufgabe darin besteht als Hilfsmittel in der Entwicklung und Umsetzung von Informationssystemen zu fungieren. 
 \\
 \\
-Mittels Ontologie lässt sich ''Wissen'' als Netzwerk beschreiben. Ein Netzwerk ist ein gerichteter Graph, bestehend aus einer Menge von Knoten und einer Menge von Kanten, die die einzelnen Knoten miteinander verknüpfen. Damit lassen sich (fast) beliebige Entitäten und deren Verknüpfungen miteinander abbilden. Die Überlegungen zu einem \textbf{semantischen Netz}, als gedanklichen Vorgänger der Ontologie, stammen von QUILIIAN, der damit ein formales Erklärungsmodell für '\textit{die menschliche Repräsentation von Wissen über Worte und ihre Bedeutung als Netzwerk von Begriffen und ihren Relationen}' \footcite{stuckenschmidt2009ontologien} beschreibt. Semantische Netze können einen Kompromiss zwischen menschenverständlicher Repräsentation einer Domäne  und der formalen Verarbeitbarkeit durch eine Maschine darstellen.\footcite{reichenberger2010grundlagen} Das ist dadurch gegeben, dass die Struktur des Graphen (=Netz), sich einfach in Rechnern als Matrizen abbilden lässt.
+Mittels Ontologie lässt sich ''Wissen'' als Netzwerk beschreiben. Ein Netzwerk ist ein gerichteter Graph, bestehend aus einer Menge von Knoten und einer Menge von Kanten, die die einzelnen Knoten miteinander verknüpfen. Damit lassen sich (fast) beliebige Entitäten und deren Verknüpfungen miteinander abbilden. Die Überlegungen zu einem \textbf{semantischen Netz}, als gedanklichen Vorgänger der Ontologie, stammen von QUILIIAN, der damit ein formales Erklärungsmodell für '\textit{die menschliche Repräsentation von Wissen über Worte und ihre Bedeutung als Netzwerk von Begriffen und ihren Relationen}' \footcite{stuckenschmidt2009ontologien} beschreibt. Semantische Netze können einen Kompromiss zwischen menschenverständlicher Repräsentation einer Domäne  und der formalen Verarbeitbarkeit durch eine Maschine darstellen.\footcite{reichenberger2010grundlagen} Das ist dadurch gegeben, dass die Struktur des Graphen (= Netz), sich einfach in Rechnern als Matrizen abbilden lässt. Dies entspricht den Erörterungen von informellen Modellen in Kapitel \ref{Modell_def}.
 \\
 Die Ontologie ist eine Erweiterung des semantischen Netzes und nach GRUBER kann sie durch ein \textbf{4-Tupel} definiert werden. C ist eine Menge von \textbf{Klassen} (concepts, classes - Mengen von Entitäten aus der Realität), R eine Menge von \textbf{Relationen} (properties - Beziehungen zwischen Klassen), I eine Menge von \textbf{Instanzen} (individuals - einzelne Entität aus einer Menge) und A eine Menge von \textbf{Axiomen} (axioms - logische Regel).\footcite{joostbreukera2009flood} C und R lassen sich dabei stets als Graph abbilden. Ein Beispiel zur Veranschaulichung: 
 \\
-Es existiert eine Klasse (C) "Katzen", die mit der Relation "ist ein" (R) mit einer Klasse "Säugetier" verbunden ist.  Die Individuals (I) "Garfield“ und "Tom" sind Instanzen der Klasse "Katzen" und erben alle Eigenschaften, die in der Klasse "Katzen" definiert wurden. Eine Regel kann definiert werden (A), sodass immer wenn eine Klasse eine "ist ein" Verbindung zu einer Klasse wie "Säugetier" hat, es ausgeschlossen ist, dass es eine zweite "ist ein"-Verbindung  gibt, die auf eine andere Klasse wie etwa "Vögel" referenziert. 
+Es existiert eine Klasse (C) ''Katzen'', die mit der Relation ''ist ein'' (R) mit einer Klasse ''Säugetier'' verbunden ist.  Die Individuals (I) ''Garfield'' und ''Tom'' sind Instanzen der Klasse ''Katzen'' und erben alle Eigenschaften, die in der Klasse ''Katzen'' definiert wurden. Eine Regel kann definiert werden (A), sodass immer wenn eine Klasse eine ''ist ein'' Verbindung zu einer Klasse wie ''Säugetier'' hat, es ausgeschlossen ist, dass es eine zweite ''ist ein''-Verbindung  gibt, die auf eine andere Klasse wie etwa ''Vögel'' referenziert. 
 \\
 \\
-Der Begriff der Ontologie terminologisch unscharfe verwendet.\footcite[Vgl.][S.1]{gruber1993translation} Die Unterschiede sind klein, aber dennoch entscheidend und sollen im Folgenden diskutiert werden.
-Eine der  ersten  Definitionen des Begriffs der Ontologie stammt von GRUBER: 
+Der Begriff der Ontologie wird terminologisch unscharfe verwendet.\footcite[Vgl.][S.1]{gruber1993translation} Zwar sind die Unterschiede klein, aber sind sie dennoch entscheidend und sollen im Folgenden diskutiert werden.
+Eine der ersten Definitionen des Begriffs der Ontologie stammt von GRUBER: 
+
 \begin{center}
- "\textit{An ontology is    an    explicit    specification    of    a conceptualization}
+ "\textit{An ontology is an explicit specification of a conceptualization}
 "\footcite[][S.69]{hoekstra2009ontology}
 \end{center}
-Eine "\textit{conceptualization}" beschreibt den Prozess einer Vereinfachung, aber Fokussierung, eines bestimmten Aspekts der Realität. 
-So kann eine Ontologie als Dokumentation eines 
-wissen- schaftlichen 
+
+Eine ''\textit{conceptualization}'' beschreibt den Prozess einer Vereinfachung, aber Fokussierung, eines bestimmten Aspekts der Realität. So kann eine Ontologie als Dokumentation eines wissenschaftlichen 
 Prozesses agieren, in dem die Wirklichkeit abstrahiert und reduziert wird und gleichzeitig die Domäne bzw. Forschungsfrage hervorgehoben und amplifiziert wird.\footcite[Vgl.][]{thaller2017ungefahre}
-Unter "\textit{explicit}" versteht man, dass die Bedeutungen aller von der Ontologie erfassten Begriffe klar und eindeutig definiert sein müssen. Dies beinhaltet alle ihre Eigenschaften, Beschränkungen und Beziehungen, innerhalb, als auch außerhalb der Domäne.\footcite{sure2003methodology}
-BORST erweitert GRUBERS Definition um  '\textit{formal  specification  of  a shared  conceptualization}'.\footcite{borst1997construction}
-"\textit{Formal}" ergänzt dabei die Definition um die Notwendigkeit, dass Ontologien maschinenlesbar sein müssen. Erst diese Eigenschaft hebt sie von anderen Methoden zur Formalisierung von konzeptionellen Datenmodellen hervor. Der Zusatz "\textit{shared}" reflektiert die Tatsache, dass eine Ontologie Wissen erfasst, das durch den Konsens einer Gruppe - z.B. durch einen wissenschaftlichen  Diskurs - akzeptiert wird. Eine Ontologie darf nicht im Stillen von einer Person alleine entwickelt werden, sondern sollte in einem iterativen Prozess (Ontology Engineering) des Austausches und der Diskussion mit anderen entstehen. Ein solcher Prozess kann wie folgt ablaufen:
+Unter ''\textit{explicit}'' versteht man, dass die Bedeutungen aller von der Ontologie erfassten Begriffe klar und eindeutig definiert sein müssen. Dies beinhaltet alle ihre Eigenschaften, Beschränkungen und Beziehungen, innerhalb, als auch außerhalb der Domäne.\footcite{sure2003methodology}
+BORST erweitert GRUBERS Definition um  ''\textit{formal specification of a shared  conceptualization}''.\footcite{borst1997construction}
+''\textit{Formal}'' ergänzt dabei die Definition um die Notwendigkeit, dass Ontologien maschinenlesbar sein müssen. Erst diese Eigenschaft hebt sie von anderen Methoden zur Formalisierung von konzeptionellen Datenmodellen hervor. Der Zusatz ''\textit{shared}'' reflektiert die Tatsache, dass eine Ontologie Wissen erfasst, das durch den Konsens einer Gruppe - z.B. durch einen wissenschaftlichen Diskurs - akzeptiert wird. Eine Ontologie sollte nicht im Stillen von einer Person alleine entwickelt werden, sondern in einem iterativen Prozess (\textbf{Ontology Engineering}) des Austausches und der Diskussion mit anderen entstehen. Ein solcher Prozess kann wie folgt ablaufen:
 \begin{itemize}
 \item Definition der Notwendigkeit und des Zieles einer Ontologie
 \item Strukturierung des Wissens und konzeptionelle Entwicklung
 \item Implementierung und Modellierung
 \item Evaluierung und Dokumentation
-\item Iteration dieser Punkte im Austausch mit anderen
+\item Iteration dieses Prozesses im Austausch mit anderen
 \end{itemize}
-Allgemeiner betrachtet definieren LINCKELS \& MEINEL eine Ontologie als ein Datenmodell zur Darstellung eines Sets miteinander vernetzter Konzepte innerhalb einer (Fach-)Domäne.\footcite{linckels2011librarian}
-WELLER spricht von einer formalen und schematischen Darstellung einer Wissensdomäne auf Basis definierter Regeln und Vokabulars.\footcite{weller2013InformationBand}
+Allgemeiner betrachtet definieren LINCKELS \& MEINEL eine Ontologie als ein Datenmodell zur Darstellung eines Sets miteinander vernetzter Konzepte innerhalb einer (Fach-)Domäne.\footcite{linckels2011librarian} WELLER spricht von einer formalen und schematischen Darstellung einer Wissensdomäne auf Basis definierter Regeln und Vokabulars.\footcite{weller2013InformationBand}
 \\ 
-Zusammengefasst kann man sagen, dass sich mittels Ontologien komplexere Sachverhalte so darstellen lassen, dass Mensch und Maschinen in der Lage sind Strukturen, die durch eine Ontologie definierte und standardisierte sind, weiterverarbeiten zu können. Der Mehrwert kann vor allem in der Möglichkeit automatisierter Schlussfolgerungen, im Information Retrieval oder anderen formalen Methoden zur Verarbeitung von Daten liegen.
-\\
-\\
-Der Ontology Editor Protégé erlaubt es, eine Ontologie und die darin enthaltenen Daten (Individuals) einem Reasoning - dem Abarbeiten aller Vorhanden Regeln in einer Ontologie auf Basis einer deskriptiven Logik - zu unterziehen. Für solche Zwecke gibt es natürlich auch API's und Bibliotheken in Programmiersprachen.\footcite{musen2015protege} Das Reasoning gilt als ein essentieller Baustein im Design, der Entwicklung, der Wartung und in der praktischen Anwendung einer Ontologie. Das Ergebnis davon sind Inferenzen. Inferenzen sind neu hergeleitete Schlussfolgerungen auf Basis der formalen Regeln einer Ontologie.\footcite{dentler2011comparison} Die Überprüfung strukturierter Daten mittels logischen Schlussfolgerungen kann dazu dienen, größere Datenmengen auf ihre Konsistenz und somit auch auf ihre Qualität hin zu prüfen, da logische Inkonsistenzen als Fehlermeldung angezeigt werden.
-\\
-\\
-huhu Ontologie zitieren\footcite[Vgl][S.162-178]{jannidis2017digital} 
+Zusammengefasst kann gesagt werden, dass sich mittels Ontologien komplexere Sachverhalte so darstellen lassen, dass Mensch und Maschinen in der Lage sind Strukturen, die durch eine Ontologie definierte und standardisierte sind, weiterverarbeiten zu können. Der Mehrwert kann vor allem in der Möglichkeit automatisierter Schlussfolgerungen, im Information Retrieval oder anderen formalen Methoden zur Verarbeitung von Daten liegen.\footcite[Vgl][S.162-178]{jannidis2017digital} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -863,7 +861,7 @@ Der nächste Schritt? Semantic Web und digitale Editionen.
 \\
 Vogeler Assertiv Edition
 
-
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Die Bookkeeping-Ontology}
@@ -930,9 +928,14 @@ Ein DH Rechnungsprojekt\footcite[][S.109-113]{wurz2016dh}
 
 \begin{figure}[H]
 \centering
-	\includegraphics[width=0.75\textwidth]{img/example.png}  
+	\includegraphics[width=1\textwidth]{img/example.png}  
     \caption[Graphische Darstellung des RDF, eigene Darstellung, 01.06.2019.]{Graphische Darstellung des RDF} \label{fig:example}
 \end{figure}
+
+\subsubsection{Reasoning}
+
+Der Ontology Editor Protégé erlaubt es, eine Ontologie und die darin enthaltenen Daten (Individuals) einem Reasoning - dem Abarbeiten aller Vorhanden Regeln in einer Ontologie auf Basis einer deskriptiven Logik - zu unterziehen. Für solche Zwecke gibt es natürlich auch API's und Bibliotheken in Programmiersprachen.\footcite{musen2015protege} Das Reasoning gilt als ein essentieller Baustein im Design, der Entwicklung, der Wartung und in der praktischen Anwendung einer Ontologie. Das Ergebnis davon sind Inferenzen. Inferenzen sind neu hergeleitete Schlussfolgerungen auf Basis der formalen Regeln einer Ontologie.\footcite{dentler2011comparison} Die Überprüfung strukturierter Daten mittels logischen Schlussfolgerungen kann dazu dienen, größere Datenmengen auf ihre Konsistenz und somit auch auf ihre Qualität hin zu prüfen, da logische Inkonsistenzen als Fehlermeldung angezeigt werden.
+
 
 \newpage
 \subsection{Informationsvisualisierung}
