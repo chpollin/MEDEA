@@ -1,18 +1,19 @@
 \babel@toc {german}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften, \url {https://de.wikipedia.org/wiki/Empirie\#/media/Datei:Induktion-Deduktion.svg}, 09.11.2019.}}{13}
-\contentsline {figure}{\numberline {2}{\ignorespaces Nichteindeutigkeit nicht-formaler Modelle, K\IeC {\"O}NIG Bettina: Vorlesung ''Modellierungsmethoden der Informatik'', \url {http://www.ti.inf.uni-due.de/fileadmin/public/teaching/mod/slides/ws201112/einfuehrung.pdf}, 10.06.2019}}{21}
-\contentsline {figure}{\numberline {3}{\ignorespaces Beispiel f\IeC {\"u}r ein Klassendiagramm nach UML, \url {https://de.wikipedia.org/wiki/Unified_Modeling_Language}, 10.06.2019}}{23}
+\contentsline {figure}{\numberline {1}{\ignorespaces Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften, \url {de.wikipedia.org/wiki/Empirie}, 09.11.2019.}}{13}
+\contentsline {figure}{\numberline {2}{\ignorespaces Nichteindeutigkeit nicht-formaler Modelle, K\IeC {\"O}NIG Bettina: Vorlesung ''Modellierungsmethoden der Informatik'', \url {ti.inf.uni-due.de/fileadmin/public/teaching/mod/slides/ws201112/einfuehrung.pdf}, 10.06.2019}}{21}
+\contentsline {figure}{\numberline {3}{\ignorespaces Beispiel f\IeC {\"u}r ein Klassendiagramm nach UML, \url {de.wikipedia.org/wiki/Unified_Modeling_Language}, 10.06.2019}}{23}
 \contentsline {figure}{\numberline {4}{\ignorespaces Signal, Daten, Information und Wissen. POLLIN Christopher: Vom Suchen, St\IeC {\"o}bern und Finden : Information Retrieval am Beispiel der Digitalen Sammlung des Hans Gross Kriminalmuseums, Masterarbeit Graz, S.21 }}{25}
 \contentsline {figure}{\numberline {5}{\ignorespaces Datenpyramide geisteswissenschaftlicher Forschungsdaten im institutionellen Kontext, ANDORFER, Peter: Forschungsdaten in den (digitalen) Geisteswissenschaften: Versuch einer Konkretisierung, 2015, S.14}}{26}
-\contentsline {figure}{\numberline {6}{\ignorespaces 1. Seite von George Washington, 1750-72, \textit {Ledger Book A}, Library of Congress, Manuscript Division, STERTZER Jennifer: \url {http://doi.org/10.16995/dscn.57}}}{33}
-\contentsline {figure}{\numberline {7}{\ignorespaces Seite 3 des Objektes \textit {00133\_sv0061} der Stagville Accounts, \url {https://fromthepage.com/agbedavies/stagville-accounts/00133-sv0061/display/7884}}}{34}
+\contentsline {figure}{\numberline {6}{\ignorespaces 1. Seite von George Washington, 1750-72, \textit {Ledger Book A}, Library of Congress, Manuscript Division, STERTZER Jennifer: \url {doi.org/10.16995/dscn.57}}}{33}
+\contentsline {figure}{\numberline {7}{\ignorespaces Seite 3 des Objektes \textit {00133\_sv0061} der Stagville Accounts, \url {fromthepage.com/agbedavies/stagville-accounts/00133-sv0061/display/7884}}}{34}
 \contentsline {figure}{\numberline {8}{\ignorespaces Portrait von Laban Morey Wheaton, Vgl. CLARK, George Faber: A History of the Town of Norton, Bristol County, Massachusetts, from 1669-1859. Crosby, Nichols, and Company, and author at Norton, 1859, S.497.}}{36}
-\contentsline {figure}{\numberline {9}{\ignorespaces Seite 100 des \textit {Daybook, \url {http://hdl.handle.net/11040/17982}}, 1828-1859}}{38}
-\contentsline {figure}{\numberline {10}{\ignorespaces Semantic Web Stack, \url {https://en.wikipedia.org/wiki/Semantic_Web_Stack}, 29.12.2019.}}{43}
+\contentsline {figure}{\numberline {9}{\ignorespaces Seite 100 des \textit {Daybook, \url {hdl.handle.net/11040/17982}}, 1828-1859}}{38}
+\contentsline {figure}{\numberline {10}{\ignorespaces Semantic Web Stack, \url {en.wikipedia.org/wiki/Semantic_Web_Stack}, 29.12.2019.}}{43}
 \contentsline {figure}{\numberline {11}{\ignorespaces Beispiel eines Tripel}}{44}
-\contentsline {figure}{\numberline {12}{\ignorespaces Visualisierung eines Graphen auf Basis eines RDF-Datensatz, \url {https://www.w3.org/TR/rdf11-primer/}, 10.04.2019.}}{45}
+\contentsline {figure}{\numberline {12}{\ignorespaces Visualisierung eines Graphen auf Basis eines RDF-Datensatz, \url {w3.org/TR/rdf11-primer/}, 10.04.2019.}}{45}
 \contentsline {figure}{\numberline {13}{\ignorespaces RDFs-Beispiel auf Basis des FOAF-Vokabulars, eigene Darstellung.}}{48}
-\contentsline {figure}{\numberline {14}{\ignorespaces Graphische Darstellung des RDF, eigene Darstellung, 01.06.2019.}}{57}
-\contentsline {figure}{\numberline {15}{\ignorespaces Screenshot der Product Treemap des Atlas of Economic Complexity, Exporte der USA im Jahr 2016, atlas.cid.harvard.edu 09.12.2019.}}{61}
-\contentsline {figure}{\numberline {16}{\ignorespaces Treemap nach H\IeC {\"a}ufigkeit von Waren und Dienstleistungen. Gruppiert nach tierischen (hellgr\IeC {\"u}n) und pflanzliche (dunkelgr\IeC {\"u}n) Lebensmittel, Dienstleistungen (orange), Rohstoffen (hellblau), Textilien (t\IeC {\"u}rkis) und sonstigen Waren (dunkelblau), eigene Darstellung, erstellt mit Tableau Desktop}}{62}
-\contentsline {figure}{\numberline {17}{\ignorespaces Geldfluss nach Jahren (x-Achse) und Summe der Geldfl\IeC {\"u}sse (y-Achse). Stacks nach einzelnen Akteuren, eigene Darstellung, erstellt mit Tableau Desktop}}{64}
+\contentsline {figure}{\numberline {14}{\ignorespaces Pluralistische Textbegriff als Rad, SAHLE: Digitale Editionsformen: Textbegriffe und Recodierung, S.45-49}}{54}
+\contentsline {figure}{\numberline {15}{\ignorespaces Graphische Darstellung des RDF, eigene Darstellung, 01.06.2019.}}{59}
+\contentsline {figure}{\numberline {16}{\ignorespaces Screenshot der Product Treemap des Atlas of Economic Complexity, Exporte der USA im Jahr 2016, atlas.cid.harvard.edu 09.12.2019.}}{63}
+\contentsline {figure}{\numberline {17}{\ignorespaces Treemap nach H\IeC {\"a}ufigkeit von Waren und Dienstleistungen. Gruppiert nach tierischen (hellgr\IeC {\"u}n) und pflanzliche (dunkelgr\IeC {\"u}n) Lebensmittel, Dienstleistungen (orange), Rohstoffen (hellblau), Textilien (t\IeC {\"u}rkis) und sonstigen Waren (dunkelblau), eigene Darstellung, erstellt mit Tableau Desktop}}{64}
+\contentsline {figure}{\numberline {18}{\ignorespaces Geldfluss nach Jahren (x-Achse) und Summe der Geldfl\IeC {\"u}sse (y-Achse). Stacks nach einzelnen Akteuren, eigene Darstellung, erstellt mit Tableau Desktop}}{66}

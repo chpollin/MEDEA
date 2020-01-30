@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  4 JAN 2020 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  30 JAN 2020 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1323,7 +1323,7 @@ Package jurabib Warning: `shorttitle' for `ficara2015hermeneutik'
 
 Underfull \hbox (badness 10000) in paragraph at lines 210--210
 [][][]\T1/ptm/m/n/10 STANGL, Wer-ner: Ge-schich-te der Her-me-neu-tik, $\T1/cmt
-t/m/n/10 https : / / arbeitsblaetter . stangl-[]taller . at /
+t/m/n/10 arbeitsblaetter . stangl-[]taller . at /
  []
 
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 216.
@@ -1335,8 +1335,8 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 216.
 
 Underfull \hbox (badness 10000) in paragraph at lines 216--216
-[][][]\OMS/cmsy/m/n/10 ^^O$\T1/cmtt/m/n/10 https : / / arbeitsblaetter . stangl
--[]taller . at / ERZIEHUNGSWISSENSCHAFTGEIST /
+[][][]\OMS/cmsy/m/n/10 ^^O$\T1/cmtt/m/n/10 arbeitsblaetter . stangl-[]taller . 
+at / ERZIEHUNGSWISSENSCHAFTGEIST / HermeneutikZirkel .
  []
 
 
@@ -1373,7 +1373,7 @@ Package pdftex.def Info: img/emprisimus.png  used on input line 234.
 [12]
 Underfull \hbox (badness 10000) in paragraph at lines 240--240
 [][][]\T1/ptm/m/n/10 STANGL, Wer-ner: Der her-me-neu-ti-sche Zir-kel, $\T1/cmtt
-/m/n/10 https : / / arbeitsblaetter . stangl-[]taller . at /
+/m/n/10 arbeitsblaetter . stangl-[]taller . at /
  []
 
 
@@ -1384,7 +1384,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--241
 [13 <./img/emprisimus.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 247--247
 [][][]\T1/ptm/m/n/10 BLAKSTAD Os-kar: Die wis-sen-schaft-li-che Me-tho-de, $\T1
-/cmtt/m/n/10 https : / / explorable . com / de /
+/cmtt/m/n/10 explorable . com / de /
  []
 
 
@@ -1586,9 +1586,9 @@ File: img/washington.png Graphic file (type png)
 Package pdftex.def Info: img/washington.png  used on input line 500.
 (pdftex.def)             Requested size: 455.24411pt x 293.60341pt.
  [32] [33 <./img/washington.png>]
-Underfull \hbox (badness 1024) in paragraph at lines 518--518
-[][][]\T1/ptm/m/n/10 Stagville Ac-counts, From the Pa-ge, $\T1/cmtt/m/n/10 http
-s : / / fromthepage . com / agbedavies / stagville-[]accounts /
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
+[][][]\T1/ptm/m/n/10 Stagville Ac-counts, From the Pa-ge, $\T1/cmtt/m/n/10 from
+thepage . com / agbedavies / stagville-[]accounts /
  []
 
 <img/stagville.jpg, id=132, 678.3744pt x 274.8669pt>
@@ -1597,39 +1597,27 @@ File: img/stagville.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/stagville.jpg  used on input line 521.
 (pdftex.def)             Requested size: 455.24411pt x 184.46182pt.
 [34 <./img/stagville.jpg>]
-Underfull \hbox (badness 6032) in paragraph at lines 539--539
-[][][][]\T1/ptm/m/n/10 Definition von \T1/ptm/m/it/10 Dry Goods\T1/ptm/m/n/10 ,
- $\T1/cmtt/m/n/10 https : / / chestofbooks . com / reference / Dictionary-[]of-
-[]Dry-[]Goods /
- []
-
 <img/LMwheaton.jpg, id=136, 268.75406pt x 521.69907pt>
 File: img/LMwheaton.jpg Graphic file (type jpg)
 <use img/LMwheaton.jpg>
 Package pdftex.def Info: img/LMwheaton.jpg  used on input line 544.
 (pdftex.def)             Requested size: 91.04742pt x 176.7385pt.
-[35]
+ [35]
 
 Package jurabib Warning: `shorttitle' for `tomasekmedea'
 (jurabib)                is missing -- replacing with `title'
 (jurabib)                field on input line 548.
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 551--551
-[][][]\T1/ptm/m/n/10 Wheaton Fa-mi-ly Pa-pers, $\T1/cmtt/m/n/10 https : / / dig
-italrepository . wheatoncollege . edu / handle / 11040 / 7928$\T1/ptm/m/n/10 ,
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 551--551
 [][][][]\T1/ptm/m/n/10 TOMASEK Ka-thryn: The Whea-ton Col-le-ge Di-gi-tal Hi-st
-o-ry Pro-ject: Un-der-gra-dua-
+o-ry Pro-ject: Un-der-gra-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 551--551
-\T1/ptm/m/n/10 te Re-se-arch in a Lo-cal Col-lec-ti-on, $\T1/cmtt/m/n/10 https 
-: / / writinghistory . trincoll . edu / teach /
+\T1/ptm/m/n/10 dua-te Re-se-arch in a Lo-cal Col-lec-ti-on, $\T1/cmtt/m/n/10 wr
+itinghistory . trincoll . edu / teach /
  []
 
 
@@ -1762,33 +1750,53 @@ Package jurabib Warning: `shorttitle' for `weller2013InformationBand'
 (jurabib)                field on input line 826.
 
 [52]
-Underfull \hbox (badness 10000) in paragraph at lines 837--841
+Underfull \hbox (badness 10000) in paragraph at lines 841--845
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--856
+Package jurabib Warning: `shorttitle' for `sahle2013digitale'
+(jurabib)                is missing -- replacing with `title'
+(jurabib)                field on input line 857.
+
+<img/textrad.png, id=204, 847.165pt x 502.87875pt>
+File: img/textrad.png Graphic file (type png)
+<use img/textrad.png>
+Package pdftex.def Info: img/textrad.png  used on input line 860.
+(pdftex.def)             Requested size: 455.24411pt x 270.23067pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 851--862
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--856
+Underfull \hbox (badness 10000) in paragraph at lines 851--862
+
+ []
+
+[53] [54 <./img/textrad.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 871--881
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--856
+Underfull \hbox (badness 10000) in paragraph at lines 871--881
 
  []
 
-[53] [54]
-Overfull \hbox (2.49194pt too wide) in paragraph at lines 870--876
+
+Underfull \hbox (badness 10000) in paragraph at lines 871--881
+
+ []
+
+[55] [56]
+Overfull \hbox (2.49194pt too wide) in paragraph at lines 899--905
 \T1/ptm/m/n/12 Die \T1/ptm/m/it/12 Book-kee-ping On-to-lo-gy \T1/ptm/m/n/12 ist
  ein kon-zep-tio-nel-les Mo-dell zur for-ma-len Be-schrei-bung von Trans-
  []
 
 
-Overfull \hbox (10.59587pt too wide) in paragraph at lines 870--876
+Overfull \hbox (10.59587pt too wide) in paragraph at lines 899--905
 \T1/ptm/m/n/12 ak-tio-nen in hi-sto-ri-schen Rech-nungs-un-ter-la-gen. Es wur-d
 e in ei-nem Ontologie-Engineering-Prozess
  []
@@ -1796,198 +1804,182 @@ e in ei-nem Ontologie-Engineering-Prozess
 
 Package jurabib Warning: `shorttitle' for `wurz2016dh'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 880.
+(jurabib)                field on input line 909.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--884
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 877--884
+Underfull \hbox (badness 10000) in paragraph at lines 906--913
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--884
+Underfull \hbox (badness 10000) in paragraph at lines 906--913
 
  []
 
-[55]
-<img/example.png, id=214, 3338.4725pt x 2566.58875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 906--913
+
+ []
+
+[57]
+<img/example.png, id=222, 3338.4725pt x 2566.58875pt>
 File: img/example.png Graphic file (type png)
 <use img/example.png>
-Package pdftex.def Info: img/example.png  used on input line 931.
+Package pdftex.def Info: img/example.png  used on input line 960.
 (pdftex.def)             Requested size: 455.24411pt x 349.96004pt.
- [56] [57 <./img/example.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 943--950
+ [58] [59 <./img/example.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 972--979
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 943--950
+Underfull \hbox (badness 10000) in paragraph at lines 972--979
 
  []
 
 
 Package jurabib Warning: `shorttitle' for `preim2010interaktive'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 953.
+(jurabib)                field on input line 982.
 
-[58]
-Underfull \hbox (badness 1325) in paragraph at lines 961--961
+[60]
+Underfull \hbox (badness 1325) in paragraph at lines 990--990
 [][][][]\T1/ptm/m/sc/10 Schubert, \T1/ptm/m/n/10 Char-lot-te: Ta-gungs-be-richt
 : HT 2014: Clo-se Rea-ding and Di-stant Rea-ding. Me-tho-den der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--970
+Underfull \hbox (badness 10000) in paragraph at lines 990--999
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 961--970
+Underfull \hbox (badness 10000) in paragraph at lines 990--999
 
  []
 
-[59]
+[61]
 
 Package jurabib Warning: `shorttitle' for `gleba2015wirtschafts'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 973.
+(jurabib)                field on input line 1002.
 
-<img/atlas.jpg, id=229, 962.09438pt x 672.26157pt>
+<img/atlas.jpg, id=237, 962.09438pt x 672.26157pt>
 File: img/atlas.jpg Graphic file (type jpg)
 <use img/atlas.jpg>
-Package pdftex.def Info: img/atlas.jpg  used on input line 981.
+Package pdftex.def Info: img/atlas.jpg  used on input line 1010.
 (pdftex.def)             Requested size: 455.24411pt x 318.10687pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 973--983
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1012
 
  []
 
-[60]
-<img/infovis1.jpg, id=233, 937.25156pt x 575.14874pt>
+[62]
+<img/infovis1.jpg, id=241, 937.25156pt x 575.14874pt>
 File: img/infovis1.jpg Graphic file (type jpg)
 <use img/infovis1.jpg>
-Package pdftex.def Info: img/infovis1.jpg  used on input line 992.
+Package pdftex.def Info: img/infovis1.jpg  used on input line 1021.
 (pdftex.def)             Requested size: 455.24411pt x 279.36806pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 984--994
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1023
 
  []
 
-[61 <./img/atlas.jpg>]
-<img/infovis2.jpg, id=237, 721.94719pt x 577.40718pt>
+[63 <./img/atlas.jpg>]
+<img/infovis2.jpg, id=245, 721.94719pt x 577.40718pt>
 File: img/infovis2.jpg Graphic file (type jpg)
 <use img/infovis2.jpg>
-Package pdftex.def Info: img/infovis2.jpg  used on input line 1005.
+Package pdftex.def Info: img/infovis2.jpg  used on input line 1034.
 (pdftex.def)             Requested size: 455.24411pt x 364.10326pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 995--1007
+Underfull \hbox (badness 10000) in paragraph at lines 1024--1036
 
  []
 
-[62 <./img/infovis1.jpg>] [63]
-Underfull \hbox (badness 10000) in paragraph at lines 1008--1015
+[64 <./img/infovis1.jpg>] [65]
+Underfull \hbox (badness 10000) in paragraph at lines 1037--1043
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1008--1015
-
- []
-
-[64 <./img/infovis2.jpg>] [65] [66] (./expose.bbl
+[66 <./img/infovis2.jpg>] [67] [68] (./expose.bbl
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ptm/b/sc' tried instead on input line 20.
 
-Underfull \hbox (badness 1603) in paragraph at lines 83--84
+Underfull \hbox (badness 1603) in paragraph at lines 101--102
 []\T1/ptm/b/sc/12 Berners-Lee, \T1/ptm/b/n/12 Tim\T1/ptm/m/n/12 /\T1/ptm/b/sc/1
 2 Fielding, \T1/ptm/b/n/12 Roy\T1/ptm/m/n/12 /\T1/ptm/b/sc/12 Masinter, \T1/ptm
 /b/n/12 Lar-ry: \T1/ptm/m/n/12 Uni-form re-sour-ce iden-ti-fier
  []
 
-[67]
-Underfull \hbox (badness 6236) in paragraph at lines 432--433
+[69]
+Underfull \hbox (badness 6236) in paragraph at lines 450--451
 []\T1/ptm/b/sc/12 Gleba, \T1/ptm/b/n/12 Gu-drun: \T1/ptm/m/n/12 Rech-nen. Wirt-
 schaf-ten. Auf-schrei-ben. Ver-netz-te Schrift-lich-keit ^^U
  []
 
-[68] [69] [70] [71]
-Underfull \hbox (badness 2384) in paragraph at lines 1234--1236
+[70] [71] [72] [73]
+Underfull \hbox (badness 2384) in paragraph at lines 1293--1295
 []\T1/ptm/b/sc/12 Stuckenschmidt, \T1/ptm/b/n/12 Hei-ner: \T1/ptm/m/n/12 On-to-
 lo-gi-en: Kon-zep-te, Tech-no-lo-gi-en und An-wen-dun-gen.
  []
 
-[72]
-Underfull \hbox (badness 1331) in paragraph at lines 1493--1495
+[74] [75]
+Underfull \hbox (badness 1331) in paragraph at lines 1566--1568
 []\T1/ptm/b/sc/12 Wolf, \T1/ptm/b/n/12 Wil-li; Kö-nig, E.\T1/ptm/m/n/12 /\T1/pt
 m/b/n/12 zedler, P. (Hrsg.): \T1/ptm/m/n/12 Qua-li-ta-ti-ve ver-sus quan-ti-ta-
 ti-ve For-schung.
  []
 
-[73]) [74] (./expose.lof
-Overfull \hbox (111.21167pt too wide) in paragraph at lines 2--2
- \T1/ptm/m/n/12 schaf-ten, $\T1/cmtt/m/n/12 https : / / de . wikipedia . org / 
-wiki / Empirie \ # / media / Datei : Induktion-[]Deduktion . 
- []
-
-
-Overfull \hbox (44.69315pt too wide) in paragraph at lines 3--3
+) [76] (./expose.lof
+Overfull \hbox (19.99918pt too wide) in paragraph at lines 3--3
  \T1/ptm/m/n/12 del-lie-rungs-me-tho-den der In-for-ma-tik'', $\T1/cmtt/m/n/12 
-http : / / www . ti . inf . uni-[]due . de / fileadmin / 
+ti . inf . uni-[]due . de / fileadmin / public / 
  []
 
 
-Overfull \hbox (8.41539pt too wide) in paragraph at lines 7--7
- \T1/ptm/m/n/12 Ma-nus-cript Di-vi-si-on, STERT-ZER Jen-ni-fer: $\T1/cmtt/m/n/1
-2 http : / / doi . org / 10 . 16995 / dscn . 
+Overfull \hbox (26.80244pt too wide) in paragraph at lines 4--4
+ [][] []\T1/ptm/m/n/12 Beispiel für ein Klas-sen-dia-gramm nach UML, $\T1/cmtt/
+m/n/12 de . wikipedia . org / wiki / Unified _ 
  []
 
 
-Overfull \hbox (27.63608pt too wide) in paragraph at lines 8--8
- [][] []\T1/ptm/m/n/12 Seite 3 des Ob-jek-tes \T1/ptm/m/it/12 00133_sv0061 \T1/
-ptm/m/n/12 der Stag-ville Ac-counts, $\T1/cmtt/m/n/12 https : / / fromthepage .
- 
+Overfull \hbox (21.04015pt too wide) in paragraph at lines 11--11
+ [][] []\T1/ptm/m/n/12 Semantic Web Stack, $\T1/cmtt/m/n/12 en . wikipedia . or
+g / wiki / Semantic _ Web _ Stack$\T1/ptm/m/n/12 , 29.12.2019. [][]  
  []
 
 
-Overfull \hbox (23.14732pt too wide) in paragraph at lines 11--11
- [][] []\T1/ptm/m/n/12 Semantic Web Stack, $\T1/cmtt/m/n/12 https : / / en . wi
-kipedia . org / wiki / Semantic _ Web _ Stack$\T1/ptm/m/n/12 , 
+Overfull \hbox (61.29562pt too wide) in paragraph at lines 13--13
+ [][] []\T1/ptm/m/n/12 Visualisierung ei-nes Gra-phen auf Ba-sis ei-nes RDF-Dat
+ensatz, $\T1/cmtt/m/n/12 w3 . org / TR / rdf11-[]primer/$\T1/ptm/m/n/12 , 
  []
 
 )
 \tf@lof=\write6
 \openout6 = `expose.lof'.
 
- [75] [76] (./expose.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ [77] (./expose.aux) ) 
 Here is how much of TeX's memory you used:
- 22318 strings out of 494830
- 400799 string characters out of 6177366
- 502824 words of memory out of 5000000
- 25371 multiletter control sequences out of 15000+600000
+ 22404 strings out of 494830
+ 402535 string characters out of 6177366
+ 503815 words of memory out of 5000000
+ 25456 multiletter control sequences out of 15000+600000
  596341 words of font info for 93 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,7n,48p,10378b,1551s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/pollin/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecit1200.60
-0pk> </home/pollin/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.
-600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/pollin
-/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
-fb>
-Output written on expose.pdf (78 pages, 2924855 bytes).
+ </home/pollin/.texlive2017/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecit1200.600pk> </home/pollin/.texlive2017/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ectt1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8
+r.enc} </home/pollin/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt100
+0.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on expose.pdf (79 pages, 2961138 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
+ 478 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

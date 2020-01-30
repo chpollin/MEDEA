@@ -38,6 +38,24 @@
   {{Andorfer}{Peter}{P.}{}{}} {} {} \bibAnnoteFile
   {andorfer2015forschungsdaten}
 
+\bibitem[{Aumann\Bibetal\jbdy {1999}}%
+         {Historical Social Research/Historische Sozialforschung\jbsy {1999}}%
+         {{0}{}{article}{1999}{}{}{}{101--144}%
+          {JSTOR\bibbdsep {} 1999}}%
+         {{From digital archive to digital edition}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{aumann1999digital}
+ \jbbibargs {\bibnf {Aumann} {Stefan} {S.} {} {}\bibIMfont {\Bibetal}} {Stefan
+  AumannHans-Heinrich EbelingHans-Reinhard FrickePeter HoheiselMalte
+  RehbeinManfred Thaller} {aus} {\bibapifont {From digital archive to digital
+  edition}\bibatsep\ \bibJTsep \bibjtfont {Historical Social
+  Research/Historische Sozialforschung}\ajtsep\  \artyearformat {1999}
+  \jbPages{101--144}} {\bibartperiodhowcited} \jbdoitem
+  {{Aumann}{Stefan}{S.}{}{}; {Ebeling}{Hans-Heinrich}{H.-H.}{}{};
+  {Fricke}{Hans-Reinhard}{H.-R.}{}{}; {Hoheisel}{Peter}{P.}{}{};
+  {Rehbein}{Malte}{M.}{}{}; {Thaller}{Manfred}{M.}{}{}} {} {} \bibAnnoteFile
+  {aumann1999digital}
+
 \bibitem[{Bauer\jbbtasep Kaltenb{\"o}ck\jbdy {2011}}%
          {Edition mono/monochrom\jbsy {2011}}%
          {{0}{}{article}{2011}{}{}{}{}%
@@ -819,6 +837,19 @@
   \jbPages{S.375--399}} {\bibartperiodhowcited} \jbdoitem
   {{Meixner}{Uwe}{U.}{}{}} {} {} \bibAnnoteFile {meixner1994wissenschaft}
 
+\bibitem[{Meyer\jbdy {2019}}%
+         {}%
+         {{0}{}{mastersthesis}{2019}{}{}{}{}%
+          {2019}}%
+         {{Datenmodellierung f{\"u}r digitale Editionen}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{meyer2019datenmodellierung}
+ \jbbibargs {\bibnf {Meyer} {Till} {T.} {} {}} {Till Meyer} {au} {\bibtfont
+  {Datenmodellierung f{\"u}r digitale Editionen}\bibatsep\ \mastersthesisname,
+  \apyformat {Humboldt-Universit{\"a}t zu Berlin\bibbdsep {} 2019}}
+  {\bibhowcited} \jbdoitem {{Meyer}{Till}{T.}{}{}} {} {} \bibAnnoteFile
+  {meyer2019datenmodellierung}
+
 \bibitem[{Munzner\jbdy {2008}}%
          {}%
          {{0}{}{incollection}{2008}{}{}{}{S.134--153}%
@@ -1110,15 +1141,29 @@
 \bibitem[{Sahle\jbdy {2013}}%
          {}%
          {{1}{}{book}{2013}{}{}{}{}%
-          {Books on Demand\bibbdsep {} 2013}}%
+          {Norderstedt\bibbdsep {} 2013}}%
          {{Digitale Editionsformen: Textbegriffe und Recodierung}%
           {}{}{2}{}{}{}{}{}}%
         ]{sahle2013digitale}
  \jbbibargs {\bibnf {Sahle} {Patrick} {P.} {} {}} {Patrick Sahle} {au}
   {\bibtfont {Digitale Editionsformen: Textbegriffe und Recodierung}\bibatsep\
-  \volumeformat {3}  \apyformat {Books on Demand\bibbdsep {} 2013}}
-  {\bibhowcited} \jbdoitem {{Sahle}{Patrick}{P.}{}{}} {} {} \bibAnnoteFile
-  {sahle2013digitale}
+  \volumeformat {3}  \apyformat {Norderstedt\bibbdsep {} 2013}} {\bibhowcited}
+  \jbdoitem {{Sahle}{Patrick}{P.}{}{}} {} {} \bibAnnoteFile {sahle2013digitale}
+
+\bibitem[{Sahle\jbdy {2017}}%
+         {Digital Humanities. Eine Einführung\jbsy {2017}}%
+         {{1}{}{article}{2017}{}{}{}{S.234--249}%
+          {Stuttgart\bibbdsep {} 2017}}%
+         {{Digitale Edition}%
+          {}{}{1}{}{}{}{}{}}%
+        ]{sahle2017dhedition}
+ \jbbibargs {\bibnf {Sahle} {Patrick} {P.} {} {}} {Patrick Sahle} {au}
+  {\bibapifont {Digitale Edition}\bibatsep\ \bibJTsep \bibjtfont {Digital
+  Humanities. Eine Einführung}\ajtsep\  \artyearformat {2017}
+  \jbPages{S.234--249}} {\bibartperiodhowcited} \jbdoitem
+  {{Sahle}{Patrick}{P.}{}{}} {{Jannidis}{Fotis}{F.}{}{};
+  {Kohle}{Hubertus}{H.}{}{}; {Rehbein}{Malte}{M.}{}{}} {} \bibAnnoteFile
+  {sahle2017dhedition}
 
 \bibitem[{Schmieder\jbbtasep Sokoll}%
          {}%
@@ -1132,6 +1177,20 @@
   {\bibapifont {Theorien und Methoden der Geschichtswissenschaft}\bibatsep\ }
   {\bibartperiodhowcited} \jbdoitem {{Schmieder}{Felicitas}{F.}{}{};
   {Sokoll}{Thomas}{T.}{}{}} {} {} \bibAnnoteFile {sokollgrundlagen}
+
+\bibitem[{Scholger\jbdy {2018}}%
+         {}%
+         {{0}{}{phdthesis}{2018}{}{}{}{}%
+          {2018}}%
+         {{Assoziationsprozessen auf der Spur : digitale Edition der
+  Notizbücher von Hartmut Skerbisch}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{ScholgerMartina2018AadS}
+ \jbbibargs {\bibnf {Scholger} {Martina} {M.} {} {}} {Martina Scholger} {au}
+  {\bibtfont {Assoziationsprozessen auf der Spur : digitale Edition der
+  Notizbücher von Hartmut Skerbisch}\bibatsep\ \phdthesisname, \apyformat
+  {Universität Graz\bibbdsep {} 2018}} {\bibhowcited} \jbdoitem
+  {{Scholger}{Martina}{M.}{}{}} {} {} \bibAnnoteFile {ScholgerMartina2018AadS}
 
 \bibitem[{Schreiber\jbbtasep Raimond\jbdy {2014}}%
          {W3C working group note\jbsy {2014}}%
@@ -1300,16 +1359,16 @@
          {Historical Social Research/Historische Sozialforschung.
   Supplement\jbsy {2017}}%
          {{1}{}{article}{2017\el {c}}{}{}{}{S.138--159}%
-          {JSTOR\bibbdsep {} 2017\el {c}}}%
+          {GESIS\bibbdsep {} 2017\el {c}}}%
          {{Ungef{\"a}hre Exaktheit. Theoretische Grundlagen und praktische
   M{\"o}glichkeiten einer Formulierung historischer Quellen als Produkte
-  ‚unscharfer ‘Systeme [1984]}%
+  'unscharfer' Systeme [1984]}%
           {}{}{2}{}{}{}{}{}}%
         ]{thaller2017ungefahre}
  \jbbibargs {\bibnf {Thaller} {Manfred} {M.} {} {}} {Manfred Thaller} {au}
   {\bibapifont {Ungef{\"a}hre Exaktheit. Theoretische Grundlagen und praktische
   M{\"o}glichkeiten einer Formulierung historischer Quellen als Produkte
-  ‚unscharfer ‘Systeme [1984]}\bibatsep\ \bibJTsep \bibjtfont {Historical
+  'unscharfer' Systeme [1984]}\bibatsep\ \bibJTsep \bibjtfont {Historical
   Social Research/Historische Sozialforschung. Supplement}\ajtsep\
   \artyearformat {2017\bibel {c}} \jbPages{S.138--159}} {\bibartperiodhowcited}
   \jbdoitem {{Thaller}{Manfred}{M.}{}{}} {} {} \bibAnnoteFile
@@ -1364,6 +1423,20 @@
   {vogeler2015mittelalterliche} } {\bibhowcited} \jbdoitem
   {{Vogeler}{Georg}{G.}{}{}} {{Baum}{Constanze}{C.}{}{};
   {Stäcker}{Thomas}{T.}{}{}} {} \bibAnnoteFile {vogeler2015mittelalterliche}
+
+\bibitem[{Vogeler\jbdy {2018}}%
+         {}%
+         {{1}{}{article}{2018}{}{}{}{S. 178--198}%
+          {Universitätsbibliothek Graz\bibbdsep {} 2018}}%
+         {{Religion aus Daten? : Zur digitalen Edition von religiösen
+  Grundlagentexten}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{vogeler2018religion}
+ \jbbibargs {\bibnf {Vogeler} {Georg} {G.} {} {}} {Georg Vogeler} {au}
+  {\bibapifont {Religion aus Daten? : Zur digitalen Edition von religiösen
+  Grundlagentexten}\bibatsep\  \artyearformat {2018} \jbPages{S. 178--198}}
+  {\bibartperiodhowcited} \jbdoitem {{Vogeler}{Georg}{G.}{}{}} {} {}
+  \bibAnnoteFile {vogeler2018religion}
 
 \bibitem[{Vogeler\jbdy {2019}}%
          {International Journal of Digital Humanities\jbsy {2019}}%
