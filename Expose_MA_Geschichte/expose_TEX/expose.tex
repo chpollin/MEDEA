@@ -851,6 +851,12 @@ Allgemeiner betrachtet definieren LINCKELS \& MEINEL eine Ontologie als ein Date
 \\ 
 Zusammengefasst kann gesagt werden, dass sich mittels Ontologien komplexere Sachverhalte so darstellen lassen, dass Mensch und Maschinen in der Lage sind Strukturen, die durch eine Ontologie definiert und standardisiert sind, weiterverarbeiten zu können. Der Mehrwert kann vor allem in der Möglichkeit automatisierter Schlussfolgerungen, im Information Retrieval oder anderen formalen Methoden zur Verarbeitung von Daten liegen.\footcite[][S.162-178]{jannidis2017digital} 
 
+\subsubsection{OWL und Reasoning}
+
+[TODO OWL]
+\\
+\\
+Der Ontology Editor Protégé erlaubt es, eine Ontologie und die darin enthaltenen Daten (Individuals) einem Reasoning - dem Abarbeiten aller vorhandenen Regeln in einer Ontologie auf Basis einer deskriptiven Logik - zu unterziehen. Für solche Zwecke gibt es natürlich auch API's und Bibliotheken in Programmiersprachen.\footcite{musen2015protege} Das Reasoning gilt als ein essentieller Baustein im Design, der Entwicklung, der Wartung und in der praktischen Anwendung einer Ontologie. Das Ergebnis davon sind Inferenzen. Inferenzen sind neu hergeleitete Schlussfolgerungen auf Basis der formalen Regeln einer Ontologie.\footcite{dentler2011comparison} Die Überprüfung strukturierter Daten mittels logischen Schlussfolgerungen kann dazu dienen, größere Datenmengen auf ihre Konsistenz und somit auch auf ihre Qualität hin zu prüfen, da logische Inkonsistenzen als Fehlermeldung angezeigt werden.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -959,17 +965,57 @@ ToDo\footcite[][S.9-12]{tomasekmedea}
 \\
 ToDo\footcite[][S.101-109]{wurz2016dh}
 Ein DH Rechnungsprojekt\footcite[][S.109-113]{wurz2016dh}
-\\
-\\
 
-
-\subsubsection{TEI Beispiele DEPCHA}
-\label{TEI_DEPCHA}
+\subsubsection{Beispielhafte }
+\label{Beispiel}
 
 \textcolor{red}{
-Zu Beginn dieser Arbeit wurde ein Beispiel angeführt, indem ein Akteur, James Haley, am 01.08.1808 einen 1/4 Pfund Pulver, 1 Pfund Munition und 1 Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der \textit{Stagville Plantage} in \textit{North Carolina} käuflich erworben hat. Der nun folgende Turtle/RDF formalisiert diese Aussagen:
+Zu Beginn dieser Arbeit wurde ein Beispiel angeführt, indem ein Akteur, James Haley, am 01.08.1808 ein 1/4 Pfund Pulver, 1 Pfund Munition und 1 Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der \textit{Stagville Plantage} in \textit{North Carolina} käuflich erworben hat. Am folgendem Beispiel wird gezeigt, wie die Annotation des XML/TEI aussieht, um eine Transaktion im Sinne der Bookkeeping-Ontologie zu beschreiben und wie die daraus extrahierten RDF-Triple aussehen.}
+\\
+\\
+\textbf{XML/TEI Beispiel mit Bookkeeping-Annotation}
+\\
+\textcolor{red}{
+Ausgangspunkt ist die Definition eines Containers, der die textuelle Struktur \textit{bk:Entry} und die semantische Struktur \textit{bk:Transaction} zusammenführt. Für die Annotation im XML/TEI wird das Attribut \textit{@ana} verwendet, das eine oder mehrere Interpretationen eines Elements und dessen Inhalts erlaubt. Der \textit{bk:Entry} stellt oft in Rechnungsunterlagen entweder eine Zeile in einer Tabelle oder einen Eintrag in einer Liste dar, ist aber nicht darauf reduziert.
+\\
+Die hier dargestellte \textit{bk:Transaction} besteht aus zwei \textit{bk:Transfers}: der \textit{bk:Transfers} von Pulver, Zucker und Schrot, und der Fluss des Geldes, also der \textit{bk:Transfers} von 7 Schilling und 6 Pence.
 }
-
+\newpage
+\begin{lstlisting}[language=XML]
+<head> 
+  <name ana=''bk:to'' ref=''depcha:stagville''>Stagville</name> 
+  <date ana=''bk:when'' when=''1808-08-01''> August 1st 1808</date>
+</head> 
+<table>
+  <head>
+   69 <name ana=''bk:from'' ref=''depcha:pers.2''>James Haley</name> 
+   <span ana=''bk:status''>Self Dr.</span> 
+  </head> 
+  <row ana=''bk:entry'' xml:id=''Transaction-0''> 
+    <cell> 
+     <measure ana=''bk:commodity'' commodity=''wd:Q12861'' quantity=''0.25'' 
+       unit=''wd:Q100995''>1/4 lb Powder <measure ana=''bk:price'' 
+         quantity=''0.33'' unit=''wd:Q213142''>2/6</measure>
+     </measure>
+    </cell> 
+    <cell> 
+     <measure ana=''bk:money'' quantity=''7'' unit=''wd:Q213142''>7</measure>
+    </cell>
+    <cell> 
+     <measure ana=''bk:money'' quantity=''6'' unit=''wd:Q234129''>6</measure>
+    </cell>
+  </row>
+</table>
+\end{lstlisting}
+\textcolor{red}{
+Neben trivialen markup, wie beispielsweise das Datum, das mit \textit{<date ana=''bk:when''>} ausgezeichnet wird, wird der Geldfluss durch die Werte \textit{ana=''bk:from''} und \textit{ana=''bk:to''} ausgedrückt. Da in den meisten Quellen dieser Art ein Kauf einer Ware dokumentiert ist, handelt es sich hierbei um eine Annahme. Aus dieser Schlussfolgerung lässt sich dann der Fluss von Wirtschaftsgütern - einer Ware oder Dienstleistung - ableiten. Der einzelne Eintrag nennt in der Regel nur eine Partei in der Transaktion, während der Ladenbesitzer Stagville bereits in der Überschrift des Kontos oder als externes Archivwissen identifiziert wird. Darüber hinaus kann der Text ''\textit{Self Dr.}'' in der Kopfzeile der Buchung als Transaktions- und Buchungsstatus interpretiert werden und drückt aus, dass die Buchung von dieser Person auf der Sollseite eines doppelten Buchungsstils vorgenommen wurde.
+\\
+Ein weiterer wichtiger Aspekt ist die Normalisierung von Entitäten wie Personen, Orten, Währungen, Waren oder Dienstleistungen, die im Zusammenhang mit einer solchen Quelle sehr komplex werden können. So sind beispielsweise bestimmte Gewichtseinheiten oder Währungen von regionalen und zeitlichen Unterschieden betroffen. Aufgrund der großen Vielfalt kontextsensitiver Entitäten wird die Normalisierung der Daten durch die Verknüpfung mit \textit{Wikidata.org} oder durch die Erweiterung von Workflows für andere LOD-Vokabulare erreicht, was sinnvoll erscheint. Die Verwendung von Wikidata erlaubt es jedoch, eigenständige neue Konzepte zu erstellen, die noch in keinem Vokabular vertreten sind. Das folgende Beispiel verdeutlicht dies: Ein weiterer in DEPCHA aufgenommener Datensatz enthält Listen von Waren aus der Stadt Regensburg im 13. Jahrhundert.\footnote{StadtA Regensburg, Kameralien 3} In diesem Datensatz wird der Begriff ''\textit{Scheffen Hafer}'' verwendet und bezieht sich auf eine ganz bestimmte zeitliche und regionale historische Einheit, einen Scheffel Hafer. Der oben beschriebene Arbeitsablauf erlaubt es, solche Begriffe direkt mit \textit{Wikidata.org}-Konzepten zu verbinden, indem die Q-Nummer direkt an ein Attribut angehängt wird. Dieser pragmatische Ansatz wird durch Werkzeuge wie OpenRefine\footnote{Open source desktop application for data cleanup and transformation, \url{https://openrefine.org}} für die halbautomatische Identifizierung unterstützt. Als Ergebnis dieses Workflows extrahiert ein XSLT die annotierten Strukturen in der TEI in RDF - das folgende RDF/Turtle-Snippet zeigt das verarbeitete XML/TEI:
+}
+\\
+\\
+\textbf{RDF-Extraktion}
+Danach folgen die RDF-Triple, die aus dieser Annotation extrahiert werden können.
 \begin{lstlisting}[]
 @prefix bk: <https://gams.uni-graz.at/o:depcha.ontology> .
 
@@ -1015,10 +1061,6 @@ Zu Beginn dieser Arbeit wurde ein Beispiel angeführt, indem ein Akteur, James H
 	\includegraphics[width=1\textwidth]{img/example.png}  
     \caption[Graphische Darstellung des RDF, eigene Darstellung, 01.06.2019.]{Graphische Darstellung des RDF} \label{fig:example}
 \end{figure}
-
-\subsubsection{Reasoning}
-
-Der Ontology Editor Protégé erlaubt es, eine Ontologie und die darin enthaltenen Daten (Individuals) einem Reasoning - dem Abarbeiten aller vorhandenen Regeln in einer Ontologie auf Basis einer deskriptiven Logik - zu unterziehen. Für solche Zwecke gibt es natürlich auch API's und Bibliotheken in Programmiersprachen.\footcite{musen2015protege} Das Reasoning gilt als ein essentieller Baustein im Design, der Entwicklung, der Wartung und in der praktischen Anwendung einer Ontologie. Das Ergebnis davon sind Inferenzen. Inferenzen sind neu hergeleitete Schlussfolgerungen auf Basis der formalen Regeln einer Ontologie.\footcite{dentler2011comparison} Die Überprüfung strukturierter Daten mittels logischen Schlussfolgerungen kann dazu dienen, größere Datenmengen auf ihre Konsistenz und somit auch auf ihre Qualität hin zu prüfen, da logische Inkonsistenzen als Fehlermeldung angezeigt werden.
 
 
 \newpage

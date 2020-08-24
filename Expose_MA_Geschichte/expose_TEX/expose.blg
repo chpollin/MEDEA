@@ -1,19 +1,5 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: expose.aux
-Reallocating 'name_of_file' (item size: 1) to 8 items.
+This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
-Reallocating 'name_of_file' (item size: 1) to 10 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 11944 items.
 Database file #1: literatur.bib
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--No address in berners2004uniform
@@ -50,45 +36,4 @@ Warning--Empty pages in tomasek2013encoding
 Warning--No address in vogeler2015mittelalterliche
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
-You've used 112 entries,
-            8453 wiz_defined-function locations,
-            2033 strings with 29731 characters,
-and the built_in function-call counts, 118660 in all, are:
-= -- 8422
-> -- 3760
-< -- 335
-+ -- 1323
-- -- 1189
-* -- 13205
-:= -- 16644
-add.period$ -- 0
-call.type$ -- 112
-change.case$ -- 535
-chr.to.int$ -- 184
-cite$ -- 285
-duplicate$ -- 6316
-empty$ -- 12651
-format.name$ -- 3847
-if$ -- 24488
-int.to.chr$ -- 3
-int.to.str$ -- 0
-missing$ -- 702
-newline$ -- 1139
-num.names$ -- 931
-pop$ -- 2511
-preamble$ -- 1
-purify$ -- 526
-quote$ -- 0
-skip$ -- 4511
-stack$ -- 0
-substring$ -- 4045
-swap$ -- 3021
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 2362
-warning$ -- 35
-while$ -- 1079
-width$ -- 0
-write$ -- 4498
 (There were 35 warnings)
