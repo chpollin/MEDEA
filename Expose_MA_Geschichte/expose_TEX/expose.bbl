@@ -1628,6 +1628,22 @@
   {tomasek2013encoding}
 
 \backrefparscanfalse
+\bibitem[{Vajda\jbbfsasep Merrell\jbbstasep Smith\jbdy {2019}}%
+         {}%
+         {{0}{}{article}{2019}{}{}{}{}%
+          {JOWO\bibbdsep {} 2019}}%
+         {{Toward an ontology of commercial exchange}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{vajda2019toward}
+ \jbbibargs {\bibnf {Vajda} {Jonathan} {J.} {} {}\Bibbfsasep \bibnf {Merrell}
+  {Eric} {E.} {} {}\Bibbstasep \bibnf {Smith} {Barry} {B.} {} {}} {Jonathan
+  VajdaEric MerrellBarry Smith} {aus} {sexless} {\bibapifont {Toward an
+  ontology of commercial exchange}\bibatsep {}  \artyearformat {2019}}
+  {\bibartperiodhowcited} \jbdoitem {{Vajda}{Jonathan}{J.}{}{};
+  {Merrell}{Eric}{E.}{}{}; {Smith}{Barry}{B.}{}{}} {} {} \bibAnnoteFile
+  {vajda2019toward}
+
+\backrefparscanfalse
 \bibitem[{Vasold\jbdy {1996}}%
          {}%
          {{0}{}{book}{1996}{}{}{}{}%

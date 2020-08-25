@@ -95,9 +95,10 @@
 
 \section{Einleitung}
 
-Seitdem Menschen sich an Ereignisse oder Erkenntnisse, die für sie wichtig waren, erinnern, existieren auch Formen dieses Wissen zu repräsentieren und zu speichern. Bereits in den ersten Hochkulturen schrieb man nieder, dass jemand bei jemand anderen in der Schuld stand. Bereits um 3000 v. Chr. lässt sich auf Tontafel finden: ''\textit{Alok schuldet dem Sumar 10 Eimer Korn}''. Die Dokumentation ökonomischer Abhängigkeiten zwischen Akteuren stellt eine der ersten Formen dar, wie Wissen verschriftlicht und strukturiert wurde.\footcite[][]{robson1992accounting} Für Historiker*innen liefert diese Zeile ein Indiz auf ein vergangenes Ereignis. Wird es in einen bestimmten historischen Kontext gestellt, so lassen sich Forschungsfragen in den Geschichtswissenschaften formulieren, die dabei helfen, ein Ereignis aus der Vergangenheit zu rekonstruieren und auf diese Weise etwas über die Vergangenheit lernen zu können. Dabei können semantische Strukturen helfen, die innerhalb der schriftlichen Überlieferung -- der historischen Quelle -- stecken. Im Falle von ökonomischen Abhängigkeiten und Transaktionen lässt sich eine ''natürliche'' Struktur festmachen, die über die Kulturen und Gesellschaften, sowie Zeiten und geographische Räume vergleichbar ist. Dies gilt für eine Tontafel aus Mesopotamien, einer Abgabenliste einer europäischen Stadt im Mittelalter, einem privaten Rechnungsbuch eines Geschäftsmannes aus dem 19. Jahrhundert in den Vereinigten Staaten von Amerika, sowie für einen Rechnungsbeleg aus heutiger Zeit. Akteure schulden oder transferieren wirtschaftliche Güter oder Geldbeträge an andere Akteure.
+Seitdem Menschen sich an Ereignisse oder Erkenntnisse, die für sie wichtig waren, erinnern, existieren auch Formen dieses Wissen zu repräsentieren und zu speichern. Bereits in den ersten Hochkulturen schrieb man nieder, dass jemand bei jemand anderen in der Schuld stand. Bereits um 3000 v. Chr. lässt sich auf Tontafel finden: ''\textit{Alok schuldet dem Sumar 10 Eimer Korn}''.
+Die Dokumentation ökonomischer Abhängigkeiten zwischen Akteuren stellt eine der ersten Formen dar, wie Wissen verschriftlicht und strukturiert wurde.\footcite[][]{robson1992accounting} Für Historiker*innen liefert diese Zeile ein Indiz auf ein vergangenes Ereignis. Wird es in einen bestimmten historischen Kontext gestellt, so lassen sich Forschungsfragen in den Geschichtswissenschaften formulieren, die dabei helfen, ein Ereignis aus der Vergangenheit zu rekonstruieren und auf diese Weise etwas über die Vergangenheit lernen zu können. Dabei können semantische Strukturen helfen, die innerhalb der schriftlichen Überlieferung -- der historischen Quelle -- stecken. Im Falle von ökonomischen Abhängigkeiten und Transaktionen lässt sich eine ''natürliche'' Struktur festmachen, die über die Kulturen und Gesellschaften, sowie Zeiten und geographische Räume vergleichbar ist. Dies gilt für eine Tontafel aus Mesopotamien, einer Abgabenliste einer europäischen Stadt im Mittelalter, einem privaten Rechnungsbuch eines Geschäftsmannes aus dem 19. Jahrhundert in den Vereinigten Staaten von Amerika, sowie für einen Rechnungsbeleg aus heutiger Zeit. Akteure schulden oder transferieren wirtschaftliche Güter oder Geldbeträge an andere Akteure.
 \\
-Die Beschreibung einer solchen semantischen Struktur kann durch ein konzeptuelles Modell erfolgen. Die Anwendung formaler Methoden unter Berücksichtigung eines solchen Modells, kann als Grundlage dafür dienen, Interpretationen der Vergangenheit -''\textit{wie es den gewesen sein könnte}''\footcite[][S.159]{thaller2017ungefahre} - mit einer gewissen Datengrundlage zu untermauern. Auf dieser Datengrundlage, die stets offen und nachvollziehbar, sowie in die fachwissenschaftliche Diskussion eingebettet sein muss und deswegen ein konzeptuelles Modell benötigt,  können die Interpretationen der Historiker*innen fußen. Die Rekonstruktion, Interpretation und die Einbindung dieser Erkenntnisse in gegenwärtige Diskussion ist die eigentliche Arbeit der Geschichtswissenschaft.
+Die Beschreibung einer solchen semantischen Struktur kann durch ein konzeptuelles Modell erfolgen. Die Anwendung formaler Methoden unter Berücksichtigung eines solchen Modells, kann als Grundlage dafür dienen, Interpretationen der Vergangenheit -- ''\textit{wie es den gewesen sein könnte}''\footcite[][S.159]{thaller2017ungefahre} -- mit einer gewissen Datengrundlage zu untermauern. Auf dieser Datengrundlage, die stets offen und nachvollziehbar, sowie in die fachwissenschaftliche Diskussion eingebettet sein muss und deswegen ein konzeptuelles Modell benötigt,  können die Interpretationen der Historiker*innen fußen. Die Rekonstruktion, Interpretation und die Einbindung dieser Erkenntnisse in gegenwärtige Diskussion ist die eigentliche Arbeit der Geschichtswissenschaft.
 \\
 
 Ziel dieser Arbeit ist eine theoretische und pragmatische Auseinandersetzung mit den Herausforderungen und Möglichkeiten, die formale -- und somit auch digitale -- Methoden und Modelle in der Geschichtswissenschaft mit sich bringen. Der praktische Anteil dieser Arbeit bezieht sich auf die Anwendung formaler Methoden auf semantisch angereicherte digitale Editionen von historischen Rechnungsbüchern in einem konkreten Projektkontext. Dieser Projektkontext -- \textit{Digital Edition Publishing Cooperative for Historical Accounts} (DEPCHA)\footnote{NHPRC-Mellon Implementation Grants: Digital Edition Publishing Cooperatives, \url{archives.gov/nhprc/announcement/depc}. Finanziert durch The Andrew W. Mellon Foundation \url{ mellon.org} 05.06.2019.} -- umfasst eine Kooperation von Partnern aus der USA, koordiniert durch das \textit{Wheaton College Massachusetts}, dem \textit{Center for Digital Editing} der University of Virginia und dem \textit{Zentrum für Informationsmodellierung} (ZIM) der Universität Graz. Es setzt sich zum Ziel eine Publikationsplattform für digitale Editionen historischer Rechnungsbücher zu entwickeln und umzusetzen. Eine Herausforderung in diesem Projekt umfasst die Diskussion und Zusammenführung quantitativer und qualitativer Herangehensweisen von Historiker*innen an Forschungsfragen in den Geschichtswissenschaften. Einen zentralen Stellenwert darin hat die sogenannte \textit{Bookkeeping Ontology}, die als konzeptuelles Modell die semantische Struktur von Rechnungsunterlagen beschreibt und im Sinn des \textit{Web of Data} (aka. Semantic Web) implementiert ist.
@@ -851,6 +852,12 @@ Allgemeiner betrachtet definieren LINCKELS \& MEINEL eine Ontologie als ein Date
 \\ 
 Zusammengefasst kann gesagt werden, dass sich mittels Ontologien komplexere Sachverhalte so darstellen lassen, dass Mensch und Maschinen in der Lage sind Strukturen, die durch eine Ontologie definiert und standardisiert sind, weiterverarbeiten zu können. Der Mehrwert kann vor allem in der Möglichkeit automatisierter Schlussfolgerungen, im Information Retrieval oder anderen formalen Methoden zur Verarbeitung von Daten liegen.\footcite[][S.162-178]{jannidis2017digital} 
 
+\subsubsection{OWL und Reasoning}
+
+[TODO OWL]
+\\
+\\
+Der Ontology Editor Protégé erlaubt es, eine Ontologie und die darin enthaltenen Daten (Individuals) einem Reasoning - dem Abarbeiten aller vorhandenen Regeln in einer Ontologie auf Basis einer deskriptiven Logik - zu unterziehen. Für solche Zwecke gibt es natürlich auch API's und Bibliotheken in Programmiersprachen.\footcite{musen2015protege} Das Reasoning gilt als ein essentieller Baustein im Design, der Entwicklung, der Wartung und in der praktischen Anwendung einer Ontologie. Das Ergebnis davon sind Inferenzen. Inferenzen sind neu hergeleitete Schlussfolgerungen auf Basis der formalen Regeln einer Ontologie.\footcite{dentler2011comparison} Die Überprüfung strukturierter Daten mittels logischen Schlussfolgerungen kann dazu dienen, größere Datenmengen auf ihre Konsistenz und somit auch auf ihre Qualität hin zu prüfen, da logische Inkonsistenzen als Fehlermeldung angezeigt werden.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -940,34 +947,78 @@ In den folgenden Kapiteln \ref{BK} und \ref{TEI_DEPCHA} wird dieser Zugang am Be
 \label{BK}
 
 Die \textit{Bookkeeping Ontology}\footnote{\url{gams.uni-graz.at/o:depcha.bookkeeping}, 24.08.2020} ist ein konzeptionelles Modell zur formalen Beschreibung von Transaktionen in historischen Rechnungsunterlagen. Es wurde in einem Ontologie-Engineering-Prozess entwickelt, an dem Historiker*innen, Softwareentwickler*innen und digitale Geisteswissenschaftler*innen beteiligt waren. Die Ontologie befindet sich nach wie vor in der Entwicklung (Stand 2020).
+
+
+
+\subsubsection{Grundlagen}
 \textcolor{red}{
-\\
 Ausgangspunkt ist das \textit{Resources, events, agents} (REA) Modell\footcite{mccarthy1982rea}, eine Ontologie, das Buchhaltungsprozessen virtualisiert. Wie der Name sagt, besteht es aus Ressourcen (Gütern, Dienstleistungen, Geld), die in Ereignissen, also Vereinbarungen oder Geschäftstransaktionen, von einem Akteur (Person, Organisation) zum anderen transferiert werden. Im Mittelpunkt jedes REA-Modells steht in der Regel ein Ereignispaar, das durch eine Austauschbeziehung verbunden ist. Eines dieser Ereignisse repräsentiert gewöhnlich den Abgang, die andere eine Empfangen einer Ressource. Im Verkaufsprozess wäre zum Beispiel ein Ereignis ein ''Verkauf'' - bei dem Waren abgegeben werden - und das andere Ereignis ein ''Geldeingang'', bei dem Bargeld empfangen wird. Diese beiden Ereignisse sind miteinander verbunden: ein Geldeingang erfolgt im Austausch gegen einen Verkauf und umgekehrt.
+\\
+\\
+Eine weitere Grundlage bilden die Arbeiten im Kontext von \textit{Modeling Semantically Enhanced Digital Edition of Accounts} (MEDEA), die gerade die Möglichkeiten der Normalisierung und fachwissenschaftliche Annotation, hervorheben. Weiters diskutiere diese Gruppe auch die Rolle der \textit{extensible Business Reporting Language} (XBRL)\footnote{XBRL, \url{https://www.xbrl.org/}, 25.08.2020}, ein XML-basierter Standard ''\textit{for reporting financial information}''. Weiters wird die Ableitung eines konzeptuellen Modells zur Beschreibung von Transaktionen von der Top-Level-Ontology CIDOC-CRM\footnote{CIDOC Conceptual Reference Model (CRM, \url{http://www.cidoc-crm.org/}, 25.08.2020} hervorgehoben.\footcite[][S.9-12]{tomasekmedea} Diese Überlegungen fließen in die Entwicklung der Bookkeeping-Ontology ein. Eine andere Ontologie, die sich in diesem Umfeld bewegt und wirtschaftliche Aktivitäten beschreibt sind die Überlegungen von VAJDA et.al.\footcite[][]{vajda2019toward}
 }
-\\
-\\
+
+\subsubsection{Beschreibung}
+
 In der derzeitigen Fassung definiert die \textit{Bookkeeping Ontology} folgendes:
 \\
-Eine Transaktion besteht aus mindestens einem Transfer. Jeder Transfer umfasst den Austausch von Dingen, die quantifizierbar sind, von einem Akteur zum anderen. Solche, sogenannte \textit{Measurable}, lassen sich in Geldbeträge, sowie wirtschaftliche Güter unterteilen. Geldbeträge sind dadurch gekennzeichnet, dass sie aus einer Zahl und einer Währung bestehen, wie etwa 10 US Dollar. Weiters gibt es spezielle Formen von Geldbeträgen, wie etwa Steuern, die eine einseitige Geldabgabe definieren, sowie Preise, die den monetären Wert eines Wirtschaftsgutes beschreiben. Die wirtschaftlichen Güter wiederum werden aufgeteilt in Waren -- bestehend aus Menge, Einheit und Art, wie 1 Sack Erdäpfel -- und Dienstleistungen, die eine zeitliche Komponente mit sich bringen können. Die Akteure diesen Transfers können Individuen, Gruppen, Organisationen, Konten oder Kategorien inn sein. Die Ontologie erlaubt es explizit zu formulieren von wem an wen \textit{Measurables} transferiert werden.
+Eine Transaktion besteht aus mindestens einem Transfer. Jeder Transfer umfasst den Austausch von Dingen, die quantifizierbar sind, von einem Akteur zum anderen. Solche, sogenannte \textit{Measurable}, lassen sich in Geldbeträge, sowie wirtschaftliche Güter unterteilen. Geldbeträge sind dadurch gekennzeichnet, dass sie aus einer Zahl und einer Währung bestehen, wie etwa 10 US Dollar. Weiters gibt es spezielle Formen von Geldbeträgen, wie etwa Steuern, die eine einseitige Geldabgabe definieren, sowie Preise, die den monetären Wert eines Wirtschaftsgutes beschreiben. Die wirtschaftlichen Güter wiederum werden aufgeteilt in Waren -- bestehend aus Menge, Einheit und Art, wie 1 Sack Erdäpfel -- und Dienstleistungen, die eine zeitliche Komponente mit sich bringen können. Die Akteure diesen Transfers können Individuen, Gruppen, Organisationen, Konten oder Kategorien innerhalb von Konten, wie beispielsweise alle Einnahmen einer Stadt auf den Ausschank von Wein, sein. Die Ontologie erlaubt es explizit zu formulieren von wem an wen \textit{Measurables} transferiert werden.
 \\
 Weiters ist die Verbindung zur historischen Quelle bzw. zum jeweiligen Eintrag wichtiger Bestandteil der Ontologie. Ein Eintrag ist ein Informationsfragment und Beleg eines Ereignisses einer Transaktion in der Vergangenheit. Neben dieser Referenz besteht die Möglichkeit jede Transaktion in seiner zeitlichen, räumlichen und inhaltlichen Dimension, also der Zordnung zu einem bestimmten, durch die Forschungsfrage geprägten, Kontext, zu beschreiben.
 \\
 Ein Transfer, als Teilbestand einer Transaktion, kann auch von einem Agent, also einer weiteren Person, durchgeführt werden: jemand übernimmt den Transferprozess für jemand anders. Bei der Verbuchung der Transaktion wird eine Transaktion im Sinne der doppelten Buchhaltung auf die Haben oder Soll Seite gebucht. 
 
-ToDo\footcite[][S.9-12]{tomasekmedea}
+
+\subsubsection{Beispiel}
+\label{Beispiel}
+
+\textcolor{red}{
+Zu Beginn dieser Arbeit wurde ein Beispiel angeführt, indem ein Akteur, James Haley, am 01.08.1808 ein 1/4 Pfund Pulver, 1 Pfund Munition und 1 Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der \textit{Stagville Plantage} in \textit{North Carolina} käuflich erworben hat. Am folgendem Beispiel wird gezeigt, wie die Annotation des XML/TEI aussieht, um eine Transaktion im Sinne der Bookkeeping-Ontologie zu beschreiben und wie die daraus extrahierten RDF-Triple aussehen.}
 \\
 \\
-ToDo\footcite[][S.101-109]{wurz2016dh}
-Ein DH Rechnungsprojekt\footcite[][S.109-113]{wurz2016dh}
+\textbf{XML/TEI Beispiel mit Bookkeeping-Annotation}
+\\
+\textcolor{red}{
+Ausgangspunkt ist die Definition eines Containers, der die textuelle Struktur \textit{bk:Entry} und die semantische Struktur \textit{bk:Transaction} zusammenführt. Für die Annotation im XML/TEI wird das Attribut \textit{@ana} verwendet, das eine oder mehrere Interpretationen eines Elements und dessen Inhalts erlaubt. Der \textit{bk:Entry} stellt oft in Rechnungsunterlagen entweder eine Zeile in einer Tabelle oder einen Eintrag in einer Liste dar, ist aber nicht darauf reduziert.
+\\
+Die hier dargestellte \textit{bk:Transaction} besteht aus zwei \textit{bk:Transfers}: der \textit{bk:Transfers} von Pulver, Zucker und Schrot, und der Fluss des Geldes, also der \textit{bk:Transfers} von 7 Schilling und 6 Pence.
+}
+\newpage
+\begin{lstlisting}[language=XML]
+<head> 
+  <name ana=''bk:to'' ref=''depcha:stagville''>Stagville</name> 
+  <date ana=''bk:when'' when=''1808-08-01''> August 1st 1808</date>
+</head> 
+<table>
+  <head>
+   69 <name ana=''bk:from'' ref=''depcha:pers.2''>James Haley</name> 
+   <span ana=''bk:status''>Self Dr.</span> 
+  </head> 
+  <row ana=''bk:entry'' xml:id=''Transaction-0''> 
+    <cell> 
+     <measure ana=''bk:commodity'' commodity=''wd:Q12861'' quantity=''0.25'' 
+       unit=''wd:Q100995''>1/4 lb Powder <measure ana=''bk:price'' 
+         quantity=''0.33'' unit=''wd:Q213142''>2/6</measure>
+     </measure>
+    </cell> 
+    <cell> 
+     <measure ana=''bk:money'' quantity=''7'' unit=''wd:Q213142''>7</measure>
+    </cell>
+    <cell> 
+     <measure ana=''bk:money'' quantity=''6'' unit=''wd:Q234129''>6</measure>
+    </cell>
+  </row>
+</table>
+\end{lstlisting}
+\textcolor{red}{
+Neben trivialen markup, wie beispielsweise das Datum, das mit \textit{<date ana=''bk:when''>} ausgezeichnet wird, wird der Geldfluss durch die Werte \textit{ana=''bk:from''} und \textit{ana=''bk:to''} ausgedrückt. Da in den meisten Quellen dieser Art ein Kauf einer Ware dokumentiert ist, handelt es sich hierbei um eine Annahme. Aus dieser Schlussfolgerung lässt sich dann der Fluss von Wirtschaftsgütern - einer Ware oder Dienstleistung - ableiten. Der einzelne Eintrag nennt in der Regel nur eine Partei in der Transaktion, während der Ladenbesitzer Stagville bereits in der Überschrift des Kontos oder als externes Archivwissen identifiziert wird. Darüber hinaus kann der Text ''\textit{Self Dr.}'' in der Kopfzeile der Buchung als Transaktions- und Buchungsstatus interpretiert werden und drückt aus, dass die Buchung von dieser Person auf der Sollseite eines doppelten Buchungsstils vorgenommen wurde.
+\\
+Ein weiterer wichtiger Aspekt ist die Normalisierung von Entitäten wie Personen, Orten, Währungen, Waren oder Dienstleistungen, die im Zusammenhang mit einer solchen Quelle sehr komplex werden können. So sind beispielsweise bestimmte Gewichtseinheiten oder Währungen von regionalen und zeitlichen Unterschieden betroffen. Aufgrund der großen Vielfalt kontextsensitiver Entitäten wird die Normalisierung der Daten durch die Verknüpfung mit \textit{Wikidata.org} oder durch die Erweiterung von Workflows für andere LOD-Vokabulare erreicht, was sinnvoll erscheint. Die Verwendung von Wikidata erlaubt es jedoch, eigenständige neue Konzepte zu erstellen, die noch in keinem Vokabular vertreten sind. Das folgende Beispiel verdeutlicht dies: Ein weiterer in DEPCHA aufgenommener Datensatz enthält Listen von Waren aus der Stadt Regensburg im 13. Jahrhundert.\footnote{StadtA Regensburg, Kameralien 3} In diesem Datensatz wird der Begriff ''\textit{Scheffen Hafer}'' verwendet und bezieht sich auf eine ganz bestimmte zeitliche und regionale historische Einheit, einen Scheffel Hafer. Der oben beschriebene Arbeitsablauf erlaubt es, solche Begriffe direkt mit \textit{Wikidata.org}-Konzepten zu verbinden, indem die Q-Nummer direkt an ein Attribut angehängt wird. Dieser pragmatische Ansatz wird durch Werkzeuge wie OpenRefine\footnote{Open source desktop application for data cleanup and transformation, \url{https://openrefine.org}} für die halbautomatische Identifizierung unterstützt. Als Ergebnis dieses Workflows extrahiert ein XSLT die annotierten Strukturen in der TEI in RDF - das folgende RDF/Turtle-Snippet zeigt das verarbeitete XML/TEI:
+}
 \\
 \\
-
-
-\subsubsection{TEI Beispiele DEPCHA}
-\label{TEI_DEPCHA}
-
-ToDo: Erklärung zum Beispiel
-
+\textbf{RDF-Extraktion}
+Danach folgen die RDF-Triple, die aus dieser Annotation extrahiert werden können.
 \begin{lstlisting}[]
 @prefix bk: <https://gams.uni-graz.at/o:depcha.ontology> .
 
@@ -1013,10 +1064,6 @@ ToDo: Erklärung zum Beispiel
 	\includegraphics[width=1\textwidth]{img/example.png}  
     \caption[Graphische Darstellung des RDF, eigene Darstellung, 01.06.2019.]{Graphische Darstellung des RDF} \label{fig:example}
 \end{figure}
-
-\subsubsection{Reasoning}
-
-Der Ontology Editor Protégé erlaubt es, eine Ontologie und die darin enthaltenen Daten (Individuals) einem Reasoning - dem Abarbeiten aller vorhandenen Regeln in einer Ontologie auf Basis einer deskriptiven Logik - zu unterziehen. Für solche Zwecke gibt es natürlich auch API's und Bibliotheken in Programmiersprachen.\footcite{musen2015protege} Das Reasoning gilt als ein essentieller Baustein im Design, der Entwicklung, der Wartung und in der praktischen Anwendung einer Ontologie. Das Ergebnis davon sind Inferenzen. Inferenzen sind neu hergeleitete Schlussfolgerungen auf Basis der formalen Regeln einer Ontologie.\footcite{dentler2011comparison} Die Überprüfung strukturierter Daten mittels logischen Schlussfolgerungen kann dazu dienen, größere Datenmengen auf ihre Konsistenz und somit auch auf ihre Qualität hin zu prüfen, da logische Inkonsistenzen als Fehlermeldung angezeigt werden.
 
 
 \newpage

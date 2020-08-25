@@ -1,5 +1,19 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: expose.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: jurabib.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 12006 items.
 Database file #1: literatur.bib
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--No address in berners2004uniform
@@ -33,7 +47,49 @@ Warning--Empty pages in stachowiak1973allgemeine
 Warning--Empty pages in stertzer2014working
 Warning--Empty pages in sure2003methodology
 Warning--Empty pages in tomasek2013encoding
+Warning--Empty pages in vajda2019toward
 Warning--No address in vogeler2015mittelalterliche
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
-(There were 35 warnings)
+You've used 113 entries,
+            8453 wiz_defined-function locations,
+            2037 strings with 29841 characters,
+and the built_in function-call counts, 119839 in all, are:
+= -- 8491
+> -- 3818
+< -- 341
++ -- 1342
+- -- 1207
+* -- 13365
+:= -- 16823
+add.period$ -- 0
+call.type$ -- 113
+change.case$ -- 541
+chr.to.int$ -- 185
+cite$ -- 288
+duplicate$ -- 6383
+empty$ -- 12756
+format.name$ -- 3906
+if$ -- 24709
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 708
+newline$ -- 1149
+num.names$ -- 939
+pop$ -- 2536
+preamble$ -- 1
+purify$ -- 532
+quote$ -- 0
+skip$ -- 4548
+stack$ -- 0
+substring$ -- 4058
+swap$ -- 3055
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2383
+warning$ -- 36
+while$ -- 1086
+width$ -- 0
+write$ -- 4537
+(There were 36 warnings)
