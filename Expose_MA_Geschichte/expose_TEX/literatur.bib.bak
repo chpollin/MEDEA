@@ -8,6 +8,14 @@
   doi = {10.12759/HSR.SUPPL.29.2017.260-286}
 }
 
+@inproceedings{sarrafzadeh2014exploring,
+  title={Exploring knowledge graphs for exploratory search},
+  author={Sarrafzadeh, Bahareh and Vechtomova, Olga and Jokic, Vlado},
+  booktitle={Proceedings of the 5th Information Interaction in Context Symposium},
+  pages={S.135--144},
+  year={2014}
+}
+
 @article{thaller2017ungefahre,
   title={Ungef{\"a}hre Exaktheit. Theoretische Grundlagen und praktische M{\"o}glichkeiten einer Formulierung historischer Quellen als Produkte 'unscharfer' Systeme [1984]},
   author={Thaller, Manfred},
@@ -36,8 +44,6 @@
   year={2020},
   publisher={Landesarchiv Nordrhein-Westfalen}
 }
-
-ArchivAr 73. Jahrgang    Heft 03   Juli 2020
 
 @book{hardtwig1990geschichtskultur,
   title={Geschichtskultur und Wissenschaft},
@@ -136,6 +142,7 @@ ArchivAr 73. Jahrgang    Heft 03   Juli 2020
   url ={webdoc.sub.gwdg.de/edoc/p/fundus/2/sahle.pdf}
 }
 
+
 @inproceedings{horrocks2005semantic,
   title={Semantic web architecture: Stack or two towers?},
   author={Horrocks, Ian and Parsia, Bijan and Patel-Schneider, Peter and Hendler, James},
@@ -145,28 +152,6 @@ ArchivAr 73. Jahrgang    Heft 03   Juli 2020
   organization={Springer}
 }
 
-@article{brickley2014rdf,
-  title={RDF Schema 1.1},
-  author={Brickley, Dan and Guha, Ramanathan V and McBride, Brian},
-  journal={W3C recommendation},
-  volume={25},
-  pages={2004--2014},
-  year={2014},
-  publisher={W3C}
-}
-
-
-
-@article{bernstein2016new,
-  title={A new look at the semantic web},
-  author={Bernstein, Abraham and Hendler, James and Noy, Natasha},
-  journal={Communications of the ACM},
-  volume={59},
-  number={9},
-  pages={1--5},
-  year={2016},
-  publisher={Association for Computing Machinery}
-}
 
 
 @phdthesis{ScholgerMartina2018AadS,
@@ -215,7 +200,7 @@ school={Universität Graz}
   title={Wege der Wissenschaft: Einf{\"u}hrung in die Wissenschaftstheorie},
   author={Chalmers, Alan F},
   year={2007},
-  publisher={Springer-Verlag}
+  publisher={Springer}
 }
 
 @article{frommergrundbegriffe,
@@ -448,14 +433,6 @@ school={Universität Graz}
   publisher={Retrieved}
 }
 
-@article{schreiber2014rdf,
-  title={RDF 1.1 Primer},
-  author={Schreiber, Guus and Raimond, Yves},
-  journal={W3C working group note},
-  year={2014},
-  publisher={World-Wide Web Consortium}
-}
-
 @book{jarausch1985quantitative,
   title={Quantitative Methoden in der Geschichtswissenschaft},
   author={Jarausch, Konrad Hugo and Arminger, Gerhard and Thaller, Manfred},
@@ -482,15 +459,18 @@ school={Universität Graz}
 }
 
 @article{musen2015protege,
-  title={The prot{\'e}g{\'e} project: a look back and a look forward},
+  title={The Prot{\'e}g{\'e} Project: A Look Back and a Look Forward},
   author={Musen, Mark A},
   journal={AI matters},
   volume={1},
   number={4},
   pages={S.4--12},
   year={2015},
-  publisher={ACM}
+  doi = {doi.acm.org/10.1145/2757001.2757003},
+  publisher={ACM},
+  address = {New York}
 }
+
 
 @article{dentler2011comparison,
   title={Comparison of reasoners for large ontologies in the OWL 2 EL profile},
@@ -501,6 +481,14 @@ school={Universität Graz}
   pages={S.71--87},
   year={2011},
   publisher={IOS Press}
+}
+
+
+@book{evans1998fakten,
+  title={Fakten und Fiktionen: {\"u}ber die Grundlagen historischer Erkenntnis},
+  author={Evans, Richard J},
+  year={1998},
+  publisher={Campus-Verlag}
 }
 
 @book{GOETZ,
@@ -518,6 +506,15 @@ school={Universität Graz}
   pages={S.282--287},
   year={2014},
   organization={Springer}
+}
+
+@book{hoekstra2009ontology,
+  title={Ontology Representation: design patterns and ontologies that make sense},
+  author={Hoekstra, Rinke},
+  volume={197},
+  year={2009},
+  publisher={IOS Press},
+  address = {Amsterdam}
 }
 
 @inproceedings{merono2014linked,
@@ -561,6 +558,14 @@ author = {Kirn, Paul},
 publisher={Berlin, Boston}
 }
 
+@article{vajda2019toward,
+  title={Toward an ontology of commercial exchange},
+  author={Vajda, Jonathan and Merrell, Eric and Smith, Barry},
+  year={2019},
+  publisher={JOWO}
+}
+
+
 @article{sokollgrundlagen,
   title={Theorien und Methoden der Geschichtswissenschaft},
   author={Schmieder, Felicitas and Sokoll, Thomas},
@@ -575,16 +580,46 @@ publisher={Berlin, Boston}
   publisher={Graz}
 }
 
+@article{mccarthy1982rea,
+  title={The REA accounting model: A generalized framework for accounting systems in a shared data environment},
+  author={McCarthy, William E},
+  journal={Accounting review},
+  pages={S.554--578},
+  year={1982},
+  publisher={JSTOR}
+}
+
+
+@article{wettlaufer2018semanticwebEdition,
+  title={Der nächste Schritt? Semantic Web und digitale Editionen},
+  author={Wettlaufer, J{\"o}rg},
+  journal={Digital Scholarship in the Humanities},
+  volume={30},
+  number={1},
+  pages={S.187--198},
+  year={2018}, 
+  url={http://www.zfdg.de/sb002_007}
+}
+
 @article{wettlaufer2015semantic,
   title={Semantic Blumenbach: Exploration of Text--Object Relationships with Semantic Web Technology in the History of Science},
   author={Wettlaufer, J{\"o}rg and Johnson, Christopher and Scholz, Martin and Fichtner, Mark and Thotempudi, Sree Ganesh},
-  journal={Digital Scholarship in the Humanities},
-  volume={30},
-  number={suppl\_1},
-  pages={S.i187--i198},
-  year={2015},
-  publisher={Oxford University Press}
+  journal={Digitale Metamorphose: Digital Humanities und Editionswissenschaft},
+  editor ={Roland S. Kamzelak / Timo Steyer},
+  number={2},
+  year={2018},
+  publisher={Oxford University Press},
+  doi = {10.17175/sb002_007} 
 }
+
+
+@mastersthesis{pollin2017suchen,
+title = {Vom Suchen, St{\"o}bern und Finden : Information Retrieval am Beispiel der Digitalen Sammlung des Hans Gross Kriminalmuseums},
+ year={2017},
+ author={Pollin, Christopher},
+ school = {Universit{\"a}t Graz}
+}
+
 
 @inproceedings{pollin2019digital,
   title={Digital Edition Publishing Cooperative for Historical Accounts and the Bookkeeping Ontology},
@@ -594,6 +629,15 @@ publisher={Berlin, Boston}
   pages={S.7-14},
   year={2019}
 }
+
+@inproceedings{pollin2017semantically,
+  title={Semantically Enriched Historical Data. Drawing on the Example of the Digital Edition of the ''Urfehdebucher der Stadt Basel''.},
+  author={Pollin, Christopher and Vogeler, Georg},
+  booktitle={WHiSe, ISWC},
+  pages={S.27--32},
+  year={2017}
+}
+
 
 @incollection{thaller1989need,
   title={The Need of a Theory of Historical Computing},
@@ -607,13 +651,7 @@ publisher={Berlin, Boston}
   pages = {2-12}
 }
 
-@inproceedings{pollin2017semantically,
-  title={Semantically Enriched Historical Data. Drawing on the Example of the Digital Edition of the" Urfehdebucher der Stadt Basel".},
-  author={Pollin, Christopher and Vogeler, Georg},
-  booktitle={WHiSe@ ISWC},
-  pages={S.27--32},
-  year={2017}
-}
+
 
 @phdthesis{PerstlingMatthias2013MDuE,
 year = {2013},
@@ -695,7 +733,7 @@ Quellenmaterials",
   title={Qualitative versus quantitative Forschung},
   author={Wolf, Willi},
   booktitle={Bilanz qualitativer Forschung},
-  editor={König, E. and zedler, P.},
+  editor={König, E. and Zedler, P.},
   volume={Bd. I: Grundlagen qualitativer Forschung},
   pages={S.309--329},
   year={1995}, 
@@ -708,6 +746,7 @@ Quellenmaterials",
   year={2019},
   school={Humboldt-Universit{\"a}t zu Berlin}
 }
+
 
 @book{sahle2013digitale,
   title={Digitale Editionsformen: Textbegriffe und Recodierung},
@@ -757,15 +796,11 @@ Quellenmaterials",
   publisher={Helbing \& Lichtenhahn}
 }
 
-
-
-
-
 @book{linckels2011librarian,
   title={E-librarian service: user-friendly semantic search in digital libraries},
   author={Linckels, Serge and Meinel, Christoph},
   year={2011},
-  publisher={Springer Science \& Business Media}
+  publisher={Springer}
 }
 
 @incollection{weller2013InformationBand,
@@ -783,25 +818,15 @@ publisher = {Berlin and Bosten}
   title={Ontologien: Konzepte, Technologien und Anwendungen},
   author={Stuckenschmidt, Heiner},
   year={2009},
-  publisher={Springer-Verlag}
-}
-
-@incollection{reichenberger2010grundlagen,
-  title={Grundlagen semantischer Netze},
-  author={Reichenberger, Klaus},
-  booktitle={Kompendium semantische Netze},
-  pages={S.3--19},
-  year={2010},
   publisher={Springer}
 }
 
-@inproceedings{hoekstra2009ontology,
-  title={Ontology RepresentationDesign Patterns and Ontologies that Make Sense},
-  author={Hoekstra, Rinke},
-  booktitle={Proceedings of the 2009 conference on Ontology Representation: Design Patterns and Ontologies that Make Sense},
-  pages={S.1--236},
-  year={2009},
-  organization={Ios Press}
+
+@book{reichenberger2010grundlagen,
+  title={Kompendium semantische Netze. Konzepte, Technologie, Modellierung},
+  author={Reichenberger, Klaus},
+  year={2010},
+  publisher={Springer}
 }
 
 
@@ -815,13 +840,14 @@ publisher = {Berlin and Bosten}
   publisher={IOS Press}
 }
 
-
-@article{borst1997construction,
-  title={Construction of engineering ontologies for knowledge sharing and reuse},
-  author={Borst, Willem Nico},
-  year={1997}
+@phdthesis{borst1997construction,
+title = "Construction of Engineering Ontologies for Knowledge Sharing and Reuse",
+abstract = "This thesis describes an investigation into the practical use of ontologies for the development of information systems. Ontologies are formal descriptions of shared knowledge in a domain. An ontology can be used as a specification of an information system because it specifies the knowledge that is required for the tasks the information system has to perform. Sharing and reuse of ontologies across different domains and applications can therefore improve information systems design. Ontologies have been a subject for a lot of research carried out in the artificial intelligence community. Although many ontologies have been developed, they fail to demonstrate that ontologies for large and complex domains can be developed that can be used and reused across different applications. There are three reasons for this: (i) many ontologies have not been used to develop a real-life application, (ii) many ontologies have not been reused for different applications in different domains and (iii)many ontologies are merely taxonomies of domain concepts and fail to capture meta-level and tacit background knowledge. As a result, the question whether ontologies can be used and reused for different real-life applications remains open. The aim of our research has therefore been to find the answer to this question.",
+author = "Borst, Willem Nico",
+year = "1997",
+publisher = "Centre for Telematics and Information Technology",
+address = {Netherlands}
 }
-
 
 @article{gruber1993translation,
   title={A translation approach to portable ontology specifications},
@@ -831,7 +857,10 @@ publisher = {Berlin and Bosten}
   number={2},
   pages={S.199--220},
   year={1993},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  doi = "doi.org/10.1006/knac.1993.1008",
+  abstract = {To support the sharing and reuse of formally represented knowledge among AI systems, it is useful to define the common vocabulary in which shared knowledge is represented. A specification of a representational vocabulary for a shared domain of discourse—definitions of classes, relations, functions, and other objects—is called an ontology. This paper describes a mechanism for defining ontologies that are portable over representation systems. Definitions written in a standard format for predicate calculus are translated by a system called Ontolingua into specialized representations, including frame-based systems as well as relational languages. This allows researchers to share and reuse ontologies, while retaining the computational benefits of specialized implementations. We discuss how the translation approach to portability addresses several technical problems. One problem is how to accommodate the stylistic and organizational differences among representations while preserving declarative content. Another is how to translate from a very expressive language into restricted languages, remaining system-independent while preserving the computational efficiency of implemented systems. We describe how these problems are addressed by basing Ontolingua itself on an ontology of domain-independent, representational idioms}
+
 }
 
 @article{shirky2005ontology,
@@ -840,8 +869,6 @@ publisher = {Berlin and Bosten}
   journal={Categories, Links and Tags},
   year={2005}
 }
-
-
 
 @book{favre2001information,
   title={Information und Zusammenhang: Informationsflu{\ss} in Prozessen der Wahrnehmung, des Denkens und der Kommunikation},
@@ -874,7 +901,7 @@ author = {Vogeler, Georg},
 title = {Religion aus Daten? : Zur digitalen Edition von religiösen Grundlagentexten},
 booktitle = {Mächte der Zukunft},
 year = {2018},
-pages =  {S. 178--198},
+pages =  {S.178--198},
 publisher = {Universitätsbibliothek Graz},
 }
 
@@ -921,9 +948,7 @@ booktitle="Knowledge Engineering and Knowledge Management",
 year="2014",
 publisher="Springer International Publishing",
 address="Cham",
-pages="282--287",
-abstract="Datasets that represent historical sources are relative newcomers in the Linked Open Data (LOD) cloud. Following the standard LOD practices for publishing historical sources raises several questions: how can we distinguish between RDF graphs of primary and secondary sources? Should we treat archived and online RDF graphs differently in historical research? How do we deal with change and immutability of a triplified History? To answer these fundamental questions, we model historical primary and secondary sources using the OntoClean metaproperties and the theories of perdurance and endurance. We then use this model to give a definition of Linked Historical Data. We advocate a set of publishing practices for Linked Historical Data that preserve the ontological properties of historical sources.",
-isbn="978-3-319-13704-9"
+pages="S.282--287"
 }
 
 @book{reiche2014verfahren,
@@ -945,13 +970,7 @@ isbn="978-3-319-13704-9"
   pages={S.169-190},
  }
  
- @book{jannidis2017digital,
-  title={Digital Humanities: Eine Einf{\"u}hrung},
-  author={Jannidis, Fotis and Kohle, Hubertus and Rehbein, Malte},
-  year={2017},
-  publisher={Stuttgart}
 
-}
 
 @article{cummings2013text,
   title={The text encoding initiative and the study of literature},
@@ -1046,11 +1065,13 @@ Abschließend präsentieren Fritz Kliche und Ulrich Heid ein computerlinguistisc
 }
 
 @article{andorfer2015forschungsdaten,
-  title={Forschungsdaten in den (digitalen) Geisteswissenschaften},
+  title={Forschungsdaten in den (digitalen) Geisteswissenschaften: Versuch einer Konkretisierung},
   author={Andorfer, Peter},
-  journal={Versuch einer Konkretisierung.(DARIAH-DE Working Papers 14)},
+  journal={DARIAH-DE},
+  volume={Working Papers 14},
   year={2015}, 
-  url="webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2015-14.pdf"
+  url={webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2015-14.pdf}, 
+   publisher={DARIAH-DE}
 }
 
 
@@ -1097,7 +1118,7 @@ booktitle="The Semantic Web -- ISWC 2018",
 year="2018",
 publisher="Springer",
 address="Cham",
-pages="325--340",
+pages="S.325--340",
 abstract="ResearchSpace is an open source platform designed at the British Museum to help establish a community of researchers, where their underlying activities are framed by data sharing, active engagement in formal arguments, and semantic publishing. Using Semantic Web languages and technologies, the innovations of the system are shaped by a social conceptualisation of the graph-based representation of information. This is employed by integrated semantic components aimed at subject experts that offer mechanisms to create, annotate, assert, argue, search, cite, and justify data-driven research. This paper showcases a new onto-epistemological approach that supports researchers to contribute to a growing and sustainable corpus of knowledge that has history, not just provenance, built-in. It describes our considerations in designing for interdisciplinary collaboration, usability and trust in the digital space, highlighted by use cases in archaeology, art history, and history of science."
 }
 
@@ -1113,120 +1134,20 @@ abstract="ResearchSpace is an open source platform designed at the British Museu
   publisher={Morgan \& Claypool Publishers}
 }
 
-@article{musen2015protege,
- author = {Musen, Mark A.},
- title = {The Prot\'{E}G\'{E} Project: A Look Back and a Look Forward},
- journal = {AI Matters},
- issue_date = {June 2015},
- volume = {1},
- number = {4},
- year = {2015},
- pages = {4--12},
- url = {doi.acm.org/10.1145/2757001.2757003},
- publisher = {ACM},
- address = {New York}
-} 
-
-
-@book{linckels2011librarian,
-  title={E-librarian service: user-friendly semantic search in digital libraries},
-  author={Linckels, Serge and Meinel, Christoph},
-  year={2011},
-  publisher={Springer}
-}
-
-
-@book{stuckenschmidt2009ontologien,
-  title={Ontologien: Konzepte, Technologien und Anwendungen},
-  author={Stuckenschmidt, Heiner},
-  year={2009},
-  publisher={Springer}
-}
-
-
-@book{reichenberger2010grundlagen,
-  title={Kompendium semantische Netze: Konzepte, Technologie, Modellierung},
-  author={Reichenberger, Klaus},
-  year={2010},
-  publisher={Springer}
-}
-
-@inproceedings{hoekstra2009ontology,
- author = {Hoekstra, Rinke},
- title = {Ontology RepresentationDesign Patterns and Ontologies That Make Sense},
- booktitle = {Proceedings of the 2009 Conference on Ontology Representation: Design Patterns and Ontologies That Make Sense},
- year = {2009},
- pages = {1--236},
- url = {dl.acm.org/citation.cfm?id=1659447.1659449},
- publisher = {IOS Press},
- address = {Amsterdam}
-} 
-
-
-
-@phdthesis{borst1997construction,
-title = "Construction of Engineering Ontologies for Knowledge Sharing and Reuse",
-abstract = "This thesis describes an investigation into the practical use of ontologies for the development of information systems. Ontologies are formal descriptions of shared knowledge in a domain. An ontology can be used as a specification of an information system because it specifies the knowledge that is required for the tasks the information system has to perform. Sharing and reuse of ontologies across different domains and applications can therefore improve information systems design. Ontologies have been a subject for a lot of research carried out in the artificial intelligence community. Although many ontologies have been developed, they fail to demonstrate that ontologies for large and complex domains can be developed that can be used and reused across different applications. There are three reasons for this: (i) many ontologies have not been used to develop a real-life application, (ii) many ontologies have not been reused for different applications in different domains and (iii)many ontologies are merely taxonomies of domain concepts and fail to capture meta-level and tacit background knowledge. As a result, the question whether ontologies can be used and reused for different real-life applications remains open. The aim of our research has therefore been to find the answer to this question.",
-author = "Borst, {Willem Nico} and W.N. Borst",
-year = "1997",
-publisher = "Centre for Telematics and Information Technology",
-address = {Netherlands}
-}
-
-
-@article{gruber1993translation,
-title = "A translation approach to portable ontology specifications",
-journal = "Knowledge Acquisition",
-volume = "5",
-number = "2",
-pages = "199 - 220",
-year = "1993",
-doi = "doi.org/10.1006/knac.1993.1008",
-url = "www.sciencedirect.com/science/article/pii/S1042814383710083",
-author = "Thomas R. Gruber",
-abstract = {To support the sharing and reuse of formally represented knowledge among AI systems, it is useful to define the common vocabulary in which shared knowledge is represented. A specification of a representational vocabulary for a shared domain of discourse—definitions of classes, relations, functions, and other objects—is called an ontology. This paper describes a mechanism for defining ontologies that are portable over representation systems. Definitions written in a standard format for predicate calculus are translated by a system called Ontolingua into specialized representations, including frame-based systems as well as relational languages. This allows researchers to share and reuse ontologies, while retaining the computational benefits of specialized implementations. We discuss how the translation approach to portability addresses several technical problems. One problem is how to accommodate the stylistic and organizational differences among representations while preserving declarative content. Another is how to translate from a very expressive language into restricted languages, remaining system-independent while preserving the computational efficiency of implemented systems. We describe how these problems are addressed by basing Ontolingua itself on an ontology of domain-independent, representational idioms}
-}
-
-
-@book{favre2001information,
-  title={Information und Zusammenhang: Informationsflu{\ss} in Prozessen der Wahrnehmung, des Denkens und der Kommunikation},
-  author={Favre-Bulle, Bernard},
-  year={2001},
-  publisher={Springer}
-}
-
-
-@article{sure2003methodology,
-  title={Methodology, tools \& case studies for ontology based knowledge management},
-  author={Sure, York and Studer, Rudi},
-  year={2003},
-  publisher={Citeseer}
-}
-
-@article{berners2001semantic,
-  title={The semantic web},
-  author={Berners-Lee, Tim and Hendler, James and Lassila, Ora},
-  journal={Scientific American},
-  volume={284},
-  number={5},
-  pages={S.34--43},
-  year={2001},
-  publisher={JSTOR}
-}
 
 @article{pellegrini2006semantic,
   title={Semantic Web},
   author={Pellegrini, Tassilo and Blumauer, Andreas},
-  journal={Wege zur vernetzten Wissensgesellschaft. Berlin [ua] Springer},
+  journal={Wege zur vernetzten Wissensgesellschaft},
   year={2006},
-  publisher={Springer}
+  publisher={Berlin}
 }
 
 @book{hitzler2007semantic,
   title={Semantic Web: Grundlagen},
   author={Hitzler, Pascal and Kr{\"o}tzsch, Markus and Rudolph, Sebastian and Sure, York},
   year={2007},
-  publisher={Springer-Verlag}
+  publisher={Springer}
 }
 
 @InProceedings{rietveld2015linked,
@@ -1246,7 +1167,7 @@ booktitle="The Semantic Web. Latest Advances and New Domains",
 year="2015",
 publisher="Springer International Publishing",
 address="Cham",
-pages="471--487",
+pages="S.471--487",
 abstract="Ad-hoc querying is crucial to access information from Linked Data, yet publishing queryable RDF datasets on the Web is not a trivial exercise. The most compelling argument to support this claim is that the Web contains hundreds of thousands of data documents, while only 260 queryable SPARQL endpoints are provided. Even worse, the SPARQL endpoints we do have are often unstable, may not comply with the standards, and may differ in supported features. In other words, hosting data online is easy, but publishing Linked Data via a queryable API such as SPARQL appears to be too difficult. As a consequence, in practice, there is no single uniform way to query the LOD Cloud today. In this paper, we therefore combine a large-scale Linked Data publication project (LOD Laundromat) with a low-cost server-side interface (Triple Pattern Fragments), in order to bridge the gap between the Web of downloadable data documents and the Web of live queryable data. The result is a repeatable, low-cost, open-source data publication process. To demonstrate its applicability, we made over 650,000 data documents available as data APIs, consisting of 30 billion  triples."
 }
 
@@ -1259,10 +1180,10 @@ abstract="Ad-hoc querying is crucial to access information from Linked Data, yet
 }
 
 @book{jannidis2017digital,
-  title={Digital humanities: eine Einf{\"u}hrung},
+  title={Digital Humanities: Eine Einf{\"u}hrung},
   author={Jannidis, Fotis and Kohle, Hubertus and Rehbein, Malte},
   year={2017},
-  publisher={Springer-Verlag}
+  publisher={Springer}
 }
 
 
@@ -1270,7 +1191,7 @@ abstract="Ad-hoc querying is crucial to access information from Linked Data, yet
   title={The Need for Standards: Data Modelling and Exchange [1991]},
   author={Thaller, Manfred},
   journal={Historische Sozialforschung. Supplement},
-  pages={S.203--220},
+  pages={S.203-220},
   year={2017},
   publisher={JSTOR}
 }
@@ -1298,13 +1219,6 @@ abstract="Ad-hoc querying is crucial to access information from Linked Data, yet
   year={2003}
 }
 
-@techreport{berners2004uniform,
-  title={Uniform resource identifier (URI): Generic syntax},
-  author={Berners-Lee, Tim and Fielding, Roy and Masinter, Larry},
-  year={2004},
-  URL={www.rfc-editor.org/info/rfc3986}
-}
-
 @article{tomasekmedea,
   title={Modeling semantically Enhanced Digital Edition of Accounts as Historical Method},
   year={2016},
@@ -1312,23 +1226,16 @@ abstract="Ad-hoc querying is crucial to access information from Linked Data, yet
   publisher={Digital Humanities Conference 2016 Kraków}
 }
 
-@book{powers2003practical,
-  title={Practical RDF: solving problems with the resource description framework},
-  author={Powers, Shelley},
-  year={2003},
-  publisher={" O'Reilly Media, Inc."}
-}
-
 
 @article{berners2001semantic,
   title={The semantic web},
-  author={Berners-Lee, Tim and Hendler, James and Lassila, Ora and others},
+  author={Berners-Lee, Tim and Hendler, James and Lassila, Ora},
   journal={Scientific american},
   volume={284},
   number={5},
-  pages={S.28--37},
+  pages={S.34-43},
   year={2001},
-  publisher={New York, NY, USA:}
+  publisher={New York}
 }
 
 
@@ -1345,6 +1252,7 @@ abstract="Ad-hoc querying is crucial to access information from Linked Data, yet
   abstract={Semantic Web developers have adopted OWL to represent knowledge. OWL, or a language with similar theoretical foundations, will lead the way in the semantic exploration of the Web. Currently, Web-based standards are the preferred way to represent knowledge. Furthermore, respondents mainly use ontologies to allow both humans and computers to understand knowledge and domain models. Web 3.0 can bring a new breed of spectacular applications compared to Web 2.0. with the same magnitude that separates Web 2.0 from Web 1.0.}
 }
 
+
 @article{bernstein2016new,
  author = {Bernstein, Abraham and Hendler, James and Noy, Natalya},
  title = {A New Look at the Semantic Web},
@@ -1352,8 +1260,7 @@ abstract="Ad-hoc querying is crucial to access information from Linked Data, yet
  volume = {59},
  number = {9},
  year = {2016},
- pages = {35--37},
- url = {doi.acm.org/10.1145/2890489},
+ pages = {S.35-37},
  doi = {10.1145/2890489},
  publisher = {ACM},
  address = {New York},
@@ -1361,7 +1268,7 @@ abstract="Ad-hoc querying is crucial to access information from Linked Data, yet
 } 
 
 
-@BOOK{baezayates2011retrieval,
+@book{baezayates2011retrieval,
 author = {Baeza-Yates, Ricardo and Ribeiro, Berthier de Araújo Neto},
 title = {Modern Information Retrieval},
 edition = {2},
@@ -1374,7 +1281,7 @@ publisher = {Pearson Education}
   title={Die “Äbtissinnenrechnungen” des Klosters St. Klara auf dem Werth. Alltag und Festtag einer geistlichen Frauengemeinschaft Straßburgs am Ausgang des Mittelalters},
   author={Klapp, Sabine},
   journal={Zeitschrift für die Geschichte des Oberrheins Bd. 159},
-  pages={211--248},
+  pages={211-248},
   year={2011}
 }
 
@@ -1384,7 +1291,7 @@ publisher = {Pearson Education}
   author={Bruch, Julia},
   journal={Wirtschafts- und Rechnungsbücher des Mittelalters und  der Frühen Neuzeit},
   editor={Gleba, Gudrun and Petersen, Niels},
-  pages={13--44},
+  pages={13-44},
   year={2015}
 }
 
@@ -1399,20 +1306,7 @@ publisher = {Pearson Education}
   year={2017}
 }
 
-@article{bauer2011linked,
-  title={Linked open data: The essentials},
-  author={Bauer, Florian and Kaltenb{\"o}ck, Martin},
-  journal={Edition mono/monochrom},
-  address={Vienna},
-  year={2011}
-}
 
-@thesis{pollin2017suchen,
-title = {Vom Suchen, Stöbern und Finden : Information Retrieval am Beispiel der Digitalen Sammlung des Hans Gross Kriminalmuseums},
- year={2017},
- author={Pollin, Christopher},
- publisher = {Graz}
-}
 
 @article{kindling2013forschungsdatenmanagement,
   title={Forschungsdatenmanagement an Hochschulen: Das Beispiel der Humboldt-Universit{\"a}t zu Berlin},
@@ -1423,13 +1317,6 @@ title = {Vom Suchen, Stöbern und Finden : Information Retrieval am Beispiel der
   year={2013}
 }
 
-
-@book{andorfer2015forschungsdaten,
-  title={Forschungsdaten in den (digitalen) Geisteswissenschaften: Versuch einer Konkretisierung},
-  author={Andorfer, Peter},
-  year={2015},
-  publisher={DARIAH-DE}
-}
 
 
 @book{wersig1971information,
@@ -1447,7 +1334,7 @@ title = {Vom Suchen, Stöbern und Finden : Information Retrieval am Beispiel der
   journal={Mitteilungen der Vereinigung {\"O}sterreichischer Bibliothekarinnen und Bibliothekare},
   volume={71},
   number={1},
-  pages={S.207--216},
+  pages={S.207-216},
   year={2018}
 }
 
@@ -1458,16 +1345,6 @@ title = {Vom Suchen, Stöbern und Finden : Information Retrieval am Beispiel der
   year = "2012"
 }
 
-@article{wettlaufer2015semantic,
-  title={Semantic Blumenbach: Exploration of Text--Object Relationships with Semantic Web Technology in the History of Science},
-  author={Wettlaufer, J{\"o}rg and Johnson, Christopher and Scholz, Martin and Fichtner, Mark and Thotempudi, Sree Ganesh},
-  journal={Digital Scholarship in the Humanities},
-  volume={30},
-  number={1},
-  pages={S.187--198},
-  year={2015},
-  publisher={Oxford University Press}
-}
 
 @incollection{thaller1989need,
   title={The Need of a Theory of Historical Computing},
@@ -1504,7 +1381,7 @@ title = {Vom Suchen, Stöbern und Finden : Information Retrieval am Beispiel der
   title={Personalizing web search with folksonomy-based user and document profiles},
   author={Vallet, David and Cantador, Iv{\'a}n and Jose, Joemon M},
   booktitle={European conference on information retrieval},
-  pages={S.420--431},
+  pages={S.420-431},
   year={2010},
   organization={Springer}
 }
@@ -1533,7 +1410,7 @@ and Your Bottom Line},
   title={Grundlagen der Datenmodellierung},
   author={Jannidis, Fotis},
   booktitle={Digital Humanities},
-  pages={99--108},
+  pages={99-108},
   year={2017},
   publisher={Springer}
 }
@@ -1547,14 +1424,6 @@ booktitle ={Konzeptionelle Überlegungen zur Edition von Rechnungen und Amtsbüc
 editor={Jürgen Sarnowsky},
 address={Göttingen},
 pages={S.13-41}
-}
-
-@book{sahle2013digitale,
-  title={Digitale Editionsformen: Textbegriffe und Recodierung},
-  author={Sahle, Patrick},
-  volume={3},
-  year={2013},
-  publisher={Books on Demand}
 }
 
 @book{buttcher2016information,
@@ -1588,7 +1457,7 @@ pages={S.13-41}
   title={Digital Humanities als Wissenschaft},
   author={Thaller, Manfred},
   booktitle={Digital Humanities},
-  pages={S.13--18},
+  pages={S.13-18},
   year={2017},
   publisher={Springer}
 }
@@ -1606,7 +1475,7 @@ pages={S.13-41}
   journal={Western Political Quarterly},
   volume={8},
   number={3},
-  pages={S. 327--340},
+  pages={S. 327-340},
   year={1955},
   publisher={Sage Publications Sage CA: Thousand Oaks, CA}
 }
@@ -1622,7 +1491,16 @@ pages={S.13-41}
   author={Bizer, Christian and Heath, Tom and Berners-Lee, Tim},
   booktitle={Semantic services, interoperability and web applications: emerging concepts},
   editors={Heath, T. and Hepp, M. and Bizer},
-  pages={S.205--227},
+  pages={S.205-227},
+  year={2011}
+}
+
+
+@book{bauer2011linked,
+  title={Linked open data: The essentials. A Quick Start Guide for Decision Makers},
+  author={Bauer, Florian and Kaltenb{\"o}ck, Martin},
+  publisher={Edition mono/monochrom},
+  address={Wien},
   year={2011}
 }
 

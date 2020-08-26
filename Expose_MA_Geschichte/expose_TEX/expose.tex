@@ -87,7 +87,10 @@
 \begin{document}
 \pagenumbering{gobble}
 \AdaptNoteOpt\footcite\multfootcite
-\maketitle
+
+%\maketitle
+\includepdf[pages=-,pagecommand={}]{Deckplatt.pdf}
+\includepdf[pages=-,pagecommand={}]{Erklarung.pdf}
 \tableofcontents
 
 \newpage
@@ -107,7 +110,9 @@ Ziel dieser Arbeit ist eine theoretische und pragmatische Auseinandersetzung mit
 Diese Arbeit geht nun folgern Forschungsfrage nach:
 \\
 \\
+\textcolor{red}{
 \textbf{Inwieweit können Technologien des \textit{Web of Data} genutzt werden, um geschichtswissenschaftliche Fachdomänen, in diesem Fall die Edition und Analyse von historischen Rechnungsbücher, so zu beschreiben, dass die Anwendung formaler Methoden den geschichtswissenschaftlichen Kriterien gerecht wird und die Zurverfügungstellung als hochstrukturierte Forschungsdaten, sowie Formen der Analyse (z.B. Informationsvisualisierung), die weitere Interpretation von Forschungsfragen verbessert?} 
+}
 
 \subsection{Aufbau der Arbeit und Literaturübersicht}
 Am Anfang der Arbeit steht neben einer allgemeinen theoretischen Diskussion zu Theorien und Methoden in den Geschichtswissenschaften\footcite{jordan2018theorien}\footcite{hardtwig1990geschichtskultur} eine Auseinandersetzung mit der Anwendung formaler Methoden in diesem Fachbereich\footcite{thaller2017ungefahre} unter Einbeziehung von Inhalten aus dem Bereich der historischen Fachinformatik\footcite{thaller2017historical}, der digitalen Geisteswissenschaften\footcite{jannidis2017digital} und Digital History\footcite{graham2015exploring}. Ziel ist es, einen Überblick darüber zu verschaffen, welche Ziele die Geschichtswissenschaft verfolgt. Dabei wird besonders Rücksicht auf die ''digitale'' Komponente\footcite{fohr2017historische}\footcite{wintergrun2019netzwerkanalysen} in diesem Zusammenhang genommen, um zu zeigen, dass es keine Gegensätze zwischen ''analoger'' und ''digitaler'' Geschichtswissenschaft gibt, sondern Synergien.
@@ -119,7 +124,7 @@ Das nächste Kapitel versteht sich als Quellenstudie und behandelt den Quellenty
 Eine Möglichkeit Modelle\footcite[][]{stachowiak1973allgemeine}\footcite{mccarty2004modeling} zu implementieren, ist mit den Standards des \textit{Web of Data} gegeben. Im vierten Kapitel wird auf den Technologie Stack des \textit{Web of Data} eingegangen und so die Grundlage zur konzeptuellen und daraus abgeleiteten formalen Beschreibung von Information im \textit{World Wide Web} erörtert. Dazu ist eine konzeptionelle\footcite{berners2001semantic}, technische\footcite{bernstein2016new} und kritische\footcite{swartz2013aaron} Diskussion dieses Themenbereiches notwendig. Ein zentraler Aspekt dabei sind die Themen Ontologien\footcite{stuckenschmidt2009ontologien} und \textit{Linked Open Data}\footcite{bauer2011linked}, die dazu dienen können Modelle und Forschungsdaten\footcite{neher2011semantische} über das Web auszutauschen.
 \\
 \\
-Der gemeinsame Nenner dieser Projekte umfasst neben der zeitlichen und regionalen Einordnung der Quellen, auch den methodische Zugang der Erschließung. Diese erfolgt im Sinne einer digitalen Edition\footcite{sahle2013digitale}. Der dabei verwendete Standard ist die \textit{Text Encoding Initiative (TEI)}\footcite{cummings2013text}. Dieses Kapitel widmet sich der Fragestellung, wie digitale Edition von historischen Rechnungsbüchern umgesetzt werden können\footcite{tomasek2013encoding}\footcite{vogeler2016content} Die digitale Edition in dieser Arbeit versteht sich als quellen-orientierte und inhaltsbezogene Edition, in der nicht jedes textuelle Phänomen ediert werden muss, sondern die semantische Struktur der Quellen im Vordergrund stehen.\footcite{vogeler2019assertive} Zur formalen Beschreibung semantischer Strukturen kann das \textit{Web of Data} herangezogen werden. Dies soll am Beispiel der \textit{Bookkeeping Ontologie}\footcite{pollin2019digital}, einem konzeptuellen Modell zur Beschreibung von Transaktionsprozessen in historischen Rechnungsunterlagen, diskutiert und reflektiert werden. Auf diesem Modell und den Forschungsdaten werden weiter formale Methoden zur Analyse von Rechnungsbüchern im Sinne einer Informationsvisualisierung\footcite{preim2010interaktive} beschrieben und reflektiert.
+Der gemeinsame Nenner dieser Projekte umfasst neben der zeitlichen und regionalen Einordnung der Quellen, auch den methodische Zugang der Erschließung. Diese erfolgt im Sinne einer digitalen Edition\footcite{sahle2013digitale}. Der dabei verwendete Standard ist die \textit{Text Encoding Initiative (TEI)}\footcite{cummings2013text}. Dieses Kapitel widmet sich der Fragestellung, wie digitale Edition von historischen Rechnungsbüchern umgesetzt werden können\footcite{tomasek2013encoding}\footcite{vogeler2016content} Die digitale Edition in dieser Arbeit versteht sich als quellen-orientierte und inhaltsbezogene Edition, in der nicht jedes textuelle Phänomen ediert werden muss, sondern die semantische Struktur der Quellen im Vordergrund stehen.\footcite{vogeler2019assertive} Zur formalen Beschreibung semantischer Strukturen kann das \textit{Web of Data} herangezogen werden. Dies soll am Beispiel der \textit{Bookkeeping Ontology}\footcite{pollin2019digital}, einem konzeptuellen Modell zur Beschreibung von Transaktionsprozessen in historischen Rechnungsunterlagen, diskutiert und reflektiert werden. Auf diesem Modell und den Forschungsdaten werden weiter formale Methoden zur Analyse von Rechnungsbüchern im Sinne einer Informationsvisualisierung\footcite{preim2010interaktive} beschrieben und reflektiert.
 
 %%%%%%%%%%%%%%%
 \subsection{Related Work}
@@ -188,7 +193,7 @@ Gegenstandsbereich der \textbf{Geschichte} ist das Handeln der Menschen in der V
 KIRN führt in seinem Einführungswerk in die Geschichtswissenschaft mehrere Definitionen des Begriffes Geschichte an. Wo HELLPACH über ''\textit{die bewußte Gestaltung menschlichen Gemeinschaftslebens aus schöpferischem Willen}'' spricht und die menschliche Handlung in den Vordergrund stellt, ist es für HUIZINGA, aus dem Verständnis von Geschichtswissenschaft als Kulturgeschichte, ''\textit{die geistige Form, in der sich eine Kultur über ihre Vergangenheit Rechenschaft gibt}''. Zentral in dieser Menge an Definitionen und Zugängen zur Geschichte ist, dass es sich um die wissenschaftliche Darstellung des Vergangenen handelt.\footcite[][S.7-12]{KirnPaul2015EidG} Zweiter zentraler Aspekt ist, dass der Mensch als gesellschaftliches und kulturelles Wesen etwas über sich selbst, seine vergangenen Gesellschaft- und Kulturformen wissen möchte. Man könnte es als einen Akt der kollektiven Selbstreflexion verstehen. Jedenfalls ist der Begriff mehrdeutig. Geschichte kann als Vergangenheit, Geschichtsforschung oder Geschichtsschreibung verstanden werden. Geschichtsschreibung als Produkt der Geschichtsforschung liegt üblicherweise als Narrativ über vergangene Ereignisse vor. Sie ist jedoch nicht auf die Textform beschränkt, sondern kann auch in anderer Form vorliegen. Dies umfasst mündliche, wie bildliche Überlieferungen oder sämtliche Schöpfungen, die von Menschen erbracht wurden, um in einen Kommunikationsprozess einzutreten.\footcite[][S.5-7]{frank2018visualisierungswerkzeuge}
 \\
 \\
-Bei DEMANDT finden sich weitere Ausführungen zu den grundlegenden Überlegungen des Begriffes \textit{Geschichte}. Neben dem Mythos, der in vorschriftlichen Zeiten und in erzählerischer Form Vergangenes von einer Generation zu anderen weitergibt, war die Chronistik eine früher Form der verschriftlichten Erinnerung. Chroniken berichten über Ereignisse, ohne die Texte literarisch aufzuarbeiten. Die \textbf{Historie}, die \textit{Erkundung der Vergangenheit}, geht noch einen Schritt weiter und versucht Ereigniszusammenhänge einer ''wahren'' Vergangenheit darzustellen. \textcolor{red}{Sie etabliert sich als autonome Disziplin, die mehr den Wandel der Geschichte und das Geschehene an sich versucht zu erklären, denn moralisch und belehrende auf die Rezipienten zu wirken, wie es die Geschichtsüberlieferung davor getan hat.\footcite[][S.24]{hardtwig1990geschichtskultur}}
+Bei DEMANDT finden sich weitere Ausführungen zu den grundlegenden Überlegungen des Begriffes \textit{Geschichte}. Neben dem Mythos, der in vorschriftlichen Zeiten und in erzählerischer Form Vergangenes von einer Generation zu anderen weitergibt, war die Chronistik eine früher Form der verschriftlichten Erinnerung. Chroniken berichten über Ereignisse, ohne die Texte literarisch aufzuarbeiten. Die \textbf{Historie}, die \textit{Erkundung der Vergangenheit}, geht noch einen Schritt weiter und versucht Ereigniszusammenhänge einer ''wahren'' Vergangenheit darzustellen. \textcolor{red}{Sie etabliert sich als autonome Disziplin, die mehr den Wandel der Geschichte und das Geschehene an sich versucht zu erklären, denn moralisch und belehrend auf Rezipierende zu wirken, wie es die Geschichtsüberlieferung davor getan hat.\footcite[][S.24]{hardtwig1990geschichtskultur}}
 \\
 Im 16. Jahrhundert entwickelt sich der Begriff Geschichte, der anfangs nur für den Gegenstandsbereich der Historie verwendet wurde.\footcite[][S.57-58]{schulz2010neuere} \textcolor{red}{Mit diesem Verständnis geht auch einher, dass das was als Gegenwart verstanden wird, sich von der Vergangenheit unterscheidet, aber von ihr bedingt ist. So fasst ein Zitat von SCHILLER dieses neue Paradigma der Geschichtswissenschaft zusammen, welches bis heute gilt: “\textit{Das Verhältnis eines historischen Datums zu der heutigen Weltverfassung ist es also, worauf gesehen werden muss}”. Geschichtswissenschaft, ist erst dann vollkommen, wenn sie mit der Gegenwart in Beziehung gesetzt wird und umgekehrt.\footcite[][S.25]{hardtwig1990geschichtskultur}
 }
@@ -345,11 +350,12 @@ Auch KOBLER führt an, dass der Modellbegriff in fast jeder wissenschaftlichen D
 \\
 In den unterschiedliche Disziplinen haben Modelle eine abweichende Funktion. In den Ingenieurwissenschaften arbeitet man mit formalen Modellen die einen Sachverhalt, an den man sich so nah wie möglich annähern will, beschreiben und erklären. In den Wirtschaftswissenschaften haben Modelle oft beschreibende Funktion. In der Wissenschaftstheorie werden Theorien in Form von mathematischen Modellen dargestellt. In der Wirtschaftsinformatik, wiederum werden sie für vielfältige andere Aufgaben eingesetzt, sodass man zusammenfassend eine große Menge an Modelltypen festmachen kann.\footcite[][S.41-44]{kobler2010qualitat}
 \\
+\\
 Wie für Methoden lassen such auch qualitative von quantitativen Modellen unterscheiden. \textbf{Qualitative Modelle} beschreiben die wesentlichen Bestandteile und Beziehungen eines Systems. Zentral ist die Diskussion von Mustern, Wechselwirkungen und Strukturen. Es beschreibt beispielsweise welche Sequenz von Ursachen ein Phänomen bedingen, welche Objekte ihm zugeordnet werden können, oder welche kausalen Zusammenhänge es gibt. \textbf{Quantitative Modelle} geben das Regelwerk vor, in welchem Verhältnis sich Zahlen oder empirische Messwerte zueinander verhalten: wie lange dauert ein Prozess an, wieviele Objekte gibt es oder wie hoch ist die Wahrscheinlichkeit von X in Abhängigkeit von Y. Dabei bedarf es einer Konkretisierung qualitativer Begriffe auf der empirischen Ebene. Allerdings bedeutet die schlichte Verwendung von Zahlen noch nicht, dass es sich um ein quantitatives Modell handelt.\footcite[][S.309–329]{wolf1995qualitative}
 \\ 
 Eine weitere Unterscheidung von Modellen erfolgt durch statische und dynamische Modelle. In einem \textbf{statischen Modell} werden Komponenten und deren Beziehungen zwischen den Komponenten zu einem festen Zeitpunkt beschrieben. In einem \textbf{dynamischen Modell} werden prozesshafte Strukturen definiert, sprich Zustände und Zustandsübergang, wie sie etwa durch ein Zustandsübergangsdiagramm beschrieben werden können.
 \\
-Eine weitere Unterscheidung ist in der Einteilung nicht-formale (informelle), semiformale und formale Modelle gegeben. Existiert keine eindeutige Beschreibungssyntax für ein Modell, es also mittels natürlicher Sprache beschrieben wird, so spricht man von einem \textbf{informellen Modell}. Ein vorzufinden ist, kann als ein solches Modell betrachtet werden. Oft ist dies aber begründet durch die Verwendung natürlicher Sprache nicht immer eindeutig und Eindeutigkeit ist für eine formale Verarbeitung unerlässlich. Betrachtet man beispielsweise den Satz ''\textit{Ich sah den Mann auf dem Berg mit dem Fernrohr.}'', so lassen sich fünf Bedeutungen ableiten, je nachdem welche Person, wen, wo mit dem Fernrohr betrachtet. Abbildung \ref{fig:fernrohr} veranschaulicht dies.
+Weiters gibt es eine Einteilung in nicht-formale (informelle), semiformale und formale Modelle. Existiert keine eindeutige Beschreibungssyntax für ein Modell, es also mittels natürlicher Sprache beschrieben wird, so spricht man von einem \textbf{informellen Modell}. Ein vorzufinden ist, kann als ein solches Modell betrachtet werden. Oft ist dies aber begründet durch die Verwendung natürlicher Sprache nicht immer eindeutig und Eindeutigkeit ist für eine formale Verarbeitung unerlässlich. Betrachtet man beispielsweise den Satz ''\textit{Ich sah den Mann auf dem Berg mit dem Fernrohr.}'', so lassen sich fünf Bedeutungen ableiten, je nachdem welche Person, wen, wo mit dem Fernrohr betrachtet. Abbildung \ref{fig:fernrohr} veranschaulicht dies.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{img/fernrohr.png}  
@@ -358,7 +364,7 @@ Eine weitere Unterscheidung ist in der Einteilung nicht-formale (informelle), se
 Ein \textbf{semiformales Modell} ist teilweise exakt. Es verfügt über eine definierte Syntax, spezifiziert aber nicht die ganze Domäne und verfügt über keine semantischen Konstruktionsregeln. Umsetzen lassen sich solche Modelle beispielsweise mit dem Entity-Relationship-Modell (ER-Diagramm), das anschließend ausführlicher beschrieben wird.
 \\
 \\
-\textbf{Formale Modelle} verfügen über eine konkrete Syntax und Semantik. Das erlaubt die formale Definition von Modellen beispielsweise auf Basis deskriptiver Logiken.\footnote{Es gibt unterschiedliche Logiken, die sich in ihrer Ausdrucksmächtigkeit und Entscheidbarkeit unterscheiden.} Für formale Modelle lassen sich Algorithmen formulieren, die es erlauben Daten, die durch ein solches Modell beschrieben sind, automatisiert zu validieren. So beschriebene Modelle lassen sich in Datenmodelle überführen.
+\textbf{Formale Modelle} verfügen über eine konkrete Syntax und Semantik. Das erlaubt die formale Definition von Modellen beispielsweise auf Basis deskriptiver Logiken.\footnote{Es gibt unterschiedliche Logiken, die sich in ihrer Ausdrucksmächtigkeit und Entscheidbarkeit unterscheiden.} Für formale Modelle lassen sich Algorithmen formulieren, die es erlauben Daten, die durch ein solches Modell beschrieben sind, automatisiert zu validieren. So beschriebene Modelle lassen sich in Datenmodelle überführen. Oder anders formuliert: formale Modelle können eindeutig mathematisch beschrieben werden.
 \\
 \\
 Im Gegensatz zum Computer kann der Mensch auch mit informellen Modellen arbeiten. Man kann stark strukturierte und formalisierte Modelle, die algorithmisch genutzt werden können, offenen Modellen gegenüberstellen, in die sich ein Mensch hineindenken kann.
@@ -381,7 +387,7 @@ Zusammenfassend lässt sich sagen, dass der Modellbegriff, je nach Disziplin unt
 \textcolor{red}{
 Für McCARTY stellt die Modellerstellung, sprich das Modellieren, einen heuristischen Prozess dar, der die Manipulation und Konstruktion von Modellen umfasst. So, ganz im Sinne von STACHOWIAK, betrachtet er ein Modell als Repräsentation von etwas, dessen Zwecke der Entwurf zur Implementierung von etwas Neuen, oder der Analys einer Domäne dienlich ist.}\footcite[][S.255]{mccarty2004modeling}
 \\
-Drei Besonderheiten hebt JANNIDIS in der Modellierung von Daten in den Geisteswissenschaften hervor: die Historizität und Kontextabhängigkeit von Objekten, die für die geisteswissenschaftliche Analyse essentiell ist, die Unschärfe von Information und ''\textit{das systembedingte Primat des Individuellen vor dem Allgemeinen}''. Historizität meint, dass nicht nur jedes Objekt eine Geschichte aufweist, sondern auch jede Untersuchung eines Objektes. Als unscharf versteht man, dass es keine definitiven und fixen Werte gibt, die aber für eine maschinelle Verarbeitung notwendig sind. Und Letzteres meint, dass in den Geisteswissenschaften oft der Blick auf ein einzelnes Objekt, ein Roman, tendenziell interessanter ist als auf eine Vielzahl.\footcite[][S.106-108]{jannidis2017grundlagen}
+Drei Besonderheiten hebt JANNIDIS in der Modellierung von Daten in den Geisteswissenschaften hervor: die Historizität und Kontextabhängigkeit von Objekten, die für die geisteswissenschaftliche Analyse essentiell sind, die Unschärfe von Information und ''\textit{das systembedingte Primat des Individuellen vor dem Allgemeinen}''. Historizität meint, dass nicht nur jedes Objekt eine Geschichte aufweist, sondern auch jede Untersuchung eines Objektes. Als unscharf versteht man, dass es keine definitiven und fixen Werte gibt, die aber für eine maschinelle Verarbeitung notwendig sind. Und Letzteres meint, dass in den Geisteswissenschaften oft der Blick auf ein einzelnes Objekt, ein Roman, tendenziell interessanter ist als auf eine Vielzahl.\footcite[][S.106-108]{jannidis2017grundlagen}
 \\
 \\
 In der Modellierung, auf einer konzeptuellen Ebene, ist es notwendig die im Bezug auf den Verwendungszweck wichtigsten Entitäten und ihre Attribute, sowie Relationen zu identifizieren.\footcite[][S.102-104]{jannidis2017grundlagen} Das \textbf{Entity-Relationship-Modell} (ER-Diagramm) ist eine Notationsformen, die genau auf diesen drei Begriffen beruht: Relationen, Attributen und Entitäten (Klassen). Die Entitäten -- alle potenziellen Untersuchungsobjekte -- verfügen über Eigenschaften, sogenannte Attribute. Weiters stehen sie zu anderen Entitäten in unterschiedlichen Beziehungen, sogenannten ''Relationen''.\footcite{chen1976entity} Eine gängige Art ER-Diagramme umzusetzen, besonders in der Softwareentwicklung, ist die \textit{Unified Modeling Language} (UML). Dabei handelt es sich um eine Sprache zur Modellierung, Dokumentation und Spezifikation von Systemen und Softwarekomponenten. Als ISO genormte Sprache definiert UML Bezeichner für wichtige Begriffe einer Modellierung und legt mögliche Beziehungen zwischen diesen Begriffen fest. UML definiert weiter grafische Notationen für diese Begriffe und für Modelle statischer Strukturen und dynamischer Abläufe, die man mit diesen Begriffen formulieren kann.\footcite{rumbaugh2004unified} Folgende Abbildung veranschaulicht die Bestandteile von UML:
@@ -406,7 +412,7 @@ Die Beschreibung von historischen Daten und eines Modells, das diese Daten defin
 \subsubsection{Forschungsdaten in den Geschichtswissenschaften}
 \label{forschungdaten}
 
-Die Grundlage jeder formalen Verarbeitung sind Daten.\footcite[Ausführlich habe ich mich mit den theoretischen Grundlagen der Informationswissenschaft, Daten - Information - Wissen, in folgender Arbeit auseinander gesetzt:][]{pollin2017suchen} Die Definition von Daten, im Sinne der Informationswissenschaft, lässt sich am besten in der Kontextualisierung mit drei anderen Begriffen fassen: Signal, Information und Wissen. Wo Signale eine physikalische Entität darstellen, beispielsweise eine Lichtwelle, versteht man unter Daten Zeichen zur Verarbeitung und Repräsentation von Information. Noch spezifischer wird der Begriff in der Informatik verwendet. In diesem Fach versteht man unter Daten Informationseinheiten, die für Maschinen lesbar und bearbeitbar sind. Von Information spricht man, wenn Daten in einem bestimmten Kontext interpretiert werden. WERSIG, aus einem kybernetischen Verständnis, spricht bei Information von einer ''\textit{Reduktion von Ungewissheit aufgrund von Kommunikationsprozessen}''\footcite[][S.74]{wersig1971information}. Noch eine Hierarchiestufe höher steht der Wissensbegriff. Wissen, so FAVRE-BULLE, ist gegeben, wenn ein kognitiver Agent, beispielsweise ein Mensch, auf Basis von Information eine Handlung in der Welt setzt.\footcite[][S.93-97]{favre2001information} Folgende Darstellung zeigt die Abhängigkeit dieser 4 Begriffe zueinander, mit einem anwachsen der Komplexität der Struktur, sowie der Anbindung an einen kognitiven Agenten.\footcite[Eine ausführlichere Auseinandersetzung mit den Begriffen Daten, Information und Wissen findet sich in meiner ersten Abschlussarbeit.][Masterarbeit Graz, S.20-28]{pollin2017suchen}
+Die Grundlage jeder formalen Verarbeitung sind Daten. Die Definition von Daten, im Sinne der Informationswissenschaft, lässt sich am besten in der Kontextualisierung mit drei anderen Begriffen fassen: Signal, Information und Wissen. Wo Signale eine physikalische Entität darstellen, beispielsweise eine Lichtwelle, versteht man unter Daten Zeichen zur Verarbeitung und Repräsentation von Information. Noch spezifischer wird der Begriff in der Informatik verwendet. In diesem Fach versteht man unter Daten Informationseinheiten, die für Maschinen lesbar und bearbeitbar sind. Von Information spricht man, wenn Daten in einem bestimmten Kontext interpretiert werden. WERSIG, aus einem kybernetischen Verständnis, spricht bei Information von einer ''\textit{Reduktion von Ungewissheit aufgrund von Kommunikationsprozessen}''\footcite[][S.74]{wersig1971information}. Noch eine Hierarchiestufe höher steht der Wissensbegriff. Wissen, so FAVRE-BULLE, ist gegeben, wenn ein kognitiver Agent, beispielsweise ein Mensch, auf Basis von Information eine Handlung in der Welt setzt.\footcite[][S.93-97]{favre2001information} Folgende Darstellung zeigt die Abhängigkeit dieser 4 Begriffe zueinander, mit einem anwachsen der Komplexität der Struktur, sowie der Anbindung an einen kognitiven Agenten.\footcite[Eine ausführlichere Auseinandersetzung mit den Begriffen Daten, Information und Wissen findet sich in meiner ersten Abschlussarbeit.][Masterarbeit Graz, S.20-28]{pollin2017suchen}
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.85\textwidth]{img/daten.png}  
@@ -452,7 +458,7 @@ Eine Transkription allein reicht nicht aus, um die linguistische/textuelle, quan
 Aspekte hinausgehen}''\footcite[][S.14]{klapp2011rechnung} und so erlauben Fragestellungen dieser Art weitere soziale, gesellschaftliche und wirtschaftliche Implikationen, die uns ein Verständnis darüber geben können, wie das Leben der Menschen in der Vergangenheit ausgesehen haben kann.\footcite[][S.7-10]{gleba2015einleitung}
 \\
 \\
-GLEBA unterscheidet vier Kategorien\footcite[][S.51--54]{gleba2016rechnen} in diesem Zusammenhang:
+GLEBA unterscheidet vier Kategorien\footcite[][S.51-54]{gleba2016rechnen} in diesem Zusammenhang:
 \begin{itemize}
 \item \textbf{Urbare} sind Besitzverzeichnisse, in denen Besitzrechte einer Grundherrschaft und der damit verbundenen Abgaben aufgelistet werden. Hier finden sich meist auch Angaben zur Lokalisierung der Liegenschaften.
 \item Sogenannte \textbf{Heberegister} beinhalten die Abgabepflichten an wirtschaftlichen Gütern, wie Arbeit oder Naturalien.
@@ -474,9 +480,6 @@ BRUCH kommt zum Schluss, dass die Abrechnung durch das Mutterkloster nicht auf e
 Tendenzen ausmachen kann, ob die Klöster mit strukturellen Defiziten zu recht kommen musste, oder prosperierten.
 \end{itemize} 
 
-[ToDo: Zusammenfassung + Übergang]
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -487,7 +490,11 @@ Tendenzen ausmachen kann, ob die Klöster mit strukturellen Defiziten zu recht k
 \\
 \\
 Daten - aus unterschiedlichen Formaten - sollen auf einer gemeinsamen Plattform zusammengeführt werden und adäquate Formen des Retrievals, der Discovery und der Visualisierung eröffnen, um die Arbeit mit den Quellen zu erleichtern. Die Überführung in das Resource Description Framework (RDF) auf Basis der im Projektkontext entwickelten \textit{Bookkeeping-Ontologie}, die Transferprozesse historischer Rechnungsbücher formalisiert, erlaubt die Interoperabilität, Verlinkung und das Zusammenführen von Informationen im Sinne des \textit{Web of Data} und \textit{Linked Open Data}. Diese Begriffe werden im Kapitel \ref{WebofData} ausführlich behandelt.
-
+\\
+\\
+\textcolor{red}{
+Drei ausgewählte Rechnungsbücher, die im Zuge von DEPCHA bearbeitet und veröffentlicht werden, werden nun ausführlicher behandelt. Dabei wird sowohl die Struktur und der Kontext der Quelle beschrieben und herausgearbeitet welche Forschungsinteressen mit diesen Quellen bedient werden können. 
+}
 
 \subsubsection{The George Washington Financial Papers}
 
@@ -624,9 +631,11 @@ Settled & By work from this day pd & \$2 & 00
 \textit{Transkription der Seite 100 des \textit{Daybook}}
 \end{center}
 TOMASEK verfolgt dabei einen TEI/XML-Ansatz, um die die textuelle Struktur der Quelle und die inhaltliche Struktur der Transaktionen zu beschreiben. Letztere ist schwerer durch reines TEI Markup beschreibbar bzw. für eine weiter Analyse schwere nachnutzbar, da man für eine algorithmische Auswertung diskrete Daten braucht.
-\\
-\\
-(ToDo: Zusammenfassung der 3 Quellen, Übergang zu Web of Data)
+
+\newpage
+\textcolor{red}{
+Das ''\textit{Slave-Ledger}'', das \textit{Daybook} eines Geschäftsmannes rund die Finanzaufzeichnung von George Washington lassen sich auf Grund der regionalen und zeitlichen Einordnung gut miteinander vergleichen und weisen ähnliche textuelle und semantische Strukturen auf. Ihre Kontextualisierung, sowie an die Quellen gestellten Forschungsfragen variieren, lassen sich aber auch wieder auf wiederkehrende Entitäten, wie Personen, Orte und Waren- bzw. Geldflüsse zurückführen. Um eine bessere maschinelle Analyse der Information in diesen Quellen zu ermöglichen, sowie historische Rechnungsunterlagen zu beschreiben, die eine andere Struktur aufweisen, bedarf es standardisierter Modelle. Im nächsten Kapitel wird eine Vorgehensweise und Technologie-Stack beschrieben, der dies ermöglicht.
+}
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -635,7 +644,7 @@ TOMASEK verfolgt dabei einen TEI/XML-Ansatz, um die die textuelle Struktur der Q
 \label{WebofData}
 Das \textit{Semantic Web}, oder wie es seit 2013 vom \textit{World Wide Web Consortium} (W3C) genannt wird, \textit{Web of Data} umfasst einen Stack an Standards und Technologien.\footnote{Linked Data, \url{w3.org/standards/semanticweb/data.html}, 23.11.2019} Dieser Stack dient dazu, Daten und ihre Struktur ausdrucksstark zu beschreiben, sodass Daten maschinenlesbar über das Web verteilt und genutzt werden können. Für die Geisteswissenschaften und die Geschichtswissenschaften im Speziellen eröffnet dieser Technologie Stack, dass Forschungsdaten ausführlich strukturiert, kontextsensitiv, sich selbst beschreibend, genutzt werden können.
 \\
-Dieses Kapitel dient dazu anfangs die Geschichte, Idee des und Kritik am \textit{Web of Data} zu beschreiben, geht dann auf den Technologie Stack ein und setzt dann einen Schwerpunkt beim Bereich Ontologien. Dieser Schwerpunkt dient dazu, da Ontologien eine maschinenlesbare Umsetzung von Modellen ermöglichen und Kapitel \ref{Umsetzung} sich mit der sogenannten \textit{Bookkeeping Ontology} beschäftigt, die für das Mapping von historischer Information in historischen Rechungsbüchern verwendet wird.  
+Dieses Kapitel dient dazu anfangs die Geschichte, die Idee des und Kritik am \textit{Web of Data} zu beschreiben, geht dann auf den Technologie Stack ein und setzt dann einen Schwerpunkt beim Bereich Ontologien. Diese Schwerpunktsetzung erfolgt, da Ontologien eine maschinenlesbare Umsetzung von Modellen ermöglichen und Kapitel \ref{Umsetzung} sich mit der sogenannten \textit{Bookkeeping Ontology} beschäftigt, die für das Mapping von historischer Information in historischen Rechungsbüchern verwendet wird.  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -650,11 +659,11 @@ Dabei handelt es sich aber weder um Maschinen die selbstständig lernen, oder ga
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Kritik am \textit{Web of Data}}
-
+\textcolor{red}{
 ''\textit{I will never touch that crap of RDF or the semantic web; this is a pipe dream of reality ignoring academics and I will not have it. I will only use JSON-LD.}''
 \\
 \\
-Ist ein Zitat eines Vortrages von Phil ARCHER aus dem Jahr 2014. Viele IT-Entwickler sehen \textit{Web of Data}-Standards kritisch und so ist das \textit{Semantic Web} nicht erreicht.\footcite{wettlaufer2018semanticwebEdition} Zumindest nicht für die Allgemeinheit. Die großen Internetriesen hingegen verfügen über ihre eigene ''Semantic Web'', in denen sie ihre eigenen Agenten mit ihrer großen Datenmenge arbeiten lassen. So verwendet Google beispielsweise seinen \textit{Knowledge Graph}, um Ergebnisse für Suchanfragen zu verbessern.\footnote{Whatever Happened to the Semantic Web? , \url{twobithistory.org/2018/05/27/semantic-web.html}}
+Ist ein Zitat eines Vortrages von Phil ARCHER aus dem Jahr 2014. Viele IT-Entwickler sehen \textit{Web of Data} Standards kritisch und so ist das \textit{Semantic Web} nicht erreicht.\footcite{wettlaufer2018semanticwebEdition}} Zumindest nicht für die Allgemeinheit. Die großen Internetriesen hingegen verfügen über ihre eigene ''Semantic Web'', in denen sie ihre eigenen Agenten mit ihrer großen Datenmenge arbeiten lassen. So verwendet Google beispielsweise seinen \textit{Knowledge Graph}, um Ergebnisse für Suchanfragen zu verbessern.\footnote{Whatever Happened to the Semantic Web? , \url{twobithistory.org/2018/05/27/semantic-web.html}}
 \\
 Auf der anderen Seite gibt es aber einige Stimmen, die das \textit{Web of Data} in ihrer jetzigen Überlegung kritisieren und es wurde schon vor Jahren als Zukunfsttechnologie totgesagt. Die Kritik richtet sich daran, dass die Überlegungen zu akademisch und technisch zu kompliziert sein. SHIRKY kritisiert, dass der top-down Ansatz, die unflexible, strenge Art der Formalisierung und die zu starke Spezifikation auf einzelne Domänen von Ontologien nicht sinnvoll in einem dezentralen Web funktionieren können.\footcite{shirky2005ontology} Die Kritik von SWARTZ, der sich ein \textit{Semantic Web} herbeisehnt, richtet sich an den, in seinen Augen noch nicht ausgereiften, Technologie Stack und die zu komplizierten und aufdröselten Standards. Beispielsweise ist für SWARTZ XML im Gegensatz zu JSON zu überladen und kann nur mir mehr Aufwand verarbeitet werden.\footcite{swartz2013aaron}
 \\
@@ -678,7 +687,7 @@ Es gibt unterschiedliche Darstellungen dieses Stacks, dennoch zeigt diese Versio
 \\
 Die Basis des Stacks bilden \textit{Uniform Resource Identifier} (URI), die Ressourcen im Web eindeutig identifizieren und \textit{UNICODE} als internationaler Standard zur Zeichenkodierung. Der Syntax Bereich wird mit der \textit{Extensible Markup Language} (XML), einer Auszeichnungssprache zur Strukturieren von Text, ermöglicht, wobei diese Technologie immer mehr durch die \textit{JavaScript Object Notation} (JSON) ersetzt wird. Das \textit{Resource Description Framework} dient dazu Daten im Web auszutauschen und ermöglicht es Daten als Graphen zu beschreiben. Die formalen Regeln für RDF werden mittels \textit{Resource Description Framework Schema} RDFS und \textit{Web Ontology Language} (OWL) beschrieben. RDFS erlaubt es Klassen und Beziehungen zwischen Klassen zu beschreiben und OWL ermöglicht es weitere logische Regeln in Modellen abzubilden. \textit{SPARQL Protocol And RDF Query Language} (SPARQL) ist, vergleichbar mit SQL in der relationalen Datenbankwelt, die graphenbasierte Abfragesprache für RDF Daten.\footcite[][]{horrocks2005semantic}
 \\
-In den folgenden Unterkapiteln werden nun die angeführten Technologien weiter beschrieben. Die Konzepte ohne Technologien, sowie \textit{RIF/SWRL} werden dabei, da sie für diese Arbeit nicht essentiell sind, nicht behandelt.
+In den folgenden Unterkapiteln werden nun die angeführten Technologien weiter beschrieben. Die Konzepte ohne Technologien, sowie \textit{RIF/SWRL}, werden dabei, da sie für diese Arbeit nicht essentiell sind, nicht behandelt.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -754,8 +763,12 @@ Für \textit{foaf:knows} wird \textit{Domain} und \textit{Range} auf die Klasse\
 \\
 Weiter führt RDFs Datentypen ein. Damit lässt sich beschreiben, um welche Art eines Literals es sich handelt. Es kann für die maschinelle Verarbeitung sehr wichtig sein zu wissen, ob es sich um eine Zeichenkette, eine Zahl, eine Datumsangabe oder eine XML Struktur handelt, da mit unterschiedlichen Datentypen andere Operationen einhergehen. 
 \\
-Mit den RDF Properties \textit{rdfs:label} und \textit{rdfs:comment} lassen sich Properties und Classes benennen und beschreiben. Das ist deswegen nötig, da der Fokus einer Klasse nur in bestimmten Kontexten Sinn macht. \textit{rdfs:label} definiert einen menschenlesbaren Namen einer Ressource. Es besteht stets die Möglichkeit in RDF die einzelnen Lables einer Ressource mit Sprachkürzel zu versehen. Die Property \textit{rdfs:comment} erlaubt es eine verbale Beschreibung zu einer Klasse hinzuzufügen. Am Beispiel von \textit{foaf:Person} ist das das Label ''Person'' und die Beschreibung:\\
-'\textit{The Person class represents people. Something is a Person if it is a person. We don't nitpic about whether they're alive, dead, real, or imaginary. The Person class is a sub-class of the Agent class, since all people are considered 'agents' in FOAF. }''.\\
+Mit den RDF Properties \textit{rdfs:label} und \textit{rdfs:comment} lassen sich Properties und Classes benennen und beschreiben. Das ist deswegen nötig, da der Fokus einer Klasse nur in bestimmten Kontexten Sinn macht. \textit{rdfs:label} definiert einen menschenlesbaren Namen einer Ressource. Es besteht stets die Möglichkeit in RDF die einzelnen Lables einer Ressource mit Sprachkürzel zu versehen. Die Property \textit{rdfs:comment} erlaubt es eine verbale Beschreibung zu einer Klasse hinzuzufügen. Am Beispiel von \textit{foaf:Person} ist das das Label ''Person'' und die Beschreibung:
+\\
+\\
+'\textit{The Person class represents people. Something is a Person if it is a person. We don't nitpic about whether they're alive, dead, real, or imaginary. The Person class is a sub-class of the Agent class, since all people are considered 'agents' in FOAF. }''.
+\\
+\\
 Daneben existiert auch ein Konstrukt \textit{rdfs:seeAlso}, um ausdrücken, dass es unter folgender URL noch weitere Information zu dieser Ressource gibt.\footcite{brickley2014rdf} Folgende Darstellung veranschaulicht die soeben beschriebenen Konstrukte in RDFs und zeigt Unterklassen der Superklasse \textit{foaf:Agent}, zwei Instanzen der Klasse \textit{foaf:Person} und stellt graphisch - durch den Pfeil - \textit{Domain} und \textit{Range} einer Property dar.\footcite[][S.33-88]{hitzler2007semantic}  
 \begin{figure}[H]
   \centering
@@ -764,6 +777,8 @@ Daneben existiert auch ein Konstrukt \textit{rdfs:seeAlso}, um ausdrücken, dass
   	\label{fig:rdf}
 \end{figure}
 Hinter jeder Klasse, Property und jeder Instanz steht eine URI. Folgendes RDF-Snippet zeigt wie die Klasse \textit{foaf:Person} und \textit{foaf:knows} im FOAF-Vokabular mittels RDFs definiert werden.
+
+
 \begin{lstlisting}[]
 PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
 PREFIX foaf:<http://xmlns.com/foaf/0.1/>
@@ -781,6 +796,7 @@ foaf:knows a rdf:Property;
   rdfs:domain foaf:Person ;
   rdfs:range foaf:Person .
 \end{lstlisting}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -850,11 +866,8 @@ Allgemeiner betrachtet definieren LINCKELS \& MEINEL eine Ontologie als ein Date
 \\ 
 Zusammengefasst kann gesagt werden, dass sich mittels Ontologien komplexere Sachverhalte so darstellen lassen, dass Mensch und Maschinen in der Lage sind Strukturen, die durch eine Ontologie definiert und standardisiert sind, weiterverarbeiten zu können. Der Mehrwert kann vor allem in der Möglichkeit automatisierter Schlussfolgerungen, im Information Retrieval oder anderen formalen Methoden zur Verarbeitung von Daten liegen.\footcite[][S.162-178]{jannidis2017digital} 
 
-\subsubsection{OWL und Reasoning}
+\subsubsection{Reasoning}
 
-[TODO OWL]
-\\
-\\
 Der Ontology Editor Protégé erlaubt es, eine Ontologie und die darin enthaltenen Daten (Individuals) einem Reasoning - dem Abarbeiten aller vorhandenen Regeln in einer Ontologie auf Basis einer deskriptiven Logik - zu unterziehen. Für solche Zwecke gibt es natürlich auch API's und Bibliotheken in Programmiersprachen.\footcite{musen2015protege} Das Reasoning gilt als ein essentieller Baustein im Design, der Entwicklung, der Wartung und in der praktischen Anwendung einer Ontologie. Das Ergebnis davon sind Inferenzen. Inferenzen sind neu hergeleitete Schlussfolgerungen auf Basis der formalen Regeln einer Ontologie.\footcite{dentler2011comparison} Die Überprüfung strukturierter Daten mittels logischen Schlussfolgerungen kann dazu dienen, größere Datenmengen auf ihre Konsistenz und somit auch auf ihre Qualität hin zu prüfen, da logische Inkonsistenzen als Fehlermeldung angezeigt werden.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -976,6 +989,7 @@ Zu Beginn dieser Arbeit wurde ein Beispiel angeführt, indem ein Akteur, James H
 \\
 \textbf{XML/TEI Beispiel mit Bookkeeping-Annotation}
 \\
+\\
 \textcolor{red}{
 Ausgangspunkt ist die Definition eines Containers, der die textuelle Struktur \textit{bk:Entry} und die semantische Struktur \textit{bk:Transaction} zusammenführt. Für die Annotation im XML/TEI wird das Attribut \textit{@ana} verwendet, das eine oder mehrere Interpretationen eines Elements und dessen Inhalts erlaubt. Der \textit{bk:Entry} stellt oft in Rechnungsunterlagen entweder eine Zeile in einer Tabelle oder einen Eintrag in einer Liste dar, ist aber nicht darauf reduziert.
 \\
@@ -1009,13 +1023,22 @@ Die hier dargestellte \textit{bk:Transaction} besteht aus zwei \textit{bk:Transf
 </table>
 \end{lstlisting}
 \textcolor{red}{
-Neben trivialen markup, wie beispielsweise das Datum, das mit \textit{<date ana=''bk:when''>} ausgezeichnet wird, wird der Geldfluss durch die Werte \textit{ana=''bk:from''} und \textit{ana=''bk:to''} ausgedrückt. Da in den meisten Quellen dieser Art ein Kauf einer Ware dokumentiert ist, handelt es sich hierbei um eine Annahme. Aus dieser Schlussfolgerung lässt sich dann der Fluss von Wirtschaftsgütern - einer Ware oder Dienstleistung - ableiten. Der einzelne Eintrag nennt in der Regel nur eine Partei in der Transaktion, während der Ladenbesitzer Stagville bereits in der Überschrift des Kontos oder als externes Archivwissen identifiziert wird. Darüber hinaus kann der Text ''\textit{Self Dr.}'' in der Kopfzeile der Buchung als Transaktions- und Buchungsstatus interpretiert werden und drückt aus, dass die Buchung von dieser Person auf der Sollseite eines doppelten Buchungsstils vorgenommen wurde.
+Neben trivialen Markup, wie beispielsweise der Auszeichnung des Datums mittels
+\textit{<date ana = ''bk:when''>}, wird der Geldfluss durch die Werte \textit{ana = ''bk:from''} und \textit{ana = ''bk:to''} ausgedrückt. Da in den meisten Quellen dieser Art ein Kauf einer Ware dokumentiert ist, handelt es sich hierbei um die Default-Annahme. Daraus lässt sich schließlich der Fluss von Wirtschaftsgütern -- einer Ware oder Dienstleistung -- ableiten. Einzelne Einträge nennen in der Regel nur einen Akteur einer Transaktion, während die zweite Seite, der Ladenbesitzer des Stagville-Stores, indirekt, aus dem Kontext der Fachwissenschaflter*in, oder auf einer vorangestellten Seite, abgebildet ist. Darüber hinaus kann der Text ''\textit{Self Dr.}'' in der Kopfzeile der Buchung als Transaktions- und Buchungsstatus interpretiert werden und drückt aus, dass die Buchung von dieser Person auf der Sollseite eines doppelten Buchungsstils vorgenommen wurde.
 \\
-Ein weiterer wichtiger Aspekt ist die Normalisierung von Entitäten wie Personen, Orten, Währungen, Waren oder Dienstleistungen, die im Zusammenhang mit einer solchen Quelle sehr komplex werden können. So sind beispielsweise bestimmte Gewichtseinheiten oder Währungen von regionalen und zeitlichen Unterschieden betroffen. Aufgrund der großen Vielfalt kontextsensitiver Entitäten wird die Normalisierung der Daten durch die Verknüpfung mit \textit{Wikidata.org} oder durch die Erweiterung von Workflows für andere LOD-Vokabulare erreicht, was sinnvoll erscheint. Die Verwendung von Wikidata erlaubt es jedoch, eigenständige neue Konzepte zu erstellen, die noch in keinem Vokabular vertreten sind. Das folgende Beispiel verdeutlicht dies: Ein weiterer in DEPCHA aufgenommener Datensatz enthält Listen von Waren aus der Stadt Regensburg im 13. Jahrhundert.\footnote{StadtA Regensburg, Kameralien 3} In diesem Datensatz wird der Begriff ''\textit{Scheffen Hafer}'' verwendet und bezieht sich auf eine ganz bestimmte zeitliche und regionale historische Einheit, einen Scheffel Hafer. Der oben beschriebene Arbeitsablauf erlaubt es, solche Begriffe direkt mit \textit{Wikidata.org}-Konzepten zu verbinden, indem die Q-Nummer direkt an ein Attribut angehängt wird. Dieser pragmatische Ansatz wird durch Werkzeuge wie OpenRefine\footnote{Open source desktop application for data cleanup and transformation, \url{https://openrefine.org}} für die halbautomatische Identifizierung unterstützt. Als Ergebnis dieses Workflows extrahiert ein XSLT die annotierten Strukturen in der TEI in RDF - das folgende RDF/Turtle-Snippet zeigt das verarbeitete XML/TEI:
+\\
+Ein weiterer wichtiger Aspekt ist die Normalisierung von Entitäten wie Personen, Orten, Währungen, Waren oder Dienstleistungen, die im Zusammenhang mit einer solchen Quelle sehr komplex werden können. So sind beispielsweise bestimmte Gewichtseinheiten oder Währungen von regionalen und zeitlichen Unterschieden betroffen. Aufgrund der großen Vielfalt kontextsensitiver Entitäten wird die Normalisierung der Daten durch die Verknüpfung mit \textit{Wikidata.org} oder durch die Erweiterung von Workflows für andere LOD-Vokabulare erreicht. Dies löst natürlich keineswegs die komplexen geschichtswissenschaftlichen Herausforderungen, die mit diesen Normalisierungen einhergehen, die Verwendung von Wikidata könnte aber im Sinne einer großen Wissensbasis ein helfendes Werkzeug sein.
+\\
+\\
+Wikidata erlaubt es eigenständige neue Konzepte zu erstellen, die noch in keinem Vokabular vertreten sind. Das folgende Beispiel verdeutlicht dies: ein weiterer in DEPCHA aufgenommener Datensatz enthält Listen von Waren aus der Stadt Regensburg im 13. Jahrhundert.\footnote{StadtA Regensburg, Kameralien 3} In diesem Datensatz wird der Begriff ''\textit{Scheffen Hafer}'' verwendet und bezieht sich auf eine ganz bestimmte zeitliche und regionale historische Einheit. Der oben beschriebene Arbeitsablauf erlaubt es, solche Begriffe direkt mit \textit{Wikidata.org}-Konzepten zu verbinden, indem die Q-Nummer direkt an ein Attribut angehängt wird. Dieser pragmatische Ansatz wird durch Werkzeuge wie OpenRefine\footnote{Open source Desktop Anwendung zur Datenbereinigung und Datentransformation, \url{https://openrefine.org}, 26.08.2020} für die halbautomatische Identifizierung unterstützt.
+\\
+Als Ergebnis dieses Workflows extrahiert ein XSL-Transformation die annotierten Strukturen im XML/TEI und +berführt sie in ein RDF, dessen Grundlage die Bookkeeping-Ontologie darstellt. Das folgende RDF/Turtle-Snippet zeigt das verarbeitete XML/TEI:\footcite[][S.10-15]{pollin2019digital}
 }
 \\
 \\
 \textbf{RDF-Extraktion}
+\\
+\\
 Danach folgen die RDF-Triple, die aus dieser Annotation extrahiert werden können.
 \begin{lstlisting}[]
 @prefix bk: <https://gams.uni-graz.at/o:depcha.ontology> .
@@ -1056,7 +1079,9 @@ Danach folgen die RDF-Triple, die aus dieser Annotation extrahiert werden könne
   bk:name "James Haley".
   
 \end{lstlisting}
-
+\textcolor{red}{
+Folgende Abbildung stellt die angeführte Transaktion schematisch dar. Die hellen Knoten definieren Instanzen von Klassen der Bookkeeping-Ontologie, die im Sinen von \textit{Object Properties} mit anderen Instanzen verknüpft sind, bzw. durch weitere Attribute, eben \textit{Data Properties}, beschrieben werden. Angedeutet wird die Normalisierung der Währungen und Maßeinheiten über Wikidata mit den angeführten Q-Identifikatoren. Die RDF-Daten bilden genau diese Graphenstruktur ab, und können so in einer Graphdatenbank verwendet werden.  
+}
 \begin{figure}[H]
 \centering
 	\includegraphics[width=1\textwidth]{img/example.png}  
@@ -1085,15 +1110,15 @@ Die Menschliche Wahrnehmung ist multimodal. Es entstehen unterschiedliche Reprä
     \item Repräsentation: welche Formen der Repräsentation werden für die Darstellung genutzt?
     \item Medium: wo wird es ausgegeben; wo kann man damit arbeiten?
 \end{itemize}
-Auf das DEPCHA Projekt gemünzt, wird mit einer Visualisierung das Ziel verfolgt, für ein fachwissenschaftliches Publikum eine größere Menge historischer Information von Transaktionen über das Web so aufzubereiten,  dass aus der Aggregation der historischen Information neue Erkenntnisse gewonnen werden können. So kann die visuelle Repräsentation von historischer Information in den Rechnungsbüchern zur Bearbeitung von relevanten Forschungsfragen herangezogen werden. Die Zielsetzung der Visualisierungen liegt darin, die Dimensionen der Rechnungsbücher, das heißt die beteiligten Akteure, die Wirtschaftsgüter, die Geldbeträge jeweils in ihrem historischen Kontext, für Anwender*innen, im Sinne einer quellenbasierten Arbeitsplattform erfahrbar zu machen. Diese Arbeitsplattform soll Fachwissenschaftler*innen erlauben, sowohl den Einzelbeleg aus der Quelle, als auch die Aggregation der Information einer ausgewählten Menge von Belegen zu erkunden und selbstständig organisieren zu können. Diese zwei Zugangsarten kann man als \textit{Close Viewing}, der ''klassische'' Zugang punktuelle Quellen manuell zu analysieren und \textit{Distant Viewing}, die eine Form der formalen Methodik mit sich bringen muss, bezeichnen.\footcite[][]{hsozkult2014closereading} 
+Auf das DEPCHA Projekt gemünzt, wird mit einer Visualisierung das Ziel verfolgt, für ein fachwissenschaftliches Publikum eine größere Menge historischer Information von Transaktionen über das Web so aufzubereiten,  dass aus der Aggregation der historischen Information neue Erkenntnisse gewonnen werden können. So kann die visuelle Repräsentation von historischer Information in den Rechnungsbüchern zur Bearbeitung von relevanten Forschungsfragen herangezogen werden. Die Zielsetzung der Visualisierungen liegt darin, die Dimensionen der Rechnungsbücher, das heißt die beteiligten Akteure, die Wirtschaftsgüter, die Geldbeträge jeweils in ihrem historischen Kontext, für Anwender*innen, im Sinne einer quellenbasierten Arbeitsplattform erfahrbar zu machen. Diese Arbeitsplattform soll Fachwissenschaftler*innen erlauben, sowohl den Einzelbeleg aus der Quelle, als auch die Aggregation der Information einer ausgewählten Menge von Belegen zu erkunden und selbstständig organisieren zu können. Diese zwei Zugangsarten kann man als \textbf{\textit{Close Viewing}}, der ''klassische'' Zugang punktuelle Quellen manuell zu analysieren und \textbf{\textit{Distant Viewing}}, die eine Form der formalen Methodik mit sich bringen muss, bezeichnen.\footcite[][]{hsozkult2014closereading} 
 \\
 \\
-Allgemein kann man sagen, dass das Ziel der Informationsvisualisierung der Gewinn neuer Erkenntnis ist. Wichtig ist das Entdecken neuer Zusammenhänge, die erst in einem größeren Kontext sichtbar werden (\textit{Discovery}), das Treffen von zuverlässigen Entscheidungen (\textit{Descision making}), die explorative Analyse von Informationsräumen (\textit{Exploration}), sowie das Sichtbarmachen von Erklärungen (\textit{Explanation}). Gerade für eine fehlerhafte, unscharfe oder inhomogene Datenbasis kann die menschliche Exploration von Daten sehr effektiv sein.\footcite[][S.439-444]{preim2010interaktive} Das Organisieren in DEPCHA umfasst die Selektion und das Filtern von Ergebnissen, die durch das \textit{Discovery} der Visualisierungen gegeben sind. Die explorative Analyse, sowie eine Sichtbarmachung von Erklärungen durch Darstelungen kann vorher entworfene Thesen zu einem aus einem Rechnungsbuch abgeleiteten Sachverhalt stützen.
+Allgemein kann man sagen, dass das Ziel der Informationsvisualisierung der Gewinn neuer Erkenntnis ist. Wichtig ist das Entdecken neuer Zusammenhänge, die erst in einem größeren Kontext sichtbar werden (\textbf{\textit{Discovery}}), das Treffen von zuverlässigen Entscheidungen (\textbf{\textit{Descision making}}), die explorative Analyse von Informationsräumen (\textbf{\textit{Exploration}}), sowie das Sichtbarmachen von Erklärungen (\textbf{\textit{Explanation}}). Gerade für eine fehlerhafte, unscharfe oder inhomogene Datenbasis kann die menschliche Exploration von Daten sehr effektiv sein.\footcite[][S.439-444]{preim2010interaktive} Das Organisieren in DEPCHA umfasst die Selektion und das Filtern von Ergebnissen, die durch das \textit{Discovery} der Visualisierungen gegeben sind. Die explorative Analyse, sowie eine Sichtbarmachung von Erklärungen durch Darstellungen kann vorher entworfene Thesen zu einem aus einem Rechnungsbuch abgeleiteten Sachverhalt stützen.
 \\
 Eine weitere Zielsetzung liegt darin, dass eine Visualisierung dabei helfen kann, die Datenqualität der digitalen Edition zu verbessern. Größere Mengen an ähnlich strukturierter Information bergen ein erhöhtes Risiko, dass sich während der manuellen Annotation Fehler einschleichen. Durch die Visualisierung der Daten ist es leichter Workflows aufzusetzen, in dem die Visualisierung des Quellenkorpus genutzt werden kann, um fehlerhafte Transkriptionen oder falsche Zuordnungen bestimmter Entitäten -- wie etwa die Normalisierung von Personen, Gütern oder Maßeinheiten -- besser entscheiden zu können.
 \\
 \\
-Um die notwendige Dimension, nach denen eine mögliche Visualisierung umgesetzt werden kann, festmachen zu können, muss ein Modell definiert werden. Da im Projekt DEPCHA Rechnungsbüchern aus unterschiedlichen Kontexten zusammengeführt werden, bedarf es eines konzeptuellen Modells, um dieses Mapping herzustellen. Die Kategorien, die im Mapping abgebildet werden sollen, entsprechen auch den Dimensionen, die für eine Visualisierung der Informationsobjekte, ihrer Attribute und Relationen, relevant sind. Geldbeträge und Mengenangaben werden als quantitative Daten verstanden, da sie arithmetische Operationen erlauben, wohingegen Kategorien von Gütern und Währungen qualitative Daten darstellen, die für die Beschreibung, Ordnung und Gruppierung dienstlich sind.\footcite[][S.448-450]{preim2010interaktive}
+Um die notwendige Dimension, nach denen eine mögliche Visualisierung umgesetzt werden kann, festmachen zu können, muss ein Modell definiert werden. Da im Projekt DEPCHA Rechnungsbüchern aus unterschiedlichen Kontexten zusammengeführt werden, bedarf es eines konzeptuellen Modells, um dieses Mapping herzustellen. Die Kategorien, die im Mapping abgebildet werden sollen, entsprechen auch den Dimensionen, die für eine Visualisierung der Informationsobjekte, ihrer Attribute und Relationen, relevant sind. Geldbeträge und Mengenangaben werden als quantitative Daten verstanden, da sie arithmetische Operationen erlauben, wohingegen Kategorien von Gütern und Währungen qualitative Daten darstellen, die für die Beschreibung, Ordnung und Gruppierung dienlich sind.\footcite[][S.448-450]{preim2010interaktive}
 
 \subsubsection{Multidimensionale Rechnungsbücher – Multiple Views und Interaktion}
 
@@ -1102,15 +1127,15 @@ GLEBA und PETERSEN heben die Vielfalt der Inhalte in Rechnungsbüchern, sowie di
 Ein Credo der Informationsvisualisierung ist es, eine Domäne in mehreren Dimensionen darzustellen, vom Großen ins Detail zu gehen (\textit{overview first}), dort zu filtern und in die Daten eintauchen zu können, um anschließend auf die Detailebene vorzudringen. Um die Vielfalt der Ebenen und Dimensionen von historischen Rechnungsbüchern auch nutzen zu können, bedarf es auch einer Vielzahl an Repräsentationen. Deswegen bedarf es multipler Perspektiven auf ein Thema. Dies wird in der Informationsvisualisierung als \textit{Multiple Views} zusammengefasst.\footcite[][S.452-462]{preim2010interaktive}
 \\
 \\
-Ein gelungenes Projekt zur Datenvisualisierung wirtschaftlicher Daten, das \textit{Multiple Views} anbietet, ist der \textit{Atlas of Economic Complexity}.\footnote{Atlas of Economic Complexity, \url{atlas.cid.harvard.edu}, 09.12.2019}. Es soll stellvertretend für eine moderne Webanwendung stehen, die ähnliche Informationsobjekte repräsentiert. Eine Anlehnung von Darstellungen historischer Information an den \textit{Atlas of Economic Complexity} scheint sinnvoll. So verfügt diese Anwendung über unterschiedliche Visualisierungsformen für Warenexport und -import von Ländern. Sogenannte \textit{Product Treemaps} werden verwendet, um die Größe und Kategorisierung von Exporten und Importen darzustellen, eine \textit{Geo Map} erlaubt die geographische Kontextualisierung dieser Werte auf einer Karte und ein \textit{Stacked Chart} erlaubt es, die Veränderung über die Zeit hinweg zu erfahren. Weiters verfügt die Webseite über mehrere Nutzer*innenfunktionalitäten zum Filtern und Selektieren der Daten. Folgende Abbildung veranschaulicht die \textit{Product Treemap} der Exporte der Vereinigten Staaten von Amerika aus dem Jahr 2016.
+Ein gelungenes Projekt zur Datenvisualisierung wirtschaftlicher Daten, das \textit{Multiple Views} anbietet, ist der \textit{Atlas of Economic Complexity}\footnote{Atlas of Economic Complexity, \url{atlas.cid.harvard.edu}, 09.12.2019}. Es soll stellvertretend für eine moderne Webanwendung stehen, die ähnliche Informationsobjekte repräsentiert. Eine Anlehnung von Darstellungen historischer Information an den \textit{Atlas of Economic Complexity} scheint sinnvoll. So verfügt diese Anwendung über unterschiedliche Visualisierungsformen für Warenexport und -import von Ländern. Sogenannte \textit{Product Treemaps} werden verwendet, um die Größe und Kategorisierung von Exporten und Importen darzustellen, eine \textit{Geo Map} erlaubt die geographische Kontextualisierung dieser Werte auf einer Karte und ein \textit{Stacked Chart} erlaubt es, die Veränderung über die Zeit hinweg zu erfahren. Weiters verfügt die Webseite über mehrere Nutzer*innenfunktionalitäten zum Filtern und Selektieren der Daten. Folgende Abbildung veranschaulicht die \textit{Product Treemap} der Exporte der Vereinigten Staaten von Amerika aus dem Jahr 2016.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=1\textwidth]{img/atlas.jpg}  
     \caption[Screenshot der Product Treemap des Atlas of Economic Complexity, Exporte der USA im Jahr 2016, atlas.cid.harvard.edu 09.12.2019.]{Screenshot der Product Treemap des Atlas of Economic Complexity, Exporte der USA im Jahr 2016} \label{fig:atlas}
 \end{figure}
-Die Treemap, die man in dieser Abbildung sieht, erlaubt es hierarchische Strukturen und Größenverhältnisse darzustellen. Dazu werden Rechtecke proportional zur Größe der darzustellenden Dateneinheit ineinander verschachtelt. Historiker*innen arbeiten oft mit Klassifikationen, um Information besser ordnen zu können. So erlaubt eine Treemap den schnellen Blick darauf, welche Güter und Dienstleistungen, nach welchen Kategorien geordnet und in welchen Größenverhältnissen zueinander stehen.
+Die \textbf{Treemap}, die man in dieser Abbildung sieht, erlaubt es hierarchische Strukturen und Größenverhältnisse darzustellen. Dazu werden Rechtecke proportional zur Größe der darzustellenden Dateneinheit ineinander verschachtelt. Historiker*innen arbeiten oft mit Klassifikationen, um Information besser ordnen zu können. So erlaubt eine Treemap den schnellen Blick darauf, welche Güter und Dienstleistungen, nach welchen Kategorien geordnet und in welchen Größenverhältnissen zueinander stehen.
 \\
-Eine weitere Form der Repräsentation sind \textit{Bar Charts} (Säulendiagramme). Diese Repräsentationsform ist ein klassischer Weg, um Häufigkeitsverteilungen darzustellen, jedoch ist sie auf eine bestimmte Anzahl an Ausprägungen (Säulen) begrenzt. Jede dieser Säulen auf der X-Achse kann beispielsweise ein Geschäftsjahr mit den Einnahmen bzw. Ausgaben in einem Rechnungsbuch darstellen. Da der Zeitraum eines einzelnen Buches sich mit bis zu 15 Säulen abdecken lässt, jede Säule entspricht einem Jahr, kann dies eine geeignete Darstellung sein. Ein \textit{Stacked Chart} erlaubt es, eine weitere Dimension in ein Bar Chart einzufügen, um Einkünfte und Ausgaben weiter kategorisieren zu können. Beispielsweise könnten diese Dimensionen die einzelnen Akteure sein, die an den Geldflüssen beteiligt sind. Rechnungsbücher können aus einer Vielzahl von Perspektiven betrachtet werden: welche Güter, Akteure und Geldbeträge kommen vor und welche sozialen und gesellschaftlichen Implikationen könnten daraus abgeleitet werden.
+Eine weitere Form der Repräsentation sind \textbf{Bar Charts} (Säulendiagramme). Diese Repräsentationsform ist ein klassischer Weg, um Häufigkeitsverteilungen darzustellen, jedoch ist sie auf eine bestimmte Anzahl an Ausprägungen (Säulen) begrenzt. Jede dieser Säulen auf der X-Achse kann beispielsweise ein Geschäftsjahr mit den Einnahmen bzw. Ausgaben in einem Rechnungsbuch darstellen. Da der Zeitraum eines einzelnen Buches sich mit bis zu 15 Säulen abdecken lässt, jede Säule entspricht einem Jahr, kann dies eine geeignete Darstellung sein. Ein \textbf{Stacked Chart} erlaubt es, eine weitere Dimension in ein Bar Chart einzufügen, um Einkünfte und Ausgaben weiter kategorisieren zu können. Beispielsweise könnten diese Dimensionen die einzelnen Akteure sein, die an den Geldflüssen beteiligt sind. Rechnungsbücher können aus einer Vielzahl von Perspektiven betrachtet werden: welche Güter, Akteure und Geldbeträge kommen vor und welche sozialen und gesellschaftlichen Implikationen könnten daraus abgeleitet werden.
 \\
 \\
 Prototypisch wurde auf der in RDF modellierten Datengrundlage mittels SPARQL eine Datenbankabfrage formuliert und das so gewonnene JSON Ergebnis als Input an die Datenvisualisierungssoftware \textit{Tableau Desktop}\footnote{Tableau Desktop, \url{tableau.com/de-de/products/desktop}, 09.12.2019.} übergeben. Bei den folgenden zwei Beispielen handelt es sich um Visualisierungen, wie sie sinnvollerweise für Rechnungsbücher umgesetzt werden könnten.
@@ -1132,22 +1157,39 @@ Es lässt sich daraus schließen, und solche Interpretationen sind die Zielsetzu
 	\includegraphics[width=1\textwidth]{img/infovis2.jpg}  
     \caption[Geldfluss nach Jahren (x-Achse) und Summe der Geldflüsse (y-Achse). Stacks nach einzelnen Akteuren, eigene Darstellung, erstellt mit Tableau Desktop]{Geldfluss nach Jahren (x-Achse) und Summe der Geldflüsse (y-Achse). Stacks nach einzelnen Akteuren.} \label{fig:InfoVis2}
 \end{figure}
-FRANK\footcite{frank2018visualisierungswerkzeuge} führt 4 Beispiele von Projekten an, die die Methoden der Informationsvisualisierung so nutzen, dass sie zentraler Bestandteil zur Bearbeitung einer geisteswissenschaftlichen Forschungsfrage und zur Überprüfung der Ergebnisse herangezogen werden können. Ein beispiel daraus ist das Projekt CEWS behandelt multiperspektivische Konfliktforschung mit Fokus auf politikwissenschaftlichen Forschungsfragen. So wird im Projekt Modallogik als formaler Rahmen für die kontrafaktische Analyse von möglichen Konfliktverläufen eingesetzt und die generative Phänomenologie wird zur Analyse der Perspektiven von historischen Akteuren, den Konfliktparteien, auf Konfliktereignisse vorgeschlagen.
+
+\subsubsection{Informationsvisualisierung und Web of Data}
+
+
+FRANK\footcite{frank2018visualisierungswerkzeuge} führt 4 Beispiele von Projekten an, die die Methoden der Informationsvisualisierung so nutzen, dass sie zentraler Bestandteil zur Bearbeitung einer geisteswissenschaftlichen Forschungsfrage und zur Überprüfung der Ergebnisse herangezogen werden können. Ein Beispiel daraus ist das Projekt CEWS. Dieses Projekt behandelt multiperspektivische Konfliktforschung mit Fokus auf politikwissenschaftlichen Forschungsfragen. So wird im Projekt Modallogik als formaler Rahmen für die kontrafaktische Analyse von möglichen Konfliktverläufen eingesetzt und die generative Phänomenologie wird zur Analyse der Perspektiven von historischen Akteuren, den Konfliktparteien, auf Konfliktereignisse vorgeschlagen.
 \\
-Gemeinsam haben alle diese Projekte, dass der Ausgangspunkt für die Visualisierung zum einen Daten sind, zum anderen ein Modell, dass den Daten Struktur verleiht und so die formale Verarbeitung in Hinblick auf eine Forschungsfrage erlaubt.
+\\
+Gemeinsam haben alle diese Projekte, dass der Ausgangspunkt für die Visualisierung zum einen Daten sind, zum anderen ein Modell, dass den Daten Struktur verleiht und so die formale Verarbeitung in Hinblick auf eine Forschungsfrage erlaubt. Ein solches Modell kann unter Verwendung von \textit{Web of Data} Technologien und unter Verwendung von \textit{Linked Open Data} beschrieben und formalisiert werden. Beispielsweise werden \textit{Knowledge Graphs} verwendet um explorative Suchen größerer, kontextsensitiver Daten umzusetzen.\footcite{sarrafzadeh2014exploring} 
 \\
 \\
 Es veranschaulicht, welche Ziele und Herausforderungen mit Methoden der Informationsvisualisierung einhergehen. Dabei handelt es sich um ein starke Werkzeug, um bestimmte Inhalte in Sammlungen von historischen Quellen, beispielsweise Rechnungsbüchern, hervorzuheben. Es muss aber auf vielen Ebenen gut durchdacht sein, damit die vergangene ''Wirklichkeit'' nicht verzerrt wird. Von der Forschungsfrage (was soll gezeigt werden), der Darstellung (wie wird es dargestellt), den Daten (woraus wird es erzeugt), sowie der Interaktion damit (was kann ich damit tun) bedarf eines durchdachten Plans. Darstellungen dürfen nicht zu speziell sein und etwas repräsentieren, das nur für eine einzige Forschungsfrage bzw. einzelnes Rechnungsbuch von Interesse ist, dürfen aber auch nicht zu allgemein sein, sodass daraus keine generischen Lösungen ableitbar sind.
+\\
+\\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-\section{Zusammenfassung}
+\section{Zusammenfassung und Ausblick}
 
 \textcolor{red}{
 Die Gegebenheiten der Wissensproduktion in der Gesichtsforschung haben sich auf Grund der Digitalisierung gewandelt und beeinflussen wie Geschichte gedacht, erarbeitet und interpretiert wird. Computergestützte Methoden zur Analyse, sowie die Zurverfügungstellung der digitalisierten Quellen, erlauben neue Blicke und neue Möglichkeiten mit den Quellen zuarbeiten. Aber Digitalisierung ist vielmehr ein mächtiges Werkzeug, das die Arbeit mit größeren Datenmengen effizienter gestaltet, nicht aber ein Paradigmenwechsel in den Geschichtswissenschaften.\footcite[][]{koenig2020archive} Die eigentliche Arbeit der Historiker*innen besteht nach wie vor aus der Kombination Heuristik, dem Suchen und (zufälligen) Entdecken von Materialien, der quellenkritischen Auseinandersetzung damit und der Kontextualisierung bzw. Interpretation dieser Materialien unter Berücksichtigung der Arbeit von anderen und einer bestimmten Forschungsfrage. 
+\\
+\\
+Die Arbeit im Projekt DEPCHA zeigt, dass Workflows definiert werden können, damit Information in digitalen Editionen von historischen Rechnungsunterlagen  ausgezeichnet werden kann. Die Bookkeeping-Ontology erlaubt es Transaktionen, also den Fluss von wirtschaftlichen Gütern und Geldbeträgen von einem Akteur zum anderen zu beschreiben. Diese Formalisierung, mittels Ontologie des \textit{Web of Data}, dient als Grundlage für weiter Formen der Analyse. Dazu eigenen sich XML/TEI, um auch die textuelle Strukturen eine Quelle zu beschreiben, wie RDF, das die Transaktion an sich in Form von Triples ermöglicht. Die Entwicklung der Bookkeeping-Ontology ist ein iterativer und ncith abgeschlossener Prozess. Ziel letztendlich ist es, möglichst alle Phänomene, die eng mit wirtschaftlichen Transaktionen verbunden sind, formal in diesem Modell abzubilden.
+\\
+\\
+Folgende Vorteile gehen mit der Verwendung von Ontologien einher: 
 }
-
+\begin{itemize}
+\item Ein gemeinsames Vokabular bzw. Modell erleichtert die Kommunikation in der Wissensproduktion und kann vn Fachkolleginnen und Kollegen nach genutzt werden.
+\item Die Wiederverwendung eines Modells befördert den fachwissenschaftlichen Diskurs, in dem bestehende Konzepte kritisiert und fehlende Konzepte ergänzt werden können. Dies führt zu einem allgemein akzeptierten und verständlicheren konzeptionellen Modell.
+\item Linked Open Data, wie etwa auf einem Hub wie Wikidata, ermöglicht Interoperabilität der Daten in verschiedenen wissenschaftlichen Disziplinen. Die so entstanden Synergien, die die Pflege und Entwicklung von Standards vermeintlich erlaubt die Implementierung von generischen Retrieval-, Analyse- und Visualisierungsfunktionalitäten, die den projektspezifischen Anwendungsfällen angepasst werden können. 
+\end{itemize}
 
 
 \newpage

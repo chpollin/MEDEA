@@ -1140,18 +1140,17 @@
 
 \backrefparscanfalse
 \bibitem[{Pellegrini\jbbtasep Blumauer\jbdy {2006}}%
-         {Wege zur vernetzten Wissensgesellschaft. Berlin [ua] Springer \jbsy
-  {2006}}%
+         {Wege zur vernetzten Wissensgesellschaft \jbsy {2006}}%
          {{0}{}{article}{2006}{}{}{}{}%
-          {Springer\bibbdsep {} 2006}}%
+          {Berlin\bibbdsep {} 2006}}%
          {{Semantic Web}%
           {}{}{2}{}{}{}{}{}}%
         ]{pellegrini2006semantic}
  \jbbibargs {\bibnf {Pellegrini} {Tassilo} {T.} {} {}\Bibbtasep \bibnf
   {Blumauer} {Andreas} {A.} {} {}} {Tassilo PellegriniAndreas Blumauer} {aus}
   {sexless} {\bibapifont {Semantic Web}\bibatsep {} \bibJTsep \bibjtfont {Wege
-  zur vernetzten Wissensgesellschaft. Berlin [ua] Springer}  \artyearformat
-  {2006}} {\bibartperiodhowcited} \jbdoitem {{Pellegrini}{Tassilo}{T.}{}{};
+  zur vernetzten Wissensgesellschaft}  \artyearformat {2006}}
+  {\bibartperiodhowcited} \jbdoitem {{Pellegrini}{Tassilo}{T.}{}{};
   {Blumauer}{Andreas}{A.}{}{}} {} {} \bibAnnoteFile {pellegrini2006semantic}
 
 \backrefparscanfalse
@@ -1387,6 +1386,24 @@
   {{Sahle}{Patrick}{P.}{}{}} {{Jannidis}{Fotis}{F.}{}{};
   {Kohle}{Hubertus}{H.}{}{}; {Rehbein}{Malte}{M.}{}{}} {} \bibAnnoteFile
   {sahle2017dhedition}
+
+\backrefparscanfalse
+\bibitem[{Sarrafzadeh\jbbfsasep Vechtomova\jbbstasep Jokic\jbdy {2014}}%
+         {}%
+         {{0}{}{inproceedings}{2014}{}{}{}{S.135--144}%
+          {2014}}%
+         {{Exploring knowledge graphs for exploratory search}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{sarrafzadeh2014exploring}
+ \jbbibargs {\bibnf {Sarrafzadeh} {Bahareh} {B.} {} {}\Bibbfsasep \bibnf
+  {Vechtomova} {Olga} {O.} {} {}\Bibbstasep \bibnf {Jokic} {Vlado} {V.} {} {}}
+  {Bahareh SarrafzadehOlga VechtomovaVlado Jokic} {aus} {sexless} {\bibapifont
+  {Exploring knowledge graphs for exploratory search}\bibatsep {}
+  \incolledformat {}{}{\bibbtfont {Proceedings of the 5th Information
+  Interaction in Context Symposium}\bibatsep {} }{}{}   \apyformat {2014}
+  \jbPages{S.135--144}} {\bibhowcited} \jbdoitem
+  {{Sarrafzadeh}{Bahareh}{B.}{}{}; {Vechtomova}{Olga}{O.}{}{};
+  {Jokic}{Vlado}{V.}{}{}} {} {} \bibAnnoteFile {sarrafzadeh2014exploring}
 
 \backrefparscanfalse
 \bibitem[{Schmieder\jbbtasep Sokoll}%
@@ -1684,7 +1701,7 @@
 \backrefparscanfalse
 \bibitem[{Vogeler\jbdy {2018}}%
          {}%
-         {{1}{}{article}{2018}{}{}{}{S. 178--198}%
+         {{1}{}{article}{2018}{}{}{}{S.178--198}%
           {Universitätsbibliothek Graz\bibbdsep {} 2018}}%
          {{Religion aus Daten? : Zur digitalen Edition von religiösen
   Grundlagentexten}%
@@ -1692,9 +1709,9 @@
         ]{vogeler2018religion}
  \jbbibargs {\bibnf {Vogeler} {Georg} {G.} {} {}} {Georg Vogeler} {au}
   {sexless} {\bibapifont {Religion aus Daten? : Zur digitalen Edition von
-  religiösen Grundlagentexten}\bibatsep {}  \artyearformat {2018} \jbPages{S.
-  178--198}} {\bibartperiodhowcited} \jbdoitem {{Vogeler}{Georg}{G.}{}{}} {} {}
-  \bibAnnoteFile {vogeler2018religion}
+  religiösen Grundlagentexten}\bibatsep {}  \artyearformat {2018}
+  \jbPages{S.178--198}} {\bibartperiodhowcited} \jbdoitem
+  {{Vogeler}{Georg}{G.}{}{}} {} {} \bibAnnoteFile {vogeler2018religion}
 
 \backrefparscanfalse
 \bibitem[{Vogeler\jbdy {2019}}%

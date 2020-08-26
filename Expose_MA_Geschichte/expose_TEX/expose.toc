@@ -21,24 +21,25 @@
 \contentsline {subsubsection}{\numberline {3.2.1}The George Washington Financial Papers}{32}%
 \contentsline {subsubsection}{\numberline {3.2.2}Cameron Family Papers, Stagville Accounts}{34}%
 \contentsline {subsubsection}{\numberline {3.2.3}The Wheaton Accounts}{36}%
-\contentsline {section}{\numberline {4}Web of Data}{41}%
-\contentsline {subsection}{\numberline {4.1}Geschichte und Vision des \textit {Web of Data}}{41}%
-\contentsline {subsubsection}{\numberline {4.1.1}Kritik am \textit {Web of Data}}{42}%
-\contentsline {subsection}{\numberline {4.2}Web of Data Stack}{44}%
-\contentsline {subsubsection}{\numberline {4.2.1}Daten als Graph: Resource Description Framework}{45}%
-\contentsline {subsubsection}{\numberline {4.2.2}Klassen und Beziehungen: Resource Description Framework Schema (RDFs)}{48}%
-\contentsline {subsubsection}{\numberline {4.2.3}Abfragesprache: SPARQL}{50}%
-\contentsline {subsection}{\numberline {4.3}Formalisierung von Modellen: Ontologien}{51}%
-\contentsline {subsubsection}{\numberline {4.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{51}%
-\contentsline {subsubsection}{\numberline {4.3.2}OWL und Reasoning}{54}%
-\contentsline {section}{\numberline {5}Anwendung formaler Methoden auf Basis einer Ontologie}{55}%
-\contentsline {subsection}{\numberline {5.1}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{55}%
-\contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition und Web of Data}{58}%
-\contentsline {subsection}{\numberline {5.2}Die Bookkeeping-Ontology}{60}%
-\contentsline {subsubsection}{\numberline {5.2.1}Grundlagen}{60}%
-\contentsline {subsubsection}{\numberline {5.2.2}Beschreibung}{60}%
-\contentsline {subsubsection}{\numberline {5.2.3}Beispiel}{61}%
-\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung}{65}%
-\contentsline {subsubsection}{\numberline {5.3.1}Voraussetzungen}{65}%
-\contentsline {subsubsection}{\numberline {5.3.2}Multidimensionale Rechnungsb\IeC {\"u}cher \IeC {\textendash } Multiple Views und Interaktion}{67}%
-\contentsline {section}{\numberline {6}Zusammenfassung}{73}%
+\contentsline {section}{\numberline {4}Web of Data}{42}%
+\contentsline {subsection}{\numberline {4.1}Geschichte und Vision des \textit {Web of Data}}{42}%
+\contentsline {subsubsection}{\numberline {4.1.1}Kritik am \textit {Web of Data}}{43}%
+\contentsline {subsection}{\numberline {4.2}Web of Data Stack}{45}%
+\contentsline {subsubsection}{\numberline {4.2.1}Daten als Graph: Resource Description Framework}{46}%
+\contentsline {subsubsection}{\numberline {4.2.2}Klassen und Beziehungen: Resource Description Framework Schema (RDFs)}{49}%
+\contentsline {subsubsection}{\numberline {4.2.3}Abfragesprache: SPARQL}{51}%
+\contentsline {subsection}{\numberline {4.3}Formalisierung von Modellen: Ontologien}{52}%
+\contentsline {subsubsection}{\numberline {4.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{52}%
+\contentsline {subsubsection}{\numberline {4.3.2}Reasoning}{55}%
+\contentsline {section}{\numberline {5}Anwendung formaler Methoden auf Basis einer Ontologie}{56}%
+\contentsline {subsection}{\numberline {5.1}Digitale Edition von Historischen Rechnungsb\IeC {\"u}chern}{56}%
+\contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition und Web of Data}{59}%
+\contentsline {subsection}{\numberline {5.2}Die Bookkeeping-Ontology}{61}%
+\contentsline {subsubsection}{\numberline {5.2.1}Grundlagen}{61}%
+\contentsline {subsubsection}{\numberline {5.2.2}Beschreibung}{61}%
+\contentsline {subsubsection}{\numberline {5.2.3}Beispiel}{62}%
+\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung}{67}%
+\contentsline {subsubsection}{\numberline {5.3.1}Voraussetzungen}{67}%
+\contentsline {subsubsection}{\numberline {5.3.2}Multidimensionale Rechnungsb\IeC {\"u}cher \IeC {\textendash } Multiple Views und Interaktion}{69}%
+\contentsline {subsubsection}{\numberline {5.3.3}Informationsvisualisierung und Web of Data}{73}%
+\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{75}%
