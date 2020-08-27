@@ -608,16 +608,30 @@
 \backrefparscanfalse
 \bibitem[{Hardtwig\jbdy {1990}}%
          {}%
-         {{0}{}{book}{1990}{}{}{}{}%
-          {München\bibbdsep {} 1990}}%
+         {{1}{}{book}{1990\el {a}}{}{}{}{}%
+          {München\bibbdsep {} 1990\el {a}}}%
          {{Geschichtskultur und Wissenschaft}%
           {}{}{2}{}{}{}{}{}}%
         ]{hardtwig1990geschichtskultur}
  \jbbibargs {\bibnf {Hardtwig} {Wolfgang} {W.} {} {}} {Wolfgang Hardtwig} {au}
   {sexless} {\bibtfont {Geschichtskultur und Wissenschaft}\bibatsep {}
-  \apyformat {\jbpublisher{München\bibbdsep {}} 1990}} {\bibhowcited}
-  \jbdoitem {{Hardtwig}{Wolfgang}{W.}{}{}} {} {} \bibAnnoteFile
+  \apyformat {\jbpublisher{München\bibbdsep {}} 1990\bibel {a}}}
+  {\bibhowcited} \jbdoitem {{Hardtwig}{Wolfgang}{W.}{}{}} {} {} \bibAnnoteFile
   {hardtwig1990geschichtskultur}
+
+\backrefparscanfalse
+\bibitem[{Hardtwig\jbdy {1990}}%
+         {}%
+         {{1}{}{book}{1990\el {b}}{}{}{}{}%
+          {Deutscher Taschenbuch Verlag\bibbdsep {} 1990\el {b}}}%
+         {{{\"U}ber das Studium der Geschichte}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{hardtwig1990studium}
+ \jbbibargs {\bibnf {Hardtwig} {Wolfgang} {W.} {} {}} {Wolfgang Hardtwig} {au}
+  {sexless} {\bibtfont {{\"U}ber das Studium der Geschichte}\bibatsep {}
+  \apyformat {\jbpublisher{Deutscher Taschenbuch Verlag\bibbdsep {}} 1990\bibel
+  {b}}} {\bibhowcited} \jbdoitem {{Hardtwig}{Wolfgang}{W.}{}{}} {} {}
+  \bibAnnoteFile {hardtwig1990studium}
 
 \backrefparscanfalse
 \bibitem[{Hiltmann\jbdy {2018}}%
