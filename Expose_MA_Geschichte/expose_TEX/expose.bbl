@@ -451,6 +451,25 @@
   {{Ficara}{Elena}{E.}{}{}} {} {} \bibAnnoteFile {ficara2015hermeneutik}
 
 \backrefparscanfalse
+\bibitem[{Fickers\jbdy {2020}}%
+         {Zeithistorische Forschungen, \Numbername~1, \volname~17, \jbsy
+  {2020}}%
+         {{0}{}{article}{2020}{}{}{}{S.157--168}%
+          {Vandenhoeck u. Ruprecht\bibbdsep {} 2020}}%
+         {{Update f{\"u}r die Hermeneutik. Geschichtswissenschaft auf dem Weg
+  zur digitalen Forensik?}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{fickers2020update}
+ \jburldef {fickers2020update}{http://hdl.handle.net/10993/44086}%
+ \jbbibargs {\bibnf {Fickers} {Andreas} {A.} {} {}} {Andreas Fickers} {au}
+  {sexless} {\bibapifont {Update f{\"u}r die Hermeneutik.
+  Geschichtswissenschaft auf dem Weg zur digitalen Forensik?} \bibJTsep
+  \bibjtfont {Zeithistorische Forschungen}\ajtsep {}  \artvolumeformat {17}
+  \artyearformat {2020}\artnumberformat {1} \jbPages{S.157--168} \jburluse
+  {fickers2020update}} {\bibartperiodhowcited} \jbdoitem
+  {{Fickers}{Andreas}{A.}{}{}} {} {} \bibAnnoteFile {fickers2020update}
+
+\backrefparscanfalse
 \bibitem[{F{\"o}hr\jbdy {2017}}%
          {}%
          {{0}{}{phdthesis}{2017}{}{}{}{}%

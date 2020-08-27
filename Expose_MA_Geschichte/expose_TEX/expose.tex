@@ -103,7 +103,7 @@ Die Dokumentation ökonomischer Abhängigkeiten zwischen Akteuren stellt eine de
 \\
 Die Beschreibung einer solchen semantischen Struktur kann durch ein konzeptuelles Modell erfolgen. Die Anwendung formaler Methoden unter Berücksichtigung eines solchen Modells, kann als Grundlage dafür dienen, Interpretationen der Vergangenheit -- ''\textit{wie es den gewesen sein könnte}''\footcite[][S.159]{thaller2017ungefahre} -- mit einer gewissen Datengrundlage zu untermauern. Auf dieser Datengrundlage, die stets offen und nachvollziehbar, sowie in die fachwissenschaftliche Diskussion eingebettet sein muss und deswegen ein konzeptuelles Modell benötigt,  können die Interpretationen der Historiker*innen fußen. Die Rekonstruktion, Interpretation und die Einbindung dieser Erkenntnisse in gegenwärtige Diskussion ist die eigentliche Arbeit der Geschichtswissenschaft.
 \\
-
+\\
 Ziel dieser Arbeit ist eine theoretische und pragmatische Auseinandersetzung mit den Herausforderungen und Möglichkeiten, die formale -- und somit auch digitale -- Methoden und Modelle in der Geschichtswissenschaft mit sich bringen. Der praktische Anteil dieser Arbeit bezieht sich auf die Anwendung formaler Methoden auf semantisch angereicherte digitale Editionen von historischen Rechnungsbüchern in einem konkreten Projektkontext. Dieser Projektkontext -- \textit{Digital Edition Publishing Cooperative for Historical Accounts} (DEPCHA)\footnote{NHPRC-Mellon Implementation Grants: Digital Edition Publishing Cooperatives, \url{archives.gov/nhprc/announcement/depc}. Finanziert durch The Andrew W. Mellon Foundation \url{ mellon.org} 05.06.2019.} -- umfasst eine Kooperation von Partnern aus der USA, koordiniert durch das \textit{Wheaton College Massachusetts}, dem \textit{Center for Digital Editing} der University of Virginia und dem \textit{Zentrum für Informationsmodellierung} (ZIM) der Universität Graz. Es setzt sich zum Ziel eine Publikationsplattform für digitale Editionen historischer Rechnungsbücher zu entwickeln und umzusetzen. Eine Herausforderung in diesem Projekt umfasst die Diskussion und Zusammenführung quantitativer und qualitativer Herangehensweisen von Historiker*innen an Forschungsfragen in den Geschichtswissenschaften. Einen zentralen Stellenwert darin hat die sogenannte \textit{Bookkeeping Ontology}, die als konzeptuelles Modell die semantische Struktur von Rechnungsunterlagen beschreibt und im Sinn des \textit{Web of Data} (aka. Semantic Web) implementiert ist.
 \\
 \\
@@ -170,7 +170,9 @@ Am ersten August des Jahres 1808 hat ein gewisser \textit{James Haley} 1/4 Pfund
 \\
 Damit diese Datengrundlage ausreichend groß ist und Aussagen nicht nur auf Ausschnitte eines Quellenkorpus reduziert sind, ist es notwendig, formale Verfahren zur Erschließung, Veröffentlichung und Analyse zu verwenden. Auf historische Rechnungsbücher bezogen, können so Berechnungen angestellt werden, die zeigen, wie sich etwa der Preis einer Ware über eine bestimmte Zeitspanne entwickelt hat, oder welche Waren von welchen Akteuren gekauft und verkauft werden. Die Menge an unterschiedlichen Fragestellungen ist groß und wird in Kapitel drei weiter veranschaulicht. Setzt man diese ''historischen Fakten'' aus der Quelle in einen größerer historischen Zusammenhang und als Diskussionsbeitrag in die fachwissenschaftliche Diskussion, beginnt die ''klassische'' Arbeit von Historiker*innen. 
 \\
+\\
 Im Mittelpunkt dieses Kapitels steht eine Diskussion über \textbf{Theorien und Methoden der Geschichtswissenschaften} und einer darauf aufbauenden Auseinandersetzung mit der Entwicklung der Anwendung formaler Verfahren innerhalb des Faches. Es wird der Frage nachgegangen, welche theoretischen und methodischen Herangehensweisen sich in den Geschichtswissenschaften etabliert haben. So stellt sich beispielsweise die Frage was man als ''historische Fakten'' verstehen kann und wie man sie nachvollziehbar, ohne die Quellen zu verzerren, algorithmisch verarbeiten kann. Bereits in den 1980er Jahren hat man sich im Fachbereich \textit{Historische Fachinformatik} mit diesen Fragen beschäftigt.
+\\
 \\
 Getrieben von einer analytischen Geschichtswissenschaft, in der die Theoriebildung ein zentrales Moment ist, wird die Anwendung formaler und computergestützter Verfahren zur Verarbeitung von Quellen und eine methodische Diskussion darüber immer wichtiger. Aus den Sozialwissenschaften kommend, in der \textbf{Historischen Fachinformatik} im Selbstverständnis einer Hilfswissenschaft weiterentwickelt, erleben formale Methoden eine neue Renaissance. Die \textbf{Digital Humanities} und die \textbf{Digital History} sind zwei Begriffe die dafür stehen. Ein Kernaspekt dieser fachlichen Ausrichtungen ist die Erarbeitung und Anwendung von Modellen, um \textbf{historische Forschungsdaten} sinnvoll in eine nutzbare  Struktur überführen zu können. So setzt sich dieses Kapitel auch mit einer grundlegenden Erörterung der \textbf{Modelltheorie} und Modellbildung in den Geisteswissenschaften bzw. Geschichtswissenschaften auseinander.
 
@@ -187,7 +189,14 @@ Der vermehrte Einsatz formaler Verfahren zur Erschließung, Auswertung und Darst
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Geschichte und Geschichtswissenschaft: eine Definition}
-Gegenstandsbereich der \textbf{Geschichte} ist das Handeln der Menschen in der Vergangenheit. Dieses Handeln ist aber für niemanden mehr erlebbar, sondern muss über Belege der Vergangenheit, den Quellen, ob als Überrest oder Tradition, rekonstruiert werden. Die Unterscheidung erfolgt nach DROYSEN zwischen ''unabsichtlich'' erzeugten Überresten, wie etwa ein Kleidungsstück, das bei einer archäologischen Ausgrabung gefunden wurde, und absichtlich überlieferten Quellen, wie etwa ein Denkmal. Letztere werden als Tradition verstanden.\footcite[][49–55]{schulz2010neuere} Bei dieser Einteilung handelt es sich aber um ein Ideal, da für eine genaue Zuordnung das Wissen über die Intention der Schöpfer notwendig wäre. 
+\textcolor{red}{
+''\textit{Die Geschichte ist das Wissen der Menschen von sich, ihre Selbstgewißheit}''\footcite[][S.111]{hardtwig1990studium}
+\\
+\\
+Dieser Satz von DROYSEN bringt die Aufgabe von Geschichte auf den Punkt: so wie jedes Individuum sich selbst gewahr ist, so ist der Gegenstandsbereich der \textbf{Geschichte} das Handeln der Menschen in der Vergangenheit. Ein Handeln, das jeden einzelnen und die Gemeinschaft erst zu dem gemacht hat was sind sind.
+\\
+}
+Dieses Handeln ist aber für niemanden mehr erlebbar, sondern muss über Belege der Vergangenheit, den Quellen, ob als Überrest oder Tradition, rekonstruiert werden. Die Unterscheidung erfolgt nach DROYSEN zwischen ''unabsichtlich'' erzeugten Überresten, wie etwa ein Kleidungsstück, das bei einer archäologischen Ausgrabung gefunden wurde, und absichtlich überlieferten Quellen, wie etwa ein Denkmal. Letztere werden als Tradition verstanden.\footcite[][49–55]{schulz2010neuere} Bei dieser Einteilung handelt es sich aber um ein Ideal, da für eine genaue Zuordnung das Wissen über die Intention der Schöpfer notwendig wäre. 
 \\
 \\
 KIRN führt in seinem Einführungswerk in die Geschichtswissenschaft mehrere Definitionen des Begriffes Geschichte an. Wo HELLPACH über ''\textit{die bewußte Gestaltung menschlichen Gemeinschaftslebens aus schöpferischem Willen}'' spricht und die menschliche Handlung in den Vordergrund stellt, ist es für HUIZINGA, aus dem Verständnis von Geschichtswissenschaft als Kulturgeschichte, ''\textit{die geistige Form, in der sich eine Kultur über ihre Vergangenheit Rechenschaft gibt}''. Zentral in dieser Menge an Definitionen und Zugängen zur Geschichte ist, dass es sich um die wissenschaftliche Darstellung des Vergangenen handelt.\footcite[][S.7-12]{KirnPaul2015EidG} Zweiter zentraler Aspekt ist, dass der Mensch als gesellschaftliches und kulturelles Wesen etwas über sich selbst, seine vergangenen Gesellschaft- und Kulturformen wissen möchte. Man könnte es als einen Akt der kollektiven Selbstreflexion verstehen. Jedenfalls ist der Begriff mehrdeutig. Geschichte kann als Vergangenheit, Geschichtsforschung oder Geschichtsschreibung verstanden werden. Geschichtsschreibung als Produkt der Geschichtsforschung liegt üblicherweise als Narrativ über vergangene Ereignisse vor. Sie ist jedoch nicht auf die Textform beschränkt, sondern kann auch in anderer Form vorliegen. Dies umfasst mündliche, wie bildliche Überlieferungen oder sämtliche Schöpfungen, die von Menschen erbracht wurden, um in einen Kommunikationsprozess einzutreten.\footcite[][S.5-7]{frank2018visualisierungswerkzeuge}
@@ -206,7 +215,11 @@ Zwei grundlegende Strömungen in der Erkenntnis- und Wissenschaftstheorie sind w
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Hermeneutik}
-
+\textcolor{red}{
+''\textit{Hermeneutik ist das Nachdenken darüber, wie Wissen zustande kommt und wie es plausibel vermittelt werden kann}''\footnote{Digitale Hermeneutik - Ein Update für das kritische Denken in den Geisteswissenschaften, \url{https://tinyurl.com/y3opg5bs}, 27.08.2020}
+}
+\\
+\\
 Bei der Hermeneutik handelt es sich um eine Theorie der Interpretation und des Verstehens von Texten, die nicht nur auf die Geschichtswissenschaft angewendet wird, sondern auf viele geisteswissenschaftliche oder rechtswissenschaftliche Fächer.
 DILTHEY betont, ''\textit{dass das Verstehen [...] die spezifische Operation der Geisteswissen darstellt.}\footcite[][S.82]{ficara2015hermeneutik}
 \\
@@ -239,8 +252,8 @@ Wissenschaften, die Sachverhalte und Objekte der Welt durch Experimente im Labor
 Oder anders formuliert: Schlussfolgerung vom Allgemeinen auf das Besondere und umgekehrt. Für die Geschichtswissenschaften bedeutet das ausgehend von einer Forschungsfrage verschaffen sich so Historiker*innen einen kritischen Überblick über  vorhandenes Quellenmaterial, entwickeln eine These und überprüfen diese anhand des Materials.\footcite[][S.45-46]{jordan2018theorien}
 \begin{figure}[H]
 \centering
-	\includegraphics[width=0.85\textwidth]{img/emprisimus.png}  
-    \caption[Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften, \protect\url{de.wikipedia.org/wiki/Empirie}, 09.11.2019.]{Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften} \label{fig:empirismus}
+	\includegraphics[width=0.8\textwidth]{img/emprisimus.png}  
+    \caption[Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften, de.wikipedia.org/wiki/Empirie, 09.11.2019.]{Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften} \label{fig:empirismus}
 \end{figure}
 In der Geschichtswissenschaft werden Textquellen mittels hermeneutischer Methoden interpretiert. Jedoch kann die Geschichtswissenschaft auch als empirische Wissenschaft verstanden werden. Nämlich dann, wenn sie empirische Daten, aus den überlieferten und erschlossenen (edierten) Quellen, im Rahmen einer Hypothese hinsichtlich einer historischen Rekonstruktion der Vergangenheit heranzieht. Wichtig ist zu berücksichtigen, dass es keine absolute Reproduktion der Ergebnisse geben kann, keine Experimente möglich sind und es sich immer um einmalige Untersuchungsgegenstände handelt und damit eine Generalisierung der Art ''immer wenn A eintritt, dann folgt B'' unmöglich ist. Vertreter einer einheitswissenschaftlichen Position wie HEMPEL aber definieren die Geschichtswissenschaft als Gesetzwissenschaft\footcite[][S.79-80]{nussel2018offenbarung}, wohingegen DILTHEY und WRIGHT den besonderen Charakter hermeneutisch vorgehender Wissenschaften hervorheben. Sie setzen sich gegen eine ''blinde'' Übernahme naturwissenschaftlicher Erkenntnismodelle auf die Geistes-- und Sozialwissenschaften ein. Das Verhältnis dieser beiden wissenschaftlichen Ausrichtungen ist bis heute kontrovers.\footcite{wellmer1979georg}
 \\
@@ -359,7 +372,7 @@ Weiters gibt es eine Einteilung in nicht-formale (informelle), semiformale und f
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{img/fernrohr.png}  
-    \caption[Nichteindeutigkeit nicht-formaler Modelle, KÖNIG Bettina: Vorlesung ''Modellierungsmethoden der Informatik'', \protect\url{ti.inf.uni-due.de/fileadmin/public/teaching/mod/slides/ws201112/einfuehrung.pdf}, 10.06.2019]{Nichteindeutigkeit nicht-formaler Modelle}\label{fig:fernrohr}
+    \caption[Nichteindeutigkeit nicht-formaler Modelle, KÖNIG Bettina: Vorlesung ''Modellierungsmethoden der Informatik'', ti.inf.uni-due.de 10.06.2019]{Nichteindeutigkeit nicht-formaler Modelle}\label{fig:fernrohr}
 \end{figure} 
 Ein \textbf{semiformales Modell} ist teilweise exakt. Es verfügt über eine definierte Syntax, spezifiziert aber nicht die ganze Domäne und verfügt über keine semantischen Konstruktionsregeln. Umsetzen lassen sich solche Modelle beispielsweise mit dem Entity-Relationship-Modell (ER-Diagramm), das anschließend ausführlicher beschrieben wird.
 \\
@@ -394,7 +407,7 @@ In der Modellierung, auf einer konzeptuellen Ebene, ist es notwendig die im Bezu
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.9\textwidth]{img/uml.png}  
-    \caption[Beispiel für ein Klassendiagramm nach UML, \protect\url{de.wikipedia.org/wiki/Unified_Modeling_Language}, 10.06.2019]{Beispiel für ein Klassendiagramm nach UML}\label{fig:uml}
+    \caption[Klassendiagramm nach UML, de.wikipedia.org/wiki/UML, 10.06.2019]{Beispiel für ein Klassendiagramm nach UML}\label{fig:uml}
 \end{figure} 
 Es existiert eine Klasse \textit{Kunden}, die wiederum zwei Unterklassen \textit{Privatkunde} und \textit{Geschäftskunde} besitzt. Die beiden Unterklassen (weißer Pfeil definiert 'hat Superklasse') unterscheiden sich in ihren unterschiedlichen Attributen. Wo die \textit{Privatkunde}-Klasse aus \textit{vorname} und \textit{nachname} vom Datentyp \textit{string} zusammengestellt wird, verfügt der \textit{Geschäftskunde} über das Attribut \textit{firmenname}. Die Linien zwischen den Klassen definieren Relationen und die daneben stehenden Zahlwerte und Symbole die Kardinalität dieser Beziehungen. So hat eine Instanz aus der Klasse \textit{Privatkunde} eine Relation \textit{postAdresse} zu einer Klasse \textit{Adresse}, aber eine Adresse kann mit mehreren Privatkunden verknüpft sein.\footcite[][S.99-108]{jannidis2017digital} 
 \\
@@ -680,7 +693,7 @@ In Abbildung \ref{fig:webstack} werden die Technologien und Standards des \texti
 \begin{figure}[h]
   \centering
 	\includegraphics[width=0.7\textwidth]{img/web_stack.png}  
-    \caption[Semantic Web Stack, \protect\url{en.wikipedia.org/wiki/Semantic_Web_Stack}, 29.12.2019.]{Semantic Web Stack}
+    \caption[Semantic Web Stack, en.wikipedia.org/wiki/Semantic\_Web\_Stack, 29.12.2019.]{Semantic Web Stack}
   	\label{fig:webstack}
 \end{figure}
 Es gibt unterschiedliche Darstellungen dieses Stacks, dennoch zeigt diese Version alle grundlegende Konzepte. Der \textit{Web of Data Stack} ist von unten nach oben zu lesen. In den Kästchen in denen eine Abkürzung, wie URI oder RDF, angeführt werden, sind Technologien bereits im Einsatz. Die Themen \textit{Trust}, \textit{Proof} etc. sind noch Bestandteil gegenwärtiger Forschung. Grob zusammengefasst beschreiben diese Konzepte, wie eine vertrauenswürdige und 'wahre' Kommunikation zwischen Akteuren im \textit{Web of Data}, sowie die Verschlüsselung und Anwendung sichergestellt werden kann. 
@@ -1168,18 +1181,22 @@ Gemeinsam haben alle diese Projekte, dass der Ausgangspunkt für die Visualisier
 \\
 \\
 Es veranschaulicht, welche Ziele und Herausforderungen mit Methoden der Informationsvisualisierung einhergehen. Dabei handelt es sich um ein starke Werkzeug, um bestimmte Inhalte in Sammlungen von historischen Quellen, beispielsweise Rechnungsbüchern, hervorzuheben. Es muss aber auf vielen Ebenen gut durchdacht sein, damit die vergangene ''Wirklichkeit'' nicht verzerrt wird. Von der Forschungsfrage (was soll gezeigt werden), der Darstellung (wie wird es dargestellt), den Daten (woraus wird es erzeugt), sowie der Interaktion damit (was kann ich damit tun) bedarf eines durchdachten Plans. Darstellungen dürfen nicht zu speziell sein und etwas repräsentieren, das nur für eine einzige Forschungsfrage bzw. einzelnes Rechnungsbuch von Interesse ist, dürfen aber auch nicht zu allgemein sein, sodass daraus keine generischen Lösungen ableitbar sind.
-\\
-\\
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \section{Zusammenfassung und Ausblick}
 
 \textcolor{red}{
-Die Gegebenheiten der Wissensproduktion in der Gesichtsforschung haben sich auf Grund der Digitalisierung gewandelt und beeinflussen wie Geschichte gedacht, erarbeitet und interpretiert wird. Computergestützte Methoden zur Analyse, sowie die Zurverfügungstellung der digitalisierten Quellen, erlauben neue Blicke und neue Möglichkeiten mit den Quellen zuarbeiten. Aber Digitalisierung ist vielmehr ein mächtiges Werkzeug, das die Arbeit mit größeren Datenmengen effizienter gestaltet, nicht aber ein Paradigmenwechsel in den Geschichtswissenschaften.\footcite[][]{koenig2020archive}
+Die Gegebenheiten der Wissensproduktion in der Gesichtsforschung haben sich auf Grund der Digitalisierung gewandelt und beeinflussen wie Geschichte gedacht, erarbeitet und interpretiert wird. Computergestützte Methoden zur Analyse, sowie die Zurverfügungstellung der digitalisierten Quellen, erlauben neue Blicke und neue Möglichkeiten mit den Quellen zuarbeiten. Aber Digitalisierung ist vielmehr ein mächtiges Werkzeug, das die Arbeit mit größeren Datenmengen effizienter gestaltet, nicht aber ein Paradigmenwechsel in den Geschichtswissenschaften.\footcite[][]{koenig2020archive} 
 \\
-In seinem ''Grundriß der Historik'', gibt DROYSEN einen alten, aber immer noch prägenden Überblick über die Geschichtswissenschaft. In der Arbeit mit formalem, digitalen Methoden und Modellen, sowie Informationssystemen für die Geschichtswissenschaft, erscheinen immer noch die Überlegungen DROYSENS sehr relevant. Das historische Denken und Forschen eingeteilt in Heuristik, Kritik, Interpretation und Topik, sprich die Formen der Darlegung der Ergebnisse aus der historischen Forschung, lassen sich auch nach wie vor heute finden. \footcite[][S.85-116]{hardtwig1990studium}
+In seinem ''Grundriß der Historik'', gibt DROYSEN einen Überblick über die Methoden der Geschichtswissenschaft. In der Arbeit mit formalem, digitalen Methoden und Modellen, sowie Informationssystemen für die Geschichtswissenschaft, erscheinen immer noch die Überlegungen DROYSENS sehr relevant. Das historische Denken und Forschen eingeteilt in Heuristik, Kritik, Interpretation und Topik (Formen der Darlegung der Ergebnisse) lassen sich nach wie vor heute finden. \footcite[][S.85-116]{hardtwig1990studium}
+\\
+Auch FICKERS führt diese vier grundlegenden Arbeitsschritte an, sieht aber, dass der Einfluss der Digitalisierung auf die Entwicklung neuartiger Problemstellungen noch offen ist. Weiter führt FICKERS an: ''\textit{Die suggerierte Objektivität, die mit diesen Darstellungen von Informationen [z.B.  Visualisierungen] einhergeht, gilt es zu dekonstruieren. Zur digitalen Hermeneutik gehört deshalb auch eine digitale Werkzeugkritik.}''\footnote{Digitale Hermeneutik - Ein Update für das kritische Denken in den Geisteswissenschaften, \url{https://www.science.lu/de/forschungstrends/digitale-hermeneutik-ein-update-fuer-das-kritische-denken-den-geisteswissenschaften}, 27.08.2020} 
+Oder eben eine geschichtswissenschaftliche Datenkritik, wie er es nennt.\footcite[][S.2]{fickers2020update}
+\\
+\\
+Die arbeit an der Bookkeeping.Ontology soll genau ein Mittel sein, um dei Wekzeugkritik nachvollziehbar zu machen.
+\\
 \\
 Betrachtet man beispielsweise die Beschreibung der Heuristik bei DROYSEN, so lässt sich vieles davon auf die heutige Arbeit ummünzen. ''Die Kunst der Heuristik ist, das historische Material zu erweitern und zu ergänzen, und zwar:''\footcite[][S.96]{hardtwig1990studium}
 }
