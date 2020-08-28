@@ -143,6 +143,26 @@
   {Noy}{Natalya}{N.}{}{}} {} {} \bibAnnoteFile {bernstein2016new}
 
 \backrefparscanfalse
+\bibitem[{de~Boer\jbbfsasep Merono~Penuela\jbbstasep Ockeloen\jbdy {2016}}%
+         {Anejos de la Revista de Historiograf{\'\i}a, \Numbername~4, \jbsy
+  {2016}}%
+         {{0}{}{article}{2016}{}{}{}{S.139--162}%
+          {2016}}%
+         {{Linked data for digital history: lessons learned from three case
+  studies}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{de2016linked}
+ \jbbibargs {\bibnf {Boer} {V{\'\i}ctor} {V.} {de} {}\Bibbfsasep \bibnf
+  {Merono~Penuela} {A} {A.} {} {}\Bibbstasep \bibnf {Ockeloen} {CJ} {C.} {} {}}
+  {V{\'\i}ctor de BoerA Merono~PenuelaCJ Ockeloen} {aus} {sexless} {\bibapifont
+  {Linked data for digital history: lessons learned from three case
+  studies}\bibatsep {} \bibJTsep \bibjtfont {Anejos de la Revista de
+  Historiograf{\'\i}a}\ajtsep {}  \artyearformat {2016}\artnumberformat {4}
+  \jbPages{S.139--162}} {\bibartperiodhowcited} \jbdoitem
+  {{Boer}{V{\'\i}ctor}{V.}{de}{}; {Merono~Penuela}{A}{A.}{}{};
+  {Ockeloen}{CJ}{C.}{}{}} {} {} \bibAnnoteFile {de2016linked}
+
+\backrefparscanfalse
 \bibitem[{Borst\jbdy {1997}}%
          {}%
          {{0}{}{phdthesis}{1997}{}{}{}{}%
@@ -577,6 +597,19 @@
   {{Gleba}{Gudrun}{G.}{}{}; {Petersen}{Niels}{N.}{}{}}
   {{Gleba}{Gudrun}{G.}{}{}; {Petersen}{Niels}{N.}{}{}} {} \bibAnnoteFile
   {gleba2015einleitung}
+
+\backrefparscanfalse
+\bibitem[{Gottfried}%
+         {}%
+         {{0}{}{book}{}{}{}{}{}%
+          {Oldenbourg}}%
+         {{Fakten oder Fiktion? Zum Erkenniswert der Geschichte}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{Gabriel2013fakten}
+ \jbbibargs {\bibnf {Gottfried} {Gabriel} {G.} {} {}} {Gabriel Gottfried} {au}
+  {sexless} {\bibtfont {Fakten oder Fiktion? Zum Erkenniswert der
+  Geschichte}\bibatsep {} Oldenbourg} {\bibhowcited} \jbdoitem
+  {{Gottfried}{Gabriel}{G.}{}{}} {} {} \bibAnnoteFile {Gabriel2013fakten}
 
 \backrefparscanfalse
 \bibitem[{Graham\jbbfsasep Milligan\jbbstasep Weingart\jbdy {2015}}%
@@ -1676,6 +1709,20 @@
   {2013}\artnumberformat {6}} {\bibartperiodhowcited} \jbdoitem
   {{Tomasek}{Kathryn}{K.}{}{}; {Bauman}{Syd}{S.}{}{}} {} {} \bibAnnoteFile
   {tomasek2013encoding}
+
+\backrefparscanfalse
+\bibitem[{Ute}%
+         {}%
+         {{0}{}{book}{}{5}{}{}{}%
+          {Frankfurt am Main}}%
+         {{Kompendium Kulturgeschichte. Theorien, Praxis, Schlüsselwörter}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{daniel2006kulurgeschichte}
+ \jbbibargs {\bibnf {Ute} {Daniel} {D.} {} {}} {Daniel Ute} {au} {sexless}
+  {\bibtfont {Kompendium Kulturgeschichte. Theorien, Praxis,
+  Schlüsselwörter}\bibatsep {} \jbedition {\fifthedname~\editionname
+  {}\jbaensep} Frankfurt am Main} {\bibhowcited} \jbdoitem
+  {{Ute}{Daniel}{D.}{}{}} {} {} \bibAnnoteFile {daniel2006kulurgeschichte}
 
 \backrefparscanfalse
 \bibitem[{Vajda\jbbfsasep Merrell\jbbstasep Smith\jbdy {2019}}%

@@ -13,7 +13,7 @@ Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 12192 items.
+Reallocating 'field_info' (item size: 4) to 12378 items.
 Database file #1: literatur.bib
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--No address in berners2004uniform
@@ -26,6 +26,7 @@ Warning--Empty pages in cummings2013text
 Warning--Empty pages in demand2011philosophie
 Warning--Empty pages in frank2018visualisierungswerkzeuge
 Warning--Empty pages in frommergrundbegriffe
+Warning--There's only a publisher (no address, no year) in Gabriel2013fakten
 Warning--Empty pages in w3c2013sparql
 Warning--Empty booktitle in hiltman2018forschungsdaten
 Warning--No address in hiltman2018forschungsdaten
@@ -48,49 +49,50 @@ Warning--Empty pages in stachowiak1973allgemeine
 Warning--Empty pages in stertzer2014working
 Warning--Empty pages in sure2003methodology
 Warning--Empty pages in tomasek2013encoding
+Warning--There's only a publisher (no address, no year) in daniel2006kulurgeschichte
 Warning--Empty pages in vajda2019toward
 Warning--No address in vogeler2015mittelalterliche
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
-You've used 116 entries,
+You've used 119 entries,
             8453 wiz_defined-function locations,
-            2053 strings with 30322 characters,
-and the built_in function-call counts, 123035 in all, are:
-= -- 8703
-> -- 3912
-< -- 352
-+ -- 1376
-- -- 1237
-* -- 13728
-:= -- 17258
+            2068 strings with 30755 characters,
+and the built_in function-call counts, 126247 in all, are:
+= -- 8928
+> -- 4011
+< -- 367
++ -- 1409
+- -- 1267
+* -- 14053
+:= -- 17702
 add.period$ -- 0
-call.type$ -- 116
-change.case$ -- 555
-chr.to.int$ -- 187
-cite$ -- 297
-duplicate$ -- 6547
-empty$ -- 13113
-format.name$ -- 4003
-if$ -- 25411
+call.type$ -- 119
+change.case$ -- 571
+chr.to.int$ -- 205
+cite$ -- 305
+duplicate$ -- 6724
+empty$ -- 13458
+format.name$ -- 4100
+if$ -- 26108
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 727
-newline$ -- 1180
-num.names$ -- 963
-pop$ -- 2599
+missing$ -- 747
+newline$ -- 1210
+num.names$ -- 987
+pop$ -- 2671
 preamble$ -- 1
-purify$ -- 546
+purify$ -- 560
 quote$ -- 0
-skip$ -- 4661
+skip$ -- 4791
 stack$ -- 0
-substring$ -- 4162
-swap$ -- 3135
+substring$ -- 4269
+swap$ -- 3223
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2449
-warning$ -- 37
-while$ -- 1102
+type$ -- 2506
+warning$ -- 39
+while$ -- 1128
 width$ -- 0
-write$ -- 4674
-(There were 37 warnings)
+write$ -- 4784
+(There were 39 warnings)
