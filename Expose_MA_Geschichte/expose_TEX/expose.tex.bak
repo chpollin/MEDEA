@@ -1218,40 +1218,35 @@ Es veranschaulicht, welche Ziele und Herausforderungen mit Methoden der Informat
 \section{Zusammenfassung und Ausblick}
 
 \textcolor{red}{
-Die Gegebenheiten der Wissensproduktion in der Gesichtsforschung haben sich auf Grund der Digitalisierung gewandelt und beeinflussen wie Geschichte gedacht, erarbeitet und interpretiert wird. Computergestützte Methoden zur Analyse, sowie die Zurverfügungstellung der digitalisierten Quellen, erlauben neue Blicke und neue Möglichkeiten mit den Quellen zuarbeiten. Aber Digitalisierung ist vielmehr ein mächtiges Werkzeug, das die Arbeit mit größeren Datenmengen effizienter gestaltet, nicht aber ein Paradigmenwechsel in den Geschichtswissenschaften.\footcite[][]{koenig2020archive} 
+Die Gegebenheiten der Wissensproduktion in der Gesichtsforschung haben sich auf Grund der Digitalisierung gewandelt und beeinflussen wie Geschichte gedacht, erarbeitet und interpretiert wird. Computergestützte Methoden zur Analyse, sowie die Zurverfügungstellung der digitalisierten Quellen, erlauben neue Perspektiven im Umgang mit historischen Quellen. Aber Digitalisierung ist vielmehr ein mächtiges Werkzeug, das die Arbeit mit größeren Datenmengen effizienter gestaltet, nicht aber ein Paradigmenwechsel in den Geschichtswissenschaften.\footcite[][]{koenig2020archive} 
 \\
-In seinem ''Grundriß der Historik'', gibt DROYSEN einen Überblick über die Methoden der Geschichtswissenschaft. In der Arbeit mit formalem, digitalen Methoden und Modellen, sowie Informationssystemen für die Geschichtswissenschaft, erscheinen immer noch die Überlegungen DROYSENS sehr relevant. Das historische Denken und Forschen eingeteilt in Heuristik, Kritik, Interpretation und Topik (Formen der Darlegung der Ergebnisse) lassen sich nach wie vor heute finden. \footcite[][S.85-116]{hardtwig1990studium}
+\\
+In seinem ''Grundriß der Historik'', gibt DROYSEN einen Überblick über die Methoden der Geschichtswissenschaft. In der Arbeit mit formalem, digitalen Methoden und Modellen, sowie Informationssystemen für die Geschichtswissenschaft, erscheinen immer noch die Überlegungen DROYSENS sehr relevant. Das historische Denken und Forschen eingeteilt in Heuristik, Kritik, Interpretation und Topik (Formen der Darlegung der Ergebnisse) sind nach wie vor hessentieller Bestandteil der Geschichtswissenschaften. \footcite[][S.85-116]{hardtwig1990studium}
+\\
 \\
 Auch FICKERS führt diese vier grundlegenden Arbeitsschritte an, sieht aber, dass der Einfluss der Digitalisierung auf die Entwicklung neuartiger Problemstellungen noch offen ist. Weiter führt FICKERS an: ''\textit{Die suggerierte Objektivität, die mit diesen Darstellungen von Informationen [z.B.  Visualisierungen] einhergeht, gilt es zu dekonstruieren. Zur digitalen Hermeneutik gehört deshalb auch eine digitale Werkzeugkritik.}''\footnote{Digitale Hermeneutik - Ein Update für das kritische Denken in den Geisteswissenschaften, \url{https://www.science.lu/de/forschungstrends/digitale-hermeneutik-ein-update-fuer-das-kritische-denken-den-geisteswissenschaften}, 27.08.2020} 
 Oder eben eine geschichtswissenschaftliche Datenkritik, wie er es nennt.\footcite[][S.2]{fickers2020update}
 \\
 \\
-Die arbeit an der Bookkeeping.Ontology soll genau ein Mittel sein, um dei Wekzeugkritik nachvollziehbar zu machen.
-\\
-\\
-Betrachtet man beispielsweise die Beschreibung der Heuristik bei DROYSEN, so lässt sich vieles davon auf die heutige Arbeit ummünzen. ''Die Kunst der Heuristik ist, das historische Material zu erweitern und zu ergänzen, und zwar:''\footcite[][S.96]{hardtwig1990studium}
-}
+Betrachtet man beispielsweise die Beschreibung der Heuristik bei DROYSEN, so lässt sich vieles davon auf die heutige Arbeit ummünzen. ''\textit{Die Kunst der Heuristik ist, das historische Material zu erweitern und zu ergänzen, und zwar:}''\footcite[][S.96]{hardtwig1990studium}
 \begin{enumerate}[label=(\alph*)]
 \item ''durch divinatorisches Suchen und Entdecken;'' 
 \item ''durch Kombination, [...], durch richtige Einreihung [...]''
 \item ''durch Analogie [...]'' 
 \item ''durch Hypothese, deren Beweis die Evidenz des Ergebnisses ist [...]''
 \end{enumerate}
-\textcolor{red}{
-ToDo Gegenüberstellen von DROYSENS Heuristik mit Modell - Ontologie - INfomrationsvisualisierung - DEPCHA
+Die Arbeit im Projektkontext DEPCHA und an der \textit{Bookkeeping-Ontology} kann genau ein Mittel sein, um beispielsweise die Wekzeugkritik oder die Anforderungen der Heuristik, zumindest in Teilen, zu erleichtern bzw. zu ermöglichen. Die Bookkeeping-Ontology erlaubt es Transaktionen, also den Fluss von wirtschaftlichen Gütern und Geldbeträgen von einem Akteur zum anderen zu beschreiben.
 \\
 \\
-Die Bookkeeping-Ontology ist der Versuch der \textit{Kombination}, also der richtigen Einreihungen von Information in Quellen. 
+ Dabei bildet der iterative Prozess der Entwicklung eines Modelles im \textit{Onology Engineering} einen hermeneutischen Prozess, in dem sich beteiligte Fachexpertinnen mit einer geschichtswissenschaftlichen Forschungsfrage beschäftigen, Quellen sammeln, bearbeiten, Ergebnisse verwerfen und verfeinern. In diesem Prozess spiegelt sich die \textit{Analogie} wider. Transaktionsprozesse sind ein alltägliches Phänomen heute. Es fällt uns leicht diese ''natürliche'' Struktu  Am Ende dieses Prozesses steht ein maschinenlesbares Modell, das als Abbild eines Forschungsprozess verstanden werden kann. Die eigentlichen Entitäten, sprich Daten bzw. die kontextualisierte Information aus den Quellen sind aus diesem Modell abgeleitete Instanzen. Die erfüllt die Anforderung an die \textit{Kombination} nach DROYSEN.
 \\
-Das Interface von DEPCHA verknüpft mit LOD ist das \textit{divinatorisches Suchen und Entdecken}.
-\\
-\\
-Digital History hat hilfwissenschaftlicehn Charakter. 
-\\
-Die Arbeit im Projekt DEPCHA zeigt, dass Workflows definiert werden können, damit Information in digitalen Editionen von historischen Rechnungsunterlagen  ausgezeichnet werden kann. Die Bookkeeping-Ontology erlaubt es Transaktionen, also den Fluss von wirtschaftlichen Gütern und Geldbeträgen von einem Akteur zum anderen zu beschreiben. Diese Formalisierung, mittels Ontologie des \textit{Web of Data}, dient als Grundlage für weiter Formen der Analyse. Dazu eigenen sich XML/TEI, um auch die textuelle Strukturen eine Quelle zu beschreiben, wie RDF, das die Transaktion an sich in Form von Triples ermöglicht. Die Entwicklung der Bookkeeping-Ontology ist ein iterativer und ncith abgeschlossener Prozess. Ziel letztendlich ist es, möglichst alle Phänomene, die eng mit wirtschaftlichen Transaktionen verbunden sind, formal in diesem Modell abzubilden.
+Eine Möglichkeit der Implementierung ist die Darstellung dieser als RDF und TEI und dessen Einbettung in ein digitales Forschungsrepository im Sinne einer digitalen Edition. Letzteres ist wichtig, da die Publikation und Veröffentlich, sowie die Vernetzung der Information im Sinne von Linked Data, die Nachnutzbarkeit und wissenschaftlichen Konsens (oder Dissens) abbildet. Gerade die Publikation geht dann mit einem Mehrwehrt einher: Formen der Informationsviualisierung lassen sich aus diesen Strukturen umsetzen und damit Formen des \textit{Suchens und Entdeckens}.
 \\
 \\
-Folgende Vorteile gehen mit der Verwendung von Ontologien einher:}
+Die \textit{Hypothese} trifft den empirischen Teil der Geschichtswissenschaften. Die so entstanden Daten können nun unter Verwendung von quantitativen Methoden analysiert werden, um Hypothesen zu stützen oder zu falsifizieren. Dadurch, dass die Daten im Web und ihre \textit{knowledge base } im Web zur Verfügung steht, können Hypothesen an geschichtswissenschaftliche Fragestellungen effektiver bearbeitet werden.
+\\
+\\
+Zusammengefasst kann gesagt werden, das golgende Vorteile mit der Verwendung von Ontologien einhergehen:}
 \begin{itemize}
 \item Ein gemeinsames Vokabular bzw. Modell erleichtert die Kommunikation in der Wissensproduktion und kann vn Fachkolleginnen und Kollegen nach genutzt werden.
 \item Die Wiederverwendung eines Modells befördert den fachwissenschaftlichen Diskurs, in dem bestehende Konzepte kritisiert und fehlende Konzepte ergänzt werden können. Dies führt zu einem allgemein akzeptierten und verständlicheren konzeptionellen Modell.
