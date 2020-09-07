@@ -1097,14 +1097,16 @@
          {{0}{}{incollection}{2007}{}{}{}{254--270}%
           {John Wiley and Sons, Ltd\bibbdsep {} 2007}}%
          {{Modeling: A Study in Words and Meanings}%
-          {}{}{2}{}{}{}{}{}}%
+          {}{}{1}{}{}{}{}{}}%
         ]{mccarty2004modeling}
  \jbbibargs {\bibnf {McCarty} {Willard} {W.} {} {}} {Willard McCarty} {au}
   {sexless} {\bibapifont {Modeling: A Study in Words and Meanings}\bibatsep {}
-  \incolledformat {}{}{\bibbtfont {A Companion to Digital Humanities} }{}{}
-  \apyformat {\jbpublisher{John Wiley and Sons, Ltd\bibbdsep {}} 2007}
-  \unskip.\,-- \bibchapterlongname\/~19 \jbPages{254--270}} {\bibhowcited}
-  \jbdoitem {{McCarty}{Willard}{W.}{}{}} {} {} \bibAnnoteFile
+  \incolledformat {\bibenf {Susan~Schreibman} {John~Unsworth} {J.~U.} {}
+  {Ray~Siemens}}{\edfont {\editorname}}{\bibbtfont {A Companion to Digital
+  Humanities}\bibatsep {} }{}{}  \apyformat {\jbpublisher{John Wiley and Sons,
+  Ltd\bibbdsep {}} 2007} \unskip.\,-- \bibchapterlongname\/~19
+  \jbPages{254--270}} {\bibhowcited} \jbdoitem {{McCarty}{Willard}{W.}{}{}}
+  {{Susan~Schreibman}{John~Unsworth}{J.~U.}{}{Ray~Siemens}} {} \bibAnnoteFile
   {mccarty2004modeling}
 
 \backrefparscanfalse
