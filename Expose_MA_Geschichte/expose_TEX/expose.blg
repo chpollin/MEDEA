@@ -1,26 +1,17 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12021 items from 5000.
 Database file #1: literatur.bib
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--No address in berners2004uniform
 Warning--No university in borst1997construction
 Warning--Empty pages in brumfield2019blog
 Warning--Empty pages in brumfield2015medea
+Warning--There's a number but no series in burnard2014text
 Warning--Empty pages in tomasekmedea
 Warning--No address in cole2015complete
 Warning--Empty pages in cummings2013text
 Warning--Empty pages in demand2011philosophie
+Warning--There's a number but no series in denzel2002kaufmannsbucher
 Warning--Empty pages in frank2018visualisierungswerkzeuge
 Warning--Empty pages in frommergrundbegriffe
 Warning--There's only a publisher (no address, no year) in Gabriel2013fakten
@@ -49,47 +40,7 @@ Warning--Empty pages in tomasek2013encoding
 Warning--There's only a publisher (no address, no year) in daniel2006kulurgeschichte
 Warning--Empty pages in vajda2019toward
 Warning--No address in vogeler2015mittelalterliche
+Warning--There's only a starting page, no pagerange in vogeler2019assertive
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
-You've used 119 entries,
-            7954 wiz_defined-function locations,
-            2001 strings with 30141 characters,
-and the built_in function-call counts, 124717 in all, are:
-= -- 8910
-> -- 4011
-< -- 367
-+ -- 1409
-- -- 1267
-* -- 13870
-:= -- 17702
-add.period$ -- 0
-call.type$ -- 119
-change.case$ -- 571
-chr.to.int$ -- 205
-cite$ -- 305
-duplicate$ -- 6724
-empty$ -- 13105
-format.name$ -- 4100
-if$ -- 25649
-int.to.chr$ -- 4
-int.to.str$ -- 0
-missing$ -- 677
-newline$ -- 1091
-num.names$ -- 987
-pop$ -- 2660
-preamble$ -- 1
-purify$ -- 560
-quote$ -- 0
-skip$ -- 4849
-stack$ -- 0
-substring$ -- 4269
-swap$ -- 3223
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 2488
-warning$ -- 39
-while$ -- 1128
-width$ -- 0
-write$ -- 4427
-(There were 39 warnings)
+(There were 42 warnings)
