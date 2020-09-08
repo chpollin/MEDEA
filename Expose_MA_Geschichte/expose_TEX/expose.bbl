@@ -1944,13 +1944,12 @@
          {}%
          {{0}{}{misc}{1979}{}{}{}{}%
           {JSTOR\bibbdsep {} 1979}}%
-         {{Georg Henrik von Wright {\"ü}ber ''Erkl{\"a}rem'' und
-  ''Verstehen''}%
+         {{Georg Henrik von Wright über ''Erklären'' und ''Verstehen''}%
           {}{}{2}{}{}{}{}{}}%
         ]{wellmer1979georg}
  \jburldef {wellmer1979georg}{https://www.jstor.org/stable/42571419}%
  \jbbibargs {\bibnf {Wellmer} {Albrecht} {A.} {} {}} {Albrecht Wellmer} {au}
-  {sexless} {\bibtfont {Georg Henrik von Wright {\"ü}ber ''Erkl{\"a}rem'' und
+  {sexless} {\bibtfont {Georg Henrik von Wright über ''Erklären'' und
   ''Verstehen''}\bibatsep {} 1979 \jburluse {wellmer1979georg}} {\bibhowcited}
   \jbdoitem {{Wellmer}{Albrecht}{A.}{}{}} {} {} \bibAnnoteFile
   {wellmer1979georg}

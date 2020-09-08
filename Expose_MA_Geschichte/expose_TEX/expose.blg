@@ -1,5 +1,19 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: expose.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: jurabib.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 12626 items.
 Database file #1: literatur.bib
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--No address in berners2004uniform
@@ -43,4 +57,45 @@ Warning--No address in vogeler2015mittelalterliche
 Warning--There's only a starting page, no pagerange in vogeler2019assertive
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
+You've used 123 entries,
+            8453 wiz_defined-function locations,
+            2093 strings with 31552 characters,
+and the built_in function-call counts, 130837 in all, are:
+= -- 9269
+> -- 4130
+< -- 380
++ -- 1451
+- -- 1305
+* -- 14535
+:= -- 18312
+add.period$ -- 0
+call.type$ -- 123
+change.case$ -- 589
+chr.to.int$ -- 209
+cite$ -- 316
+duplicate$ -- 6969
+empty$ -- 13963
+format.name$ -- 4226
+if$ -- 27105
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 771
+newline$ -- 1250
+num.names$ -- 1022
+pop$ -- 2760
+preamble$ -- 1
+purify$ -- 578
+quote$ -- 0
+skip$ -- 4988
+stack$ -- 0
+substring$ -- 4490
+swap$ -- 3351
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2590
+warning$ -- 42
+while$ -- 1164
+width$ -- 0
+write$ -- 4943
 (There were 42 warnings)

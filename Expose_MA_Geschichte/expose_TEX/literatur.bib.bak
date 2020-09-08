@@ -138,7 +138,7 @@ title={Fakten oder Fiktion? Zum Erkenniswert der Geschichte},
 }
 
 @misc{wellmer1979georg,
-  title={Georg Henrik von Wright {\"ü}ber ''Erkl{\"a}rem'' und ''Verstehen''},
+  title={Georg Henrik von Wright über ''Erklären'' und ''Verstehen''},
   author={Wellmer, Albrecht},
   year={1979},
   url={https://www.jstor.org/stable/42571419},
@@ -202,7 +202,7 @@ title={Fakten oder Fiktion? Zum Erkenniswert der Geschichte},
 
 
 @phdthesis{ScholgerMartina2018AadS,
-title = {Assoziationsprozessen auf der Spur : digitale Edition der Notizbücher von Hartmut Skerbisch},
+title = {Assoziationsprozessen auf der Spur: digitale Edition der Notizbücher von Hartmut Skerbisch},
 author = {Scholger, Martina},
 year={2018},
 school={Universität Graz}
@@ -390,13 +390,26 @@ school={Universität Graz}
   publisher={Hamburg University Press}
 }
 
+@article{RehbeinReconstructing2009,
+author = {Rehbein, M.},
+year = {2009},
+month = {08},
+pages = {S.319-327},
+title = {Reconstructing the textual evolution of a medieval manuscript},
+volume = {24},
+journal = {Literary and Linguistic Computing},
+doi = {10.1093/llc/fqp020}
+}
+
 @article{vogeler2019assertive,
-  title={The 'assertive edition'},
+  title={The 'assertive edition'. On the consequences of digital methods in scholarly editing for historians},
   author={Vogeler, Georg},
   journal={International Journal of Digital Humanities},
-  pages={1--14},
+  volume={1},
+  pages={S.309–322},
   year={2019},
-  publisher={Springer}
+  publisher={Springer}, 
+  doi={https://doi.org/10.1007/s42803-019-00025-5}
 }
 
 @book{vasold1996itinerar,
@@ -411,7 +424,7 @@ school={Universität Graz}
   author={Vasold, Gunter},
   journal={Beitr{\"a}ge zur Rechtsgeschichte {\"O}sterreichs},
   volume={2},
-  pages={S.231--244},
+  pages={S.231-244},
   year={2015},
   publisher={Verlag der {\"O}sterreichischen Akademie der Wissenschaften}
 }
@@ -423,13 +436,18 @@ school={Universität Graz}
   year={2019}
 }
 
-@book{mccarty2004modeling,
-  title={Modeling: a study in words and meanings},
-  author={McCarty, Willard},
-  volume={42},
-  year={2004},
-  publisher={Wiley Online Library}
+@incollection{mccarty2004modeling,
+author = {McCarty, Willard},
+publisher = {John Wiley and Sons, Ltd},
+title = {Modeling: A Study in Words and Meanings},
+editor = {Susan Schreibman, Ray Siemens, John Unsworth},
+booktitle = {A Companion to Digital Humanities},
+chapter = {19},
+pages = {254-270},
+doi = {10.1002/9780470999875.ch19},
+year = {2007}
 }
+
 
 
 @book{burdick2012digital_humanities,
@@ -922,6 +940,29 @@ address = {Netherlands}
   author={Favre-Bulle, Bernard},
   year={2001},
   publisher={Springer}
+}
+
+@book{burnard2014text,
+  title={What is the Text Encoding Initiative?: How to add intelligent markup to digital resources},
+  author={Burnard, Lou},
+  number={3},
+  year={2014},
+  publisher={OpenEdition Press}
+}
+
+@book{pierazzo2016digital,
+  title={Digital scholarly editing: Theories, models and methods},
+  author={Pierazzo, Elena},
+  year={2016},
+  publisher={Routledge}
+}
+
+@book{denzel2002kaufmannsbucher,
+  title={Kaufmannsb{\"u}cher und Handelspraktiken vom Sp{\"a}tmittelalter bis zum beginnenden 20. Jahrhundert},
+  author={Denzel, Markus A and Hocquet, Jean Claude and Witth{\"o}ft, Harald},
+  number={163},
+  year={2002},
+  publisher={Franz Steiner Verlag}
 }
 
 @article{sahle2017dhedition,
