@@ -110,9 +110,8 @@ Ziel dieser Arbeit ist eine theoretische und pragmatische Auseinandersetzung mit
 Diese Arbeit geht nun folgern Forschungsfrage nach:
 \\
 \\
-\textcolor{red}{
 \textbf{Inwieweit können Technologien des \textit{Web of Data} genutzt werden, um geschichtswissenschaftliche Fachdomänen, in diesem Fall die Edition und Analyse von historischen Rechnungsbücher, so zu beschreiben, dass die Anwendung formaler Methoden den geschichtswissenschaftlichen Kriterien gerecht wird und die Zurverfügungstellung als hochstrukturierte Forschungsdaten, sowie Formen der Analyse (z.B. Informationsvisualisierung), die weitere Interpretation von Forschungsfragen verbessert?} 
-}
+
 
 \subsection{Aufbau der Arbeit und Literaturübersicht}
 Am Anfang der Arbeit steht neben einer allgemeinen theoretischen Diskussion zu Theorien und Methoden in den Geschichtswissenschaften\footcite{jordan2018theorien}\footcite{hardtwig1990geschichtskultur} eine Auseinandersetzung mit der Anwendung formaler Methoden in diesem Fachbereich\footcite{thaller2017ungefahre} unter Einbeziehung von Inhalten aus dem Bereich der historischen Fachinformatik\footcite{thaller2017historical}, der digitalen Geisteswissenschaften\footcite{jannidis2017digital} und Digital History\footcite{graham2015exploring}. Ziel ist es, einen Überblick darüber zu verschaffen, welche Ziele die Geschichtswissenschaft verfolgt. Dabei wird besonders Rücksicht auf die ''digitale'' Komponente\footcite{fohr2017historische}\footcite{wintergrun2019netzwerkanalysen} in diesem Zusammenhang genommen, um zu zeigen, dass es keine Gegensätze zwischen ''analoger'' und ''digitaler'' Geschichtswissenschaft gibt, sondern Synergien.
@@ -166,7 +165,7 @@ In einer anderen Kooperation haben BURGHARTZ und VOGELER die ''\textit{Jahrrechn
 Unter Verwendung der ''\textit{dynamisch integierten computergestützten Edition}'' hat PERSTLING das Steirische Marchfutterurbar aus den Jahren 1412 bis 1426 so erschlossen, dass unterschiedliche Bearbeitungsschichten des Dokuments als digitale Edition über das Web nachvollziehbar werden.\footcite{PerstlingMatthias2013MDuE} So wird das Fundament für künftige  Erforschungen von beispielsweise Preisen, Münzen oder prosopographischen\footnote{Bezeichnet in der Geschichtswissenschaft die systematische Erforschung eines bestimmten Personenkreises.}, wie  auch onomastischen\footnote{Bezeichnet die Namensforschung, die die Verbreitung, Bedeutung und Herkunft von Eigennamen erforscht.} Studien gelegt. Einen vergleichbaren Zugang verfolgt auch REHBEIN\footcite{RehbeinReconstructing2009}.
 
 \subsubsection{Digitale Arbeiten mit historischen Materialien unter Einsatz von \textit{Web of Data} Technologien}
-\textcolor{red}{
+
 Drei geschichtswissenschaftliche Projekte, die einen \textit{Linked Open Data} (LOD) Zugang verfolgen sind \textit{BiographyNet}, \textit{CEDAR} und das \textit{Dutch Ships and Sailors}-Projekt.\footcite[][S.5-22]{de2016linked}
 \\
 \\
@@ -177,7 +176,7 @@ Das CEDAR-Projekt\footnote{CEDAR | Dutch historical census data on the Semantic 
 \\
 \\ 
 Zentral bei \textit{Ships and Sailors}\footnote{Dutch Ships and Sailors, \url{https://2017.semantics.cc/dutch-ships-and-sailors}, 28.08.2020} ist die Zusammenführung von verschiedene Datensätze zu einer LOD-Sammlung. Die einzelnen Datensätze werden in Zusammenarbeit mit den Geschichtswissenschaftlerinnen separat modelliert, so dass eigenständige Datensätze entstehen. Durch Verknüpfungen zu einem gemeinsamen Metadatenschema sowie direkte datensatzübergreifende Verknüpfungen kann ein gewisses Maß an Integration erreicht werden. Die so entstandenen Datensammlung kann abgefragt und somit erforscht und analysiert werden.  
-}
+
 
 
 \newpage
@@ -201,33 +200,30 @@ Getrieben von einer analytischen Geschichtswissenschaft, in der die Theoriebildu
 ''\textit{Ich glaube an diese ganze Theoriebedürftigkeit der Geschichte nicht. Die Historie ist eine Kunst, die auf Kenntnissen beruht, und weiter ist sie gar nichts'}'\footcite[][S.53]{mann1979pladoyer}
 \\
 \\
-Führte MANN im Jahr 1979 an, um auszudrücken, dass durch die Einführung damals neuartiger, theoretischer Ansätze die Hauptaufgabe der Geschichtswissenschaften --  das Erzählen von Geschichten -- aufgeweicht wird. Bereits in den 1960er Jahren forderten Historiker wie MOMMSEN, KOCKA oder WEHLER eine ''\textit{Reform der Geschichtswissenschaft jenseits des Historismus}'' hin zu einer analytischen und theorieorientierten Geschichtswissenschaft. Ihre Kritik richtet sich an den individualistischen Ansatz des Historismus, der Geschichte als Produkt menschlichen Handelns und nicht als rationales Ergebnis eines gesellschaftlichen Prozesses versteht. Die Kritik richtet sich explizit an dieses zentrale Element des Historismus. Die Errungenschaften der historisch-kritischen Methode, der Quellennähe und der Verwissenschaftlichung des Faches, \textcolor{red}{die sich als ''historische Betrachtung'' als allgemeines Paradigma der Geistes- bzw. Kulturwissenschaften durchsetzte\footcite[][S.28]{hardtwig1990geschichtskultur},} werden stets positiv hervorgehoben. Sie fordern eine stärkere Theoriebildung in der Geschichtswissenschaft und orientieren sich mehr und mehr an der Methodik der benachbarten Sozialwissenschaften, wie etwa der Soziologie. Die reine Nacherzählung der Vergangenheit, wie sie MANN noch einforderte, ist im heutigen Verständnis der Geschichtswissenschaft, ohne Anbindung an jegliche theoretische Fragestellungen, nicht mehr denkbar.
+Führte MANN im Jahr 1979 an, um auszudrücken, dass durch die Einführung damals neuartiger, theoretischer Ansätze die Hauptaufgabe der Geschichtswissenschaften --  das Erzählen von Geschichten -- aufgeweicht wird. Bereits in den 1960er Jahren forderten Historiker wie MOMMSEN, KOCKA oder WEHLER eine ''\textit{Reform der Geschichtswissenschaft jenseits des Historismus}'' hin zu einer analytischen und theorieorientierten Geschichtswissenschaft. Ihre Kritik richtet sich an den individualistischen Ansatz des Historismus, der Geschichte als Produkt menschlichen Handelns und nicht als rationales Ergebnis eines gesellschaftlichen Prozesses versteht. Die Kritik richtet sich explizit an dieses zentrale Element des Historismus. Die Errungenschaften der historisch-kritischen Methode, der Quellennähe und der Verwissenschaftlichung des Faches, die sich als ''historische Betrachtung'' als allgemeines Paradigma der Geistes- bzw. Kulturwissenschaften durchsetzte\footcite[][S.28]{hardtwig1990geschichtskultur}, werden stets positiv hervorgehoben. Sie fordern eine stärkere Theoriebildung in der Geschichtswissenschaft und orientieren sich mehr und mehr an der Methodik der benachbarten Sozialwissenschaften, wie etwa der Soziologie. Die reine Nacherzählung der Vergangenheit, wie sie MANN noch einforderte, ist im heutigen Verständnis der Geschichtswissenschaft, ohne Anbindung an jegliche theoretische Fragestellungen, nicht mehr denkbar.
 \\
 \\
 Heutzutage ist die Orientierung an Theorien in den Geschichtswissenschaften wichtiger Bestandteil. KOCKA versteht darunter einen expliziten Gebrauch von Modellen, Theorien und Begriffen zur Strukturierung des Gegenstandes.\footcite[][S.2]{magerski2009schreibt} Je stärker man sich beispielsweise mit historischen Fragestellungen, die soziale oder wirtschaftliche Phänomene untersuchen, wie die Beziehungen zwischen sozialen Klassen oder öknomisches Wachstum, steigt auch die Notwendigkeit mehr über die Fragestellungen und Theorien der Sozial- und Wirtschaftswissenschaft zu wissen.\footcite[][S.6-8]{kocka1982theorien} So ist ein grundlegendes Verständnis über Modelle der Konjunkturtheorie oder klassentheoretische Konzepte der Sozialgeschichte unabdingbar.\footcite[][S.1]{sokollgrundlagen} Der vermehrte Einsatz formaler Verfahren zur Erschließung, Auswertung und Darstellung von Information in historischen Quellen, befördert diese Notwendigkeit. Gleichzeitig ist aber auch ein naiver Positivismus, der davon ausgeht absolute Wahrheiten aus den Quellen alleine abzuleiten oder gar ''auszurechnen'', ein Weg, den eine sinnvolle Geschichtswissenschaft ablehnt.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Geschichte und Geschichtswissenschaft: eine Definition}
-\textcolor{red}{
+
 ''\textit{Die Geschichte ist das Wissen der Menschen von sich, ihre Selbstgewißheit}''\footcite[][S.111]{hardtwig1990studium}
 \\
 \\
 Dieser Satz aus ''Grundriss der Historik'' von DROYSEN bringt die Aufgabe von Geschichte auf den Punkt: so wie jedes Individuum sich selbst gewahr ist, so ist der Gegenstandsbereich der \textbf{Geschichte} das Handeln der Menschen in der Vergangenheit. Ein Handeln, das jeden einzelnen und die Gemeinschaft erst zu dem gemacht hat was sie sind.
-}
 Dieses Handeln ist aber für niemanden mehr erlebbar, sondern muss über Belege der Vergangenheit, den Quellen, ob als Überrest oder Tradition, rekonstruiert werden. Die Unterscheidung erfolgt nach DROYSEN zwischen ''unabsichtlich'' erzeugten Überresten, wie etwa ein Kleidungsstück, das bei einer archäologischen Ausgrabung gefunden wurde, und absichtlich überlieferten Quellen, wie etwa ein Denkmal. Letztere werden als Tradition verstanden.\footcite[][49–55]{schulz2010neuere} Bei dieser Einteilung handelt es sich aber um ein Ideal, da für eine genaue Zuordnung das Wissen über die Intention der Schöpferinnen notwendig wäre. 
 \\
 \\
 KIRN führt in seinem Einführungswerk in die Geschichtswissenschaft mehrere Definitionen des Begriffes Geschichte an: Wo HELLPACH über ''\textit{die bewußte Gestaltung menschlichen Gemeinschaftslebens aus schöpferischem Willen}'' spricht und die menschliche Handlung in den Vordergrund stellt, ist es für HUIZINGA, aus dem Verständnis von Geschichtswissenschaft als Kulturgeschichte, ''\textit{die geistige Form, in der sich eine Kultur über ihre Vergangenheit Rechenschaft gibt}''. Zentral in dieser Menge an Definitionen und Zugängen zur Geschichte ist, dass es sich um die wissenschaftliche Darstellung des Vergangenen handelt.\footcite[][S.7-12]{KirnPaul2015EidG} Zweiter zentraler Aspekt ist, dass der Mensch als gesellschaftliches und kulturelles Wesen etwas über sich selbst, seine vergangenen Gesellschaft- und Kulturformen wissen möchte. Man könnte es als einen Akt der kollektiven Selbstreflexion verstehen. Genau das meint das eingangs angeführte Zitat von DROYSEN.
 \\
 \\
-\textcolor{red}{
-Jedenfalls ist der Begriff mehrdeutig; Geschichte kann als \textbf{Abfolge von realen Tatsachen und Ereignissen}, \textbf{Geschichtsforschung} (also der Darstellung dieser Realgeschichte), oder \textbf{Geschichtsschreibung} (die wissenschaftliche Disziplin), verstanden werden.\footcite[][S.1]{Gabriel2013fakten}} Geschichtsschreibung als Produkt der Geschichtsforschung liegt üblicherweise als Narrativ über vergangene Ereignisse vor. Sie ist jedoch nicht auf die Textform beschränkt, sondern kann auch in anderer Form vorliegen. Dies umfasst mündliche, wie bildliche Überlieferungen oder sämtliche Schöpfungen, die von Menschen erbracht wurden, um in einen Kommunikationsprozess einzutreten.\footcite[][S.5-7]{frank2018visualisierungswerkzeuge}
+Jedenfalls ist der Begriff mehrdeutig; Geschichte kann als \textbf{Abfolge von realen Tatsachen und Ereignissen}, \textbf{Geschichtsforschung} (also der Darstellung dieser Realgeschichte), oder \textbf{Geschichtsschreibung} (die wissenschaftliche Disziplin), verstanden werden.\footcite[][S.1]{Gabriel2013fakten} Geschichtsschreibung als Produkt der Geschichtsforschung liegt üblicherweise als Narrativ über vergangene Ereignisse vor. Sie ist jedoch nicht auf die Textform beschränkt, sondern kann auch in anderer Form vorliegen. Dies umfasst mündliche, wie bildliche Überlieferungen oder sämtliche Schöpfungen, die von Menschen erbracht wurden, um in einen Kommunikationsprozess einzutreten.\footcite[][S.5-7]{frank2018visualisierungswerkzeuge}
 \\
 \\
-Bei DEMANDT finden sich weitere Ausführungen zu den grundlegenden Überlegungen des Begriffes \textit{Geschichte}. Neben dem Mythos, der in vorschriftlichen Zeiten und in erzählerischer Form Vergangenes von einer Generation zu anderen weitergibt, war die Chronistik eine frühe Form der verschriftlichten Erinnerung. Chroniken berichten über Ereignisse, ohne die Texte literarisch aufzuarbeiten. Die \textbf{Historie}, die \textit{Erkundung der Vergangenheit}, geht noch einen Schritt weiter und versucht Ereigniszusammenhänge einer ''wahren'' Vergangenheit darzustellen. \textcolor{red}{Sie etabliert sich als autonome Disziplin, die mehr den Wandel der Geschichte und das Geschehene an sich versucht zu erklären, denn moralisch und belehrend auf Rezipierende zu wirken, wie es die Geschichtsüberlieferung davor getan hat.\footcite[][S.24]{hardtwig1990geschichtskultur}}
+Bei DEMANDT finden sich weitere Ausführungen zu den grundlegenden Überlegungen des Begriffes \textit{Geschichte}. Neben dem Mythos, der in vorschriftlichen Zeiten und in erzählerischer Form Vergangenes von einer Generation zu anderen weitergibt, war die Chronistik eine frühe Form der verschriftlichten Erinnerung. Chroniken berichten über Ereignisse, ohne die Texte literarisch aufzuarbeiten. Die \textbf{Historie}, die \textit{Erkundung der Vergangenheit}, geht noch einen Schritt weiter und versucht Ereigniszusammenhänge einer ''wahren'' Vergangenheit darzustellen. Sie etabliert sich als autonome Disziplin, die mehr den Wandel der Geschichte und das Geschehene an sich versucht zu erklären, denn moralisch und belehrend auf Rezipierende zu wirken, wie es die Geschichtsüberlieferung davor getan hat.\footcite[][S.24]{hardtwig1990geschichtskultur}
 \\
-\\
-Im 16. Jahrhundert entwickelt sich der Begriff Geschichte, der anfangs nur für den Gegenstandsbereich der Historie verwendet wurde.\footcite[][S.57-58]{schulz2010neuere} \textcolor{red}{Mit diesem Verständnis geht auch einher, dass das, was als Gegenwart verstanden wird, sich von der Vergangenheit unterscheidet, aber von ihr bedingt ist. So fasst ein Zitat von SCHILLER dieses neue Paradigma der Geschichtswissenschaft zusammen, welches bis heute gilt: “\textit{Das Verhältnis eines historischen Datums zu der heutigen Weltverfassung ist es also, worauf gesehen werden muss}”. Geschichtswissenschaft, ist erst dann vollkommen, wenn sie mit der Gegenwart in Beziehung gesetzt wird und umgekehrt.\footcite[][S.25]{hardtwig1990geschichtskultur}}
+Ein Zitat von SCHILLER fasst dieses neue Paradigma der Geschichtswissenschaft zusammen, welches bis heute gilt: “\textit{Das Verhältnis eines historischen Datums zu der heutigen Weltverfassung ist es also, worauf gesehen werden muss}”. Geschichtswissenschaft, ist erst dann vollkommen, wenn sie mit der Gegenwart in Beziehung gesetzt wird und umgekehrt.\footcite[][S.25]{hardtwig1990geschichtskultur}
 \\
 \\
 Das moderne Verständnis des Wortes Geschichte umfasst sowohl die Gesamtheit von realen Geschehnissen, als auch den Bericht und die Reflexion darüber. Zentral in der \textbf{modernen Geschichtswissenschaft}, also der Erforschung der Vergangenheit nach wissenschaftlichen Kriterien, ist die Auseinandersetzung mit historischen Quellen, die mittels kritischer Methode untersucht werden. In diesem Prozess müssen die angewandten Methoden, Ideen und Ergebnisse diskutierbar und nachprüfbar sein.\footcite[][S.13-32]{demand2011philosophie} Jede und jeder soll in der Lage sein, feststellen zu können, ob eine Interpretation eines historischen Sachverhalts durch eine angeführten Quelle belegbar ist. Forschungsgegenstand und Forschungsfrage sind in den Geschichtswissenschaften nicht klar abgegrenzt und die Interessen von Historikerinnen sind interdisziplinär, weswegen auch die angewandte Methodik vielfältig ist.\footcite[][S.13]{reiche2014verfahren} Auf die Methoden in den Geschichtswissenschaften wird in Kapitel \ref{ref:Methoden} detaillierter eingegangen.
@@ -237,9 +233,8 @@ Zwei grundlegende Strömungen in der Erkenntnis- und Wissenschaftstheorie sind j
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Hermeneutik}
-\textcolor{red}{
+
 ''\textit{Hermeneutik ist das Nachdenken darüber, wie Wissen zustande kommt und wie es plausibel vermittelt werden kann}''\footnote{Digitale Hermeneutik - Ein Update für das kritische Denken in den Geisteswissenschaften, \url{https://tinyurl.com/y3opg5bs}, 27.08.2020}
-}
 \\
 \\
 Bei der Hermeneutik handelt es sich um eine Theorie der Interpretation und des Verstehens von Texten, die nicht nur auf die Geschichtswissenschaft angewendet wird, sondern auf viele geisteswissenschaftliche oder rechtswissenschaftliche Fächer.
@@ -251,13 +246,16 @@ Aus dem neuen Geschichtsverständnis des 19. Jahrhunderts entwickelte DILTHEY di
 \\
 Unter GADAMER wird die Hermeneutik zur Philosophie weiterentwickelt. Es bedarf immer einem Vorverständnis, um in einen Prozess des Verstehens eintauchen zu können, an dessen Ende nur eine Annäherung an eine Wahrheit möglich ist.\footcite[][S.19-30]{schulz2010neuere} Voraussetzung dafür ist die Frage nach der Anwendung und Konkretisierung der Fragestellung, die GADAMER als grundsätzliche Verwandtschaft von juristischer und hermeneutischer Rationalität beschreibt.\footcite[][S.176-178]{ficara2015hermeneutik}
 \\
-Nicht nur das Wissen über historische Quellen, sondern alles Wissen beruht auf einem Verstehensprozess und ist in diesem Sinne zirkelförmig. Jemand tritt mit einem gewissen Vorwissen an eine Fragestellung heran. Es werden in der Auseinandersetzung mit der Materie Erfahrungen gesammelt und ein tieferes Verständnis der Thematik erarbeitet. Mit diesem gefestigten Verständnis bewegt man sich im sogenannten  \textit{hermeneutischen Zirkel}, einem iterativen Prozess gleich, weiter fort und erhält auf diese Weise ein gefestigtes Verständnis zu einem Thema. Eine Problemstellung muss zuerst gefunden, erkannt und verstanden werden, damit sie weiter verarbeitet werden kann.\footnote{STANGL, Werner: Geschichte der Hermeneutik, \protect\url{arbeitsblaetter.stangl-taller.at}, 01.06.2019.}
+Nicht nur das Wissen über historische Quellen, sondern alles Wissen beruht auf einem Verstehensprozess und ist in diesem Sinne zirkelförmig. Jemand tritt mit einem gewissen Vorwissen an eine Fragestellung heran. Es werden in der Auseinandersetzung mit der Materie Erfahrungen gesammelt und ein tieferes Verständnis der Thematik erarbeitet. Mit diesem gefestigten Verständnis bewegt man sich im sogenannten  \textit{hermeneutischen Zirkel}, einem iterativen Prozess gleich, weiter fort und erhält auf diese Weise ein gefestigtes Verständnis zu einem Thema. Eine Problemstellung muss zuerst gefunden, erkannt und verstanden werden, damit sie weiter verarbeitet werden kann.
 \\
 \\
-In folgendem Beispiel nach STANGL sind die Wörter ''\textit{vihe}'', ''\textit{verwürckt}'' oder ''\textit{fewer}'' ohne jeglichen Kontext unverständlich. \textcolor{red}{Werden sie aber in ihrem Kontext (der historischen Quelle, dem Wissen über die Quelle und über die Zeit in der die Quelle verortet wird) gelesen, wird die Bedeutung des Textes offensichtlich:}
+ToDO: oben + DANIEL Kapitel erkären-verstehen; objektiv-subjektiv
 \\
 \\
-"\textit{ltem so eyn mensch mit eynem vihe, mann mit mann, weib mit weib, vnkeusch treiben, die haben auch das leinen verwürckt, vnd man soll sie der gemeynen gewonheyt nach mit dem fewer vom leben zum todt richten}"\footnote{STANGL, Werner: Der hermeneutische Zirkel, \protect\url{arbeitsblaetter.stangl-taller.at}, 07.11.2019.}
+In folgendem Beispiel sind die Wörter ''\textit{vihe}'', ''\textit{verwürckt}'' oder ''\textit{fewer}'' ohne jeglichen Kontext unverständlich. Werden sie aber in ihrem Kontext (der historischen Quelle, dem Wissen über die Quelle und über die Zeit in der die Quelle verortet wird) gelesen, wird die Bedeutung des Textes offensichtlich:
+\\
+\\
+"\textit{ltem so eyn mensch mit eynem vihe, mann mit mann, weib mit weib, vnkeusch treiben, die haben auch das leinen verwürckt, vnd man soll sie der gemeynen gewonheyt nach mit dem fewer vom leben zum todt richten}"\footnote{Beispiel nach STANGL, Werner: Der hermeneutische Zirkel, \protect\url{arbeitsblaetter.stangl-taller.at}, 07.11.2019.}
 \\
 \\
 Zentrale Begriffe lassen sich häufig erst aus dem Zusammenhang erschließen. Für das vollständige Verstehen des Gesamttextes müssen alle Einzelheiten nachvollziehbar sein. Die hermeneutische Spirale beinhaltet, dass Teilstücke ganzheitlich verstanden oder erweitert werden und sich das Ganze von den Teilaspekten her definieren lässt. Gerade in den Geschichtswissenschaften ist die Berücksichtigung und das Verstehen des Kontextes, in dem eine Aussage über die Vergangenheit steht, essentiell.
@@ -277,14 +275,17 @@ Oder anders formuliert: Schlussfolgerung vom Allgemeinen auf das Besondere und u
 	\includegraphics[width=0.8\textwidth]{img/emprisimus.png}  
     \caption[Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften, de.wikipedia.org/wiki/Empirie, 09.11.2019.]{Zusammenhang zwischen Induktion und Deduktion in empirischen Wissenschaften} \label{fig:empirismus}
 \end{figure}
-In der Geschichtswissenschaft werden Textquellen mittels hermeneutischer Methoden interpretiert. Jedoch kann die \textbf{Geschichtswissenschaft auch als empirische Wissenschaft verstanden werden}. Nämlich dann, wenn empirische Daten, aus den überlieferten und erschlossenen (edierten) Quellen, im Rahmen einer Hypothese hinsichtlich einer historischen Rekonstruktion der Vergangenheit herangezogen werden. Wichtig ist zu berücksichtigen, dass es keine absolute Reproduktion der Ergebnisse geben kann, keine Experimente möglich sind und es sich immer um einmalige Untersuchungsgegenstände handelt und damit eine Generalisierung der Art ''immer wenn A eintritt, dann folgt B'' unmöglich ist. Vertreter einer einheitswissenschaftlichen Position wie HEMPEL aber definieren die Geschichtswissenschaft als Gesetzwissenschaft\footcite[][S.79-80]{nussel2018offenbarung}, wohingegen DILTHEY und WRIGHT den besonderen Charakter hermeneutisch vorgehender Wissenschaften hervorheben. Sie setzen sich gegen eine ''blinde'' Übernahme naturwissenschaftlicher Erkenntnismodelle auf die Geistes-- und Sozialwissenschaften ein. Das Verhältnis dieser beiden wissenschaftlichen Ausrichtungen ist bis heute kontrovers.\footcite{wellmer1979georg} Aber gerade im Zusammenspiel zwischen empirischer Methoden und der Herangehensweise an Forschungsfragen im Sinne der Hermeneutik kann ein Mehrwert für die Bildung von Hypothesen und die Interpretation eines Themas entstehen. Im Zuge der empirischen Überprüfung von Sachverhalten spielt die Hermeneutik eine wesentliche Rolle bei der Quantifizierung von qualitativen Aussagen. Auch die Interpretation von empirischen Resultaten ist, so STANGL, ein hermeneutischer Vorgang.\footnote{STANGL, Werner: Der hermeneutische Zirkel.}
+In der Geschichtswissenschaft werden Textquellen mittels hermeneutischer Methoden interpretiert. Jedoch kann die \textbf{Geschichtswissenschaft auch als empirische Wissenschaft verstanden werden}. Nämlich dann, wenn empirische Daten, aus den überlieferten und erschlossenen (edierten) Quellen, im Rahmen einer Hypothese hinsichtlich einer historischen Rekonstruktion der Vergangenheit herangezogen werden. Wichtig ist zu berücksichtigen, dass es keine absolute Reproduktion der Ergebnisse geben kann, keine Experimente möglich sind und es sich immer um einmalige Untersuchungsgegenstände handelt und damit eine Generalisierung der Art ''immer wenn A eintritt, dann folgt B'' unmöglich ist. Vertreter einer einheitswissenschaftlichen Position wie HEMPEL aber definieren die Geschichtswissenschaft als Gesetzwissenschaft\footcite[][S.79-80]{nussel2018offenbarung}, wohingegen DILTHEY und WRIGHT den besonderen Charakter hermeneutisch vorgehender Wissenschaften hervorheben. Sie setzen sich gegen eine ''blinde'' Übernahme naturwissenschaftlicher Erkenntnismodelle auf die Geistes-- und Sozialwissenschaften ein. Das Verhältnis dieser beiden wissenschaftlichen Ausrichtungen ist bis heute kontrovers.\footcite{wellmer1979georg} Aber gerade im Zusammenspiel zwischen empirischer Methoden und der Herangehensweise an Forschungsfragen im Sinne der Hermeneutik kann ein Mehrwert für die Bildung von Hypothesen und die Interpretation eines Themas entstehen. Im Zuge der empirischen Überprüfung von Sachverhalten spielt die Hermeneutik eine wesentliche Rolle bei der Quantifizierung von qualitativen Aussagen. Auch die Interpretation von empirischen Resultaten ist ein hermeneutischer Vorgang.
+\\
+\\
+ToDO: oben + DANIEL Kapitel erkären-verstehen; objektiv-subjektiv
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Methoden der Geschichtswissenschaft}
 \label{ref:Methoden}
 
-Ein kontrolliertes Verfahren zur Erreichung eines Forschungsziel bzw. zur Gewinnung von Erkenntnis wird als Methode bezeichnet. Die Methodologie beschäftigt sich damit, ob eine gewählte Methode für ein bestimmtes Ziel geeignet ist, oder nicht.\footnote{BLAKSTAD Oskar: Die wissenschaftliche Methode, explorable.com/de/die-wissenschaftliche-methode, 28.12.2019.} Sie sind wichtiger Bestandteil der wissenschaftlichen Arbeit und somit auch ein nicht wegzudenkendes Werkzeug in den Geschichtswissenschaften, wie ein Blick auf die Vielfalt \textbf{historischer Hilfswissenschaften}, deren Aufgabe die Erschließung von bestimmten Quellentypen ist, zeigt. Die Hilfswissenschaften bzw. Grundwissenschaften, wie sie auch genannt werden -- ''\textit{als Abzweigungen der allgemeinen historischen Arbeitsform}''\footcite[][S.10]{von2007werkzeug} -- haben das Ziel die historischen Quellen aufzubereiten. Sie erstrecken sich von der Paläografie, Kodikologie über die Diplomatik, Insignienkunde und Aktenkunde bis hin zur Genealogie, um nur einige Vertreter zu nennen. Charakterisiert sind die historischen Hilfswissenschaften durch ihren Bezug zur Quelle. Die äußeren Merkmale einer Quelle (Tinte, Papier, Schrift etc.) stehen den inneren Merkmalen gegenüber und es ist gemeinsames Ziel einer jeden Hilfswissenschaft zu überprüfen, ob eine Quelle authentisch ist, oder nicht. \textcolor{red}{ Gerade diese Frage nach der Authentizität der Quelle bzw. der Integrität der Daten ist essentieller Bestandteil der historischen Forschung.}\footcite[][S.7]{fickers2020update}
+Ein kontrolliertes Verfahren zur Erreichung eines Forschungsziel bzw. zur Gewinnung von Erkenntnis wird als Methode bezeichnet. Die Methodologie beschäftigt sich damit, ob eine gewählte Methode für ein bestimmtes Ziel geeignet ist, oder nicht.\footnote{BLAKSTAD Oskar: Die wissenschaftliche Methode, explorable.com/de/die-wissenschaftliche-methode, 28.12.2019.} Sie sind wichtiger Bestandteil der wissenschaftlichen Arbeit und somit auch ein nicht wegzudenkendes Werkzeug in den Geschichtswissenschaften, wie ein Blick auf die Vielfalt \textbf{historischer Hilfswissenschaften}, deren Aufgabe die Erschließung von bestimmten Quellentypen ist, zeigt. Die Hilfswissenschaften bzw. Grundwissenschaften, wie sie auch genannt werden -- ''\textit{als Abzweigungen der allgemeinen historischen Arbeitsform}''\footcite[][S.10]{von2007werkzeug} -- haben das Ziel die historischen Quellen aufzubereiten. Sie erstrecken sich von der Paläografie, Kodikologie über die Diplomatik, Insignienkunde und Aktenkunde bis hin zur Genealogie, um nur einige Vertreter zu nennen. Charakterisiert sind die historischen Hilfswissenschaften durch ihren Bezug zur Quelle. Die äußeren Merkmale einer Quelle (Tinte, Papier, Schrift etc.) stehen den inneren Merkmalen gegenüber und es ist gemeinsames Ziel einer jeden Hilfswissenschaft zu überprüfen, ob eine Quelle authentisch ist, oder nicht. Gerade diese Frage nach der Authentizität der Quelle bzw. der Integrität der Daten ist essentieller Bestandteil der historischen Forschung.\footcite[][S.7]{fickers2020update}
 \\
 \\
 Die \textbf{Historische Fachinformatik}, sozusagen als Vorgänger der Digital History, versteht sich auch als Hilfswissenschaft innerhalb der Geschichtswissenschaften und beschäftigt sich mit der Anwendung und Reflexion von formalen Verfahren im Fach. Sie ist auf der Suche nach in Algorithmen ausdrückbaren, sprich formalisierbaren, Verfahren der Geschichtswissenschaft im Umgang mit historischen Quellen.\footnote{Was ist HFI?, Kurzbeschreibung des Faches und seiner Positionierung \protect\url{hfi.uni-graz.at/basisinformation/was-ist-hfi}, 23.05.2019.} 
@@ -313,7 +314,7 @@ SCHRÖDER definiert die historischen Sozialwissenschaften als
  \item Methoden und Quellenauswahl (Heuristik)
  \item Datenerhebung, Verarbeitung, Analyse und Repräsentation
  \end{itemize}
-Ergebnis dieser Auseinandersetzung war es, dass im Zusammenhang mit der Anwendung formaler Methoden besonders auf die Nachvollziehbarkeit geachtet werden muss, damit nicht Dinge, die nicht empirisch beweisbar sind, auch nicht so missverstanden werden können. Aus diesem Grund muss die Quelle ohne jegliche Vorannahmen zur Verfügung gestellt werden, einsehbar sein und das angewandte formale Modell bzw. die Methode in ihrer Gänze offen gelegt werden. Dies gilt grundsätzlich für jede Art wissenschaftlicher Arbeit. LATOUR führt an, dass je mehr wissenschaftliche Vorarbeiten und Technologien in einem Erkenntnisprozess stecken, desto undurchsichtiger kann er auch werden. Nicht die interne Komplexität, sondern nur der In- und Output stehen im Vordergrund. Gerade im Hinblick auf eine digitale Verarbeitung von Daten ist dies ein Grundproblem.\footcite[][S.309]{latour1999pandora} 
+Ergebnis dieser Auseinandersetzung war es, dass im Zusammenhang mit der Anwendung formaler Methoden besonders auf die Nachvollziehbarkeit geachtet werden muss, damit nicht Dinge, die nicht empirisch beweisbar sind, auch nicht so missverstanden werden können. Aus diesem Grund muss die Quelle ohne jegliche Vorannahmen zur Verfügung gestellt werden, einsehbar sein und das angewandte formale Modell bzw. die Methode in ihrer Gänze offen gelegt werden. Dies gilt grundsätzlich für jede Art wissenschaftlicher Arbeit.
 \\
 Darum wird empfohlen die grundlegenden Annahmen und Definitionen, die in der Verarbeitung und anschließenden Interpretation von Quellen verwendet werden in einer, und so haben es bereits Vertreter der Historischen Fachinformatik gefordert, gemeinsamen \textit{knowledge domain} zu formalisieren.\footcite[][S.263]{thaller2017historical} Diese \textit{knowledge domain} beschreibt die interne Komplexität einer Fragestellung.
 \\
@@ -428,8 +429,7 @@ Zusammenfassend lässt sich sagen, dass der Modellbegriff, je nach Disziplin unt
 \subsubsection{Modellierung}
 \label{Modellierung}
 
-\textcolor{red}{
-Für McCARTY stellt die Modellerstellung, sprich das Modellieren, einen heuristischen Prozess dar, der die Manipulation und Konstruktion von Modellen umfasst. So, ganz im Sinne von STACHOWIAK, betrachtet er ein Modell als Repräsentation von etwas, dessen Zwecke der Entwurf zur Implementierung von etwas Neuen, oder der Analys einer Domäne dienlich ist.}\footcite[][S.255]{mccarty2004modeling}
+Für McCARTY stellt die Modellerstellung, sprich das Modellieren, einen heuristischen Prozess dar, der die Manipulation und Konstruktion von Modellen umfasst. So, ganz im Sinne von STACHOWIAK, betrachtet er ein Modell als Repräsentation von etwas, dessen Zwecke der Entwurf zur Implementierung von etwas Neuen, oder der Analys einer Domäne dienlich ist.\footcite[][S.255]{mccarty2004modeling}
 \\
 Drei Besonderheiten hebt JANNIDIS in der Modellierung von Daten in den Geisteswissenschaften hervor: die Historizität und Kontextabhängigkeit von Objekten, die für die geisteswissenschaftliche Analyse essentiell sind, die Unschärfe von Information und ''\textit{das systembedingte Primat des Individuellen vor dem Allgemeinen}''. Historizität meint, dass nicht nur jedes Objekt eine Geschichte aufweist, sondern auch jede Untersuchung eines Objektes. Als unscharf versteht man, dass es keine definitiven und fixen Werte gibt, die aber für eine maschinelle Verarbeitung notwendig sind. Und Letzteres meint, dass in den Geisteswissenschaften oft der Blick auf ein einzelnes Objekt, z.B. ein Roman, tendenziell interessanter ist als auf eine Vielzahl.\footcite[][S.106-108]{jannidis2017grundlagen}
 \\
@@ -476,11 +476,9 @@ Für die Geisteswissenschaften und im speziellen für die Geschichtswissenschaft
 \\
 Damit Forschungsdaten nachnutzbar und nachvollziehbar sind bedarf es eines mitgelieferten Modells. Diese Modelle wiederum müssen auf Standards beruhen. Es ist zeitintensiv die Datenmodelle andere Fachwissenschaftlerinnen zu verstehen und oft ist es leichter sein eigenes Modell zu entwickeln. Ein generelles Problem mit Informationssystem und Forschungsdaten ist, dass sie oft nur für eine bestimmte Fragestellung bzw. ein bestimmtes Projekt entwickelt werden. Werden bei der Generation der Forschungsdaten aber bereits Konzepte und Standardisierungen verfolgt, so fällt es leichter die ''Datensilos'' zu verlassen und die Nachnutzung zu fördern. 
 \\
-\textcolor{red}{
 Eine erste Form der Standardisierung in den (digitalen) Geisteswissenschaften ist die \textit{Text Encoding Initiative} (TEI). Die TEI entwickelt seit Ende der 1980er Jahre einheitliche Verfahren für die strukturelle und semantische Auszeichnung verschiedener Text- und Dokumenttypen. XML/TEI ermöglicht die korrekte Erfassung von Zeichenfolgen in jeder Art von Text, die Integration von Textstrukturen sowie von Phänomenen und Kontextinformationen. Wenn auch die Umsetzungen der TEI nicht einem 'klassischen' Standard entspricht, so sind die Überlegungen, wie man Text strukturieren und annotieren kann, sehr wohl standardisiert.
 \\
 Die TEI-Richtlinien decken jedoch ein breites Spektrum unterschiedlicher Textarten ab und die Mehrzahl der Merkmale werden nicht für ein einzelnes Projekt benötigt. Darüber hinaus erlaubt die TEI oft mehrere Auszeichnungsvarianten für dasselbe Textphänomen.\footcite[][S.234-249]{sahle2017dhedition}  
-}
 \\
 \\
 Es ist eine Notwendigkeit, dass Standards auf der einen Seite ausdrucksstark sein müssen, um die unterschiedlichen Problemstellungen fassen zu können, andererseits es sich aber daraus formale Modelle ableiten lassen müssen. THALLER fordert deswegen, dass die Standards zur Beschreibung von Modellen eher beschreibend statt vorschreibend sein sollen.\footcite[][S.204]{thaller2017need}
@@ -541,9 +539,7 @@ Tendenzen ausmachen kann, ob die Klöster mit strukturellen Defiziten zu recht k
 Daten - aus unterschiedlichen Formaten - sollen auf einer gemeinsamen Plattform zusammengeführt werden und adäquate Formen des Retrievals, der Discovery und der Visualisierung eröffnen, um die Arbeit mit den Quellen zu erleichtern. Die Überführung in das Resource Description Framework (RDF) auf Basis der im Projektkontext entwickelten \textit{Bookkeeping-Ontologie}, die Transferprozesse historischer Rechnungsbücher formalisiert, erlaubt die Interoperabilität, Verlinkung und das Zusammenführen von Informationen im Sinne des \textit{Web of Data} und \textit{Linked Open Data}. Diese Begriffe werden im Kapitel \ref{WebofData} ausführlicher erörtert.
 \\
 \\
-\textcolor{red}{
 Drei ausgewählte Rechnungsbücher, die im Zuge von DEPCHA bearbeitet und veröffentlicht werden, werden nun ausführlicher behandelt. Dabei wird sowohl die Struktur und der Kontext der Quelle beschrieben und herausgearbeitet welche Forschungsinteressen mit diesen Quellen bedient werden können. 
-}
 
 \subsubsection{The George Washington Financial Papers}
 
@@ -681,10 +677,7 @@ Settled & By work from this day pd & \$2 & 00
 TOMASEK verfolgt dabei einen TEI/XML-Ansatz, um die textuelle Struktur der Quelle und die inhaltliche Struktur der Transaktionen zu beschreiben. Letztere ist schwerer durch reines TEI Markup beschreibbar bzw. für eine weiter Analyse schwere nachnutzbar, da man für eine algorithmische Auswertung diskrete Daten braucht.
 
 \newpage
-\textcolor{red}{
 Das ''\textit{Slave-Ledger}'', das \textit{Wheaton Daybook} und die Finanzaufzeichnung von George Washington lassen sich auf Grund der regionalen und zeitlichen Einordnung gut miteinander vergleichen und weisen ähnliche textuelle und semantische Strukturen auf. Ihre Kontextualisierung, sowie an die Quellen gestellten Forschungsfragen variieren, lassen sich aber auch wieder auf wiederkehrende Entitäten, wie Personen, Orte und Waren- bzw. Geldflüsse zurückführen. Um eine bessere maschinelle Analyse der Information in diesen Quellen zu ermöglichen, sowie historische Rechnungsunterlagen zu beschreiben, die eine andere Struktur aufweisen, bedarf es standardisierter Modelle. Im nächsten Kapitel wird eine Vorgehensweise und Technologie-Stack beschrieben, der dies ermöglicht.
-}
-
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -708,11 +701,10 @@ Dabei handelt es sich aber weder um Maschinen die selbstständig lernen, oder ga
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Kritik am \textit{Web of Data}}
-\textcolor{red}{
 ''\textit{I will never touch that crap of RDF or the semantic web; this is a pipe dream of reality ignoring academics and I will not have it. I will only use JSON-LD.}''
 \\
 \\
-Ist ein Zitat eines Vortrages von Phil ARCHER aus dem Jahr 2014. Viele IT-Entwickler sehen \textit{Web of Data} Standards kritisch und so ist das \textit{Web of Data} über zehn Jahre nach Burners-Lees Aufruf noch immer nicht erreicht.\footcite{wettlaufer2018semanticwebEdition}}; zumindest nicht für die Allgemeinheit. Die großen Internetriesen hingegen verfügen über ihr eigenes ''Semantic Web'', in denen sie ihre eigenen Agenten mit ihrer großen Datenmenge arbeiten lassen. So verwendet Google beispielsweise seinen \textit{Knowledge Graph}, um Ergebnisse für Suchanfragen zu verbessern.\footnote{Whatever Happened to the Semantic Web? , \url{twobithistory.org/2018/05/27/semantic-web.html}}
+Ist ein Zitat eines Vortrages von Phil ARCHER aus dem Jahr 2014. Viele IT-Entwickler sehen \textit{Web of Data} Standards kritisch und so ist das \textit{Web of Data} über zehn Jahre nach Burners-Lees Aufruf noch immer nicht erreicht.\footcite{wettlaufer2018semanticwebEdition}; zumindest nicht für die Allgemeinheit. Die großen Internetriesen hingegen verfügen über ihr eigenes ''Semantic Web'', in denen sie ihre eigenen Agenten mit ihrer großen Datenmenge arbeiten lassen. So verwendet Google beispielsweise seinen \textit{Knowledge Graph}, um Ergebnisse für Suchanfragen zu verbessern.\footnote{Whatever Happened to the Semantic Web? , \url{twobithistory.org/2018/05/27/semantic-web.html}}
 \\
 Es gib weitere Stimmen, die das \textit{Web of Data} in seiner jetzigen Überlegung kritisieren und es wurde schon vor Jahren als Zukunftstechnologie totgesagt. Die Kritik richtet sich daran, dass die Überlegungen zu akademisch und technisch zu kompliziert sein. SHIRKY kritisiert, dass der top-down Ansatz, die unflexible, strenge Art der Formalisierung und die zu starke Spezifikation auf einzelne Domänen von Ontologien nicht sinnvoll in einem dezentralen Web funktionieren können.\footcite{shirky2005ontology} Die Kritik von SWARTZ, der sich ein \textit{Semantic Web} herbeisehnt, richtet sich an den, in seinen Augen noch nicht ausgereiften, Technologie Stack und die zu komplizierten und aufgedröselten Standards. Beispielsweise ist für SWARTZ die Aufzeichnungssprache XML im Gegensatz zu JSON (und XML/RDF im Vergleich zu JSON-LD) zu überladen und kann nur mir mehr Aufwand verarbeitet werden.\footcite{swartz2013aaron}
 \\
@@ -947,7 +939,7 @@ Dieser Zugang wird von Disziplinen wie der Editionsphilologie, oder eben den his
 	\includegraphics[width=1\textwidth]{img/textrad.png}  
     \caption[Pluralistische Textbegriff als Rad, SAHLE: Digitale Editionsformen: Textbegriffe und Recodierung, S.45-49]{Pluralistische Textbegriff nach SAHLE} \label{fig:textrad}
 \end{figure}
-\textcolor{red}{Abbildung \ref{fig:textrad} zeigt fünf unterschiedliche Ebenen, die für das Verständnis von Text relevant sind:}
+Abbildung \ref{fig:textrad} zeigt fünf unterschiedliche Ebenen, die für das Verständnis von Text relevant sind:
 \begin{itemize}
     \item Text als Inhalt: die Idee für den Roman ''Schachnovelle" von Stefan Zweig.
     \item Text als Werk: die Struktur eines Werkes als Sequenz in einem Buch.
@@ -956,7 +948,7 @@ Dieser Zugang wird von Disziplinen wie der Editionsphilologie, oder eben den his
     \item Text als Dokument: die materielle Erscheinungsform eines Exemplars in einer Bibliothek.
     \item Text als Zeichen: die Deutung des Visuellen.\footcite[][S.46]{sahle2013digitale}
 \end{itemize}
-\textcolor{red}{
+
 Die \textbf{kritische Texteditionen} hat eine lange Tradition und wird zur Beantwortung unterschiedlicher Fragestellungen in den Geschichtswissenschaften herangezogen. Es handelt sich um eine Methode, die darauf abzielt, die Abweichungen unterschiedlicher Überlieferungen eines Textes zu bearbeiten und versucht das Material für eine weitere inhaltliche Analyse bereitzustellen. Dabei handelt es sich um eine hermeneutische Methode. In ihr wird die Quelle eingeordnet, dokumentiert und hinsichtlich ihrer Authentizität, sowie Vertrauenswürdigkeit überprüft. Gerade das Schaffen von Vertrauen, sodass nicht jede Quelle erneut auf Punkt und Beistrich geprüft werden muss, ist eine Kernaufgabe der Edition und wichtiger Bestandteil des wissenschaftlichen Forschungsprozesses und wichtiges Kriterium für die wissenschaftliche Auseinandersetzung mit ihr.\footcite[][S.101-144]{aumann1999digital}
 \\
 \\
@@ -971,7 +963,7 @@ Die digitale Edition\footcite[Zu diesem Thema siehe auch:][]{pierazzo2016digital
 \textbf{Multimedialität:} da es keine Begrenzung gibt, wie in einer gedruckten Edition, können sämtliche Ebenen der Edition in unterschiedlichen Formen zugänglich gemacht werden. Etwa alle Faksimile eine Quelle und nicht nur ausgewählte Seiten, sowie zusätzliche Präsentations und Repräsentationsformen, wie etwas Informationsvisualisierung als Zusammenfassung bestimmter Strukturen in einem Text. 
 \end{itemize}
 Die Umsetzung einer digitalen Edition ist auch mit neuen Herausforderungen verbunden. Es ist notwendig, dass die langfristige Sicherung der Forschungsdaten, die Zitierbarkeit und Authentizität der Edition gewährleistet sind. Umso mehr ist es notwendig, dass sorgsam methodisches Vorgehen dokumentiert wird und in einer Form als \textit{knowledge domain} abgebildet wird, um eine formale Quellenkritik und -analyse transparent halten zu können.\footcite[][S.306-315]{kropavc2004theorien}
-}
+
 
 \subsubsection{Digitale Edition und Web of Data}
 
@@ -979,7 +971,6 @@ Die Umsetzung einer digitalen Edition ist auch mit neuen Herausforderungen verbu
 \footcite[][S.236]{sahle2017dhedition}
 \\
 \\
-\textcolor{red}{
 Dieser Aussage von SAHLE folgend bedarf es eines Werkzeuges im Kontext der digitalen Edition, um die Inhalte, die semantischen Strukturen, einer Quelle formal zu beschreiben. Dieses Werkzeug kann, so VOGELER, das \textit{Web of Data} sein und überführt die digitale Edition in eine sogenannte \textbf{''Assertive Edition''}.
 \\  
 Historikerinnen haben ein besonderes Interesse an ''historischen Fakten''. So Sind Methoden notwendig, deren Ziel es ist, formale Darstellungen der durch den Text vermittelten Informationen in strukturierten Datenbanken abzubilden. Um auch den Ansprüchen der textuellen Ebenen einer Quelle gerecht werden zu können, schlägt VOGELER die Verwendung von eingebetteten Referenzen im TEI-Markup vor, die es erlauben aus dem Text extrahierte Aussagen in eine RDF-Repräsentation zu überführen. Die Logik diese Referenzen, sprich der jeweilgien Domäne bzw. Forschungsfrage, wird als Ontologie abgebildet.\footcite[][]{vogeler2019assertive}
@@ -998,7 +989,7 @@ Er kommt zu dem Schluss, dass \textit{Web of Data} Zugänge es ermöglichen, tie
 Die Anbindung an \textbf{\textit{Linked Open Data}} Hubs, wie beispielsweise \textit{Wikidata} oder \textit{DBpedia.org} spielen eine hervorgehobene Rolle in der Vernetzung von Entitäten und Information über Editionsprojekte hinweg.\footcite{wettlaufer2018semanticwebEdition} Dort kann eine stabile und über URIs adressierbare kollaborative Wissensbasis genutzt werden, um Daten auf übergreifende Konzepte zu referenzieren, was für eine weitere Anreicherung, Normalisierung und Aufbereitung für das Finden genutzt werden kann. 
 \\
 Im Kapiteln \ref{BK} wird dieser Zugang am Beispiel des DEPCHA Projektes detaillierter ausgeführt.
-}
+
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1006,17 +997,16 @@ Im Kapiteln \ref{BK} wird dieser Zugang am Beispiel des DEPCHA Projektes detaill
 \subsection{Die Bookkeeping-Ontology}
 \label{BK}
 
-Die \textit{Bookkeeping Ontology}\footnote{\url{gams.uni-graz.at/o:depcha.bookkeeping}, 24.08.2020} ist ein konzeptionelles Modell zur formalen Beschreibung von Transaktionen in historischen Rechnungsunterlagen. Es wurde in einem Ontologie-Engineering-Prozess entwickelt, an dem Historikerinnen, Softwareentwicklerinnen und digitale Geisteswissenschaftlerinnen beteiligt waren. Die Ontologie befindet sich nach wie vor in der Entwicklung (Stand 2020).
+Die \textit{Bookkeeping Ontology}\footnote{\url{gams.uni-graz.at/o:depcha.bookkeeping}, 24.08.2020} ist ein konzeptionelles Modell zur formalen Beschreibung von Transaktionen in historischen Rechnungsunterlagen. Es wurde in einem Ontologie-Engineering-Prozess entwickelt, an dem Historikerinnen, Softwareentwicklerinnen und digitale Geisteswissenschaftlerinnen beteiligt waren. Die Ontologie befindet sich nach wie vor in der Entwicklung (Stand 2020). Sie liegt der Arbeit von VOGELER zugrunde.\footnote{Ontology for the RDF description of historical accounting, \url{https://github.com/GVogeler/bookkeeping}, 08.09.2020} 
 
 
 
 \subsubsection{Grundlagen}
-\textcolor{red}{
+
 Ausgangspunkt ist das \textit{Resources, events, agents} (REA) Modell\footcite{mccarthy1982rea}, eine Ontologie, die Buchhaltungsprozessen virtualisiert. Wie der Name sagt, besteht es aus Ressourcen (Gütern, Dienstleistungen, Geld), die in Ereignissen, also Vereinbarungen oder Geschäftstransaktionen, von einem Akteur (Person, Organisation) zum anderen transferiert werden. Im Mittelpunkt jedes REA-Modells steht in der Regel ein Ereignispaar, das durch eine Austauschbeziehung verbunden ist. Eines dieser Ereignisse repräsentiert gewöhnlich den Abgang, die andere den Empfang einer Ressource. Im Verkaufsprozess wäre zum Beispiel ein Ereignis ein ''Verkauf'' - bei dem Waren abgegeben werden - und das andere Ereignis ein ''Geldeingang'', bei dem Bargeld empfangen wird. Diese beiden Ereignisse sind miteinander verbunden: ein Geldeingang erfolgt im Austausch gegen einen Verkauf und umgekehrt.
 \\
 \\
 Eine weitere Grundlage bilden die Arbeiten im Kontext von \textit{Modeling Semantically Enhanced Digital Edition of Accounts} (MEDEA)\footnote{\url{https://medea.hypotheses.org/}, 07.09.2020}. Diese Arbeitsgruppe hebt gerade die Möglichkeiten der Normalisierung und fachwissenschaftliche Annotation von Information in historischen Rechnungsbüchern hervor und erörtert auch die Rolle der \textit{extensible Business Reporting Language} (XBRL)\footnote{XBRL, \url{https://www.xbrl.org/}, 25.08.2020}, ein XML-basierter Standard ''\textit{for reporting financial information}''. Weiters wird die Ableitung eines konzeptuellen Modells zur Beschreibung von Transaktionen von der Top-Level-Ontology CIDOC-CRM\footnote{CIDOC Conceptual Reference Model (CRM, \url{http://www.cidoc-crm.org/}, 25.08.2020} diskutiert.\footcite[][S.9-12]{tomasekmedea} Diese Überlegungen fließen in die Entwicklung der Bookkeeping-Ontology ein. Eine andere Ontologie, die sich in diesem Umfeld bewegt und wirtschaftliche Aktivitäten beschreibt sind die Überlegungen von VAJDA et.al.\footcite[][]{vajda2019toward}. Eine tiefergehende Auseinandersetzungen mit diesen Überlegungen steht noch aus.
-}
 
 \subsubsection{Beschreibung}
 
@@ -1032,19 +1022,16 @@ Ein Transfer, als Teilbestand einer Transaktion, kann auch von einem \textit{Age
 \subsubsection{Beispiel}
 \label{Beispiel}
 
-\textcolor{red}{
-Zu Beginn dieser Arbeit (Kapitel \ref{section:FormaleMethoden}) wurde ein Beispiel angeführt, indem ein Akteur, James Haley, am 01.08.1808 ein 1/4 Pfund Pulver, 1 Pfund Munition und 1 Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der \textit{Stagville Plantage} in \textit{North Carolina} käuflich erworben hat. Am folgendem Beispiel wird gezeigt, wie die Annotation des XML/TEI aussieht, um eine Transaktion im Sinne der Bookkeeping-Ontologie zu beschreiben und wie die daraus extrahierten RDF-Triple aussehen.}
+Zu Beginn dieser Arbeit (Kapitel \ref{section:FormaleMethoden}) wurde ein Beispiel angeführt, indem ein Akteur, James Haley, am 01.08.1808 ein 1/4 Pfund Pulver, 1 Pfund Munition und 1 Pfund Zucker zum Preis von 2 Schilling und 6 Pence im Laden der \textit{Stagville Plantage} in \textit{North Carolina} käuflich erworben hat. Am folgendem Beispiel wird gezeigt, wie die Annotation des XML/TEI aussieht, um eine Transaktion im Sinne der Bookkeeping-Ontologie zu beschreiben und wie die daraus extrahierten RDF-Triple aussehen.
 \\
 \\
 \textbf{XML/TEI Beispiel mit Bookkeeping-Annotation}
 \\
 \\
-\textcolor{red}{
 Ausgangspunkt ist die Definition eines Containers, der die textuelle Struktur \textit{bk:Entry} und die semantische Struktur \textit{bk:Transaction} zusammenführt. Für die Annotation im XML/TEI wird das Attribut \textit{@ana} verwendet, das eine oder mehrere Interpretationen eines Elements und dessen Inhalts erlaubt. Der \textit{bk:Entry} stellt oft in Rechnungsunterlagen entweder eine Zeile in einer Tabelle oder einen Eintrag in einer Liste dar, ist aber nicht darauf reduziert.
 \\
 Die hier dargestellte \textit{bk:Transaction} besteht aus zwei \textit{bk:Transfers}: der \textit{bk:Transfers} von Pulver, Zucker und Schrot, und der Fluss des Geldes, also der \textit{bk:Transfers} von 7 Schilling und 6 Pence.
-}
-\newpage
+
 \begin{lstlisting}[language=XML]
 <head> 
   <name ana=''bk:to'' ref=''depcha:stagville''>Stagville</name> 
@@ -1071,7 +1058,6 @@ Die hier dargestellte \textit{bk:Transaction} besteht aus zwei \textit{bk:Transf
   </row>
 </table>
 \end{lstlisting}
-\textcolor{red}{
 Neben trivialen Markup, wie beispielsweise der Auszeichnung des Datums mittels
 \textit{<date ana = ''bk:when''>}, wird der Geldfluss durch die Werte \textit{@ana = ''bk:from''} und \textit{@ana = ''bk:to''} ausgedrückt. Da in den meisten Quellen dieser Art ein Kauf einer Ware dokumentiert ist, handelt es sich hierbei um die Default-Annahme. Daraus lässt sich schließlich der Fluss von Wirtschaftsgütern -- einer Ware oder Dienstleistung -- ableiten. Einzelne Einträge nennen in der Regel nur einen Akteur einer Transaktion, während die zweite Seite, der Ladenbesitzer des Stagville-Stores, indirekt, aus dem Kontext der Fachwissenschaflterin, oder auf einer vorangestellten Seite, abgebildet ist. Darüber hinaus kann der Text ''\textit{Self Dr.}'' in der Kopfzeile der Buchung als Transaktions- und Buchungsstatus interpretiert werden und drückt aus, dass die Buchung von dieser Person auf der Sollseite eines doppelten Buchungsstils vorgenommen wurde.
 \\
@@ -1082,7 +1068,6 @@ Ein weiterer wichtiger Aspekt ist die Normalisierung von Entitäten wie Personen
 Wikidata erlaubt es eigenständige neue Konzepte zu erstellen, die noch in keinem Vokabular vertreten sind. Das folgende Beispiel verdeutlicht dies: ein weiterer in DEPCHA aufgenommener Datensatz enthält Listen von Waren aus der Stadt Regensburg im 13. Jahrhundert.\footnote{StadtA Regensburg, Kameralien 3} In diesem Datensatz wird der Begriff ''\textit{Scheffen Hafer}'' verwendet und bezieht sich auf eine ganz bestimmte zeitliche und regionale historische Einheit. Der oben beschriebene Arbeitsablauf erlaubt es, solche Begriffe direkt mit \textit{Wikidata.org}-Konzepten zu verbinden, indem die Q-Nummer direkt an ein Attribut angehängt wird. Dieser pragmatische Ansatz wird durch Werkzeuge wie OpenRefine\footnote{Open source Desktop Anwendung zur Datenbereinigung und Datentransformation, \url{https://openrefine.org}, 26.08.2020} für die halbautomatische Identifizierung unterstützt.
 \\
 Als Ergebnis dieses Workflows extrahiert eine XSL-Transformation die annotierten Strukturen im XML/TEI und überführt sie in ein RDF, dessen Grundlage die Bookkeeping-Ontologie darstellt. Das folgende RDF/Turtle-Snippet zeigt das verarbeitete XML/TEI:\footcite[][S.10-15]{pollin2019digital}
-}
 \\
 \\
 \textbf{RDF-Extraktion}
@@ -1132,9 +1117,8 @@ Danach folgen die RDF-Triple, die aus dieser Annotation extrahiert werden könne
   bk:name "James Haley".
   
 \end{lstlisting}
-\textcolor{red}{
 Abbildung \ref{fig:example} stellt die angeführte Transaktion schematisch dar. Die hellen Knoten definieren Instanzen von Klassen der Bookkeeping-Ontologie, die im Sinen von \textit{Object Properties} mit anderen Instanzen verknüpft sind, bzw. durch weitere Attribute, eben \textit{Data Properties}, beschrieben werden. Angedeutet wird die Normalisierung der Währungen und Maßeinheiten über Wikidata mit den angeführten Q-Identifikatoren. Die RDF-Daten bilden genau diese Graphenstruktur ab, und können so in einer Graphdatenbank verwendet werden.  
-}
+
 \begin{figure}[H]
 \centering
 	\includegraphics[width=1\textwidth]{img/example.png}  
@@ -1226,7 +1210,6 @@ Es veranschaulicht, welche Ziele und Herausforderungen mit Methoden der Informat
 \newpage
 \section{Zusammenfassung und Ausblick}
 
-\textcolor{red}{
 Die Gegebenheiten der Wissensproduktion in der Gesichtsforschung haben sich auf Grund der Digitalisierung gewandelt und beeinflussen wie Geschichte gedacht, erarbeitet und interpretiert wird. Dies geschieht nicht erst bei der ausgefeilten maschinellen Analyse von Daten, sondern beginnt bereits beim Sammeln und Entdecken von Primär- und Sekundärquellen über das Web. Computergestützte Methoden zur Analyse, sowie die Zurverfügungstellung der digitalisierten Quellen, erlauben neue Perspektiven im Umgang mit historischen Quellen. Aber Digitalisierung ist vielmehr ein mächtiges Werkzeug, das die Arbeit mit größeren Datenmengen effizienter gestaltet, nicht aber ein Paradigmenwechsel in den Geschichtswissenschaften.\footcite[][]{koenig2020archive} Dies ist aber noch eine offene Frage, die in der Fachgemeinschaft diskutiert wird. 
 \\
 \\
@@ -1256,7 +1239,7 @@ Eine Möglichkeit der Implementierung ist durch den Einsatz von TEI und RDF gege
 Die \textit{Hypothese} trifft den empirischen Teil der Geschichtswissenschaften. Diese Daten entsprechen nicht einer absoluten Wahrheit, sondern sind das Produkt eines hermeneutischen Prozesses einer Fachwissenschaftlerin, auf deren Basis weitere Arbeit und Interpretation ruhen kann. Die so entstanden Daten können aber dennoch unter Verwendung von quantitativen Methoden analysiert werden, um Hypothesen zu stützen oder zu falsifizieren. Dadurch, dass die Daten im Web und ihre \textit{knowledge base} im Web zur Verfügung steht, können Hypothesen an geschichtswissenschaftliche Fragestellungen effektiver bearbeitet werden.
 \\
 \\
-Zusammengefasst kann gesagt werden, das folgende Vorteile mit der Verwendung von Ontologien einhergehen:}
+Zusammengefasst kann gesagt werden, das folgende Vorteile mit der Verwendung von Ontologien einhergehen:
 \begin{itemize}
 \item Ein gemeinsames Vokabular bzw. Modell erleichtert die Kommunikation in der Wissensproduktion und kann von Fachkolleginnen und Kollegen nachgenutzt werden.
 \item Die Wiederverwendung eines Modells befördert den fachwissenschaftlichen Diskurs, in dem bestehende Konzepte kritisiert und fehlende Konzepte ergänzt werden können. Dies führt zu einem allgemein akzeptierten und verständlicheren konzeptionellen Modell.
