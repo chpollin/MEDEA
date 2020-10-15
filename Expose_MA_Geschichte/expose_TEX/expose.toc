@@ -11,38 +11,38 @@
 \contentsline {subsubsection}{\numberline {2.1.2}Hermeneutik}{12}
 \contentsline {subsubsection}{\numberline {2.1.3}Empirismus}{13}
 \contentsline {subsubsection}{\numberline {2.1.4}Methoden der Geschichtswissenschaft}{15}
-\contentsline {subsection}{\numberline {2.2}''Quantifizierer'' und ''Traditionalisten'': Entwicklung einer formalen Methodik }{17}
-\contentsline {subsubsection}{\numberline {2.2.1}''Historische Fakten''}{18}
-\contentsline {subsubsection}{\numberline {2.2.2}Interpretation und Theoriebildung}{19}
-\contentsline {subsection}{\numberline {2.3}Modellbildung als Kern der Digital History}{21}
-\contentsline {subsubsection}{\numberline {2.3.1}Definition und Terminologie des Modellbegriffs.}{21}
-\contentsline {subsubsection}{\numberline {2.3.2}Modellierung}{24}
-\contentsline {subsubsection}{\numberline {2.3.3}Forschungsdaten in den Geschichtswissenschaften}{26}
-\contentsline {section}{\numberline {3}Historische Rechnungsb\IeC {\"u}cher als Quelle}{30}
-\contentsline {subsection}{\numberline {3.1}Wirtschafts- und Rechnungsb\IeC {\"u}cher}{30}
-\contentsline {subsection}{\numberline {3.2}Digital Edition Publishing Cooperative for Historical Accounts}{33}
-\contentsline {subsubsection}{\numberline {3.2.1}The George Washington Financial Papers}{33}
-\contentsline {subsubsection}{\numberline {3.2.2}Cameron Family Papers, Stagville Accounts}{35}
-\contentsline {subsubsection}{\numberline {3.2.3}The Wheaton Accounts}{37}
-\contentsline {section}{\numberline {4}Web of Data}{43}
-\contentsline {subsection}{\numberline {4.1}Geschichte und Vision des \textit {Web of Data}}{43}
-\contentsline {subsubsection}{\numberline {4.1.1}Kritik am \textit {Web of Data}}{44}
-\contentsline {subsection}{\numberline {4.2}Web of Data Stack}{46}
-\contentsline {subsubsection}{\numberline {4.2.1}Daten als Graph: Resource Description Framework}{47}
-\contentsline {subsubsection}{\numberline {4.2.2}Klassen und Beziehungen: Resource Description Framework Schema (RDFS)}{50}
-\contentsline {subsubsection}{\numberline {4.2.3}Abfragesprache: SPARQL}{52}
-\contentsline {subsection}{\numberline {4.3}Formalisierung von Modellen: Ontologien}{53}
-\contentsline {subsubsection}{\numberline {4.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{53}
-\contentsline {subsubsection}{\numberline {4.3.2}Reasoning}{56}
-\contentsline {section}{\numberline {5}Anwendung formaler Methoden auf Basis einer Ontologie}{57}
-\contentsline {subsection}{\numberline {5.1}Digitale Edition von historischen Rechnungsb\IeC {\"u}chern}{57}
-\contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition und Web of Data}{60}
-\contentsline {subsection}{\numberline {5.2}Die Bookkeeping-Ontology}{62}
-\contentsline {subsubsection}{\numberline {5.2.1}Grundlagen}{62}
-\contentsline {subsubsection}{\numberline {5.2.2}Beschreibung}{63}
-\contentsline {subsubsection}{\numberline {5.2.3}Beispiel}{63}
-\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung}{68}
-\contentsline {subsubsection}{\numberline {5.3.1}Voraussetzungen}{68}
-\contentsline {subsubsection}{\numberline {5.3.2}Multidimensionale Rechnungsb\IeC {\"u}cher \IeC {\textendash } Multiple Views und Interaktion}{70}
-\contentsline {subsubsection}{\numberline {5.3.3}Informationsvisualisierung und Web of Data}{74}
-\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{76}
+\contentsline {subsection}{\numberline {2.2}''Quantifizierer'' und ''Traditionalisten'': Entwicklung einer formalen Methodik }{18}
+\contentsline {subsubsection}{\numberline {2.2.1}''Historische Fakten''}{19}
+\contentsline {subsubsection}{\numberline {2.2.2}Interpretation und Theoriebildung}{20}
+\contentsline {subsection}{\numberline {2.3}Modellbildung als Kern der Digital History}{22}
+\contentsline {subsubsection}{\numberline {2.3.1}Definition und Terminologie des Modellbegriffs.}{22}
+\contentsline {subsubsection}{\numberline {2.3.2}Modellierung}{25}
+\contentsline {subsubsection}{\numberline {2.3.3}Forschungsdaten in den Geschichtswissenschaften}{27}
+\contentsline {section}{\numberline {3}Historische Rechnungsb\IeC {\"u}cher als Quelle}{31}
+\contentsline {subsection}{\numberline {3.1}Wirtschafts- und Rechnungsb\IeC {\"u}cher}{31}
+\contentsline {subsection}{\numberline {3.2}Digital Edition Publishing Cooperative for Historical Accounts}{34}
+\contentsline {subsubsection}{\numberline {3.2.1}The George Washington Financial Papers}{34}
+\contentsline {subsubsection}{\numberline {3.2.2}Cameron Family Papers, Stagville Accounts}{36}
+\contentsline {subsubsection}{\numberline {3.2.3}The Wheaton Accounts}{38}
+\contentsline {section}{\numberline {4}Web of Data}{44}
+\contentsline {subsection}{\numberline {4.1}Geschichte und Vision des \textit {Web of Data}}{44}
+\contentsline {subsubsection}{\numberline {4.1.1}Kritik am \textit {Web of Data}}{45}
+\contentsline {subsection}{\numberline {4.2}Web of Data Stack}{47}
+\contentsline {subsubsection}{\numberline {4.2.1}Daten als Graph: Resource Description Framework}{48}
+\contentsline {subsubsection}{\numberline {4.2.2}Klassen und Beziehungen: Resource Description Framework Schema (RDFS)}{51}
+\contentsline {subsubsection}{\numberline {4.2.3}Abfragesprache: SPARQL}{53}
+\contentsline {subsection}{\numberline {4.3}Formalisierung von Modellen: Ontologien}{54}
+\contentsline {subsubsection}{\numberline {4.3.1}Vom Wissen, \IeC {\"u}ber das Semantische Netz zur Ontologie}{54}
+\contentsline {subsubsection}{\numberline {4.3.2}Reasoning}{57}
+\contentsline {section}{\numberline {5}Anwendung formaler Methoden auf Basis einer Ontologie}{58}
+\contentsline {subsection}{\numberline {5.1}Digitale Edition von historischen Rechnungsb\IeC {\"u}chern}{58}
+\contentsline {subsubsection}{\numberline {5.1.1}Digitale Edition und Web of Data}{61}
+\contentsline {subsection}{\numberline {5.2}Die Bookkeeping-Ontology}{63}
+\contentsline {subsubsection}{\numberline {5.2.1}Grundlagen}{63}
+\contentsline {subsubsection}{\numberline {5.2.2}Beschreibung}{64}
+\contentsline {subsubsection}{\numberline {5.2.3}Beispiel}{64}
+\contentsline {subsection}{\numberline {5.3}Informationsvisualisierung}{69}
+\contentsline {subsubsection}{\numberline {5.3.1}Voraussetzungen}{69}
+\contentsline {subsubsection}{\numberline {5.3.2}Multidimensionale Rechnungsb\IeC {\"u}cher \IeC {\textendash } Multiple Views und Interaktion}{71}
+\contentsline {subsubsection}{\numberline {5.3.3}Informationsvisualisierung und Web of Data}{75}
+\contentsline {section}{\numberline {6}Zusammenfassung und Ausblick}{77}

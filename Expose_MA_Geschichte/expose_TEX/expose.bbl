@@ -71,20 +71,6 @@
   {{Bauer}{Florian}{F.}{}{}; {Kaltenb{\"o}ck}{Martin}{M.}{}{}} {} {}
   \bibAnnoteFile {bauer2011linked}
 
-\bibitem[{Becker\jbdy {1955}}%
-         {Western Political Quarterly 8  \peryearformat {1955}}%
-         {{0}{}{article}{1955}{}{}{}{S. 327--340}%
-          {Sage Publications Sage CA: Thousand Oaks, CA\bibbdsep {} 1955}}%
-         {{What are historical facts?}%
-          {}{}{2}{}{}{}{}{}}%
-        ]{becker1955historical}
- \jbbibargs {\bibnf {Becker} {Carl~L.} {C.~L.} {} {}} {Carl~L. Becker} {au}
-  {\bibapifont {What are historical facts?} \bibJTsep \bibjtfont {Western
-  Political Quarterly}\ajtsep\  \artvolumeformat {8} \artyearformat
-  {1955}\artnumberformat {3} \jbPages{S. 327--340}} {\bibartperiodhowcited}
-  \jbdoitem {{Becker}{Carl~L.}{C.~L.}{}{}} {} {} \bibAnnoteFile
-  {becker1955historical}
-
 \bibitem[{Berners-Lee\jbbfsasep Fielding\jbbstasep Masinter\jbdy {2004}}%
          {}%
          {{0}{}{techreport}{2004}{}{}{}{}%
@@ -804,9 +790,21 @@
   {{Joost~BREUKER}{Pompeu~CASANOVAS}{P.~C.}{}{}; {KLEIN}{MC}{M.}{}{};
   {FRANCESCONI}{Enrico}{E.}{}{}} {} {} \bibAnnoteFile {joostbreukera2009flood}
 
+\bibitem[{Jordan\jbdy {2010}}%
+         {}%
+         {{1}{}{article}{2010}{}{}{}{}%
+          {2010}}%
+         {{Vetorecht der Quellen}%
+          {}{}{2}{}{}{}{}{}}%
+        ]{jordan2010vetorecht}
+ \jbbibargs {\bibnf {Jordan} {Stefan} {S.} {} {}} {Stefan Jordan} {au}
+  {\bibapifont {Vetorecht der Quellen}\bibatsep\  \artyearformat {2010}}
+  {\bibartperiodhowcited} \jbdoitem {{Jordan}{Stefan}{S.}{}{}} {} {}
+  \bibAnnoteFile {jordan2010vetorecht}
+
 \bibitem[{Jordan\jbdy {2018}}%
          {}%
-         {{0}{}{book}{2018}{4}{}{}{}%
+         {{1}{}{book}{2018}{4}{}{}{}%
           {UTB GmbH\bibbdsep {} 2018}}%
          {{Theorien und Methoden der Geschichtswissenschaft}%
           {}{}{2}{}{}{}{}{}}%

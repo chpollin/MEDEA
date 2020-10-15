@@ -31,6 +31,7 @@ Warning--Empty booktitle in hiltman2018forschungsdaten
 Warning--No address in hiltman2018forschungsdaten
 Warning--No address in horrocks2005semantic
 Warning--There's only a starting page, no pagerange in joostbreukera2009flood
+Warning--Empty pages in jordan2010vetorecht
 Warning--Empty pages in kindling2013forschungsdatenmanagement
 Warning--Empty pages in kropavc2004theorien
 Warning--No address in neher2011semantische
@@ -56,43 +57,43 @@ Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
 You've used 122 entries,
             7954 wiz_defined-function locations,
-            2023 strings with 30819 characters,
-and the built_in function-call counts, 128263 in all, are:
-= -- 9188
+            2018 strings with 30713 characters,
+and the built_in function-call counts, 127854 in all, are:
+= -- 9141
 > -- 4093
 < -- 378
 + -- 1438
 - -- 1293
-* -- 14251
-:= -- 18167
+* -- 14212
+:= -- 18138
 add.period$ -- 0
 call.type$ -- 122
 change.case$ -- 584
 chr.to.int$ -- 208
-cite$ -- 314
-duplicate$ -- 6911
-empty$ -- 13483
+cite$ -- 315
+duplicate$ -- 6890
+empty$ -- 13443
 format.name$ -- 4188
-if$ -- 26423
+if$ -- 26317
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 693
+missing$ -- 692
 newline$ -- 1118
 num.names$ -- 1014
-pop$ -- 2713
+pop$ -- 2711
 preamble$ -- 1
 purify$ -- 573
 quote$ -- 0
-skip$ -- 5008
+skip$ -- 4983
 stack$ -- 0
-substring$ -- 4477
-swap$ -- 3331
+substring$ -- 4403
+swap$ -- 3312
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 2551
-warning$ -- 42
-while$ -- 1157
+warning$ -- 43
+while$ -- 1153
 width$ -- 0
-write$ -- 4539
-(There were 42 warnings)
+write$ -- 4535
+(There were 43 warnings)
