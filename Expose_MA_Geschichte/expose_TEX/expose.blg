@@ -1,16 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: expose.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: expose.aux
 The style file: jurabib.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12198 items from 5000.
 Database file #1: literatur.bib
 Warning--Empty pages in andorfer2015forschungsdaten
 Warning--No address in berners2004uniform
@@ -55,45 +44,4 @@ Warning--No address in vogeler2015mittelalterliche
 Warning--There's only a starting page, no pagerange in vogeler2019assertive
 Warning--No address in wellmer1979georg
 Warning--There's no chapter in wolf1995qualitative
-You've used 122 entries,
-            7954 wiz_defined-function locations,
-            2018 strings with 30713 characters,
-and the built_in function-call counts, 127854 in all, are:
-= -- 9141
-> -- 4093
-< -- 378
-+ -- 1438
-- -- 1293
-* -- 14212
-:= -- 18138
-add.period$ -- 0
-call.type$ -- 122
-change.case$ -- 584
-chr.to.int$ -- 208
-cite$ -- 315
-duplicate$ -- 6890
-empty$ -- 13443
-format.name$ -- 4188
-if$ -- 26317
-int.to.chr$ -- 4
-int.to.str$ -- 0
-missing$ -- 692
-newline$ -- 1118
-num.names$ -- 1014
-pop$ -- 2711
-preamble$ -- 1
-purify$ -- 573
-quote$ -- 0
-skip$ -- 4983
-stack$ -- 0
-substring$ -- 4403
-swap$ -- 3312
-text.length$ -- 1
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 2551
-warning$ -- 43
-while$ -- 1153
-width$ -- 0
-write$ -- 4535
 (There were 43 warnings)
