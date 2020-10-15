@@ -870,10 +870,11 @@
          {{Vetorecht der Quellen}%
           {}{}{2}{}{}{}{}{}}%
         ]{jordan2010vetorecht}
+ \jburldef {jordan2010vetorecht}{http://dx.doi.org/10.14765/zzf.dok.2.570.v1}%
  \jbbibargs {\bibnf {Jordan} {Stefan} {S.} {} {}} {Stefan Jordan} {au}
   {sexless} {\bibapifont {Vetorecht der Quellen}\bibatsep {}  \artyearformat
-  {2010}} {\bibartperiodhowcited} \jbdoitem {{Jordan}{Stefan}{S.}{}{}} {} {}
-  \bibAnnoteFile {jordan2010vetorecht}
+  {2010} \jburluse {jordan2010vetorecht}} {\bibartperiodhowcited} \jbdoitem
+  {{Jordan}{Stefan}{S.}{}{}} {} {} \bibAnnoteFile {jordan2010vetorecht}
 
 \backrefparscanfalse
 \bibitem[{Jordan\jbdy {2018}}%
