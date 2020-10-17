@@ -1,275 +1,316 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.24)  15 OCT 2020 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  17 OCT 2020 15:31
 entering extended mode
 **./expose.tex
 (expose.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-08-07>
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+LaTeX2e <2018-04-01> patch level 5
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count168
-\c@section=\count169
-\c@subsection=\count170
-\c@subsubsection=\count171
-\c@paragraph=\count172
-\c@subparagraph=\count173
-\c@figure=\count174
-\c@table=\count175
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen134
-)
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
-
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/ucs\utf8x.def
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
+y"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+ ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-))
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/ucs\ucs.sty
+)) ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucs.sty"
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-global.def
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-global.def
+"
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count176
-\uc@combtoks=\toks17
-\uc@combtoksb=\toks18
-\uc@temptokena=\toks19
+\uc@secondtry=\count88
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.
+sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2020/07/13 3.47 The Babel package
-
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2020/07/13 3.47 Babel common definitions
-\babel@savecnt=\count177
-\U@D=\dimen135
-\l@babelnohyphens=\language79
-
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read2
 )
-\bbl@dirlevel=\count178
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2018/09/26 3.24 The Babel package
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+"
+File: switch.def 2018/09/26 3.24 Babel switching mechanism
+)
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\german.ld
-f
-Language: german 2020/07/21 v2.12 German support for babel (pre-1996 orthograph
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\germa
+n.ldf"
+Language: german 2018/03/29 v2.10 German support for babel (pre-1996 orthograph
 y)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\germanb.l
-df
-Language: germanb 2020/07/21 v2.12 German support for babel (pre-1996 orthograp
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\germa
+nb.ldf"
+Language: germanb 2018/03/29 v2.10 German support for babel (pre-1996 orthograp
 hy)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/09/26 3.24 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
+ef")
+\bbl@dirlevel=\count90
+)
 Package babel Info: Making " an active character on input line 135.
 )))
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
+\KV@toks@=\toks19
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
-cfg
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
-f
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen136
-\Gin@req@width=\dimen137
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip49
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen138
+\@emptytoks=\toks20
+\ex@=\dimen106
 ))
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen139
+\pmbraise@=\dimen107
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count179
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count180
-\leftroot@=\count181
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count182
-\DOTSCASE@=\count183
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box45
-\strutbox@=\box46
-\big@size=\dimen140
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count184
-\c@MaxMatrixCols=\count185
-\dotsspace@=\muskip16
-\c@parentequation=\count186
-\dspbrk@lvl=\count187
-\tag@help=\toks22
-\row@=\count188
-\column@=\count189
-\maxfields@=\count190
-\andhelp@=\toks23
-\eqnshift@=\dimen141
-\alignsep@=\dimen142
-\tagshift@=\dimen143
-\tagwidth@=\dimen144
-\totwidth@=\dimen145
-\lineht@=\dimen146
-\@envbody=\toks24
-\multlinegap=\skip50
-\multlinetaggap=\skip51
-\mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks21
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks22
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks23
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
+) ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
+y"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen147
-\captionmargin@=\dimen148
-\captionwidth=\dimen149
-\caption@tempdima=\dimen150
-\caption@indent=\dimen151
-\caption@parindent=\dimen152
-\caption@hangindent=\dimen153
-Package caption Info: Standard document class detected.
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
+ty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
 )
-\c@caption@flags=\count191
-\c@continuedfloat=\count192
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
-y
-Package: geometry 2020/01/02 v5.9 Page Geometry
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+\c@caption@flags=\count103
+\c@ContinuedFloat=\count104
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-\Gm@cnth=\count193
-\Gm@cntv=\count194
-\c@Gm@tempcnt=\count195
-\Gm@bindingoffset=\dimen154
-\Gm@wd@mp=\dimen155
-\Gm@odd@mp=\dimen156
-\Gm@even@mp=\dimen157
-\Gm@layoutwidth=\dimen158
-\Gm@layoutheight=\dimen159
-\Gm@layouthoffset=\dimen160
-\Gm@layoutvoffset=\dimen161
-\Gm@dimlist=\toks26
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen122
+\Gm@wd@mp=\dimen123
+\Gm@odd@mp=\dimen124
+\Gm@even@mp=\dimen125
+\Gm@layoutwidth=\dimen126
+\Gm@layoutheight=\dimen127
+\Gm@layouthoffset=\dimen128
+\Gm@layoutvoffset=\dimen129
+\Gm@dimlist=\toks25
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+cfg"))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count196
-\float@exts=\toks27
-\float@box=\box47
-\@float@everytoks=\toks28
-\@floatcapt=\box48
+\c@float@type=\count108
+\float@exts=\toks26
+\float@box=\box28
+\@float@everytoks=\toks27
+\@floatcapt=\box29
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
-Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\acronym\acronym.st
+y"
+Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\suffix.sty
+"
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\integerpart=\count197
-\decimalpart=\count198
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.st
+y"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.
+tex"
+\@xs@message=\write3
+\integerpart=\count109
+\decimalpart=\count110
 )
-Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\AC@clearlist=\toks29
+\AC@clearlist=\toks28
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.
+sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count199
-\calc@Bcount=\count266
-\calc@Adimen=\dimen162
-\calc@Bdimen=\dimen163
-\calc@Askip=\skip52
-\calc@Bskip=\skip53
+\calc@Acount=\count111
+\calc@Bcount=\count112
+\calc@Adimen=\dimen130
+\calc@Bdimen=\dimen131
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count267
-\calc@Cskip=\skip54
+\calc@Ccount=\count113
+\calc@Cskip=\skip48
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.st
+y"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/atbegshi\atbegshi.st
-y
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegsh
+i.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
-sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -283,102 +324,102 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-\AM@pagewidth=\dimen164
-\AM@pageheight=\dimen165
+\AM@pagewidth=\dimen132
+\AM@pageheight=\dimen133
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
+def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box49
-\AM@global@opts=\toks30
-\AM@pagecnt=\count268
-\AM@toc@title=\toks31
-\c@AM@survey=\count269
-\AM@templatesizebox=\box50
+\AM@pagebox=\box30
+\AM@global@opts=\toks29
+\AM@toc@title=\toks30
+\c@AM@survey=\count114
+\AM@templatesizebox=\box31
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip55
-\enit@outerparindent=\dimen166
-\enit@toks=\toks32
-\enit@inbox=\box51
-\enit@count@id=\count270
-\enitdp@description=\count271
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen167
-\WF@size=\dimen168
-\c@WF@wrappedlines=\count272
-\WF@box=\box52
-\WF@everypar=\toks33
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.
+sty"
+Package: enumitem 2018/11/30 v3.6 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen134
+\enit@toks=\toks31
+\enit@inbox=\box32
+\enitdp@description=\count115
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.st
+y"
+\wrapoverhang=\dimen135
+\WF@size=\dimen136
+\c@WF@wrappedlines=\count116
+\WF@box=\box33
+\WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/jurabib\jurabib.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jurabib\jurabib.st
+y"
 Package: jurabib 2007/03/17 v0.61beta Extended Citations
-
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen169
-\ar@mcellbox=\box53
-\extrarowheight=\dimen170
-\NC@list=\toks34
-\extratabsurround=\skip56
-\backup@length=\skip57
-\ar@cellbox=\box54
+ ("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen137
+\ar@mcellbox=\box34
+\extrarowheight=\dimen138
+\NC@list=\toks33
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box35
 )
-\c@ibidem@author=\count273
-\c@multiple@author=\count274
+\c@ibidem@author=\count117
+\c@multiple@author=\count118
 LaTeX Info: Redefining \jbarchnameformat on input line 1257.
-\jb@subarchitemwidth=\skip58
-\jb@subarchentrywidth=\skip59
+\jb@subarchitemwidth=\skip52
+\jb@subarchentrywidth=\skip53
 LaTeX Info: Redefining \jbapifont on input line 1529.
-\jb@urlfile=\write3
+\jb@urlfile=\write4
+ (expose.url)
+\jb@tempfile=\read1
+\openout4 = `expose.url'.
 
-(expose.url)
-\jb@tempfile=\read3
-\openout3 = `expose.url'.
+\c@jbbibcnt=\count119
+\c@jbbibcnta=\count120
+\c@idemcnt=\count121
+\c@bibnamereplace=\count122
+\c@citefull=\count123
+\c@opcit=\count124
+\c@jb@cites@in@footnote=\count125
+\jbbibhang=\skip54
+\bibnumberwidth=\skip55
+\jb@biblaw@entry@width=\skip56
+\jb@biblaw@item@width=\skip57
+LaTeX Font Info:    Try loading font information for U+msa on input line 3875.
 
-\c@jbbibcnt=\count275
-\c@jbbibcnta=\count276
-\c@idemcnt=\count277
-\c@bibnamereplace=\count278
-\c@citefull=\count279
-\c@opcit=\count280
-\c@jb@cites@in@footnote=\count281
-\jbbibhang=\skip60
-\bibnumberwidth=\skip61
-\jb@biblaw@entry@width=\skip62
-\jb@biblaw@item@width=\skip63
-LaTeX Font Info:    Trying to load font information for U+msa on input line 387
-5.
-
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 387
-5.
-
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Try loading font information for U+msb on input line 3875.
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Info: Redefining \cite on input line 4187.
-\jb@length@i=\skip64
-\jb@length@ii=\skip65
-\jb@length@iii=\skip66
-\jb@temptoks=\toks35
-\jbedwidth=\skip67
-\jb@ta=\toks36
-\jb@tb=\toks37
-
+\jb@length@i=\skip58
+\jb@length@ii=\skip59
+\jb@length@iii=\skip60
+\jb@temptoks=\toks34
+\jbedwidth=\skip61
+\jb@ta=\toks35
+\jb@tb=\toks36
 Package jurabib Info: *** Local config file `jurabib.cfg' used ***
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/jurabib\jurabib.cfg
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jurabib\jurabib.cf
+g"
 File: jurabib.cfg jurabib local configuration file
 ))
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\footmisc\footmisc.
+sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks38
-\footnotemargin=\dimen171
-\c@pp@next@reset=\count282
+\FN@temptoken=\toks37
+\footnotemargin=\dimen139
+\c@pp@next@reset=\count126
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -387,63 +428,214 @@ Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
 Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.st
-y
-\lst@mode=\count283
-\lst@gtempboxa=\box55
-\lst@token=\toks39
-\lst@length=\count284
-\lst@currlwidth=\dimen172
-\lst@column=\count285
-\lst@pos=\count286
-\lst@lostspace=\dimen173
-\lst@width=\dimen174
-\lst@newlines=\count287
-\lst@lineno=\count288
-\lst@maxwidth=\dimen175
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count289
-\lst@skipnumbers=\count290
-\lst@framebox=\box56
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/fnpct\fnpct.sty
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpar
-se.sty
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2020-08-07 L3 programming layer (loader) 
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+sty"
+\lst@mode=\count127
+\lst@gtempboxa=\box36
+\lst@token=\toks38
+\lst@length=\count128
+\lst@currlwidth=\dimen140
+\lst@column=\count129
+\lst@pos=\count130
+\lst@lostspace=\dimen141
+\lst@width=\dimen142
+\lst@newlines=\count131
+\lst@lineno=\count132
+\lst@maxwidth=\dimen143
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
-fmode.def
-File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count291
-\l__pdf_internal_box=\box57
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
+ty"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count133
+\lst@skipnumbers=\count134
+\lst@framebox=\box37
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+cfg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
-Package: xparse 2020-05-15 L3 Experimental document command parser
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpar
-se-generic.tex
-\l__xparse_current_arg_int=\count292
-\g__xparse_grabber_int=\count293
-\l__xparse_m_args_int=\count294
-\l__xparse_v_nesting_int=\count295
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fnpct\fnpct.sty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\
+xparse.sty"
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+"
+Package: expl3 2018-12-12 L3 programming layer (loader) 
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-cod
+e.tex"
+Package: expl3 2018-12-12 L3 programming layer (code)
+\c_max_int=\count135
+\l_tmpa_int=\count136
+\l_tmpb_int=\count137
+\g_tmpa_int=\count138
+\g_tmpb_int=\count139
+\g__kernel_prg_map_int=\count140
+\c_log_iow=\count141
+\l_iow_line_count_int=\count142
+\l__iow_line_target_int=\count143
+\l__iow_one_indent_int=\count144
+\l__iow_indent_int=\count145
+\c_zero_dim=\dimen144
+\c_max_dim=\dimen145
+\l_tmpa_dim=\dimen146
+\l_tmpb_dim=\dimen147
+\g_tmpa_dim=\dimen148
+\g_tmpb_dim=\dimen149
+\c_zero_skip=\skip62
+\c_max_skip=\skip63
+\l_tmpa_skip=\skip64
+\l_tmpb_skip=\skip65
+\g_tmpa_skip=\skip66
+\g_tmpb_skip=\skip67
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count146
+\l__intarray_loop_int=\count147
+\c__intarray_sp_dim=\dimen150
+\g__intarray_font_int=\count148
+\c__fp_leading_shift_int=\count149
+\c__fp_middle_shift_int=\count150
+\c__fp_trailing_shift_int=\count151
+\c__fp_big_leading_shift_int=\count152
+\c__fp_big_middle_shift_int=\count153
+\c__fp_big_trailing_shift_int=\count154
+\c__fp_Bigg_leading_shift_int=\count155
+\c__fp_Bigg_middle_shift_int=\count156
+\c__fp_Bigg_trailing_shift_int=\count157
+\c__kernel_randint_max_int=\count158
+\g__fp_array_int=\count159
+\l__fp_array_loop_int=\count160
+\l__sort_length_int=\count161
+\l__sort_min_int=\count162
+\l__sort_top_int=\count163
+\l__sort_max_int=\count164
+\l__sort_true_max_int=\count165
+\l__sort_block_int=\count166
+\l__sort_begin_int=\count167
+\l__sort_end_int=\count168
+\l__sort_A_int=\count169
+\l__sort_B_int=\count170
+\l__sort_C_int=\count171
+\l__tl_analysis_normal_int=\count172
+\l__tl_analysis_index_int=\count173
+\l__tl_analysis_nesting_int=\count174
+\l__tl_analysis_type_int=\count175
+\l__regex_internal_a_int=\count176
+\l__regex_internal_b_int=\count177
+\l__regex_internal_c_int=\count178
+\l__regex_balance_int=\count179
+\l__regex_group_level_int=\count180
+\l__regex_mode_int=\count181
+\c__regex_cs_in_class_mode_int=\count182
+\c__regex_cs_mode_int=\count183
+\l__regex_catcodes_int=\count184
+\l__regex_default_catcodes_int=\count185
+\c__regex_catcode_D_int=\count186
+\c__regex_catcode_S_int=\count187
+\c__regex_catcode_L_int=\count188
+\c__regex_catcode_O_int=\count189
+\c__regex_catcode_A_int=\count190
+\c__regex_all_catcodes_int=\count191
+\l__regex_show_lines_int=\count192
+\l__regex_min_state_int=\count193
+\l__regex_max_state_int=\count194
+\l__regex_left_state_int=\count195
+\l__regex_right_state_int=\count196
+\l__regex_capturing_group_int=\count197
+\l__regex_min_pos_int=\count198
+\l__regex_max_pos_int=\count199
+\l__regex_curr_pos_int=\count266
+\l__regex_start_pos_int=\count267
+\l__regex_success_pos_int=\count268
+\l__regex_curr_char_int=\count269
+\l__regex_curr_catcode_int=\count270
+\l__regex_last_char_int=\count271
+\l__regex_case_changed_char_int=\count272
+\l__regex_curr_state_int=\count273
+\l__regex_step_int=\count274
+\l__regex_min_active_int=\count275
+\l__regex_max_active_int=\count276
+\l__regex_replacement_csnames_int=\count277
+\l__regex_match_count_int=\count278
+\l__regex_min_submatch_int=\count279
+\l__regex_submatch_int=\count280
+\l__regex_zeroth_submatch_int=\count281
+\g__regex_trace_regex_int=\count282
+\c_empty_box=\box38
+\l_tmpa_box=\box39
+\l_tmpb_box=\box40
+\g_tmpa_box=\box41
+\g_tmpb_box=\box42
+\l__box_top_dim=\dimen151
+\l__box_bottom_dim=\dimen152
+\l__box_left_dim=\dimen153
+\l__box_right_dim=\dimen154
+\l__box_top_new_dim=\dimen155
+\l__box_bottom_new_dim=\dimen156
+\l__box_left_new_dim=\dimen157
+\l__box_right_new_dim=\dimen158
+\l__box_internal_box=\box43
+\l__coffin_internal_box=\box44
+\l__coffin_internal_dim=\dimen159
+\l__coffin_offset_x_dim=\dimen160
+\l__coffin_offset_y_dim=\dimen161
+\l__coffin_x_dim=\dimen162
+\l__coffin_y_dim=\dimen163
+\l__coffin_x_prime_dim=\dimen164
+\l__coffin_y_prime_dim=\dimen165
+\c_empty_coffin=\box45
+\l__coffin_aligned_coffin=\box46
+\l__coffin_aligned_internal_coffin=\box47
+\l_tmpa_coffin=\box48
+\l_tmpb_coffin=\box49
+\l__coffin_display_coffin=\box50
+\l__coffin_display_coord_coffin=\box51
+\l__coffin_display_pole_coffin=\box52
+\l__coffin_display_offset_dim=\dimen166
+\l__coffin_display_x_dim=\dimen167
+\l__coffin_display_y_dim=\dimen168
+\g__file_internal_ior=\read2
+\l__coffin_bounding_shift_dim=\dimen169
+\l__coffin_left_corner_dim=\dimen170
+\l__coffin_right_corner_dim=\dimen171
+\l__coffin_bottom_corner_dim=\dimen172
+\l__coffin_top_corner_dim=\dimen173
+\l__coffin_scaled_total_height_dim=\dimen174
+\l__coffin_scaled_width_dim=\dimen175
+\l__seq_internal_a_int=\count283
+\l__seq_internal_b_int=\count284
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode
+.def"
+File: l3pdfmode.def 2018-12-12 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count285
 ))
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3
-keys2e.sty
-Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+Package: xparse 2018-10-17 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count286
+\g__xparse_grabber_int=\count287
+\l__xparse_m_args_int=\count288
+\l__xparse_mandatory_args_int=\count289
+\l__xparse_v_nesting_int=\count290
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.s
-ty
-Package: scrlfile 2020/07/22 v3.31 KOMA-Script package (loading files)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2
+e\l3keys2e.sty"
+Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 )
-Package: fnpct 2019/10/05 v0.5 footnote kerning
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfi
+le.sty"
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+)
+Package: fnpct 2016/04/14 v0.4e footnote kerning
 \l__fnpct_tmpa_dim=\dimen176
 \l__fnpct_tmpb_dim=\dimen177
-\l__fnpct_tmpa_int=\count296
+\l__fnpct_tmpa_int=\count291
 \l__fnpct_after_comma_dim=\dimen178
 \l__fnpct_after_dot_dim=\dimen179
 \l__fnpct_before_comma_dim=\dimen180
@@ -453,21 +645,42 @@ Package: fnpct 2019/10/05 v0.5 footnote kerning
 \l__fnpct_normal_indent_dim=\dimen184
 \l__fnpct_normal_parindent_dim=\dimen185
 \l__fnpct_french_before_footnote_space_dim=\dimen186
-\l__fnpct_multiple_notes_int=\count297
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/translations\translati
-ons.sty
-Package: translations 2020/04/28 v1.8b internationalization of LaTeX2e packages
+
+LaTeX3 Warning: Variant form 'V' deprecated for base form
+(LaTeX3)        '\peek_meaning_remove:NTF'. One should not change an argument
+(LaTeX3)        from type 'N' to type 'V': base form only accepts a single
+(LaTeX3)        token argument.
+
+
+LaTeX3 Warning: Variant form 'V' deprecated for base form
+(LaTeX3)        '\token_if_eq_meaning:NNTF'. One should not change an argument
+(LaTeX3)        from type 'N' to type 'V': base form only accepts a single
+(LaTeX3)        token argument.
+
+\l__fnpct_multiple_notes_int=\count292
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translations\trans
+lations.sty"
+Package: translations 2017/08/31 v1.7a internationalization of LaTeX2e packages
  (CN)
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count298
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
+sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count293
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
-s.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
@@ -476,47 +689,73 @@ Package pdftexcmds Info: \pdfdraftmode found.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 87
-.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 87.
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/ucs\ucsencs.def
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
-kii
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
+\scratchcounter=\count294
 \scratchdimen=\dimen187
-\scratchbox=\box58
-\nofMPsegments=\count300
-\nofMParguments=\count301
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count302
+\scratchbox=\box53
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count297
 \MPscratchDim=\dimen188
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
-\everyMPtoPDFconversion=\toks41
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks40
 )
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -558,25 +797,29 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box59
+\AtBeginShipoutBox=\box54
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.st
-y
-Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
- (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape
+.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.st
+y"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/jurabib\dejbbib.ldf
+)
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\jurabib\dejbbib.ld
+f"
 File: dejbbib.ldf jurabib German language definitions
 )
 
 Package jurabib Info: *** jurabib set up for babel ***
 
-\c@lstlisting=\count305
+\c@lstlisting=\count300
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tra
-nslations-basic-dictionary-german.trsl
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translations\dicts
+\translations-basic-dictionary-german.trsl"
 File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
@@ -631,70 +874,27 @@ Package pdftex.def Info: Deckplatt.pdf , page1 used on input line 92.
 [1
 
  <./Deckplatt.pdf>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 94.
+ (expose.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+ [2{C:/Users/chris/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+\tf@toc=\write5
+\openout5 = `expose.toc'.
 
-pdfTeX warning: pdflatex (file ./Erklarung.pdf): PDF inclusion: found PDF versi
-on <1.7>, but at most version <1.5> allowed
-<Erklarung.pdf, id=22, 597.55246pt x 845.07718pt>
-File: Erklarung.pdf Graphic file (type pdf)
-<use Erklarung.pdf>
-Package pdftex.def Info: Erklarung.pdf  used on input line 93.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex (file ./Erklarung.pdf): PDF inclusion: found PDF versi
-on <1.7>, but at most version <1.5> allowed
-File: Erklarung.pdf Graphic file (type pdf)
-<use Erklarung.pdf>
-Package pdftex.def Info: Erklarung.pdf  used on input line 93.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex (file ./Erklarung.pdf): PDF inclusion: found PDF versi
-on <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ./Erklarung.pdf): PDF inclusion: found PDF versi
-on <1.7>, but at most version <1.5> allowed
-<Erklarung.pdf, id=25, page=1, 597.55246pt x 845.07718pt>
-File: Erklarung.pdf Graphic file (type pdf)
-<use Erklarung.pdf, page 1>
-Package pdftex.def Info: Erklarung.pdf , page1 used on input line 93.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Erklarung.pdf Graphic file (type pdf)
-<use Erklarung.pdf, page 1>
-Package pdftex.def Info: Erklarung.pdf , page1 used on input line 93.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Erklarung.pdf Graphic file (type pdf)
-<use Erklarung.pdf, page 1>
-Package pdftex.def Info: Erklarung.pdf , page1 used on input line 93.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Erklarung.pdf Graphic file (type pdf)
-<use Erklarung.pdf, page 1>
-Package pdftex.def Info: Erklarung.pdf , page1 used on input line 93.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Erklarung.pdf Graphic file (type pdf)
-<use Erklarung.pdf, page 1>
-Package pdftex.def Info: Erklarung.pdf , page1 used on input line 93.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[2 <./Erklarung.pdf>] (expose.toc [3{C:/Users/pollin/AppData/Local/MiKTeX/pdfte
-x/config/pdftex.map}])
-\tf@toc=\write4
-\openout4 = `expose.toc'.
-
- [4]
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-0.def
+ [3]
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-07.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 107.
 
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 101--114
-
- []
-
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 113.
 
 Underfull \hbox (badness 10000) in paragraph at lines 101--114
 
@@ -705,7 +905,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--114
 
  []
 
-[1] [2]
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--114
+
+ []
+
+[1]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 121--128
 
  []
@@ -715,78 +923,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--128
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 138--145
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--145
-
- []
-
-[4] (C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-32.def
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
 
 Package jurabib Warning: `shorttitle' for `vogeler2016content'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 160.
+(jurabib)                field on input line 161.
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 166--166
+Underfull \hbox (badness 1122) in paragraph at lines 167--167
 [][][][]\T1/ptm/m/sc/10 Perstling, \T1/ptm/m/n/10 Matt-hi-as: Mul-ti-me-dia-le 
 Do-ku-men-ta-ti-on und Edi-ti-on mehr-schich-ti-ger Tex-te : das steirisch-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--167
+Underfull \hbox (badness 10000) in paragraph at lines 149--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--167
+Underfull \hbox (badness 10000) in paragraph at lines 149--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--167
+Underfull \hbox (badness 10000) in paragraph at lines 149--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--167
+Underfull \hbox (badness 10000) in paragraph at lines 149--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--167
+Underfull \hbox (badness 10000) in paragraph at lines 149--168
 
  []
 
 
-Overfull \hbox (10.59993pt too wide) in paragraph at lines 148--167
+Overfull \hbox (10.59993pt too wide) in paragraph at lines 149--168
 \T1/ptm/m/n/12 ''\T1/ptm/m/it/12 Die di-gi-ta-le Edi-ti-on der Augs-bur-ger Bau
 -mei-ster-bü-cher\T1/ptm/m/n/12 '', [] er-laubt den Zu-gang zu XML-basierten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--167
+Underfull \hbox (badness 10000) in paragraph at lines 149--168
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 170--180
+Underfull \hbox (badness 10000) in paragraph at lines 171--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--180
+Underfull \hbox (badness 10000) in paragraph at lines 171--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--180
+Underfull \hbox (badness 10000) in paragraph at lines 171--181
 
  []
 
@@ -794,15 +997,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--180
 
 Package jurabib Warning: `shorttitle' for `vogeler2015mittelalterliche'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 189.
+(jurabib)                field on input line 190.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--198
+Underfull \hbox (badness 10000) in paragraph at lines 190--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--198
+Underfull \hbox (badness 10000) in paragraph at lines 190--199
 
  []
 
@@ -810,76 +1013,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--198
 
 Package jurabib Warning: `shorttitle' for `hardtwig1990geschichtskultur'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 204.
+(jurabib)                field on input line 205.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--208
+Underfull \hbox (badness 10000) in paragraph at lines 202--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--208
+Underfull \hbox (badness 10000) in paragraph at lines 202--209
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 212--232
+Underfull \hbox (badness 10000) in paragraph at lines 213--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--232
+Underfull \hbox (badness 10000) in paragraph at lines 213--221
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 224--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--232
+Underfull \hbox (badness 10000) in paragraph at lines 224--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--232
+Underfull \hbox (badness 10000) in paragraph at lines 224--236
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--232
-
- []
-
-[10] [11]
+[11]
 
 Package jurabib Warning: `shorttitle' for `schulz2010neuere'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 248.
+(jurabib)                field on input line 254.
 
 
 Package jurabib Warning: `shorttitle' for `ficara2015hermeneutik'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 248.
+(jurabib)                field on input line 254.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--262
+Underfull \hbox (badness 10000) in paragraph at lines 242--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--262
+Underfull \hbox (badness 10000) in paragraph at lines 242--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--262
+Underfull \hbox (badness 10000) in paragraph at lines 242--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--268
 
  []
 
 [12]
-Underfull \hbox (badness 4582) in paragraph at lines 269--269
+Underfull \hbox (badness 4582) in paragraph at lines 275--275
 [][][][]\T1/ptm/m/sc/10 Frommer, \T1/ptm/m/n/10 Sö-ren: Grund-be-grif-fe aus Th
 eo-rie, Me-tho-de und Wis-sen-schafts-ge-schich-te. []URL: $\T1/cmtt/m/n/10 www
  .
@@ -888,42 +1101,44 @@ eo-rie, Me-tho-de und Wis-sen-schafts-ge-schich-te. []URL: $\T1/cmtt/m/n/10 www
 
 Package jurabib Warning: `shorttitle' for `jordan2018theorien'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 270.
+(jurabib)                field on input line 276.
 
-<img/emprisimus.png, id=89, 1927.2pt x 1204.5pt>
+<img/emprisimus.png, id=72, 1927.2pt x 1204.5pt>
 File: img/emprisimus.png Graphic file (type png)
 <use img/emprisimus.png>
-Package pdftex.def Info: img/emprisimus.png  used on input line 273.
+Package pdftex.def Info: img/emprisimus.png  used on input line 279.
 (pdftex.def)             Requested size: 364.19667pt x 227.60759pt.
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 276--282
+Underfull \hbox (badness 10000) in paragraph at lines 282--288
 
  []
 
 [14 <./img/emprisimus.png>]
-Underfull \hbox (badness 6396) in paragraph at lines 285--285
+Underfull \hbox (badness 6396) in paragraph at lines 291--291
 [][][]\T1/ptm/m/n/10 BLAKSTAD Os-kar: Die wis-sen-schaft-li-che Me-tho-de, expl
 orable.com/de/die-wissenschaftliche-methode,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 [][][]\T1/ptm/m/n/10 Was ist HFI?, Kurz-be-schrei-bung des Fa-ches und sei-ner 
 Po-si-tio-nie-rung $\T1/cmtt/m/n/10 hfi . uni-[]graz . at /
  []
 
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 300.
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--297
+Underfull \hbox (badness 10000) in paragraph at lines 291--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--297
+Underfull \hbox (badness 10000) in paragraph at lines 291--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--301
 
  []
 
@@ -931,56 +1146,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--297
 
 Package jurabib Warning: `shorttitle' for `jarausch1985quantitative'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 302.
+(jurabib)                field on input line 306.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[][][][]\T1/ptm/m/sc/10 Schröder, \T1/ptm/m/n/10 Wil-helm Heinz: Hi-sto-ri-sche
- So-zi-al-for-schung: Forschungsstrategie-Infrastruktur-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--309
+Underfull \hbox (badness 10000) in paragraph at lines 306--313
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
-09.
-(C:\Users\pollin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 313.
+
+("C:\Users\chris\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 314--320
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 313.
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--324
 
  []
 
 [18]
-
-Package jurabib Warning: `shorttitle' for `daniel2006kulurgeschichte'
-(jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 335.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--337
+Underfull \hbox (badness 10000) in paragraph at lines 331--338
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--337
+Underfull \hbox (badness 10000) in paragraph at lines 331--338
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 343--352
+
+Package jurabib Warning: `shorttitle' for `daniel2006kulurgeschichte'
+(jurabib)                is missing -- replacing with `title'
+(jurabib)                field on input line 341.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--352
+Underfull \hbox (badness 10000) in paragraph at lines 349--358
 
  []
 
 [20]
-Overfull \hbox (7.5429pt too wide) in paragraph at lines 352--353
+Overfull \hbox (7.5429pt too wide) in paragraph at lines 358--359
 []\T1/ptm/m/n/12 Eine Theo-rie hilft bei for-schungs-stra-te-gi-schen Ent-schei
 -dun-gen und grenzt ei-ne For-schungs-
  []
@@ -989,30 +1201,30 @@ Overfull \hbox (7.5429pt too wide) in paragraph at lines 352--353
 
 Package jurabib Warning: `shorttitle' for `stachowiak1973allgemeine'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 366.
+(jurabib)                field on input line 372.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--372
+Underfull \hbox (badness 10000) in paragraph at lines 372--378
 
  []
 
 
 Package jurabib Warning: `shorttitle' for `wolf1995qualitative'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 388.
+(jurabib)                field on input line 394.
 
-<img/fernrohr.png, id=121, 665.48625pt x 568.37344pt>
+<img/fernrohr.png, id=103, 665.48625pt x 568.37344pt>
 File: img/fernrohr.png Graphic file (type png)
 <use img/fernrohr.png>
-Package pdftex.def Info: img/fernrohr.png  used on input line 395.
+Package pdftex.def Info: img/fernrohr.png  used on input line 401.
 (pdftex.def)             Requested size: 318.66948pt x 272.1657pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--397
+Underfull \hbox (badness 10000) in paragraph at lines 388--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--397
+Underfull \hbox (badness 10000) in paragraph at lines 388--403
 
  []
 
@@ -1020,20 +1232,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--397
 
 Package jurabib Warning: `shorttitle' for `kobler2010qualitat'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 406.
+(jurabib)                field on input line 412.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--411
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--411
+Underfull \hbox (badness 10000) in paragraph at lines 404--417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--411
+Underfull \hbox (badness 10000) in paragraph at lines 404--417
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--417
 
  []
 
@@ -1041,20 +1253,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 398--411
 
 Package jurabib Warning: `shorttitle' for `mccarty2004modeling'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 421.
+(jurabib)                field on input line 427.
 
 
 Package jurabib Warning: `shorttitle' for `jannidis2017grundlagen'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 423.
+(jurabib)                field on input line 430.
 
-<img/uml.png, id=132, 602.25pt x 381.425pt>
+<img/uml.png, id=115, 602.25pt x 381.425pt>
 File: img/uml.png Graphic file (type png)
 <use img/uml.png>
-Package pdftex.def Info: img/uml.png  used on input line 429.
+Package pdftex.def Info: img/uml.png  used on input line 436.
 (pdftex.def)             Requested size: 409.71692pt x 259.49942pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--431
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
 
  []
 
@@ -1062,43 +1279,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 421--431
 
 Package jurabib Warning: `shorttitle' for `jannidis2017digital'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 432.
+(jurabib)                field on input line 439.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--437
+Underfull \hbox (badness 10000) in paragraph at lines 439--444
 
  []
 
 [26 <./img/uml.png>]
-<img/daten.png, id=140, 1178.4025pt x 702.625pt>
+<img/daten.png, id=123, 1178.4025pt x 702.625pt>
 File: img/daten.png Graphic file (type png)
 <use img/daten.png>
-Package pdftex.def Info: img/daten.png  used on input line 451.
+Package pdftex.def Info: img/daten.png  used on input line 461.
 (pdftex.def)             Requested size: 386.96027pt x 230.73051pt.
- [27]
-Underfull \hbox (badness 1314) in paragraph at lines 456--456
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--463
+
+ []
+
+[27]
+Underfull \hbox (badness 1314) in paragraph at lines 467--467
 [][][][]\T1/ptm/m/sc/10 Andorfer, \T1/ptm/m/n/10 Pe-ter: For-schungs-da-ten in 
 den (di-gi-ta-len) Gei-stes-wis-sen-schaf-ten: Ver-such ei-ner Kon-kre-ti-
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 456--456
+Underfull \hbox (badness 1270) in paragraph at lines 467--467
 \T1/ptm/m/n/10 sie-rung. DARIAH-DE, Wor-king Pa-pers 14 2015 []URL: $\T1/cmtt/m
 /n/10 webdoc . sub . gwdg . de / pub / mon / dariah-[]de /
  []
 
-<img/forschungsdaten.png, id=145, 1091.07625pt x 742.775pt>
+<img/forschungsdaten.png, id=127, 1091.07625pt x 742.775pt>
 File: img/forschungsdaten.png Graphic file (type png)
 <use img/forschungsdaten.png>
-Package pdftex.def Info: img/forschungsdaten.png  used on input line 460.
+Package pdftex.def Info: img/forschungsdaten.png  used on input line 471.
 (pdftex.def)             Requested size: 386.96027pt x 263.43195pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--473
+
+ []
+
 [28 <./img/daten.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 463--474
+Underfull \hbox (badness 10000) in paragraph at lines 474--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--474
+Underfull \hbox (badness 10000) in paragraph at lines 474--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--486
 
  []
 
@@ -1106,176 +1338,229 @@ Underfull \hbox (badness 10000) in paragraph at lines 463--474
 
 Package jurabib Warning: `shorttitle' for `gleba2016rechnen'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 497.
+(jurabib)                field on input line 509.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--499
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--499
+Underfull \hbox (badness 10000) in paragraph at lines 499--511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--499
+Underfull \hbox (badness 10000) in paragraph at lines 499--511
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--511
 
  []
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 504--512
+Underfull \hbox (badness 10000) in paragraph at lines 516--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 504--512
+Underfull \hbox (badness 10000) in paragraph at lines 516--524
 
  []
 
 
-Overfull \hbox (41.72293pt too wide) in paragraph at lines 504--512
+Overfull \hbox (41.72293pt too wide) in paragraph at lines 516--524
 \T1/ptm/m/n/12 voll-zieh-bar sind. Die lücken-haf-te Über-lie-fe-rung ist ei-ne
  Mo-ment-auf-nah-me und so-mit ei-ne mathematisch-
  []
 
 [32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
 [][][]\T1/ptm/m/n/10 TOMASEK Ka-thryn: Ac-coun-ting for the past, $\T1/cmtt/m/n
 /10 https : / / wheatoncollege . edu / news /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--532
+Underfull \hbox (badness 10000) in paragraph at lines 537--544
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--532
+Underfull \hbox (badness 10000) in paragraph at lines 537--544
 
  []
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 543--557
+Underfull \hbox (badness 10000) in paragraph at lines 555--569
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--557
+Underfull \hbox (badness 10000) in paragraph at lines 555--569
 
  []
 
-<img/washington.png, id=170, 347.3778pt x 224.037pt>
+<img/washington.png, id=153, 347.3778pt x 224.037pt>
 File: img/washington.png Graphic file (type png)
 <use img/washington.png>
-Package pdftex.def Info: img/washington.png  used on input line 563.
+Package pdftex.def Info: img/washington.png  used on input line 575.
 (pdftex.def)             Requested size: 455.24411pt x 293.60341pt.
 [35] [36 <./img/washington.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 581--581
+Underfull \hbox (badness 10000) in paragraph at lines 592--592
 [][][]\T1/ptm/m/n/10 Stagville Ac-counts, From the Pa-ge, $\T1/cmtt/m/n/10 from
 thepage . com / agbedavies / stagville-[]accounts /
  []
 
-<img/stagville.jpg, id=178, 678.3744pt x 274.8669pt>
+<img/stagville.jpg, id=161, 678.3744pt x 274.8669pt>
 File: img/stagville.jpg Graphic file (type jpg)
 <use img/stagville.jpg>
-Package pdftex.def Info: img/stagville.jpg  used on input line 584.
+Package pdftex.def Info: img/stagville.jpg  used on input line 595.
 (pdftex.def)             Requested size: 455.24411pt x 184.46182pt.
 [37 <./img/stagville.jpg>]
-<img/LMwheaton.jpg, id=182, 268.75406pt x 521.69907pt>
+<img/LMwheaton.jpg, id=165, 268.75406pt x 521.69907pt>
 File: img/LMwheaton.jpg Graphic file (type jpg)
 <use img/LMwheaton.jpg>
-Package pdftex.def Info: img/LMwheaton.jpg  used on input line 610.
-(pdftex.def)             Requested size: 91.04742pt x 176.7385pt.
+Package pdftex.def Info: img/LMwheaton.jpg  used on input line 622.
+(pdftex.def)             Requested size: 102.4327pt x 198.83678pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--613
+Underfull \hbox (badness 10000) in paragraph at lines 613--625
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--625
 
  []
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 614--614
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 [][][][]\T1/ptm/m/n/10 TOMASEK Ka-thryn: The Whea-ton Col-le-ge Di-gi-tal Hi-st
 o-ry Pro-ject: Un-der-gra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--614
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 \T1/ptm/m/n/10 dua-te Re-se-arch in a Lo-cal Col-lec-ti-on, $\T1/cmtt/m/n/10 wr
 itinghistory . trincoll . edu / teach /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--614
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 \T1/cmtt/m/n/10 wheaton-[]college-[]digital-[]history-[]project-[]tomasek$\T1/p
 tm/m/n/10 , 23.05.2019. \T1/ptm/m/sc/10 Alex-an-der, \T1/ptm/m/n/10 Bryan/\T1/p
 tm/m/sc/10 Davis,
  []
 
-<img/wheaton_100_101.jpg, id=186, 378.81525pt x 506.79338pt>
+<img/wheaton_100_101.jpg, id=169, 378.81525pt x 506.79338pt>
 File: img/wheaton_100_101.jpg Graphic file (type jpg)
 <use img/wheaton_100_101.jpg>
-Package pdftex.def Info: img/wheaton_100_101.jpg  used on input line 624.
+Package pdftex.def Info: img/wheaton_100_101.jpg  used on input line 650.
 (pdftex.def)             Requested size: 455.24411pt x 609.0383pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--626
+Underfull \hbox (badness 10000) in paragraph at lines 626--652
 
  []
 
-[39 <./img/LMwheaton.jpg>] [40]
-Underfull \hbox (badness 10000) in paragraph at lines 627--663
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--652
 
  []
 
-[41 <./img/wheaton_100_101.jpg>] [42] [43]
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--652
+
+ []
+
+[39 <./img/LMwheaton.jpg>] [40] [41 <./img/wheaton_100_101.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 654--690
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 695--699
+
+ []
+
+[43]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 711.
+
 
 Package jurabib Warning: `shorttitle' for `wersig1971information'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 689.
+(jurabib)                field on input line 718.
 
 
 Package jurabib Warning: `shorttitle' for `favre2001information'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 689.
+(jurabib)                field on input line 718.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--690
+Underfull \hbox (badness 10000) in paragraph at lines 713--719
 
  []
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 693--701
+Underfull \hbox (badness 10000) in paragraph at lines 722--732
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--732
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--732
 
  []
 
 [45] [46]
-<img/web_stack.png, id=213, 1027.84pt x 1027.84pt>
+<img/web_stack.png, id=196, 1027.84pt x 1027.84pt>
 File: img/web_stack.png Graphic file (type png)
 <use img/web_stack.png>
-Package pdftex.def Info: img/web_stack.png  used on input line 712.
-(pdftex.def)             Requested size: 318.66948pt x 318.67416pt.
+Package pdftex.def Info: img/web_stack.png  used on input line 743.
+(pdftex.def)             Requested size: 386.96027pt x 386.96036pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--722
+Underfull \hbox (badness 10000) in paragraph at lines 739--753
 
  []
 
 [47 <./img/web_stack.png>]
-<img/triple.png, id=218, 532.99126pt x 136.51pt>
+<img/triple.png, id=201, 532.99126pt x 136.51pt>
 File: img/triple.png Graphic file (type png)
 <use img/triple.png>
-Package pdftex.def Info: img/triple.png  used on input line 731.
-(pdftex.def)             Requested size: 341.43307pt x 87.44942pt.
-<img/rdf_example.png, id=219, 853.1875pt x 570.13pt>
+Package pdftex.def Info: img/triple.png  used on input line 762.
+(pdftex.def)             Requested size: 364.19667pt x 93.28174pt.
+<img/rdf_example.png, id=202, 853.1875pt x 570.13pt>
 File: img/rdf_example.png Graphic file (type png)
 <use img/rdf_example.png>
-Package pdftex.def Info: img/rdf_example.png  used on input line 748.
+Package pdftex.def Info: img/rdf_example.png  used on input line 779.
 (pdftex.def)             Requested size: 455.24411pt x 304.22054pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 735--751
+Underfull \hbox (badness 10000) in paragraph at lines 766--782
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 735--751
+Underfull \hbox (badness 10000) in paragraph at lines 766--782
 
  []
 
@@ -1283,122 +1568,149 @@ Underfull \hbox (badness 10000) in paragraph at lines 735--751
 
 Package jurabib Warning: `shorttitle' for `powers2003practical'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 765.
+(jurabib)                field on input line 800.
 
 
-Overfull \hbox (2.1903pt too wide) in paragraph at lines 765--766
+Overfull \hbox (2.1903pt too wide) in paragraph at lines 800--801
 []\T1/ptm/m/n/12 Weiters wer-den URI in \T1/ptm/b/it/12 Uni-form Re-sour-ce Lo-
 ca-tor \T1/ptm/m/n/12 (URL) und \T1/ptm/b/it/12 Uni-form Re-sour-ce Na-me \T1/p
 tm/m/n/12 (URN)
  []
 
-
-Overfull \hbox (7.1499pt too wide) in paragraph at lines 780--781
+[50]
+Overfull \hbox (7.1499pt too wide) in paragraph at lines 815--816
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[50]
-<img/rdfs.png, id=231, 743.77875pt x 442.65375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--824
+
+ []
+
+<img/rdfs.png, id=214, 743.77875pt x 442.65375pt>
 File: img/rdfs.png Graphic file (type png)
 <use img/rdfs.png>
-Package pdftex.def Info: img/rdfs.png  used on input line 806.
+Package pdftex.def Info: img/rdfs.png  used on input line 843.
 (pdftex.def)             Requested size: 341.43307pt x 203.2044pt.
 
-Overfull \hbox (16.28392pt too wide) in paragraph at lines 790--809
+Underfull \hbox (badness 10000) in paragraph at lines 826--846
+
+ []
+
+
+Overfull \hbox (16.28392pt too wide) in paragraph at lines 826--846
 \T1/ptm/m/n/12 Un-ter-klas-se von \T1/ptm/m/it/12 foaf:Agent \T1/ptm/m/n/12 ist
 . Wei-te-re Un-ter-klas-sen da-von sind \T1/ptm/m/it/12 foaf:Group \T1/ptm/m/n/
 12 und \T1/ptm/m/it/12 foaf:Organization\T1/ptm/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 790--809
+Underfull \hbox (badness 10000) in paragraph at lines 826--846
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 790--809
+Underfull \hbox (badness 10000) in paragraph at lines 826--846
 
  []
 
-[51] [52 <./img/rdfs.png>] [53]
+[51] [52 <./img/rdfs.png>] [53] [54]
+Underfull \hbox (badness 10000) in paragraph at lines 893--899
+
+ []
+
 
 Package jurabib Warning: `shorttitle' for `stuckenschmidt2009ontologien'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 872.
+(jurabib)                field on input line 911.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--889
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 865--889
+Underfull \hbox (badness 10000) in paragraph at lines 904--918
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--889
+Underfull \hbox (badness 10000) in paragraph at lines 904--918
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--889
+Underfull \hbox (badness 10000) in paragraph at lines 904--918
 
  []
 
-[54] [55]
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--918
+
+ []
+
+[55] [56]
+Underfull \hbox (badness 10000) in paragraph at lines 921--933
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 921--933
+
+ []
+
 
 Package jurabib Warning: `shorttitle' for `weller2013InformationBand'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 895.
+(jurabib)                field on input line 939.
 
-[56] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 910--914
+[57] [58]
+Underfull \hbox (badness 10000) in paragraph at lines 954--958
 
  []
 
 
 Package jurabib Warning: `shorttitle' for `sahle2013digitale'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 925.
+(jurabib)                field on input line 969.
 
-<img/textrad.png, id=256, 847.165pt x 502.87875pt>
+<img/textrad.png, id=242, 847.165pt x 502.87875pt>
 File: img/textrad.png Graphic file (type png)
 <use img/textrad.png>
-Package pdftex.def Info: img/textrad.png  used on input line 928.
-(pdftex.def)             Requested size: 455.24411pt x 270.23067pt.
+Package pdftex.def Info: img/textrad.png  used on input line 972.
+(pdftex.def)             Requested size: 409.71692pt x 243.20529pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 919--930
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 919--930
-
- []
-
-[58] [59 <./img/textrad.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 941--948
-
- []
-
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 959--970
+Underfull \hbox (badness 10000) in paragraph at lines 963--974
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 959--970
+Underfull \hbox (badness 10000) in paragraph at lines 963--974
 
  []
 
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 975--981
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 985--990
+
+ []
+
+[60 <./img/textrad.png>] [61]
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1013
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1013
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1013
 
  []
 
 [62]
-Overfull \hbox (0.84015pt too wide) in paragraph at lines 989--990
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1024
+
+ []
+
+[63]
+Overfull \hbox (0.84015pt too wide) in paragraph at lines 1032--1033
 \T1/ptm/m/n/12 Trans-ak-tio-nen in hi-sto-ri-schen Rech-nungs-un-ter-la-gen. Es
  wur-de in ei-nem Ontologie-Engineering-
  []
@@ -1406,189 +1718,201 @@ Overfull \hbox (0.84015pt too wide) in paragraph at lines 989--990
 
 Package jurabib Warning: `shorttitle' for `tomasekmedea'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 998.
+(jurabib)                field on input line 1041.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 995--999
-
- []
-
-[63]
-Underfull \hbox (badness 10000) in paragraph at lines 1014--1023
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1014--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1042
 
  []
 
 [64]
+Underfull \hbox (badness 10000) in paragraph at lines 1057--1066
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1057--1066
+
+ []
+
+[65]
 
 Package jurabib Warning: `shorttitle' for `pollin2019digital'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 1059.
+(jurabib)                field on input line 1102.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1066
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1109
 
  []
 
-[65] [66]
-<img/example.png, id=286, 3338.4725pt x 2566.58875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1109
+
+ []
+
+[66] [67]
+<img/example.png, id=272, 3338.4725pt x 2566.58875pt>
 File: img/example.png Graphic file (type png)
 <use img/example.png>
-Package pdftex.def Info: img/example.png  used on input line 1113.
+Package pdftex.def Info: img/example.png  used on input line 1156.
 (pdftex.def)             Requested size: 455.24411pt x 349.96004pt.
- [67] [68 <./img/example.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1128
+ [68] [69 <./img/example.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1164--1171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1128
+Underfull \hbox (badness 10000) in paragraph at lines 1164--1171
 
  []
 
 
 Package jurabib Warning: `shorttitle' for `preim2010interaktive'
 (jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 1131.
+(jurabib)                field on input line 1174.
 
-[69]
-Underfull \hbox (badness 1325) in paragraph at lines 1139--1139
+[70]
+Underfull \hbox (badness 1325) in paragraph at lines 1182--1182
 [][][][]\T1/ptm/m/sc/10 Schubert, \T1/ptm/m/n/10 Char-lot-te: Ta-gungs-be-richt
 : HT 2014: Clo-se Rea-ding and Di-stant Rea-ding. Me-tho-den der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1139--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1182--1191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1139--1148
-
- []
-
-[70]
-
-Package jurabib Warning: `shorttitle' for `gleba2015wirtschafts'
-(jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 1151.
-
-<img/atlas.jpg, id=301, 962.09438pt x 672.26157pt>
-File: img/atlas.jpg Graphic file (type jpg)
-<use img/atlas.jpg>
-Package pdftex.def Info: img/atlas.jpg  used on input line 1159.
-(pdftex.def)             Requested size: 455.24411pt x 318.10687pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1161
+Underfull \hbox (badness 10000) in paragraph at lines 1182--1191
 
  []
 
 [71]
-<img/infovis1.jpg, id=305, 937.25156pt x 575.14874pt>
+
+Package jurabib Warning: `shorttitle' for `gleba2015wirtschafts'
+(jurabib)                is missing -- replacing with `title'
+(jurabib)                field on input line 1194.
+
+<img/atlas.jpg, id=287, 962.09438pt x 672.26157pt>
+File: img/atlas.jpg Graphic file (type jpg)
+<use img/atlas.jpg>
+Package pdftex.def Info: img/atlas.jpg  used on input line 1202.
+(pdftex.def)             Requested size: 455.24411pt x 318.10687pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1194--1204
+
+ []
+
+[72]
+<img/infovis1.jpg, id=291, 937.25156pt x 575.14874pt>
 File: img/infovis1.jpg Graphic file (type jpg)
 <use img/infovis1.jpg>
-Package pdftex.def Info: img/infovis1.jpg  used on input line 1170.
+Package pdftex.def Info: img/infovis1.jpg  used on input line 1214.
 (pdftex.def)             Requested size: 455.24411pt x 279.36806pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1172
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1216
 
  []
 
-[72 <./img/atlas.jpg>]
-<img/infovis2.jpg, id=309, 721.94719pt x 577.40718pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1216
+
+ []
+
+[73 <./img/atlas.jpg>]
+<img/infovis2.jpg, id=295, 721.94719pt x 577.40718pt>
 File: img/infovis2.jpg Graphic file (type jpg)
 <use img/infovis2.jpg>
-Package pdftex.def Info: img/infovis2.jpg  used on input line 1183.
+Package pdftex.def Info: img/infovis2.jpg  used on input line 1229.
 (pdftex.def)             Requested size: 455.24411pt x 364.10326pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1173--1185
-
- []
-
-[73 <./img/infovis1.jpg>] [74]
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1197
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1197
-
- []
-
-[75 <./img/infovis2.jpg>] [76]
-
-Package jurabib Warning: `shorttitle' for `hardtwig1990studium'
-(jurabib)                is missing -- replacing with `title'
-(jurabib)                field on input line 1205.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1208--1208
-[][][]\T1/ptm/m/n/10 Digitale Her-me-neu-tik - Ein Up-da-te für das kri-ti-sche
- Den-ken in den
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1208--1208
-\T1/ptm/m/n/10 Gei-stes-wis-sen-schaf-ten, $\T1/cmtt/m/n/10 https : / / www . s
-cience . lu / de / forschungstrends /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1208--1208
-\T1/cmtt/m/n/10 digitale-[]hermeneutik-[]ein-[]update-[]fuer-[]das-[]kritische-
-[]denken-[]den-[]geisteswissenschaften$\T1/ptm/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1202--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1202--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1231
+
+ []
+
+[74 <./img/infovis1.jpg>] [75] [76 <./img/infovis2.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1202--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1244
 
  []
 
 [77]
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1233
+
+Package jurabib Warning: `shorttitle' for `hardtwig1990studium'
+(jurabib)                is missing -- replacing with `title'
+(jurabib)                field on input line 1252.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
+[][][]\T1/ptm/m/n/10 Digitale Her-me-neu-tik - Ein Up-da-te für das kri-ti-sche
+ Den-ken in den Gei-stes-wis-sen-schaf-ten,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
+\T1/ptm/m/n/10 https://www.science.lu/de/forschungstrends/digitale-hermeneutik-
+ein-update-fuer-das-kritische-denken-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1249--1260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1233
+Underfull \hbox (badness 10000) in paragraph at lines 1249--1260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1233
+Underfull \hbox (badness 10000) in paragraph at lines 1249--1260
 
  []
 
-[78] [79] (expose.bbl
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 1266--1276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1266--1276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1266--1276
+
+ []
+
+[79] [80] (expose.bbl
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 21.
+
 Underfull \hbox (badness 1603) in paragraph at lines 93--94
 []\T1/ptm/b/sc/12 Berners-Lee, \T1/ptm/b/n/12 Tim\T1/ptm/m/n/12 /\T1/ptm/b/sc/1
 2 Fielding, \T1/ptm/b/n/12 Roy\T1/ptm/m/n/12 /\T1/ptm/b/sc/12 Masinter, \T1/ptm
@@ -1601,57 +1925,58 @@ Underfull \hbox (badness 4556) in paragraph at lines 219--221
 Ac-counts in DEP-CHA: Plan-ta-ti-on Fi-nan-ci-al Re-
  []
 
-[80] [81]
+[81] [82]
 Underfull \hbox (badness 6236) in paragraph at lines 579--581
 []\T1/ptm/b/sc/12 Gleba, \T1/ptm/b/n/12 Gu-drun: \T1/ptm/m/n/12 Rech-nen. Wirt-
 schaf-ten. Auf-schrei-ben. Ver-netz-te Schrift-lich-keit 
  []
 
-[82]
+[83]
 Underfull \hbox (badness 1014) in paragraph at lines 723--725
 \T1/ptm/m/n/12 sie wich-tig sind und wir ge-mein-sa-me Stan-dards brau-chen. 20
 18 []URL: $\T1/cmtt/m/n/12 digigw .
  []
 
-[83] [84] [85] [86] [87]
-Underfull \hbox (badness 1072) in paragraph at lines 2005--2007
+[84] [85] [86] [87] [88]
+Underfull \hbox (badness 1072) in paragraph at lines 2004--2006
 []\T1/ptm/b/sc/12 Wolf, \T1/ptm/b/n/12 Wil-li; Kö-nig, E.\T1/ptm/m/n/12 /\T1/pt
 m/b/n/12 Zedler, P. (Hrsg.): \T1/ptm/m/n/12 Qua-li-ta-ti-ve ver-sus quan-ti-ta-
 ti-ve For-schung.
  []
 
-) [88] (expose.lof
+) [89] (expose.lof
 Overfull \hbox (1.2448pt too wide) in paragraph at lines 13--13
  [][] []\T1/ptm/m/n/12 Visualisierung ei-nes Gra-phen auf Ba-sis ei-nes RDF-Dat
 ensatz, w3.org/TR/rdf11- 
  []
 
 )
-\tf@lof=\write5
-\openout5 = `expose.lof'.
+\tf@lof=\write6
+\openout6 = `expose.lof'.
 
- [89] (expose.aux) ) 
+ [90] (expose.aux) ) 
 Here is how much of TeX's memory you used:
- 15940 strings out of 481212
- 269109 string characters out of 2905504
- 611752 words of memory out of 3000000
- 31254 multiletter control sequences out of 15000+200000
- 594401 words of font info for 91 fonts, out of 3000000 for 9000
+ 24044 strings out of 492970
+ 429182 string characters out of 3126594
+ 558277 words of memory out of 3000000
+ 27618 multiletter control sequences out of 15000+200000
+ 591337 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,18n,51p,2244b,1561s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\pollin\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecit1200.pk> <C:\Users\pollin\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ectt1200.pk>{C:/Users/pollin/AppData/Local/Programs/MiKTe
-X/fonts/enc/dvips/base/8r.enc} <C:\Users\pollin\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/pollin/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/pollin/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/pollin/AppData/Local/
-Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/pollin/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/pollin/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on expose.pdf (93 pages, 3047087 bytes).
+ 49i,18n,65p,2206b,1557s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecit1200.pk> <C:\Users\chris\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ectt1200.pk>{C:/Users/chris/AppData/Local/Programs/
+MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\chris\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk><C:/Users/chris/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/chris/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/chr
+is/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/User
+s/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/
+Users/chris/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on expose.pdf (93 pages, 3043936 bytes).
 PDF statistics:
- 548 PDF objects out of 1000 (max. 8388607)
+ 534 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
